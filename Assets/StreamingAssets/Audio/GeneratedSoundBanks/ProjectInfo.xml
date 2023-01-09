@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="TP_3DGameKit_Angel_Pawlowski_WwiseProject" GUID="{A0FABC53-7A05-4FAA-BABC-87A3646DB514}" Generator="2022.1.0.8070"/>
+	<CacheRoot>../../../../TP_3DGameKit_Angel_Pawlowski_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{E598BF3C-7608-4C72-8E27-7BFA9D4426BA}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../TP_3DGameKit_Angel_Pawlowski_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{7A27A1A8-0F3A-4301-92C4-036100ECDCA9}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../TP_3DGameKit_Angel_Pawlowski_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{7ADCACF1-7BAF-4030-8A83-A1EFF20A0AD9}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{65E5747C-BF33-9DE7-D85C-D39C8D847AA9}</FileHash>
+</ProjectInfo>
