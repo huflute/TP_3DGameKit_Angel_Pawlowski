@@ -88,6 +88,7 @@ namespace Gamekit3D
         {
             if (explosionPlayer)
             {
+                //Grenade explose
                 explosionPlayer.transform.SetParent(null);
                 explosionPlayer.PlayRandomClip();
             }
@@ -137,6 +138,7 @@ namespace Gamekit3D
         protected virtual void OnCollisionEnter(Collision other)
         {
             if (bouncePlayer != null)
+                //Debug.Log("Grenade rebondit");
                 bouncePlayer.PlayRandomClip();
         }
 

@@ -114,6 +114,7 @@ namespace Gamekit3D
                 //we just saw the player for the first time, pick an empty spot to target around them
                 if (target != null)
                 {
+                    //Le joueur est repéré
                     m_Controller.animator.SetTrigger(hashSpotted);
                     m_Target = target;
                     TargetDistributor distributor = target.GetComponentInChildren<TargetDistributor>();
@@ -203,6 +204,7 @@ namespace Gamekit3D
 
         public void TriggerAttack()
         {
+            Debug.Log("Chomper attaque");
             m_Controller.animator.SetTrigger(hashAttack);
         }
 

@@ -178,9 +178,16 @@ namespace Gamekit3D
                 if (!renderer)
                     renderer = other.GetComponentInChildren<Renderer> ();
                 if (renderer)
-                    hitAudio.PlayRandomClip (renderer.sharedMaterial);
+                {
+                    hitAudio.PlayRandomClip(renderer.sharedMaterial);
+                    //Attaque réussie
+                    Debug.Log("1");
+                }
                 else
-                    hitAudio.PlayRandomClip ();
+                {
+                    hitAudio.PlayRandomClip();
+                    Debug.Log("2");  
+                }
             }
 
             Damageable.DamageMessage data;
