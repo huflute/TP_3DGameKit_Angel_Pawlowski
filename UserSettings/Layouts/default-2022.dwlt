@@ -260,7 +260,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -271,12 +271,12 @@ MonoBehaviour:
     height: 428
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -357,7 +357,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_SearchFilter:
-    m_NameFilter: 
+    m_NameFilter: melee w
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -369,22 +369,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/3DGamekit/Scripts/Game/Weapon
+    - Assets/3DGamekit/Scenes/GamePlay
     m_Globs: []
-    m_OriginalText: 
+    m_OriginalText: melee w
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/3DGamekit/Scripts/Game/Weapon
+  - Assets/3DGamekit/Scenes/GamePlay
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 386.2}
-    m_SelectedIDs: 86670100
-    m_LastClickedID: 92038
-    m_ExpandedIDs: 00000000d6420100d8420100dc420100e2420100e4420100e6420100304401005e440100604401002e4501000e5f0100345f0100365f0100385f010000ca9a3b
+    scrollPos: {x: 0, y: 155}
+    m_SelectedIDs: 48450100
+    m_LastClickedID: 83272
+    m_ExpandedIDs: 00000000d6420100d8420100da420100dc420100de420100e0420100e2420100e4420100e6420100e8420100ea420100ec420100ee420100f042010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -412,7 +412,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d6420100d8420100da420100dc420100de420100e0420100e2420100e4420100e6420100
+    m_ExpandedIDs: 00000000d6420100d8420100da420100dc420100de420100e0420100e2420100e4420100e6420100e8420100ea420100ec420100ee420100f0420100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -500,11 +500,11 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: -571.8
+    m_CachedPref: -403
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 324
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -541,24 +541,24 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
+      scrollPos: {x: 0, y: 320}
       m_SelectedIDs: 921a0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 9e53f9ff9081faff6a86fdfffcfaffff
+      m_ExpandedIDs: 54bafafffcbbfaff6caefcffdaccfdfffcfaffff2e500200
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: RepawnParticles
-        m_OriginalName: RepawnParticles
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -447720
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -849,9 +849,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 23.95, y: 1.578, z: 64.29}
+    m_Target: {x: -109.607735, y: 40.938572, z: 0.8045573}
     speed: 2
-    m_Value: {x: 23.95, y: 1.578, z: 64.29}
+    m_Value: {x: -109.607735, y: 40.938572, z: 0.8045573}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -897,13 +897,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.11013897, y: -0.6170461, z: 0.087779604, w: -0.77422094}
+    m_Target: {x: -0.0001859078, y: -0.7999862, z: 0.00024839284, w: -0.60001945}
     speed: 2
-    m_Value: {x: -0.11013898, y: -0.6170462, z: 0.08777961, w: -0.77422106}
+    m_Value: {x: -0.00018590769, y: -0.7999857, z: 0.0002483927, w: -0.6000191}
   m_Size:
-    m_Target: 10
+    m_Target: 1.7955792
     speed: 2
-    m_Value: 10
+    m_Value: 1.7955792
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -995,7 +995,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1

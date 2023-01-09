@@ -204,12 +204,14 @@ namespace Gamekit3D
 
         public void TriggerAttack()
         {
-            //Debug.Log("Chomper attaque");
+            //Chomper grogne avant d'attaquer
             m_Controller.animator.SetTrigger(hashAttack);
         }
 
         public void AttackBegin()
         {
+           
+            //Chomper attaque
             meleeWeapon.BeginAttack(false);
         }
 
