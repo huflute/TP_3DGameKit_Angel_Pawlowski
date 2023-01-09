@@ -59,7 +59,7 @@ namespace Gamekit3D
         {
             m_Renderer.enabled = true;
 
-            respawnParticles.SetActive(true);
+            respawnParticles.SetActive(true); //Appeler le son des particules ici
             m_Started = true;
             m_Timer = 0.0f;
         }

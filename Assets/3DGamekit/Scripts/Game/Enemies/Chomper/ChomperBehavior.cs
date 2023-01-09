@@ -204,7 +204,7 @@ namespace Gamekit3D
 
         public void TriggerAttack()
         {
-            Debug.Log("Chomper attaque");
+            //Debug.Log("Chomper attaque");
             m_Controller.animator.SetTrigger(hashAttack);
         }
 

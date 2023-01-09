@@ -115,6 +115,7 @@ namespace Gamekit3D
         public void Shoot()
         {
             rangeWeapon.Attack(m_RememberedTargetPosition);
+            //Debug.Log("Spitter Crache");
         }
 
         public void TriggerAttack()
@@ -147,7 +148,10 @@ namespace Gamekit3D
         public void Spotted()
         {
             if (spottedAudio != null)
+            {
+                //Debug.Log("Joueur repéré par le spitter");
                 spottedAudio.PlayRandomClip();
+            }
         }
 
         public void CheckNeedFleeing()

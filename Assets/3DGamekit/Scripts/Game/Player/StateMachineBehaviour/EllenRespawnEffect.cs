@@ -8,6 +8,7 @@ namespace Gamekit3D
     {
         public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {
+            //Debug.Log("Ellen ressuscite");
             animator.GetComponent<PlayerController>().Respawn();
         }
     } 
