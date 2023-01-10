@@ -1365,6 +1365,9 @@
 							</ReferenceList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="MC_Vox_Attack_Normal" ID="{BF2072FB-B855-4CEA-90DA-7D932A9447FF}" ShortID="321192785">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
@@ -1691,8 +1694,14 @@
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
 								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="FirstHalf" ID="{BBBFCCD2-7517-4B82-812D-2356F0173CF3}" WorkUnitID="{504AB041-1A99-4056-A3F6-89E347792812}"/>
+								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Life" ID="{62E64EF2-A168-4380-9543-D84279CD891A}" WorkUnitID="{504AB041-1A99-4056-A3F6-89E347792812}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1841,6 +1850,9 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="MC_Vox_Pain_Medium" ID="{8AA12EBF-1EF9-4DDB-A02B-DC42A62E4311}" ShortID="621011437">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
@@ -1873,6 +1885,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="MC_VOX_Pain_Medium_02" ID="{C5E16D11-71F9-4ED4-AF52-B9A36A92AFE5}" ShortID="1027984710">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
@@ -1972,6 +1991,20 @@
 										<ItemRef Name="MC_Vox_Pain_Medium" ID="{8AA12EBF-1EF9-4DDB-A02B-DC42A62E4311}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="SecondHalf" ID="{ABF00B29-F747-43FE-B981-AABA389DCACE}"/>
+										<ItemList>
+											<ItemRef Name="MC_Vox_Pain_Medium" ID="{8AA12EBF-1EF9-4DDB-A02B-DC42A62E4311}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="FirstHalf" ID="{BBBFCCD2-7517-4B82-812D-2356F0173CF3}"/>
+										<ItemList>
+											<ItemRef Name="MC_Vox_Pain_Soft" ID="{90767E77-6E57-43D5-B5F6-B321FB2661B0}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
 						<RandomSequenceContainer Name="MC_Vox_Death" ID="{B61C80BC-187C-4987-93B9-72A0E79F1B66}" ShortID="566564178">

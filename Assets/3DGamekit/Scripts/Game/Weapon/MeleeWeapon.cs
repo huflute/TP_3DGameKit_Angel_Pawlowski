@@ -30,8 +30,8 @@ namespace Gamekit3D
 
         public TimeEffect[] effects;
 
-        [Header("Audio")] public RandomAudioPlayer hitAudio;
-        public RandomAudioPlayer attackAudio;
+        [Header("Audio")] public AK.Wwise.Event WeaponImpact;
+        
 
         public bool throwingHit
         {
@@ -79,8 +79,7 @@ namespace Gamekit3D
 
         public void BeginAttack(bool thowingAttack)
         {
-            if (attackAudio != null)
-                attackAudio.PlayRandomClip();
+
             throwingHit = thowingAttack;
 
             m_InAttack = true;
@@ -172,20 +171,21 @@ namespace Gamekit3D
                 return false;
             }
 
-            if (hitAudio != null)
+            if (WeaponImpact != null)
             {
                 var renderer = other.GetComponent<Renderer>();
                 if (!renderer)
                     renderer = other.GetComponentInChildren<Renderer> ();
                 if (renderer)
                 {
-                    hitAudio.PlayRandomClip(renderer.sharedMaterial);
+                    //hitAudio.PlayRandomClip(renderer.sharedMaterial);
+                    WeaponImpact.Post(this.gameObject);
                     //Attaque réussie
                     Debug.Log("1");
                 }
                 else
                 {
-                    hitAudio.PlayRandomClip();
+                    //hitAudio.PlayRandomClip();
                     Debug.Log("2");  
                 }
             }

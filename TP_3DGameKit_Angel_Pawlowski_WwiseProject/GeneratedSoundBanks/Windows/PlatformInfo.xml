@@ -3,7 +3,7 @@
 	<Platform Name="Windows" BasePlatform="Windows" Generator="2022.1.0.8070"/>
 	<RootPaths>
 		<ProjectRoot>../..</ProjectRoot>
-		<SourceFilesRoot>../../.cache/Windows/</SourceFilesRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
@@ -28,5 +28,5 @@
 		<PrintObjectGuid>false</PrintObjectGuid>
 		<PrintObjectPath>false</PrintObjectPath>
 	</Settings>
-	<FileHash>{CBA7404B-BC36-5639-2BAA-C7573C2F9859}</FileHash>
+	<FileHash>{58A310D9-7027-055E-ABA1-A08D95E91522}</FileHash>
 </PlatformInfo>

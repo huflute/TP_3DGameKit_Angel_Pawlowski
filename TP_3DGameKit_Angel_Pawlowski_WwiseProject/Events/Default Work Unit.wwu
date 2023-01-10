@@ -3,39 +3,227 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{E21A3058-A971-468D-974F-6ACCC96184FA}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_MC_Jump" ID="{789DEA76-FA30-4240-B3EA-0D3BA496AB3F}">
+				<Folder Name="MC" ID="{D1FFC61C-CC94-43A7-AF5D-0DA4A79C26DA}" ShortID="1026593145">
 					<ChildrenList>
-						<Action Name="" ID="{3329B799-748C-4456-9A5D-A9D88755CFFF}" ShortID="27437934">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="MC_Jump" ID="{6A74526F-B00C-4DDA-9D3F-6F18E7E3E704}" WorkUnitID="{3FD50C42-DA51-4E26-9C37-08E84BDE220A}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_MC_Land" ID="{1772B3B8-F380-4C67-A8CB-0A0DF41DACE8}">
+							<ChildrenList>
+								<Action Name="" ID="{F93E0EFF-CC4E-4958-B076-D05F080C219D}" ShortID="130358422">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MC_Land" ID="{23EB920F-AF2A-4FC5-994F-660D3A750194}" WorkUnitID="{3FD50C42-DA51-4E26-9C37-08E84BDE220A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MC_Run" ID="{0D05682D-D740-4740-83B6-BB00A7D16A7D}">
+							<ChildrenList>
+								<Action Name="" ID="{FCDEEF4C-DADD-4C16-ADE3-D9AC2396B218}" ShortID="55882162">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MC_Run" ID="{D8C7CE33-8568-42A0-B84A-E3A5821C273E}" WorkUnitID="{3FD50C42-DA51-4E26-9C37-08E84BDE220A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MC_Jump" ID="{789DEA76-FA30-4240-B3EA-0D3BA496AB3F}">
+							<ChildrenList>
+								<Action Name="" ID="{3329B799-748C-4456-9A5D-A9D88755CFFF}" ShortID="27437934">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MC_Jump" ID="{6A74526F-B00C-4DDA-9D3F-6F18E7E3E704}" WorkUnitID="{3FD50C42-DA51-4E26-9C37-08E84BDE220A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C2211991-8035-4B7A-B0DC-C4CFC6EE30AE}" ShortID="693501947">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MC_Vox_Jump" ID="{56D61122-DC35-46FA-8980-C34AD65A4DF3}" WorkUnitID="{3FD50C42-DA51-4E26-9C37-08E84BDE220A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MC_Vox_Death" ID="{A862456C-8D3D-47D1-84A4-9C6F60FDEC70}">
+							<ChildrenList>
+								<Action Name="" ID="{8A662E38-D518-4267-9B95-FF8C0EE03017}" ShortID="587193416">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MC_Vox_Death" ID="{B61C80BC-187C-4987-93B9-72A0E79F1B66}" WorkUnitID="{3FD50C42-DA51-4E26-9C37-08E84BDE220A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MC_Vox_Pain" ID="{A9186DA8-4DB3-41E7-BC73-14C0EFA72C56}">
+							<ChildrenList>
+								<Action Name="" ID="{749F5931-4968-493B-9AA7-863DF2BE0C88}" ShortID="274294275">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MC_Vox_Pain" ID="{B49121DC-628E-4F46-8C4C-F24F85BEC973}" WorkUnitID="{3FD50C42-DA51-4E26-9C37-08E84BDE220A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="Play_MC_Land" ID="{1772B3B8-F380-4C67-A8CB-0A0DF41DACE8}">
+				</Folder>
+				<Folder Name="Weapon" ID="{43C2B4AD-BB9B-4483-8D38-C03EFEE15D32}" ShortID="960282306">
 					<ChildrenList>
-						<Action Name="" ID="{F93E0EFF-CC4E-4958-B076-D05F080C219D}" ShortID="130358422">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="MC_Land" ID="{23EB920F-AF2A-4FC5-994F-660D3A750194}" WorkUnitID="{3FD50C42-DA51-4E26-9C37-08E84BDE220A}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_Weapon_Impact" ID="{D7216257-9A68-4D5B-9EBE-96763DF250E6}">
+							<ChildrenList>
+								<Action Name="" ID="{B6A8E510-B45F-4535-9429-67A4CF8F7FFB}" ShortID="264710390">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Weapon_Impact" ID="{246CA783-B485-4127-83A3-58BECF280B75}" WorkUnitID="{425937B8-C920-4C2C-854C-0EE3E7C0505E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Weapon_Pickup" ID="{4453E5D2-4BB4-4552-B0AA-8E7EEE965DD5}">
+							<ChildrenList>
+								<Action Name="" ID="{B3E1F123-8D73-4193-BEAE-7D42FBC820E3}" ShortID="899389550">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Weapon_Pickup" ID="{DD79E087-6E23-4D9D-A31D-983C570DFE61}" WorkUnitID="{425937B8-C920-4C2C-854C-0EE3E7C0505E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Weapon_Idle" ID="{EC7FDA5E-3D0D-4EDB-8CCB-41C3267FF166}">
+							<ChildrenList>
+								<Action Name="" ID="{2A726406-38B4-4470-98B8-FC8AF3CB73AD}" ShortID="289666033">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Weapon_Idle" ID="{0744902F-5A3B-49F3-9F51-081ADBE27FF1}" WorkUnitID="{425937B8-C920-4C2C-854C-0EE3E7C0505E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="Whoosh_Combo" ID="{4152D825-6829-4B02-9E15-C2F3953DC3E0}" ShortID="673595382">
+							<ChildrenList>
+								<Event Name="Play_Weapon_Whoosh_Combo01" ID="{67C55D0E-F5E0-4B34-9F68-8D958DEF77DD}">
+									<ChildrenList>
+										<Action Name="" ID="{2C892E22-81A6-4357-B99B-0DDC2509AF14}" ShortID="67653111">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Weapon_Whoosh_Combo01" ID="{F269CCCD-10AB-47A6-B482-50BEFC1792B6}" WorkUnitID="{425937B8-C920-4C2C-854C-0EE3E7C0505E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{E4D5AA24-308C-4889-92F5-FF01B2D2687A}" ShortID="571490264">
+											<PropertyList>
+												<Property Name="Probability" Type="Real64" Value="60"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="MC_Vox_Attack_Normal" ID="{BF2072FB-B855-4CEA-90DA-7D932A9447FF}" WorkUnitID="{3FD50C42-DA51-4E26-9C37-08E84BDE220A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Weapon_Whoosh_Combo02" ID="{0F81AEE7-B21D-4F80-A1A9-0497B2722D52}">
+									<ChildrenList>
+										<Action Name="" ID="{1B8602AC-D816-48A7-BB3B-42FB23F834B6}" ShortID="862785102">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Weapon_Whoosh_Combo02" ID="{24FFD6F7-4C92-4F04-9C45-EDCE5E95A53C}" WorkUnitID="{425937B8-C920-4C2C-854C-0EE3E7C0505E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{39D3387B-0908-47F5-B7A9-636EFB774973}" ShortID="1026700313">
+											<PropertyList>
+												<Property Name="Probability" Type="Real64" Value="60"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="MC_Vox_Attack_Normal" ID="{BF2072FB-B855-4CEA-90DA-7D932A9447FF}" WorkUnitID="{3FD50C42-DA51-4E26-9C37-08E84BDE220A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Weapon_Whoosh_Combo03" ID="{ADE3F49A-FBA9-44E5-A0C4-370C25E2602D}">
+									<ChildrenList>
+										<Action Name="" ID="{69859064-9B30-469C-9FD2-5EF6B3E70A75}" ShortID="165916794">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Weapon_Whoosh_Combo03" ID="{AE1ACBF8-2ABC-4765-9A4C-AADB0A617357}" WorkUnitID="{425937B8-C920-4C2C-854C-0EE3E7C0505E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{41E15A7B-C5CA-4F4C-99C6-33FF56656C6A}" ShortID="962501061">
+											<PropertyList>
+												<Property Name="Probability" Type="Real64" Value="60"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="MC_Vox_Attack_Normal" ID="{BF2072FB-B855-4CEA-90DA-7D932A9447FF}" WorkUnitID="{3FD50C42-DA51-4E26-9C37-08E84BDE220A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Weapon_Whoosh_Combo04" ID="{AD4C0650-5ED0-4D0B-B406-1BB0BEC8FEAF}">
+									<ChildrenList>
+										<Action Name="" ID="{06B5908D-284E-4F2F-AD94-33729ED07FC3}" ShortID="1005736967">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Weapon_Whoosh_Combo04" ID="{26106C97-60C7-44F3-AD9E-DE4960247B52}" WorkUnitID="{425937B8-C920-4C2C-854C-0EE3E7C0505E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{F743E86A-FD8B-432C-8AC4-BC49B2DDF3BA}" ShortID="1046435225">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="MC_Vox_Attack_Heavy" ID="{D154171E-58D7-480F-86AE-63DF34B005DB}" WorkUnitID="{3FD50C42-DA51-4E26-9C37-08E84BDE220A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
-				</Event>
-				<Event Name="Play_MC_Run" ID="{0D05682D-D740-4740-83B6-BB00A7D16A7D}">
+				</Folder>
+				<Folder Name="HealthCrate" ID="{E378DD11-0592-4F49-99A2-0BDCB3A40CF8}" ShortID="325991894">
 					<ChildrenList>
-						<Action Name="" ID="{FCDEEF4C-DADD-4C16-ADE3-D9AC2396B218}" ShortID="55882162">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="MC_Run" ID="{D8C7CE33-8568-42A0-B84A-E3A5821C273E}" WorkUnitID="{3FD50C42-DA51-4E26-9C37-08E84BDE220A}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_HealthCrate_Open" ID="{22D04DFC-234C-4EC2-8166-C0C7DD4F1465}">
+							<ChildrenList>
+								<Action Name="" ID="{692BED53-5DEF-4FF6-BC1B-0B96077BF6D9}" ShortID="613324114">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="HealthCrate_Open_3D" ID="{360965DD-44F7-496F-9FFA-E79EAE404009}" WorkUnitID="{032382F1-1244-4A44-B10A-48A627DAA1FE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{10776D77-D3F0-4169-8883-B4C15010300F}" ShortID="495098130">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="HealthCrate_Open_2D" ID="{FCA6FF26-888C-4EFD-B5A3-E4E693FA243A}" WorkUnitID="{032382F1-1244-4A44-B10A-48A627DAA1FE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_HealthCrate_Idle" ID="{E751261F-A033-4370-87FA-E96EB49C9800}">
+							<ChildrenList>
+								<Action Name="" ID="{DAE20E0E-FE8A-4231-A695-F29428467016}" ShortID="28866822">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="HealthCrate_Idle" ID="{9400EA70-FE01-4511-B096-9AD0FE386D93}" WorkUnitID="{032382F1-1244-4A44-B10A-48A627DAA1FE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

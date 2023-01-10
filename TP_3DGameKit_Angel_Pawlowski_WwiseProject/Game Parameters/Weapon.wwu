@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{740B058A-9539-4367-87E0-5726D4C7A9FD}" SchemaVersion="110" RootDocumentID="{7B74A79C-20ED-4AE5-B5D2-7C0DE8914867}" ParentDocumentID="{7B74A79C-20ED-4AE5-B5D2-7C0DE8914867}">
+	<GameParameters>
+		<WorkUnit Name="Weapon" ID="{740B058A-9539-4367-87E0-5726D4C7A9FD}" OwnerID="{7B74A79C-20ED-4AE5-B5D2-7C0DE8914867}" PersistMode="Nested"/>
+	</GameParameters>
+</WwiseDocument>

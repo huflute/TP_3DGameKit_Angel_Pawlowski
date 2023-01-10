@@ -9,6 +9,8 @@ namespace Gamekit3D
     [RequireComponent(typeof(Animator))]
     public class PlayerController : MonoBehaviour, IMessageReceiver
     {
+
+
         protected static PlayerController s_Instance;
         public static PlayerController instance { get { return s_Instance; } }
 
@@ -426,6 +428,7 @@ namespace Gamekit3D
                 footstepPlayer.playing = true;
                 footstepPlayer.canPlay = false;
                 footstepPlayer.PlayRandomClip(m_CurrentWalkingSurface, m_ForwardSpeed < 4 ? 0 : 1);
+                AkSoundEngine.PostEvent("Play_MC_Run", this.gameObject);
             }
             else if (footstepPlayer.playing)
             {
@@ -440,21 +443,25 @@ namespace Gamekit3D
             {
                 landingPlayer.PlayRandomClip(m_CurrentWalkingSurface, bankId: m_ForwardSpeed < 4 ? 0 : 1);
                 emoteLandingPlayer.PlayRandomClip();
+                AkSoundEngine.PostEvent("Play_MC_Land", this.gameObject);
             }
 
             if (!m_IsGrounded && m_PreviouslyGrounded && m_VerticalSpeed > 0f)
             {
                 emoteJumpPlayer.PlayRandomClip();
+                AkSoundEngine.PostEvent("Play_MC_Jump", this.gameObject);
             }
 
             if (m_CurrentStateInfo.shortNameHash == m_HashHurt && m_PreviousCurrentStateInfo.shortNameHash != m_HashHurt)
             {
                 hurtAudioPlayer.PlayRandomClip();
+                AkSoundEngine.PostEvent("Play_MC_Vox_Pain", this.gameObject);
             }
 
             if (m_CurrentStateInfo.shortNameHash == m_HashEllenDeath && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenDeath)
             {
                 emoteDeathPlayer.PlayRandomClip();
+                AkSoundEngine.PostEvent("Play_MC_Vox_Death", this.gameObject);
             }
 
             if (m_CurrentStateInfo.shortNameHash == m_HashEllenCombo1 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo1 ||

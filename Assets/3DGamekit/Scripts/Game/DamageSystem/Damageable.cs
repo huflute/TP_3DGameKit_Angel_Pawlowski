@@ -9,6 +9,8 @@ namespace Gamekit3D
 {
     public partial class Damageable : MonoBehaviour
     {
+        [SerializeField] private AK.Wwise.Switch FirstHalf;
+        [SerializeField] private AK.Wwise.Switch LastHalf;
 
         public int maxHitPoints;
         [Tooltip("Time that this gameObject is invulnerable for, after receiving damage.")]
@@ -55,6 +57,7 @@ namespace Gamekit3D
                     OnBecomeVulnerable.Invoke();
                 }
             }
+            
         }
 
         public void ResetDamage()
@@ -63,6 +66,7 @@ namespace Gamekit3D
             isInvulnerable = false;
             m_timeSinceLastHit = 0.0f;
             OnResetDamage.Invoke();
+            FirstHalf.SetValue(this.gameObject);
         }
 
         public void SetColliderState(bool enabled)
@@ -72,6 +76,7 @@ namespace Gamekit3D
 
         public void ApplyDamage(DamageMessage data)
         {
+            
             if (currentHitPoints <= 0)
             {//ignore damage if already dead. TODO : may have to change that if we want to detect hit on death...
                 return;
@@ -100,6 +105,7 @@ namespace Gamekit3D
                 schedule += OnDeath.Invoke; //This avoid race condition when objects kill each other.
             else
                 OnReceiveDamage.Invoke();
+                CheckHealth();
 
             var messageType = currentHitPoints <= 0 ? MessageType.DEAD : MessageType.DAMAGED;
 
@@ -117,6 +123,17 @@ namespace Gamekit3D
                 schedule();
                 schedule = null;
             }
+        }
+
+        void CheckHealth()
+        {
+            if (currentHitPoints <= (maxHitPoints / 2)+1)
+            {
+                print("j'ai plus que la moitié de ma vie");
+                LastHalf.SetValue(this.gameObject);
+            }
+              
+           
         }
 
 #if UNITY_EDITOR

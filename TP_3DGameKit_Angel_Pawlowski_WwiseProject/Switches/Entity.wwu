@@ -11,6 +11,15 @@
 						<Switch Name="Default" ID="{41B011E9-AA5B-4922-8FEB-1CF3350247F5}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Life" ID="{62E64EF2-A168-4380-9543-D84279CD891A}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="FirstHalf" ID="{BBBFCCD2-7517-4B82-812D-2356F0173CF3}"/>
+						<Switch Name="SecondHalf" ID="{ABF00B29-F747-43FE-B981-AABA389DCACE}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>
