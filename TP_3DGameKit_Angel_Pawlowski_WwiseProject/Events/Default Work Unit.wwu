@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E21A3058-A971-468D-974F-6ACCC96184FA}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{E21A3058-A971-468D-974F-6ACCC96184FA}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{E21A3058-A971-468D-974F-6ACCC96184FA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_MC_Jump" ID="{789DEA76-FA30-4240-B3EA-0D3BA496AB3F}">
+					<ChildrenList>
+						<Action Name="" ID="{3329B799-748C-4456-9A5D-A9D88755CFFF}" ShortID="27437934">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_Jump" ID="{6A74526F-B00C-4DDA-9D3F-6F18E7E3E704}" WorkUnitID="{3FD50C42-DA51-4E26-9C37-08E84BDE220A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MC_Land" ID="{1772B3B8-F380-4C67-A8CB-0A0DF41DACE8}">
+					<ChildrenList>
+						<Action Name="" ID="{F93E0EFF-CC4E-4958-B076-D05F080C219D}" ShortID="130358422">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_Land" ID="{23EB920F-AF2A-4FC5-994F-660D3A750194}" WorkUnitID="{3FD50C42-DA51-4E26-9C37-08E84BDE220A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MC_Run" ID="{0D05682D-D740-4740-83B6-BB00A7D16A7D}">
+					<ChildrenList>
+						<Action Name="" ID="{FCDEEF4C-DADD-4C16-ADE3-D9AC2396B218}" ShortID="55882162">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_Run" ID="{D8C7CE33-8568-42A0-B84A-E3A5821C273E}" WorkUnitID="{3FD50C42-DA51-4E26-9C37-08E84BDE220A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
