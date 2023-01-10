@@ -9,6 +9,8 @@
 				<WorkUnit Name="CRYSTALS" ID="{27C83EDE-D941-46B3-8475-398CF729A6E5}" PersistMode="Reference"/>
 				<WorkUnit Name="DOORS" ID="{018C9E9D-118C-455B-8DFB-C4C7A0F8F43F}" PersistMode="Reference"/>
 				<WorkUnit Name="ENVIRONMENT" ID="{6339F0F9-1688-458B-9B68-CE62F7071A2D}" PersistMode="Reference"/>
+				<WorkUnit Name="PROPS" ID="{032382F1-1244-4A44-B10A-48A627DAA1FE}" PersistMode="Reference"/>
+				<WorkUnit Name="WEAPON" ID="{425937B8-C920-4C2C-854C-0EE3E7C0505E}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

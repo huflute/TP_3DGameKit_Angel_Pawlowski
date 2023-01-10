@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{032382F1-1244-4A44-B10A-48A627DAA1FE}" SchemaVersion="110" RootDocumentID="{399BE58E-5BEE-470B-9C6B-8BCDF69F5FD2}" ParentDocumentID="{399BE58E-5BEE-470B-9C6B-8BCDF69F5FD2}">
+	<AudioObjects>
+		<WorkUnit Name="PROPS" ID="{032382F1-1244-4A44-B10A-48A627DAA1FE}" OwnerID="{399BE58E-5BEE-470B-9C6B-8BCDF69F5FD2}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="HealthCrate" ID="{053AAC91-0140-405E-A5CC-791709D11962}" ShortID="84918076">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="HeallthCrate_Open_3D" ID="{360965DD-44F7-496F-9FFA-E79EAE404009}" ShortID="584747014">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="HeallthCrate_Open_3D" ID="{22FF9B96-BB8B-42EB-9AB4-21C228704DA1}">
+									<Language>SFX</Language>
+									<AudioFile>HeallthCrate_Open_3D.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="483726968"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="HeallthCrate_Open_3D" ID="{22FF9B96-BB8B-42EB-9AB4-21C228704DA1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="HealthCrate_Idle" ID="{9400EA70-FE01-4511-B096-9AD0FE386D93}" ShortID="243635590">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="HealthCrate_Idle" ID="{A463BA13-A913-4E81-B6ED-95D867F0F135}">
+									<Language>SFX</Language>
+									<AudioFile>HealthCrate_Idle.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="65836423"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="HealthCrate_Idle" ID="{A463BA13-A913-4E81-B6ED-95D867F0F135}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="HealthCrate_Open_2D" ID="{FCA6FF26-888C-4EFD-B5A3-E4E693FA243A}" ShortID="168502353">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="HealthCrate_Open_2D" ID="{D23FE81B-8713-4F5D-864E-9FFB5ABAB38C}">
+									<Language>SFX</Language>
+									<AudioFile>HealthCrate_Open_2D.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="758354779"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="HealthCrate_Open_2D" ID="{D23FE81B-8713-4F5D-864E-9FFB5ABAB38C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
