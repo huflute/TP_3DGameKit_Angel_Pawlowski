@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{115115F4-5A04-E6A0-3616-09F186D3F601}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{874D61B1-960F-5C3E-2828-483047DBF657}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -21,9 +21,6 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
-			<GameParameters>
-				<GameParameter Id="2333396925" Name="Combo"/>
-			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="2137943" Name="Life">
 					<Switches>
@@ -41,7 +38,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{86CF8E59-7C67-538A-245C-6E5C91775219}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{1EFE546D-22E1-8F10-DBEB-EB0EB5969A65}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -410,7 +407,19 @@
 					<CachePath>SFX/Weapon_Impact_05_10C4C929.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="239013755" Name="Soundseed Air Wind" LibName="SoundSeed Air Wind" LibId="7798786"/>
+				</Custom>
+			</Plugins>
 			<Events>
+				<Event Id="2425561832" Name="Play_AMB_Loop_Wind_Gust_01" DurationType="Infinite">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="239013755"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
 				<Event Id="1840834974" Name="Play_HealthCrate_Idle" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="65836423"/>
@@ -659,5 +668,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{94D46D16-D879-108A-20CC-6AD72E149EEA}</FileHash>
+	<FileHash>{17C872B6-CAD7-887F-54D5-90B380BEF8CD}</FileHash>
 </SoundBanksInfo>

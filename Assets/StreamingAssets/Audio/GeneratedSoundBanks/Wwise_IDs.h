@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_AMB_LOOP_WIND_GUST_01 = 2425561832U;
         static const AkUniqueID PLAY_HEALTHCRATE_IDLE = 1840834974U;
         static const AkUniqueID PLAY_HEALTHCRATE_OPEN = 3862797904U;
         static const AkUniqueID PLAY_MC_JUMP = 3022734957U;
@@ -56,11 +57,6 @@ namespace AK
         } // namespace LIFE
 
     } // namespace SWITCHES
-
-    namespace GAME_PARAMETERS
-    {
-        static const AkUniqueID COMBO = 2333396925U;
-    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {

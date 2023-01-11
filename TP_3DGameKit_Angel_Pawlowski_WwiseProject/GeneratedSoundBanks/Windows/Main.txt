@@ -9,6 +9,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1600895284	Play_MC_Run			\Default Work Unit\MC\Play_MC_Run	
 	1840834974	Play_HealthCrate_Idle			\Default Work Unit\HealthCrate\Play_HealthCrate_Idle	
 	1954136465	Play_Weapon_Pickup			\Default Work Unit\Weapon\Play_Weapon_Pickup	
+	2425561832	Play_AMB_Loop_Wind_Gust_01			\Default Work Unit\AMB\Wind\Play_AMB_Loop_Wind_Gust_01	
 	3022734957	Play_MC_Jump			\Default Work Unit\MC\Play_MC_Jump	
 	3739832523	Play_Weapon_Impact			\Default Work Unit\Weapon\Play_Weapon_Impact	
 	3862797904	Play_HealthCrate_Open			\Default Work Unit\HealthCrate\Play_HealthCrate_Open	
@@ -25,6 +26,9 @@ Switch	ID	Name	Switch Group			Notes
 	782826392	Default	Ground_Material			
 	2144363834	Rock	Ground_Material			
 	4248645337	Grass	Ground_Material			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	239013755	Soundseed Air Wind	SoundSeed Air Wind		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Exterior\AMB_Loop_Wind_Gust_01\Soundseed Air Wind	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1980831	MC_VOX_Pain_Soft_05	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\MC_VOX_Pain_Soft_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\Vox\MC_Vox_Pain\MC_Vox_Pain_Soft\MC_VOX_Pain_Soft_05		44140
