@@ -94,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 58301ae271a98d46974f6accc96184fa
     GuidInternal: 
-    m_lastTime: -8585282184687294304
+    m_lastTime: -8585281399736237820
     List:
+    - name: AMB
+      guid: 7eacccb593e71341878dd5280afd656f
+      id: 1117531639
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: AMB
+        ObjectType: 4
+        guid: 7eacccb593e71341878dd5280afd656f
+      Path: Events\Default Work Unit\AMB
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: HealthCrate
       guid: 11dd78e39205494f99a20bdcb3a40cf8
       id: 2461334404
@@ -127,6 +144,29 @@ MonoBehaviour:
         ObjectType: 4
         guid: 1cc6ffd194cca743af5d0da4a79c26da
       Path: Events\Default Work Unit\MC
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_AMB_Loop_Wind_Gust_01
+      guid: d3ec83331059b341a45b95bc7de45feb
+      id: 2425561832
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: AMB
+        ObjectType: 4
+        guid: 7eacccb593e71341878dd5280afd656f
+      - ElementName: Wind
+        ObjectType: 4
+        guid: aa92a7e37e1e00408443c995d723053b
+      - ElementName: Play_AMB_Loop_Wind_Gust_01
+        ObjectType: 3
+        guid: d3ec83331059b341a45b95bc7de45feb
+      Path: Events\Default Work Unit\AMB\Wind\Play_AMB_Loop_Wind_Gust_01
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -456,6 +496,26 @@ MonoBehaviour:
         ObjectType: 4
         guid: 25d852412968024b9e15c2f3953dc3e0
       Path: Events\Default Work Unit\Weapon\Whoosh_Combo
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Wind
+      guid: aa92a7e37e1e00408443c995d723053b
+      id: 1537061107
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: AMB
+        ObjectType: 4
+        guid: 7eacccb593e71341878dd5280afd656f
+      - ElementName: Wind
+        ObjectType: 4
+        guid: aa92a7e37e1e00408443c995d723053b
+      Path: Events\Default Work Unit\AMB\Wind
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1

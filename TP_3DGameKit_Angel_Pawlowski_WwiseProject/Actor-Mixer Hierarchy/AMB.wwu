@@ -6,6 +6,89 @@
 				<Property Name="Color" Type="int16" Value="19"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="Exterior" ID="{FA5889B1-7BB9-4A25-98D4-62FB78D2A6C5}" ShortID="1008761767">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="Wind" ID="{C8C5130E-7454-48A9-B560-45B93AF42E7F}" ShortID="740307547">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+						<Sound Name="AMB_Loop_Wind_Gust_01" ID="{56A16DEE-D214-4DBD-BBE5-EB6237D0B5C7}" ShortID="292995064">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="Soundseed Air Wind" ID="{CDD4FAA8-7013-405B-AA93-540A8FED4C09}" ShortID="239013755" PluginName="SoundSeed Air Wind" CompanyID="0" PluginID="119">
+									<PropertyList>
+										<Property Name="Duration" Type="Real64" Value="1"/>
+										<Property Name="FrequencyScale" Type="Real32" Value="-0.1"/>
+										<Property Name="Gustiness" Type="Real32" Value="0.51"/>
+										<Property Name="MaxDistance" Type="Real32" Value="1"/>
+										<Property Name="MinDistance" Type="Real32" Value="10"/>
+										<Property Name="Variability" Type="Real32" Value="0.16"/>
+										<Property Name="VelocityDynamicRange" Type="Real32" Value="0.66"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<PluginData/>
+									<PluginInnerObjectList>
+										<List Name="Deflectors">
+											<PluginInnerObject Name="" ID="{5F00F9CC-A0D8-4433-9A6C-6F5B0D3D1DD2}" PluginName="Deflector" CompanyID="0" PluginID="121">
+												<PropertyList>
+													<Property Name="Frequency" Type="Real32" Value="239"/>
+													<Property Name="PanY" Type="Real64" Value="-4.82947015711943E-15"/>
+													<Property Name="QFactor" Type="Real32" Value="3.43"/>
+												</PropertyList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{BCEBDAC5-6A2B-48E9-8A67-8BFC28FB0398}" PluginName="Deflector" CompanyID="0" PluginID="121">
+												<PropertyList>
+													<Property Name="PanX" Type="Real64" Value="8.99280649946377E-15"/>
+													<Property Name="PanY" Type="Real64" Value="46.982"/>
+													<Property Name="QFactor" Type="Real32" Value="4.48"/>
+												</PropertyList>
+											</PluginInnerObject>
+										</List>
+									</PluginInnerObjectList>
+								</SourcePlugin>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Soundseed Air Wind" ID="{CDD4FAA8-7013-405B-AA93-540A8FED4C09}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Interior" ID="{AE079C41-C0BA-42BE-A237-DB233F845E09}" ShortID="710749353">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
