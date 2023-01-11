@@ -55,6 +55,7 @@ namespace Gamekit3D
                     m_timeSinceLastHit = 0.0f;
                     isInvulnerable = false;
                     OnBecomeVulnerable.Invoke();
+                    //Jouer le son de fin de bouclier
                 }
             }
             
@@ -67,6 +68,7 @@ namespace Gamekit3D
             m_timeSinceLastHit = 0.0f;
             OnResetDamage.Invoke();
             FirstHalf.SetValue(this.gameObject);
+            //Son de fin de bouclier
         }
 
         public void SetColliderState(bool enabled)
