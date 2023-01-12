@@ -10,6 +10,62 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Small_Monsters" ID="{23D281C8-F7B3-46AF-BCF5-C1E575292EB0}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Small_Monsters" ID="{764763AE-E5D3-4925-8E02-45B331E97887}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Switch" ID="{76626BBA-9ECE-43F5-AD52-1C100094F612}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Switch" ID="{73B638FA-89DE-4CD9-B4B6-799093D2C0E6}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="UI" ID="{84026CDD-8958-4E11-A6E4-9F320F9A01BD}">
+					<ObjectInclusionList>
+						<ObjectRef Name="UI" ID="{133B86E0-5437-4625-8082-E73BF678630A}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Environment" ID="{F5CF374E-8627-4FA6-8C6B-7F2A23998A95}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Environment" ID="{7600816D-AF2C-4756-B5DE-8FC6B47AF08D}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="AMB" ID="{35641A6D-FDEB-4BEC-8185-17836A1EF9BA}">
+					<ObjectInclusionList>
+						<ObjectRef Name="AMB" ID="{B5CCAC7E-E793-4113-878D-D5280AFD656F}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Interactables" ID="{405531C1-E469-400C-9BAB-7E9B4E399FA3}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Interactables" ID="{22E6B151-3902-48FC-AB2E-959062AC2EF2}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Weapon" ID="{31A1C935-B873-4C21-A353-0F1F6E3B8F2F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Weapon" ID="{43C2B4AD-BB9B-4483-8D38-C03EFEE15D32}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="MC" ID="{6479BB6D-EB5D-4CB2-946A-826B1F0EC39E}">
+					<ObjectInclusionList>
+						<ObjectRef Name="MC" ID="{D1FFC61C-CC94-43A7-AF5D-0DA4A79C26DA}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

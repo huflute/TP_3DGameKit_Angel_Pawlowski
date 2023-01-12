@@ -9,6 +9,126 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
+		<SoundBank Id="181270742" Type="User" Language="SFX" Hash="{41BBD4F9-BE77-DDEF-716E-6BED8759DD14}">
+			<ShortName>Interactables</ShortName>
+			<Path>Interactables.bnk</Path>
+			<Media>
+				<File Id="65836423" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HealthCrate_Idle.wav</ShortName>
+					<CachePath>SFX/HealthCrate_Idle_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="483726968" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HeallthCrate_Open_3D.wav</ShortName>
+					<CachePath>SFX/HeallthCrate_Open_3D_10C4C929.wem</CachePath>
+				</File>
+				<File Id="758354779" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HealthCrate_Open_2D.wav</ShortName>
+					<CachePath>SFX/HealthCrate_Open_2D_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1840834974" Name="Play_HealthCrate_Idle" MaxAttenuation="10" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="65836423"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3862797904" Name="Play_HealthCrate_Open" DurationType="OneShot" DurationMin="2.51" DurationMax="2.51">
+					<MediaRefs>
+						<MediaRef Id="483726968"/>
+						<MediaRef Id="758354779"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{AC472AB1-FD7A-1117-4E0C-936AE4121508}">
+			<ShortName>AMB</ShortName>
+			<Path>AMB.bnk</Path>
+			<Media>
+				<File Id="5366310" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\RFX_Computer_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/RFX_Computer_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="358118990" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\RFX_Computer_06.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/RFX_Computer_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="396022129" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\RFX_Computer_07.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/RFX_Computer_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="597012431" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\RFX_Computer_05.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/RFX_Computer_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="648182821" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\RFX_Computer_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/RFX_Computer_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="733080430" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\RFX_Computer_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/RFX_Computer_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="845874098" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023\AMB_SpaceShip.wav</ShortName>
+					<CachePath>SFX/Export 12012023/AMB_SpaceShip_10C4C929.wem</CachePath>
+				</File>
+				<File Id="926020533" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\RFX_Computer_04.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/RFX_Computer_04_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="239013755" Name="Soundseed Air Wind" LibName="SoundSeed Air Wind" LibId="7798786"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="2425561832" Name="Play_AMB_Loop_Wind_Gust_01" DurationType="Infinite">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="239013755"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="3213331111" Name="Play_AMB_SpaceShip" MaxAttenuation="10" DurationType="OneShot" DurationMin="9.999979" DurationMax="9.999979">
+					<MediaRefs>
+						<MediaRef Id="845874098"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3056483954" Name="Play_RFX_Computer" MaxAttenuation="5" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="5366310"/>
+						<MediaRef Id="358118990"/>
+						<MediaRef Id="396022129"/>
+						<MediaRef Id="597012431"/>
+						<MediaRef Id="648182821"/>
+						<MediaRef Id="733080430"/>
+						<MediaRef Id="926020533"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3876046333" Name="Stop_AMB_SpaceShip" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1229948536" Type="User" Language="SFX" Hash="{D9019FB1-5A3A-D8DA-ACFB-B36D1024B9BD}">
+			<ShortName>Environment</ShortName>
+			<Path>Environment.bnk</Path>
+			<Media>
+				<File Id="498593051" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>Export 12012023 V2\Teleporter_Idle.wav</ShortName>
+					<Path>Media/498593051.wem</Path>
+					<CachePath>SFX/Export 12012023 V2/Teleporter_Idle_D79FB2B7.wem</CachePath>
+					<PrefetchSize>9696</PrefetchSize>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="476276007" Name="Play_Teleporter_Idle" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="498593051"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2863201769" Name="Stop_Teleporter_Idle" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{CA332DAB-01A4-EEDB-67BA-A1C32D384E39}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -38,9 +158,79 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{1EFE546D-22E1-8F10-DBEB-EB0EB5969A65}">
-			<ShortName>Main</ShortName>
-			<Path>Main.bnk</Path>
+		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{59792790-E8C5-DEF5-F559-CDF335F42172}">
+			<ShortName>UI</ShortName>
+			<Path>UI.bnk</Path>
+			<Media>
+				<File Id="113960607" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023\UI_Press_Other_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023/UI_Press_Other_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="206713154" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023\UI_Press_Other_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023/UI_Press_Other_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="257203319" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023\UI_Press_Play.wav</ShortName>
+					<CachePath>SFX/Export 12012023/UI_Press_Play_10C4C929.wem</CachePath>
+				</File>
+				<File Id="282488086" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023\UI_Navigate_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023/UI_Navigate_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="513326582" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023\UI_Navigate_04.wav</ShortName>
+					<CachePath>SFX/Export 12012023/UI_Navigate_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="785198687" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023\UI_Navigate_06.wav</ShortName>
+					<CachePath>SFX/Export 12012023/UI_Navigate_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="858208559" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023\UI_Press_Other_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023/UI_Press_Other_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="922503960" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023\UI_Navigate_05.wav</ShortName>
+					<CachePath>SFX/Export 12012023/UI_Navigate_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="943973925" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023\UI_Navigate_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023/UI_Navigate_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1010708591" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023\UI_Navigate_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023/UI_Navigate_01_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2193989514" Name="Play_UI_Navigate" DurationType="OneShot" DurationMin="0.95522916" DurationMax="0.95522916">
+					<MediaRefs>
+						<MediaRef Id="282488086"/>
+						<MediaRef Id="513326582"/>
+						<MediaRef Id="785198687"/>
+						<MediaRef Id="922503960"/>
+						<MediaRef Id="943973925"/>
+						<MediaRef Id="1010708591"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3014998451" Name="Play_UI_Press_Other" DurationType="OneShot" DurationMin="0.99895835" DurationMax="0.9991458">
+					<MediaRefs>
+						<MediaRef Id="113960607"/>
+						<MediaRef Id="206713154"/>
+						<MediaRef Id="858208559"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2377842133" Name="Play_UI_Press_Play" DurationType="OneShot" DurationMin="2.2333333" DurationMax="2.2333333">
+					<MediaRefs>
+						<MediaRef Id="257203319"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{AB5A1BDB-5D04-9967-8F07-DDFB71BC4147}">
+			<ShortName>MC</ShortName>
+			<Path>MC.bnk</Path>
 			<Media>
 				<File Id="1980831" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Pain_Soft_05.wav</ShortName>
@@ -62,21 +252,13 @@
 					<ShortName>MC_FT_Jump_Mud_03.wav</ShortName>
 					<CachePath>SFX/MC_FT_Jump_Mud_03_10C4C929.wem</CachePath>
 				</File>
-				<File Id="42579075" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Weapon_Impact_04.wav</ShortName>
-					<CachePath>SFX/Weapon_Impact_04_10C4C929.wem</CachePath>
-				</File>
 				<File Id="43613630" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Run_Rock_02.wav</ShortName>
 					<CachePath>SFX/MC_FT_Run_Rock_02_10C4C929.wem</CachePath>
 				</File>
-				<File Id="65836423" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>HealthCrate_Idle.wav</ShortName>
-					<CachePath>SFX/HealthCrate_Idle_D79FB2B7.wem</CachePath>
-				</File>
-				<File Id="82691623" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC_VOX_Attack_Heavy_03.wav</ShortName>
-					<CachePath>SFX/MC_VOX_Attack_Heavy_03_10C4C929.wem</CachePath>
+				<File Id="81104124" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Attack_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Attack_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="85368375" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Land_Rock_04.wav</ShortName>
@@ -86,21 +268,21 @@
 					<ShortName>MC_FT_Run_Grass_06.wav</ShortName>
 					<CachePath>SFX/MC_FT_Run_Grass_06_10C4C929.wem</CachePath>
 				</File>
-				<File Id="88518083" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC_VOX_Attack_Normal_04.wav</ShortName>
-					<CachePath>SFX/MC_VOX_Attack_Normal_04_10C4C929.wem</CachePath>
-				</File>
 				<File Id="109271020" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Jump_Rock_05.wav</ShortName>
 					<CachePath>SFX/MC_FT_Jump_Rock_05_10C4C929.wem</CachePath>
 				</File>
-				<File Id="118931953" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC_VOX_Attack_Normal_05.wav</ShortName>
-					<CachePath>SFX/MC_VOX_Attack_Normal_05_10C4C929.wem</CachePath>
-				</File>
 				<File Id="122795255" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Land_Mud_05.wav</ShortName>
 					<CachePath>SFX/MC_FT_Land_Mud_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="136819288" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Attack_04.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Attack_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="147019260" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Attack_05.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Attack_05_10C4C929.wem</CachePath>
 				</File>
 				<File Id="152923792" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Jump_Grass_03.wav</ShortName>
@@ -118,6 +300,10 @@
 					<ShortName>MC_FT_Jump_Mud_01.wav</ShortName>
 					<CachePath>SFX/MC_FT_Jump_Mud_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="211133519" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_Shield_Off_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_Shield_Off_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="220234999" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Jump_02.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Jump_02_10C4C929.wem</CachePath>
@@ -126,17 +312,9 @@
 					<ShortName>MC_FT_Jump_Rock_03.wav</ShortName>
 					<CachePath>SFX/MC_FT_Jump_Rock_03_10C4C929.wem</CachePath>
 				</File>
-				<File Id="224467173" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Weapon_Impact_02.wav</ShortName>
-					<CachePath>SFX/Weapon_Impact_02_10C4C929.wem</CachePath>
-				</File>
 				<File Id="225456498" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Land_Rock_05.wav</ShortName>
 					<CachePath>SFX/MC_FT_Land_Rock_05_10C4C929.wem</CachePath>
-				</File>
-				<File Id="239516241" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC_VOX_Attack_Normal_02.wav</ShortName>
-					<CachePath>SFX/MC_VOX_Attack_Normal_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="251333807" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Jump_01.wav</ShortName>
@@ -154,14 +332,6 @@
 					<ShortName>MC_FT_Jump_Rock_02.wav</ShortName>
 					<CachePath>SFX/MC_FT_Jump_Rock_02_10C4C929.wem</CachePath>
 				</File>
-				<File Id="292784953" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC_VOX_Attack_Normal_01.wav</ShortName>
-					<CachePath>SFX/MC_VOX_Attack_Normal_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="301493846" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Weapon_Idle.wav</ShortName>
-					<CachePath>SFX/Weapon_Idle_D79FB2B7.wem</CachePath>
-				</File>
 				<File Id="302618245" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Jump_Grass_02.wav</ShortName>
 					<CachePath>SFX/MC_FT_Jump_Grass_02_10C4C929.wem</CachePath>
@@ -174,9 +344,23 @@
 					<ShortName>MC_FT_Run_Rock_05.wav</ShortName>
 					<CachePath>SFX/MC_FT_Run_Rock_05_10C4C929.wem</CachePath>
 				</File>
+				<File Id="338965084" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Run_06.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Run_06_10C4C929.wem</CachePath>
+				</File>
 				<File Id="342328522" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Jump_05.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Jump_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="351188196" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Jump_05.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Jump_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="352425399" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_Shield.wav</ShortName>
+					<Path>Media/352425399.wem</Path>
+					<CachePath>SFX/Export 12012023 V2/MC_Shield_D79FB2B7.wem</CachePath>
+					<PrefetchSize>9696</PrefetchSize>
 				</File>
 				<File Id="353292285" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Death_02.wav</ShortName>
@@ -190,6 +374,14 @@
 					<ShortName>MC_FT_Run_Rock_04.wav</ShortName>
 					<CachePath>SFX/MC_FT_Run_Rock_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="375287764" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Attack_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Attack_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="399770579" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Land_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Land_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="434993297" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Run_Grass_03.wav</ShortName>
 					<CachePath>SFX/MC_FT_Run_Grass_03_10C4C929.wem</CachePath>
@@ -202,29 +394,21 @@
 					<ShortName>MC_FT_Run_Rock_01.wav</ShortName>
 					<CachePath>SFX/MC_FT_Run_Rock_01_10C4C929.wem</CachePath>
 				</File>
-				<File Id="483726968" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>HeallthCrate_Open_3D.wav</ShortName>
-					<CachePath>SFX/HeallthCrate_Open_3D_10C4C929.wem</CachePath>
+				<File Id="486080740" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Run_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Run_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="487978039" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Run_Mud_01.wav</ShortName>
 					<CachePath>SFX/MC_FT_Run_Mud_01_10C4C929.wem</CachePath>
 				</File>
-				<File Id="508461723" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC_VOX_Attack_Normal_03.wav</ShortName>
-					<CachePath>SFX/MC_VOX_Attack_Normal_03_10C4C929.wem</CachePath>
-				</File>
 				<File Id="522450401" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Land_Grass_04.wav</ShortName>
 					<CachePath>SFX/MC_FT_Land_Grass_04_10C4C929.wem</CachePath>
 				</File>
-				<File Id="547806294" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Weapon_Impact_01.wav</ShortName>
-					<CachePath>SFX/Weapon_Impact_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="559924587" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Weapon_Whoosh_02.wav</ShortName>
-					<CachePath>SFX/Weapon_Whoosh_02_10C4C929.wem</CachePath>
+				<File Id="526613580" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Land_05.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Land_05_10C4C929.wem</CachePath>
 				</File>
 				<File Id="560484105" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Land_Mud_02.wav</ShortName>
@@ -233,6 +417,14 @@
 				<File Id="572206953" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Land_Mud_04.wav</ShortName>
 					<CachePath>SFX/MC_FT_Land_Mud_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="592194566" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Run_04.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Run_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="593204815" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Jump_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Jump_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="599299621" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Land_Mud_01.wav</ShortName>
@@ -246,9 +438,21 @@
 					<ShortName>MC_FT_Run_Grass_05.wav</ShortName>
 					<CachePath>SFX/MC_FT_Run_Grass_05_10C4C929.wem</CachePath>
 				</File>
+				<File Id="614173606" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Run_07.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Run_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="620917797" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Attack_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Attack_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="648571618" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Land_Rock_03.wav</ShortName>
 					<CachePath>SFX/MC_FT_Land_Rock_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="655268182" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Run_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Run_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="662144738" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Pain_Soft_03.wav</ShortName>
@@ -258,9 +462,9 @@
 					<ShortName>MC_FT_Jump_Rock_01.wav</ShortName>
 					<CachePath>SFX/MC_FT_Jump_Rock_01_10C4C929.wem</CachePath>
 				</File>
-				<File Id="673930999" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC_VOX_Attack_Heavy_01.wav</ShortName>
-					<CachePath>SFX/MC_VOX_Attack_Heavy_01_10C4C929.wem</CachePath>
+				<File Id="688235617" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Land_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Land_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="688424724" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Run_Mud_04.wav</ShortName>
@@ -274,13 +478,21 @@
 					<ShortName>MC_VOX_Pain_Medium_04.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Pain_Medium_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="700888953" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Roll.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Roll_10C4C929.wem</CachePath>
+				</File>
 				<File Id="714147872" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Jump_Rock_04.wav</ShortName>
 					<CachePath>SFX/MC_FT_Jump_Rock_04_10C4C929.wem</CachePath>
 				</File>
-				<File Id="744164812" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC_VOX_Attack_Heavy_04.wav</ShortName>
-					<CachePath>SFX/MC_VOX_Attack_Heavy_04_10C4C929.wem</CachePath>
+				<File Id="718603498" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_Shield_Off_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_Shield_Off_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="739981228" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Land_04.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Land_04_10C4C929.wem</CachePath>
 				</File>
 				<File Id="746178083" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Run_Mud_06.wav</ShortName>
@@ -290,25 +502,13 @@
 					<ShortName>MC_VOX_Pain_Medium_03.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Pain_Medium_03_10C4C929.wem</CachePath>
 				</File>
-				<File Id="758354779" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>HealthCrate_Open_2D.wav</ShortName>
-					<CachePath>SFX/HealthCrate_Open_2D_10C4C929.wem</CachePath>
-				</File>
-				<File Id="768534202" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Weapon_Whoosh_01.wav</ShortName>
-					<CachePath>SFX/Weapon_Whoosh_01_10C4C929.wem</CachePath>
-				</File>
 				<File Id="769996304" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Pain_Soft_04.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Pain_Soft_04_10C4C929.wem</CachePath>
 				</File>
-				<File Id="785094350" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC_VOX_Attack_Heavy_05.wav</ShortName>
-					<CachePath>SFX/MC_VOX_Attack_Heavy_05_10C4C929.wem</CachePath>
-				</File>
-				<File Id="802844937" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Weapon_Impact_03.wav</ShortName>
-					<CachePath>SFX/Weapon_Impact_03_10C4C929.wem</CachePath>
+				<File Id="803439455" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Run_05.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Run_05_10C4C929.wem</CachePath>
 				</File>
 				<File Id="809109598" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Run_Grass_02.wav</ShortName>
@@ -318,13 +518,13 @@
 					<ShortName>MC_FT_Run_Rock_03.wav</ShortName>
 					<CachePath>SFX/MC_FT_Run_Rock_03_10C4C929.wem</CachePath>
 				</File>
-				<File Id="867526222" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Weapon_Pickup.wav</ShortName>
-					<CachePath>SFX/Weapon_Pickup_10C4C929.wem</CachePath>
+				<File Id="824456465" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Run_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Run_03_10C4C929.wem</CachePath>
 				</File>
-				<File Id="876047700" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC_VOX_Attack_Heavy_02.wav</ShortName>
-					<CachePath>SFX/MC_VOX_Attack_Heavy_02_10C4C929.wem</CachePath>
+				<File Id="857986714" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Jump_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Jump_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="876297451" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Pain_Soft_02.wav</ShortName>
@@ -334,6 +534,10 @@
 					<ShortName>MC_FT_Run_Grass_04.wav</ShortName>
 					<CachePath>SFX/MC_FT_Run_Grass_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="889441589" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Jump_04.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Jump_04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="900471111" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Land_Grass_03.wav</ShortName>
 					<CachePath>SFX/MC_FT_Land_Grass_03_10C4C929.wem</CachePath>
@@ -342,21 +546,13 @@
 					<ShortName>MC_VOX_Jump_04.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Jump_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="911638995" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Jump_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Jump_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="920600754" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Land_Rock_02.wav</ShortName>
 					<CachePath>SFX/MC_FT_Land_Rock_02_10C4C929.wem</CachePath>
-				</File>
-				<File Id="921448046" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC_VOX_Attack_Normal_08.wav</ShortName>
-					<CachePath>SFX/MC_VOX_Attack_Normal_08_10C4C929.wem</CachePath>
-				</File>
-				<File Id="925850913" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Weapon_Whoosh_03.wav</ShortName>
-					<CachePath>SFX/Weapon_Whoosh_03_10C4C929.wem</CachePath>
-				</File>
-				<File Id="926367897" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC_VOX_Attack_Normal_06.wav</ShortName>
-					<CachePath>SFX/MC_VOX_Attack_Normal_06_10C4C929.wem</CachePath>
 				</File>
 				<File Id="929945824" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Land_Grass_01.wav</ShortName>
@@ -374,13 +570,17 @@
 					<ShortName>MC_FT_Jump_Mud_04.wav</ShortName>
 					<CachePath>SFX/MC_FT_Jump_Mud_04_10C4C929.wem</CachePath>
 				</File>
-				<File Id="994174158" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC_VOX_Attack_Normal_07.wav</ShortName>
-					<CachePath>SFX/MC_VOX_Attack_Normal_07_10C4C929.wem</CachePath>
-				</File>
 				<File Id="996724255" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Run_Mud_05.wav</ShortName>
 					<CachePath>SFX/MC_FT_Run_Mud_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="999988372" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Run_08.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Run_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1001819051" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Land_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Land_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1002416448" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Jump_Grass_01.wav</ShortName>
@@ -402,36 +602,53 @@
 					<ShortName>MC_VOX_Pain_Soft_06.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Pain_Soft_06_10C4C929.wem</CachePath>
 				</File>
-				<File Id="1064245208" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Weapon_Impact_05.wav</ShortName>
-					<CachePath>SFX/Weapon_Impact_05_10C4C929.wem</CachePath>
-				</File>
 			</Media>
-			<Plugins>
-				<Custom>
-					<Plugin Id="239013755" Name="Soundseed Air Wind" LibName="SoundSeed Air Wind" LibId="7798786"/>
-				</Custom>
-			</Plugins>
 			<Events>
-				<Event Id="2425561832" Name="Play_AMB_Loop_Wind_Gust_01" DurationType="Infinite">
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="239013755"/>
-						</Custom>
-					</PluginRefs>
-				</Event>
-				<Event Id="1840834974" Name="Play_HealthCrate_Idle" MaxAttenuation="10" DurationType="Infinite">
+				<Event Id="4094144955" Name="Play_MC_FOL_Attack" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.22108333" DurationMax="0.31452084">
 					<MediaRefs>
-						<MediaRef Id="65836423"/>
+						<MediaRef Id="81104124"/>
+						<MediaRef Id="136819288"/>
+						<MediaRef Id="147019260"/>
+						<MediaRef Id="375287764"/>
+						<MediaRef Id="620917797"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3862797904" Name="Play_HealthCrate_Open" DurationType="OneShot" DurationMin="2.51" DurationMax="2.51">
+				<Event Id="3212184235" Name="Play_MC_FOL_Jump" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.26666668" DurationMax="0.33333334">
 					<MediaRefs>
-						<MediaRef Id="483726968"/>
-						<MediaRef Id="758354779"/>
+						<MediaRef Id="351188196"/>
+						<MediaRef Id="593204815"/>
+						<MediaRef Id="857986714"/>
+						<MediaRef Id="889441589"/>
+						<MediaRef Id="911638995"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3022734957" Name="Play_MC_Jump" DurationType="OneShot" DurationMin="0.25527084" DurationMax="0.99372965">
+				<Event Id="2037670792" Name="Play_MC_FOL_Land" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.13333334" DurationMax="0.33333334">
+					<MediaRefs>
+						<MediaRef Id="399770579"/>
+						<MediaRef Id="526613580"/>
+						<MediaRef Id="688235617"/>
+						<MediaRef Id="739981228"/>
+						<MediaRef Id="1001819051"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1540365902" Name="Play_MC_FOL_Roll" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.47641668" DurationMax="0.47641668">
+					<MediaRefs>
+						<MediaRef Id="700888953"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="733683298" Name="Play_MC_FOL_Run" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.2" DurationMax="0.3">
+					<MediaRefs>
+						<MediaRef Id="338965084"/>
+						<MediaRef Id="486080740"/>
+						<MediaRef Id="592194566"/>
+						<MediaRef Id="614173606"/>
+						<MediaRef Id="655268182"/>
+						<MediaRef Id="803439455"/>
+						<MediaRef Id="824456465"/>
+						<MediaRef Id="999988372"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3022734957" Name="Play_MC_Jump" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.25527084" DurationMax="0.99372965">
 					<MediaRefs>
 						<MediaRef Id="220234999"/>
 						<MediaRef Id="251333807"/>
@@ -471,7 +688,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1593937298" Name="Play_MC_Land" DurationType="OneShot" DurationMin="0.31135052" DurationMax="0.9520115">
+				<Event Id="1593937298" Name="Play_MC_Land" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.31135052" DurationMax="0.9520115">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="712897245"/>
@@ -505,7 +722,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1600895284" Name="Play_MC_Run" DurationType="OneShot" DurationMin="0.34733334" DurationMax="0.51">
+				<Event Id="1600895284" Name="Play_MC_Run" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.34733334" DurationMax="0.51">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="712897245"/>
@@ -542,14 +759,25 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="634444711" Name="Play_MC_Vox_Death" DurationType="OneShot" DurationMin="1.0957917" DurationMax="1.5">
+				<Event Id="1600902502" Name="Play_MC_Shield" MaxAttenuation="5" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="352425399"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="951255116" Name="Play_MC_Shield_Off" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.8924792" DurationMax="0.97908336">
+					<MediaRefs>
+						<MediaRef Id="211133519"/>
+						<MediaRef Id="718603498"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="634444711" Name="Play_MC_Vox_Death" MaxAttenuation="5" DurationType="OneShot" DurationMin="1.0957917" DurationMax="1.5">
 					<MediaRefs>
 						<MediaRef Id="22562009"/>
 						<MediaRef Id="353292285"/>
 						<MediaRef Id="689098470"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3917663999" Name="Play_MC_Vox_Pain" DurationType="OneShot" DurationMin="0.34072918" DurationMax="0.53420836">
+				<Event Id="3917663999" Name="Play_MC_Vox_Pain" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.34072918" DurationMax="0.53420836">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2137943" Id="390830094"/>
@@ -572,6 +800,1262 @@
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
+				</Event>
+				<Event Id="616065004" Name="Stop_MC_Shield" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="2137943" Name="Life">
+					<Switches>
+						<Switch Id="390830094" Name="SecondHalf"/>
+						<Switch Id="715694586" Name="FirstHalf"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3539622648" Name="Ground_Material">
+					<Switches>
+						<Switch Id="712897245" Name="Mud"/>
+						<Switch Id="782826392" Name="Default"/>
+						<Switch Id="2144363834" Name="Rock"/>
+						<Switch Id="4248645337" Name="Grass"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{17956E76-8E65-F444-FA97-ED53BD2AFFBE}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="308812" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Walk_Stone_04.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Stone_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1980831" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Pain_Soft_05.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Pain_Soft_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="5366310" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\RFX_Computer_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/RFX_Computer_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="5627634" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Jump_Mud_05.wav</ShortName>
+					<CachePath>SFX/MC_FT_Jump_Mud_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="6026606" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Run_Mud_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Mud_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="6905508" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Mud_04.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Mud_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="7411264" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Run_Stone_06.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Stone_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="22562009" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Death_01.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Death_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="23780608" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Jump_Grass_04.wav</ShortName>
+					<CachePath>SFX/MC_FT_Jump_Grass_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="32818868" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Run_Stone_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Stone_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="33405462" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Jump_Mud_03.wav</ShortName>
+					<CachePath>SFX/MC_FT_Jump_Mud_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="35379316" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Switch_Crystals_Activation.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Switch_Crystals_Activation_10C4C929.wem</CachePath>
+				</File>
+				<File Id="42579075" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon_Impact_04.wav</ShortName>
+					<CachePath>SFX/Weapon_Impact_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="43613630" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Rock_02.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Rock_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="45533342" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Walk_Stone_08.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Stone_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="65836423" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HealthCrate_Idle.wav</ShortName>
+					<CachePath>SFX/HealthCrate_Idle_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="72306303" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Walk_Stone_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Stone_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="81104124" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Attack_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Attack_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="82691623" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Attack_Heavy_03.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Attack_Heavy_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="85368375" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Land_Rock_04.wav</ShortName>
+					<CachePath>SFX/MC_FT_Land_Rock_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="87597253" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Grass_06.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Grass_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="88518083" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Attack_Normal_04.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Attack_Normal_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="109271020" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Jump_Rock_05.wav</ShortName>
+					<CachePath>SFX/MC_FT_Jump_Rock_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="109905027" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Walk_Stone_05.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Stone_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="113960607" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023\UI_Press_Other_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023/UI_Press_Other_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="118931953" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Attack_Normal_05.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Attack_Normal_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="122795255" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Land_Mud_05.wav</ShortName>
+					<CachePath>SFX/MC_FT_Land_Mud_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="134490721" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Run_Stone_04.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Stone_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="136819288" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Attack_04.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Attack_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="147019260" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Attack_05.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Attack_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="152923792" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Jump_Grass_03.wav</ShortName>
+					<CachePath>SFX/MC_FT_Jump_Grass_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="166074887" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Run_Stone_07.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Stone_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="173511823" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Chomper_Attack_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Chomper_Attack_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="185996245" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Land_Rock_01.wav</ShortName>
+					<CachePath>SFX/MC_FT_Land_Rock_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="187129962" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Grass_01.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Grass_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="196538023" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Jump_Mud_01.wav</ShortName>
+					<CachePath>SFX/MC_FT_Jump_Mud_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="197532119" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Chomper_Attack_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Chomper_Attack_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="197690906" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Hit_05.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Hit_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="204189178" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Hit_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Hit_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="206713154" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023\UI_Press_Other_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023/UI_Press_Other_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="211133519" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_Shield_Off_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_Shield_Off_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="220234999" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Jump_02.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Jump_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="223604739" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Jump_Rock_03.wav</ShortName>
+					<CachePath>SFX/MC_FT_Jump_Rock_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="224467173" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon_Impact_02.wav</ShortName>
+					<CachePath>SFX/Weapon_Impact_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="225456498" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Land_Rock_05.wav</ShortName>
+					<CachePath>SFX/MC_FT_Land_Rock_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="232677465" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Run_Mud_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Mud_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="239516241" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Attack_Normal_02.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Attack_Normal_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="251333807" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Jump_01.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Jump_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="252669861" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Stone_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Stone_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="257203319" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023\UI_Press_Play.wav</ShortName>
+					<CachePath>SFX/Export 12012023/UI_Press_Play_10C4C929.wem</CachePath>
+				</File>
+				<File Id="262492407" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Land_Grass_02.wav</ShortName>
+					<CachePath>SFX/MC_FT_Land_Grass_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="263091360" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Mud_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Mud_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="263542469" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Spin_06.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="275548516" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Pain_Medium_05.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Pain_Medium_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="282488086" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023\UI_Navigate_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023/UI_Navigate_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="284511822" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Jump_Rock_02.wav</ShortName>
+					<CachePath>SFX/MC_FT_Jump_Rock_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="292784953" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Attack_Normal_01.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Attack_Normal_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="296594354" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Walk_Stone_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Stone_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="301493846" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon_Idle.wav</ShortName>
+					<CachePath>SFX/Weapon_Idle_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="302618245" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Jump_Grass_02.wav</ShortName>
+					<CachePath>SFX/MC_FT_Jump_Grass_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="307766508" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Spin_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="312669986" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Chomper_VOX_Before_Attack.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Before_Attack_10C4C929.wem</CachePath>
+				</File>
+				<File Id="315728057" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Mud_03.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Mud_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="325190004" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Rock_05.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Rock_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="338965084" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Run_06.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Run_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="342328522" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Jump_05.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Jump_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="351188196" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Jump_05.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Jump_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="352425399" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_Shield.wav</ShortName>
+					<Path>Media/352425399.wem</Path>
+					<CachePath>SFX/Export 12012023 V2/MC_Shield_D79FB2B7.wem</CachePath>
+					<PrefetchSize>9696</PrefetchSize>
+				</File>
+				<File Id="353067285" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Run_Stone_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Stone_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="353292285" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Death_02.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Death_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="354388301" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Land_Grass_05.wav</ShortName>
+					<CachePath>SFX/MC_FT_Land_Grass_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="356223403" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Rock_04.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Rock_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="358118990" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\RFX_Computer_06.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/RFX_Computer_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="361768001" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>Export 12012023 V2\Switch_Crystals_Idle_BeforeActivation.wav</ShortName>
+					<Path>Media/361768001.wem</Path>
+					<CachePath>SFX/Export 12012023 V2/Switch_Crystals_Idle_BeforeActivation_D79FB2B7.wem</CachePath>
+					<PrefetchSize>9696</PrefetchSize>
+				</File>
+				<File Id="372411582" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Monster_Vanish.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Monster_Vanish_10C4C929.wem</CachePath>
+				</File>
+				<File Id="375287764" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Attack_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Attack_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="396022129" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\RFX_Computer_07.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/RFX_Computer_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="399770579" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Land_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Land_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="432061020" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Mud_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Mud_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="434993297" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Grass_03.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Grass_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="445531150" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Jump_Mud_02.wav</ShortName>
+					<CachePath>SFX/MC_FT_Jump_Mud_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="451660734" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Run_Stone_08.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Stone_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="454999369" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Rock_01.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Rock_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="459153112" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Chomper_Attack_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Chomper_Attack_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="467297718" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Spitter_Attack_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Spitter_Attack_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="474815787" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Hit_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Hit_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="483726968" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HeallthCrate_Open_3D.wav</ShortName>
+					<CachePath>SFX/HeallthCrate_Open_3D_10C4C929.wem</CachePath>
+				</File>
+				<File Id="486080740" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Run_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Run_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="487978039" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Mud_01.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Mud_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="498593051" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>Export 12012023 V2\Teleporter_Idle.wav</ShortName>
+					<Path>Media/498593051.wem</Path>
+					<CachePath>SFX/Export 12012023 V2/Teleporter_Idle_D79FB2B7.wem</CachePath>
+					<PrefetchSize>9696</PrefetchSize>
+				</File>
+				<File Id="508461723" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Attack_Normal_03.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Attack_Normal_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="509223528" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>Export 12012023 V2\Switch_Crystals_Idle_AfterActivation.wav</ShortName>
+					<Path>Media/509223528.wem</Path>
+					<CachePath>SFX/Export 12012023 V2/Switch_Crystals_Idle_AfterActivation_D79FB2B7.wem</CachePath>
+					<PrefetchSize>9696</PrefetchSize>
+				</File>
+				<File Id="513326582" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023\UI_Navigate_04.wav</ShortName>
+					<CachePath>SFX/Export 12012023/UI_Navigate_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="522450401" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Land_Grass_04.wav</ShortName>
+					<CachePath>SFX/MC_FT_Land_Grass_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="526613580" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Land_05.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Land_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="547806294" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon_Impact_01.wav</ShortName>
+					<CachePath>SFX/Weapon_Impact_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="559924587" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon_Whoosh_02.wav</ShortName>
+					<CachePath>SFX/Weapon_Whoosh_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="560484105" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Land_Mud_02.wav</ShortName>
+					<CachePath>SFX/MC_FT_Land_Mud_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="563449050" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Run_Mud_05.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Mud_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="572206953" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Land_Mud_04.wav</ShortName>
+					<CachePath>SFX/MC_FT_Land_Mud_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="585468367" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Spin_04.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="592194566" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Run_04.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Run_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="593204815" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Jump_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Jump_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="597012431" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\RFX_Computer_05.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/RFX_Computer_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="599299621" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Land_Mud_01.wav</ShortName>
+					<CachePath>SFX/MC_FT_Land_Mud_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="599325396" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Pain_Soft_01.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Pain_Soft_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="604821713" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Run_Stone_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Stone_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="607711375" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Grass_05.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Grass_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="607948710" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Hit_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Hit_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="614173606" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Run_07.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Run_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="620917797" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Attack_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Attack_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="640552915" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Stone_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Stone_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="648182821" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\RFX_Computer_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/RFX_Computer_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="648571618" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Land_Rock_03.wav</ShortName>
+					<CachePath>SFX/MC_FT_Land_Rock_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="655268182" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Run_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Run_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="659355389" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Hit_04.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Hit_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="660528075" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Stone_04.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Stone_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="662144738" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Pain_Soft_03.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Pain_Soft_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="666134829" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Jump_Rock_01.wav</ShortName>
+					<CachePath>SFX/MC_FT_Jump_Rock_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="673930999" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Attack_Heavy_01.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Attack_Heavy_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="677663508" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Spin_07.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="678925306" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Spin_08.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="683535081" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_05.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Mud_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="688235617" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Land_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Land_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="688424724" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Mud_04.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Mud_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="689098470" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Death_03.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Death_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="700210644" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Pain_Medium_04.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Pain_Medium_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="700888953" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Roll.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Roll_10C4C929.wem</CachePath>
+				</File>
+				<File Id="714147872" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Jump_Rock_04.wav</ShortName>
+					<CachePath>SFX/MC_FT_Jump_Rock_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="717116967" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_08.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Mud_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="718603498" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_Shield_Off_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_Shield_Off_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="733080430" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\RFX_Computer_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/RFX_Computer_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="739981228" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Land_04.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Land_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="742921665" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Mud_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Mud_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="744164812" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Attack_Heavy_04.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Attack_Heavy_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="746178083" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Mud_06.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Mud_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="750103375" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Pain_Medium_03.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Pain_Medium_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="750813899" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Run_Mud_06.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Mud_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="758354779" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HealthCrate_Open_2D.wav</ShortName>
+					<CachePath>SFX/HealthCrate_Open_2D_10C4C929.wem</CachePath>
+				</File>
+				<File Id="768534202" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon_Whoosh_01.wav</ShortName>
+					<CachePath>SFX/Weapon_Whoosh_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="769651858" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Mud_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="769996304" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Pain_Soft_04.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Pain_Soft_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="785094350" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Attack_Heavy_05.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Attack_Heavy_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="785198687" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023\UI_Navigate_06.wav</ShortName>
+					<CachePath>SFX/Export 12012023/UI_Navigate_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="789824356" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_06.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Mud_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="802844937" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon_Impact_03.wav</ShortName>
+					<CachePath>SFX/Weapon_Impact_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="803050308" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Spin_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="803439455" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Run_05.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Run_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="809109598" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Grass_02.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Grass_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="813296382" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Rock_03.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Rock_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="818125363" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Walk_Stone_07.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Stone_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="824456465" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Run_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Run_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="831798853" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Switch_Stone_Activation.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Switch_Stone_Activation_10C4C929.wem</CachePath>
+				</File>
+				<File Id="844663955" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Mud_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="845874098" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023\AMB_SpaceShip.wav</ShortName>
+					<CachePath>SFX/Export 12012023/AMB_SpaceShip_10C4C929.wem</CachePath>
+				</File>
+				<File Id="846260293" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Switch_Stone_Idle.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Switch_Stone_Idle_10C4C929.wem</CachePath>
+				</File>
+				<File Id="850359613" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Spitter_Attack_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Spitter_Attack_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="857986714" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Jump_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Jump_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="858208559" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023\UI_Press_Other_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023/UI_Press_Other_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="867526222" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon_Pickup.wav</ShortName>
+					<CachePath>SFX/Weapon_Pickup_10C4C929.wem</CachePath>
+				</File>
+				<File Id="869639993" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Mud_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="876047700" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Attack_Heavy_02.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Attack_Heavy_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="876297451" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Pain_Soft_02.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Pain_Soft_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="884364183" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Grass_04.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Grass_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="889441589" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Jump_04.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Jump_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="893127505" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Run_Mud_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Mud_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="900471111" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Land_Grass_03.wav</ShortName>
+					<CachePath>SFX/MC_FT_Land_Grass_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="903076189" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Jump_04.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Jump_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="911638995" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Jump_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Jump_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="920600754" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Land_Rock_02.wav</ShortName>
+					<CachePath>SFX/MC_FT_Land_Rock_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="921448046" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Attack_Normal_08.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Attack_Normal_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="922503960" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023\UI_Navigate_05.wav</ShortName>
+					<CachePath>SFX/Export 12012023/UI_Navigate_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="925850913" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon_Whoosh_03.wav</ShortName>
+					<CachePath>SFX/Weapon_Whoosh_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="926020533" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\RFX_Computer_04.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/RFX_Computer_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="926367897" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Attack_Normal_06.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Attack_Normal_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="927378429" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Spin_05.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="928247450" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Stone_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Stone_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="929945824" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Land_Grass_01.wav</ShortName>
+					<CachePath>SFX/MC_FT_Land_Grass_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="931884405" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Pain_Medium_01.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Pain_Medium_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="943625314" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Run_Mud_08.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Mud_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="943973925" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023\UI_Navigate_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023/UI_Navigate_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="955442588" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Spin_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="968308070" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Land_Mud_03.wav</ShortName>
+					<CachePath>SFX/MC_FT_Land_Mud_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="974521806" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Walk_Stone_06.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Stone_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="977113141" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_07.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Mud_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="977905503" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Run_Stone_05.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Stone_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="986255503" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Walk_Stone_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Stone_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="993472816" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Jump_Mud_04.wav</ShortName>
+					<CachePath>SFX/MC_FT_Jump_Mud_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="994174158" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Attack_Normal_07.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Attack_Normal_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="994727889" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_04.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Mud_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="996724255" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Mud_05.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Mud_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="999988372" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Run_08.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Run_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1001819051" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_FOL_Land_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_FOL_Land_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1002416448" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Jump_Grass_01.wav</ShortName>
+					<CachePath>SFX/MC_FT_Jump_Grass_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1007738558" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Run_Mud_04.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Mud_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1010708591" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023\UI_Navigate_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023/UI_Navigate_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1014235316" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Mud_05.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Mud_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1014608767" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Jump_03.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Jump_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1017870065" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Mud_02.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Mud_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1032309566" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Run_Mud_07.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Mud_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1049480185" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Rock_06.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Rock_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1053646953" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Stone_05.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Stone_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1059727625" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Spitter_Attack_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Spitter_Attack_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1060173942" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Pain_Soft_06.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Pain_Soft_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1064245208" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon_Impact_05.wav</ShortName>
+					<CachePath>SFX/Weapon_Impact_05_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="239013755" Name="Soundseed Air Wind" LibName="SoundSeed Air Wind" LibId="7798786"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="2425561832" Name="Play_AMB_Loop_Wind_Gust_01" DurationType="Infinite">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="239013755"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="3213331111" Name="Play_AMB_SpaceShip" MaxAttenuation="10" DurationType="OneShot" DurationMin="9.999979" DurationMax="9.999979">
+					<MediaRefs>
+						<MediaRef Id="845874098"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="931488463" Name="Play_Chomper_Attack" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.58002084" DurationMax="0.623625">
+					<MediaRefs>
+						<MediaRef Id="173511823"/>
+						<MediaRef Id="197532119"/>
+						<MediaRef Id="459153112"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3519138347" Name="Play_Chomper_VOX_Before_Attack" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.498875" DurationMax="0.498875">
+					<MediaRefs>
+						<MediaRef Id="312669986"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1840834974" Name="Play_HealthCrate_Idle" MaxAttenuation="10" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="65836423"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3862797904" Name="Play_HealthCrate_Open" DurationType="OneShot" DurationMin="2.51" DurationMax="2.51">
+					<MediaRefs>
+						<MediaRef Id="483726968"/>
+						<MediaRef Id="758354779"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4094144955" Name="Play_MC_FOL_Attack" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.22108333" DurationMax="0.31452084">
+					<MediaRefs>
+						<MediaRef Id="81104124"/>
+						<MediaRef Id="136819288"/>
+						<MediaRef Id="147019260"/>
+						<MediaRef Id="375287764"/>
+						<MediaRef Id="620917797"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3212184235" Name="Play_MC_FOL_Jump" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.26666668" DurationMax="0.33333334">
+					<MediaRefs>
+						<MediaRef Id="351188196"/>
+						<MediaRef Id="593204815"/>
+						<MediaRef Id="857986714"/>
+						<MediaRef Id="889441589"/>
+						<MediaRef Id="911638995"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2037670792" Name="Play_MC_FOL_Land" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.13333334" DurationMax="0.33333334">
+					<MediaRefs>
+						<MediaRef Id="399770579"/>
+						<MediaRef Id="526613580"/>
+						<MediaRef Id="688235617"/>
+						<MediaRef Id="739981228"/>
+						<MediaRef Id="1001819051"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1540365902" Name="Play_MC_FOL_Roll" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.47641668" DurationMax="0.47641668">
+					<MediaRefs>
+						<MediaRef Id="700888953"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="733683298" Name="Play_MC_FOL_Run" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.2" DurationMax="0.3">
+					<MediaRefs>
+						<MediaRef Id="338965084"/>
+						<MediaRef Id="486080740"/>
+						<MediaRef Id="592194566"/>
+						<MediaRef Id="614173606"/>
+						<MediaRef Id="655268182"/>
+						<MediaRef Id="803439455"/>
+						<MediaRef Id="824456465"/>
+						<MediaRef Id="999988372"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3022734957" Name="Play_MC_Jump" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.25527084" DurationMax="0.99372965">
+					<MediaRefs>
+						<MediaRef Id="220234999"/>
+						<MediaRef Id="251333807"/>
+						<MediaRef Id="342328522"/>
+						<MediaRef Id="903076189"/>
+						<MediaRef Id="1014608767"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="712897245"/>
+							<MediaRefs>
+								<MediaRef Id="5627634"/>
+								<MediaRef Id="33405462"/>
+								<MediaRef Id="196538023"/>
+								<MediaRef Id="445531150"/>
+								<MediaRef Id="993472816"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="4248645337"/>
+							<MediaRefs>
+								<MediaRef Id="23780608"/>
+								<MediaRef Id="152923792"/>
+								<MediaRef Id="302618245"/>
+								<MediaRef Id="1002416448"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="2144363834" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="109271020"/>
+								<MediaRef Id="223604739"/>
+								<MediaRef Id="284511822"/>
+								<MediaRef Id="666134829"/>
+								<MediaRef Id="714147872"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1593937298" Name="Play_MC_Land" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.31135052" DurationMax="0.9520115">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="712897245"/>
+							<MediaRefs>
+								<MediaRef Id="122795255"/>
+								<MediaRef Id="560484105"/>
+								<MediaRef Id="572206953"/>
+								<MediaRef Id="599299621"/>
+								<MediaRef Id="968308070"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="4248645337"/>
+							<MediaRefs>
+								<MediaRef Id="262492407"/>
+								<MediaRef Id="354388301"/>
+								<MediaRef Id="522450401"/>
+								<MediaRef Id="900471111"/>
+								<MediaRef Id="929945824"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="2144363834" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="85368375"/>
+								<MediaRef Id="185996245"/>
+								<MediaRef Id="225456498"/>
+								<MediaRef Id="648571618"/>
+								<MediaRef Id="920600754"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1600895284" Name="Play_MC_Run" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.34733334" DurationMax="0.51">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="712897245"/>
+							<MediaRefs>
+								<MediaRef Id="315728057"/>
+								<MediaRef Id="487978039"/>
+								<MediaRef Id="688424724"/>
+								<MediaRef Id="746178083"/>
+								<MediaRef Id="996724255"/>
+								<MediaRef Id="1017870065"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="4248645337"/>
+							<MediaRefs>
+								<MediaRef Id="87597253"/>
+								<MediaRef Id="187129962"/>
+								<MediaRef Id="434993297"/>
+								<MediaRef Id="607711375"/>
+								<MediaRef Id="809109598"/>
+								<MediaRef Id="884364183"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="2144363834" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="43613630"/>
+								<MediaRef Id="325190004"/>
+								<MediaRef Id="356223403"/>
+								<MediaRef Id="454999369"/>
+								<MediaRef Id="813296382"/>
+								<MediaRef Id="1049480185"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1600902502" Name="Play_MC_Shield" MaxAttenuation="5" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="352425399"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="951255116" Name="Play_MC_Shield_Off" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.8924792" DurationMax="0.97908336">
+					<MediaRefs>
+						<MediaRef Id="211133519"/>
+						<MediaRef Id="718603498"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="634444711" Name="Play_MC_Vox_Death" MaxAttenuation="5" DurationType="OneShot" DurationMin="1.0957917" DurationMax="1.5">
+					<MediaRefs>
+						<MediaRef Id="22562009"/>
+						<MediaRef Id="353292285"/>
+						<MediaRef Id="689098470"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3917663999" Name="Play_MC_Vox_Pain" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.34072918" DurationMax="0.53420836">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2137943" Id="390830094"/>
+							<MediaRefs>
+								<MediaRef Id="275548516"/>
+								<MediaRef Id="700210644"/>
+								<MediaRef Id="750103375"/>
+								<MediaRef Id="931884405"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2137943" Id="715694586" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="1980831"/>
+								<MediaRef Id="599325396"/>
+								<MediaRef Id="662144738"/>
+								<MediaRef Id="769996304"/>
+								<MediaRef Id="876297451"/>
+								<MediaRef Id="1060173942"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="803911630" Name="Play_Monster_Vanish" MaxAttenuation="5" DurationType="OneShot" DurationMin="2.4935625" DurationMax="2.4935625">
+					<MediaRefs>
+						<MediaRef Id="372411582"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3056483954" Name="Play_RFX_Computer" MaxAttenuation="5" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="5366310"/>
+						<MediaRef Id="358118990"/>
+						<MediaRef Id="396022129"/>
+						<MediaRef Id="597012431"/>
+						<MediaRef Id="648182821"/>
+						<MediaRef Id="733080430"/>
+						<MediaRef Id="926020533"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1499078611" Name="Play_Small_Monster_Bodyfall_Mud" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.24025" DurationMax="0.30097917">
+					<MediaRefs>
+						<MediaRef Id="6905508"/>
+						<MediaRef Id="263091360"/>
+						<MediaRef Id="432061020"/>
+						<MediaRef Id="742921665"/>
+						<MediaRef Id="1014235316"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2386186782" Name="Play_Small_Monster_Bodyfall_Stone" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.2838125" DurationMax="0.38252082">
+					<MediaRefs>
+						<MediaRef Id="252669861"/>
+						<MediaRef Id="640552915"/>
+						<MediaRef Id="660528075"/>
+						<MediaRef Id="928247450"/>
+						<MediaRef Id="1053646953"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1602398710" Name="Play_Small_Monster_Hit" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.23222917" DurationMax="0.2714375">
+					<MediaRefs>
+						<MediaRef Id="197690906"/>
+						<MediaRef Id="204189178"/>
+						<MediaRef Id="474815787"/>
+						<MediaRef Id="607948710"/>
+						<MediaRef Id="659355389"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1809433285" Name="Play_Small_Monster_Run_Mud" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.08035417" DurationMax="0.12083333">
+					<MediaRefs>
+						<MediaRef Id="6026606"/>
+						<MediaRef Id="232677465"/>
+						<MediaRef Id="563449050"/>
+						<MediaRef Id="750813899"/>
+						<MediaRef Id="893127505"/>
+						<MediaRef Id="943625314"/>
+						<MediaRef Id="1007738558"/>
+						<MediaRef Id="1032309566"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3729170868" Name="Play_Small_Monster_Run_Stone" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.055875" DurationMax="0.069125">
+					<MediaRefs>
+						<MediaRef Id="7411264"/>
+						<MediaRef Id="32818868"/>
+						<MediaRef Id="134490721"/>
+						<MediaRef Id="166074887"/>
+						<MediaRef Id="353067285"/>
+						<MediaRef Id="451660734"/>
+						<MediaRef Id="604821713"/>
+						<MediaRef Id="977905503"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="281344347" Name="Play_Small_Monster_Spin" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.16772917" DurationMax="0.35329166">
+					<MediaRefs>
+						<MediaRef Id="263542469"/>
+						<MediaRef Id="307766508"/>
+						<MediaRef Id="585468367"/>
+						<MediaRef Id="677663508"/>
+						<MediaRef Id="678925306"/>
+						<MediaRef Id="803050308"/>
+						<MediaRef Id="927378429"/>
+						<MediaRef Id="955442588"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="237106917" Name="Play_Small_Monster_VOX_Death" MaxAttenuation="5" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="46056053" Name="Play_Small_Monster_VOX_Grunt" MaxAttenuation="5" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="201430788" Name="Play_Small_Monster_VOX_Hit" MaxAttenuation="5" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="41618512" Name="Play_Small_Monster_VOX_Spots" MaxAttenuation="5" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2960261907" Name="Play_Small_Monster_Walk_Mud" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.06789583" DurationMax="0.09147917">
+					<MediaRefs>
+						<MediaRef Id="683535081"/>
+						<MediaRef Id="717116967"/>
+						<MediaRef Id="769651858"/>
+						<MediaRef Id="789824356"/>
+						<MediaRef Id="844663955"/>
+						<MediaRef Id="869639993"/>
+						<MediaRef Id="977113141"/>
+						<MediaRef Id="994727889"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1451592030" Name="Play_Small_Monster_Walk_Stone" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.055875" DurationMax="0.069125">
+					<MediaRefs>
+						<MediaRef Id="308812"/>
+						<MediaRef Id="45533342"/>
+						<MediaRef Id="72306303"/>
+						<MediaRef Id="109905027"/>
+						<MediaRef Id="296594354"/>
+						<MediaRef Id="818125363"/>
+						<MediaRef Id="974521806"/>
+						<MediaRef Id="986255503"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3913336272" Name="Play_Spitter_Attack" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.48422918" DurationMax="0.50675">
+					<MediaRefs>
+						<MediaRef Id="467297718"/>
+						<MediaRef Id="850359613"/>
+						<MediaRef Id="1059727625"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3451021523" Name="Play_Switch_Crystals_Activation" MaxAttenuation="10" DurationType="OneShot" DurationMin="1.47225" DurationMax="1.47225">
+					<MediaRefs>
+						<MediaRef Id="35379316"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3013028862" Name="Play_Switch_Crystals_Idle_AfterActivation" MaxAttenuation="10" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="509223528"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1933987681" Name="Play_Switch_Crystals_Idle_BeforeActivation" MaxAttenuation="10" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="361768001"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2556341799" Name="Play_Switch_Stone_Activation" MaxAttenuation="10" DurationType="OneShot" DurationMin="1.3145417" DurationMax="1.3145417">
+					<MediaRefs>
+						<MediaRef Id="831798853"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="717478169" Name="Play_Switch_Stone_Idle" MaxAttenuation="10" DurationType="OneShot" DurationMin="11.466666" DurationMax="11.466666">
+					<MediaRefs>
+						<MediaRef Id="846260293"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="476276007" Name="Play_Teleporter_Idle" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="498593051"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2193989514" Name="Play_UI_Navigate" DurationType="OneShot" DurationMin="0.95522916" DurationMax="0.95522916">
+					<MediaRefs>
+						<MediaRef Id="282488086"/>
+						<MediaRef Id="513326582"/>
+						<MediaRef Id="785198687"/>
+						<MediaRef Id="922503960"/>
+						<MediaRef Id="943973925"/>
+						<MediaRef Id="1010708591"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3014998451" Name="Play_UI_Press_Other" DurationType="OneShot" DurationMin="0.99895835" DurationMax="0.9991458">
+					<MediaRefs>
+						<MediaRef Id="113960607"/>
+						<MediaRef Id="206713154"/>
+						<MediaRef Id="858208559"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2377842133" Name="Play_UI_Press_Play" DurationType="OneShot" DurationMin="2.2333333" DurationMax="2.2333333">
+					<MediaRefs>
+						<MediaRef Id="257203319"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="723528203" Name="Play_Weapon_Idle" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
@@ -649,6 +2133,12 @@
 						<MediaRef Id="925850913"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3876046333" Name="Stop_AMB_SpaceShip" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="616065004" Name="Stop_MC_Shield" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="4212421580" Name="Stop_Switch_Crystals_Idle_AfterActivation" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3192261611" Name="Stop_Switch_Crystals_Idle_BeforeActivation" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3416772595" Name="Stop_Switch_Stone_Idle" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2863201769" Name="Stop_Teleporter_Idle" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<SwitchGroups>
 				<SwitchGroup Id="2137943" Name="Life">
@@ -667,6 +2157,617 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
+		<SoundBank Id="3202316517" Type="User" Language="SFX" Hash="{BBDFBA4D-AD19-6F34-7D52-8C36E8148F41}">
+			<ShortName>Switch</ShortName>
+			<Path>Switch.bnk</Path>
+			<Media>
+				<File Id="35379316" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Switch_Crystals_Activation.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Switch_Crystals_Activation_10C4C929.wem</CachePath>
+				</File>
+				<File Id="361768001" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>Export 12012023 V2\Switch_Crystals_Idle_BeforeActivation.wav</ShortName>
+					<Path>Media/361768001.wem</Path>
+					<CachePath>SFX/Export 12012023 V2/Switch_Crystals_Idle_BeforeActivation_D79FB2B7.wem</CachePath>
+					<PrefetchSize>9696</PrefetchSize>
+				</File>
+				<File Id="509223528" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>Export 12012023 V2\Switch_Crystals_Idle_AfterActivation.wav</ShortName>
+					<Path>Media/509223528.wem</Path>
+					<CachePath>SFX/Export 12012023 V2/Switch_Crystals_Idle_AfterActivation_D79FB2B7.wem</CachePath>
+					<PrefetchSize>9696</PrefetchSize>
+				</File>
+				<File Id="831798853" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Switch_Stone_Activation.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Switch_Stone_Activation_10C4C929.wem</CachePath>
+				</File>
+				<File Id="846260293" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Switch_Stone_Idle.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Switch_Stone_Idle_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3451021523" Name="Play_Switch_Crystals_Activation" MaxAttenuation="10" DurationType="OneShot" DurationMin="1.47225" DurationMax="1.47225">
+					<MediaRefs>
+						<MediaRef Id="35379316"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3013028862" Name="Play_Switch_Crystals_Idle_AfterActivation" MaxAttenuation="10" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="509223528"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1933987681" Name="Play_Switch_Crystals_Idle_BeforeActivation" MaxAttenuation="10" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="361768001"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2556341799" Name="Play_Switch_Stone_Activation" MaxAttenuation="10" DurationType="OneShot" DurationMin="1.3145417" DurationMax="1.3145417">
+					<MediaRefs>
+						<MediaRef Id="831798853"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="717478169" Name="Play_Switch_Stone_Idle" MaxAttenuation="10" DurationType="OneShot" DurationMin="11.466666" DurationMax="11.466666">
+					<MediaRefs>
+						<MediaRef Id="846260293"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4212421580" Name="Stop_Switch_Crystals_Idle_AfterActivation" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3192261611" Name="Stop_Switch_Crystals_Idle_BeforeActivation" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3416772595" Name="Stop_Switch_Stone_Idle" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3893417221" Type="User" Language="SFX" Hash="{C5B73520-5091-AE6F-BCDE-FEDE2124733A}">
+			<ShortName>Weapon</ShortName>
+			<Path>Weapon.bnk</Path>
+			<Media>
+				<File Id="42579075" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon_Impact_04.wav</ShortName>
+					<CachePath>SFX/Weapon_Impact_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="82691623" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Attack_Heavy_03.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Attack_Heavy_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="88518083" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Attack_Normal_04.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Attack_Normal_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="118931953" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Attack_Normal_05.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Attack_Normal_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="224467173" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon_Impact_02.wav</ShortName>
+					<CachePath>SFX/Weapon_Impact_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="239516241" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Attack_Normal_02.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Attack_Normal_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="292784953" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Attack_Normal_01.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Attack_Normal_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="301493846" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon_Idle.wav</ShortName>
+					<CachePath>SFX/Weapon_Idle_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="508461723" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Attack_Normal_03.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Attack_Normal_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="547806294" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon_Impact_01.wav</ShortName>
+					<CachePath>SFX/Weapon_Impact_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="559924587" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon_Whoosh_02.wav</ShortName>
+					<CachePath>SFX/Weapon_Whoosh_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="673930999" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Attack_Heavy_01.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Attack_Heavy_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="744164812" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Attack_Heavy_04.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Attack_Heavy_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="768534202" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon_Whoosh_01.wav</ShortName>
+					<CachePath>SFX/Weapon_Whoosh_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="785094350" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Attack_Heavy_05.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Attack_Heavy_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="802844937" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon_Impact_03.wav</ShortName>
+					<CachePath>SFX/Weapon_Impact_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="867526222" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon_Pickup.wav</ShortName>
+					<CachePath>SFX/Weapon_Pickup_10C4C929.wem</CachePath>
+				</File>
+				<File Id="876047700" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Attack_Heavy_02.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Attack_Heavy_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="921448046" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Attack_Normal_08.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Attack_Normal_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="925850913" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon_Whoosh_03.wav</ShortName>
+					<CachePath>SFX/Weapon_Whoosh_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="926367897" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Attack_Normal_06.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Attack_Normal_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="994174158" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX_Attack_Normal_07.wav</ShortName>
+					<CachePath>SFX/MC_VOX_Attack_Normal_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1064245208" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Weapon_Impact_05.wav</ShortName>
+					<CachePath>SFX/Weapon_Impact_05_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="723528203" Name="Play_Weapon_Idle" MaxAttenuation="10" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="301493846"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3739832523" Name="Play_Weapon_Impact" DurationType="OneShot" DurationMin="0.34814584" DurationMax="0.43466666">
+					<MediaRefs>
+						<MediaRef Id="42579075"/>
+						<MediaRef Id="224467173"/>
+						<MediaRef Id="547806294"/>
+						<MediaRef Id="802844937"/>
+						<MediaRef Id="1064245208"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1954136465" Name="Play_Weapon_Pickup" DurationType="OneShot" DurationMin="1.8180833" DurationMax="1.8180833">
+					<MediaRefs>
+						<MediaRef Id="867526222"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="905597477" Name="Play_Weapon_Whoosh_Combo01" DurationType="OneShot" DurationMin="0.66847914" DurationMax="0.7698333">
+					<MediaRefs>
+						<MediaRef Id="88518083"/>
+						<MediaRef Id="118931953"/>
+						<MediaRef Id="239516241"/>
+						<MediaRef Id="292784953"/>
+						<MediaRef Id="508461723"/>
+						<MediaRef Id="559924587"/>
+						<MediaRef Id="768534202"/>
+						<MediaRef Id="921448046"/>
+						<MediaRef Id="925850913"/>
+						<MediaRef Id="926367897"/>
+						<MediaRef Id="994174158"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="905597478" Name="Play_Weapon_Whoosh_Combo02" DurationType="OneShot" DurationMin="0.6309602" DurationMax="0.72662586">
+					<MediaRefs>
+						<MediaRef Id="88518083"/>
+						<MediaRef Id="118931953"/>
+						<MediaRef Id="239516241"/>
+						<MediaRef Id="292784953"/>
+						<MediaRef Id="508461723"/>
+						<MediaRef Id="559924587"/>
+						<MediaRef Id="768534202"/>
+						<MediaRef Id="921448046"/>
+						<MediaRef Id="925850913"/>
+						<MediaRef Id="926367897"/>
+						<MediaRef Id="994174158"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="905597479" Name="Play_Weapon_Whoosh_Combo03" DurationType="OneShot" DurationMin="0.5955472" DurationMax="0.6858435">
+					<MediaRefs>
+						<MediaRef Id="88518083"/>
+						<MediaRef Id="118931953"/>
+						<MediaRef Id="239516241"/>
+						<MediaRef Id="292784953"/>
+						<MediaRef Id="508461723"/>
+						<MediaRef Id="559924587"/>
+						<MediaRef Id="768534202"/>
+						<MediaRef Id="921448046"/>
+						<MediaRef Id="925850913"/>
+						<MediaRef Id="926367897"/>
+						<MediaRef Id="994174158"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="905597472" Name="Play_Weapon_Whoosh_Combo04" DurationType="OneShot" DurationMin="0.56212175" DurationMax="0.7840625">
+					<MediaRefs>
+						<MediaRef Id="82691623"/>
+						<MediaRef Id="559924587"/>
+						<MediaRef Id="673930999"/>
+						<MediaRef Id="744164812"/>
+						<MediaRef Id="768534202"/>
+						<MediaRef Id="785094350"/>
+						<MediaRef Id="876047700"/>
+						<MediaRef Id="925850913"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{C229F562-B609-EB75-314F-60B4F7F8AABF}">
+			<ShortName>Small_Monsters</ShortName>
+			<Path>Small_Monsters.bnk</Path>
+			<Media>
+				<File Id="308812" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Walk_Stone_04.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Stone_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="6026606" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Run_Mud_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Mud_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="6905508" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Mud_04.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Mud_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="7411264" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Run_Stone_06.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Stone_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="32818868" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Run_Stone_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Stone_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="45533342" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Walk_Stone_08.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Stone_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="72306303" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Walk_Stone_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Stone_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="109905027" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Walk_Stone_05.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Stone_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="134490721" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Run_Stone_04.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Stone_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="166074887" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Run_Stone_07.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Stone_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="173511823" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Chomper_Attack_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Chomper_Attack_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="197532119" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Chomper_Attack_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Chomper_Attack_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="197690906" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Hit_05.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Hit_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="204189178" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Hit_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Hit_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="232677465" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Run_Mud_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Mud_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="252669861" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Stone_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Stone_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="263091360" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Mud_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Mud_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="263542469" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Spin_06.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="296594354" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Walk_Stone_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Stone_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="307766508" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Spin_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="312669986" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Chomper_VOX_Before_Attack.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Before_Attack_10C4C929.wem</CachePath>
+				</File>
+				<File Id="353067285" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Run_Stone_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Stone_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="372411582" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Monster_Vanish.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Monster_Vanish_10C4C929.wem</CachePath>
+				</File>
+				<File Id="432061020" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Mud_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Mud_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="451660734" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Run_Stone_08.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Stone_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="459153112" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Chomper_Attack_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Chomper_Attack_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="467297718" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Spitter_Attack_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Spitter_Attack_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="474815787" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Hit_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Hit_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="563449050" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Run_Mud_05.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Mud_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="585468367" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Spin_04.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="604821713" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Run_Stone_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Stone_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="607948710" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Hit_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Hit_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="640552915" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Stone_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Stone_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="659355389" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Hit_04.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Hit_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="660528075" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Stone_04.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Stone_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="677663508" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Spin_07.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="678925306" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Spin_08.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="683535081" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_05.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Mud_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="717116967" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_08.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Mud_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="742921665" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Mud_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Mud_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="750813899" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Run_Mud_06.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Mud_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="769651858" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Mud_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="789824356" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_06.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Mud_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="803050308" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Spin_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="818125363" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Walk_Stone_07.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Stone_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="844663955" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Mud_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="850359613" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Spitter_Attack_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Spitter_Attack_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="869639993" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Mud_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="893127505" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Run_Mud_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Mud_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="927378429" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Spin_05.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="928247450" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Stone_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Stone_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="943625314" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Run_Mud_08.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Mud_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="955442588" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Spin_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="974521806" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Walk_Stone_06.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Stone_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="977113141" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_07.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Mud_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="977905503" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Run_Stone_05.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Stone_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="986255503" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Walk_Stone_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Stone_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="994727889" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_04.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Mud_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1007738558" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Run_Mud_04.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Mud_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1014235316" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Mud_05.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Mud_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1032309566" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Run_Mud_07.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Mud_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1053646953" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Stone_05.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Stone_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1059727625" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Spitter_Attack_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Spitter_Attack_03_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="931488463" Name="Play_Chomper_Attack" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.58002084" DurationMax="0.623625">
+					<MediaRefs>
+						<MediaRef Id="173511823"/>
+						<MediaRef Id="197532119"/>
+						<MediaRef Id="459153112"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3519138347" Name="Play_Chomper_VOX_Before_Attack" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.498875" DurationMax="0.498875">
+					<MediaRefs>
+						<MediaRef Id="312669986"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="803911630" Name="Play_Monster_Vanish" MaxAttenuation="5" DurationType="OneShot" DurationMin="2.4935625" DurationMax="2.4935625">
+					<MediaRefs>
+						<MediaRef Id="372411582"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1499078611" Name="Play_Small_Monster_Bodyfall_Mud" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.24025" DurationMax="0.30097917">
+					<MediaRefs>
+						<MediaRef Id="6905508"/>
+						<MediaRef Id="263091360"/>
+						<MediaRef Id="432061020"/>
+						<MediaRef Id="742921665"/>
+						<MediaRef Id="1014235316"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2386186782" Name="Play_Small_Monster_Bodyfall_Stone" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.2838125" DurationMax="0.38252082">
+					<MediaRefs>
+						<MediaRef Id="252669861"/>
+						<MediaRef Id="640552915"/>
+						<MediaRef Id="660528075"/>
+						<MediaRef Id="928247450"/>
+						<MediaRef Id="1053646953"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1602398710" Name="Play_Small_Monster_Hit" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.23222917" DurationMax="0.2714375">
+					<MediaRefs>
+						<MediaRef Id="197690906"/>
+						<MediaRef Id="204189178"/>
+						<MediaRef Id="474815787"/>
+						<MediaRef Id="607948710"/>
+						<MediaRef Id="659355389"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1809433285" Name="Play_Small_Monster_Run_Mud" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.08035417" DurationMax="0.12083333">
+					<MediaRefs>
+						<MediaRef Id="6026606"/>
+						<MediaRef Id="232677465"/>
+						<MediaRef Id="563449050"/>
+						<MediaRef Id="750813899"/>
+						<MediaRef Id="893127505"/>
+						<MediaRef Id="943625314"/>
+						<MediaRef Id="1007738558"/>
+						<MediaRef Id="1032309566"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3729170868" Name="Play_Small_Monster_Run_Stone" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.055875" DurationMax="0.069125">
+					<MediaRefs>
+						<MediaRef Id="7411264"/>
+						<MediaRef Id="32818868"/>
+						<MediaRef Id="134490721"/>
+						<MediaRef Id="166074887"/>
+						<MediaRef Id="353067285"/>
+						<MediaRef Id="451660734"/>
+						<MediaRef Id="604821713"/>
+						<MediaRef Id="977905503"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="281344347" Name="Play_Small_Monster_Spin" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.16772917" DurationMax="0.35329166">
+					<MediaRefs>
+						<MediaRef Id="263542469"/>
+						<MediaRef Id="307766508"/>
+						<MediaRef Id="585468367"/>
+						<MediaRef Id="677663508"/>
+						<MediaRef Id="678925306"/>
+						<MediaRef Id="803050308"/>
+						<MediaRef Id="927378429"/>
+						<MediaRef Id="955442588"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="237106917" Name="Play_Small_Monster_VOX_Death" MaxAttenuation="5" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="46056053" Name="Play_Small_Monster_VOX_Grunt" MaxAttenuation="5" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="201430788" Name="Play_Small_Monster_VOX_Hit" MaxAttenuation="5" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="41618512" Name="Play_Small_Monster_VOX_Spots" MaxAttenuation="5" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2960261907" Name="Play_Small_Monster_Walk_Mud" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.06789583" DurationMax="0.09147917">
+					<MediaRefs>
+						<MediaRef Id="683535081"/>
+						<MediaRef Id="717116967"/>
+						<MediaRef Id="769651858"/>
+						<MediaRef Id="789824356"/>
+						<MediaRef Id="844663955"/>
+						<MediaRef Id="869639993"/>
+						<MediaRef Id="977113141"/>
+						<MediaRef Id="994727889"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1451592030" Name="Play_Small_Monster_Walk_Stone" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.055875" DurationMax="0.069125">
+					<MediaRefs>
+						<MediaRef Id="308812"/>
+						<MediaRef Id="45533342"/>
+						<MediaRef Id="72306303"/>
+						<MediaRef Id="109905027"/>
+						<MediaRef Id="296594354"/>
+						<MediaRef Id="818125363"/>
+						<MediaRef Id="974521806"/>
+						<MediaRef Id="986255503"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3913336272" Name="Play_Spitter_Attack" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.48422918" DurationMax="0.50675">
+					<MediaRefs>
+						<MediaRef Id="467297718"/>
+						<MediaRef Id="850359613"/>
+						<MediaRef Id="1059727625"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{FD86A4DA-71F0-B16C-8A1F-4C3E0A5DA7D6}</FileHash>
+	<FileHash>{892C106C-1BA3-C3C8-9EBD-9818B879E283}</FileHash>
 </SoundBanksInfo>

@@ -1,6 +1,2256 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{8916B271-FCC3-47E0-83F0-D91580095A54}" SchemaVersion="110" RootDocumentID="{399BE58E-5BEE-470B-9C6B-8BCDF69F5FD2}" ParentDocumentID="{399BE58E-5BEE-470B-9C6B-8BCDF69F5FD2}">
 	<AudioObjects>
-		<WorkUnit Name="MONSTERS" ID="{8916B271-FCC3-47E0-83F0-D91580095A54}" OwnerID="{399BE58E-5BEE-470B-9C6B-8BCDF69F5FD2}" PersistMode="Nested"/>
+		<WorkUnit Name="MONSTERS" ID="{8916B271-FCC3-47E0-83F0-D91580095A54}" OwnerID="{399BE58E-5BEE-470B-9C6B-8BCDF69F5FD2}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="Small_Monster" ID="{1FDC739E-50AC-410A-AE46-60E4C3E36076}" ShortID="252473778">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="5m" ID="{D37D86ED-F239-4657-8E8C-F9B8B15657C2}" WorkUnitID="{B378FA7B-E709-4147-8665-F99F8F07F9BC}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Chomper_Attack" ID="{A12B5B90-5465-4EFF-AEFF-7F80582252B8}" ShortID="884493271">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Chomper_Attack_01" ID="{1FE63A5A-A7C9-4C38-AC5E-8BF5A57035A9}" ShortID="112035388">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Chomper_Attack_01" ID="{9782C073-3F09-4303-90A8-7867421703D8}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Chomper_Attack_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="459153112"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Chomper_Attack_01" ID="{9782C073-3F09-4303-90A8-7867421703D8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Chomper_Attack_02" ID="{3C234BEE-5925-4987-AE5C-3DA6074484A6}" ShortID="965151995">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Chomper_Attack_02" ID="{1CAA57F1-04D1-486D-A9D6-B94E48A79905}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Chomper_Attack_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="173511823"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Chomper_Attack_02" ID="{1CAA57F1-04D1-486D-A9D6-B94E48A79905}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Chomper_Attack_03" ID="{A619A5D0-6FCD-4001-9B1E-694C0A4C75EC}" ShortID="1005154038">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Chomper_Attack_03" ID="{392F0BB3-ECE1-44E3-93ED-F0FC1E5BB93D}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Chomper_Attack_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="197532119"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Chomper_Attack_03" ID="{392F0BB3-ECE1-44E3-93ED-F0FC1E5BB93D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Small_Monster_Bodyfall_Mud" ID="{62C69828-B4FB-4A9D-BA75-C8FFF1BEA27F}" ShortID="684332603">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Small_Monster_Bodyfall_Mud_01" ID="{29F384A1-F131-4300-98A2-D4D336A8BCAC}" ShortID="70199888">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Bodyfall_Mud_01" ID="{F9965879-28E3-498E-BFF4-D24EE5354EB6}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Bodyfall_Mud_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="432061020"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Bodyfall_Mud_01" ID="{F9965879-28E3-498E-BFF4-D24EE5354EB6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Bodyfall_Mud_02" ID="{F498AA4F-000F-43F8-B206-0FDAE5995B07}" ShortID="632995817">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Bodyfall_Mud_02" ID="{96E1E75B-13C7-44CD-85D0-5CBA4BC2A11C}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Bodyfall_Mud_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="742921665"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Bodyfall_Mud_02" ID="{96E1E75B-13C7-44CD-85D0-5CBA4BC2A11C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Bodyfall_Mud_03" ID="{6D6B7DA6-7B24-4060-AD2C-D812DE115B99}" ShortID="958938970">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Bodyfall_Mud_03" ID="{FC7BF832-D9C7-4162-AAD9-BB0140862535}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Bodyfall_Mud_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="263091360"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Bodyfall_Mud_03" ID="{FC7BF832-D9C7-4162-AAD9-BB0140862535}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Bodyfall_Mud_04" ID="{E959DD58-F1EA-4E79-8B60-384E8917E0BE}" ShortID="761475722">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Bodyfall_Mud_04" ID="{2AB3EF9B-D686-463D-91E6-C994875775B6}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Bodyfall_Mud_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="6905508"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Bodyfall_Mud_04" ID="{2AB3EF9B-D686-463D-91E6-C994875775B6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Bodyfall_Mud_05" ID="{8F44269D-4331-4352-BC0A-025DCC48F993}" ShortID="522186088">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Bodyfall_Mud_05" ID="{262032C4-38CB-437C-8EEB-C24FA503E785}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Bodyfall_Mud_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1014235316"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Bodyfall_Mud_05" ID="{262032C4-38CB-437C-8EEB-C24FA503E785}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Small_Monster_Bodyfall_Stone" ID="{066BA538-5C2E-433B-895B-B296A3597108}" ShortID="230047373">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Small_Monster_Bodyfall_Stone_01" ID="{1E27EB52-7761-4E62-8B3F-2CC25EB15CE6}" ShortID="618014974">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Bodyfall_Stone_01" ID="{BED7E112-D452-4CEF-B06F-2482539E946C}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Bodyfall_Stone_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="928247450"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Bodyfall_Stone_01" ID="{BED7E112-D452-4CEF-B06F-2482539E946C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Bodyfall_Stone_02" ID="{32ECEDE4-3B04-4998-BC6A-0FF1EA8B1570}" ShortID="304367600">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Bodyfall_Stone_02" ID="{FF6D7482-CE6E-446F-991C-E571339A1054}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Bodyfall_Stone_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="252669861"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Bodyfall_Stone_02" ID="{FF6D7482-CE6E-446F-991C-E571339A1054}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Bodyfall_Stone_03" ID="{EDD618C2-2824-4AAA-BAD2-F545AAFF0EFF}" ShortID="316335936">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Bodyfall_Stone_03" ID="{A57ED49C-F987-4BFD-9E4D-8261951D297E}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Bodyfall_Stone_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="640552915"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Bodyfall_Stone_03" ID="{A57ED49C-F987-4BFD-9E4D-8261951D297E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Bodyfall_Stone_04" ID="{C257C86C-6090-4C90-8960-FD045C4CB219}" ShortID="196364095">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Bodyfall_Stone_04" ID="{1FE1F565-BA96-4F8F-8184-908B16A6F2E7}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Bodyfall_Stone_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="660528075"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Bodyfall_Stone_04" ID="{1FE1F565-BA96-4F8F-8184-908B16A6F2E7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Bodyfall_Stone_05" ID="{977DD575-C5DE-40F1-A5DC-6389CB90902A}" ShortID="226696683">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Bodyfall_Stone_05" ID="{6065138D-6629-497D-B3B2-02C6C008CC5F}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Bodyfall_Stone_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1053646953"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Bodyfall_Stone_05" ID="{6065138D-6629-497D-B3B2-02C6C008CC5F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Small_Monster_Hit" ID="{283F00DD-4900-4012-8A6C-1389AD04F825}" ShortID="542500484">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Small_Monster_Hit_01" ID="{14543A80-86A6-4F95-B805-394A80B58829}" ShortID="919299466">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Hit_01" ID="{2883CC39-C69D-4309-A4FD-500817948A96}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Hit_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="474815787"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Hit_01" ID="{2883CC39-C69D-4309-A4FD-500817948A96}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Hit_02" ID="{08EA9D2B-2E3F-4745-8C22-D189C6B76B2B}" ShortID="270475920">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Hit_02" ID="{1D90CD8F-8165-424F-92F2-8352AD5DF75E}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Hit_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="204189178"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Hit_02" ID="{1D90CD8F-8165-424F-92F2-8352AD5DF75E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Hit_03" ID="{5C15D050-3A7A-45EF-A9E1-0F5422C3C87E}" ShortID="602401762">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Hit_03" ID="{0BA17C9F-F9D2-4CB0-89D2-65E2E93743BB}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Hit_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="607948710"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Hit_03" ID="{0BA17C9F-F9D2-4CB0-89D2-65E2E93743BB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Hit_04" ID="{BFBB53DF-9536-4D94-B0EB-D68184E67AE8}" ShortID="924302521">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Hit_04" ID="{0A9FE792-7683-4C63-B3A1-6965D794B763}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Hit_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="659355389"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Hit_04" ID="{0A9FE792-7683-4C63-B3A1-6965D794B763}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Hit_05" ID="{F4AE7A2F-4521-4B35-86B8-4EB12EF6C1F9}" ShortID="648913283">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Hit_05" ID="{E408033B-08D4-4534-8FFD-5C3EDC293075}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Hit_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="197690906"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Hit_05" ID="{E408033B-08D4-4534-8FFD-5C3EDC293075}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Small_Monster_Run_Mud" ID="{4BF8C113-AECC-4D23-A0FA-CFFEEF4FF051}" ShortID="332961796">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Small_Monster_Run_Mud_01" ID="{60230A68-8D54-4D59-8763-E197E53B1C1A}" ShortID="84146148">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Run_Mud_01" ID="{4E8EEC1D-DDDD-4228-BFCE-D7010C12CF02}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Run_Mud_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="6026606"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Run_Mud_01" ID="{4E8EEC1D-DDDD-4228-BFCE-D7010C12CF02}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Run_Mud_02" ID="{6322E4A1-3F38-4ACF-BA98-2967AAD91BB8}" ShortID="263644581">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Run_Mud_02" ID="{59CD9675-169C-4E0A-8F87-B2A7CF7E546E}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Run_Mud_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="232677465"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Run_Mud_02" ID="{59CD9675-169C-4E0A-8F87-B2A7CF7E546E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Run_Mud_03" ID="{10CF35AA-ACA7-43CD-91F6-F56C0FE642E4}" ShortID="600559395">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Run_Mud_03" ID="{F280FDB2-3062-426E-A288-261EF1FB60E6}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Run_Mud_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="893127505"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Run_Mud_03" ID="{F280FDB2-3062-426E-A288-261EF1FB60E6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Run_Mud_04" ID="{B7ADBC5A-0791-4819-A697-17DB7439ECB4}" ShortID="980995523">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Run_Mud_04" ID="{DCD1C78F-DD95-435B-BFB1-3B429A344BE1}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Run_Mud_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1007738558"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Run_Mud_04" ID="{DCD1C78F-DD95-435B-BFB1-3B429A344BE1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Run_Mud_05" ID="{9F902CF0-F45B-4542-89B3-C17A16B40C7E}" ShortID="748293712">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Run_Mud_05" ID="{06606DD1-458F-481A-BDB2-0DEA87923B5F}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Run_Mud_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="563449050"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Run_Mud_05" ID="{06606DD1-458F-481A-BDB2-0DEA87923B5F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Run_Mud_06" ID="{EFC78890-C3AD-4496-B932-AD889B8A0197}" ShortID="779792203">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Run_Mud_06" ID="{887AEE61-5242-4538-BCD8-5C809A4CE87C}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Run_Mud_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="750813899"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Run_Mud_06" ID="{887AEE61-5242-4538-BCD8-5C809A4CE87C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Run_Mud_07" ID="{4F9768E1-4E27-443C-95D5-7E25BABBEB42}" ShortID="499125021">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Run_Mud_07" ID="{01B635ED-5BFA-42F4-8202-C5BA9CC8DF70}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Run_Mud_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1032309566"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Run_Mud_07" ID="{01B635ED-5BFA-42F4-8202-C5BA9CC8DF70}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Run_Mud_08" ID="{ECE4A388-1839-43DD-81EB-5179FAD26012}" ShortID="394226960">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Run_Mud_08" ID="{626A7CCC-370D-4D50-B8F9-202904AF735A}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Run_Mud_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="943625314"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Run_Mud_08" ID="{626A7CCC-370D-4D50-B8F9-202904AF735A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Small_Monster_Run_Stone" ID="{1174CA3A-512B-4B76-9DA0-8D1B91F7F3C1}" ShortID="822155719">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Small_Monster_Run_Stone_01" ID="{3A0EA96F-EE7F-43F9-82B0-023896788CCC}" ShortID="815804498">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Run_Stone_01" ID="{74267455-6AAF-443F-8CF2-36FE223F8A02}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Run_Stone_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="353067285"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Run_Stone_01" ID="{74267455-6AAF-443F-8CF2-36FE223F8A02}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Run_Stone_02" ID="{35037B50-1A8D-46AF-9D60-0005DDDEDB33}" ShortID="456672435">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Run_Stone_02" ID="{4A19DDB9-6572-4FBD-93D7-5F6CACFC49D4}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Run_Stone_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="604821713"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Run_Stone_02" ID="{4A19DDB9-6572-4FBD-93D7-5F6CACFC49D4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Run_Stone_03" ID="{C370DDE8-10FF-47D8-B8E0-8275E7CF20B3}" ShortID="146816878">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Run_Stone_03" ID="{3ACF60B9-C3B6-4016-B5D7-AF41FF92D0BD}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Run_Stone_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="32818868"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Run_Stone_03" ID="{3ACF60B9-C3B6-4016-B5D7-AF41FF92D0BD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Run_Stone_04" ID="{F092B7F0-3B38-48A9-8020-1B24439DEE67}" ShortID="125742836">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Run_Stone_04" ID="{F1341AC9-5F9C-4DDA-9DD4-CB4AC53CBA9C}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Run_Stone_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="134490721"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Run_Stone_04" ID="{F1341AC9-5F9C-4DDA-9DD4-CB4AC53CBA9C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Run_Stone_05" ID="{708BECFA-F751-4C17-866C-7207C972F2E4}" ShortID="435896768">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Run_Stone_05" ID="{1C8F1B1F-41B7-4838-9F84-65CE3D2CA853}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Run_Stone_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="977905503"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Run_Stone_05" ID="{1C8F1B1F-41B7-4838-9F84-65CE3D2CA853}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Run_Stone_06" ID="{DA9E9734-F24C-4799-BCFA-F59759FA57E7}" ShortID="72422623">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Run_Stone_06" ID="{2482C95F-112C-473E-85A4-9A881DA62947}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Run_Stone_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="7411264"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Run_Stone_06" ID="{2482C95F-112C-473E-85A4-9A881DA62947}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Run_Stone_07" ID="{5695420E-6FA5-49F0-B582-E8053C31650A}" ShortID="814385747">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Run_Stone_07" ID="{0D50D9A1-DBAE-485D-87A8-62ABA39E78BF}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Run_Stone_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="166074887"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Run_Stone_07" ID="{0D50D9A1-DBAE-485D-87A8-62ABA39E78BF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Run_Stone_08" ID="{80DD1753-2900-4806-AE20-BA5213F28189}" ShortID="647691291">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Run_Stone_08" ID="{18216771-6265-4D62-B9A1-3F989E47F915}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Run_Stone_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="451660734"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Run_Stone_08" ID="{18216771-6265-4D62-B9A1-3F989E47F915}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Small_Monster_Spin" ID="{CBF0FFF8-779C-4C12-A09D-26A985600D7A}" ShortID="875161129">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Small_Monster_Spin_01" ID="{8DF3CAEB-7089-4961-B725-1056BCD748A8}" ShortID="259092759">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Spin_01" ID="{EAF09CD2-D0A1-4447-AC54-97AD322D533E}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Spin_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="803050308"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Spin_01" ID="{EAF09CD2-D0A1-4447-AC54-97AD322D533E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Spin_02" ID="{53C14DAC-E374-48A6-BB81-0AA842EEED67}" ShortID="606718979">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Spin_02" ID="{0023F086-7FAC-4DC9-A676-1A8FD40F8E83}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Spin_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="307766508"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Spin_02" ID="{0023F086-7FAC-4DC9-A676-1A8FD40F8E83}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Spin_03" ID="{5888EB84-D6C3-48ED-AF88-451EFA9E7722}" ShortID="845692352">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Spin_03" ID="{369F54C9-CFEF-4132-8A0E-1AE6490F4A2E}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Spin_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="955442588"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Spin_03" ID="{369F54C9-CFEF-4132-8A0E-1AE6490F4A2E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Spin_04" ID="{1B871FE8-F88B-4739-B946-9BB77F9E54DF}" ShortID="779128584">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Spin_04" ID="{BFA171B0-E0C1-464D-BDFD-F2317FB1873C}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Spin_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="585468367"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Spin_04" ID="{BFA171B0-E0C1-464D-BDFD-F2317FB1873C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Spin_05" ID="{911A5BF6-5B4C-4C6A-A5F2-C78DFBCCE7E7}" ShortID="376032442">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Spin_05" ID="{F49F2A36-F2EC-49E3-A136-507F70FB3888}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Spin_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="927378429"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Spin_05" ID="{F49F2A36-F2EC-49E3-A136-507F70FB3888}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Spin_06" ID="{D98A1400-A6B9-47AE-A02B-8B5E96BB99C3}" ShortID="438816654">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Spin_06" ID="{1F34E2F3-1EF9-45EB-BE40-B9CFBFDE3581}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Spin_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="263542469"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Spin_06" ID="{1F34E2F3-1EF9-45EB-BE40-B9CFBFDE3581}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Spin_07" ID="{F0FE929D-ECF1-411F-B2B7-F38773DE7771}" ShortID="286167495">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Spin_07" ID="{B9C6798E-55FE-40FE-86BC-81BD2AAFC784}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Spin_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="677663508"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Spin_07" ID="{B9C6798E-55FE-40FE-86BC-81BD2AAFC784}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Spin_08" ID="{F5C1B7C1-7C6C-44EB-BFE6-75FCBD1C9719}" ShortID="762527541">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Spin_08" ID="{7CBB15B5-9F8C-4D3F-AC83-9ADD37C4DB45}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Spin_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="678925306"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Spin_08" ID="{7CBB15B5-9F8C-4D3F-AC83-9ADD37C4DB45}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Small_Monster_Walk_Mud" ID="{3B28C17E-0138-4C3F-9F9D-5D6E07016E16}" ShortID="239131143">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Small_Monster_Walk_Mud_01" ID="{77FA7A4D-4590-4636-BBEA-32A0B6E6C815}" ShortID="399249426">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Walk_Mud_01" ID="{8A3A900E-D29C-4DC6-BE7C-7465B5332F6E}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Walk_Mud_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="844663955"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Walk_Mud_01" ID="{8A3A900E-D29C-4DC6-BE7C-7465B5332F6E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Walk_Mud_02" ID="{A2506BFB-312B-4991-9091-86EB0CCEB664}" ShortID="741363561">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Walk_Mud_02" ID="{C604843B-E02D-4967-8FC7-11A3D8183EE0}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Walk_Mud_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="769651858"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Walk_Mud_02" ID="{C604843B-E02D-4967-8FC7-11A3D8183EE0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Walk_Mud_03" ID="{5BBE6E02-701F-459E-80F0-CF1AA3830B42}" ShortID="416870477">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Walk_Mud_03" ID="{81CA8308-6A7A-42B9-8C5F-ACABF8844634}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Walk_Mud_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="869639993"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Walk_Mud_03" ID="{81CA8308-6A7A-42B9-8C5F-ACABF8844634}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Walk_Mud_04" ID="{62C22228-7CE3-4379-BF31-25B09E2383D8}" ShortID="602686255">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Walk_Mud_04" ID="{4EE599F9-8E03-47EF-84FF-4222038D5FF7}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Walk_Mud_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="994727889"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Walk_Mud_04" ID="{4EE599F9-8E03-47EF-84FF-4222038D5FF7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Walk_Mud_05" ID="{CD34DC93-1348-495D-880A-5F5543E450BF}" ShortID="76303768">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Walk_Mud_05" ID="{2B2F236B-C81E-4531-8626-2F76B0FC7041}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Walk_Mud_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="683535081"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Walk_Mud_05" ID="{2B2F236B-C81E-4531-8626-2F76B0FC7041}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Walk_Mud_06" ID="{2B07A5A1-3FA6-44CB-8F92-DDBBC15B4097}" ShortID="129439012">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Walk_Mud_06" ID="{1B48E629-5915-4A3A-9A8F-0864603EBB06}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Walk_Mud_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="789824356"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Walk_Mud_06" ID="{1B48E629-5915-4A3A-9A8F-0864603EBB06}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Walk_Mud_07" ID="{C07FD605-BD91-455A-B418-3B08DA0CBE9D}" ShortID="415115929">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Walk_Mud_07" ID="{21679A6D-77E0-494E-8FAF-FB8C37A68C75}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Walk_Mud_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="977113141"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Walk_Mud_07" ID="{21679A6D-77E0-494E-8FAF-FB8C37A68C75}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Walk_Mud_08" ID="{151C70D0-1231-45EB-B625-B08D0645C5E7}" ShortID="96589775">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Walk_Mud_08" ID="{FDBFDBEA-8D0D-44AD-8C76-2C36FE9851F3}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Walk_Mud_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="717116967"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Walk_Mud_08" ID="{FDBFDBEA-8D0D-44AD-8C76-2C36FE9851F3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Small_Monster_Walk_Stone" ID="{363F78B0-C49A-48D0-9627-255A3436046A}" ShortID="405232071">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Small_Monster_Walk_Stone_01" ID="{94D1FDAF-BA5D-4EF3-A155-9B472A04A2B0}" ShortID="931190015">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Walk_Stone_01" ID="{68A9E3E4-7262-4ADB-96EE-1EC14662A5E2}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Walk_Stone_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="72306303"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Walk_Stone_01" ID="{68A9E3E4-7262-4ADB-96EE-1EC14662A5E2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Walk_Stone_02" ID="{8921A094-DA0A-4016-BC70-53E4A3D5E58A}" ShortID="48765571">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Walk_Stone_02" ID="{841072E8-83C2-40F2-B263-8278A7E99CFE}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Walk_Stone_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="296594354"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Walk_Stone_02" ID="{841072E8-83C2-40F2-B263-8278A7E99CFE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Walk_Stone_03" ID="{BFC5AE03-ECF7-46E5-83E5-884ECBEE102F}" ShortID="448387852">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Walk_Stone_03" ID="{271C28E9-7133-40EA-875C-81B8899EB31E}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Walk_Stone_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="986255503"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Walk_Stone_03" ID="{271C28E9-7133-40EA-875C-81B8899EB31E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Walk_Stone_04" ID="{4AC56CE5-93E5-4651-9ECF-61A868AD76F8}" ShortID="768813935">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Walk_Stone_04" ID="{E98215BF-7E4F-4BE7-8636-547CD883B245}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Walk_Stone_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="308812"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Walk_Stone_04" ID="{E98215BF-7E4F-4BE7-8636-547CD883B245}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Walk_Stone_05" ID="{AE7D4289-E2C0-4DC6-9A08-E353C8E934E4}" ShortID="565798835">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Walk_Stone_05" ID="{D455C434-19CA-4CBB-B4AD-BC0928ADA343}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Walk_Stone_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="109905027"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Walk_Stone_05" ID="{D455C434-19CA-4CBB-B4AD-BC0928ADA343}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Walk_Stone_06" ID="{5E553BB7-2EF1-4284-BE12-C7791A664570}" ShortID="299409706">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Walk_Stone_06" ID="{8529F6B3-EDB5-4513-83E1-6DC78531B175}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Walk_Stone_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="974521806"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Walk_Stone_06" ID="{8529F6B3-EDB5-4513-83E1-6DC78531B175}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Walk_Stone_07" ID="{CEB581CF-649E-4C4E-AC4E-6A116673190B}" ShortID="892129524">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Walk_Stone_07" ID="{8F6A1C47-919F-40A0-B8C1-98A76D69CEDC}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Walk_Stone_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="818125363"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Walk_Stone_07" ID="{8F6A1C47-919F-40A0-B8C1-98A76D69CEDC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small_Monster_Walk_Stone_08" ID="{381A9571-421F-4F86-8774-D244737B1F0B}" ShortID="158376328">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small_Monster_Walk_Stone_08" ID="{D1495347-B89B-49A2-9498-C3A091CDDA2E}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Small_Monster_Walk_Stone_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="45533342"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small_Monster_Walk_Stone_08" ID="{D1495347-B89B-49A2-9498-C3A091CDDA2E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Spitter_Attack" ID="{F8615E3F-4014-4BE6-A93D-E51567D3993A}" ShortID="377437283">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="10m" ID="{7B55A2EC-035A-4F2D-ABF0-2DBDBF6B0BDE}" WorkUnitID="{B378FA7B-E709-4147-8665-F99F8F07F9BC}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Spitter_Attack_01" ID="{FDAB6D43-B173-4103-BF74-759724523F09}" ShortID="915163753">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Spitter_Attack_01" ID="{225A38EB-A193-4900-8227-5CC46FB3185D}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Spitter_Attack_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="850359613"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Spitter_Attack_01" ID="{225A38EB-A193-4900-8227-5CC46FB3185D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Spitter_Attack_02" ID="{6F199647-31FB-4FC5-BA88-D44FD7B3C093}" ShortID="507998472">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Spitter_Attack_02" ID="{4A8EB3C5-E313-495B-9A4D-B87EF1D35181}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Spitter_Attack_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="467297718"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Spitter_Attack_02" ID="{4A8EB3C5-E313-495B-9A4D-B87EF1D35181}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Spitter_Attack_03" ID="{7896CBF4-D653-4403-97D8-A9A95411C496}" ShortID="238432361">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Spitter_Attack_03" ID="{0C48037C-CBC6-4F11-B0F3-FBC9979B5FED}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\Spitter_Attack_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1059727625"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Spitter_Attack_03" ID="{0C48037C-CBC6-4F11-B0F3-FBC9979B5FED}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<SwitchContainer Name="Small_Monster_VOX_Death" ID="{D618184E-1716-4C82-9A66-78A6B9D1CDF4}" ShortID="639762940">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Chomper_VOX_Death" ID="{69012696-855B-419F-950C-027DD21E4BC3}" ShortID="978041065">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Chomper_VOX_Death_01" ID="{F6BC292B-ACB2-415F-85AC-DF50796913A3}" ShortID="41427282">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_VOX_Death_01" ID="{4FE55D04-BEFC-423D-9082-94ED97C96EB5}">
+													<Language>SFX</Language>
+													<AudioFile>Export 12012023 V2\Chomper_VOX_Death_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="730627869"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_VOX_Death_01" ID="{4FE55D04-BEFC-423D-9082-94ED97C96EB5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_VOX_Death_02" ID="{EA9F473E-EBB1-43DF-BB8C-D2B79E96D9CE}" ShortID="481236500">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_VOX_Death_02" ID="{80FA059E-1826-436F-A433-F3E7995A5474}">
+													<Language>SFX</Language>
+													<AudioFile>Export 12012023 V2\Chomper_VOX_Death_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="647091187"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_VOX_Death_02" ID="{80FA059E-1826-436F-A433-F3E7995A5474}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_VOX_Death_03" ID="{A90E4094-5290-4F52-ABB7-E9A4F71FAC6D}" ShortID="540788700">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_VOX_Death_03" ID="{7B555B44-3E8F-45DC-B73E-4BC86FD23038}">
+													<Language>SFX</Language>
+													<AudioFile>Export 12012023 V2\Chomper_VOX_Death_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="155876307"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_VOX_Death_03" ID="{7B555B44-3E8F-45DC-B73E-4BC86FD23038}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Spitter_VOX_Death" ID="{B21DBF93-4615-4D8A-9A70-D62A39A36E69}" ShortID="695878911">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Spitter_VOX_Death_01" ID="{B6343CC1-B117-45C8-A25F-D04170152D37}" ShortID="293417726">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Spitter_VOX_Death_01" ID="{AB4C9DC9-76E6-4016-A905-1D3CE797710A}">
+													<Language>SFX</Language>
+													<AudioFile>Export 12012023 V2\Spitter_VOX_Death_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="616368294"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Spitter_VOX_Death_01" ID="{AB4C9DC9-76E6-4016-A905-1D3CE797710A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Spitter_VOX_Death_02" ID="{0B1A04E2-2A7B-412D-A07A-E35E877579E3}" ShortID="68725424">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Spitter_VOX_Death_02" ID="{F10C4A55-7227-48BF-9972-1A733156F60E}">
+													<Language>SFX</Language>
+													<AudioFile>Export 12012023 V2\Spitter_VOX_Death_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="289870512"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Spitter_VOX_Death_02" ID="{F10C4A55-7227-48BF-9972-1A733156F60E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Spitter_VOX_Death_03" ID="{887C9968-D6ED-4DF7-A745-6FBC255DF311}" ShortID="1067419262">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Spitter_VOX_Death_03" ID="{1AC2AABB-1B16-46BF-A9FB-8360DC3111D9}">
+													<Language>SFX</Language>
+													<AudioFile>Export 12012023 V2\Spitter_VOX_Death_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="32384121"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Spitter_VOX_Death_03" ID="{1AC2AABB-1B16-46BF-A9FB-8360DC3111D9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Spitter_VOX_Death" ID="{B21DBF93-4615-4D8A-9A70-D62A39A36E69}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Chomper_VOX_Death" ID="{69012696-855B-419F-950C-027DD21E4BC3}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="Small_Monster_VOX_Grunt" ID="{3211DE3A-4416-45C2-8060-7B7F0BF6AAB8}" ShortID="972650810">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Chomper_VOX_Grunt" ID="{26F6782B-B2A1-4DE1-AC5A-3DED512E26D2}" ShortID="544992180">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Chomper_VOX_Grunt_01" ID="{0E9929DD-669A-4F26-A387-DC918D78C29C}" ShortID="289452242">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_VOX_Grunt_01" ID="{F9F5B212-3AB5-48A2-87BE-04FAC5F8EB7F}">
+													<Language>SFX</Language>
+													<AudioFile>Export 12012023 V2\Chomper_VOX_Grunt_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="236583307"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_VOX_Grunt_01" ID="{F9F5B212-3AB5-48A2-87BE-04FAC5F8EB7F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_VOX_Grunt_02" ID="{7AD73F72-42C4-4911-BCF7-22131F3F4AEC}" ShortID="845505957">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_VOX_Grunt_02" ID="{47AF73DC-21A0-4E2E-AFF5-E66816B7BDDB}">
+													<Language>SFX</Language>
+													<AudioFile>Export 12012023 V2\Chomper_VOX_Grunt_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="636912088"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_VOX_Grunt_02" ID="{47AF73DC-21A0-4E2E-AFF5-E66816B7BDDB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_VOX_Grunt_03" ID="{500C0078-5BCA-4088-BD48-75B87BA77202}" ShortID="565566786">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_VOX_Grunt_03" ID="{EF727D2C-9007-4E6A-8DA2-A5318A861519}">
+													<Language>SFX</Language>
+													<AudioFile>Export 12012023 V2\Chomper_VOX_Grunt_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="946323943"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_VOX_Grunt_03" ID="{EF727D2C-9007-4E6A-8DA2-A5318A861519}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Spitter_VOX_Grunt" ID="{9D0F6EDD-9CBC-492E-902B-F92E5F44072F}" ShortID="881849183">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Spitter_VOX_Grunt_02" ID="{764750AB-F31A-45C3-82C4-3A39AB95FDF1}" ShortID="231444436">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Spitter_VOX_Grunt_02" ID="{066CEAAD-05F0-4AF4-AB41-0DC4987CD0DF}">
+													<Language>SFX</Language>
+													<AudioFile>Export 12012023 V2\Spitter_VOX_Grunt_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="109188083"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Spitter_VOX_Grunt_02" ID="{066CEAAD-05F0-4AF4-AB41-0DC4987CD0DF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Spitter_VOX_Grunt_03" ID="{3C1AC48B-A00C-42EB-8A2F-40FE08783156}" ShortID="526712081">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Spitter_VOX_Grunt_03" ID="{CCCF2176-027F-47A2-922F-00BF471BA7B0}">
+													<Language>SFX</Language>
+													<AudioFile>Export 12012023 V2\Spitter_VOX_Grunt_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="465465323"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Spitter_VOX_Grunt_03" ID="{CCCF2176-027F-47A2-922F-00BF471BA7B0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Spitter_VOX_Grunt_04" ID="{8EC3C9BA-3D3F-4610-AF8C-CC0F1BFE079B}" ShortID="617204216">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Spitter_VOX_Grunt_04" ID="{2EA95F39-68A6-43BD-9349-E2507CDCAEC5}">
+													<Language>SFX</Language>
+													<AudioFile>Export 12012023 V2\Spitter_VOX_Grunt_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1064310434"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Spitter_VOX_Grunt_04" ID="{2EA95F39-68A6-43BD-9349-E2507CDCAEC5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Chomper_VOX_Grunt" ID="{26F6782B-B2A1-4DE1-AC5A-3DED512E26D2}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Spitter_VOX_Grunt" ID="{9D0F6EDD-9CBC-492E-902B-F92E5F44072F}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="Small_Monster_VOX_Hit" ID="{CD7457D5-FC76-4383-AD19-FF93EF362947}" ShortID="890124507">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Chomper_VOX_Hit" ID="{4ECB3D93-ED0D-4852-9B3F-C3F43C965C93}" ShortID="751031516">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Chomper_VOX_Hit_01" ID="{40FE85FB-BD72-48AC-B763-47F3C4EFEDB2}" ShortID="750081524">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_VOX_Hit_01" ID="{EECEA228-5437-4B7D-BF9D-F1B7FEC40C1E}">
+													<Language>SFX</Language>
+													<AudioFile>Export 12012023 V2\Chomper_VOX_Hit_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="238314850"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_VOX_Hit_01" ID="{EECEA228-5437-4B7D-BF9D-F1B7FEC40C1E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_VOX_Hit_02" ID="{A284AD3E-5648-46C9-8CAF-239F62E6B713}" ShortID="302080043">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_VOX_Hit_02" ID="{D09961E1-7B89-4AF5-B3FF-06CA5594DC84}">
+													<Language>SFX</Language>
+													<AudioFile>Export 12012023 V2\Chomper_VOX_Hit_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="801414709"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_VOX_Hit_02" ID="{D09961E1-7B89-4AF5-B3FF-06CA5594DC84}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_VOX_Hit_03" ID="{0FA7B459-0837-46B7-A972-9A9A6FFB1D84}" ShortID="149438839">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_VOX_Hit_03" ID="{0A37FEF8-A974-4460-AC53-95B5AB1E90A6}">
+													<Language>SFX</Language>
+													<AudioFile>Export 12012023 V2\Chomper_VOX_Hit_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="242971882"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_VOX_Hit_03" ID="{0A37FEF8-A974-4460-AC53-95B5AB1E90A6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Spitter_VOX_Hit" ID="{2C70DF73-A1E9-4F91-9879-8CDA579F3B63}" ShortID="778212276">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Spitter_VOX_Hit_01" ID="{4DF65360-5B22-46E2-90D8-EBC8D47D0527}" ShortID="487963457">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Spitter_VOX_Hit_01" ID="{0CEFD968-7A74-4B90-8008-BDF38C8C0ACE}">
+													<Language>SFX</Language>
+													<AudioFile>Export 12012023 V2\Spitter_VOX_Hit_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="227135645"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Spitter_VOX_Hit_01" ID="{0CEFD968-7A74-4B90-8008-BDF38C8C0ACE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Spitter_VOX_Hit_02" ID="{31384267-CF13-49E2-B160-E4103C296A09}" ShortID="703806594">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Spitter_VOX_Hit_02" ID="{2F2CBC8A-561C-4207-94DF-33383E05FF19}">
+													<Language>SFX</Language>
+													<AudioFile>Export 12012023 V2\Spitter_VOX_Hit_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="32594970"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Spitter_VOX_Hit_02" ID="{2F2CBC8A-561C-4207-94DF-33383E05FF19}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Spitter_VOX_Hit_03" ID="{BE64811A-C427-471E-BCE1-C8FBDC1746CB}" ShortID="889216310">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Spitter_VOX_Hit_03" ID="{F74603C0-90D4-4F53-9F17-B441DBF28E36}">
+													<Language>SFX</Language>
+													<AudioFile>Export 12012023 V2\Spitter_VOX_Hit_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="858529727"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Spitter_VOX_Hit_03" ID="{F74603C0-90D4-4F53-9F17-B441DBF28E36}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Spitter_VOX_Hit" ID="{2C70DF73-A1E9-4F91-9879-8CDA579F3B63}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Chomper_VOX_Hit" ID="{4ECB3D93-ED0D-4852-9B3F-C3F43C965C93}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="Small_Monster_VOX_Spots" ID="{32E6E5C7-87B5-471A-BC06-F83DCD8550C3}" ShortID="863264543">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Chomper_VOX_Spot_Player" ID="{FEB2AE05-28E8-465B-9B6A-89B196B58E33}" ShortID="567657202">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Chomper_VOX_Spot_Player_01" ID="{B2368BDB-B6F1-48E9-B464-C311226783B8}" ShortID="290099101">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_VOX_Spot_Player_01" ID="{FF6A9D9E-A152-4E28-96A1-6A8C21534EEE}">
+													<Language>SFX</Language>
+													<AudioFile>Export 12012023 V2\Chomper_VOX_Spot_Player_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="286851709"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_VOX_Spot_Player_01" ID="{FF6A9D9E-A152-4E28-96A1-6A8C21534EEE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_VOX_Spot_Player_02" ID="{F0BD2039-1DC3-498D-95C9-42CD13A35D28}" ShortID="181903532">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_VOX_Spot_Player_02" ID="{4E817F0C-EE16-4B50-BE60-475E3BEC6873}">
+													<Language>SFX</Language>
+													<AudioFile>Export 12012023 V2\Chomper_VOX_Spot_Player_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="226662207"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_VOX_Spot_Player_02" ID="{4E817F0C-EE16-4B50-BE60-475E3BEC6873}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_VOX_Spot_Player_03" ID="{F88C59B9-DA86-48B2-A04B-240DF09AF7D1}" ShortID="816052436">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_VOX_Spot_Player_03" ID="{58241BF1-6A44-4B90-BB90-DE0E69CF0DAF}">
+													<Language>SFX</Language>
+													<AudioFile>Export 12012023 V2\Chomper_VOX_Spot_Player_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="667477966"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_VOX_Spot_Player_03" ID="{58241BF1-6A44-4B90-BB90-DE0E69CF0DAF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Spitter_VOX_Spot_Player" ID="{EAD8A1C9-1C48-421E-8FB6-2BCC900C93F8}" ShortID="802560850">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Spitter_VOX_Spot_Player_01" ID="{B47F3420-3D8A-4F57-AD38-9BA3F12C0835}" ShortID="156001297">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Spitter_VOX_Spot_Player_01" ID="{5DEEB08F-41C1-4F50-8BC8-0C8FB3A86C45}">
+													<Language>SFX</Language>
+													<AudioFile>Export 12012023 V2\Spitter_VOX_Spot_Player_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="199863261"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Spitter_VOX_Spot_Player_01" ID="{5DEEB08F-41C1-4F50-8BC8-0C8FB3A86C45}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Spitter_VOX_Spot_Player_02" ID="{6FB549C6-E946-4BF4-A2B4-084F1A8B6100}" ShortID="712650760">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Spitter_VOX_Spot_Player_02" ID="{8C4A4C7E-2BF1-4A03-A1AF-50536A070979}">
+													<Language>SFX</Language>
+													<AudioFile>Export 12012023 V2\Spitter_VOX_Spot_Player_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="94009858"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Spitter_VOX_Spot_Player_02" ID="{8C4A4C7E-2BF1-4A03-A1AF-50536A070979}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Spitter_VOX_Spot_Player_03" ID="{9A1617DB-DE7A-49FC-92E2-CD3FE371E813}" ShortID="545722488">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Spitter_VOX_Spot_Player_03" ID="{102E3237-7FF3-4C45-BA61-1A4743275C30}">
+													<Language>SFX</Language>
+													<AudioFile>Export 12012023 V2\Spitter_VOX_Spot_Player_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="479851382"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Spitter_VOX_Spot_Player_03" ID="{102E3237-7FF3-4C45-BA61-1A4743275C30}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Chomper_VOX_Spot_Player" ID="{FEB2AE05-28E8-465B-9B6A-89B196B58E33}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Spitter_VOX_Spot_Player" ID="{EAD8A1C9-1C48-421E-8FB6-2BCC900C93F8}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<Sound Name="Chomper_VOX_Before_Attack" ID="{8501019A-02EB-43E5-BBD0-CAF22164B66D}" ShortID="439280490">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Chomper_VOX_Before_Attack" ID="{2FF1F3EC-CC73-4351-8AFE-E77D70090176}">
+									<Language>SFX</Language>
+									<AudioFile>Export 12012023 V2\Chomper_VOX_Before_Attack.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="312669986"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Chomper_VOX_Before_Attack" ID="{2FF1F3EC-CC73-4351-8AFE-E77D70090176}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Monster_Vanish" ID="{7DE49E3F-8B53-480E-B2A7-58660927E1A1}" ShortID="746356147">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Monster_Vanish" ID="{62191D26-2AA8-4CB3-B66C-5BEC7BD87A95}">
+									<Language>SFX</Language>
+									<AudioFile>Export 12012023 V2\Monster_Vanish.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="372411582"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Monster_Vanish" ID="{62191D26-2AA8-4CB3-B66C-5BEC7BD87A95}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

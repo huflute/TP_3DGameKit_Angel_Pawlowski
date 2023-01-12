@@ -1,0 +1,17 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2193989514	Play_UI_Navigate			\Default Work Unit\UI\Play_UI_Navigate	
+	2377842133	Play_UI_Press_Play			\Default Work Unit\UI\Play_UI_Press_Play	
+	3014998451	Play_UI_Press_Other			\Default Work Unit\UI\Play_UI_Press_Other	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	113960607	UI_Press_Other_03	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023\UI_Press_Other_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Press_Other\UI_Press_Other_03		95996
+	206713154	UI_Press_Other_01	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023\UI_Press_Other_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Press_Other\UI_Press_Other_01		96002
+	257203319	UI_Press_Play	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023\UI_Press_Play_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Press_Play		214496
+	282488086	UI_Navigate_02	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023\UI_Navigate_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Navigate\UI_Navigate_02		183500
+	513326582	UI_Navigate_04	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023\UI_Navigate_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Navigate\UI_Navigate_04		183500
+	785198687	UI_Navigate_06	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023\UI_Navigate_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Navigate\UI_Navigate_06		183500
+	858208559	UI_Press_Other_02	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023\UI_Press_Other_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Press_Other\UI_Press_Other_02		96014
+	922503960	UI_Navigate_05	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023\UI_Navigate_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Navigate\UI_Navigate_05		183500
+	943973925	UI_Navigate_03	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023\UI_Navigate_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Navigate\UI_Navigate_03		183500
+	1010708591	UI_Navigate_01	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023\UI_Navigate_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Navigate\UI_Navigate_01		183500
+
