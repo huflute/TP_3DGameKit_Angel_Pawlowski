@@ -29,11 +29,14 @@ Event	ID	Name			Wwise Object Path	Notes
 	1338193862	Play_Small_Monster_Run			\Default Work Unit\Monsters\Small_Monsters\FT\Play_Small_Monster_Run	
 	1427652232	Play_Small_Monster_Walk			\Default Work Unit\Monsters\Small_Monsters\FT\Play_Small_Monster_Walk	
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 	1478900583	Play_AMB_Swamp_01			\Default Work Unit\Play_AMB_Swamp_01	
 =======
 	1473624415	Stop_Switch_Crystals_Idle			\Default Work Unit\Switch\Crystal\Stop_Switch_Crystals_Idle	
 >>>>>>> c0b298ce94798c725f821fad561bb2be885ca8d7
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 	1540365902	Play_MC_FOL_Roll			\Default Work Unit\MC\FOL_Events\Play_MC_FOL_Roll	
@@ -51,14 +54,20 @@ Event	ID	Name			Wwise Object Path	Notes
 	2354689276	Play_Grenadier_Movement_Fast			\Default Work Unit\Monsters\Big_Monster\Play_Grenadier_Movement_Fast	
 	2377842133	Play_UI_Press_Play			\Default Work Unit\UI\Play_UI_Press_Play	
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 	2425561832	Play_AMB_Loop_Wind_Gust_01			\Default Work Unit\AMB\Wind\Play_AMB_Loop_Wind_Gust_01	
 >>>>>>> Stashed changes
 	2468740206	Play_Whoosh_Text_Appear			\Default Work Unit\UI\Text\Play_Whoosh_Text_Appear	
 	2556341799	Play_Switch_Stone_Activation			\Default Work Unit\Switch\Stone\Play_Switch_Stone_Activation	
 	2863201769	Stop_Teleporter_Idle			\Default Work Unit\Environment\Teleporter\Stop_Teleporter_Idle	
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 	3013028862	Play_Switch_Crystals_Idle_AfterActivation			\Default Work Unit\Switch\Play_Switch_Crystals_Idle_AfterActivation	
 >>>>>>> Stashed changes
 	3014998451	Play_UI_Press_Other			\Default Work Unit\UI\Play_UI_Press_Other	
@@ -67,7 +76,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	3056483954	Play_RFX_Computer			\Default Work Unit\AMB\Spaceship\Play_RFX_Computer	
 	3179497032	Play_Small_Monster_Bodyfall			\Default Work Unit\Monsters\Small_Monsters\Combat\Play_Small_Monster_Bodyfall	
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 	3192261611	Stop_Switch_Crystals_Idle_BeforeActivation			\Default Work Unit\Switch\Stop_Switch_Crystals_Idle_BeforeActivation	
 >>>>>>> Stashed changes
 	3212184235	Play_MC_FOL_Jump			\Default Work Unit\MC\FOL_Events\Play_MC_FOL_Jump	
@@ -112,7 +124,10 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 	308812	Small_Monster_Walk_Stone_04	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Small_Monster_Walk_Stone_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_Walk\Small_Monster_Walk_Stone\Small_Monster_Walk_Stone_04		6364
@@ -126,8 +141,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	22562009	MC_VOX_Death_01	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\MC_VOX_Death_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\Vox\MC_Vox_Death\MC_VOX_Death_01		113198
 	23780608	MC_FT_Jump_Grass_04	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\MC_FT_Jump_Grass_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\Footsteps\MC_Jump\MC_Jump_Grass\MC_FT_Jump_Grass_04		53640
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	32384121	Spitter_VOX_Death_03	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Spitter_VOX_Death_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_VOX_Death\Spitter_VOX_Death\Spitter_VOX_Death_03		66010
 	32594970	Spitter_VOX_Hit_02	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Spitter_VOX_Hit_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_VOX_Hit\Spitter_VOX_Hit\Spitter_VOX_Hit_02		47538
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 	32818868	Small_Monster_Run_Stone_03	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Small_Monster_Run_Stone_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_Run\Small_Monster_Run_Stone\Small_Monster_Run_Stone_03		5516
@@ -141,7 +159,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	67000485	Grenadier_Movement_Slow_04	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Grenadier\Grenadier_Movement_Slow_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Big_Monster\Presence\Grenadier_Movement_Slow\Grenadier_Movement_Slow_04		148388
 	72306303	Small_Monster_Walk_Stone_01	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Small_Monster_Walk_Stone_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_Walk\Small_Monster_Walk_Stone\Small_Monster_Walk_Stone_01		5460
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	79344577	Small_Monster_Walk_Grass_03	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Small_Monster_Walk_Grass_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_Walk\Small_Monster_Walk_Grass\Small_Monster_Walk_Grass_03		54496
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 	81104124	MC_FOL_Attack_01	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\MC_FOL_Attack_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\Foley\MC_FOL_Attack\MC_FOL_Attack_01		28686
@@ -164,8 +185,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	148697940	Grenadier_FT_Heavy_05	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Grenadier\Grenadier_FT_Heavy_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Big_Monster\Presence\Grenadier_FT_Heavy\Grenadier_FT_Heavy_05		230600
 	152923792	MC_FT_Jump_Grass_03	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\MC_FT_Jump_Grass_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\Footsteps\MC_Jump\MC_Jump_Grass\MC_FT_Jump_Grass_03		58198
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	155876307	Chomper_VOX_Death_03	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Chomper_VOX_Death_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_VOX_Death\Chomper_VOX_Death\Chomper_VOX_Death_03		66010
 	159935507	Small_Monster_Run_Grass_03	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Small_Monster_Run_Grass_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_Run\Small_Monster_Run_Grass\Small_Monster_Run_Grass_03		54496
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 	166074887	Small_Monster_Run_Stone_07	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Small_Monster_Run_Stone_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_Run\Small_Monster_Run_Stone\Small_Monster_Run_Stone_07		6200
@@ -204,7 +228,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	257203319	UI_Press_Play	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023\UI_Press_Play_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Menu\UI_Press_Play		214496
 	262492407	MC_FT_Land_Grass_02	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\MC_FT_Land_Grass_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\Footsteps\MC_Land\MC_Land_Grass\MC_FT_Land_Grass_02		49056
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	262719714	Small_Monster_Walk_Grass_06	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Small_Monster_Walk_Grass_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_Walk\Small_Monster_Walk_Grass\Small_Monster_Walk_Grass_06		57696
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 	263091360	Small_Monster_Bodyfall_Mud_03	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Small_Monster_Bodyfall_Mud_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_Bodyfall\Small_Monster_Bodyfall_Mud\Small_Monster_Bodyfall_Mud_03		25776
@@ -251,7 +278,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	396022129	RFX_Computer_07	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\RFX_Computer_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Interior\Spaceship\RFX_Computer\RFX_Computer_07		148856
 	399770579	MC_FOL_Land_03	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\MC_FOL_Land_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\Foley\MC_FOL_Land\MC_FOL_Land_03		19296
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	421589509	Small_Monster_Bodyfall_Grass_03	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Small_Monster_Bodyfall_Grass_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_Bodyfall\Small_Monster_Bodyfall_Grass\Small_Monster_Bodyfall_Grass_03		73696
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 	432061020	Small_Monster_Bodyfall_Mud_01	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Small_Monster_Bodyfall_Mud_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_Bodyfall\Small_Monster_Bodyfall_Mud\Small_Monster_Bodyfall_Mud_01		23160
@@ -304,9 +334,13 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	616368294	Spitter_VOX_Death_01	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Spitter_VOX_Death_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_VOX_Death\Spitter_VOX_Death\Spitter_VOX_Death_01		44490
 	620917797	MC_FOL_Attack_03	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\MC_FOL_Attack_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\Foley\MC_FOL_Attack\MC_FOL_Attack_03		21320
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	636912088	Chomper_VOX_Grunt_02	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Chomper_VOX_Grunt_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_VOX_Grunt\Chomper_VOX_Grunt\Chomper_VOX_Grunt_02		52750
 	640552915	Small_Monster_Bodyfall_Stone_03	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Small_Monster_Bodyfall_Stone_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_Bodyfall\Small_Monster_Bodyfall_Stone\Small_Monster_Bodyfall_Stone_03		30252
 	645274808	Small_Monster_Run_Grass_01	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Small_Monster_Run_Grass_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_Run\Small_Monster_Run_Grass\Small_Monster_Run_Grass_01		57696
+=======
+	640552915	Small_Monster_Bodyfall_Stone_03	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Small_Monster_Bodyfall_Stone_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_Bodyfall\Small_Monster_Bodyfall_Stone\Small_Monster_Bodyfall_Stone_03		30252
+>>>>>>> Stashed changes
 =======
 	640552915	Small_Monster_Bodyfall_Stone_03	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Small_Monster_Bodyfall_Stone_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_Bodyfall\Small_Monster_Bodyfall_Stone\Small_Monster_Bodyfall_Stone_03		30252
 >>>>>>> Stashed changes
@@ -355,7 +389,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	785094350	MC_VOX_Attack_Heavy_05	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\MC_VOX_Attack_Heavy_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\Vox\MC_Vox_Attack\MC_Vox_Attack_Heavy\MC_VOX_Attack_Heavy_05		52486
 	789824356	Small_Monster_Walk_Mud_06	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Small_Monster_Walk_Mud_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_Walk\Small_Monster_Walk_Mud\Small_Monster_Walk_Mud_06		6614
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	801414709	Chomper_VOX_Hit_02	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Chomper_VOX_Hit_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_VOX_Hit\Chomper_VOX_Hit\Chomper_VOX_Hit_02		47392
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 	802844937	Weapon_Impact_03	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Weapon_Impact_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WEAPON\Weapon\Weapon_Impact\Weapon_Impact_03		40362
@@ -405,9 +442,13 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	929945824	MC_FT_Land_Grass_01	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\MC_FT_Land_Grass_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\Footsteps\MC_Land\MC_Land_Grass\MC_FT_Land_Grass_01		49056
 	931884405	MC_VOX_Pain_Medium_01	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\MC_VOX_Pain_Medium_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\Vox\MC_Vox_Pain\MC_Vox_Pain_Medium\MC_VOX_Pain_Medium_01		46444
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	941068506	Small_Monster_Run_Grass_06	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Small_Monster_Run_Grass_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_Run\Small_Monster_Run_Grass\Small_Monster_Run_Grass_06		57696
 	943625314	Small_Monster_Run_Mud_08	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Small_Monster_Run_Mud_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_Run\Small_Monster_Run_Mud\Small_Monster_Run_Mud_08		7810
 	946323943	Chomper_VOX_Grunt_03	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Chomper_VOX_Grunt_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_VOX_Grunt\Chomper_VOX_Grunt\Chomper_VOX_Grunt_03		35938
+=======
+	943625314	Small_Monster_Run_Mud_08	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Small_Monster_Run_Mud_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_Run\Small_Monster_Run_Mud\Small_Monster_Run_Mud_08		7810
+>>>>>>> Stashed changes
 =======
 	943625314	Small_Monster_Run_Mud_08	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Small_Monster_Run_Mud_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_Run\Small_Monster_Run_Mud\Small_Monster_Run_Mud_08		7810
 >>>>>>> Stashed changes

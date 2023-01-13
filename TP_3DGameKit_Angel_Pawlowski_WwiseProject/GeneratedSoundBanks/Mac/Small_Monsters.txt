@@ -27,6 +27,7 @@ Switch	ID	Name	Switch Group			Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	308812	Small_Monster_Walk_Stone_04	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Small_Monster_Walk_Stone_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_Walk\Small_Monster_Walk_Stone\Small_Monster_Walk_Stone_04		6364
 	6026606	Small_Monster_Run_Mud_01	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Small_Monster_Run_Mud_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_Run\Small_Monster_Run_Mud\Small_Monster_Run_Mud_01		10698
 	6905508	Small_Monster_Bodyfall_Mud_04	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Small_Monster_Bodyfall_Mud_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_Bodyfall\Small_Monster_Bodyfall_Mud\Small_Monster_Bodyfall_Mud_04		26226
@@ -130,6 +131,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1059727625	Spitter_Attack_03	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Spitter_Attack_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Spitter_Attack\Spitter_Attack_03		48744
 	1064310434	Spitter_VOX_Grunt_04	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Spitter_VOX_Grunt_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_VOX_Grunt\Spitter_VOX_Grunt\Spitter_VOX_Grunt_04		38176
 =======
+=======
+>>>>>>> Stashed changes
 	308812	Small_Monster_Walk_Stone_04	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Small_Monster_Walk_Stone_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_Walk\Small_Monster_Walk_Stone\Small_Monster_Walk_Stone_04		6364
 	6026606	Small_Monster_Run_Mud_01	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Small_Monster_Run_Mud_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_Run\Small_Monster_Run_Mud\Small_Monster_Run_Mud_01		10698
 	6905508	Small_Monster_Bodyfall_Mud_04	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Small_Monster_Bodyfall_Mud_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_Bodyfall\Small_Monster_Bodyfall_Mud\Small_Monster_Bodyfall_Mud_04		26226
