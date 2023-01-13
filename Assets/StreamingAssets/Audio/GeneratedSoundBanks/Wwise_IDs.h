@@ -127,6 +127,17 @@ namespace AK
             } // namespace SWITCH
         } // namespace LIFE
 
+        namespace SMALL_MONSTER
+        {
+            static const AkUniqueID GROUP = 643044249U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID CHOMPER = 14039721U;
+                static const AkUniqueID SPITTER = 2535446860U;
+            } // namespace SWITCH
+        } // namespace SMALL_MONSTER
+
     } // namespace SWITCHES
 
     namespace BANKS

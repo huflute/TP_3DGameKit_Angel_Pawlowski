@@ -59,11 +59,14 @@ Event	ID	Name			Wwise Object Path	Notes
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	2137943	Life			\Default Work Unit\Entity\Life	
+	643044249	Small_Monster			\Default Work Unit\Small_Monster	
 	3539622648	Ground_Material			\Default Work Unit\Entity\Ground_Material	
 
 Switch	ID	Name	Switch Group			Notes
 	390830094	SecondHalf	Life			
 	715694586	FirstHalf	Life			
+	14039721	Chomper	Small_Monster			
+	2535446860	Spitter	Small_Monster			
 	712897245	Mud	Ground_Material			
 	782826392	Default	Ground_Material			
 	2144363834	Rock	Ground_Material			

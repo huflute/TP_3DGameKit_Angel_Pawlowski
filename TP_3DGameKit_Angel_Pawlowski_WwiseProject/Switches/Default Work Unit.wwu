@@ -4,6 +4,12 @@
 		<WorkUnit Name="Default Work Unit" ID="{4CFFF964-5EF5-4BD2-9EE7-9A66E7775ADE}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="Entity" ID="{504AB041-1A99-4056-A3F6-89E347792812}" PersistMode="Reference"/>
+				<SwitchGroup Name="Small_Monster" ID="{BF5A34B5-6406-4288-A8B3-AD3E6B693EFC}">
+					<ChildrenList>
+						<Switch Name="Spitter" ID="{559D9248-5155-4FBA-AE67-0D3D25EC7020}"/>
+						<Switch Name="Chomper" ID="{818C60C8-72CC-4FB7-94C2-B1789001FE98}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>
