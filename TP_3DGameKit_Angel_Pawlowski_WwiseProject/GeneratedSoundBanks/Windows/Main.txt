@@ -27,7 +27,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	1213444204	Play_MC_Roll			\Default Work Unit\MC\FT_Events\Play_MC_Roll	
 	1338193862	Play_Small_Monster_Run			\Default Work Unit\Monsters\Small_Monsters\FT\Play_Small_Monster_Run	
 	1427652232	Play_Small_Monster_Walk			\Default Work Unit\Monsters\Small_Monsters\FT\Play_Small_Monster_Walk	
-	1478900583	Play_AMB_Swamp_01			\Default Work Unit\Play_AMB_Swamp_01	
 	1540365902	Play_MC_FOL_Roll			\Default Work Unit\MC\FOL_Events\Play_MC_FOL_Roll	
 	1547120702	Play_Grenadier_Projectile_Idle			\Default Work Unit\Monsters\Big_Monster\Projectile\Play_Grenadier_Projectile_Idle	
 	1550439253	Play_Grenadier_Shoot			\Default Work Unit\Monsters\Big_Monster\Play_Grenadier_Shoot	
@@ -43,6 +42,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2193989514	Play_UI_Navigate			\Default Work Unit\UI\Play_UI_Navigate	
 	2354689276	Play_Grenadier_Movement_Fast			\Default Work Unit\Monsters\Big_Monster\Play_Grenadier_Movement_Fast	
 	2377842133	Play_UI_Press_Play			\Default Work Unit\UI\Play_UI_Press_Play	
+	2425561832	Play_AMB_Loop_Wind_Gust_01			\Default Work Unit\AMB\Wind\Play_AMB_Loop_Wind_Gust_01	
 	2468740206	Play_Whoosh_Text_Appear			\Default Work Unit\UI\Text\Play_Whoosh_Text_Appear	
 	2556341799	Play_Switch_Stone_Activation			\Default Work Unit\Switch\Play_Switch_Stone_Activation	
 	2863201769	Stop_Teleporter_Idle			\Default Work Unit\Environment\Teleporter\Stop_Teleporter_Idle	
@@ -89,6 +89,7 @@ Switch	ID	Name	Switch Group			Notes
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	216712300	Soundseed Air Woosh	SoundSeed Air Woosh		\Actor-Mixer Hierarchy\Default Work Unit\UI\Text\Whoosh_Text_Appear\Soundseed Air Woosh	
+	239013755	Soundseed Air Wind	SoundSeed Air Wind		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Exterior\AMB_Loop_Wind_Gust_01\Soundseed Air Wind	
 	704622074	Soundseed Air Woosh	SoundSeed Air Woosh		\Actor-Mixer Hierarchy\Default Work Unit\UI\Text\Whoosh_Text_Disappear\Soundseed Air Woosh	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
@@ -165,7 +166,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	236583307	Chomper_VOX_Grunt_01	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\Chomper_VOX_Grunt_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_VOX_Grunt\Chomper_VOX_Grunt\Chomper_VOX_Grunt_01		52922
 	238314850	Chomper_VOX_Hit_01	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\Chomper_VOX_Hit_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_VOX_Hit\Chomper_VOX_Hit\Chomper_VOX_Hit_01		46352
 	239516241	MC_VOX_Attack_Normal_02	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\MC_VOX_Attack_Normal_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\Vox\MC_Vox_Attack\MC_Vox_Attack_Normal\MC_VOX_Attack_Normal_02		40328
-	240253222	AMB_Swamp_01	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\AMB_Swamp_01_179463A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Exterior\Wind\AMB_Swamp_01		4086
 	242971882	Chomper_VOX_Hit_03	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\Chomper_VOX_Hit_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_VOX_Hit\Chomper_VOX_Hit\Chomper_VOX_Hit_03		43930
 	251333807	MC_VOX_Jump_01	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\MC_VOX_Jump_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\Vox\MC_Vox_Jump\MC_VOX_Jump_01		49056
 	252669861	Small_Monster_Bodyfall_Stone_02	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\Small_Monster_Bodyfall_Stone_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_Bodyfall\Small_Monster_Bodyfall_Stone\Small_Monster_Bodyfall_Stone_02		28584
@@ -398,7 +398,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1064310434	Spitter_VOX_Grunt_04	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\Spitter_VOX_Grunt_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_VOX_Grunt\Spitter_VOX_Grunt\Spitter_VOX_Grunt_04		38176
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
-	240253222	AMB_Swamp_01	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\AMB_Swamp_01_179463A7.wem	240253222.wem	\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Exterior\Wind\AMB_Swamp_01	
 	352425399	MC_Shield	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\MC_Shield_D79FB2B7.wem	352425399.wem	\Actor-Mixer Hierarchy\Default Work Unit\MC\Shield\MC_Shield	
 	361768001	Switch_Crystals_Idle_BeforeActivation	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\Switch_Crystals_Idle_BeforeActivation_D79FB2B7.wem	361768001.wem	\Actor-Mixer Hierarchy\Default Work Unit\SWITCHES\Crystals\Switch_Crystals_Idle_BeforeActivation	
 	498593051	Teleporter_Idle	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\Teleporter_Idle_D79FB2B7.wem	498593051.wem	\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Teleporter_Idle	

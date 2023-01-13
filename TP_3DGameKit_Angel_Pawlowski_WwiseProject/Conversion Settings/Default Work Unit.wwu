@@ -38,60 +38,10 @@
 					</PropertyList>
 					<ConversionPluginInfoList>
 						<ConversionPluginInfo Platform="Windows">
-							<ConversionPlugin Name="" ID="{E562332A-3D0F-44FF-80D9-0879E2B63A96}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+							<ConversionPlugin Name="" ID="{4C538892-8520-4C41-B387-EA4F62BA8CB0}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 						</ConversionPluginInfo>
 						<ConversionPluginInfo Platform="Mac">
-							<ConversionPlugin Name="" ID="{E9E55D13-9FA0-4E94-8D3A-B05588FC388B}" PluginName="PCM" CompanyID="0" PluginID="1"/>
-						</ConversionPluginInfo>
-					</ConversionPluginInfoList>
-				</Conversion>
-				<Conversion Name="Amb_Loops" ID="{598E7C7D-3123-46BB-8E63-D18D91CBE7A1}">
-					<PropertyList>
-						<Property Name="Channels" Type="int32">
-							<ValueList>
-								<Value Platform="Windows">4</Value>
-								<Value Platform="Mac">4</Value>
-							</ValueList>
-						</Property>
-						<Property Name="LRMix" Type="Real64">
-							<ValueList>
-								<Value Platform="Windows">0</Value>
-								<Value Platform="Mac">0</Value>
-							</ValueList>
-						</Property>
-						<Property Name="MaxSampleRate" Type="int32">
-							<ValueList>
-								<Value Platform="Windows">0</Value>
-								<Value Platform="Mac">0</Value>
-							</ValueList>
-						</Property>
-						<Property Name="MinSampleRate" Type="int32">
-							<ValueList>
-								<Value Platform="Windows">0</Value>
-								<Value Platform="Mac">0</Value>
-							</ValueList>
-						</Property>
-						<Property Name="SampleRate" Type="int32">
-							<ValueList>
-								<Value Platform="Windows">0</Value>
-								<Value Platform="Mac">0</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ConversionPluginInfoList>
-						<ConversionPluginInfo Platform="Windows">
-							<ConversionPlugin Name="" ID="{08142DF2-3782-483E-A426-EBEAE168EA85}" PluginName="Vorbis" CompanyID="0" PluginID="4">
-								<PropertyList>
-									<Property Name="QualityFactor" Type="Real32" Value="7"/>
-								</PropertyList>
-							</ConversionPlugin>
-						</ConversionPluginInfo>
-						<ConversionPluginInfo Platform="Mac">
-							<ConversionPlugin Name="" ID="{76AB9CB8-C2C5-4D09-98FF-8D6CA6DE6DF9}" PluginName="Vorbis" CompanyID="0" PluginID="4">
-								<PropertyList>
-									<Property Name="QualityFactor" Type="Real32" Value="8"/>
-								</PropertyList>
-							</ConversionPlugin>
+							<ConversionPlugin Name="" ID="{F0850B46-FF30-4C26-8CA3-68A53962143F}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 						</ConversionPluginInfo>
 					</ConversionPluginInfoList>
 				</Conversion>

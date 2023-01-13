@@ -40,7 +40,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{4F18F84A-F46E-57C7-B20B-63F973755AB0}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{88F739FB-F63F-F471-E0DD-7527F6598289}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
@@ -79,7 +79,19 @@
 					<CachePath>SFX/Export 12012023 V2/RFX_Computer_04_10C4C929.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="239013755" Name="Soundseed Air Wind" LibName="SoundSeed Air Wind" LibId="7798786"/>
+				</Custom>
+			</Plugins>
 			<Events>
+				<Event Id="2425561832" Name="Play_AMB_Loop_Wind_Gust_01" DurationType="Infinite">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="239013755"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
 				<Event Id="3213331111" Name="Play_AMB_SpaceShip" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="845874098"/>
@@ -119,7 +131,7 @@
 				<Event Id="2863201769" Name="Stop_Teleporter_Idle" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{863C5C2E-42B1-4384-0600-AD8423D0C860}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{0F188513-19C9-986A-F1C9-BED61D58ECD9}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -912,7 +924,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{7202647F-6477-B69D-FCC6-5C7CBA7DF05C}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{7D00CAF3-44AA-62CF-3A5D-B599DD014884}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -1207,12 +1219,6 @@
 				<File Id="239516241" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Attack_Normal_02.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Attack_Normal_02_10C4C929.wem</CachePath>
-				</File>
-				<File Id="240253222" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>AMB_Swamp_01.wav</ShortName>
-					<Path>Media/240253222.wem</Path>
-					<CachePath>SFX/AMB_Swamp_01_179463A7.wem</CachePath>
-					<PrefetchSize>4086</PrefetchSize>
 				</File>
 				<File Id="242971882" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Chomper_VOX_Hit_03.wav</ShortName>
@@ -2152,18 +2158,21 @@
 			<Plugins>
 				<Custom>
 					<Plugin Id="216712300" Name="Soundseed Air Woosh" LibName="SoundSeed Air Woosh" LibId="7864322"/>
+					<Plugin Id="239013755" Name="Soundseed Air Wind" LibName="SoundSeed Air Wind" LibId="7798786"/>
 					<Plugin Id="704622074" Name="Soundseed Air Woosh" LibName="SoundSeed Air Woosh" LibId="7864322"/>
 				</Custom>
 			</Plugins>
 			<Events>
+				<Event Id="2425561832" Name="Play_AMB_Loop_Wind_Gust_01" DurationType="Infinite">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="239013755"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
 				<Event Id="3213331111" Name="Play_AMB_SpaceShip" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="845874098"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1478900583" Name="Play_AMB_Swamp_01" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="240253222"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="931488463" Name="Play_Chomper_Attack" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.58002084" DurationMax="0.623625">
@@ -3875,5 +3884,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{971CDE27-CFFA-2A93-3435-2184CA849031}</FileHash>
+	<FileHash>{22B6CC24-AE89-F61F-C33E-C11A32EADDAF}</FileHash>
 </SoundBanksInfo>

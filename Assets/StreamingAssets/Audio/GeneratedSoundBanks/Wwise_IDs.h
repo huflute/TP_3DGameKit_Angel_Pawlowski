@@ -13,8 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_AMB_LOOP_WIND_GUST_01 = 2425561832U;
         static const AkUniqueID PLAY_AMB_SPACESHIP = 3213331111U;
-        static const AkUniqueID PLAY_AMB_SWAMP_01 = 1478900583U;
         static const AkUniqueID PLAY_CHOMPER_ATTACK = 931488463U;
         static const AkUniqueID PLAY_CHOMPER_VOX_BEFORE_ATTACK = 3519138347U;
         static const AkUniqueID PLAY_GRENADIER_BREATH = 414086918U;

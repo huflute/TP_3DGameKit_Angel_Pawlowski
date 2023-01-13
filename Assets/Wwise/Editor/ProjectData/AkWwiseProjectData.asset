@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 0c74f2e5d4330e46bfec07c1b154966f
     GuidInternal: 
-    m_lastTime: -8585279703137551318
+    m_lastTime: -8585280510710111247
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -54,142 +54,6 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
-    - name: Priority01
-      guid: f034d720d0b4314db11f28d082e0e40d
-      id: 2059872228
-      PathAndIcons:
-      - ElementName: Master-Mixer Hierarchy
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 0c74f2e5d4330e46bfec07c1b154966f
-      - ElementName: Master Audio Bus
-        ObjectType: 2
-        guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Priority01
-        ObjectType: 2
-        guid: f034d720d0b4314db11f28d082e0e40d
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Priority01
-    - name: Reverb_Corridor
-      guid: f1efb3ad116fc44b95c6e9ad05c66ca8
-      id: 3733122846
-      PathAndIcons:
-      - ElementName: Master-Mixer Hierarchy
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 0c74f2e5d4330e46bfec07c1b154966f
-      - ElementName: Master Audio Bus
-        ObjectType: 2
-        guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Reverb_Corridor
-        ObjectType: 1
-        guid: f1efb3ad116fc44b95c6e9ad05c66ca8
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Corridor
-    - name: Reverb_HiddenPlace
-      guid: 5be3049122b1864b9d5bae5bc6f95a8f
-      id: 198700405
-      PathAndIcons:
-      - ElementName: Master-Mixer Hierarchy
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 0c74f2e5d4330e46bfec07c1b154966f
-      - ElementName: Master Audio Bus
-        ObjectType: 2
-        guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Reverb_HiddenPlace
-        ObjectType: 1
-        guid: 5be3049122b1864b9d5bae5bc6f95a8f
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_HiddenPlace
-    - name: Reverb_Room_Large
-      guid: b8b642ce07aba242bdebee56d419c436
-      id: 1699010785
-      PathAndIcons:
-      - ElementName: Master-Mixer Hierarchy
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 0c74f2e5d4330e46bfec07c1b154966f
-      - ElementName: Master Audio Bus
-        ObjectType: 2
-        guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Reverb_Room_Large
-        ObjectType: 1
-        guid: b8b642ce07aba242bdebee56d419c436
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Room_Large
-    - name: Reverb_Room_Medium
-      guid: dd02c5b6fa4edc40b2654b3c01930162
-      id: 985637097
-      PathAndIcons:
-      - ElementName: Master-Mixer Hierarchy
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 0c74f2e5d4330e46bfec07c1b154966f
-      - ElementName: Master Audio Bus
-        ObjectType: 2
-        guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Reverb_Room_Medium
-        ObjectType: 1
-        guid: dd02c5b6fa4edc40b2654b3c01930162
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Room_Medium
-    - name: Reverb_Room_Small
-      guid: 7d64076110764747a26c51a157ab6fb9
-      id: 3477108777
-      PathAndIcons:
-      - ElementName: Master-Mixer Hierarchy
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 0c74f2e5d4330e46bfec07c1b154966f
-      - ElementName: Master Audio Bus
-        ObjectType: 2
-        guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Reverb_Room_Small
-        ObjectType: 1
-        guid: 7d64076110764747a26c51a157ab6fb9
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Room_Small
-    - name: Reverb_Ruins
-      guid: ccf308f97501d5448568c62907670101
-      id: 563644569
-      PathAndIcons:
-      - ElementName: Master-Mixer Hierarchy
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 0c74f2e5d4330e46bfec07c1b154966f
-      - ElementName: Master Audio Bus
-        ObjectType: 2
-        guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Reverb_Ruins
-        ObjectType: 1
-        guid: ccf308f97501d5448568c62907670101
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Ruins
-    - name: Reverb_Swamp
-      guid: 476b91daf398644b9f3c402b904defd1
-      id: 3298723492
-      PathAndIcons:
-      - ElementName: Master-Mixer Hierarchy
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 0c74f2e5d4330e46bfec07c1b154966f
-      - ElementName: Master Audio Bus
-        ObjectType: 2
-        guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Reverb_Swamp
-        ObjectType: 1
-        guid: 476b91daf398644b9f3c402b904defd1
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Swamp
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -342,7 +206,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 58301ae271a98d46974f6accc96184fa
     GuidInternal: 
-    m_lastTime: -8585279706216351725
+    m_lastTime: -8585279788318494527
     List:
     - name: AMB
       guid: 7eacccb593e71341878dd5280afd656f
@@ -555,6 +419,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_AMB_Loop_Wind_Gust_01
+      guid: d3ec83331059b341a45b95bc7de45feb
+      id: 2425561832
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: AMB
+        ObjectType: 4
+        guid: 7eacccb593e71341878dd5280afd656f
+      - ElementName: Wind
+        ObjectType: 4
+        guid: aa92a7e37e1e00408443c995d723053b
+      - ElementName: Play_AMB_Loop_Wind_Gust_01
+        ObjectType: 3
+        guid: d3ec83331059b341a45b95bc7de45feb
+      Path: Events\Default Work Unit\AMB\Wind\Play_AMB_Loop_Wind_Gust_01
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_AMB_SpaceShip
       guid: 64e85753134b0e47bdeae6373951b46b
       id: 3213331111
@@ -575,23 +462,6 @@ MonoBehaviour:
         ObjectType: 3
         guid: 64e85753134b0e47bdeae6373951b46b
       Path: Events\Default Work Unit\AMB\Spaceship\Play_AMB_SpaceShip
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Play_AMB_Swamp_01
-      guid: 143f6877d368cc4dbda8dde8637d3230
-      id: 1478900583
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 58301ae271a98d46974f6accc96184fa
-      - ElementName: Play_AMB_Swamp_01
-        ObjectType: 3
-        guid: 143f6877d368cc4dbda8dde8637d3230
-      Path: Events\Default Work Unit\Play_AMB_Swamp_01
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -2911,7 +2781,7 @@ MonoBehaviour:
     m_lastTime: -8585284015674119453
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000500000006000000070000000800000014000000150000001e0000001f000000200000002a0000002b0000002f000000821b0000861b0000
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

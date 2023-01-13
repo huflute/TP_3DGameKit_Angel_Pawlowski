@@ -9,24 +9,6 @@
 							<ObjectRef Name="System" ID="{F3AE0CDB-E2AC-4FB2-8994-CB99BE302D6E}" WorkUnitID="{13C994E5-1899-4578-8950-5AF52AEE4F32}"/>
 						</Reference>
 					</ReferenceList>
-					<ChildrenList>
-						<Bus Name="Priority01" ID="{20D734F0-B4D0-4D31-B11F-28D082E0E40D}">
-							<ReferenceList>
-								<Reference Name="UserAuxSend0">
-									<ObjectRef Name="Reverb_Swamp" ID="{DA916B47-98F3-4B64-9F3C-402B904DEFD1}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-								</Reference>
-							</ReferenceList>
-						</Bus>
-						<AuxBus Name="Reverb_Swamp" ID="{DA916B47-98F3-4B64-9F3C-402B904DEFD1}">
-							<ReferenceList/>
-						</AuxBus>
-						<AuxBus Name="Reverb_Room_Large" ID="{CE42B6B8-AB07-42A2-BDEB-EE56D419C436}"/>
-						<AuxBus Name="Reverb_Room_Medium" ID="{B6C502DD-4EFA-40DC-B265-4B3C01930162}"/>
-						<AuxBus Name="Reverb_Room_Small" ID="{6107647D-7610-4747-A26C-51A157AB6FB9}"/>
-						<AuxBus Name="Reverb_Corridor" ID="{ADB3EFF1-6F11-4BC4-95C6-E9AD05C66CA8}"/>
-						<AuxBus Name="Reverb_HiddenPlace" ID="{9104E35B-B122-4B86-9D5B-AE5BC6F95A8F}"/>
-						<AuxBus Name="Reverb_Ruins" ID="{F908F3CC-0175-44D5-8568-C62907670101}"/>
-					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>
