@@ -3517,6 +3517,8 @@ GameObject:
   - component: {fileID: 65771025306039616}
   - component: {fileID: 114643127116660914}
   - component: {fileID: 195733995024529676}
+  - component: {fileID: 2768543881958889135}
+  - component: {fileID: 2274662090461691837}
   m_Layer: 23
   m_Name: Chomper
   m_TagString: Untagged
@@ -3541,7 +3543,6 @@ Transform:
   - {fileID: 4667632706155090}
   - {fileID: 4558756240328940}
   - {fileID: 4998087950247418}
-  - {fileID: 3439832918211099340}
   m_Father: {fileID: 0}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: -148.75801, z: 0}
@@ -3702,6 +3703,109 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &2768543881958889135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722084123150156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3605ae61f5f8bd14dafb5be10aaf1d5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collections:
+  - MaterialName: Mud
+    MaterialCollection:
+    - Material: {fileID: 2100000, guid: 61be5fb840b83854a95a1ef4982462cd, type: 2}
+    FootstepSound:
+      idInternal: 0
+      valueGuidInternal: 
+      groupIdInternal: 0
+      groupGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: a91b95585f4f80543b7710a3d1a05e47,
+        type: 2}
+  - MaterialName: Grass
+    MaterialCollection:
+    - Material: {fileID: 2100000, guid: 3311bbf097e3ee64ebed88f09c6e5ec1, type: 2}
+    - Material: {fileID: 2100000, guid: bb85f42a6fb68ed4f8156a440dff2b79, type: 2}
+    - Material: {fileID: 2100000, guid: 7abcaabf588cc994d9e779dedd12f1dc, type: 2}
+    - Material: {fileID: 2100000, guid: 6f0341037674d6f46bf972bcfd328255, type: 2}
+    - Material: {fileID: 2100000, guid: 0cf7d47a45bcd864dba9d726d788a924, type: 2}
+    - Material: {fileID: 2100000, guid: 30b0f587813f86c44b82c48c7733af87, type: 2}
+    - Material: {fileID: 2100000, guid: dddb14a0dd9e90c4392af5b67f34ca7f, type: 2}
+    - Material: {fileID: 2100000, guid: c9fde8d2b739edb458fbb07e275f81d4, type: 2}
+    - Material: {fileID: 2100000, guid: 2ccd8bf1a9f046849b58082f96cb9ceb, type: 2}
+    - Material: {fileID: 2100000, guid: 18da08da9c279494e87f918ddfd4197b, type: 2}
+    - Material: {fileID: 2100000, guid: 00036c34b5ae386428e7e2e5470124e9, type: 2}
+    - Material: {fileID: 2100000, guid: a997cca723ebe0f49ae9612bde2c80f4, type: 2}
+    - Material: {fileID: 2100000, guid: fe425a2fd02d81a4a8cffb98bd444c5d, type: 2}
+    - Material: {fileID: 2100000, guid: 3ef81e43f26c03a48a716c889d201861, type: 2}
+    FootstepSound:
+      idInternal: 0
+      valueGuidInternal: 
+      groupIdInternal: 0
+      groupGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 9b9c5a203383dd1409ec69d5c1939d4f,
+        type: 2}
+  - MaterialName: Rock
+    MaterialCollection:
+    - Material: {fileID: 2100000, guid: aa21bc8da8405dd4a82fb23c3779d08e, type: 2}
+    - Material: {fileID: 2100000, guid: 8491ec434f8e32f4f9fc6839ffa24121, type: 2}
+    - Material: {fileID: 2100000, guid: b4d52da8c0d97f841be80b861af24164, type: 2}
+    - Material: {fileID: 2100000, guid: 9dfa8e231f9684b489b86a4b74cba739, type: 2}
+    - Material: {fileID: 2100000, guid: ac4bc75e76feb8042ab5161e3e1b0554, type: 2}
+    - Material: {fileID: 2100000, guid: 96b29c39d6e3d5c4a8bf9c1b9baeac8d, type: 2}
+    - Material: {fileID: 2100000, guid: 3af198a8305bde54aaa85d2e3fe11c74, type: 2}
+    - Material: {fileID: 2100000, guid: bb838f9031e07084ba7dedfcce8cc557, type: 2}
+    - Material: {fileID: 2100000, guid: e9e5eb9afbdaf2041bf7d9e26bbc1b6e, type: 2}
+    - Material: {fileID: 2100000, guid: adb337a478630cf4c91511a0dc9dc393, type: 2}
+    - Material: {fileID: 2100000, guid: fc0e77f5aef3d184f9195be79bd31eeb, type: 2}
+    - Material: {fileID: 2100000, guid: 5cd2525bc73586347b2d4114aaad788e, type: 2}
+    - Material: {fileID: 2100000, guid: 6301438681abcdd4081173f72ff42803, type: 2}
+    - Material: {fileID: 2100000, guid: aeba2987925798e4a8401bfd77cd1284, type: 2}
+    - Material: {fileID: 2100000, guid: 049606f690e98a949bc26f5a5c210b4d, type: 2}
+    - Material: {fileID: 2100000, guid: 5caf37f41fd93d443a82f2fd01a16358, type: 2}
+    - Material: {fileID: 2100000, guid: 80fada4b65ca27e40b0391b92c8fe136, type: 2}
+    - Material: {fileID: 2100000, guid: 5a0c1b5b20deb5340b82c3aa4b716c73, type: 2}
+    - Material: {fileID: 2100000, guid: 811ad1a44bf374746a16997613754b11, type: 2}
+    - Material: {fileID: 2100000, guid: d38a57c924e0bca4f99693b01ea4fea6, type: 2}
+    - Material: {fileID: 2100000, guid: 3c82a8aa07a59ce478ec8ae1fc400584, type: 2}
+    - Material: {fileID: 2100000, guid: 326d338815570844bba9082517b13153, type: 2}
+    - Material: {fileID: 2100000, guid: 5d83db080be59c44d937740c3464c256, type: 2}
+    - Material: {fileID: 2100000, guid: 2cd607346dbd37f41a37f41616cd5cb1, type: 2}
+    - Material: {fileID: 2100000, guid: ed1d61f09b842f64f9eb2410a19ffe19, type: 2}
+    - Material: {fileID: 2100000, guid: e197c91a5a0658e45855058cc6570ce5, type: 2}
+    - Material: {fileID: 2100000, guid: 3f63094f480a91f43889dd69c30540a2, type: 2}
+    - Material: {fileID: 2100000, guid: 33b20ee5df496994b9fb18a571448a2d, type: 2}
+    - Material: {fileID: 2100000, guid: c8ce8ac43d3b78949ab5b0c47900a62c, type: 2}
+    FootstepSound:
+      idInternal: 0
+      valueGuidInternal: 
+      groupIdInternal: 0
+      groupGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 11bb8a13804df2c408eee13e2f710cfe,
+        type: 2}
+  DefaultSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 11bb8a13804df2c408eee13e2f710cfe,
+      type: 2}
+--- !u!114 &2274662090461691837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722084123150156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31df90d6367a70f4a88fac3d43c38ffd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1737964142438470
 GameObject:
   m_ObjectHideFlags: 0
@@ -4822,47 +4926,3 @@ Transform:
   m_Father: {fileID: 4489283864946906}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -31.216711, y: 5.862154, z: -63.193077}
---- !u!1 &1553739958700918167
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3439832918211099340}
-  - component: {fileID: 197424413204973512}
-  m_Layer: 23
-  m_Name: Audio_Player
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3439832918211099340
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1553739958700918167}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4111328061247126}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &197424413204973512
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1553739958700918167}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31df90d6367a70f4a88fac3d43c38ffd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

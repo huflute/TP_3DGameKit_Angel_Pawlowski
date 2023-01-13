@@ -1,4 +1,5 @@
 ﻿using Gamekit3D.Message;
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace Gamekit3D
@@ -46,8 +47,12 @@ namespace Gamekit3D
 
         protected PlayerController m_Target = null;
         protected EnemyController m_Controller;
-        protected TargetDistributor.TargetFollower m_FollowerInstance = null;
+        protected TargetDistributor.TargetFollower 
+            m_FollowerInstance = null;
 
+        void Start() {
+            AkSoundEngine.SetSwitch("Small_Monster", "Chomper", this.gameObject);
+        }
         protected void OnEnable()
         {
             m_Controller = GetComponentInChildren<EnemyController>();
@@ -115,6 +120,7 @@ namespace Gamekit3D
                 if (target != null)
                 {
                     //Le joueur est repéré
+                    AkSoundEngine.PostEvent("Play_Small_Monster_VOX_Spots", this.gameObject);
                     m_Controller.animator.SetTrigger(hashSpotted);
                     m_Target = target;
                     TargetDistributor distributor = target.GetComponentInChildren<TargetDistributor>();
@@ -250,6 +256,7 @@ namespace Gamekit3D
             //We unparent the hit source, as it would destroy it with the gameobject when it get replaced by the ragdol otherwise
             deathAudio.transform.SetParent(null, true);
             deathAudio.PlayRandomClip();
+            AkSoundEngine.PostEvent("Play_Small_Monster_VOX_Death", this.gameObject);
             GameObject.Destroy(deathAudio, deathAudio.clip == null ? 0.0f : deathAudio.clip.length + 0.5f);
         }
 
