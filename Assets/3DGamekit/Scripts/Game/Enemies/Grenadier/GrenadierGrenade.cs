@@ -51,6 +51,7 @@ namespace Gamekit3D
             m_RigidBody.collisionDetectionMode = CollisionDetectionMode.Discrete;
             m_RigidBody.isKinematic = true;
             m_SinceFired = 0.0f;
+            AkSoundEngine.PostEvent("Play_Grenadier_Projectile_Idle", gameObject);
         }
 
         public override void Shot(Vector3 target, RangeWeapon shooter)
@@ -89,7 +90,9 @@ namespace Gamekit3D
             if (explosionPlayer)
             {
                 //Grenade explose
+                
                 explosionPlayer.transform.SetParent(null);
+                AkSoundEngine.PostEvent("Play_Grenadier_Projectile_Explode", gameObject);
                 explosionPlayer.PlayRandomClip();
             }
 
@@ -139,6 +142,7 @@ namespace Gamekit3D
         {
             if (bouncePlayer != null)
                 //Debug.Log("Grenade rebondit");
+                AkSoundEngine.PostEvent("Play_Grenadier_Projectile_Bounce", gameObject);
                 bouncePlayer.PlayRandomClip();
         }
 

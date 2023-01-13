@@ -131,6 +131,7 @@ namespace Gamekit3D
             damageAudioPlayer.PlayRandomClip();
             m_EnemyController.animator.SetTrigger(hashHitParam);
             m_CoreMaterial.SetColor("_Color2", Color.red);
+            AkSoundEngine.PostEvent("Play_Grenadier_Hit", this.gameObject);
         }
 
         public void Die()
@@ -142,14 +143,17 @@ namespace Gamekit3D
         public void ActivateShield()
         {
             shield.SetActive(true);
+            AkSoundEngine.PostEvent("Play_Grenadier_Shield_Activate", this.gameObject);
             m_ShieldActivationTime = 3.0f;
             m_Damageable.SetColliderState(false);
+            
         }
 
         public void DeactivateShield()
         {
             shield.SetActive(false);
             m_Damageable.SetColliderState(true);
+            AkSoundEngine.PostEvent("Play_Grenadier_Shield_Desactivate", this.gameObject);
         }
 
         public void ReturnVulnerable()

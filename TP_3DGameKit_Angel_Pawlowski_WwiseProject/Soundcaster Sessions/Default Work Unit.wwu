@@ -18,12 +18,20 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Grenadier_Shield_Activate" ID="{99C79B7E-51EC-4CEF-8ECC-927C6BA13A55}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Grenadier_CloseRangeAttack" ID="{3F4536F3-7BF9-4CBD-AFFF-3C1AC2DB0ECD}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Grenadier_MeleeAttack" ID="{0D473461-1C49-43E2-B68D-20E0CE40EFCC}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}"/>
 							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Grenadier_Shield_Desactivate" ID="{25F399B6-0D89-4994-8470-2AC9044ADA64}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}"/>
+							<Position X="1" Y="3"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Grenadier_Death" ID="{CB343770-3C5E-4103-917F-7CDD35A81D73}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}"/>

@@ -619,6 +619,9 @@
 								<Event Name="Play_Grenadier_Breath" ID="{5121D2C0-2F10-4A43-86F6-CC19D93003EE}">
 									<ChildrenList>
 										<Action Name="" ID="{545DC625-7C63-4349-B544-6CF3898A0366}" ShortID="276033978">
+											<PropertyList>
+												<Property Name="Probability" Type="Real64" Value="80"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Grenadier_Breath" ID="{9B3C0AC7-86EB-474A-B9B9-2383BE151183}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
@@ -702,6 +705,13 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
+										<Action Name="" ID="{AE989059-3699-48DD-9AE3-7DA779AD8F2E}" ShortID="238749971">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier_ShockWaveDeath" ID="{2C0E72AD-BC4E-4644-A89F-E27B0F36F5FA}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 									</ChildrenList>
 								</Event>
 								<Event Name="Play_Grenadier_FT_Normal" ID="{3884FEC7-577A-4048-9A18-0A9808C1A4B9}">
@@ -715,12 +725,23 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Play_Grenadier_Shield_Activate_01" ID="{99C79B7E-51EC-4CEF-8ECC-927C6BA13A55}">
+								<Event Name="Play_Grenadier_Shield_Activate" ID="{99C79B7E-51EC-4CEF-8ECC-927C6BA13A55}">
 									<ChildrenList>
 										<Action Name="" ID="{240AEF83-888E-467E-BAA8-14246232AAE6}" ShortID="120807158">
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Grenadier_Shield_Activate" ID="{8997B2E8-6F82-4D75-A5FC-1FA615245911}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{6009D02D-AC59-4CB3-B3B1-B0EE5F431D62}" ShortID="78350321">
+											<PropertyList>
+												<Property Name="FadeInCurve" Type="int16" Value="7"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier_Shield_Idle" ID="{3A86BD39-64BA-40F9-8C22-BAFB4ACB5430}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -735,11 +756,11 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Play_Grenadier_Shield_Idle" ID="{EE572C45-AA8F-4878-86E2-5ED5C96E915A}">
-									<ChildrenList>
-										<Action Name="" ID="{8D183F66-79B2-4C8A-AD88-EE86E41328D7}" ShortID="178378292">
+										<Action Name="" ID="{843275AA-E09E-4335-A0F4-9363F22FD206}" ShortID="817399503">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Grenadier_Shield_Idle" ID="{3A86BD39-64BA-40F9-8C22-BAFB4ACB5430}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
@@ -754,6 +775,69 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Grenadier_RangeAttack01" ID="{03741ACD-58A2-4875-9C45-35C5F2B643B1}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Folder Name="Projectile" ID="{3FC76AEC-FE77-402C-A500-E88156CE5123}" ShortID="1049576383">
+									<ChildrenList>
+										<Event Name="Play_Grenadier_Projectile_Explode" ID="{3831D097-78B5-4C48-A512-334F64881FEC}">
+											<ChildrenList>
+												<Action Name="" ID="{9DDAD7C0-80D5-41FF-9963-B277DE255CCA}" ShortID="620603753">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Grenadier_Projectile_Explode" ID="{E439F3EA-D507-4478-908F-6259583A6868}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{DC68609A-8879-471A-BA48-567510DDAB78}" ShortID="7855621">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+														<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+														<Property Name="FadeTime" Type="Real64" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Grenadier_Projectile_Idle" ID="{F46DD047-56F9-4DA5-BD2A-38BBA0EBF0AB}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_Grenadier_Projectile_Bounce" ID="{A253EC15-C233-46AE-990A-7691E585B3B5}">
+											<ChildrenList>
+												<Action Name="" ID="{B4DB5383-834C-4B15-8F61-CB074F6F0792}" ShortID="916242610">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Grenadier_Projectile_Bounce" ID="{5ABA7A63-4257-430D-83D3-BCC0F5E44848}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_Grenadier_Projectile_Idle" ID="{10994E97-60B4-47E1-81D0-508685E599DE}">
+											<ChildrenList>
+												<Action Name="" ID="{0B5FF5C2-21E3-4A73-B6CF-CCDEBCDB3CD9}" ShortID="511134578">
+													<PropertyList>
+														<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Grenadier_Projectile_Idle" ID="{F46DD047-56F9-4DA5-BD2A-38BBA0EBF0AB}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Event Name="Play_Grenadier_Shoot" ID="{26307840-0CE1-4F79-A7BB-E68263303ACB}">
+									<ChildrenList>
+										<Action Name="" ID="{1D3EF940-A461-42E2-8ABD-5EAAC467C8A6}" ShortID="362091080">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier_Shoot" ID="{20E734FE-322A-4B24-AB15-2515F4B393EA}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
