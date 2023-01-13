@@ -887,7 +887,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{3F9A232C-8E2D-4209-2FC3-CEBA9B921A8F}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{D53E68C1-2497-4320-4E1E-F4E09A39F170}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -955,6 +955,10 @@
 					<ShortName>HealthCrate_Idle.wav</ShortName>
 					<CachePath>SFX/HealthCrate_Idle_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="67000485" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_Movement_Slow_04.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_Movement_Slow_04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="72306303" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Stone_01.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Stone_01_10C4C929.wem</CachePath>
@@ -971,6 +975,10 @@
 					<ShortName>MC_FT_Land_Rock_04.wav</ShortName>
 					<CachePath>SFX/MC_FT_Land_Rock_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="87063364" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_Hit_01.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_Hit_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="87597253" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Run_Grass_06.wav</ShortName>
 					<CachePath>SFX/MC_FT_Run_Grass_06_10C4C929.wem</CachePath>
@@ -978,6 +986,10 @@
 				<File Id="88518083" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Attack_Normal_04.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Attack_Normal_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="98037581" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_Breath_02.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_Breath_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="109271020" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Jump_Rock_05.wav</ShortName>
@@ -1011,17 +1023,37 @@
 					<ShortName>Export 12012023 V2\MC_FOL_Attack_05.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/MC_FOL_Attack_05_10C4C929.wem</CachePath>
 				</File>
+				<File Id="148697940" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_FT_Heavy_05.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_FT_Heavy_05_10C4C929.wem</CachePath>
+				</File>
 				<File Id="152923792" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Jump_Grass_03.wav</ShortName>
 					<CachePath>SFX/MC_FT_Jump_Grass_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="164567793" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_RangeAttack01.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_RangeAttack01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="166074887" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Run_Stone_07.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Stone_07_10C4C929.wem</CachePath>
 				</File>
+				<File Id="172098297" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_Breath_04.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_Breath_04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="173511823" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Chomper_Attack_02.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Chomper_Attack_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="177781794" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_CloseRangeAttack.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_CloseRangeAttack_10C4C929.wem</CachePath>
+				</File>
+				<File Id="181052669" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_Hit_04.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_Hit_04_10C4C929.wem</CachePath>
 				</File>
 				<File Id="185996245" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Land_Rock_01.wav</ShortName>
@@ -1075,9 +1107,17 @@
 					<ShortName>MC_FT_Land_Rock_05.wav</ShortName>
 					<CachePath>SFX/MC_FT_Land_Rock_05_10C4C929.wem</CachePath>
 				</File>
+				<File Id="226339710" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_Breath_03.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_Breath_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="232677465" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Run_Mud_02.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Mud_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="236156406" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_Hit_07.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_Hit_07_10C4C929.wem</CachePath>
 				</File>
 				<File Id="239516241" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Attack_Normal_02.wav</ShortName>
@@ -1107,6 +1147,14 @@
 					<ShortName>Export 12012023 V2\Small_Monster_Spin_06.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_06_10C4C929.wem</CachePath>
 				</File>
+				<File Id="271025119" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_FT_Normal_02.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_FT_Normal_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="272629040" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_FT_Normal_03.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_FT_Normal_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="275548516" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Pain_Medium_05.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Pain_Medium_05_10C4C929.wem</CachePath>
@@ -1114,6 +1162,10 @@
 				<File Id="284511822" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Jump_Rock_02.wav</ShortName>
 					<CachePath>SFX/MC_FT_Jump_Rock_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="288158660" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_Movement_Fast_02.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_Movement_Fast_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="292784953" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Attack_Normal_01.wav</ShortName>
@@ -1154,6 +1206,10 @@
 				<File Id="342328522" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Jump_05.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Jump_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="344802205" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_Movement_Fast_03.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_Movement_Fast_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="351188196" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\MC_FOL_Jump_05.wav</ShortName>
@@ -1215,9 +1271,17 @@
 					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Mud_01.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Mud_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="433973561" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_FT_Normal_01.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_FT_Normal_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="434993297" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Run_Grass_03.wav</ShortName>
 					<CachePath>SFX/MC_FT_Run_Grass_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="441125503" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_Hit_02.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_Hit_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="445531150" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Jump_Mud_02.wav</ShortName>
@@ -1255,6 +1319,10 @@
 					<ShortName>MC_FT_Run_Mud_01.wav</ShortName>
 					<CachePath>SFX/MC_FT_Run_Mud_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="498578692" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_FT_Heavy_03.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_FT_Heavy_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="498593051" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Export 12012023 V2\Teleporter_Idle.wav</ShortName>
 					<Path>Media/498593051.wem</Path>
@@ -1269,6 +1337,10 @@
 					<ShortName>MC_VOX_Attack_Normal_03.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Attack_Normal_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="508809202" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_Movement_Slow_01.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_Movement_Slow_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="509223528" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Export 12012023 V2\Switch_Crystals_Idle_AfterActivation.wav</ShortName>
 					<Path>Media/509223528.wem</Path>
@@ -1282,6 +1354,10 @@
 				<File Id="526613580" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\MC_FOL_Land_05.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/MC_FOL_Land_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="534321136" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_Hit_03.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_Hit_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="547806294" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Weapon_Impact_01.wav</ShortName>
@@ -1319,6 +1395,10 @@
 					<ShortName>Export 12012023 V2\RFX_Computer_05.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/RFX_Computer_05_10C4C929.wem</CachePath>
 				</File>
+				<File Id="597231844" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_Hit_05.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_Hit_05_10C4C929.wem</CachePath>
+				</File>
 				<File Id="599299621" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Land_Mud_01.wav</ShortName>
 					<CachePath>SFX/MC_FT_Land_Mud_01_10C4C929.wem</CachePath>
@@ -1326,6 +1406,10 @@
 				<File Id="599325396" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Pain_Soft_01.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Pain_Soft_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="602696853" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_Movement_Slow_03.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_Movement_Slow_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="604821713" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Run_Stone_02.wav</ShortName>
@@ -1351,6 +1435,10 @@
 					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Stone_03.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Stone_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="646839536" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_Movement_Fast_04.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_Movement_Fast_04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="648182821" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\RFX_Computer_02.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/RFX_Computer_02_10C4C929.wem</CachePath>
@@ -1358,6 +1446,10 @@
 				<File Id="648571618" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Land_Rock_03.wav</ShortName>
 					<CachePath>SFX/MC_FT_Land_Rock_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="654540544" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_Death.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_Death_10C4C929.wem</CachePath>
 				</File>
 				<File Id="655268182" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\MC_FOL_Run_01.wav</ShortName>
@@ -1382,6 +1474,10 @@
 				<File Id="673930999" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Attack_Heavy_01.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Attack_Heavy_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="676406857" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_Movement_Fast_05.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_Movement_Fast_05_10C4C929.wem</CachePath>
 				</File>
 				<File Id="677663508" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Spin_07.wav</ShortName>
@@ -1415,17 +1511,33 @@
 					<ShortName>Export 12012023 V2\MC_FOL_Roll.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/MC_FOL_Roll_10C4C929.wem</CachePath>
 				</File>
+				<File Id="712412189" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_Breath_05.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_Breath_05_10C4C929.wem</CachePath>
+				</File>
 				<File Id="714147872" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Jump_Rock_04.wav</ShortName>
 					<CachePath>SFX/MC_FT_Jump_Rock_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="716032296" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_RangeAttack02.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_RangeAttack02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="717116967" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_08.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Mud_08_10C4C929.wem</CachePath>
 				</File>
+				<File Id="717488809" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_MeleeAttack.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_MeleeAttack_10C4C929.wem</CachePath>
+				</File>
 				<File Id="718603498" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\MC_Shield_Off_02.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/MC_Shield_Off_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="727432170" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_FT_Heavy_02.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_FT_Heavy_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="733080430" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\RFX_Computer_01.wav</ShortName>
@@ -1471,6 +1583,10 @@
 					<ShortName>MC_VOX_Pain_Soft_04.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Pain_Soft_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="779719350" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_Movement_Slow_02.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_Movement_Slow_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="785094350" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Attack_Heavy_05.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Attack_Heavy_05_10C4C929.wem</CachePath>
@@ -1503,6 +1619,10 @@
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Stone_07.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Stone_07_10C4C929.wem</CachePath>
 				</File>
+				<File Id="822059773" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_Movement_Fast_01.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_Movement_Fast_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="823767621" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI_Navigate_06.wav</ShortName>
 					<CachePath>SFX/UI_Navigate_06_10C4C929.wem</CachePath>
@@ -1510,6 +1630,10 @@
 				<File Id="824456465" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\MC_FOL_Run_03.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/MC_FOL_Run_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="826405583" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_Hit_06.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_Hit_06_10C4C929.wem</CachePath>
 				</File>
 				<File Id="831798853" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Switch_Stone_Activation.wav</ShortName>
@@ -1549,6 +1673,10 @@
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_03.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Mud_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="872206652" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_FT_Normal_05.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_FT_Normal_05_10C4C929.wem</CachePath>
+				</File>
 				<File Id="876047700" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Attack_Heavy_02.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Attack_Heavy_02_10C4C929.wem</CachePath>
@@ -1581,6 +1709,10 @@
 					<ShortName>Export 12012023 V2\MC_FOL_Jump_03.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/MC_FOL_Jump_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="913155128" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_FT_Heavy_04.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_FT_Heavy_04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="920600754" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Land_Rock_02.wav</ShortName>
 					<CachePath>SFX/MC_FT_Land_Rock_02_10C4C929.wem</CachePath>
@@ -1588,6 +1720,10 @@
 				<File Id="921448046" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Attack_Normal_08.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Attack_Normal_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="924397688" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_FT_Normal_04.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_FT_Normal_04_10C4C929.wem</CachePath>
 				</File>
 				<File Id="925850913" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Weapon_Whoosh_03.wav</ShortName>
@@ -1624,6 +1760,10 @@
 				<File Id="955442588" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Spin_03.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="958958097" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_Breath_01.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_Breath_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="968308070" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Land_Mud_03.wav</ShortName>
@@ -1705,6 +1845,10 @@
 					<ShortName>MC_FT_Run_Rock_06.wav</ShortName>
 					<CachePath>SFX/MC_FT_Run_Rock_06_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1050931803" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Grenadier\Grenadier_FT_Heavy_01.wav</ShortName>
+					<CachePath>SFX/Grenadier/Grenadier_FT_Heavy_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="1053646953" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Stone_05.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Stone_05_10C4C929.wem</CachePath>
@@ -1752,6 +1896,86 @@
 				<Event Id="3519138347" Name="Play_Chomper_VOX_Before_Attack" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.498875" DurationMax="0.498875">
 					<MediaRefs>
 						<MediaRef Id="312669986"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="414086918" Name="Play_Grenadier_Breath" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.687875" DurationMax="0.7842917">
+					<MediaRefs>
+						<MediaRef Id="98037581"/>
+						<MediaRef Id="172098297"/>
+						<MediaRef Id="226339710"/>
+						<MediaRef Id="712412189"/>
+						<MediaRef Id="958958097"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="480351787" Name="Play_Grenadier_CloseRangeAttack" MaxAttenuation="20" DurationType="OneShot" DurationMin="1.4433334" DurationMax="1.4433334">
+					<MediaRefs>
+						<MediaRef Id="177781794"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3337034902" Name="Play_Grenadier_Death" MaxAttenuation="20" DurationType="OneShot" DurationMin="4.576667" DurationMax="4.576667">
+					<MediaRefs>
+						<MediaRef Id="654540544"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3960845230" Name="Play_Grenadier_FT_Heavy" MaxAttenuation="20" DurationType="OneShot" DurationMin="1.1628333" DurationMax="1.2421042">
+					<MediaRefs>
+						<MediaRef Id="148697940"/>
+						<MediaRef Id="498578692"/>
+						<MediaRef Id="727432170"/>
+						<MediaRef Id="913155128"/>
+						<MediaRef Id="1050931803"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3213589888" Name="Play_Grenadier_FT_Normal" MaxAttenuation="20" DurationType="OneShot" DurationMin="1.145" DurationMax="1.4290209">
+					<MediaRefs>
+						<MediaRef Id="271025119"/>
+						<MediaRef Id="272629040"/>
+						<MediaRef Id="433973561"/>
+						<MediaRef Id="872206652"/>
+						<MediaRef Id="924397688"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="965282871" Name="Play_Grenadier_Hit" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.51" DurationMax="0.80839586">
+					<MediaRefs>
+						<MediaRef Id="87063364"/>
+						<MediaRef Id="181052669"/>
+						<MediaRef Id="236156406"/>
+						<MediaRef Id="441125503"/>
+						<MediaRef Id="534321136"/>
+						<MediaRef Id="597231844"/>
+						<MediaRef Id="826405583"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1067947400" Name="Play_Grenadier_MeleeAttack" MaxAttenuation="20" DurationType="OneShot" DurationMin="2.867" DurationMax="2.867">
+					<MediaRefs>
+						<MediaRef Id="717488809"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2354689276" Name="Play_Grenadier_Movement_Fast" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.77666664" DurationMax="1.01">
+					<MediaRefs>
+						<MediaRef Id="288158660"/>
+						<MediaRef Id="344802205"/>
+						<MediaRef Id="646839536"/>
+						<MediaRef Id="676406857"/>
+						<MediaRef Id="822059773"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3428007485" Name="Play_Grenadier_Movement_Slow" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.7723542" DurationMax="1.1212292">
+					<MediaRefs>
+						<MediaRef Id="67000485"/>
+						<MediaRef Id="508809202"/>
+						<MediaRef Id="602696853"/>
+						<MediaRef Id="779719350"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="332846454" Name="Play_Grenadier_RangeAttack01" MaxAttenuation="20" DurationType="OneShot" DurationMin="3.4637709" DurationMax="3.4637709">
+					<MediaRefs>
+						<MediaRef Id="164567793"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="332846453" Name="Play_Grenadier_RangeAttack02" MaxAttenuation="20" DurationType="OneShot" DurationMin="2.617854" DurationMax="2.617854">
+					<MediaRefs>
+						<MediaRef Id="716032296"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1840834974" Name="Play_HealthCrate_Idle" MaxAttenuation="10" DurationType="Infinite">
@@ -2890,5 +3114,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D7A74AD3-DE78-D32A-C2FE-6C6D4195F575}</FileHash>
+	<FileHash>{CF395E8C-BFD1-07A2-1BD3-4706AE9C4DAE}</FileHash>
 </SoundBanksInfo>

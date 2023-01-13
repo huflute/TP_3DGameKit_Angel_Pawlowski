@@ -17,6 +17,17 @@ namespace AK
         static const AkUniqueID PLAY_AMB_SPACESHIP = 3213331111U;
         static const AkUniqueID PLAY_CHOMPER_ATTACK = 931488463U;
         static const AkUniqueID PLAY_CHOMPER_VOX_BEFORE_ATTACK = 3519138347U;
+        static const AkUniqueID PLAY_GRENADIER_BREATH = 414086918U;
+        static const AkUniqueID PLAY_GRENADIER_CLOSERANGEATTACK = 480351787U;
+        static const AkUniqueID PLAY_GRENADIER_DEATH = 3337034902U;
+        static const AkUniqueID PLAY_GRENADIER_FT_HEAVY = 3960845230U;
+        static const AkUniqueID PLAY_GRENADIER_FT_NORMAL = 3213589888U;
+        static const AkUniqueID PLAY_GRENADIER_HIT = 965282871U;
+        static const AkUniqueID PLAY_GRENADIER_MELEEATTACK = 1067947400U;
+        static const AkUniqueID PLAY_GRENADIER_MOVEMENT_FAST = 2354689276U;
+        static const AkUniqueID PLAY_GRENADIER_MOVEMENT_SLOW = 3428007485U;
+        static const AkUniqueID PLAY_GRENADIER_RANGEATTACK01 = 332846454U;
+        static const AkUniqueID PLAY_GRENADIER_RANGEATTACK02 = 332846453U;
         static const AkUniqueID PLAY_HEALTHCRATE_IDLE = 1840834974U;
         static const AkUniqueID PLAY_HEALTHCRATE_OPEN = 3862797904U;
         static const AkUniqueID PLAY_MC_FOL_ATTACK = 4094144955U;

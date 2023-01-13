@@ -568,6 +568,131 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Big_Monster" ID="{87B74CFC-5E45-4F7B-B47D-7FDAAE3312A2}" ShortID="750630144">
+							<ChildrenList>
+								<Event Name="Play_Grenadier_RangeAttack02" ID="{608A3712-1219-4ACA-BE1F-0D127DB63EF8}">
+									<ChildrenList>
+										<Action Name="" ID="{8BA09BF1-EABE-40AD-9854-6218C4C6240D}" ShortID="578061508">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier_RangeAttack02" ID="{3E86575B-15D6-4037-B066-DC528B98AD37}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Grenadier_Breath" ID="{5121D2C0-2F10-4A43-86F6-CC19D93003EE}">
+									<ChildrenList>
+										<Action Name="" ID="{545DC625-7C63-4349-B544-6CF3898A0366}" ShortID="276033978">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier_Breath" ID="{9B3C0AC7-86EB-474A-B9B9-2383BE151183}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Grenadier_FT_Heavy" ID="{9270D833-11EF-4DA3-AB64-60F7F1E6CF81}">
+									<ChildrenList>
+										<Action Name="" ID="{7FEAA5A8-FC69-4FD2-B337-EF2E3ADDF0B9}" ShortID="678002025">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier_FT_Heavy" ID="{B8ADD901-4C94-46DE-8956-8D3E6442613D}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Grenadier_CloseRangeAttack" ID="{3F4536F3-7BF9-4CBD-AFFF-3C1AC2DB0ECD}">
+									<ChildrenList>
+										<Action Name="" ID="{50ABEC1B-05C4-4CDA-A5A4-CF7C753F8761}" ShortID="543189184">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier_CloseRangeAttack" ID="{E7C58977-E532-42AE-8C40-3F6928628869}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Grenadier_Movement_Fast" ID="{548B5769-D2D8-43CF-8E69-9F9612B4C495}">
+									<ChildrenList>
+										<Action Name="" ID="{5650FAFD-F8F3-49DF-B893-458F9FCD1583}" ShortID="397722050">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier_Movement_Fast" ID="{82AC0D5D-F604-4BA9-9CE1-3041D0E47CD0}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Grenadier_MeleeAttack" ID="{0D473461-1C49-43E2-B68D-20E0CE40EFCC}">
+									<ChildrenList>
+										<Action Name="" ID="{3B0A96FC-BFDC-4FE4-B165-035704FC73FA}" ShortID="403426093">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier_MeleeAttack" ID="{C383D374-F990-4A51-B7E1-7A27C9DFB566}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Grenadier_RangeAttack01" ID="{49DBED01-5291-4191-8789-D5410B7ED5F2}">
+									<ChildrenList>
+										<Action Name="" ID="{E17A11F1-D754-4909-8CFF-CA408178DE5A}" ShortID="357597938">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier_RangeAttack01" ID="{4D00C930-DF9D-4E6A-AA8B-A3A74FB91A2D}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Grenadier_Hit" ID="{748D3E40-9749-4289-B149-B7EE1C11D1FA}">
+									<ChildrenList>
+										<Action Name="" ID="{56229F9B-9D6D-4C92-B354-D80B395D2904}" ShortID="433466149">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier_Hit" ID="{303804E0-2CA6-47A7-96DC-6EEDE0D2FF6A}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Grenadier_Movement_Slow" ID="{481CC94C-B3DC-4C9D-AA0E-4C824A068737}">
+									<ChildrenList>
+										<Action Name="" ID="{57532141-73DD-4671-A443-0045BCD16ECA}" ShortID="200118426">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier_Movement_Slow" ID="{66CE0BBB-B67E-432E-9539-0C075F361C19}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Grenadier_Death" ID="{CB343770-3C5E-4103-917F-7CDD35A81D73}">
+									<ChildrenList>
+										<Action Name="" ID="{E75660C2-262C-453C-983A-6162F2C8557B}" ShortID="644066349">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier_Death" ID="{14104D74-D829-4B61-A6EC-3644770547DF}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Grenadier_FT_Normal" ID="{3884FEC7-577A-4048-9A18-0A9808C1A4B9}">
+									<ChildrenList>
+										<Action Name="" ID="{323AB9FE-D2B1-44F9-9E67-8342845BC328}" ShortID="886328196">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier_FT_Normal" ID="{AE2B2A89-B0AA-4BA8-ABAC-13B292657DB4}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Switch" ID="{73B638FA-89DE-4CD9-B4B6-799093D2C0E6}" ShortID="873589291">
