@@ -662,21 +662,10 @@
 								</Event>
 								<Event Name="Play_Grenadier_MeleeAttack" ID="{0D473461-1C49-43E2-B68D-20E0CE40EFCC}">
 									<ChildrenList>
-										<Action Name="" ID="{3B0A96FC-BFDC-4FE4-B165-035704FC73FA}" ShortID="403426093">
+										<Action Name="" ID="{76A7A44C-1BBC-42A1-A59F-2AD222B46A64}" ShortID="737084096">
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Grenadier_MeleeAttack" ID="{C383D374-F990-4A51-B7E1-7A27C9DFB566}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Play_Grenadier_RangeAttack01" ID="{49DBED01-5291-4191-8789-D5410B7ED5F2}">
-									<ChildrenList>
-										<Action Name="" ID="{E17A11F1-D754-4909-8CFF-CA408178DE5A}" ShortID="357597938">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Grenadier_RangeAttack01" ID="{4D00C930-DF9D-4E6A-AA8B-A3A74FB91A2D}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -721,6 +710,50 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Grenadier_FT_Normal" ID="{AE2B2A89-B0AA-4BA8-ABAC-13B292657DB4}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Grenadier_Shield_Activate_01" ID="{99C79B7E-51EC-4CEF-8ECC-927C6BA13A55}">
+									<ChildrenList>
+										<Action Name="" ID="{240AEF83-888E-467E-BAA8-14246232AAE6}" ShortID="120807158">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier_Shield_Activate" ID="{8997B2E8-6F82-4D75-A5FC-1FA615245911}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Grenadier_Shield_Desactivate" ID="{25F399B6-0D89-4994-8470-2AC9044ADA64}">
+									<ChildrenList>
+										<Action Name="" ID="{F7441AE2-8730-4074-BFA6-AA50D79B8344}" ShortID="479773295">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier_Shield_Desactivate" ID="{CA6F3FE9-2927-4832-8929-C9048C24D256}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Grenadier_Shield_Idle" ID="{EE572C45-AA8F-4878-86E2-5ED5C96E915A}">
+									<ChildrenList>
+										<Action Name="" ID="{8D183F66-79B2-4C8A-AD88-EE86E41328D7}" ShortID="178378292">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier_Shield_Idle" ID="{3A86BD39-64BA-40F9-8C22-BAFB4ACB5430}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Grenadier_RangeAttack01" ID="{195C0764-BE64-44F9-ACDF-92B11D7A4912}">
+									<ChildrenList>
+										<Action Name="" ID="{395B7026-CDD6-4DA9-941A-562A91C50D8A}" ShortID="758811778">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier_RangeAttack01" ID="{03741ACD-58A2-4875-9C45-35C5F2B643B1}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

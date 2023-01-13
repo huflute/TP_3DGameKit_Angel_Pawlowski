@@ -48,6 +48,54 @@ public class WwiseEventManager : MonoBehaviour
         AkSoundEngine.PostEvent("Play_Whoosh_Text_Disappear", this.gameObject);
     }
 
+
+    // GRENADIER EVENTS
+
+    public void Grenadier_Breath()
+    {
+        AkSoundEngine.PostEvent("Play_Grenadier_Breath", this.gameObject);
+    }
+    public void Grenadier_CloseRangeAttack()
+    {
+        AkSoundEngine.PostEvent("Play_Grenadier_CloseRangeAttack", this.gameObject);
+    }
+    public void Grenadier_Death()
+    {
+        AkSoundEngine.PostEvent("Play_Grenadier_Death", this.gameObject);
+    }
+    public void Grenadier_FT_Heavy()
+    {
+        AkSoundEngine.PostEvent("Play_Grenadier_FT_Heavy", this.gameObject);
+    }
+    public void Grenadier_FT_Normal()
+    {
+        AkSoundEngine.PostEvent("Play_Grenadier_FT_Normal", this.gameObject);
+    }
+    public void Grenadier_Hit()
+    {
+        AkSoundEngine.PostEvent("Play_Grenadier_Hit", this.gameObject);
+    }
+    public void Grenadier_MeleeAttack()
+    {
+        AkSoundEngine.PostEvent("Play_Grenadier_MeleeAttack", this.gameObject);
+    }
+    public void Grenadier_Movement_Fast()
+    {
+        AkSoundEngine.PostEvent("Play_Grenadier_Movement_Fast", this.gameObject);
+    }
+    public void Grenadier_Movement_Slow()
+    {
+        AkSoundEngine.PostEvent("Play_Grenadier_Movement_Slow", this.gameObject);
+    }
+    public void Grenadier_RangeAttack01()
+    {
+        AkSoundEngine.PostEvent("Play_Grenadier_RangeAttack01", this.gameObject);
+    }
+    public void Grenadier_RangeAttack02()
+    {
+        AkSoundEngine.PostEvent("Play_Grenadier_RangeAttack02", this.gameObject);
+    }
+
     void Start()
     {
         

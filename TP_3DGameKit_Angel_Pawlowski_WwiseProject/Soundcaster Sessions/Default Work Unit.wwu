@@ -45,10 +45,6 @@
 							<ObjectRef Name="Play_Grenadier_FT_Normal" ID="{3884FEC7-577A-4048-9A18-0A9808C1A4B9}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}"/>
 							<Position X="4" Y="0"/>
 						</Module>
-						<Module>
-							<ObjectRef Name="Play_Grenadier_RangeAttack01" ID="{49DBED01-5291-4191-8789-D5410B7ED5F2}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}"/>
-							<Position X="4" Y="1"/>
-						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>

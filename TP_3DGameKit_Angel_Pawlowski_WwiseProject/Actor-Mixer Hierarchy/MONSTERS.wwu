@@ -3080,28 +3080,6 @@
 								<ActiveSource Name="Grenadier_RangeAttack02" ID="{56C4AFA3-FC63-4C87-B452-011128DFB491}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Grenadier_RangeAttack01" ID="{4D00C930-DF9D-4E6A-AA8B-A3A74FB91A2D}" ShortID="475478206">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Grenadier_RangeAttack01" ID="{F74AAA12-8FBA-4413-8DB4-1927916BB14B}">
-									<Language>SFX</Language>
-									<AudioFile>Grenadier\Grenadier_RangeAttack01.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="164567793"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Grenadier_RangeAttack01" ID="{F74AAA12-8FBA-4413-8DB4-1927916BB14B}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="Grenadier_CloseRangeAttack" ID="{E7C58977-E532-42AE-8C40-3F6928628869}" ShortID="1044173847">
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -3166,6 +3144,120 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="Grenadier_MeleeAttack" ID="{61ECC40E-1B02-4E0F-8785-8ABFF771148A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Folder Name="EnergyForce" ID="{063983DE-C895-41E6-BF5C-C96A2E57BD22}" ShortID="245795579">
+							<ChildrenList>
+								<Sound Name="Grenadier_Shield_Activate" ID="{8997B2E8-6F82-4D75-A5FC-1FA615245911}" ShortID="229297697">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Grenadier_Shield_Activate" ID="{EC0C9D44-76B5-491C-BD4C-BA6B0EAC8812}">
+											<Language>SFX</Language>
+											<AudioFile>Grenadier_Shield_Activate.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="286140764"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Grenadier_Shield_Activate" ID="{EC0C9D44-76B5-491C-BD4C-BA6B0EAC8812}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Grenadier_Shield_Desactivate" ID="{CA6F3FE9-2927-4832-8929-C9048C24D256}" ShortID="774051138">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Grenadier_Shield_Desactivate" ID="{1A8B7D9C-84F1-49D1-8D4A-5E3B5B5F3701}">
+											<Language>SFX</Language>
+											<AudioFile>Grenadier_Shield_Desactivate.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="230695425"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Grenadier_Shield_Desactivate" ID="{1A8B7D9C-84F1-49D1-8D4A-5E3B5B5F3701}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Grenadier_Shield_Idle" ID="{3A86BD39-64BA-40F9-8C22-BAFB4ACB5430}" ShortID="269681503">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Grenadier_Shield_Idle" ID="{176A49A2-0D43-4747-9479-1A4B5000FA2D}">
+											<Language>SFX</Language>
+											<AudioFile>Grenadier_Shield_Idle.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1049398184"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Grenadier_Shield_Idle" ID="{176A49A2-0D43-4747-9479-1A4B5000FA2D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Grenadier_ShockWaveDeath" ID="{2C0E72AD-BC4E-4644-A89F-E27B0F36F5FA}" ShortID="330286527">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Grenadier_ShockWaveDeath" ID="{0211DBA6-FAA4-4BE2-9BDF-42065B5AFC77}">
+											<Language>SFX</Language>
+											<AudioFile>Grenadier_ShockWaveDeath.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="489302531"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Grenadier_ShockWaveDeath" ID="{0211DBA6-FAA4-4BE2-9BDF-42065B5AFC77}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Sound Name="Grenadier_RangeAttack01" ID="{03741ACD-58A2-4875-9C45-35C5F2B643B1}" ShortID="756961245">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Grenadier_RangeAttack01" ID="{ABA68ED0-8FBD-4EE3-ABFD-58624D1CC834}">
+									<Language>SFX</Language>
+									<AudioFile>Grenadier_RangeAttack01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="265888824"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Grenadier_RangeAttack01" ID="{ABA68ED0-8FBD-4EE3-ABFD-58624D1CC834}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
