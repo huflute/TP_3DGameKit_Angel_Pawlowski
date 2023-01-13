@@ -2,17 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Chomper_Audio_Player : MonoBehaviour
+namespace Gamekit3D
 {
-    // Start is called before the first frame update
-    void Start()
+    public class Chomper_Audio_Player : MonoBehaviour
     {
-        
-    }
+        public void Attack()
+        {
+            AkSoundEngine.PostEvent("Play_Chomper_Attack", this.gameObject);
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+
+        // Start is called before the first frame update
+        void Start()
+        {
+
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+
+        }
     }
 }
