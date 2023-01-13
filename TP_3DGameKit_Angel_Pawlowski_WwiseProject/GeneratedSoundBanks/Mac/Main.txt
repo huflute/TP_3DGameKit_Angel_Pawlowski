@@ -21,8 +21,12 @@ Event	ID	Name			Wwise Object Path	Notes
 	905597479	Play_Weapon_Whoosh_Combo03			\Default Work Unit\Weapon\Whoosh_Combo\Play_Weapon_Whoosh_Combo03	
 	931488463	Play_Chomper_Attack			\Default Work Unit\Monsters\Small_Monsters\Play_Chomper_Attack	
 	951255116	Play_MC_Shield_Off			\Default Work Unit\MC\Shield_Events\Play_MC_Shield_Off	
+<<<<<<< Updated upstream
 	965282871	Play_Grenadier_Hit			\Default Work Unit\Monsters\Big_Monster\Play_Grenadier_Hit	
 	1067947400	Play_Grenadier_MeleeAttack			\Default Work Unit\Monsters\Big_Monster\Play_Grenadier_MeleeAttack	
+=======
+	1213444204	Play_MC_Roll			\Default Work Unit\MC\FT_Events\Play_MC_Roll	
+>>>>>>> Stashed changes
 	1451592030	Play_Small_Monster_Walk_Stone			\Default Work Unit\Monsters\Small_Monsters\FT\Play_Small_Monster_Walk_Stone	
 	1499078611	Play_Small_Monster_Bodyfall_Mud			\Default Work Unit\Monsters\Small_Monsters\Play_Small_Monster_Bodyfall_Mud	
 	1540365902	Play_MC_FOL_Roll			\Default Work Unit\MC\FOL_Events\Play_MC_FOL_Roll	
