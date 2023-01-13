@@ -1,21 +1,27 @@
 Event	ID	Name			Wwise Object Path	Notes
-	717478169	Play_Switch_Stone_Idle			\Default Work Unit\Switch\Play_Switch_Stone_Idle	
-	1933987681	Play_Switch_Crystals_Idle_BeforeActivation			\Default Work Unit\Switch\Play_Switch_Crystals_Idle_BeforeActivation	
-	2556341799	Play_Switch_Stone_Activation			\Default Work Unit\Switch\Play_Switch_Stone_Activation	
-	3013028862	Play_Switch_Crystals_Idle_AfterActivation			\Default Work Unit\Switch\Play_Switch_Crystals_Idle_AfterActivation	
-	3192261611	Stop_Switch_Crystals_Idle_BeforeActivation			\Default Work Unit\Switch\Stop_Switch_Crystals_Idle_BeforeActivation	
-	3416772595	Stop_Switch_Stone_Idle			\Default Work Unit\Switch\Stop_Switch_Stone_Idle	
-	3451021523	Play_Switch_Crystals_Activation			\Default Work Unit\Switch\Play_Switch_Crystals_Activation	
-	4212421580	Stop_Switch_Crystals_Idle_AfterActivation			\Default Work Unit\Switch\Stop_Switch_Crystals_Idle_AfterActivation	
+	43319733	Play_Switch_Crystals_Idle			\Default Work Unit\Switch\Crystal\Play_Switch_Crystals_Idle	
+	717478169	Play_Switch_Stone_Idle			\Default Work Unit\Switch\Stone\Play_Switch_Stone_Idle	
+	1473624415	Stop_Switch_Crystals_Idle			\Default Work Unit\Switch\Crystal\Stop_Switch_Crystals_Idle	
+	2556341799	Play_Switch_Stone_Activation			\Default Work Unit\Switch\Stone\Play_Switch_Stone_Activation	
+	3416772595	Stop_Switch_Stone_Idle			\Default Work Unit\Switch\Stone\Stop_Switch_Stone_Idle	
+	3451021523	Play_Switch_Crystals_Activation			\Default Work Unit\Switch\Crystal\Play_Switch_Crystals_Activation	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1281928104	Crystal_Switch			\Default Work Unit\Crystal_Switch	
+
+Switch	ID	Name	Switch Group			Notes
+	2309979157	Unactivated	Crystal_Switch			
+	2917726846	Activated	Crystal_Switch			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	35379316	Switch_Crystals_Activation	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Switch_Crystals_Activation_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SWITCHES\Crystals\Switch_Crystals_Activation		141432
-	361768001	Switch_Crystals_Idle_BeforeActivation	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Switch_Crystals_Idle_BeforeActivation_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SWITCHES\Crystals\Switch_Crystals_Idle_BeforeActivation		9696
-	509223528	Switch_Crystals_Idle_AfterActivation	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Switch_Crystals_Idle_AfterActivation_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SWITCHES\Crystals\Switch_Crystals_Idle_AfterActivation		9696
+	361768001	Switch_Crystals_Idle_BeforeActivation	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Switch_Crystals_Idle_BeforeActivation_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SWITCHES\Crystals\Switch_Crystals_Idle\Switch_Crystals_Idle_BeforeActivation		9696
+	509223528	Switch_Crystals_Idle_AfterActivation	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Switch_Crystals_Idle_AfterActivation_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SWITCHES\Crystals\Switch_Crystals_Idle\Switch_Crystals_Idle_AfterActivation		9696
 	831798853	Switch_Stone_Activation	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Switch_Stone_Activation_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SWITCHES\Stones\Switch_Stone_Activation		126292
-	846260293	Switch_Stone_Idle	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Switch_Stone_Idle_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SWITCHES\Stones\Switch_Stone_Idle		1100896
+	846260293	Switch_Stone_Idle	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Switch_Stone_Idle_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SWITCHES\Stones\Switch_Stone_Idle		9696
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
-	361768001	Switch_Crystals_Idle_BeforeActivation	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Switch_Crystals_Idle_BeforeActivation_D79FB2B7.wem	361768001.wem	\Actor-Mixer Hierarchy\Default Work Unit\SWITCHES\Crystals\Switch_Crystals_Idle_BeforeActivation	
-	509223528	Switch_Crystals_Idle_AfterActivation	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Switch_Crystals_Idle_AfterActivation_D79FB2B7.wem	509223528.wem	\Actor-Mixer Hierarchy\Default Work Unit\SWITCHES\Crystals\Switch_Crystals_Idle_AfterActivation	
+	361768001	Switch_Crystals_Idle_BeforeActivation	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Switch_Crystals_Idle_BeforeActivation_D79FB2B7.wem	361768001.wem	\Actor-Mixer Hierarchy\Default Work Unit\SWITCHES\Crystals\Switch_Crystals_Idle\Switch_Crystals_Idle_BeforeActivation	
+	509223528	Switch_Crystals_Idle_AfterActivation	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Switch_Crystals_Idle_AfterActivation_D79FB2B7.wem	509223528.wem	\Actor-Mixer Hierarchy\Default Work Unit\SWITCHES\Crystals\Switch_Crystals_Idle\Switch_Crystals_Idle_AfterActivation	
+	846260293	Switch_Stone_Idle	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Switch_Stone_Idle_D79FB2B7.wem	846260293.wem	\Actor-Mixer Hierarchy\Default Work Unit\SWITCHES\Stones\Switch_Stone_Idle	
 
