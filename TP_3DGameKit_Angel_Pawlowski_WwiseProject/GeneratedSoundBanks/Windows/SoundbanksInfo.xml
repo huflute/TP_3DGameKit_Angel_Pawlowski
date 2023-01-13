@@ -161,6 +161,12 @@
 						<Switch Id="2535446860" Name="Spitter"/>
 					</Switches>
 				</SwitchGroup>
+				<SwitchGroup Id="1281928104" Name="Crystal_Switch">
+					<Switches>
+						<Switch Id="2309979157" Name="Unactivated"/>
+						<Switch Id="2917726846" Name="Activated"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="3539622648" Name="Ground_Material">
 					<Switches>
 						<Switch Id="712897245" Name="Mud"/>
@@ -912,7 +918,11 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
+<<<<<<< HEAD
 		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{7202647F-6477-B69D-FCC6-5C7CBA7DF05C}">
+=======
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{A18205DE-DDB3-D71D-7810-AC87CA22C579}">
+>>>>>>> c0b298ce94798c725f821fad561bb2be885ca8d7
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -1882,9 +1892,11 @@
 					<CachePath>SFX/Export 12012023/AMB_SpaceShip_D79FB2B7.wem</CachePath>
 					<PrefetchSize>9696</PrefetchSize>
 				</File>
-				<File Id="846260293" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="846260293" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Export 12012023 V2\Switch_Stone_Idle.wav</ShortName>
-					<CachePath>SFX/Export 12012023 V2/Switch_Stone_Idle_10C4C929.wem</CachePath>
+					<Path>Media/846260293.wem</Path>
+					<CachePath>SFX/Export 12012023 V2/Switch_Stone_Idle_D79FB2B7.wem</CachePath>
+					<PrefetchSize>9696</PrefetchSize>
 				</File>
 				<File Id="850359613" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Spitter_Attack_01.wav</ShortName>
@@ -2799,23 +2811,32 @@
 					<MediaRefs>
 						<MediaRef Id="35379316"/>
 					</MediaRefs>
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry GroupId="1281928104" Id="2917726846" Name="Activated"/>
+					</ActionSetSwitch>
 				</Event>
-				<Event Id="3013028862" Name="Play_Switch_Crystals_Idle_AfterActivation" MaxAttenuation="10" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="509223528"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1933987681" Name="Play_Switch_Crystals_Idle_BeforeActivation" MaxAttenuation="10" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="361768001"/>
-					</MediaRefs>
+				<Event Id="43319733" Name="Play_Switch_Crystals_Idle" MaxAttenuation="10" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1281928104" Id="2309979157" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="361768001"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1281928104" Id="2917726846"/>
+							<MediaRefs>
+								<MediaRef Id="509223528"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="2556341799" Name="Play_Switch_Stone_Activation" MaxAttenuation="10" DurationType="OneShot" DurationMin="1.3145417" DurationMax="1.3145417">
 					<MediaRefs>
 						<MediaRef Id="831798853"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="717478169" Name="Play_Switch_Stone_Idle" MaxAttenuation="10" DurationType="OneShot" DurationMin="11.466666" DurationMax="11.466666">
+				<Event Id="717478169" Name="Play_Switch_Stone_Idle" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="846260293"/>
 					</MediaRefs>
@@ -2939,8 +2960,7 @@
 				</Event>
 				<Event Id="3876046333" Name="Stop_AMB_SpaceShip" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="616065004" Name="Stop_MC_Shield" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="4212421580" Name="Stop_Switch_Crystals_Idle_AfterActivation" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="3192261611" Name="Stop_Switch_Crystals_Idle_BeforeActivation" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1473624415" Name="Stop_Switch_Crystals_Idle" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3416772595" Name="Stop_Switch_Stone_Idle" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2863201769" Name="Stop_Teleporter_Idle" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
@@ -2957,6 +2977,12 @@
 						<Switch Id="2535446860" Name="Spitter"/>
 					</Switches>
 				</SwitchGroup>
+				<SwitchGroup Id="1281928104" Name="Crystal_Switch">
+					<Switches>
+						<Switch Id="2309979157" Name="Unactivated"/>
+						<Switch Id="2917726846" Name="Activated"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="3539622648" Name="Ground_Material">
 					<Switches>
 						<Switch Id="712897245" Name="Mud"/>
@@ -2967,7 +2993,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3202316517" Type="User" Language="SFX" Hash="{110934D2-F402-03EA-12CA-48D8CD7BBEE0}">
+		<SoundBank Id="3202316517" Type="User" Language="SFX" Hash="{0A8E04B9-D0ED-1E1F-9B17-CCABD2B9E6AF}">
 			<ShortName>Switch</ShortName>
 			<Path>Switch.bnk</Path>
 			<Media>
@@ -2991,9 +3017,11 @@
 					<ShortName>Export 12012023 V2\Switch_Stone_Activation.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Switch_Stone_Activation_10C4C929.wem</CachePath>
 				</File>
-				<File Id="846260293" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="846260293" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Export 12012023 V2\Switch_Stone_Idle.wav</ShortName>
-					<CachePath>SFX/Export 12012023 V2/Switch_Stone_Idle_10C4C929.wem</CachePath>
+					<Path>Media/846260293.wem</Path>
+					<CachePath>SFX/Export 12012023 V2/Switch_Stone_Idle_D79FB2B7.wem</CachePath>
+					<PrefetchSize>9696</PrefetchSize>
 				</File>
 			</Media>
 			<Events>
@@ -3001,31 +3029,47 @@
 					<MediaRefs>
 						<MediaRef Id="35379316"/>
 					</MediaRefs>
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry GroupId="1281928104" Id="2917726846" Name="Activated"/>
+					</ActionSetSwitch>
 				</Event>
-				<Event Id="3013028862" Name="Play_Switch_Crystals_Idle_AfterActivation" MaxAttenuation="10" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="509223528"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1933987681" Name="Play_Switch_Crystals_Idle_BeforeActivation" MaxAttenuation="10" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="361768001"/>
-					</MediaRefs>
+				<Event Id="43319733" Name="Play_Switch_Crystals_Idle" MaxAttenuation="10" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1281928104" Id="2309979157" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="361768001"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1281928104" Id="2917726846"/>
+							<MediaRefs>
+								<MediaRef Id="509223528"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="2556341799" Name="Play_Switch_Stone_Activation" MaxAttenuation="10" DurationType="OneShot" DurationMin="1.3145417" DurationMax="1.3145417">
 					<MediaRefs>
 						<MediaRef Id="831798853"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="717478169" Name="Play_Switch_Stone_Idle" MaxAttenuation="10" DurationType="OneShot" DurationMin="11.466666" DurationMax="11.466666">
+				<Event Id="717478169" Name="Play_Switch_Stone_Idle" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="846260293"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4212421580" Name="Stop_Switch_Crystals_Idle_AfterActivation" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="3192261611" Name="Stop_Switch_Crystals_Idle_BeforeActivation" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1473624415" Name="Stop_Switch_Crystals_Idle" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3416772595" Name="Stop_Switch_Stone_Idle" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="1281928104" Name="Crystal_Switch">
+					<Switches>
+						<Switch Id="2309979157" Name="Unactivated"/>
+						<Switch Id="2917726846" Name="Activated"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 		<SoundBank Id="3893417221" Type="User" Language="SFX" Hash="{CDD0058C-6EA6-9A25-EBA5-D25D56D0191A}">
 			<ShortName>Weapon</ShortName>
@@ -3875,5 +3919,9 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
+<<<<<<< HEAD
 	<FileHash>{971CDE27-CFFA-2A93-3435-2184CA849031}</FileHash>
+=======
+	<FileHash>{0CEEEA1F-A7AC-8A19-1FC7-127457974C66}</FileHash>
+>>>>>>> c0b298ce94798c725f821fad561bb2be885ca8d7
 </SoundBanksInfo>

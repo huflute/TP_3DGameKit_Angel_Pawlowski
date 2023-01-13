@@ -59,7 +59,37 @@
 						<CurrentStateRef Name="None" ID="{1F9790EC-5286-4B56-9310-34C68F2E85AE}"/>
 						<CurrentStateRef Name="None" ID="{DAEF4D86-DD11-4E01-8210-144706FA9D82}"/>
 					</CurrentStateList>
-					<CurrentSwitchList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Default" ID="{41B011E9-AA5B-4922-8FEB-1CF3350247F5}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{998097F6-D97A-45BA-A3D4-4907CC5FA499}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Switch_Stone_Idle" ID="{E5264F52-7645-4F3D-9AAC-C6D76850C863}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Switch_Stone_Activation" ID="{3353C33E-DCBE-4FD3-8F0B-02C68474A2B6}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Switch_Crystals_Idle" ID="{F763DF4F-B78A-4C0B-AD96-49CB1AF888AB}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Switch_Crystals_Activation" ID="{486712ED-43BD-4D2D-A15F-F3D97C788FA5}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{1F9790EC-5286-4B56-9310-34C68F2E85AE}"/>
+						<CurrentStateRef Name="None" ID="{DAEF4D86-DD11-4E01-8210-144706FA9D82}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Activated" ID="{2B0CA56A-22BB-471E-A512-03FCDF9D329B}"/>
+					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
