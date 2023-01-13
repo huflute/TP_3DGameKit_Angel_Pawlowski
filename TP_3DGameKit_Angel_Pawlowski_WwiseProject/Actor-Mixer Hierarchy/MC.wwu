@@ -2456,128 +2456,6 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="MC_FOL_Jump" ID="{E576EA4E-755E-48F4-A738-45FABDABE958}" ShortID="195039686">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="MC_FOL_Jump_01" ID="{6E9A33A5-5567-4BE4-942F-A851D47157DF}" ShortID="305509640">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="MC_FOL_Jump_01" ID="{D5DBAC31-9CDF-4040-A564-1D49C9483768}">
-											<Language>SFX</Language>
-											<AudioFile>Export 12012023 V2\MC_FOL_Jump_01.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="593204815"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="MC_FOL_Jump_01" ID="{D5DBAC31-9CDF-4040-A564-1D49C9483768}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="MC_FOL_Jump_02" ID="{07F837DE-82B3-42C4-87CC-FBCA889BD339}" ShortID="248486500">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="MC_FOL_Jump_02" ID="{37615664-D434-4CBA-BCA7-F31C8D5A2E4A}">
-											<Language>SFX</Language>
-											<AudioFile>Export 12012023 V2\MC_FOL_Jump_02.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="857986714"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="MC_FOL_Jump_02" ID="{37615664-D434-4CBA-BCA7-F31C8D5A2E4A}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="MC_FOL_Jump_03" ID="{758DC645-C351-452C-9E52-E1C90F7FA310}" ShortID="305136583">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="MC_FOL_Jump_03" ID="{0B156ED7-642E-4ADF-B8F4-18ADD7618479}">
-											<Language>SFX</Language>
-											<AudioFile>Export 12012023 V2\MC_FOL_Jump_03.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="911638995"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="MC_FOL_Jump_03" ID="{0B156ED7-642E-4ADF-B8F4-18ADD7618479}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="MC_FOL_Jump_04" ID="{39FF6872-9B87-4C96-B57A-F4979717F024}" ShortID="1050187102">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="MC_FOL_Jump_04" ID="{E0904A9B-9B7B-40EB-A8CD-354CE5A7623A}">
-											<Language>SFX</Language>
-											<AudioFile>Export 12012023 V2\MC_FOL_Jump_04.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="889441589"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="MC_FOL_Jump_04" ID="{E0904A9B-9B7B-40EB-A8CD-354CE5A7623A}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="MC_FOL_Jump_05" ID="{9C39A7FE-3818-44D9-9402-3BEE36D849BA}" ShortID="726499926">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="MC_FOL_Jump_05" ID="{2922AF52-3DD1-4346-B406-E7131E6546E1}">
-											<Language>SFX</Language>
-											<AudioFile>Export 12012023 V2\MC_FOL_Jump_05.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="351188196"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="MC_FOL_Jump_05" ID="{2922AF52-3DD1-4346-B406-E7131E6546E1}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="MC_FOL_Land" ID="{096192A9-F78B-4A43-B800-C6179116FA62}" ShortID="480069162">
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -2910,6 +2788,134 @@
 								<ActiveSource Name="MC_FOL_Roll" ID="{2B1B0CC3-5700-4FB7-8C1C-E0794F6B7C51}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<RandomSequenceContainer Name="MC_FOL_Jump" ID="{E576EA4E-755E-48F4-A738-45FABDABE958}" ShortID="195039686">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="5m" ID="{D37D86ED-F239-4657-8E8C-F9B8B15657C2}" WorkUnitID="{B378FA7B-E709-4147-8665-F99F8F07F9BC}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MC_FOL_Jump_01" ID="{6E9A33A5-5567-4BE4-942F-A851D47157DF}" ShortID="305509640">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_FOL_Jump_01" ID="{D5DBAC31-9CDF-4040-A564-1D49C9483768}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\MC_FOL_Jump_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="593204815"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_FOL_Jump_01" ID="{D5DBAC31-9CDF-4040-A564-1D49C9483768}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_FOL_Jump_02" ID="{07F837DE-82B3-42C4-87CC-FBCA889BD339}" ShortID="248486500">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_FOL_Jump_02" ID="{37615664-D434-4CBA-BCA7-F31C8D5A2E4A}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\MC_FOL_Jump_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="857986714"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_FOL_Jump_02" ID="{37615664-D434-4CBA-BCA7-F31C8D5A2E4A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_FOL_Jump_03" ID="{758DC645-C351-452C-9E52-E1C90F7FA310}" ShortID="305136583">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_FOL_Jump_03" ID="{0B156ED7-642E-4ADF-B8F4-18ADD7618479}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\MC_FOL_Jump_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="911638995"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_FOL_Jump_03" ID="{0B156ED7-642E-4ADF-B8F4-18ADD7618479}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_FOL_Jump_04" ID="{39FF6872-9B87-4C96-B57A-F4979717F024}" ShortID="1050187102">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_FOL_Jump_04" ID="{E0904A9B-9B7B-40EB-A8CD-354CE5A7623A}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\MC_FOL_Jump_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="889441589"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_FOL_Jump_04" ID="{E0904A9B-9B7B-40EB-A8CD-354CE5A7623A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_FOL_Jump_05" ID="{9C39A7FE-3818-44D9-9402-3BEE36D849BA}" ShortID="726499926">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_FOL_Jump_05" ID="{2922AF52-3DD1-4346-B406-E7131E6546E1}">
+											<Language>SFX</Language>
+											<AudioFile>Export 12012023 V2\MC_FOL_Jump_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="351188196"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_FOL_Jump_05" ID="{2922AF52-3DD1-4346-B406-E7131E6546E1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Shield" ID="{62F9DA24-5F0D-454B-AAF1-346AB44CAE34}" ShortID="974175382">

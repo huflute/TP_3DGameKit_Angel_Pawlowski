@@ -2,8 +2,9 @@
 <PluginInfo Platform="Mac" BasePlatform="Mac">
 	<PluginLibs>
 		<PluginLib LibName="SoundSeed Air Wind" LibId="7798786" Type="Source" DLL="AkSoundSeedAir" StaticLib="AkSoundSeedWindSource"/>
+		<PluginLib LibName="SoundSeed Air Woosh" LibId="7864322" Type="Source" DLL="AkSoundSeedAir" StaticLib="AkSoundSeedWooshSource"/>
 		<PluginLib LibName="System" LibId="11403271" Type="AudioDevice"/>
 		<PluginLib LibName="No Output" LibId="11862023" Type="AudioDevice"/>
 	</PluginLibs>
-	<FileHash>{9647030F-E9CE-9A26-C556-3AACD7F189D8}</FileHash>
+	<FileHash>{1359818D-2313-B3A1-301B-606C95BDC73D}</FileHash>
 </PluginInfo>

@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{8D2EE2DD-84D0-4FF7-8C90-764D69789553}" SchemaVersion="110">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{8D2EE2DD-84D0-4FF7-8C90-764D69789553}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{8D2EE2DD-84D0-4FF7-8C90-764D69789553}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Location" ID="{9F30977F-FBC3-4EC0-8FFD-16B5DE27F935}">
+					<ChildrenList>
+						<State Name="None" ID="{DAEF4D86-DD11-4E01-8210-144706FA9D82}"/>
+						<State Name="Swamp" ID="{F28AB153-FA33-4897-98CC-EA5ECCF9685D}"/>
+						<State Name="Spaceship" ID="{BE42EBA3-F9A3-4F08-A20C-63A9B7F05104}"/>
+						<State Name="Ruins" ID="{AE137332-300E-41B1-B1E3-AA776E68D5A0}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Menu" ID="{40572F36-A6F3-4437-9CAF-AD2CF4561EAC}">
+					<ChildrenList>
+						<State Name="None" ID="{1F9790EC-5286-4B56-9310-34C68F2E85AE}"/>
+						<State Name="InGame" ID="{0E63CE26-2C04-4642-9C6B-DE4A22B1FCB4}"/>
+						<State Name="InMenu" ID="{463F3A56-3108-4874-A146-05302296FBEE}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

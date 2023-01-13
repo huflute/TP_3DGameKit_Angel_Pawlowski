@@ -129,7 +129,7 @@
 				<Event Id="2863201769" Name="Stop_Teleporter_Idle" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{CA332DAB-01A4-EEDB-67BA-A1C32D384E39}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{66A736AD-F457-7515-5377-D139EE66102F}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -141,6 +141,23 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<StateGroups>
+				<StateGroup Id="1176052424" Name="Location">
+					<States>
+						<State Id="417916826" Name="Ruins"/>
+						<State Id="554650843" Name="Spaceship"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="2907906111" Name="Swamp"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2607556080" Name="Menu">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="984691642" Name="InGame"/>
+						<State Id="3374585465" Name="InMenu"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 			<SwitchGroups>
 				<SwitchGroup Id="2137943" Name="Life">
 					<Switches>
@@ -158,7 +175,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{59792790-E8C5-DEF5-F559-CDF335F42172}">
+		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{97ED4EE7-7818-0E37-8D18-8750A2E49017}">
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
 			<Media>
@@ -203,6 +220,12 @@
 					<CachePath>SFX/Export 12012023/UI_Navigate_01_10C4C929.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="216712300" Name="Soundseed Air Woosh" LibName="SoundSeed Air Woosh" LibId="7864322"/>
+					<Plugin Id="704622074" Name="Soundseed Air Woosh" LibName="SoundSeed Air Woosh" LibId="7864322"/>
+				</Custom>
+			</Plugins>
 			<Events>
 				<Event Id="2193989514" Name="Play_UI_Navigate" DurationType="OneShot" DurationMin="0.95522916" DurationMax="0.95522916">
 					<MediaRefs>
@@ -225,6 +248,20 @@
 					<MediaRefs>
 						<MediaRef Id="257203319"/>
 					</MediaRefs>
+				</Event>
+				<Event Id="2468740206" Name="Play_Whoosh_Text_Appear" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="216712300"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="3024491776" Name="Play_Whoosh_Text_Disappear" DurationType="OneShot" DurationMin="1.8" DurationMax="1.8">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="704622074"/>
+						</Custom>
+					</PluginRefs>
 				</Event>
 			</Events>
 		</SoundBank>
@@ -820,7 +857,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{17956E76-8E65-F444-FA97-ED53BD2AFFBE}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{416B3221-11AB-EBD0-51FF-8F0332AC8C3B}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -1655,7 +1692,9 @@
 			</Media>
 			<Plugins>
 				<Custom>
+					<Plugin Id="216712300" Name="Soundseed Air Woosh" LibName="SoundSeed Air Woosh" LibId="7864322"/>
 					<Plugin Id="239013755" Name="Soundseed Air Wind" LibName="SoundSeed Air Wind" LibId="7798786"/>
+					<Plugin Id="704622074" Name="Soundseed Air Woosh" LibName="SoundSeed Air Woosh" LibId="7864322"/>
 				</Custom>
 			</Plugins>
 			<Events>
@@ -2132,6 +2171,20 @@
 						<MediaRef Id="876047700"/>
 						<MediaRef Id="925850913"/>
 					</MediaRefs>
+				</Event>
+				<Event Id="2468740206" Name="Play_Whoosh_Text_Appear" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="216712300"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="3024491776" Name="Play_Whoosh_Text_Disappear" DurationType="OneShot" DurationMin="1.8" DurationMax="1.8">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="704622074"/>
+						</Custom>
+					</PluginRefs>
 				</Event>
 				<Event Id="3876046333" Name="Stop_AMB_SpaceShip" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="616065004" Name="Stop_MC_Shield" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -2769,5 +2822,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{892C106C-1BA3-C3C8-9EBD-9818B879E283}</FileHash>
+	<FileHash>{1D4A9ADF-ED73-23F3-CACD-C782B13BF8D9}</FileHash>
 </SoundBanksInfo>

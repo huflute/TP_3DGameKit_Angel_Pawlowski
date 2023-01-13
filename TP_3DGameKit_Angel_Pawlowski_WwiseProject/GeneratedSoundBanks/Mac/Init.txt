@@ -1,3 +1,16 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1176052424	Location			\Default Work Unit\Location	
+	2607556080	Menu			\Default Work Unit\Menu	
+
+State	ID	Name	State Group			Notes
+	417916826	Ruins	Location			
+	554650843	Spaceship	Location			
+	748895195	None	Location			
+	2907906111	Swamp	Location			
+	748895195	None	Menu			
+	984691642	InGame	Menu			
+	3374585465	InMenu	Menu			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 

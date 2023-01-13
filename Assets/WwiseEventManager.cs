@@ -5,6 +5,7 @@ using UnityEngine;
 public class WwiseEventManager : MonoBehaviour
 {
     
+    // WEAPON EVENTS
     public void WeaponPickUp ()
     {
         AkSoundEngine.PostEvent("Play_Weapon_Pickup", this.gameObject);
@@ -26,8 +27,17 @@ public class WwiseEventManager : MonoBehaviour
         AkSoundEngine.PostEvent("Play_Weapon_Whoosh_Combo04", this.gameObject);
     }
 
+    //UI EVENTS
 
+    public void Whoosh_Text_Appear ()
+    {
+        AkSoundEngine.PostEvent("Play_Whoosh_Text_Appear", this.gameObject);
+    }
 
+    public void Whoosh_Text_Disappear()
+    {
+        AkSoundEngine.PostEvent("Play_Whoosh_Text_Disappear", this.gameObject);
+    }
 
     void Start()
     {

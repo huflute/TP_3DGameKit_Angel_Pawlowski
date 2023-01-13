@@ -62,6 +62,8 @@ namespace AK
         static const AkUniqueID PLAY_WEAPON_WHOOSH_COMBO02 = 905597478U;
         static const AkUniqueID PLAY_WEAPON_WHOOSH_COMBO03 = 905597479U;
         static const AkUniqueID PLAY_WEAPON_WHOOSH_COMBO04 = 905597472U;
+        static const AkUniqueID PLAY_WHOOSH_TEXT_APPEAR = 2468740206U;
+        static const AkUniqueID PLAY_WHOOSH_TEXT_DISAPPEAR = 3024491776U;
         static const AkUniqueID STOP_AMB_SPACESHIP = 3876046333U;
         static const AkUniqueID STOP_MC_SHIELD = 616065004U;
         static const AkUniqueID STOP_SWITCH_CRYSTALS_IDLE_AFTERACTIVATION = 4212421580U;
@@ -69,6 +71,35 @@ namespace AK
         static const AkUniqueID STOP_SWITCH_STONE_IDLE = 3416772595U;
         static const AkUniqueID STOP_TELEPORTER_IDLE = 2863201769U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace LOCATION
+        {
+            static const AkUniqueID GROUP = 1176052424U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID RUINS = 417916826U;
+                static const AkUniqueID SPACESHIP = 554650843U;
+                static const AkUniqueID SWAMP = 2907906111U;
+            } // namespace STATE
+        } // namespace LOCATION
+
+        namespace MENU
+        {
+            static const AkUniqueID GROUP = 2607556080U;
+
+            namespace STATE
+            {
+                static const AkUniqueID INGAME = 984691642U;
+                static const AkUniqueID INMENU = 3374585465U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace MENU
+
+    } // namespace STATES
 
     namespace SWITCHES
     {
