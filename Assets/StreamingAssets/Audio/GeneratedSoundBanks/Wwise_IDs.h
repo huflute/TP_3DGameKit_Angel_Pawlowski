@@ -159,6 +159,7 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID AMB = 1117531639U;
+        static const AkUniqueID CONVOREVERB = 3251668866U;
         static const AkUniqueID ENVIRONMENT = 1229948536U;
         static const AkUniqueID INTERACTABLES = 181270742U;
         static const AkUniqueID MAIN = 3161908922U;
@@ -171,8 +172,18 @@ namespace AK
 
     namespace BUSSES
     {
+        static const AkUniqueID ENVIRONMENTAL = 1973600711U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID UI = 1551306167U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID REVERB_LARGEROOM = 591468168U;
+        static const AkUniqueID REVERB_RUINS = 563644569U;
+        static const AkUniqueID REVERB_SMALLROOM = 3292698384U;
+        static const AkUniqueID REVERB_SWAMP = 3298723492U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {

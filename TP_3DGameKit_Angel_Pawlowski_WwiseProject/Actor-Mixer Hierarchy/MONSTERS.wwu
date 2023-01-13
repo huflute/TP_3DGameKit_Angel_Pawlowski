@@ -10,6 +10,7 @@
 				<ActorMixer Name="Small_Monster" ID="{1FDC739E-50AC-410A-AE46-60E4C3E36076}" ShortID="252473778">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -19,7 +20,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+							<ObjectRef Name="Environmental" ID="{6D5DA4ED-04CC-475D-A639-EDC09C76D74C}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -2902,6 +2903,7 @@
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -2911,7 +2913,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+							<ObjectRef Name="Environmental" ID="{6D5DA4ED-04CC-475D-A639-EDC09C76D74C}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

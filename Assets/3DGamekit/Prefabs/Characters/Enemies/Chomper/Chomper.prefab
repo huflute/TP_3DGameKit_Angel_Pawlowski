@@ -3519,6 +3519,8 @@ GameObject:
   - component: {fileID: 195733995024529676}
   - component: {fileID: 2768543881958889135}
   - component: {fileID: 2274662090461691837}
+  - component: {fileID: 697008667014152430}
+  - component: {fileID: 5410389393825476442}
   m_Layer: 23
   m_Name: Chomper
   m_TagString: Untagged
@@ -3806,6 +3808,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31df90d6367a70f4a88fac3d43c38ffd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &697008667014152430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722084123150156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c04b4107804f8c540ac663a3ca574c40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!54 &5410389393825476442
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722084123150156}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1737964142438470
 GameObject:
   m_ObjectHideFlags: 0

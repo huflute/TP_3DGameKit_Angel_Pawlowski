@@ -9,6 +9,43 @@
 							<ObjectRef Name="System" ID="{F3AE0CDB-E2AC-4FB2-8994-CB99BE302D6E}" WorkUnitID="{13C994E5-1899-4578-8950-5AF52AEE4F32}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Environmental" ID="{6D5DA4ED-04CC-475D-A639-EDC09C76D74C}">
+							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
+						<Bus Name="UI" ID="{F2D986C7-FA27-434C-B97E-E82F5593161E}"/>
+						<AuxBus Name="Reverb_LargeRoom" ID="{AA9213C8-6F34-4962-A867-3439C1AE1205}">
+							<PropertyList>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+							</PropertyList>
+						</AuxBus>
+						<AuxBus Name="Reverb_SmallRoom" ID="{C73322AB-7FAF-4193-A1FC-3D16E147C49A}">
+							<PropertyList>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+							</PropertyList>
+						</AuxBus>
+						<AuxBus Name="Reverb_Ruins" ID="{B0D8F9F3-DA70-405D-B026-8775E895FBB4}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
+									<ObjectRef Name="Ruins_ConvoVerb" ID="{44D9BDFD-1405-4B0E-8424-D83315BE0A72}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+						<AuxBus Name="Reverb_Swamp" ID="{1E75FED6-7714-48B5-A485-6E4ECE71F681}">
+							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
+									<ObjectRef Name="Swamp_ConvoVerb" ID="{7D94DA72-A69A-4657-90B0-243AF76C856F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

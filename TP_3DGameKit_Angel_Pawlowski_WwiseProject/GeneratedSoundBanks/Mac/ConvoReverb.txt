@@ -1,0 +1,7 @@
+Effect plug-ins	ID	Name	Type				Notes
+	2940440228	Swamp_ConvoVerb	Wwise Convolution Reverb			
+	3332746565	Ruins_ConvoVerb	Wwise Convolution Reverb			
+
+Plug-in Media	ID	Name	Source file	Type	Wwise Object Path	Notes	Data Size
+	1004851595	Swamp_ConvoVerb	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\Plugins\Wwise Convolution Reverb\Field, Surround by Trees 10m_FEE7311B.wem	Wwise Convolution Reverb (Shared)	\Effects\Factory Effects\Convo\Swamp_ConvoVerb		347360
+
