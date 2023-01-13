@@ -3,6 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	634444711	Play_MC_Vox_Death			\Default Work Unit\MC\Vox_Events\Play_MC_Vox_Death	
 	733683298	Play_MC_FOL_Run			\Default Work Unit\MC\FOL_Events\Play_MC_FOL_Run	
 	951255116	Play_MC_Shield_Off			\Default Work Unit\MC\Shield_Events\Play_MC_Shield_Off	
+	1213444204	Play_MC_Roll			\Default Work Unit\MC\FT_Events\Play_MC_Roll	
 	1540365902	Play_MC_FOL_Roll			\Default Work Unit\MC\FOL_Events\Play_MC_FOL_Roll	
 	1593937298	Play_MC_Land			\Default Work Unit\MC\FT_Events\Play_MC_Land	
 	1600895284	Play_MC_Run			\Default Work Unit\MC\FT_Events\Play_MC_Run	

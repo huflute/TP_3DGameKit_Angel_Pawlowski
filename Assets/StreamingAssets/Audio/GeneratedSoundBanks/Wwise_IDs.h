@@ -37,6 +37,7 @@ namespace AK
         static const AkUniqueID PLAY_MC_FOL_RUN = 733683298U;
         static const AkUniqueID PLAY_MC_JUMP = 3022734957U;
         static const AkUniqueID PLAY_MC_LAND = 1593937298U;
+        static const AkUniqueID PLAY_MC_ROLL = 1213444204U;
         static const AkUniqueID PLAY_MC_RUN = 1600895284U;
         static const AkUniqueID PLAY_MC_SHIELD = 1600902502U;
         static const AkUniqueID PLAY_MC_SHIELD_OFF = 951255116U;

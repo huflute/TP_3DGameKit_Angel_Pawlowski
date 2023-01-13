@@ -94,6 +94,24 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Play_MC_Roll" ID="{AB301DE7-7383-4901-8F3A-5ED3477124D5}">
+									<ChildrenList>
+										<Action Name="" ID="{ADE026BF-91E1-447A-8D19-70F7D4B502FF}" ShortID="184316026">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="MC_Roll" ID="{5416329F-F0C5-4D1E-9258-13892CD81BD2}" WorkUnitID="{3FD50C42-DA51-4E26-9C37-08E84BDE220A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{389519A3-AFD4-4B10-A1B8-6FC04E2ECFDD}" ShortID="666898426">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="MC_FOL_Roll" ID="{660A4E7E-7B1A-4019-9D0B-1A13187A70AE}" WorkUnitID="{3FD50C42-DA51-4E26-9C37-08E84BDE220A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="FOL_Events" ID="{8D3963AC-A44E-48D4-8827-4327A4F953A7}" ShortID="493064175">

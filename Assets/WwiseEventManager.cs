@@ -27,6 +27,16 @@ public class WwiseEventManager : MonoBehaviour
         AkSoundEngine.PostEvent("Play_Weapon_Whoosh_Combo04", this.gameObject);
     }
 
+    public void AttackFoley()
+    {
+        AkSoundEngine.PostEvent("Play_MC_FOL_Attack", this.gameObject);
+    }
+
+    public void Roll()
+    {
+        Debug.Log("Roulade");
+        AkSoundEngine.PostEvent("Play_MC_Roll", this.gameObject);
+    }
     //UI EVENTS
 
     public void Whoosh_Text_Appear ()
