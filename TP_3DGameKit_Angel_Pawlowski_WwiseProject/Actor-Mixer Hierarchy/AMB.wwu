@@ -17,7 +17,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+							<ObjectRef Name="Amb_Loops" ID="{598E7C7D-3123-46BB-8E63-D18D91CBE7A1}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
@@ -43,66 +43,55 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
 										</Reference>
 									</ReferenceList>
-								</ActorMixer>
-								<Sound Name="AMB_Loop_Wind_Gust_01" ID="{56A16DEE-D214-4DBD-BBE5-EB6237D0B5C7}" ShortID="292995064">
-									<PropertyList>
-										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
-										<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="10m" ID="{7B55A2EC-035A-4F2D-ABF0-2DBDBF6B0BDE}" WorkUnitID="{B378FA7B-E709-4147-8665-F99F8F07F9BC}"/>
-										</Reference>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-										</Reference>
-									</ReferenceList>
 									<ChildrenList>
-										<SourcePlugin Name="Soundseed Air Wind" ID="{CDD4FAA8-7013-405B-AA93-540A8FED4C09}" ShortID="239013755" PluginName="SoundSeed Air Wind" CompanyID="0" PluginID="119">
+										<Sound Name="AMB_Swamp_01" ID="{386DF689-5590-4FCB-B01F-1827C6A23EDC}" ShortID="727983177">
 											<PropertyList>
-												<Property Name="AverageVelocity" Type="Real32" Value="-840"/>
-												<Property Name="Duration" Type="Real64" Value="1"/>
-												<Property Name="FrequencyScale" Type="Real32" Value="-0.1"/>
-												<Property Name="GainOffset" Type="Real32" Value="7.8"/>
-												<Property Name="Gustiness" Type="Real32" Value="0.51"/>
-												<Property Name="MaxDistance" Type="Real32" Value="1"/>
-												<Property Name="MinDistance" Type="Real32" Value="10"/>
-												<Property Name="Variability" Type="Real32" Value="0.22"/>
-												<Property Name="VelocityDynamicRange" Type="Real32" Value="0.66"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="IsZeroLatency" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
-											<Language>SFX</Language>
-											<PluginData/>
-											<PluginInnerObjectList>
-												<List Name="Deflectors">
-													<PluginInnerObject Name="" ID="{5F00F9CC-A0D8-4433-9A6C-6F5B0D3D1DD2}" PluginName="Deflector" CompanyID="0" PluginID="121">
-														<PropertyList>
-															<Property Name="Frequency" Type="Real32" Value="239"/>
-															<Property Name="PanY" Type="Real64" Value="-4.82947015711943E-15"/>
-															<Property Name="QFactor" Type="Real32" Value="3.43"/>
-														</PropertyList>
-													</PluginInnerObject>
-													<PluginInnerObject Name="" ID="{BCEBDAC5-6A2B-48E9-8A67-8BFC28FB0398}" PluginName="Deflector" CompanyID="0" PluginID="121">
-														<PropertyList>
-															<Property Name="PanX" Type="Real64" Value="8.99280649946377E-15"/>
-															<Property Name="PanY" Type="Real64" Value="46.982"/>
-															<Property Name="QFactor" Type="Real32" Value="4.48"/>
-														</PropertyList>
-													</PluginInnerObject>
-												</List>
-											</PluginInnerObjectList>
-										</SourcePlugin>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_Swamp_01" ID="{21C38B90-4697-46B2-B08C-BBEEC8EB13CC}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_Swamp_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="240253222"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_Swamp_01" ID="{21C38B90-4697-46B2-B08C-BBEEC8EB13CC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Soundseed Air Wind" ID="{CDD4FAA8-7013-405B-AA93-540A8FED4C09}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+								</ActorMixer>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Interior" ID="{AE079C41-C0BA-42BE-A237-DB233F845E09}" ShortID="710749353">
+							<PropertyList>
+								<Property Name="OverrideConversion" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>

@@ -352,21 +352,7 @@
 				</Folder>
 				<Folder Name="AMB" ID="{B5CCAC7E-E793-4113-878D-D5280AFD656F}" ShortID="677991940">
 					<ChildrenList>
-						<Folder Name="Wind" ID="{E3A792AA-1E7E-4000-8443-C995D723053B}" ShortID="87278191">
-							<ChildrenList>
-								<Event Name="Play_AMB_Loop_Wind_Gust_01" ID="{3383ECD3-5910-41B3-A45B-95BC7DE45FEB}">
-									<ChildrenList>
-										<Action Name="" ID="{5ED4F43A-75F1-4EE5-B87A-AC1741932391}" ShortID="935020511">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="AMB_Loop_Wind_Gust_01" ID="{56A16DEE-D214-4DBD-BBE5-EB6237D0B5C7}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-							</ChildrenList>
-						</Folder>
+						<Folder Name="Wind" ID="{E3A792AA-1E7E-4000-8443-C995D723053B}" ShortID="87278191"/>
 						<Folder Name="Spaceship" ID="{1F96C26E-229F-4B2A-892A-D491BE356EEE}" ShortID="48089048">
 							<ChildrenList>
 								<Event Name="Play_AMB_SpaceShip" ID="{5357E864-4B13-470E-BDEA-E6373951B46B}">
@@ -1081,6 +1067,17 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_AMB_Swamp_01" ID="{77683F14-68D3-4DCC-BDA8-DDE8637D3230}">
+					<ChildrenList>
+						<Action Name="" ID="{01EF4E2E-2F7A-4E2C-9EEA-2640A4E187D9}" ShortID="165221693">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Swamp_01" ID="{386DF689-5590-4FCB-B01F-1827C6A23EDC}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

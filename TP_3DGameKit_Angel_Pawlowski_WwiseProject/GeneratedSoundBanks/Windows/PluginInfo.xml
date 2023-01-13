@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PluginInfo Platform="Windows" BasePlatform="Windows">
 	<PluginLibs>
-		<PluginLib LibName="SoundSeed Air Wind" LibId="7798786" Type="Source" DLL="AkSoundSeedAir" StaticLib="AkSoundSeedWindSource"/>
 		<PluginLib LibName="SoundSeed Air Woosh" LibId="7864322" Type="Source" DLL="AkSoundSeedAir" StaticLib="AkSoundSeedWooshSource"/>
 		<PluginLib LibName="System" LibId="11403271" Type="AudioDevice"/>
 		<PluginLib LibName="No Output" LibId="11862023" Type="AudioDevice"/>
 	</PluginLibs>
-	<FileHash>{96D329B3-8879-03CD-9102-693E9E98CD38}</FileHash>
+	<FileHash>{5F3C4463-629F-80D8-6CF1-538A4B9F4419}</FileHash>
 </PluginInfo>

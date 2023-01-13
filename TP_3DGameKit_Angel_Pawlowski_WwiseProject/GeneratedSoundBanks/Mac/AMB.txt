@@ -1,11 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
-	2425561832	Play_AMB_Loop_Wind_Gust_01			\Default Work Unit\AMB\Wind\Play_AMB_Loop_Wind_Gust_01	
 	3056483954	Play_RFX_Computer			\Default Work Unit\AMB\Spaceship\Play_RFX_Computer	
 	3213331111	Play_AMB_SpaceShip			\Default Work Unit\AMB\Spaceship\Play_AMB_SpaceShip	
 	3876046333	Stop_AMB_SpaceShip			\Default Work Unit\AMB\Spaceship\Stop_AMB_SpaceShip	
-
-Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
-	239013755	Soundseed Air Wind	SoundSeed Air Wind		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Exterior\AMB_Loop_Wind_Gust_01\Soundseed Air Wind	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	5366310	RFX_Computer_03	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\RFX_Computer_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Interior\Spaceship\RFX_Computer\RFX_Computer_03		58452
