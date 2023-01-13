@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="181270742" Type="User" Language="SFX" Hash="{41BBD4F9-BE77-DDEF-716E-6BED8759DD14}">
+		<SoundBank Id="181270742" Type="User" Language="SFX" Hash="{9360088D-AE3B-A696-0C78-C4E7385C7538}">
 			<ShortName>Interactables</ShortName>
 			<Path>Interactables.bnk</Path>
 			<Media>
@@ -40,7 +40,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{21B296DB-37E1-A2C8-DE65-381195790B07}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{88F739FB-F63F-F471-E0DD-7527F6598289}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
@@ -183,7 +183,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{B9D7D869-DFF0-D8D8-944F-7B955C551BA7}">
+		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{5C6BC841-DC92-87C2-DB70-694E3DAF1BA2}">
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
 			<Media>
@@ -924,7 +924,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{6F7AEFD5-ACD9-165A-3656-01F778290D66}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{7D00CAF3-44AA-62CF-3A5D-B599DD014884}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -968,6 +968,14 @@
 					<ShortName>MC_FT_Jump_Grass_04.wav</ShortName>
 					<CachePath>SFX/MC_FT_Jump_Grass_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="32384121" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Spitter_VOX_Death_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Spitter_VOX_Death_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="32594970" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Spitter_VOX_Hit_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Spitter_VOX_Hit_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="32818868" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Run_Stone_03.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Stone_03_10C4C929.wem</CachePath>
@@ -1008,6 +1016,10 @@
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Stone_01.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Stone_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="79344577" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small_Monster_Walk_Grass_03.wav</ShortName>
+					<CachePath>SFX/Small_Monster_Walk_Grass_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="81104124" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\MC_FOL_Attack_01.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/MC_FOL_Attack_01_10C4C929.wem</CachePath>
@@ -1032,9 +1044,17 @@
 					<ShortName>MC_VOX_Attack_Normal_04.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Attack_Normal_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="94009858" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Spitter_VOX_Spot_Player_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Spitter_VOX_Spot_Player_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="98037581" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\Grenadier_Breath_02.wav</ShortName>
 					<CachePath>SFX/Grenadier/Grenadier_Breath_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="109188083" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Spitter_VOX_Grunt_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Spitter_VOX_Grunt_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="109271020" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Jump_Rock_05.wav</ShortName>
@@ -1076,6 +1096,14 @@
 					<ShortName>MC_FT_Jump_Grass_03.wav</ShortName>
 					<CachePath>SFX/MC_FT_Jump_Grass_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="155876307" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Chomper_VOX_Death_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Death_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="159935507" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small_Monster_Run_Grass_03.wav</ShortName>
+					<CachePath>SFX/Small_Monster_Run_Grass_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="166074887" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Run_Stone_07.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Stone_07_10C4C929.wem</CachePath>
@@ -1115,6 +1143,10 @@
 				<File Id="197690906" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Hit_05.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Hit_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="199863261" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Spitter_VOX_Spot_Player_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Spitter_VOX_Spot_Player_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="204189178" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Hit_02.wav</ShortName>
@@ -1156,6 +1188,14 @@
 					<ShortName>Grenadier\Grenadier_Breath_03.wav</ShortName>
 					<CachePath>SFX/Grenadier/Grenadier_Breath_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="226662207" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Chomper_VOX_Spot_Player_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Spot_Player_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="227135645" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Spitter_VOX_Hit_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Spitter_VOX_Hit_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="230695425" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier_Shield_Desactivate.wav</ShortName>
 					<CachePath>SFX/Grenadier_Shield_Desactivate_10C4C929.wem</CachePath>
@@ -1168,9 +1208,21 @@
 					<ShortName>Grenadier\Grenadier_Hit_07.wav</ShortName>
 					<CachePath>SFX/Grenadier/Grenadier_Hit_07_10C4C929.wem</CachePath>
 				</File>
+				<File Id="236583307" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Chomper_VOX_Grunt_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Grunt_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="238314850" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Chomper_VOX_Hit_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Hit_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="239516241" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Attack_Normal_02.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Attack_Normal_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="242971882" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Chomper_VOX_Hit_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Hit_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="251333807" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Jump_01.wav</ShortName>
@@ -1187,6 +1239,10 @@
 				<File Id="262492407" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Land_Grass_02.wav</ShortName>
 					<CachePath>SFX/MC_FT_Land_Grass_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="262719714" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small_Monster_Walk_Grass_06.wav</ShortName>
+					<CachePath>SFX/Small_Monster_Walk_Grass_06_10C4C929.wem</CachePath>
 				</File>
 				<File Id="263091360" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Mud_03.wav</ShortName>
@@ -1224,9 +1280,25 @@
 					<ShortName>Grenadier_Shield_Activate.wav</ShortName>
 					<CachePath>SFX/Grenadier_Shield_Activate_10C4C929.wem</CachePath>
 				</File>
+				<File Id="286851709" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Chomper_VOX_Spot_Player_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Spot_Player_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="288158660" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\Grenadier_Movement_Fast_02.wav</ShortName>
 					<CachePath>SFX/Grenadier/Grenadier_Movement_Fast_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="289121541" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small_Monster_Walk_Grass_05.wav</ShortName>
+					<CachePath>SFX/Small_Monster_Walk_Grass_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="289870512" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Spitter_VOX_Death_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Spitter_VOX_Death_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="291519046" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small_Monster_Walk_Grass_04.wav</ShortName>
+					<CachePath>SFX/Small_Monster_Walk_Grass_04_10C4C929.wem</CachePath>
 				</File>
 				<File Id="292784953" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Attack_Normal_01.wav</ShortName>
@@ -1267,6 +1339,10 @@
 				<File Id="325190004" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Run_Rock_05.wav</ShortName>
 					<CachePath>SFX/MC_FT_Run_Rock_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="332427016" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small_Monster_Run_Grass_04.wav</ShortName>
+					<CachePath>SFX/Small_Monster_Run_Grass_04_10C4C929.wem</CachePath>
 				</File>
 				<File Id="338965084" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\MC_FOL_Run_06.wav</ShortName>
@@ -1344,6 +1420,10 @@
 					<ShortName>Export 12012023 V2\MC_FOL_Land_03.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/MC_FOL_Land_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="421589509" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small_Monster_Bodyfall_Grass_03.wav</ShortName>
+					<CachePath>SFX/Small_Monster_Bodyfall_Grass_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="432061020" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Mud_01.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Mud_01_10C4C929.wem</CachePath>
@@ -1376,6 +1456,10 @@
 					<ShortName>Export 12012023 V2\Chomper_Attack_01.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Chomper_Attack_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="465465323" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Spitter_VOX_Grunt_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Spitter_VOX_Grunt_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="467297718" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Spitter_Attack_02.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Spitter_Attack_02_10C4C929.wem</CachePath>
@@ -1383,6 +1467,10 @@
 				<File Id="474815787" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Hit_01.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Hit_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="479851382" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Spitter_VOX_Spot_Player_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Spitter_VOX_Spot_Player_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="483726968" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>HeallthCrate_Open_3D.wav</ShortName>
@@ -1447,6 +1535,10 @@
 				<File Id="547806294" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Weapon_Impact_01.wav</ShortName>
 					<CachePath>SFX/Weapon_Impact_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="551175456" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small_Monster_Run_Grass_05.wav</ShortName>
+					<CachePath>SFX/Small_Monster_Run_Grass_05_10C4C929.wem</CachePath>
 				</File>
 				<File Id="559924587" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Weapon_Whoosh_02.wav</ShortName>
@@ -1524,17 +1616,33 @@
 					<ShortName>Export 12012023 V2\MC_FOL_Run_07.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/MC_FOL_Run_07_10C4C929.wem</CachePath>
 				</File>
+				<File Id="616368294" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Spitter_VOX_Death_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Spitter_VOX_Death_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="620917797" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\MC_FOL_Attack_03.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/MC_FOL_Attack_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="636912088" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Chomper_VOX_Grunt_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Grunt_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="640552915" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Stone_03.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Stone_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="645274808" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small_Monster_Run_Grass_01.wav</ShortName>
+					<CachePath>SFX/Small_Monster_Run_Grass_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="646839536" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\Grenadier_Movement_Fast_04.wav</ShortName>
 					<CachePath>SFX/Grenadier/Grenadier_Movement_Fast_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="647091187" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Chomper_VOX_Death_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Death_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="648182821" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\RFX_Computer_02.wav</ShortName>
@@ -1567,6 +1675,10 @@
 				<File Id="666134829" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Jump_Rock_01.wav</ShortName>
 					<CachePath>SFX/MC_FT_Jump_Rock_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="667477966" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Chomper_VOX_Spot_Player_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Spot_Player_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="673930999" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Attack_Heavy_01.wav</ShortName>
@@ -1642,6 +1754,10 @@
 					<ShortName>Grenadier\Grenadier_FT_Heavy_02.wav</ShortName>
 					<CachePath>SFX/Grenadier/Grenadier_FT_Heavy_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="730627869" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Chomper_VOX_Death_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Death_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="733080430" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\RFX_Computer_01.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/RFX_Computer_01_10C4C929.wem</CachePath>
@@ -1698,6 +1814,10 @@
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_06.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Mud_06_10C4C929.wem</CachePath>
 				</File>
+				<File Id="801414709" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Chomper_VOX_Hit_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Hit_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="802844937" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Weapon_Impact_03.wav</ShortName>
 					<CachePath>SFX/Weapon_Impact_03_10C4C929.wem</CachePath>
@@ -1709,6 +1829,10 @@
 				<File Id="803439455" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\MC_FOL_Run_05.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/MC_FOL_Run_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="807603451" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small_Monster_Run_Grass_02.wav</ShortName>
+					<CachePath>SFX/Small_Monster_Run_Grass_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="809109598" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Run_Grass_02.wav</ShortName>
@@ -1780,6 +1904,14 @@
 					<ShortName>Export 12012023\UI_Press_Other_02.wav</ShortName>
 					<CachePath>SFX/Export 12012023/UI_Press_Other_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="858529727" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Spitter_VOX_Hit_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Spitter_VOX_Hit_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="866082977" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small_Monster_Walk_Grass_01.wav</ShortName>
+					<CachePath>SFX/Small_Monster_Walk_Grass_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="867526222" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Weapon_Pickup.wav</ShortName>
 					<CachePath>SFX/Weapon_Pickup_10C4C929.wem</CachePath>
@@ -1799,6 +1931,10 @@
 				<File Id="876297451" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Pain_Soft_02.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Pain_Soft_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="878864379" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small_Monster_Bodyfall_Grass_01.wav</ShortName>
+					<CachePath>SFX/Small_Monster_Bodyfall_Grass_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="884364183" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Run_Grass_04.wav</ShortName>
@@ -1868,9 +2004,17 @@
 					<ShortName>MC_VOX_Pain_Medium_01.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Pain_Medium_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="941068506" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small_Monster_Run_Grass_06.wav</ShortName>
+					<CachePath>SFX/Small_Monster_Run_Grass_06_10C4C929.wem</CachePath>
+				</File>
 				<File Id="943625314" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Run_Mud_08.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Mud_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="946323943" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Chomper_VOX_Grunt_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Grunt_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="955442588" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Spin_03.wav</ShortName>
@@ -1912,9 +2056,17 @@
 					<ShortName>UI_Navigate_01.wav</ShortName>
 					<CachePath>SFX/UI_Navigate_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="993237551" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small_Monster_Walk_Grass_02.wav</ShortName>
+					<CachePath>SFX/Small_Monster_Walk_Grass_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="993472816" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Jump_Mud_04.wav</ShortName>
 					<CachePath>SFX/MC_FT_Jump_Mud_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="993497531" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small_Monster_Bodyfall_Grass_02.wav</ShortName>
+					<CachePath>SFX/Small_Monster_Bodyfall_Grass_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="994174158" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Attack_Normal_07.wav</ShortName>
@@ -1998,6 +2150,10 @@
 					<ShortName>Weapon_Impact_05.wav</ShortName>
 					<CachePath>SFX/Weapon_Impact_05_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1064310434" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Spitter_VOX_Grunt_04.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Spitter_VOX_Grunt_04_10C4C929.wem</CachePath>
+				</File>
 			</Media>
 			<Plugins>
 				<Custom>
@@ -2019,14 +2175,14 @@
 						<MediaRef Id="845874098"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="931488463" Name="Play_Chomper_Attack" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.58002084" DurationMax="0.623625">
+				<Event Id="931488463" Name="Play_Chomper_Attack" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.58002084" DurationMax="0.623625">
 					<MediaRefs>
 						<MediaRef Id="173511823"/>
 						<MediaRef Id="197532119"/>
 						<MediaRef Id="459153112"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3519138347" Name="Play_Chomper_VOX_Before_Attack" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.498875" DurationMax="0.498875">
+				<Event Id="3519138347" Name="Play_Chomper_VOX_Before_Attack" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.498875" DurationMax="0.498875">
 					<MediaRefs>
 						<MediaRef Id="312669986"/>
 					</MediaRefs>
@@ -2410,7 +2566,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="803911630" Name="Play_Monster_Vanish" MaxAttenuation="5" DurationType="OneShot" DurationMin="2.4935625" DurationMax="2.4935625">
+				<Event Id="803911630" Name="Play_Monster_Vanish" MaxAttenuation="10" DurationType="OneShot" DurationMin="2.4935625" DurationMax="2.4935625">
 					<MediaRefs>
 						<MediaRef Id="372411582"/>
 					</MediaRefs>
@@ -2426,25 +2582,39 @@
 						<MediaRef Id="926020533"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1499078611" Name="Play_Small_Monster_Bodyfall_Mud" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.24025" DurationMax="0.30097917">
-					<MediaRefs>
-						<MediaRef Id="6905508"/>
-						<MediaRef Id="263091360"/>
-						<MediaRef Id="432061020"/>
-						<MediaRef Id="742921665"/>
-						<MediaRef Id="1014235316"/>
-					</MediaRefs>
+				<Event Id="3179497032" Name="Play_Small_Monster_Bodyfall" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.24025" DurationMax="0.76666665">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="712897245"/>
+							<MediaRefs>
+								<MediaRef Id="6905508"/>
+								<MediaRef Id="263091360"/>
+								<MediaRef Id="432061020"/>
+								<MediaRef Id="742921665"/>
+								<MediaRef Id="1014235316"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="4248645337" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="421589509"/>
+								<MediaRef Id="878864379"/>
+								<MediaRef Id="993497531"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="2144363834"/>
+							<MediaRefs>
+								<MediaRef Id="252669861"/>
+								<MediaRef Id="640552915"/>
+								<MediaRef Id="660528075"/>
+								<MediaRef Id="928247450"/>
+								<MediaRef Id="1053646953"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
-				<Event Id="2386186782" Name="Play_Small_Monster_Bodyfall_Stone" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.2838125" DurationMax="0.38252082">
-					<MediaRefs>
-						<MediaRef Id="252669861"/>
-						<MediaRef Id="640552915"/>
-						<MediaRef Id="660528075"/>
-						<MediaRef Id="928247450"/>
-						<MediaRef Id="1053646953"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1602398710" Name="Play_Small_Monster_Hit" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.23222917" DurationMax="0.2714375">
+				<Event Id="1602398710" Name="Play_Small_Monster_Hit" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.23222917" DurationMax="0.2714375">
 					<MediaRefs>
 						<MediaRef Id="197690906"/>
 						<MediaRef Id="204189178"/>
@@ -2453,31 +2623,48 @@
 						<MediaRef Id="659355389"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1809433285" Name="Play_Small_Monster_Run_Mud" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.08035417" DurationMax="0.12083333">
-					<MediaRefs>
-						<MediaRef Id="6026606"/>
-						<MediaRef Id="232677465"/>
-						<MediaRef Id="563449050"/>
-						<MediaRef Id="750813899"/>
-						<MediaRef Id="893127505"/>
-						<MediaRef Id="943625314"/>
-						<MediaRef Id="1007738558"/>
-						<MediaRef Id="1032309566"/>
-					</MediaRefs>
+				<Event Id="1338193862" Name="Play_Small_Monster_Run" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.055875" DurationMax="0.6">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="712897245"/>
+							<MediaRefs>
+								<MediaRef Id="6026606"/>
+								<MediaRef Id="232677465"/>
+								<MediaRef Id="563449050"/>
+								<MediaRef Id="750813899"/>
+								<MediaRef Id="893127505"/>
+								<MediaRef Id="943625314"/>
+								<MediaRef Id="1007738558"/>
+								<MediaRef Id="1032309566"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="4248645337" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="159935507"/>
+								<MediaRef Id="332427016"/>
+								<MediaRef Id="551175456"/>
+								<MediaRef Id="645274808"/>
+								<MediaRef Id="807603451"/>
+								<MediaRef Id="941068506"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="2144363834"/>
+							<MediaRefs>
+								<MediaRef Id="7411264"/>
+								<MediaRef Id="32818868"/>
+								<MediaRef Id="134490721"/>
+								<MediaRef Id="166074887"/>
+								<MediaRef Id="353067285"/>
+								<MediaRef Id="451660734"/>
+								<MediaRef Id="604821713"/>
+								<MediaRef Id="977905503"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
-				<Event Id="3729170868" Name="Play_Small_Monster_Run_Stone" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.055875" DurationMax="0.069125">
-					<MediaRefs>
-						<MediaRef Id="7411264"/>
-						<MediaRef Id="32818868"/>
-						<MediaRef Id="134490721"/>
-						<MediaRef Id="166074887"/>
-						<MediaRef Id="353067285"/>
-						<MediaRef Id="451660734"/>
-						<MediaRef Id="604821713"/>
-						<MediaRef Id="977905503"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="281344347" Name="Play_Small_Monster_Spin" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.16772917" DurationMax="0.35329166">
+				<Event Id="281344347" Name="Play_Small_Monster_Spin" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.16772917" DurationMax="0.35329166">
 					<MediaRefs>
 						<MediaRef Id="263542469"/>
 						<MediaRef Id="307766508"/>
@@ -2489,33 +2676,126 @@
 						<MediaRef Id="955442588"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="237106917" Name="Play_Small_Monster_VOX_Death" MaxAttenuation="5" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="46056053" Name="Play_Small_Monster_VOX_Grunt" MaxAttenuation="5" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="201430788" Name="Play_Small_Monster_VOX_Hit" MaxAttenuation="5" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="41618512" Name="Play_Small_Monster_VOX_Spots" MaxAttenuation="5" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2960261907" Name="Play_Small_Monster_Walk_Mud" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.06789583" DurationMax="0.09147917">
-					<MediaRefs>
-						<MediaRef Id="683535081"/>
-						<MediaRef Id="717116967"/>
-						<MediaRef Id="769651858"/>
-						<MediaRef Id="789824356"/>
-						<MediaRef Id="844663955"/>
-						<MediaRef Id="869639993"/>
-						<MediaRef Id="977113141"/>
-						<MediaRef Id="994727889"/>
-					</MediaRefs>
+				<Event Id="237106917" Name="Play_Small_Monster_VOX_Death" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.44970834" DurationMax="0.68660414">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="643044249" Id="2535446860"/>
+							<MediaRefs>
+								<MediaRef Id="32384121"/>
+								<MediaRef Id="289870512"/>
+								<MediaRef Id="616368294"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="643044249" Id="14039721" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="155876307"/>
+								<MediaRef Id="647091187"/>
+								<MediaRef Id="730627869"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
-				<Event Id="1451592030" Name="Play_Small_Monster_Walk_Stone" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.055875" DurationMax="0.069125">
-					<MediaRefs>
-						<MediaRef Id="308812"/>
-						<MediaRef Id="45533342"/>
-						<MediaRef Id="72306303"/>
-						<MediaRef Id="109905027"/>
-						<MediaRef Id="296594354"/>
-						<MediaRef Id="818125363"/>
-						<MediaRef Id="974521806"/>
-						<MediaRef Id="986255503"/>
-					</MediaRefs>
+				<Event Id="46056053" Name="Play_Small_Monster_VOX_Grunt" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.37335417" DurationMax="0.57025">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="643044249" Id="2535446860"/>
+							<MediaRefs>
+								<MediaRef Id="109188083"/>
+								<MediaRef Id="465465323"/>
+								<MediaRef Id="1064310434"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="643044249" Id="14039721" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="236583307"/>
+								<MediaRef Id="636912088"/>
+								<MediaRef Id="946323943"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="201430788" Name="Play_Small_Monster_VOX_Hit" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.45660415" DurationMax="0.5002083">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="643044249" Id="2535446860"/>
+							<MediaRefs>
+								<MediaRef Id="32594970"/>
+								<MediaRef Id="227135645"/>
+								<MediaRef Id="858529727"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="643044249" Id="14039721" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="238314850"/>
+								<MediaRef Id="242971882"/>
+								<MediaRef Id="801414709"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="41618512" Name="Play_Small_Monster_VOX_Spots" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.32964584" DurationMax="0.38529167">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="643044249" Id="2535446860"/>
+							<MediaRefs>
+								<MediaRef Id="94009858"/>
+								<MediaRef Id="199863261"/>
+								<MediaRef Id="479851382"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="643044249" Id="14039721" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="226662207"/>
+								<MediaRef Id="286851709"/>
+								<MediaRef Id="667477966"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1427652232" Name="Play_Small_Monster_Walk" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.055875" DurationMax="0.6">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="712897245"/>
+							<MediaRefs>
+								<MediaRef Id="683535081"/>
+								<MediaRef Id="717116967"/>
+								<MediaRef Id="769651858"/>
+								<MediaRef Id="789824356"/>
+								<MediaRef Id="844663955"/>
+								<MediaRef Id="869639993"/>
+								<MediaRef Id="977113141"/>
+								<MediaRef Id="994727889"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="4248645337" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="79344577"/>
+								<MediaRef Id="262719714"/>
+								<MediaRef Id="289121541"/>
+								<MediaRef Id="291519046"/>
+								<MediaRef Id="866082977"/>
+								<MediaRef Id="993237551"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="2144363834"/>
+							<MediaRefs>
+								<MediaRef Id="308812"/>
+								<MediaRef Id="45533342"/>
+								<MediaRef Id="72306303"/>
+								<MediaRef Id="109905027"/>
+								<MediaRef Id="296594354"/>
+								<MediaRef Id="818125363"/>
+								<MediaRef Id="974521806"/>
+								<MediaRef Id="986255503"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="3913336272" Name="Play_Spitter_Attack" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.48422918" DurationMax="0.50675">
 					<MediaRefs>
@@ -2696,7 +2976,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3202316517" Type="User" Language="SFX" Hash="{D48241B4-0A5A-BFB4-DDBA-48CB8EAE0C23}">
+		<SoundBank Id="3202316517" Type="User" Language="SFX" Hash="{110934D2-F402-03EA-12CA-48D8CD7BBEE0}">
 			<ShortName>Switch</ShortName>
 			<Path>Switch.bnk</Path>
 			<Media>
@@ -2756,7 +3036,7 @@
 				<Event Id="3416772595" Name="Stop_Switch_Stone_Idle" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3893417221" Type="User" Language="SFX" Hash="{6279F3C9-47FE-B149-C0EC-8200E1307E15}">
+		<SoundBank Id="3893417221" Type="User" Language="SFX" Hash="{CDD0058C-6EA6-9A25-EBA5-D25D56D0191A}">
 			<ShortName>Weapon</ShortName>
 			<Path>Weapon.bnk</Path>
 			<Media>
@@ -2932,7 +3212,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{0C7ABE16-3C3F-4A18-0467-C8073F73F372}">
+		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{549C953A-C87A-7122-692B-858BCE856D6A}">
 			<ShortName>Small_Monsters</ShortName>
 			<Path>Small_Monsters.bnk</Path>
 			<Media>
@@ -2952,6 +3232,14 @@
 					<ShortName>Export 12012023 V2\Small_Monster_Run_Stone_06.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Stone_06_10C4C929.wem</CachePath>
 				</File>
+				<File Id="32384121" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Spitter_VOX_Death_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Spitter_VOX_Death_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="32594970" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Spitter_VOX_Hit_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Spitter_VOX_Hit_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="32818868" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Run_Stone_03.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Stone_03_10C4C929.wem</CachePath>
@@ -2964,6 +3252,18 @@
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Stone_01.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Stone_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="79344577" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small_Monster_Walk_Grass_03.wav</ShortName>
+					<CachePath>SFX/Small_Monster_Walk_Grass_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="94009858" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Spitter_VOX_Spot_Player_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Spitter_VOX_Spot_Player_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="109188083" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Spitter_VOX_Grunt_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Spitter_VOX_Grunt_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="109905027" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Stone_05.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Stone_05_10C4C929.wem</CachePath>
@@ -2971,6 +3271,14 @@
 				<File Id="134490721" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Run_Stone_04.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Stone_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="155876307" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Chomper_VOX_Death_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Death_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="159935507" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small_Monster_Run_Grass_03.wav</ShortName>
+					<CachePath>SFX/Small_Monster_Run_Grass_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="166074887" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Run_Stone_07.wav</ShortName>
@@ -2988,17 +3296,45 @@
 					<ShortName>Export 12012023 V2\Small_Monster_Hit_05.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Hit_05_10C4C929.wem</CachePath>
 				</File>
+				<File Id="199863261" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Spitter_VOX_Spot_Player_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Spitter_VOX_Spot_Player_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="204189178" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Hit_02.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Hit_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="226662207" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Chomper_VOX_Spot_Player_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Spot_Player_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="227135645" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Spitter_VOX_Hit_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Spitter_VOX_Hit_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="232677465" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Run_Mud_02.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Mud_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="236583307" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Chomper_VOX_Grunt_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Grunt_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="238314850" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Chomper_VOX_Hit_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Hit_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="242971882" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Chomper_VOX_Hit_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Hit_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="252669861" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Stone_02.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Stone_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="262719714" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small_Monster_Walk_Grass_06.wav</ShortName>
+					<CachePath>SFX/Small_Monster_Walk_Grass_06_10C4C929.wem</CachePath>
 				</File>
 				<File Id="263091360" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Mud_03.wav</ShortName>
@@ -3007,6 +3343,22 @@
 				<File Id="263542469" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Spin_06.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="286851709" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Chomper_VOX_Spot_Player_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Spot_Player_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="289121541" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small_Monster_Walk_Grass_05.wav</ShortName>
+					<CachePath>SFX/Small_Monster_Walk_Grass_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="289870512" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Spitter_VOX_Death_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Spitter_VOX_Death_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="291519046" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small_Monster_Walk_Grass_04.wav</ShortName>
+					<CachePath>SFX/Small_Monster_Walk_Grass_04_10C4C929.wem</CachePath>
 				</File>
 				<File Id="296594354" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Stone_02.wav</ShortName>
@@ -3020,6 +3372,10 @@
 					<ShortName>Export 12012023 V2\Chomper_VOX_Before_Attack.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Before_Attack_10C4C929.wem</CachePath>
 				</File>
+				<File Id="332427016" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small_Monster_Run_Grass_04.wav</ShortName>
+					<CachePath>SFX/Small_Monster_Run_Grass_04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="353067285" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Run_Stone_01.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Stone_01_10C4C929.wem</CachePath>
@@ -3027,6 +3383,10 @@
 				<File Id="372411582" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Monster_Vanish.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Monster_Vanish_10C4C929.wem</CachePath>
+				</File>
+				<File Id="421589509" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small_Monster_Bodyfall_Grass_03.wav</ShortName>
+					<CachePath>SFX/Small_Monster_Bodyfall_Grass_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="432061020" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Mud_01.wav</ShortName>
@@ -3040,6 +3400,10 @@
 					<ShortName>Export 12012023 V2\Chomper_Attack_01.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Chomper_Attack_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="465465323" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Spitter_VOX_Grunt_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Spitter_VOX_Grunt_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="467297718" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Spitter_Attack_02.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Spitter_Attack_02_10C4C929.wem</CachePath>
@@ -3047,6 +3411,14 @@
 				<File Id="474815787" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Hit_01.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Hit_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="479851382" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Spitter_VOX_Spot_Player_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Spitter_VOX_Spot_Player_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="551175456" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small_Monster_Run_Grass_05.wav</ShortName>
+					<CachePath>SFX/Small_Monster_Run_Grass_05_10C4C929.wem</CachePath>
 				</File>
 				<File Id="563449050" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Run_Mud_05.wav</ShortName>
@@ -3064,9 +3436,25 @@
 					<ShortName>Export 12012023 V2\Small_Monster_Hit_03.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Hit_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="616368294" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Spitter_VOX_Death_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Spitter_VOX_Death_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="636912088" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Chomper_VOX_Grunt_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Grunt_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="640552915" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Stone_03.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Stone_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="645274808" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small_Monster_Run_Grass_01.wav</ShortName>
+					<CachePath>SFX/Small_Monster_Run_Grass_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="647091187" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Chomper_VOX_Death_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Death_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="659355389" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Hit_04.wav</ShortName>
@@ -3075,6 +3463,10 @@
 				<File Id="660528075" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Stone_04.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Stone_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="667477966" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Chomper_VOX_Spot_Player_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Spot_Player_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="677663508" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Spin_07.wav</ShortName>
@@ -3092,6 +3484,10 @@
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_08.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Mud_08_10C4C929.wem</CachePath>
 				</File>
+				<File Id="730627869" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Chomper_VOX_Death_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Death_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="742921665" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Mud_02.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Mud_02_10C4C929.wem</CachePath>
@@ -3108,9 +3504,17 @@
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_06.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Mud_06_10C4C929.wem</CachePath>
 				</File>
+				<File Id="801414709" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Chomper_VOX_Hit_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Hit_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="803050308" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Spin_01.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="807603451" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small_Monster_Run_Grass_02.wav</ShortName>
+					<CachePath>SFX/Small_Monster_Run_Grass_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="818125363" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Stone_07.wav</ShortName>
@@ -3124,9 +3528,21 @@
 					<ShortName>Export 12012023 V2\Spitter_Attack_01.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Spitter_Attack_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="858529727" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Spitter_VOX_Hit_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Spitter_VOX_Hit_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="866082977" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small_Monster_Walk_Grass_01.wav</ShortName>
+					<CachePath>SFX/Small_Monster_Walk_Grass_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="869639993" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_03.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Mud_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="878864379" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small_Monster_Bodyfall_Grass_01.wav</ShortName>
+					<CachePath>SFX/Small_Monster_Bodyfall_Grass_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="893127505" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Run_Mud_03.wav</ShortName>
@@ -3140,9 +3556,17 @@
 					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Stone_01.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Stone_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="941068506" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small_Monster_Run_Grass_06.wav</ShortName>
+					<CachePath>SFX/Small_Monster_Run_Grass_06_10C4C929.wem</CachePath>
+				</File>
 				<File Id="943625314" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Run_Mud_08.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Mud_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="946323943" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Chomper_VOX_Grunt_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Grunt_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="955442588" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Spin_03.wav</ShortName>
@@ -3163,6 +3587,14 @@
 				<File Id="986255503" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Stone_03.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Stone_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="993237551" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small_Monster_Walk_Grass_02.wav</ShortName>
+					<CachePath>SFX/Small_Monster_Walk_Grass_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="993497531" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small_Monster_Bodyfall_Grass_02.wav</ShortName>
+					<CachePath>SFX/Small_Monster_Bodyfall_Grass_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="994727889" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_04.wav</ShortName>
@@ -3188,44 +3620,62 @@
 					<ShortName>Export 12012023 V2\Spitter_Attack_03.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Spitter_Attack_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1064310434" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Spitter_VOX_Grunt_04.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Spitter_VOX_Grunt_04_10C4C929.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
-				<Event Id="931488463" Name="Play_Chomper_Attack" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.58002084" DurationMax="0.623625">
+				<Event Id="931488463" Name="Play_Chomper_Attack" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.58002084" DurationMax="0.623625">
 					<MediaRefs>
 						<MediaRef Id="173511823"/>
 						<MediaRef Id="197532119"/>
 						<MediaRef Id="459153112"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3519138347" Name="Play_Chomper_VOX_Before_Attack" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.498875" DurationMax="0.498875">
+				<Event Id="3519138347" Name="Play_Chomper_VOX_Before_Attack" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.498875" DurationMax="0.498875">
 					<MediaRefs>
 						<MediaRef Id="312669986"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="803911630" Name="Play_Monster_Vanish" MaxAttenuation="5" DurationType="OneShot" DurationMin="2.4935625" DurationMax="2.4935625">
+				<Event Id="803911630" Name="Play_Monster_Vanish" MaxAttenuation="10" DurationType="OneShot" DurationMin="2.4935625" DurationMax="2.4935625">
 					<MediaRefs>
 						<MediaRef Id="372411582"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1499078611" Name="Play_Small_Monster_Bodyfall_Mud" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.24025" DurationMax="0.30097917">
-					<MediaRefs>
-						<MediaRef Id="6905508"/>
-						<MediaRef Id="263091360"/>
-						<MediaRef Id="432061020"/>
-						<MediaRef Id="742921665"/>
-						<MediaRef Id="1014235316"/>
-					</MediaRefs>
+				<Event Id="3179497032" Name="Play_Small_Monster_Bodyfall" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.24025" DurationMax="0.76666665">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="712897245"/>
+							<MediaRefs>
+								<MediaRef Id="6905508"/>
+								<MediaRef Id="263091360"/>
+								<MediaRef Id="432061020"/>
+								<MediaRef Id="742921665"/>
+								<MediaRef Id="1014235316"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="4248645337" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="421589509"/>
+								<MediaRef Id="878864379"/>
+								<MediaRef Id="993497531"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="2144363834"/>
+							<MediaRefs>
+								<MediaRef Id="252669861"/>
+								<MediaRef Id="640552915"/>
+								<MediaRef Id="660528075"/>
+								<MediaRef Id="928247450"/>
+								<MediaRef Id="1053646953"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
-				<Event Id="2386186782" Name="Play_Small_Monster_Bodyfall_Stone" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.2838125" DurationMax="0.38252082">
-					<MediaRefs>
-						<MediaRef Id="252669861"/>
-						<MediaRef Id="640552915"/>
-						<MediaRef Id="660528075"/>
-						<MediaRef Id="928247450"/>
-						<MediaRef Id="1053646953"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1602398710" Name="Play_Small_Monster_Hit" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.23222917" DurationMax="0.2714375">
+				<Event Id="1602398710" Name="Play_Small_Monster_Hit" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.23222917" DurationMax="0.2714375">
 					<MediaRefs>
 						<MediaRef Id="197690906"/>
 						<MediaRef Id="204189178"/>
@@ -3234,31 +3684,48 @@
 						<MediaRef Id="659355389"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1809433285" Name="Play_Small_Monster_Run_Mud" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.08035417" DurationMax="0.12083333">
-					<MediaRefs>
-						<MediaRef Id="6026606"/>
-						<MediaRef Id="232677465"/>
-						<MediaRef Id="563449050"/>
-						<MediaRef Id="750813899"/>
-						<MediaRef Id="893127505"/>
-						<MediaRef Id="943625314"/>
-						<MediaRef Id="1007738558"/>
-						<MediaRef Id="1032309566"/>
-					</MediaRefs>
+				<Event Id="1338193862" Name="Play_Small_Monster_Run" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.055875" DurationMax="0.6">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="712897245"/>
+							<MediaRefs>
+								<MediaRef Id="6026606"/>
+								<MediaRef Id="232677465"/>
+								<MediaRef Id="563449050"/>
+								<MediaRef Id="750813899"/>
+								<MediaRef Id="893127505"/>
+								<MediaRef Id="943625314"/>
+								<MediaRef Id="1007738558"/>
+								<MediaRef Id="1032309566"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="4248645337" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="159935507"/>
+								<MediaRef Id="332427016"/>
+								<MediaRef Id="551175456"/>
+								<MediaRef Id="645274808"/>
+								<MediaRef Id="807603451"/>
+								<MediaRef Id="941068506"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="2144363834"/>
+							<MediaRefs>
+								<MediaRef Id="7411264"/>
+								<MediaRef Id="32818868"/>
+								<MediaRef Id="134490721"/>
+								<MediaRef Id="166074887"/>
+								<MediaRef Id="353067285"/>
+								<MediaRef Id="451660734"/>
+								<MediaRef Id="604821713"/>
+								<MediaRef Id="977905503"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
-				<Event Id="3729170868" Name="Play_Small_Monster_Run_Stone" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.055875" DurationMax="0.069125">
-					<MediaRefs>
-						<MediaRef Id="7411264"/>
-						<MediaRef Id="32818868"/>
-						<MediaRef Id="134490721"/>
-						<MediaRef Id="166074887"/>
-						<MediaRef Id="353067285"/>
-						<MediaRef Id="451660734"/>
-						<MediaRef Id="604821713"/>
-						<MediaRef Id="977905503"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="281344347" Name="Play_Small_Monster_Spin" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.16772917" DurationMax="0.35329166">
+				<Event Id="281344347" Name="Play_Small_Monster_Spin" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.16772917" DurationMax="0.35329166">
 					<MediaRefs>
 						<MediaRef Id="263542469"/>
 						<MediaRef Id="307766508"/>
@@ -3270,33 +3737,126 @@
 						<MediaRef Id="955442588"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="237106917" Name="Play_Small_Monster_VOX_Death" MaxAttenuation="5" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="46056053" Name="Play_Small_Monster_VOX_Grunt" MaxAttenuation="5" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="201430788" Name="Play_Small_Monster_VOX_Hit" MaxAttenuation="5" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="41618512" Name="Play_Small_Monster_VOX_Spots" MaxAttenuation="5" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2960261907" Name="Play_Small_Monster_Walk_Mud" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.06789583" DurationMax="0.09147917">
-					<MediaRefs>
-						<MediaRef Id="683535081"/>
-						<MediaRef Id="717116967"/>
-						<MediaRef Id="769651858"/>
-						<MediaRef Id="789824356"/>
-						<MediaRef Id="844663955"/>
-						<MediaRef Id="869639993"/>
-						<MediaRef Id="977113141"/>
-						<MediaRef Id="994727889"/>
-					</MediaRefs>
+				<Event Id="237106917" Name="Play_Small_Monster_VOX_Death" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.44970834" DurationMax="0.68660414">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="643044249" Id="2535446860"/>
+							<MediaRefs>
+								<MediaRef Id="32384121"/>
+								<MediaRef Id="289870512"/>
+								<MediaRef Id="616368294"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="643044249" Id="14039721" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="155876307"/>
+								<MediaRef Id="647091187"/>
+								<MediaRef Id="730627869"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
-				<Event Id="1451592030" Name="Play_Small_Monster_Walk_Stone" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.055875" DurationMax="0.069125">
-					<MediaRefs>
-						<MediaRef Id="308812"/>
-						<MediaRef Id="45533342"/>
-						<MediaRef Id="72306303"/>
-						<MediaRef Id="109905027"/>
-						<MediaRef Id="296594354"/>
-						<MediaRef Id="818125363"/>
-						<MediaRef Id="974521806"/>
-						<MediaRef Id="986255503"/>
-					</MediaRefs>
+				<Event Id="46056053" Name="Play_Small_Monster_VOX_Grunt" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.37335417" DurationMax="0.57025">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="643044249" Id="2535446860"/>
+							<MediaRefs>
+								<MediaRef Id="109188083"/>
+								<MediaRef Id="465465323"/>
+								<MediaRef Id="1064310434"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="643044249" Id="14039721" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="236583307"/>
+								<MediaRef Id="636912088"/>
+								<MediaRef Id="946323943"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="201430788" Name="Play_Small_Monster_VOX_Hit" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.45660415" DurationMax="0.5002083">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="643044249" Id="2535446860"/>
+							<MediaRefs>
+								<MediaRef Id="32594970"/>
+								<MediaRef Id="227135645"/>
+								<MediaRef Id="858529727"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="643044249" Id="14039721" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="238314850"/>
+								<MediaRef Id="242971882"/>
+								<MediaRef Id="801414709"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="41618512" Name="Play_Small_Monster_VOX_Spots" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.32964584" DurationMax="0.38529167">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="643044249" Id="2535446860"/>
+							<MediaRefs>
+								<MediaRef Id="94009858"/>
+								<MediaRef Id="199863261"/>
+								<MediaRef Id="479851382"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="643044249" Id="14039721" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="226662207"/>
+								<MediaRef Id="286851709"/>
+								<MediaRef Id="667477966"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1427652232" Name="Play_Small_Monster_Walk" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.055875" DurationMax="0.6">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="712897245"/>
+							<MediaRefs>
+								<MediaRef Id="683535081"/>
+								<MediaRef Id="717116967"/>
+								<MediaRef Id="769651858"/>
+								<MediaRef Id="789824356"/>
+								<MediaRef Id="844663955"/>
+								<MediaRef Id="869639993"/>
+								<MediaRef Id="977113141"/>
+								<MediaRef Id="994727889"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="4248645337" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="79344577"/>
+								<MediaRef Id="262719714"/>
+								<MediaRef Id="289121541"/>
+								<MediaRef Id="291519046"/>
+								<MediaRef Id="866082977"/>
+								<MediaRef Id="993237551"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="2144363834"/>
+							<MediaRefs>
+								<MediaRef Id="308812"/>
+								<MediaRef Id="45533342"/>
+								<MediaRef Id="72306303"/>
+								<MediaRef Id="109905027"/>
+								<MediaRef Id="296594354"/>
+								<MediaRef Id="818125363"/>
+								<MediaRef Id="974521806"/>
+								<MediaRef Id="986255503"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="3913336272" Name="Play_Spitter_Attack" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.48422918" DurationMax="0.50675">
 					<MediaRefs>
@@ -3313,8 +3873,16 @@
 						<Switch Id="2535446860" Name="Spitter"/>
 					</Switches>
 				</SwitchGroup>
+				<SwitchGroup Id="3539622648" Name="Ground_Material">
+					<Switches>
+						<Switch Id="712897245" Name="Mud"/>
+						<Switch Id="782826392" Name="Default"/>
+						<Switch Id="2144363834" Name="Rock"/>
+						<Switch Id="4248645337" Name="Grass"/>
+					</Switches>
+				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F8030FA1-E952-CB59-76E7-F382CBFC40F6}</FileHash>
+	<FileHash>{22B6CC24-AE89-F61F-C33E-C11A32EADDAF}</FileHash>
 </SoundBanksInfo>

@@ -13,7 +13,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="5m" ID="{D37D86ED-F239-4657-8E8C-F9B8B15657C2}" WorkUnitID="{B378FA7B-E709-4147-8665-F99F8F07F9BC}"/>
+							<ObjectRef Name="10m" ID="{7B55A2EC-035A-4F2D-ABF0-2DBDBF6B0BDE}" WorkUnitID="{B378FA7B-E709-4147-8665-F99F8F07F9BC}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
@@ -678,6 +678,20 @@
 										<ItemRef Name="Chomper_VOX_Death" ID="{69012696-855B-419F-950C-027DD21E4BC3}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Spitter" ID="{559D9248-5155-4FBA-AE67-0D3D25EC7020}"/>
+										<ItemList>
+											<ItemRef Name="Spitter_VOX_Death" ID="{B21DBF93-4615-4D8A-9A70-D62A39A36E69}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Chomper" ID="{818C60C8-72CC-4FB7-94C2-B1789001FE98}"/>
+										<ItemList>
+											<ItemRef Name="Chomper_VOX_Death" ID="{69012696-855B-419F-950C-027DD21E4BC3}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
 						<SwitchContainer Name="Small_Monster_VOX_Grunt" ID="{3211DE3A-4416-45C2-8060-7B7F0BF6AAB8}" ShortID="972650810">
@@ -862,6 +876,20 @@
 										<ItemRef Name="Spitter_VOX_Grunt" ID="{9D0F6EDD-9CBC-492E-902B-F92E5F44072F}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Spitter" ID="{559D9248-5155-4FBA-AE67-0D3D25EC7020}"/>
+										<ItemList>
+											<ItemRef Name="Spitter_VOX_Grunt" ID="{9D0F6EDD-9CBC-492E-902B-F92E5F44072F}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Chomper" ID="{818C60C8-72CC-4FB7-94C2-B1789001FE98}"/>
+										<ItemList>
+											<ItemRef Name="Chomper_VOX_Grunt" ID="{26F6782B-B2A1-4DE1-AC5A-3DED512E26D2}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
 						<SwitchContainer Name="Small_Monster_VOX_Hit" ID="{CD7457D5-FC76-4383-AD19-FF93EF362947}" ShortID="890124507">
@@ -1046,6 +1074,20 @@
 										<ItemRef Name="Chomper_VOX_Hit" ID="{4ECB3D93-ED0D-4852-9B3F-C3F43C965C93}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Spitter" ID="{559D9248-5155-4FBA-AE67-0D3D25EC7020}"/>
+										<ItemList>
+											<ItemRef Name="Spitter_VOX_Hit" ID="{2C70DF73-A1E9-4F91-9879-8CDA579F3B63}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Chomper" ID="{818C60C8-72CC-4FB7-94C2-B1789001FE98}"/>
+										<ItemList>
+											<ItemRef Name="Chomper_VOX_Hit" ID="{4ECB3D93-ED0D-4852-9B3F-C3F43C965C93}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
 						<SwitchContainer Name="Small_Monster_VOX_Spots" ID="{32E6E5C7-87B5-471A-BC06-F83DCD8550C3}" ShortID="863264543">
@@ -1230,6 +1272,20 @@
 										<ItemRef Name="Spitter_VOX_Spot_Player" ID="{EAD8A1C9-1C48-421E-8FB6-2BCC900C93F8}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Spitter" ID="{559D9248-5155-4FBA-AE67-0D3D25EC7020}"/>
+										<ItemList>
+											<ItemRef Name="Spitter_VOX_Spot_Player" ID="{EAD8A1C9-1C48-421E-8FB6-2BCC900C93F8}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Chomper" ID="{818C60C8-72CC-4FB7-94C2-B1789001FE98}"/>
+										<ItemList>
+											<ItemRef Name="Chomper_VOX_Spot_Player" ID="{FEB2AE05-28E8-465B-9B6A-89B196B58E33}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
 						<Sound Name="Chomper_VOX_Before_Attack" ID="{8501019A-02EB-43E5-BBD0-CAF22164B66D}" ShortID="439280490">
@@ -1561,9 +1617,90 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Small_Monster_Bodyfall_Grass" ID="{D5848728-8DC8-4775-8914-6D75568C581F}" ShortID="998689424">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Small_Monster_Bodyfall_Grass_01" ID="{80EF0E9A-441B-4C9D-882A-A083B91964D5}" ShortID="583189549">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Small_Monster_Bodyfall_Grass_01" ID="{833B9D03-7D32-4571-87F0-F839D925CC07}">
+													<Language>SFX</Language>
+													<AudioFile>Small_Monster_Bodyfall_Grass_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="878864379"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Small_Monster_Bodyfall_Grass_01" ID="{833B9D03-7D32-4571-87F0-F839D925CC07}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Small_Monster_Bodyfall_Grass_02" ID="{AB5D4B43-CAFB-48EF-A0A6-22C45C027CD4}" ShortID="552756141">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Small_Monster_Bodyfall_Grass_02" ID="{1E3BCC05-B621-4860-920F-9CD6D93B5F83}">
+													<Language>SFX</Language>
+													<AudioFile>Small_Monster_Bodyfall_Grass_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="993497531"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Small_Monster_Bodyfall_Grass_02" ID="{1E3BCC05-B621-4860-920F-9CD6D93B5F83}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Small_Monster_Bodyfall_Grass_03" ID="{EDBBB04F-7AE1-4519-B0E7-AA4AEFF7C3C7}" ShortID="908890916">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Small_Monster_Bodyfall_Grass_03" ID="{2B9E4212-0F00-44B1-BA14-2291B73D22EA}">
+													<Language>SFX</Language>
+													<AudioFile>Small_Monster_Bodyfall_Grass_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="421589509"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Small_Monster_Bodyfall_Grass_03" ID="{2B9E4212-0F00-44B1-BA14-2291B73D22EA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Small_Monster_Bodyfall_Grass" ID="{D5848728-8DC8-4775-8914-6D75568C581F}"/>
+									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="Small_Monster_Bodyfall_Mud" ID="{62C69828-B4FB-4A9D-BA75-C8FFF1BEA27F}"/>
 									</GroupingBehavior>
@@ -1576,6 +1713,12 @@
 										<SwitchRef Name="Mud" ID="{F3E4C203-0C66-4BA2-8D9A-377C53AFD1E7}"/>
 										<ItemList>
 											<ItemRef Name="Small_Monster_Bodyfall_Mud" ID="{62C69828-B4FB-4A9D-BA75-C8FFF1BEA27F}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Grass" ID="{C6F52CA2-EAFC-45D9-AC4C-B3CDB4CF3C0F}"/>
+										<ItemList>
+											<ItemRef Name="Small_Monster_Bodyfall_Grass" ID="{D5848728-8DC8-4775-8914-6D75568C581F}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
@@ -1991,6 +2134,150 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Small_Monster_Run_Grass" ID="{CCD065DD-CE71-49E2-9198-8D3421981E87}" ShortID="109431117">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Small_Monster_Run_Grass_01" ID="{03D0037B-2B1B-470E-8F34-B1090F974F92}" ShortID="374259099">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Small_Monster_Run_Grass_01" ID="{D022752E-5161-4E28-AC05-11E49E769FB9}">
+													<Language>SFX</Language>
+													<AudioFile>Small_Monster_Run_Grass_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="645274808"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Small_Monster_Run_Grass_01" ID="{D022752E-5161-4E28-AC05-11E49E769FB9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Small_Monster_Run_Grass_02" ID="{81F546B8-07EE-4A69-9C2E-94806EBFB8CB}" ShortID="1012779451">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Small_Monster_Run_Grass_02" ID="{CA0CAEB2-DB40-4B02-97CB-994208BC58BA}">
+													<Language>SFX</Language>
+													<AudioFile>Small_Monster_Run_Grass_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="807603451"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Small_Monster_Run_Grass_02" ID="{CA0CAEB2-DB40-4B02-97CB-994208BC58BA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Small_Monster_Run_Grass_03" ID="{BEDBDB3A-7D83-4705-B3DD-C9F1D6129FF1}" ShortID="311694707">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Small_Monster_Run_Grass_03" ID="{F15090E9-B953-4712-8642-C73348467B10}">
+													<Language>SFX</Language>
+													<AudioFile>Small_Monster_Run_Grass_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="159935507"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Small_Monster_Run_Grass_03" ID="{F15090E9-B953-4712-8642-C73348467B10}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Small_Monster_Run_Grass_04" ID="{AA3C60E0-7163-4333-88B2-351700CC5119}" ShortID="167155271">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Small_Monster_Run_Grass_04" ID="{E2FBF316-CE29-44FD-A218-C8FB48A67756}">
+													<Language>SFX</Language>
+													<AudioFile>Small_Monster_Run_Grass_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="332427016"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Small_Monster_Run_Grass_04" ID="{E2FBF316-CE29-44FD-A218-C8FB48A67756}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Small_Monster_Run_Grass_05" ID="{C6F9E340-7495-4824-AEC9-257D2ED43E1B}" ShortID="520710990">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Small_Monster_Run_Grass_05" ID="{16150409-A978-4C48-8341-6C638282DC49}">
+													<Language>SFX</Language>
+													<AudioFile>Small_Monster_Run_Grass_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="551175456"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Small_Monster_Run_Grass_05" ID="{16150409-A978-4C48-8341-6C638282DC49}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Small_Monster_Run_Grass_06" ID="{5A436722-A17B-4005-9D2C-C72A9DFAF0F9}" ShortID="59873062">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Small_Monster_Run_Grass_06" ID="{0EDEA341-179D-4451-AE04-7978AB83E83C}">
+													<Language>SFX</Language>
+													<AudioFile>Small_Monster_Run_Grass_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="941068506"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Small_Monster_Run_Grass_06" ID="{0EDEA341-179D-4451-AE04-7978AB83E83C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
@@ -2000,12 +2287,21 @@
 									<GroupingBehavior>
 										<ItemRef Name="Small_Monster_Run_Stone" ID="{1174CA3A-512B-4B76-9DA0-8D1B91F7F3C1}"/>
 									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Small_Monster_Run_Grass" ID="{CCD065DD-CE71-49E2-9198-8D3421981E87}"/>
+									</GroupingBehavior>
 								</GroupingBehaviorList>
 								<GroupingList>
 									<Grouping>
 										<SwitchRef Name="Mud" ID="{F3E4C203-0C66-4BA2-8D9A-377C53AFD1E7}"/>
 										<ItemList>
 											<ItemRef Name="Small_Monster_Run_Mud" ID="{4BF8C113-AECC-4D23-A0FA-CFFEEF4FF051}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Grass" ID="{C6F52CA2-EAFC-45D9-AC4C-B3CDB4CF3C0F}"/>
+										<ItemList>
+											<ItemRef Name="Small_Monster_Run_Grass" ID="{CCD065DD-CE71-49E2-9198-8D3421981E87}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
@@ -2421,9 +2717,156 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Small_Monster_Walk_Grass" ID="{3098632D-E2BD-4B79-9D17-4B56CDEBDFFC}" ShortID="328312258">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Small_Monster_Walk_Grass_01" ID="{A2FCBD28-A002-47B6-9BDF-08069ECFECBB}" ShortID="425716297">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Small_Monster_Walk_Grass_01" ID="{401B483F-9334-46C6-9F63-AB89D50DE9ED}">
+													<Language>SFX</Language>
+													<AudioFile>Small_Monster_Walk_Grass_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="866082977"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Small_Monster_Walk_Grass_01" ID="{401B483F-9334-46C6-9F63-AB89D50DE9ED}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Small_Monster_Walk_Grass_02" ID="{54C86329-2DCC-410E-972F-4ED474D3B1C6}" ShortID="515954667">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Small_Monster_Walk_Grass_02" ID="{868235A2-0849-4A52-955B-784BE013B310}">
+													<Language>SFX</Language>
+													<AudioFile>Small_Monster_Walk_Grass_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="993237551"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Small_Monster_Walk_Grass_02" ID="{868235A2-0849-4A52-955B-784BE013B310}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Small_Monster_Walk_Grass_03" ID="{E8A623EA-0C29-46F5-93EE-C16AC864BB56}" ShortID="293590802">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Small_Monster_Walk_Grass_03" ID="{F8D30FDC-534D-4634-8D7E-1A933BE28737}">
+													<Language>SFX</Language>
+													<AudioFile>Small_Monster_Walk_Grass_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="79344577"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Small_Monster_Walk_Grass_03" ID="{F8D30FDC-534D-4634-8D7E-1A933BE28737}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Small_Monster_Walk_Grass_04" ID="{E01736E2-1A4D-4485-9C49-1AD4F2A2B8DE}" ShortID="467370451">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Small_Monster_Walk_Grass_04" ID="{83F3E168-2BA7-4B44-919F-70DF3F81CA04}">
+													<Language>SFX</Language>
+													<AudioFile>Small_Monster_Walk_Grass_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="291519046"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Small_Monster_Walk_Grass_04" ID="{83F3E168-2BA7-4B44-919F-70DF3F81CA04}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Small_Monster_Walk_Grass_05" ID="{76058F54-A7B7-4770-B454-7A22871D939A}" ShortID="320878653">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Small_Monster_Walk_Grass_05" ID="{BA2E6ADF-B8D9-4210-AF6D-E4935DDD2D00}">
+													<Language>SFX</Language>
+													<AudioFile>Small_Monster_Walk_Grass_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="289121541"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Small_Monster_Walk_Grass_05" ID="{BA2E6ADF-B8D9-4210-AF6D-E4935DDD2D00}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Small_Monster_Walk_Grass_06" ID="{C6CCD768-5709-4D3D-BACF-F45A985DE3C3}" ShortID="533786245">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Small_Monster_Walk_Grass_06" ID="{B41F8B5D-CD96-4964-A3FB-CA51494FC0C3}">
+													<Language>SFX</Language>
+													<AudioFile>Small_Monster_Walk_Grass_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="262719714"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Small_Monster_Walk_Grass_06" ID="{B41F8B5D-CD96-4964-A3FB-CA51494FC0C3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Small_Monster_Walk_Grass" ID="{3098632D-E2BD-4B79-9D17-4B56CDEBDFFC}"/>
+									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="Small_Monster_Walk_Mud" ID="{3B28C17E-0138-4C3F-9F9D-5D6E07016E16}"/>
 									</GroupingBehavior>
@@ -2436,6 +2879,12 @@
 										<SwitchRef Name="Mud" ID="{F3E4C203-0C66-4BA2-8D9A-377C53AFD1E7}"/>
 										<ItemList>
 											<ItemRef Name="Small_Monster_Walk_Mud" ID="{3B28C17E-0138-4C3F-9F9D-5D6E07016E16}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Grass" ID="{C6F52CA2-EAFC-45D9-AC4C-B3CDB4CF3C0F}"/>
+										<ItemList>
+											<ItemRef Name="Small_Monster_Walk_Grass" ID="{3098632D-E2BD-4B79-9D17-4B56CDEBDFFC}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
