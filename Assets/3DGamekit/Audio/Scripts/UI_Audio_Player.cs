@@ -9,17 +9,17 @@ namespace Gamekit3D
         // Start is called before the first frame update
         public void PlayStart()
         {
-            AkSoundEngine.PostEvent("Play_UI_Press_Play", null);
+            AkSoundEngine.PostEvent("Play_UI_Press_Play",this.gameObject);
         }
 
         public void Navigate()
         {
-            AkSoundEngine.PostEvent("Play_UI_Navigate", null);
+            AkSoundEngine.PostEvent("Play_UI_Navigate", this.gameObject);
         }
 
         public void PressButton()
         {
-            AkSoundEngine.PostEvent("Play_Press_Other", null);
+            AkSoundEngine.PostEvent("Play_UI_Press_Other", this.gameObject);
         }
 
         void Start()

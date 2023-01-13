@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 506fcf57e49ddb428782635b9c72daec
     GuidInternal: 
-    m_lastTime: -8585284015674107375
+    m_lastTime: -8585284051417577638
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 0c74f2e5d4330e46bfec07c1b154966f
     GuidInternal: 
-    m_lastTime: -8585280510710111247
+    m_lastTime: -8585284051418337723
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8ff7bc971ac3be4d91a175ce8a07a45d
     GuidInternal: 
-    m_lastTime: -8585280510672178281
+    m_lastTime: -8585280515084096474
     List:
     - name: AMB
       guid: 6d1a6435ebfdec4b818517836a1ef9ba
@@ -206,7 +206,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 58301ae271a98d46974f6accc96184fa
     GuidInternal: 
-    m_lastTime: -8585280493280967036
+    m_lastTime: -8585280003455551549
     List:
     - name: AMB
       guid: 7eacccb593e71341878dd5280afd656f
@@ -1912,7 +1912,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 9ca7747bed20e54ab5d27c0de8914867
     GuidInternal: 
-    m_lastTime: -8585282177003659701
+    m_lastTime: -8585281456215579185
     List: []
   - PhysicalPath: Game Parameters\Weapon.wwu
     PathAndIcons:
@@ -1928,7 +1928,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit\Weapon
     guid: 8a050b743995674387e05726d4c7a9fd
     GuidInternal: 
-    m_lastTime: -8585282220447927243
+    m_lastTime: -8585281456215579185
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -1942,7 +1942,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: dde22e8dd084f74f8c90764d69789553
     GuidInternal: 
-    m_lastTime: -8585280495109024928
+    m_lastTime: -8585280042872792744
     List:
     - name: Location
       guid: 7f97309fc3fbc04e8ffd16b5de27f935
@@ -2104,8 +2104,58 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 64f9ff4cf55ed24b9ee79a66e7775ade
     GuidInternal: 
-    m_lastTime: -8585282589429558585
-    List: []
+    m_lastTime: -8585280042763971519
+    List:
+    - name: Small_Monster
+      guid: b5345abf06648842a8b3ad3e6b693efc
+      id: 643044249
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 64f9ff4cf55ed24b9ee79a66e7775ade
+      - ElementName: Small_Monster
+        ObjectType: 11
+        guid: b5345abf06648842a8b3ad3e6b693efc
+      Path: Switches\Default Work Unit\Small_Monster
+      values:
+      - name: Chomper
+        guid: c8608c81cc72b74f94c2b1789001fe98
+        id: 14039721
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 64f9ff4cf55ed24b9ee79a66e7775ade
+        - ElementName: Small_Monster
+          ObjectType: 11
+          guid: b5345abf06648842a8b3ad3e6b693efc
+        - ElementName: Chomper
+          ObjectType: 10
+          guid: c8608c81cc72b74f94c2b1789001fe98
+      - name: Spitter
+        guid: 48929d555551ba4fae670d3d25ec7020
+        id: 2535446860
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 64f9ff4cf55ed24b9ee79a66e7775ade
+        - ElementName: Small_Monster
+          ObjectType: 11
+          guid: b5345abf06648842a8b3ad3e6b693efc
+        - ElementName: Spitter
+          ObjectType: 10
+          guid: 48929d555551ba4fae670d3d25ec7020
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   - PhysicalPath: Switches\Entity.wwu
     PathAndIcons:
     - ElementName: Switches
@@ -2120,7 +2170,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit\Entity
     guid: 41b04a50991a5640a3f689e347792812
     GuidInternal: 
-    m_lastTime: -8585282207301901448
+    m_lastTime: -8585281456212715348
     List:
     - name: Ground_Material
       guid: 1b952d3e32b055449b28a3a8085a401a
@@ -2290,10 +2340,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 9f1b90065f823441bd96c497af968d89
     GuidInternal: 
-    m_lastTime: -8585284015674119453
+    m_lastTime: -8585284051417417635
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000070000000d0000000e0000003e000000
+  ExpandedWaapiItemIds: 030000000400000006000000070000000d0000000e0000001400000015000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

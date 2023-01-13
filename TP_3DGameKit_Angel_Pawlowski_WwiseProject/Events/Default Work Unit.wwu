@@ -575,6 +575,16 @@
 						</Event>
 						<Event Name="Play_Switch_Crystals_Idle_AfterActivation" ID="{6F95BE0B-1500-4F7F-A3BF-CB452A5ED3FD}">
 							<ChildrenList>
+								<Action Name="" ID="{65B016BF-BF9F-482F-B1E9-79064853DD4F}" ShortID="1004468392">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Switch_Crystals_Idle_BeforeActivation" ID="{6C2BD0A4-2BE8-49D6-B56B-D6A43FA8F48C}" WorkUnitID="{27C83EDE-D941-46B3-8475-398CF729A6E5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{AC6AE7A3-2CA0-4678-8B27-6D2BB160EF4D}" ShortID="641141134">
 									<ReferenceList>
 										<Reference Name="Target">
@@ -672,6 +682,16 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{8B4CAB4A-6F72-4077-9966-92A91570BFD1}" ShortID="471986646">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Navigate" ID="{98832434-CDED-49FD-B3FD-B93C82E27BDD}" WorkUnitID="{8AC108B4-B506-4C3C-BE7B-E4FB72D72815}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_UI_Press_Play" ID="{53EAA5E0-4DA2-4038-B51B-4011430911D8}">
@@ -680,6 +700,16 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="UI_Press_Play" ID="{120123C4-23C8-42F4-81DF-BC8E34C86738}" WorkUnitID="{8AC108B4-B506-4C3C-BE7B-E4FB72D72815}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4C8C73FE-DB11-448B-A377-8EC3FA44C072}" ShortID="613543164">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Navigate" ID="{98832434-CDED-49FD-B3FD-B93C82E27BDD}" WorkUnitID="{8AC108B4-B506-4C3C-BE7B-E4FB72D72815}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

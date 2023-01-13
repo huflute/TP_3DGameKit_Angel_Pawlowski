@@ -16,6 +16,13 @@ Event	ID	Name			Wwise Object Path	Notes
 	3729170868	Play_Small_Monster_Run_Stone			\Default Work Unit\Monsters\Small_Monsters\FT\Play_Small_Monster_Run_Stone	
 	3913336272	Play_Spitter_Attack			\Default Work Unit\Monsters\Small_Monsters\Play_Spitter_Attack	
 
+Switch Group	ID	Name			Wwise Object Path	Notes
+	643044249	Small_Monster			\Default Work Unit\Small_Monster	
+
+Switch	ID	Name	Switch Group			Notes
+	14039721	Chomper	Small_Monster			
+	2535446860	Spitter	Small_Monster			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	308812	Small_Monster_Walk_Stone_04	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Small_Monster_Walk_Stone_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_Walk_Stone\Small_Monster_Walk_Stone_04		6364
 	6026606	Small_Monster_Run_Mud_01	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Small_Monster_Run_Mud_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_Run_Mud\Small_Monster_Run_Mud_01		10698

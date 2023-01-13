@@ -165,6 +165,12 @@
 						<Switch Id="715694586" Name="FirstHalf"/>
 					</Switches>
 				</SwitchGroup>
+				<SwitchGroup Id="643044249" Name="Small_Monster">
+					<Switches>
+						<Switch Id="14039721" Name="Chomper"/>
+						<Switch Id="2535446860" Name="Spitter"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="3539622648" Name="Ground_Material">
 					<Switches>
 						<Switch Id="712897245" Name="Mud"/>
@@ -175,7 +181,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{97ED4EE7-7818-0E37-8D18-8750A2E49017}">
+		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{B9D7D869-DFF0-D8D8-944F-7B955C551BA7}">
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
 			<Media>
@@ -187,37 +193,37 @@
 					<ShortName>Export 12012023\UI_Press_Other_01.wav</ShortName>
 					<CachePath>SFX/Export 12012023/UI_Press_Other_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="210761497" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Navigate_02.wav</ShortName>
+					<CachePath>SFX/UI_Navigate_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="257203319" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023\UI_Press_Play.wav</ShortName>
 					<CachePath>SFX/Export 12012023/UI_Press_Play_10C4C929.wem</CachePath>
 				</File>
-				<File Id="282488086" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Export 12012023\UI_Navigate_02.wav</ShortName>
-					<CachePath>SFX/Export 12012023/UI_Navigate_02_10C4C929.wem</CachePath>
+				<File Id="394596718" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Navigate_03.wav</ShortName>
+					<CachePath>SFX/UI_Navigate_03_10C4C929.wem</CachePath>
 				</File>
-				<File Id="513326582" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Export 12012023\UI_Navigate_04.wav</ShortName>
-					<CachePath>SFX/Export 12012023/UI_Navigate_04_10C4C929.wem</CachePath>
+				<File Id="504412958" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Navigate_04.wav</ShortName>
+					<CachePath>SFX/UI_Navigate_04_10C4C929.wem</CachePath>
 				</File>
-				<File Id="785198687" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Export 12012023\UI_Navigate_06.wav</ShortName>
-					<CachePath>SFX/Export 12012023/UI_Navigate_06_10C4C929.wem</CachePath>
+				<File Id="823767621" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Navigate_06.wav</ShortName>
+					<CachePath>SFX/UI_Navigate_06_10C4C929.wem</CachePath>
 				</File>
 				<File Id="858208559" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023\UI_Press_Other_02.wav</ShortName>
 					<CachePath>SFX/Export 12012023/UI_Press_Other_02_10C4C929.wem</CachePath>
 				</File>
-				<File Id="922503960" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Export 12012023\UI_Navigate_05.wav</ShortName>
-					<CachePath>SFX/Export 12012023/UI_Navigate_05_10C4C929.wem</CachePath>
+				<File Id="976987438" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Navigate_05.wav</ShortName>
+					<CachePath>SFX/UI_Navigate_05_10C4C929.wem</CachePath>
 				</File>
-				<File Id="943973925" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Export 12012023\UI_Navigate_03.wav</ShortName>
-					<CachePath>SFX/Export 12012023/UI_Navigate_03_10C4C929.wem</CachePath>
-				</File>
-				<File Id="1010708591" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Export 12012023\UI_Navigate_01.wav</ShortName>
-					<CachePath>SFX/Export 12012023/UI_Navigate_01_10C4C929.wem</CachePath>
+				<File Id="987900495" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Navigate_01.wav</ShortName>
+					<CachePath>SFX/UI_Navigate_01_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Plugins>
@@ -227,14 +233,14 @@
 				</Custom>
 			</Plugins>
 			<Events>
-				<Event Id="2193989514" Name="Play_UI_Navigate" DurationType="OneShot" DurationMin="0.95522916" DurationMax="0.95522916">
+				<Event Id="2193989514" Name="Play_UI_Navigate" DurationType="OneShot" DurationMin="2.4552293" DurationMax="2.4552293">
 					<MediaRefs>
-						<MediaRef Id="282488086"/>
-						<MediaRef Id="513326582"/>
-						<MediaRef Id="785198687"/>
-						<MediaRef Id="922503960"/>
-						<MediaRef Id="943973925"/>
-						<MediaRef Id="1010708591"/>
+						<MediaRef Id="210761497"/>
+						<MediaRef Id="394596718"/>
+						<MediaRef Id="504412958"/>
+						<MediaRef Id="823767621"/>
+						<MediaRef Id="976987438"/>
+						<MediaRef Id="987900495"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3014998451" Name="Play_UI_Press_Other" DurationType="OneShot" DurationMin="0.99895835" DurationMax="0.9991458">
@@ -857,7 +863,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{416B3221-11AB-EBD0-51FF-8F0332AC8C3B}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{D21761EC-5273-AF3A-057E-CF53D1A4333F}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -1021,6 +1027,10 @@
 					<ShortName>Export 12012023\UI_Press_Other_01.wav</ShortName>
 					<CachePath>SFX/Export 12012023/UI_Press_Other_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="210761497" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Navigate_02.wav</ShortName>
+					<CachePath>SFX/UI_Navigate_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="211133519" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\MC_Shield_Off_01.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/MC_Shield_Off_01_10C4C929.wem</CachePath>
@@ -1076,10 +1086,6 @@
 				<File Id="275548516" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Pain_Medium_05.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Pain_Medium_05_10C4C929.wem</CachePath>
-				</File>
-				<File Id="282488086" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Export 12012023\UI_Navigate_02.wav</ShortName>
-					<CachePath>SFX/Export 12012023/UI_Navigate_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="284511822" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Jump_Rock_02.wav</ShortName>
@@ -1169,6 +1175,10 @@
 					<ShortName>Export 12012023 V2\MC_FOL_Attack_02.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/MC_FOL_Attack_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="394596718" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Navigate_03.wav</ShortName>
+					<CachePath>SFX/UI_Navigate_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="396022129" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\RFX_Computer_07.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/RFX_Computer_07_10C4C929.wem</CachePath>
@@ -1227,6 +1237,10 @@
 					<CachePath>SFX/Export 12012023 V2/Teleporter_Idle_D79FB2B7.wem</CachePath>
 					<PrefetchSize>9696</PrefetchSize>
 				</File>
+				<File Id="504412958" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Navigate_04.wav</ShortName>
+					<CachePath>SFX/UI_Navigate_04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="508461723" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Attack_Normal_03.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Attack_Normal_03_10C4C929.wem</CachePath>
@@ -1236,10 +1250,6 @@
 					<Path>Media/509223528.wem</Path>
 					<CachePath>SFX/Export 12012023 V2/Switch_Crystals_Idle_AfterActivation_D79FB2B7.wem</CachePath>
 					<PrefetchSize>9696</PrefetchSize>
-				</File>
-				<File Id="513326582" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Export 12012023\UI_Navigate_04.wav</ShortName>
-					<CachePath>SFX/Export 12012023/UI_Navigate_04_10C4C929.wem</CachePath>
 				</File>
 				<File Id="522450401" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Land_Grass_04.wav</ShortName>
@@ -1441,10 +1451,6 @@
 					<ShortName>MC_VOX_Attack_Heavy_05.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Attack_Heavy_05_10C4C929.wem</CachePath>
 				</File>
-				<File Id="785198687" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Export 12012023\UI_Navigate_06.wav</ShortName>
-					<CachePath>SFX/Export 12012023/UI_Navigate_06_10C4C929.wem</CachePath>
-				</File>
 				<File Id="789824356" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_06.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Mud_06_10C4C929.wem</CachePath>
@@ -1472,6 +1478,10 @@
 				<File Id="818125363" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Stone_07.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Stone_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="823767621" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Navigate_06.wav</ShortName>
+					<CachePath>SFX/UI_Navigate_06_10C4C929.wem</CachePath>
 				</File>
 				<File Id="824456465" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\MC_FOL_Run_03.wav</ShortName>
@@ -1553,10 +1563,6 @@
 					<ShortName>MC_VOX_Attack_Normal_08.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Attack_Normal_08_10C4C929.wem</CachePath>
 				</File>
-				<File Id="922503960" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Export 12012023\UI_Navigate_05.wav</ShortName>
-					<CachePath>SFX/Export 12012023/UI_Navigate_05_10C4C929.wem</CachePath>
-				</File>
 				<File Id="925850913" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Weapon_Whoosh_03.wav</ShortName>
 					<CachePath>SFX/Weapon_Whoosh_03_10C4C929.wem</CachePath>
@@ -1589,10 +1595,6 @@
 					<ShortName>Export 12012023 V2\Small_Monster_Run_Mud_08.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Mud_08_10C4C929.wem</CachePath>
 				</File>
-				<File Id="943973925" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Export 12012023\UI_Navigate_03.wav</ShortName>
-					<CachePath>SFX/Export 12012023/UI_Navigate_03_10C4C929.wem</CachePath>
-				</File>
 				<File Id="955442588" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Spin_03.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_03_10C4C929.wem</CachePath>
@@ -1605,6 +1607,10 @@
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Stone_06.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Stone_06_10C4C929.wem</CachePath>
 				</File>
+				<File Id="976987438" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Navigate_05.wav</ShortName>
+					<CachePath>SFX/UI_Navigate_05_10C4C929.wem</CachePath>
+				</File>
 				<File Id="977113141" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_07.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Mud_07_10C4C929.wem</CachePath>
@@ -1616,6 +1622,10 @@
 				<File Id="986255503" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Stone_03.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Stone_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="987900495" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Navigate_01.wav</ShortName>
+					<CachePath>SFX/UI_Navigate_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="993472816" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Jump_Mud_04.wav</ShortName>
@@ -1648,10 +1658,6 @@
 				<File Id="1007738558" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Run_Mud_04.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Mud_04_10C4C929.wem</CachePath>
-				</File>
-				<File Id="1010708591" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Export 12012023\UI_Navigate_01.wav</ShortName>
-					<CachePath>SFX/Export 12012023/UI_Navigate_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1014235316" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Mud_05.wav</ShortName>
@@ -2074,14 +2080,14 @@
 						<MediaRef Id="498593051"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2193989514" Name="Play_UI_Navigate" DurationType="OneShot" DurationMin="0.95522916" DurationMax="0.95522916">
+				<Event Id="2193989514" Name="Play_UI_Navigate" DurationType="OneShot" DurationMin="2.4552293" DurationMax="2.4552293">
 					<MediaRefs>
-						<MediaRef Id="282488086"/>
-						<MediaRef Id="513326582"/>
-						<MediaRef Id="785198687"/>
-						<MediaRef Id="922503960"/>
-						<MediaRef Id="943973925"/>
-						<MediaRef Id="1010708591"/>
+						<MediaRef Id="210761497"/>
+						<MediaRef Id="394596718"/>
+						<MediaRef Id="504412958"/>
+						<MediaRef Id="823767621"/>
+						<MediaRef Id="976987438"/>
+						<MediaRef Id="987900495"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3014998451" Name="Play_UI_Press_Other" DurationType="OneShot" DurationMin="0.99895835" DurationMax="0.9991458">
@@ -2200,6 +2206,12 @@
 						<Switch Id="715694586" Name="FirstHalf"/>
 					</Switches>
 				</SwitchGroup>
+				<SwitchGroup Id="643044249" Name="Small_Monster">
+					<Switches>
+						<Switch Id="14039721" Name="Chomper"/>
+						<Switch Id="2535446860" Name="Spitter"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="3539622648" Name="Ground_Material">
 					<Switches>
 						<Switch Id="712897245" Name="Mud"/>
@@ -2210,7 +2222,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3202316517" Type="User" Language="SFX" Hash="{BBDFBA4D-AD19-6F34-7D52-8C36E8148F41}">
+		<SoundBank Id="3202316517" Type="User" Language="SFX" Hash="{D48241B4-0A5A-BFB4-DDBA-48CB8EAE0C23}">
 			<ShortName>Switch</ShortName>
 			<Path>Switch.bnk</Path>
 			<Media>
@@ -2446,7 +2458,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{C229F562-B609-EB75-314F-60B4F7F8AABF}">
+		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{15C2A21F-4D8C-46BA-6D2C-BDB342D5DD6A}">
 			<ShortName>Small_Monsters</ShortName>
 			<Path>Small_Monsters.bnk</Path>
 			<Media>
@@ -2820,7 +2832,15 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="643044249" Name="Small_Monster">
+					<Switches>
+						<Switch Id="14039721" Name="Chomper"/>
+						<Switch Id="2535446860" Name="Spitter"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{71EC4FA5-1483-8F07-F665-3DFAB75F0384}</FileHash>
+	<FileHash>{9D65181E-6699-B291-3DAF-6D2CD8582F5F}</FileHash>
 </SoundBanksInfo>
