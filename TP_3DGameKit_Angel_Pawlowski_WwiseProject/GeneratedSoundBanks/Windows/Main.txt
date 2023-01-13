@@ -41,7 +41,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3014998451	Play_UI_Press_Other			\Default Work Unit\UI\Play_UI_Press_Other	
 	3022734957	Play_MC_Jump			\Default Work Unit\MC\FT_Events\Play_MC_Jump	
 	3024491776	Play_Whoosh_Text_Disappear			\Default Work Unit\UI\Text\Play_Whoosh_Text_Disappear	
-	3056483954	Play_RFX_Computer			\Default Work Unit\AMB\Play_RFX_Computer	
+	3056483954	Play_RFX_Computer			\Default Work Unit\AMB\Spaceship\Play_RFX_Computer	
 	3192261611	Stop_Switch_Crystals_Idle_BeforeActivation			\Default Work Unit\Switch\Stop_Switch_Crystals_Idle_BeforeActivation	
 	3212184235	Play_MC_FOL_Jump			\Default Work Unit\MC\FOL_Events\Play_MC_FOL_Jump	
 	3213331111	Play_AMB_SpaceShip			\Default Work Unit\AMB\Spaceship\Play_AMB_SpaceShip	
@@ -51,7 +51,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3729170868	Play_Small_Monster_Run_Stone			\Default Work Unit\Monsters\Small_Monsters\FT\Play_Small_Monster_Run_Stone	
 	3739832523	Play_Weapon_Impact			\Default Work Unit\Weapon\Play_Weapon_Impact	
 	3862797904	Play_HealthCrate_Open			\Default Work Unit\Interactables\HealthCrate\Play_HealthCrate_Open	
-	3876046333	Stop_AMB_SpaceShip			\Default Work Unit\AMB\Stop_AMB_SpaceShip	
+	3876046333	Stop_AMB_SpaceShip			\Default Work Unit\AMB\Spaceship\Stop_AMB_SpaceShip	
 	3913336272	Play_Spitter_Attack			\Default Work Unit\Monsters\Small_Monsters\Play_Spitter_Attack	
 	3917663999	Play_MC_Vox_Pain			\Default Work Unit\MC\Vox_Events\Play_MC_Vox_Pain	
 	4094144955	Play_MC_FOL_Attack			\Default Work Unit\MC\FOL_Events\Play_MC_FOL_Attack	
@@ -233,7 +233,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	824456465	MC_FOL_Run_03	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\MC_FOL_Run_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\Foley\MC_FOL_Run\MC_FOL_Run_03		28896
 	831798853	Switch_Stone_Activation	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\Switch_Stone_Activation_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SWITCHES\Stones\Switch_Stone_Activation		126292
 	844663955	Small_Monster_Walk_Mud_01	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\Small_Monster_Walk_Mud_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Small_Monster_Walk_Mud\Small_Monster_Walk_Mud_01		7984
-	845874098	AMB_SpaceShip	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023\AMB_SpaceShip_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Interior\Spaceship\AMB_SpaceShip		960094
+	845874098	AMB_SpaceShip	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023\AMB_SpaceShip_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Interior\Spaceship\AMB_SpaceShip		9696
 	846260293	Switch_Stone_Idle	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\Switch_Stone_Idle_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SWITCHES\Stones\Switch_Stone_Idle		1100896
 	850359613	Spitter_Attack_01	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\Spitter_Attack_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Small_Monster\Spitter_Attack\Spitter_Attack_01		46582
 	857986714	MC_FOL_Jump_02	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\MC_FOL_Jump_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\Foley\MC_FOL_Jump\MC_FOL_Jump_02		32096
@@ -289,4 +289,5 @@ Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	
 	361768001	Switch_Crystals_Idle_BeforeActivation	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\Switch_Crystals_Idle_BeforeActivation_D79FB2B7.wem	361768001.wem	\Actor-Mixer Hierarchy\Default Work Unit\SWITCHES\Crystals\Switch_Crystals_Idle_BeforeActivation	
 	498593051	Teleporter_Idle	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\Teleporter_Idle_D79FB2B7.wem	498593051.wem	\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Teleporter_Idle	
 	509223528	Switch_Crystals_Idle_AfterActivation	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\Switch_Crystals_Idle_AfterActivation_D79FB2B7.wem	509223528.wem	\Actor-Mixer Hierarchy\Default Work Unit\SWITCHES\Crystals\Switch_Crystals_Idle_AfterActivation	
+	845874098	AMB_SpaceShip	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023\AMB_SpaceShip_D79FB2B7.wem	845874098.wem	\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Interior\Spaceship\AMB_SpaceShip	
 

@@ -40,7 +40,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{AC472AB1-FD7A-1117-4E0C-936AE4121508}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{1CE9CF5C-0650-9BA6-B2AC-552C61DDF3EC}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
@@ -68,9 +68,11 @@
 					<ShortName>Export 12012023 V2\RFX_Computer_01.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/RFX_Computer_01_10C4C929.wem</CachePath>
 				</File>
-				<File Id="845874098" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="845874098" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Export 12012023\AMB_SpaceShip.wav</ShortName>
-					<CachePath>SFX/Export 12012023/AMB_SpaceShip_10C4C929.wem</CachePath>
+					<Path>Media/845874098.wem</Path>
+					<CachePath>SFX/Export 12012023/AMB_SpaceShip_D79FB2B7.wem</CachePath>
+					<PrefetchSize>9696</PrefetchSize>
 				</File>
 				<File Id="926020533" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\RFX_Computer_04.wav</ShortName>
@@ -90,7 +92,7 @@
 						</Custom>
 					</PluginRefs>
 				</Event>
-				<Event Id="3213331111" Name="Play_AMB_SpaceShip" MaxAttenuation="10" DurationType="OneShot" DurationMin="9.999979" DurationMax="9.999979">
+				<Event Id="3213331111" Name="Play_AMB_SpaceShip" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="845874098"/>
 					</MediaRefs>
@@ -271,7 +273,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{AB5A1BDB-5D04-9967-8F07-DDFB71BC4147}">
+		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{4D9ABDA6-D583-FC68-4BF5-55F24B26B964}">
 			<ShortName>MC</ShortName>
 			<Path>MC.bnk</Path>
 			<Media>
@@ -691,12 +693,17 @@
 						<MediaRef Id="999988372"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3022734957" Name="Play_MC_Jump" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.25527084" DurationMax="0.99372965">
+				<Event Id="3022734957" Name="Play_MC_Jump" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.26666668" DurationMax="0.99372965">
 					<MediaRefs>
 						<MediaRef Id="220234999"/>
 						<MediaRef Id="251333807"/>
 						<MediaRef Id="342328522"/>
+						<MediaRef Id="351188196"/>
+						<MediaRef Id="593204815"/>
+						<MediaRef Id="857986714"/>
+						<MediaRef Id="889441589"/>
 						<MediaRef Id="903076189"/>
+						<MediaRef Id="911638995"/>
 						<MediaRef Id="1014608767"/>
 					</MediaRefs>
 					<SwitchContainers>
@@ -732,6 +739,13 @@
 					</SwitchContainers>
 				</Event>
 				<Event Id="1593937298" Name="Play_MC_Land" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.31135052" DurationMax="0.9520115">
+					<MediaRefs>
+						<MediaRef Id="399770579"/>
+						<MediaRef Id="526613580"/>
+						<MediaRef Id="688235617"/>
+						<MediaRef Id="739981228"/>
+						<MediaRef Id="1001819051"/>
+					</MediaRefs>
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="712897245"/>
@@ -766,6 +780,16 @@
 					</SwitchContainers>
 				</Event>
 				<Event Id="1600895284" Name="Play_MC_Run" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.34733334" DurationMax="0.51">
+					<MediaRefs>
+						<MediaRef Id="338965084"/>
+						<MediaRef Id="486080740"/>
+						<MediaRef Id="592194566"/>
+						<MediaRef Id="614173606"/>
+						<MediaRef Id="655268182"/>
+						<MediaRef Id="803439455"/>
+						<MediaRef Id="824456465"/>
+						<MediaRef Id="999988372"/>
+					</MediaRefs>
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="712897245"/>
@@ -863,7 +887,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{D21761EC-5273-AF3A-057E-CF53D1A4333F}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{3F9A232C-8E2D-4209-2FC3-CEBA9B921A8F}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -1495,9 +1519,11 @@
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_01.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Mud_01_10C4C929.wem</CachePath>
 				</File>
-				<File Id="845874098" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="845874098" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Export 12012023\AMB_SpaceShip.wav</ShortName>
-					<CachePath>SFX/Export 12012023/AMB_SpaceShip_10C4C929.wem</CachePath>
+					<Path>Media/845874098.wem</Path>
+					<CachePath>SFX/Export 12012023/AMB_SpaceShip_D79FB2B7.wem</CachePath>
+					<PrefetchSize>9696</PrefetchSize>
 				</File>
 				<File Id="846260293" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Switch_Stone_Idle.wav</ShortName>
@@ -1711,7 +1737,7 @@
 						</Custom>
 					</PluginRefs>
 				</Event>
-				<Event Id="3213331111" Name="Play_AMB_SpaceShip" MaxAttenuation="10" DurationType="OneShot" DurationMin="9.999979" DurationMax="9.999979">
+				<Event Id="3213331111" Name="Play_AMB_SpaceShip" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="845874098"/>
 					</MediaRefs>
@@ -1783,12 +1809,17 @@
 						<MediaRef Id="999988372"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3022734957" Name="Play_MC_Jump" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.25527084" DurationMax="0.99372965">
+				<Event Id="3022734957" Name="Play_MC_Jump" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.26666668" DurationMax="0.99372965">
 					<MediaRefs>
 						<MediaRef Id="220234999"/>
 						<MediaRef Id="251333807"/>
 						<MediaRef Id="342328522"/>
+						<MediaRef Id="351188196"/>
+						<MediaRef Id="593204815"/>
+						<MediaRef Id="857986714"/>
+						<MediaRef Id="889441589"/>
 						<MediaRef Id="903076189"/>
+						<MediaRef Id="911638995"/>
 						<MediaRef Id="1014608767"/>
 					</MediaRefs>
 					<SwitchContainers>
@@ -1824,6 +1855,13 @@
 					</SwitchContainers>
 				</Event>
 				<Event Id="1593937298" Name="Play_MC_Land" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.31135052" DurationMax="0.9520115">
+					<MediaRefs>
+						<MediaRef Id="399770579"/>
+						<MediaRef Id="526613580"/>
+						<MediaRef Id="688235617"/>
+						<MediaRef Id="739981228"/>
+						<MediaRef Id="1001819051"/>
+					</MediaRefs>
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="712897245"/>
@@ -1858,6 +1896,16 @@
 					</SwitchContainers>
 				</Event>
 				<Event Id="1600895284" Name="Play_MC_Run" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.34733334" DurationMax="0.51">
+					<MediaRefs>
+						<MediaRef Id="338965084"/>
+						<MediaRef Id="486080740"/>
+						<MediaRef Id="592194566"/>
+						<MediaRef Id="614173606"/>
+						<MediaRef Id="655268182"/>
+						<MediaRef Id="803439455"/>
+						<MediaRef Id="824456465"/>
+						<MediaRef Id="999988372"/>
+					</MediaRefs>
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="712897245"/>
@@ -2842,5 +2890,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{66B3B501-F106-CACB-1F19-A662F6C2E2E0}</FileHash>
+	<FileHash>{D7A74AD3-DE78-D32A-C2FE-6C6D4195F575}</FileHash>
 </SoundBanksInfo>

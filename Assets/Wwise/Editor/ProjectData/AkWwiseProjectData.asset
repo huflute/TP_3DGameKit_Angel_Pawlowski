@@ -206,7 +206,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 58301ae271a98d46974f6accc96184fa
     GuidInternal: 
-    m_lastTime: -8585280003455551549
+    m_lastTime: -8585279971023827301
     List:
     - name: AMB
       guid: 7eacccb593e71341878dd5280afd656f
@@ -829,10 +829,13 @@ MonoBehaviour:
       - ElementName: AMB
         ObjectType: 4
         guid: 7eacccb593e71341878dd5280afd656f
+      - ElementName: Spaceship
+        ObjectType: 4
+        guid: 6ec2961f9f222a4b892ad491be356eee
       - ElementName: Play_RFX_Computer
         ObjectType: 3
         guid: 7bff4cc014fc7a4d96b059e4bff8a396
-      Path: Events\Default Work Unit\AMB\Play_RFX_Computer
+      Path: Events\Default Work Unit\AMB\Spaceship\Play_RFX_Computer
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1613,10 +1616,13 @@ MonoBehaviour:
       - ElementName: AMB
         ObjectType: 4
         guid: 7eacccb593e71341878dd5280afd656f
+      - ElementName: Spaceship
+        ObjectType: 4
+        guid: 6ec2961f9f222a4b892ad491be356eee
       - ElementName: Stop_AMB_SpaceShip
         ObjectType: 3
         guid: 48e568962025d7438c8012e4924ad0ea
-      Path: Events\Default Work Unit\AMB\Stop_AMB_SpaceShip
+      Path: Events\Default Work Unit\AMB\Spaceship\Stop_AMB_SpaceShip
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -2343,7 +2349,7 @@ MonoBehaviour:
     m_lastTime: -8585284051417417635
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 030000000400000006000000070000000d0000000e0000001400000015000000
+  ExpandedWaapiItemIds: 0300000004000000050000000600000007000000080000000d0000000e0000001300000014000000150000002a000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

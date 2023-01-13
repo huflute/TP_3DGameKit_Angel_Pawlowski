@@ -42,6 +42,13 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
+										<Action Name="" ID="{7F292545-2133-4085-8D42-B0A12396673C}" ShortID="531714793">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="MC_FOL_Run" ID="{C0F14209-5CAE-4F0B-85DE-4D45DEA45F18}" WorkUnitID="{3FD50C42-DA51-4E26-9C37-08E84BDE220A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 									</ChildrenList>
 								</Event>
 								<Event Name="Play_MC_Land" ID="{1772B3B8-F380-4C67-A8CB-0A0DF41DACE8}">
@@ -50,6 +57,13 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="MC_Land" ID="{23EB920F-AF2A-4FC5-994F-660D3A750194}" WorkUnitID="{3FD50C42-DA51-4E26-9C37-08E84BDE220A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{923725E5-DAAB-4616-84DD-34FA6D5CD48E}" ShortID="379053653">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="MC_FOL_Land" ID="{096192A9-F78B-4A43-B800-C6179116FA62}" WorkUnitID="{3FD50C42-DA51-4E26-9C37-08E84BDE220A}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -68,6 +82,13 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="MC_Vox_Jump" ID="{56D61122-DC35-46FA-8980-C34AD65A4DF3}" WorkUnitID="{3FD50C42-DA51-4E26-9C37-08E84BDE220A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{87A02FB6-22EC-442E-A8F9-12644A993A46}" ShortID="261724181">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="MC_FOL_Jump" ID="{E576EA4E-755E-48F4-A738-45FABDABE958}" WorkUnitID="{3FD50C42-DA51-4E26-9C37-08E84BDE220A}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -328,33 +349,33 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Play_RFX_Computer" ID="{C04CFF7B-FC14-4D7A-96B0-59E4BFF8A396}">
+									<ChildrenList>
+										<Action Name="" ID="{0CA0F430-FC7E-4338-9507-B45294E71629}" ShortID="206328438">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RFX_Computer" ID="{5F39E262-77DF-451B-8399-0C6E6D133B15}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_AMB_SpaceShip" ID="{9668E548-2520-43D7-8C80-12E4924AD0EA}">
+									<ChildrenList>
+										<Action Name="" ID="{024DC360-ACC2-4B8D-8EEC-021A616CE0C4}" ShortID="609675338">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AMB_SpaceShip" ID="{7CE34A9F-D092-4C67-9868-3E7107F0C8BB}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
-						<Event Name="Play_RFX_Computer" ID="{C04CFF7B-FC14-4D7A-96B0-59E4BFF8A396}">
-							<ChildrenList>
-								<Action Name="" ID="{0CA0F430-FC7E-4338-9507-B45294E71629}" ShortID="206328438">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="RFX_Computer" ID="{5F39E262-77DF-451B-8399-0C6E6D133B15}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Stop_AMB_SpaceShip" ID="{9668E548-2520-43D7-8C80-12E4924AD0EA}">
-							<ChildrenList>
-								<Action Name="" ID="{024DC360-ACC2-4B8D-8EEC-021A616CE0C4}" ShortID="609675338">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="AMB_SpaceShip" ID="{7CE34A9F-D092-4C67-9868-3E7107F0C8BB}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Monsters" ID="{8D7CC237-69AA-4A3E-95A3-35A5F32761C2}" ShortID="118562511">
