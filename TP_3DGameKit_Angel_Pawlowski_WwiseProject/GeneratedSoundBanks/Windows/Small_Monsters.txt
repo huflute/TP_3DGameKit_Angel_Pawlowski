@@ -3,18 +3,18 @@ Event	ID	Name			Wwise Object Path	Notes
 	46056053	Play_Small_Monster_VOX_Grunt			\Default Work Unit\Monsters\Small_Monsters\VOX\Play_Small_Monster_VOX_Grunt	
 	201430788	Play_Small_Monster_VOX_Hit			\Default Work Unit\Monsters\Small_Monsters\VOX\Play_Small_Monster_VOX_Hit	
 	237106917	Play_Small_Monster_VOX_Death			\Default Work Unit\Monsters\Small_Monsters\VOX\Play_Small_Monster_VOX_Death	
-	281344347	Play_Small_Monster_Spin			\Default Work Unit\Monsters\Small_Monsters\Play_Small_Monster_Spin	
-	803911630	Play_Monster_Vanish			\Default Work Unit\Monsters\Small_Monsters\Play_Monster_Vanish	
-	931488463	Play_Chomper_Attack			\Default Work Unit\Monsters\Small_Monsters\Play_Chomper_Attack	
+	281344347	Play_Small_Monster_Spin			\Default Work Unit\Monsters\Small_Monsters\Combat\Play_Small_Monster_Spin	
+	803911630	Play_Monster_Vanish			\Default Work Unit\Monsters\Small_Monsters\Combat\Play_Monster_Vanish	
+	931488463	Play_Chomper_Attack			\Default Work Unit\Monsters\Small_Monsters\Combat\Play_Chomper_Attack	
 	1451592030	Play_Small_Monster_Walk_Stone			\Default Work Unit\Monsters\Small_Monsters\FT\Play_Small_Monster_Walk_Stone	
-	1499078611	Play_Small_Monster_Bodyfall_Mud			\Default Work Unit\Monsters\Small_Monsters\Play_Small_Monster_Bodyfall_Mud	
-	1602398710	Play_Small_Monster_Hit			\Default Work Unit\Monsters\Small_Monsters\Play_Small_Monster_Hit	
+	1499078611	Play_Small_Monster_Bodyfall_Mud			\Default Work Unit\Monsters\Small_Monsters\Combat\Play_Small_Monster_Bodyfall_Mud	
+	1602398710	Play_Small_Monster_Hit			\Default Work Unit\Monsters\Small_Monsters\Combat\Play_Small_Monster_Hit	
 	1809433285	Play_Small_Monster_Run_Mud			\Default Work Unit\Monsters\Small_Monsters\FT\Play_Small_Monster_Run_Mud	
-	2386186782	Play_Small_Monster_Bodyfall_Stone			\Default Work Unit\Monsters\Small_Monsters\Play_Small_Monster_Bodyfall_Stone	
+	2386186782	Play_Small_Monster_Bodyfall_Stone			\Default Work Unit\Monsters\Small_Monsters\Combat\Play_Small_Monster_Bodyfall_Stone	
 	2960261907	Play_Small_Monster_Walk_Mud			\Default Work Unit\Monsters\Small_Monsters\FT\Play_Small_Monster_Walk_Mud	
 	3519138347	Play_Chomper_VOX_Before_Attack			\Default Work Unit\Monsters\Small_Monsters\VOX\Play_Chomper_VOX_Before_Attack	
 	3729170868	Play_Small_Monster_Run_Stone			\Default Work Unit\Monsters\Small_Monsters\FT\Play_Small_Monster_Run_Stone	
-	3913336272	Play_Spitter_Attack			\Default Work Unit\Monsters\Small_Monsters\Play_Spitter_Attack	
+	3913336272	Play_Spitter_Attack			\Default Work Unit\Monsters\Small_Monsters\Combat\Play_Spitter_Attack	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	643044249	Small_Monster			\Default Work Unit\Small_Monster	

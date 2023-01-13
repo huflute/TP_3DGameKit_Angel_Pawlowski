@@ -12,16 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a03661a5119f7fa45a33b08d6066848c, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-<<<<<<< Updated upstream
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
-=======
   AcousticTextureWwu:
   - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     PathAndIcons:
@@ -216,7 +206,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 58301ae271a98d46974f6accc96184fa
     GuidInternal: 
-    m_lastTime: -8585279949910060624
+    m_lastTime: -8585279884470978429
     List:
     - name: AMB
       guid: 7eacccb593e71341878dd5280afd656f
@@ -232,6 +222,49 @@ MonoBehaviour:
         ObjectType: 4
         guid: 7eacccb593e71341878dd5280afd656f
       Path: Events\Default Work Unit\AMB
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Big_Monster
+      guid: fc4cb787455e7b4fb47d7fdaae3312a2
+      id: 2795194458
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Monsters
+        ObjectType: 4
+        guid: 37c27c8daa693e4a95a335a5f32761c2
+      - ElementName: Big_Monster
+        ObjectType: 4
+        guid: fc4cb787455e7b4fb47d7fdaae3312a2
+      Path: Events\Default Work Unit\Monsters\Big_Monster
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Combat
+      guid: 8d02fbba2680eb45a0d521fd95046828
+      id: 2764240573
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Monsters
+        ObjectType: 4
+        guid: 37c27c8daa693e4a95a335a5f32761c2
+      - ElementName: Small_Monsters
+        ObjectType: 4
+        guid: ae634776d3e525498e0245b331e97887
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 8d02fbba2680eb45a0d521fd95046828
+      Path: Events\Default Work Unit\Monsters\Small_Monsters\Combat
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -448,10 +481,13 @@ MonoBehaviour:
       - ElementName: Small_Monsters
         ObjectType: 4
         guid: ae634776d3e525498e0245b331e97887
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 8d02fbba2680eb45a0d521fd95046828
       - ElementName: Play_Chomper_Attack
         ObjectType: 3
         guid: 2d41bf41d86a4f468cd05cefc3e4d83e
-      Path: Events\Default Work Unit\Monsters\Small_Monsters\Play_Chomper_Attack
+      Path: Events\Default Work Unit\Monsters\Small_Monsters\Combat\Play_Chomper_Attack
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -478,6 +514,259 @@ MonoBehaviour:
         ObjectType: 3
         guid: 1bca687d75a5a34d8a089278a8504a38
       Path: Events\Default Work Unit\Monsters\Small_Monsters\VOX\Play_Chomper_VOX_Before_Attack
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Grenadier_Breath
+      guid: c0d22151102f434a86f6cc19d93003ee
+      id: 414086918
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Monsters
+        ObjectType: 4
+        guid: 37c27c8daa693e4a95a335a5f32761c2
+      - ElementName: Big_Monster
+        ObjectType: 4
+        guid: fc4cb787455e7b4fb47d7fdaae3312a2
+      - ElementName: Play_Grenadier_Breath
+        ObjectType: 3
+        guid: c0d22151102f434a86f6cc19d93003ee
+      Path: Events\Default Work Unit\Monsters\Big_Monster\Play_Grenadier_Breath
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Grenadier_CloseRangeAttack
+      guid: f336453ff97bbd4cafff3c1ac2db0ecd
+      id: 480351787
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Monsters
+        ObjectType: 4
+        guid: 37c27c8daa693e4a95a335a5f32761c2
+      - ElementName: Big_Monster
+        ObjectType: 4
+        guid: fc4cb787455e7b4fb47d7fdaae3312a2
+      - ElementName: Play_Grenadier_CloseRangeAttack
+        ObjectType: 3
+        guid: f336453ff97bbd4cafff3c1ac2db0ecd
+      Path: Events\Default Work Unit\Monsters\Big_Monster\Play_Grenadier_CloseRangeAttack
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Grenadier_Death
+      guid: 703734cb5e3c0341917f7cdd35a81d73
+      id: 3337034902
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Monsters
+        ObjectType: 4
+        guid: 37c27c8daa693e4a95a335a5f32761c2
+      - ElementName: Big_Monster
+        ObjectType: 4
+        guid: fc4cb787455e7b4fb47d7fdaae3312a2
+      - ElementName: Play_Grenadier_Death
+        ObjectType: 3
+        guid: 703734cb5e3c0341917f7cdd35a81d73
+      Path: Events\Default Work Unit\Monsters\Big_Monster\Play_Grenadier_Death
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Grenadier_FT_Heavy
+      guid: 33d87092ef11a34dab6460f7f1e6cf81
+      id: 3960845230
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Monsters
+        ObjectType: 4
+        guid: 37c27c8daa693e4a95a335a5f32761c2
+      - ElementName: Big_Monster
+        ObjectType: 4
+        guid: fc4cb787455e7b4fb47d7fdaae3312a2
+      - ElementName: Play_Grenadier_FT_Heavy
+        ObjectType: 3
+        guid: 33d87092ef11a34dab6460f7f1e6cf81
+      Path: Events\Default Work Unit\Monsters\Big_Monster\Play_Grenadier_FT_Heavy
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Grenadier_FT_Normal
+      guid: c7fe84387a5748409a180a9808c1a4b9
+      id: 3213589888
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Monsters
+        ObjectType: 4
+        guid: 37c27c8daa693e4a95a335a5f32761c2
+      - ElementName: Big_Monster
+        ObjectType: 4
+        guid: fc4cb787455e7b4fb47d7fdaae3312a2
+      - ElementName: Play_Grenadier_FT_Normal
+        ObjectType: 3
+        guid: c7fe84387a5748409a180a9808c1a4b9
+      Path: Events\Default Work Unit\Monsters\Big_Monster\Play_Grenadier_FT_Normal
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Grenadier_Hit
+      guid: 403e8d7449978942b149b7ee1c11d1fa
+      id: 965282871
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Monsters
+        ObjectType: 4
+        guid: 37c27c8daa693e4a95a335a5f32761c2
+      - ElementName: Big_Monster
+        ObjectType: 4
+        guid: fc4cb787455e7b4fb47d7fdaae3312a2
+      - ElementName: Play_Grenadier_Hit
+        ObjectType: 3
+        guid: 403e8d7449978942b149b7ee1c11d1fa
+      Path: Events\Default Work Unit\Monsters\Big_Monster\Play_Grenadier_Hit
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Grenadier_MeleeAttack
+      guid: 6134470d491ce243b68d20e0ce40efcc
+      id: 1067947400
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Monsters
+        ObjectType: 4
+        guid: 37c27c8daa693e4a95a335a5f32761c2
+      - ElementName: Big_Monster
+        ObjectType: 4
+        guid: fc4cb787455e7b4fb47d7fdaae3312a2
+      - ElementName: Play_Grenadier_MeleeAttack
+        ObjectType: 3
+        guid: 6134470d491ce243b68d20e0ce40efcc
+      Path: Events\Default Work Unit\Monsters\Big_Monster\Play_Grenadier_MeleeAttack
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Grenadier_Movement_Fast
+      guid: 69578b54d8d2cf438e699f9612b4c495
+      id: 2354689276
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Monsters
+        ObjectType: 4
+        guid: 37c27c8daa693e4a95a335a5f32761c2
+      - ElementName: Big_Monster
+        ObjectType: 4
+        guid: fc4cb787455e7b4fb47d7fdaae3312a2
+      - ElementName: Play_Grenadier_Movement_Fast
+        ObjectType: 3
+        guid: 69578b54d8d2cf438e699f9612b4c495
+      Path: Events\Default Work Unit\Monsters\Big_Monster\Play_Grenadier_Movement_Fast
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Grenadier_Movement_Slow
+      guid: 4cc91c48dcb39d4caa0e4c824a068737
+      id: 3428007485
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Monsters
+        ObjectType: 4
+        guid: 37c27c8daa693e4a95a335a5f32761c2
+      - ElementName: Big_Monster
+        ObjectType: 4
+        guid: fc4cb787455e7b4fb47d7fdaae3312a2
+      - ElementName: Play_Grenadier_Movement_Slow
+        ObjectType: 3
+        guid: 4cc91c48dcb39d4caa0e4c824a068737
+      Path: Events\Default Work Unit\Monsters\Big_Monster\Play_Grenadier_Movement_Slow
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Grenadier_RangeAttack01
+      guid: 01eddb49915291418789d5410b7ed5f2
+      id: 332846454
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Monsters
+        ObjectType: 4
+        guid: 37c27c8daa693e4a95a335a5f32761c2
+      - ElementName: Big_Monster
+        ObjectType: 4
+        guid: fc4cb787455e7b4fb47d7fdaae3312a2
+      - ElementName: Play_Grenadier_RangeAttack01
+        ObjectType: 3
+        guid: 01eddb49915291418789d5410b7ed5f2
+      Path: Events\Default Work Unit\Monsters\Big_Monster\Play_Grenadier_RangeAttack01
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Grenadier_RangeAttack02
+      guid: 12378a601912ca4abe1f0d127db63ef8
+      id: 332846453
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Monsters
+        ObjectType: 4
+        guid: 37c27c8daa693e4a95a335a5f32761c2
+      - ElementName: Big_Monster
+        ObjectType: 4
+        guid: fc4cb787455e7b4fb47d7fdaae3312a2
+      - ElementName: Play_Grenadier_RangeAttack02
+        ObjectType: 3
+        guid: 12378a601912ca4abe1f0d127db63ef8
+      Path: Events\Default Work Unit\Monsters\Big_Monster\Play_Grenadier_RangeAttack02
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -842,10 +1131,13 @@ MonoBehaviour:
       - ElementName: Small_Monsters
         ObjectType: 4
         guid: ae634776d3e525498e0245b331e97887
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 8d02fbba2680eb45a0d521fd95046828
       - ElementName: Play_Monster_Vanish
         ObjectType: 3
         guid: 532e19e0bb0e1f4693b4a5e970347cfa
-      Path: Events\Default Work Unit\Monsters\Small_Monsters\Play_Monster_Vanish
+      Path: Events\Default Work Unit\Monsters\Small_Monsters\Combat\Play_Monster_Vanish
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -888,10 +1180,13 @@ MonoBehaviour:
       - ElementName: Small_Monsters
         ObjectType: 4
         guid: ae634776d3e525498e0245b331e97887
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 8d02fbba2680eb45a0d521fd95046828
       - ElementName: Play_Small_Monster_Bodyfall_Mud
         ObjectType: 3
         guid: 34e67b047445554386cd6f8b53ef65e6
-      Path: Events\Default Work Unit\Monsters\Small_Monsters\Play_Small_Monster_Bodyfall_Mud
+      Path: Events\Default Work Unit\Monsters\Small_Monsters\Combat\Play_Small_Monster_Bodyfall_Mud
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -911,10 +1206,13 @@ MonoBehaviour:
       - ElementName: Small_Monsters
         ObjectType: 4
         guid: ae634776d3e525498e0245b331e97887
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 8d02fbba2680eb45a0d521fd95046828
       - ElementName: Play_Small_Monster_Bodyfall_Stone
         ObjectType: 3
         guid: 2e4c1c3f98c90d448b8431119e8cece9
-      Path: Events\Default Work Unit\Monsters\Small_Monsters\Play_Small_Monster_Bodyfall_Stone
+      Path: Events\Default Work Unit\Monsters\Small_Monsters\Combat\Play_Small_Monster_Bodyfall_Stone
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -934,10 +1232,13 @@ MonoBehaviour:
       - ElementName: Small_Monsters
         ObjectType: 4
         guid: ae634776d3e525498e0245b331e97887
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 8d02fbba2680eb45a0d521fd95046828
       - ElementName: Play_Small_Monster_Hit
         ObjectType: 3
         guid: 941fd33c2af8954bae5597dfe7cb313b
-      Path: Events\Default Work Unit\Monsters\Small_Monsters\Play_Small_Monster_Hit
+      Path: Events\Default Work Unit\Monsters\Small_Monsters\Combat\Play_Small_Monster_Hit
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1009,10 +1310,13 @@ MonoBehaviour:
       - ElementName: Small_Monsters
         ObjectType: 4
         guid: ae634776d3e525498e0245b331e97887
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 8d02fbba2680eb45a0d521fd95046828
       - ElementName: Play_Small_Monster_Spin
         ObjectType: 3
         guid: bb2508b39060a34dbc7776cb53a48a11
-      Path: Events\Default Work Unit\Monsters\Small_Monsters\Play_Small_Monster_Spin
+      Path: Events\Default Work Unit\Monsters\Small_Monsters\Combat\Play_Small_Monster_Spin
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1188,10 +1492,13 @@ MonoBehaviour:
       - ElementName: Small_Monsters
         ObjectType: 4
         guid: ae634776d3e525498e0245b331e97887
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 8d02fbba2680eb45a0d521fd95046828
       - ElementName: Play_Spitter_Attack
         ObjectType: 3
         guid: c401faa62b9a194b98da9fde169c405e
-      Path: Events\Default Work Unit\Monsters\Small_Monsters\Play_Spitter_Attack
+      Path: Events\Default Work Unit\Monsters\Small_Monsters\Combat\Play_Spitter_Attack
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -2381,9 +2688,8 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585284051417417635
     List: []
->>>>>>> Stashed changes
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 14000000150000001f00000020000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -1443,6 +1443,26 @@
 										<ItemRef Name="MC_Roll_Rock" ID="{6A5FF5A9-D8BF-4433-A111-92D12BFE6A9E}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Mud" ID="{F3E4C203-0C66-4BA2-8D9A-377C53AFD1E7}"/>
+										<ItemList>
+											<ItemRef Name="MC_Roll_Mud" ID="{095C937C-46CF-4E13-8135-B4D91E25A57C}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Grass" ID="{C6F52CA2-EAFC-45D9-AC4C-B3CDB4CF3C0F}"/>
+										<ItemList>
+											<ItemRef Name="MC_Roll_Grass" ID="{5EB784A8-2E58-4899-81F9-4903EA84F8DA}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Rock" ID="{ED85F6B6-41F7-4079-A1C9-068B767E505A}"/>
+										<ItemList>
+											<ItemRef Name="MC_Roll_Rock" ID="{6A5FF5A9-D8BF-4433-A111-92D12BFE6A9E}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
 					</ChildrenList>

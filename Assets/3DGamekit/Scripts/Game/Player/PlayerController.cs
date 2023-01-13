@@ -106,7 +106,7 @@ namespace Gamekit3D
         {
             get { return !Mathf.Approximately(m_Input.MoveInput.sqrMagnitude, 0f); }
         }
-
+        
         public void SetCanAttack(bool canAttack)
         {
             this.canAttack = canAttack;

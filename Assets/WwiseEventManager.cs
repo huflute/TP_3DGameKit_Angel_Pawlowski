@@ -31,7 +31,6 @@ public class WwiseEventManager : MonoBehaviour
     {
         AkSoundEngine.PostEvent("Play_MC_FOL_Attack", this.gameObject);
     }
-
     public void Roll()
     {
         Debug.Log("Roulade");

@@ -273,7 +273,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{4D9ABDA6-D583-FC68-4BF5-55F24B26B964}">
+		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{8D2D4760-9080-EF1F-5FA6-6D8E67C27B91}">
 			<ShortName>MC</ShortName>
 			<Path>MC.bnk</Path>
 			<Media>
@@ -377,6 +377,10 @@
 					<ShortName>MC_FT_Jump_Rock_02.wav</ShortName>
 					<CachePath>SFX/MC_FT_Jump_Rock_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="296104581" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_Roll_Mud.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_Roll_Mud_10C4C929.wem</CachePath>
+				</File>
 				<File Id="302618245" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Jump_Grass_02.wav</ShortName>
 					<CachePath>SFX/MC_FT_Jump_Grass_02_10C4C929.wem</CachePath>
@@ -462,6 +466,10 @@
 				<File Id="572206953" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Land_Mud_04.wav</ShortName>
 					<CachePath>SFX/MC_FT_Land_Mud_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="575763528" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_Roll_Grass.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_Roll_Grass_10C4C929.wem</CachePath>
 				</File>
 				<File Id="592194566" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\MC_FOL_Run_04.wav</ShortName>
@@ -631,6 +639,10 @@
 					<ShortName>MC_FT_Jump_Grass_01.wav</ShortName>
 					<CachePath>SFX/MC_FT_Jump_Grass_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1004012058" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_Roll_Rock.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_Roll_Rock_10C4C929.wem</CachePath>
+				</File>
 				<File Id="1014608767" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Jump_03.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Jump_03_10C4C929.wem</CachePath>
@@ -779,6 +791,31 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="1213444204" Name="Play_MC_Roll" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.5602083" DurationMax="0.8333125">
+					<MediaRefs>
+						<MediaRef Id="700888953"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="712897245"/>
+							<MediaRefs>
+								<MediaRef Id="296104581"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="4248645337"/>
+							<MediaRefs>
+								<MediaRef Id="575763528"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="2144363834" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="1004012058"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="1600895284" Name="Play_MC_Run" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.34733334" DurationMax="0.51">
 					<MediaRefs>
 						<MediaRef Id="338965084"/>
@@ -887,7 +924,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{D53E68C1-2497-4320-4E1E-F4E09A39F170}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{85FEA8E5-0727-7F70-2B2C-6A419A3148E7}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -1171,6 +1208,10 @@
 					<ShortName>MC_VOX_Attack_Normal_01.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Attack_Normal_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="296104581" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_Roll_Mud.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_Roll_Mud_10C4C929.wem</CachePath>
+				</File>
 				<File Id="296594354" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Stone_02.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Stone_02_10C4C929.wem</CachePath>
@@ -1378,6 +1419,10 @@
 				<File Id="572206953" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Land_Mud_04.wav</ShortName>
 					<CachePath>SFX/MC_FT_Land_Mud_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="575763528" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_Roll_Grass.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_Roll_Grass_10C4C929.wem</CachePath>
 				</File>
 				<File Id="585468367" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Spin_04.wav</ShortName>
@@ -1821,6 +1866,10 @@
 					<ShortName>MC_FT_Jump_Grass_01.wav</ShortName>
 					<CachePath>SFX/MC_FT_Jump_Grass_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1004012058" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\MC_Roll_Rock.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/MC_Roll_Rock_10C4C929.wem</CachePath>
+				</File>
 				<File Id="1007738558" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Run_Mud_04.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Mud_04_10C4C929.wem</CachePath>
@@ -2115,6 +2164,31 @@
 								<MediaRef Id="225456498"/>
 								<MediaRef Id="648571618"/>
 								<MediaRef Id="920600754"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1213444204" Name="Play_MC_Roll" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.5602083" DurationMax="0.8333125">
+					<MediaRefs>
+						<MediaRef Id="700888953"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="712897245"/>
+							<MediaRefs>
+								<MediaRef Id="296104581"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="4248645337"/>
+							<MediaRefs>
+								<MediaRef Id="575763528"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="2144363834" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="1004012058"/>
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -2730,7 +2804,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{15C2A21F-4D8C-46BA-6D2C-BDB342D5DD6A}">
+		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{A19A105A-5B3B-1D73-91A8-C9DC73075BC7}">
 			<ShortName>Small_Monsters</ShortName>
 			<Path>Small_Monsters.bnk</Path>
 			<Media>
@@ -3114,5 +3188,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{09EB6889-92BE-EAD3-017E-A48578F6DF94}</FileHash>
+	<FileHash>{FD8B3AAD-7C1D-2E78-1479-19545E28CC1F}</FileHash>
 </SoundBanksInfo>

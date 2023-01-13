@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using Unity.VisualScripting;
+using UnityEngine;
+using UnityEngine.Events;
 
 namespace Gamekit3D
 {
@@ -20,9 +22,12 @@ namespace Gamekit3D
 
         const string k_CutoffName = "_Cutoff";
 
+        public GameObject AudioPlayer;
+
         void Awake()
         {
 
+            
             m_PropertyBlock = new MaterialPropertyBlock();
             m_Renderer = GetComponentsInChildren<Renderer>();
 
@@ -44,6 +49,7 @@ namespace Gamekit3D
         {
             if (Time.time >= m_StartTime)
             {
+                AudioPlayer.SetActive(true);
                 float cutoff = 0;
 
                 for (int i = 0; i < m_Renderer.Length; i++)
