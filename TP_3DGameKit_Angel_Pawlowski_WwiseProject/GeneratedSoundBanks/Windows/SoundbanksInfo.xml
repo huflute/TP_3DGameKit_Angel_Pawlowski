@@ -918,15 +918,11 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-<<<<<<< Updated upstream
 <<<<<<< HEAD
 		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{7202647F-6477-B69D-FCC6-5C7CBA7DF05C}">
 =======
 		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{A18205DE-DDB3-D71D-7810-AC87CA22C579}">
 >>>>>>> c0b298ce94798c725f821fad561bb2be885ca8d7
-=======
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{652B1490-6320-01BA-53FD-0F6C0D3A8831}">
->>>>>>> Stashed changes
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -2589,11 +2585,7 @@
 						<MediaRef Id="926020533"/>
 					</MediaRefs>
 				</Event>
-<<<<<<< Updated upstream
 				<Event Id="3179497032" Name="Play_Small_Monster_Bodyfall" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.24025" DurationMax="0.76666665">
-=======
-				<Event Id="3179497032" Name="Play_Small_Monster_Bodyfall" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.24025" DurationMax="0.38252082">
->>>>>>> Stashed changes
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="712897245"/>
@@ -2606,7 +2598,6 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-<<<<<<< Updated upstream
 							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="4248645337" Default="true"/>
 							<MediaRefs>
 								<MediaRef Id="421589509"/>
@@ -2615,8 +2606,6 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-=======
->>>>>>> Stashed changes
 							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="2144363834"/>
 							<MediaRefs>
 								<MediaRef Id="252669861"/>
@@ -2637,11 +2626,7 @@
 						<MediaRef Id="659355389"/>
 					</MediaRefs>
 				</Event>
-<<<<<<< Updated upstream
 				<Event Id="1338193862" Name="Play_Small_Monster_Run" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.055875" DurationMax="0.6">
-=======
-				<Event Id="1338193862" Name="Play_Small_Monster_Run" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.055875" DurationMax="0.12083333">
->>>>>>> Stashed changes
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="712897245"/>
@@ -2657,7 +2642,6 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-<<<<<<< Updated upstream
 							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="4248645337" Default="true"/>
 							<MediaRefs>
 								<MediaRef Id="159935507"/>
@@ -2669,8 +2653,6 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-=======
->>>>>>> Stashed changes
 							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="2144363834"/>
 							<MediaRefs>
 								<MediaRef Id="7411264"/>
@@ -2697,7 +2679,6 @@
 						<MediaRef Id="955442588"/>
 					</MediaRefs>
 				</Event>
-<<<<<<< Updated upstream
 				<Event Id="237106917" Name="Play_Small_Monster_VOX_Death" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.44970834" DurationMax="0.68660414">
 					<SwitchContainers>
 						<SwitchContainer>
@@ -2779,13 +2760,6 @@
 					</SwitchContainers>
 				</Event>
 				<Event Id="1427652232" Name="Play_Small_Monster_Walk" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.055875" DurationMax="0.6">
-=======
-				<Event Id="237106917" Name="Play_Small_Monster_VOX_Death" MaxAttenuation="5" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="46056053" Name="Play_Small_Monster_VOX_Grunt" MaxAttenuation="5" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="201430788" Name="Play_Small_Monster_VOX_Hit" MaxAttenuation="5" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="41618512" Name="Play_Small_Monster_VOX_Spots" MaxAttenuation="5" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="1427652232" Name="Play_Small_Monster_Walk" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.055875" DurationMax="0.09147917">
->>>>>>> Stashed changes
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="712897245"/>
@@ -2801,7 +2775,6 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-<<<<<<< Updated upstream
 							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="4248645337" Default="true"/>
 							<MediaRefs>
 								<MediaRef Id="79344577"/>
@@ -2813,8 +2786,6 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-=======
->>>>>>> Stashed changes
 							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="2144363834"/>
 							<MediaRefs>
 								<MediaRef Id="308812"/>
@@ -3276,11 +3247,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-<<<<<<< Updated upstream
 		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{549C953A-C87A-7122-692B-858BCE856D6A}">
-=======
-		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{97478B58-5EF5-9C3B-78E7-7A3D6893FE3B}">
->>>>>>> Stashed changes
 			<ShortName>Small_Monsters</ShortName>
 			<Path>Small_Monsters.bnk</Path>
 			<Media>
@@ -3711,11 +3678,7 @@
 						<MediaRef Id="372411582"/>
 					</MediaRefs>
 				</Event>
-<<<<<<< Updated upstream
 				<Event Id="3179497032" Name="Play_Small_Monster_Bodyfall" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.24025" DurationMax="0.76666665">
-=======
-				<Event Id="3179497032" Name="Play_Small_Monster_Bodyfall" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.24025" DurationMax="0.38252082">
->>>>>>> Stashed changes
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="712897245"/>
@@ -3728,7 +3691,6 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-<<<<<<< Updated upstream
 							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="4248645337" Default="true"/>
 							<MediaRefs>
 								<MediaRef Id="421589509"/>
@@ -3737,8 +3699,6 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-=======
->>>>>>> Stashed changes
 							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="2144363834"/>
 							<MediaRefs>
 								<MediaRef Id="252669861"/>
@@ -3759,11 +3719,7 @@
 						<MediaRef Id="659355389"/>
 					</MediaRefs>
 				</Event>
-<<<<<<< Updated upstream
 				<Event Id="1338193862" Name="Play_Small_Monster_Run" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.055875" DurationMax="0.6">
-=======
-				<Event Id="1338193862" Name="Play_Small_Monster_Run" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.055875" DurationMax="0.12083333">
->>>>>>> Stashed changes
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="712897245"/>
@@ -3779,7 +3735,6 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-<<<<<<< Updated upstream
 							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="4248645337" Default="true"/>
 							<MediaRefs>
 								<MediaRef Id="159935507"/>
@@ -3791,8 +3746,6 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-=======
->>>>>>> Stashed changes
 							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="2144363834"/>
 							<MediaRefs>
 								<MediaRef Id="7411264"/>
@@ -3819,7 +3772,6 @@
 						<MediaRef Id="955442588"/>
 					</MediaRefs>
 				</Event>
-<<<<<<< Updated upstream
 				<Event Id="237106917" Name="Play_Small_Monster_VOX_Death" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.44970834" DurationMax="0.68660414">
 					<SwitchContainers>
 						<SwitchContainer>
@@ -3901,13 +3853,6 @@
 					</SwitchContainers>
 				</Event>
 				<Event Id="1427652232" Name="Play_Small_Monster_Walk" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.055875" DurationMax="0.6">
-=======
-				<Event Id="237106917" Name="Play_Small_Monster_VOX_Death" MaxAttenuation="5" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="46056053" Name="Play_Small_Monster_VOX_Grunt" MaxAttenuation="5" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="201430788" Name="Play_Small_Monster_VOX_Hit" MaxAttenuation="5" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="41618512" Name="Play_Small_Monster_VOX_Spots" MaxAttenuation="5" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="1427652232" Name="Play_Small_Monster_Walk" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.055875" DurationMax="0.09147917">
->>>>>>> Stashed changes
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="712897245"/>
@@ -3923,7 +3868,6 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-<<<<<<< Updated upstream
 							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="4248645337" Default="true"/>
 							<MediaRefs>
 								<MediaRef Id="79344577"/>
@@ -3935,8 +3879,6 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-=======
->>>>>>> Stashed changes
 							<SwitchValue GroupType="Switch" GroupId="3539622648" Id="2144363834"/>
 							<MediaRefs>
 								<MediaRef Id="308812"/>
@@ -3977,13 +3919,9 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-<<<<<<< Updated upstream
 <<<<<<< HEAD
 	<FileHash>{971CDE27-CFFA-2A93-3435-2184CA849031}</FileHash>
 =======
 	<FileHash>{0CEEEA1F-A7AC-8A19-1FC7-127457974C66}</FileHash>
 >>>>>>> c0b298ce94798c725f821fad561bb2be885ca8d7
-=======
-	<FileHash>{28653B8B-3652-7A24-9424-88A3178D552B}</FileHash>
->>>>>>> Stashed changes
 </SoundBanksInfo>
