@@ -10,208 +10,22 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AuxBus Name="Reverb_Room_Large" ID="{CE42B6B8-AB07-42A2-BDEB-EE56D419C436}"/>
-						<AuxBus Name="Reverb_Room_Medium" ID="{B6C502DD-4EFA-40DC-B265-4B3C01930162}"/>
-						<AuxBus Name="Reverb_Room_Small" ID="{6107647D-7610-4747-A26C-51A157AB6FB9}"/>
-						<AuxBus Name="Reverb_Swamp" ID="{DA916B47-98F3-4B64-9F3C-402B904DEFD1}">
-							<PropertyList>
-								<Property Name="OutputBusVolume" Type="Real64">
-									<ValueList>
-										<Value>-22</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Effect0">
-									<Custom>
-										<Effect Name="AK Convolution Reverb (Custom)" ID="{C8DA1FDF-F7E6-4092-867A-ECBA413165EA}" ShortID="756139772" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
-											<PropertyList>
-												<Property Name="IRConvolutionStop" Type="Real64" Value="5.27258333333333"/>
-												<Property Name="IRConvolutionThreshold" Type="Real32">
-													<ValueList>
-														<Value>-70</Value>
-													</ValueList>
-												</Property>
-												<Property Name="IRGraphicEQAutomate" Type="bool" Value="True"/>
-												<Property Name="IRLPFAutomate" Type="bool" Value="True"/>
-											</PropertyList>
-											<ChildrenList>
-												<PluginMediaSource Name="Field, Small, Holler with Forest 50m" ID="{B5B37CEE-32EE-4529-A29B-E4A444E13380}">
-													<ParentPluginID>8323075</ParentPluginID>
-													<PropertyList>
-														<Property Name="DataFileName" Type="string" Value="Field, Small, Holler with Forest 50m.wav"/>
-													</PropertyList>
-													<MediaIDList>
-														<MediaID ID="286944180"/>
-													</MediaIDList>
-												</PluginMediaSource>
-											</ChildrenList>
-											<PluginData>
-	<ConvolutionData>
-		<CurveList Version="1">
-			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="">
-					<PropertyList>
-						<Property Name="Flags" Type="int32" Value="19"/>
-					</PropertyList>
-					<PointList>
-						<Point>
-							<XPos>20</XPos>
-							<YPos>0</YPos>
-							<Flags>5</Flags>
-						</Point>
-						<Point>
-							<XPos>20000</XPos>
-							<YPos>-1.87996</YPos>
-							<Flags>37</Flags>
-						</Point>
-					</PointList>
-				</Curve>
-			</CurveInfo>
-			<CurveInfo Name="IRLPF">
-				<Curve Name="">
-					<PropertyList>
-						<Property Name="Flags" Type="int32" Value="5"/>
-					</PropertyList>
-					<PointList>
-						<Point>
-							<XPos>0</XPos>
-							<YPos>20000</YPos>
-							<Flags>5</Flags>
-						</Point>
-						<Point>
-							<XPos>5.27258333333333</XPos>
-							<YPos>20000</YPos>
-							<Flags>37</Flags>
-						</Point>
-					</PointList>
-				</Curve>
-			</CurveInfo>
-			<CurveInfo Name="IRLevel">
-				<Curve Name="">
-					<PropertyList>
-						<Property Name="Flags" Type="int32" Value="1"/>
-					</PropertyList>
-					<PointList>
-						<Point>
-							<XPos>0</XPos>
-							<YPos>0</YPos>
-							<Flags>5</Flags>
-						</Point>
-						<Point>
-							<XPos>5.27258333333333</XPos>
-							<YPos>0</YPos>
-							<Flags>37</Flags>
-						</Point>
-					</PointList>
-				</Curve>
-			</CurveInfo>
-		</CurveList>
-	</ConvolutionData>
-</PluginData>
-										</Effect>
-									</Custom>
-								</Reference>
-							</ReferenceList>
-						</AuxBus>
-						<AuxBus Name="Reverb_HiddenPlace" ID="{9104E35B-B122-4B86-9D5B-AE5BC6F95A8F}"/>
-						<AuxBus Name="Reverb_Ruins" ID="{F908F3CC-0175-44D5-8568-C62907670101}">
-							<ReferenceList>
-								<Reference Name="Effect0">
-									<Custom>
-										<Effect Name="AK Convolution Reverb (Custom)" ID="{98FE3AF0-6601-417C-AA18-37A462D18976}" ShortID="660847637" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
-											<PropertyList>
-												<Property Name="IRConvolutionStop" Type="Real64" Value="3.47075"/>
-												<Property Name="IRGraphicEQAutomate" Type="bool" Value="True"/>
-												<Property Name="IRLevel" Type="Real32" Value="-15"/>
-											</PropertyList>
-											<ChildrenList>
-												<PluginMediaSource Name="Field, Surround by Trees 10m" ID="{B3A85A48-F3E5-45BA-812F-1F1377357DA6}">
-													<ParentPluginID>8323075</ParentPluginID>
-													<PropertyList>
-														<Property Name="DataFileName" Type="string" Value="Field, Surround by Trees 10m.wav"/>
-													</PropertyList>
-													<MediaIDList>
-														<MediaID ID="1004851595"/>
-													</MediaIDList>
-												</PluginMediaSource>
-											</ChildrenList>
-											<PluginData>
-	<ConvolutionData>
-		<CurveList Version="1">
-			<CurveInfo Name="IRGraphicEQ">
-				<Curve Name="">
-					<PropertyList>
-						<Property Name="Flags" Type="int32" Value="19"/>
-					</PropertyList>
-					<PointList>
-						<Point>
-							<XPos>20</XPos>
-							<YPos>0</YPos>
-							<Flags>5</Flags>
-						</Point>
-						<Point>
-							<XPos>20000</XPos>
-							<YPos>-4.38955</YPos>
-							<Flags>37</Flags>
-						</Point>
-					</PointList>
-				</Curve>
-			</CurveInfo>
-			<CurveInfo Name="IRLPF">
-				<Curve Name="">
-					<PropertyList>
-						<Property Name="Flags" Type="int32" Value="5"/>
-					</PropertyList>
-					<PointList>
-						<Point>
-							<XPos>0</XPos>
-							<YPos>20000</YPos>
-							<Flags>5</Flags>
-						</Point>
-						<Point>
-							<XPos>3.47075</XPos>
-							<YPos>20000</YPos>
-							<Flags>37</Flags>
-						</Point>
-					</PointList>
-				</Curve>
-			</CurveInfo>
-			<CurveInfo Name="IRLevel">
-				<Curve Name="">
-					<PropertyList>
-						<Property Name="Flags" Type="int32" Value="1"/>
-					</PropertyList>
-					<PointList>
-						<Point>
-							<XPos>0</XPos>
-							<YPos>0</YPos>
-							<Flags>5</Flags>
-						</Point>
-						<Point>
-							<XPos>3.47075</XPos>
-							<YPos>0</YPos>
-							<Flags>37</Flags>
-						</Point>
-					</PointList>
-				</Curve>
-			</CurveInfo>
-		</CurveList>
-	</ConvolutionData>
-</PluginData>
-										</Effect>
-									</Custom>
-								</Reference>
-							</ReferenceList>
-						</AuxBus>
-						<AuxBus Name="Reverb_Corridor" ID="{ADB3EFF1-6F11-4BC4-95C6-E9AD05C66CA8}"/>
-						<Bus Name="Environmental" ID="{118CD070-0AFF-402B-9096-AAFF10D8187F}">
+						<Bus Name="Priority01" ID="{20D734F0-B4D0-4D31-B11F-28D082E0E40D}">
 							<ReferenceList>
 								<Reference Name="UserAuxSend0">
-									<ObjectRef Name="Reverb_Ruins" ID="{F908F3CC-0175-44D5-8568-C62907670101}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+									<ObjectRef Name="Reverb_Swamp" ID="{DA916B47-98F3-4B64-9F3C-402B904DEFD1}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
 								</Reference>
 							</ReferenceList>
 						</Bus>
+						<AuxBus Name="Reverb_Swamp" ID="{DA916B47-98F3-4B64-9F3C-402B904DEFD1}">
+							<ReferenceList/>
+						</AuxBus>
+						<AuxBus Name="Reverb_Room_Large" ID="{CE42B6B8-AB07-42A2-BDEB-EE56D419C436}"/>
+						<AuxBus Name="Reverb_Room_Medium" ID="{B6C502DD-4EFA-40DC-B265-4B3C01930162}"/>
+						<AuxBus Name="Reverb_Room_Small" ID="{6107647D-7610-4747-A26C-51A157AB6FB9}"/>
+						<AuxBus Name="Reverb_Corridor" ID="{ADB3EFF1-6F11-4BC4-95C6-E9AD05C66CA8}"/>
+						<AuxBus Name="Reverb_HiddenPlace" ID="{9104E35B-B122-4B86-9D5B-AE5BC6F95A8F}"/>
+						<AuxBus Name="Reverb_Ruins" ID="{F908F3CC-0175-44D5-8568-C62907670101}"/>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

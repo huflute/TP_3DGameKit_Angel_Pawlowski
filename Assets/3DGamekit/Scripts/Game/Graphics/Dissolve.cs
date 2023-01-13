@@ -49,10 +49,7 @@ namespace Gamekit3D
         {
             if (Time.time >= m_StartTime)
             {
-                if (AudioPlayer != null)
-                {
-                    AudioPlayer.SetActive(true);
-                }
+                AudioPlayer.SetActive(true);
                 float cutoff = 0;
 
                 for (int i = 0; i < m_Renderer.Length; i++)

@@ -8,18 +8,12 @@
 			</PropertyList>
 			<ChildrenList>
 				<ActorMixer Name="Monsters" ID="{AA3B2FBB-C340-46D3-A692-70CDC90C270F}" ShortID="587413879">
-					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="1"/>
-					</PropertyList>
 					<ReferenceList>
-						<Reference Name="Attenuation">
-							<ObjectRef Name="10m" ID="{7B55A2EC-035A-4F2D-ABF0-2DBDBF6B0BDE}" WorkUnitID="{B378FA7B-E709-4147-8665-F99F8F07F9BC}"/>
-						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Environmental" ID="{118CD070-0AFF-402B-9096-AAFF10D8187F}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+							<ObjectRef Name="Priority01" ID="{20D734F0-B4D0-4D31-B11F-28D082E0E40D}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -2918,7 +2912,6 @@
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -4323,6 +4316,134 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Grenadier_Movement_Fast" ID="{82AC0D5D-F604-4BA9-9CE1-3041D0E47CD0}" ShortID="452258368">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="20m" ID="{1A19C147-517E-468A-AC33-4651C12FF635}" WorkUnitID="{B378FA7B-E709-4147-8665-F99F8F07F9BC}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Grenadier_Movement_Fast_02" ID="{AD3ABBC9-6086-4C8F-A030-7C096015E7CD}" ShortID="231808559">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier_Movement_Fast_02" ID="{4A4999F4-CEF0-46C5-A416-BF51172D3749}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier\Grenadier_Movement_Fast_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="288158660"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier_Movement_Fast_02" ID="{4A4999F4-CEF0-46C5-A416-BF51172D3749}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier_Movement_Fast_03" ID="{ED694313-3EC6-4C8D-8244-954835238176}" ShortID="806687488">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier_Movement_Fast_03" ID="{A8F8F9BD-FA27-45A3-A2E3-141FA4CA20AE}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier\Grenadier_Movement_Fast_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="344802205"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier_Movement_Fast_03" ID="{A8F8F9BD-FA27-45A3-A2E3-141FA4CA20AE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier_Movement_Fast_01" ID="{20EAE24A-7B1B-47B5-B5B0-7314BEEF5587}" ShortID="875509090">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier_Movement_Fast_01" ID="{2DAA03DC-791C-473B-BAF1-0813D95551CB}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier\Grenadier_Movement_Fast_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="822059773"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier_Movement_Fast_01" ID="{2DAA03DC-791C-473B-BAF1-0813D95551CB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier_Movement_Fast_04" ID="{CDBCAD8B-8E8D-44F4-8F58-FDDD2DA195AC}" ShortID="905855814">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier_Movement_Fast_04" ID="{2E453725-7F40-420C-BAB7-2D42F28B8B46}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier\Grenadier_Movement_Fast_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="646839536"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier_Movement_Fast_04" ID="{2E453725-7F40-420C-BAB7-2D42F28B8B46}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier_Movement_Fast_05" ID="{BB9F8ED6-C161-4751-AB99-1BBF2A32CEFE}" ShortID="127013607">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier_Movement_Fast_05" ID="{99BC9851-8BCB-415A-9D46-F6BECEB60B08}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier\Grenadier_Movement_Fast_05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="676406857"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier_Movement_Fast_05" ID="{99BC9851-8BCB-415A-9D46-F6BECEB60B08}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Grenadier_Movement_Slow" ID="{66CE0BBB-B67E-432E-9539-0C075F361C19}" ShortID="846088298">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
@@ -4427,131 +4548,6 @@
 														<ActiveSource Name="Grenadier_Movement_Slow_04" ID="{C43EBD01-473B-44F4-9C14-D5F4D5B40A97}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<RandomSequenceContainer Name="Grenadier_Movement_Fast" ID="{82AC0D5D-F604-4BA9-9CE1-3041D0E47CD0}" ShortID="452258368">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="1"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Environmental" ID="{118CD070-0AFF-402B-9096-AAFF10D8187F}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="Grenadier_Movement_Fast_02" ID="{AD3ABBC9-6086-4C8F-A030-7C096015E7CD}" ShortID="231808559">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Grenadier_Movement_Fast_02" ID="{4A4999F4-CEF0-46C5-A416-BF51172D3749}">
-																	<Language>SFX</Language>
-																	<AudioFile>Grenadier\Grenadier_Movement_Fast_02.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="288158660"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Grenadier_Movement_Fast_02" ID="{4A4999F4-CEF0-46C5-A416-BF51172D3749}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Grenadier_Movement_Fast_03" ID="{ED694313-3EC6-4C8D-8244-954835238176}" ShortID="806687488">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Grenadier_Movement_Fast_03" ID="{A8F8F9BD-FA27-45A3-A2E3-141FA4CA20AE}">
-																	<Language>SFX</Language>
-																	<AudioFile>Grenadier\Grenadier_Movement_Fast_03.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="344802205"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Grenadier_Movement_Fast_03" ID="{A8F8F9BD-FA27-45A3-A2E3-141FA4CA20AE}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Grenadier_Movement_Fast_01" ID="{20EAE24A-7B1B-47B5-B5B0-7314BEEF5587}" ShortID="875509090">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Grenadier_Movement_Fast_01" ID="{2DAA03DC-791C-473B-BAF1-0813D95551CB}">
-																	<Language>SFX</Language>
-																	<AudioFile>Grenadier\Grenadier_Movement_Fast_01.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="822059773"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Grenadier_Movement_Fast_01" ID="{2DAA03DC-791C-473B-BAF1-0813D95551CB}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Grenadier_Movement_Fast_04" ID="{CDBCAD8B-8E8D-44F4-8F58-FDDD2DA195AC}" ShortID="905855814">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Grenadier_Movement_Fast_04" ID="{2E453725-7F40-420C-BAB7-2D42F28B8B46}">
-																	<Language>SFX</Language>
-																	<AudioFile>Grenadier\Grenadier_Movement_Fast_04.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="646839536"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Grenadier_Movement_Fast_04" ID="{2E453725-7F40-420C-BAB7-2D42F28B8B46}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Grenadier_Movement_Fast_05" ID="{BB9F8ED6-C161-4751-AB99-1BBF2A32CEFE}" ShortID="127013607">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Grenadier_Movement_Fast_05" ID="{99BC9851-8BCB-415A-9D46-F6BECEB60B08}">
-																	<Language>SFX</Language>
-																	<AudioFile>Grenadier\Grenadier_Movement_Fast_05.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="676406857"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Grenadier_Movement_Fast_05" ID="{99BC9851-8BCB-415A-9D46-F6BECEB60B08}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-													</ChildrenList>
-												</RandomSequenceContainer>
 											</ChildrenList>
 										</RandomSequenceContainer>
 									</ChildrenList>

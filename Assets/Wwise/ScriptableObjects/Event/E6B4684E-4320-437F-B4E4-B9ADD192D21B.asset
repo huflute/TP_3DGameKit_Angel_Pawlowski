@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eba6e179366dc874d86906d29c34185e, type: 3}
-  m_Name: E5264F52-7645-4F3D-9AAC-C6D76850C863
+  m_Name: E6B4684E-4320-437F-B4E4-B9ADD192D21B
   m_EditorClassIdentifier: 
-  objectName: Play_Switch_Stone_Idle
-  id: 717478169
-  guid: E5264F52-7645-4F3D-9AAC-C6D76850C863
+  objectName: Play_Switch_Crystals_Idle_BeforeActivation
+  id: 1933987681
+  guid: E6B4684E-4320-437F-B4E4-B9ADD192D21B

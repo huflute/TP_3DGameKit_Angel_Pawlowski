@@ -62,7 +62,8 @@ namespace AK
         static const AkUniqueID PLAY_SMALL_MONSTER_WALK = 1427652232U;
         static const AkUniqueID PLAY_SPITTER_ATTACK = 3913336272U;
         static const AkUniqueID PLAY_SWITCH_CRYSTALS_ACTIVATION = 3451021523U;
-        static const AkUniqueID PLAY_SWITCH_CRYSTALS_IDLE = 43319733U;
+        static const AkUniqueID PLAY_SWITCH_CRYSTALS_IDLE_AFTERACTIVATION = 3013028862U;
+        static const AkUniqueID PLAY_SWITCH_CRYSTALS_IDLE_BEFOREACTIVATION = 1933987681U;
         static const AkUniqueID PLAY_SWITCH_STONE_ACTIVATION = 2556341799U;
         static const AkUniqueID PLAY_SWITCH_STONE_IDLE = 717478169U;
         static const AkUniqueID PLAY_TELEPORTER_IDLE = 476276007U;
@@ -80,7 +81,8 @@ namespace AK
         static const AkUniqueID PLAY_WHOOSH_TEXT_DISAPPEAR = 3024491776U;
         static const AkUniqueID STOP_AMB_SPACESHIP = 3876046333U;
         static const AkUniqueID STOP_MC_SHIELD = 616065004U;
-        static const AkUniqueID STOP_SWITCH_CRYSTALS_IDLE = 1473624415U;
+        static const AkUniqueID STOP_SWITCH_CRYSTALS_IDLE_AFTERACTIVATION = 4212421580U;
+        static const AkUniqueID STOP_SWITCH_CRYSTALS_IDLE_BEFOREACTIVATION = 3192261611U;
         static const AkUniqueID STOP_SWITCH_STONE_IDLE = 3416772595U;
         static const AkUniqueID STOP_TELEPORTER_IDLE = 2863201769U;
     } // namespace EVENTS
@@ -116,17 +118,6 @@ namespace AK
 
     namespace SWITCHES
     {
-        namespace CRYSTAL_SWITCH
-        {
-            static const AkUniqueID GROUP = 1281928104U;
-
-            namespace SWITCH
-            {
-                static const AkUniqueID ACTIVATED = 2917726846U;
-                static const AkUniqueID UNACTIVATED = 2309979157U;
-            } // namespace SWITCH
-        } // namespace CRYSTAL_SWITCH
-
         namespace GROUND_MATERIAL
         {
             static const AkUniqueID GROUP = 3539622648U;

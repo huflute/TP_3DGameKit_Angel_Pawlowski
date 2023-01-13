@@ -10,12 +10,6 @@
 						<Switch Name="Chomper" ID="{818C60C8-72CC-4FB7-94C2-B1789001FE98}"/>
 					</ChildrenList>
 				</SwitchGroup>
-				<SwitchGroup Name="Crystal_Switch" ID="{DA1FCE8A-6E9A-4282-8585-1752106F12E2}">
-					<ChildrenList>
-						<Switch Name="Activated" ID="{2B0CA56A-22BB-471E-A512-03FCDF9D329B}"/>
-						<Switch Name="Unactivated" ID="{4EAC7F00-FDC8-4183-B766-9A74723205FB}"/>
-					</ChildrenList>
-				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>
