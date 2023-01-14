@@ -1175,6 +1175,31 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Play_RFX_Bubbles" ID="{AAD0BC30-E8BD-460C-A364-83E0F201EE22}">
+									<ChildrenList>
+										<Action Name="" ID="{1F6E71FA-499F-42AB-8D22-8C8D9E6B1C95}" ShortID="384164976">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RFX_Bubbles" ID="{AB53908A-D0F0-4117-A860-104657319E98}" WorkUnitID="{6339F0F9-1688-458B-9B68-CE62F7071A2D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_RFX_Bubbles" ID="{3C613210-438F-41E7-AB09-E043C8170CD1}">
+									<ChildrenList>
+										<Action Name="" ID="{717523A4-5126-4F87-A6BD-85556E8A82AD}" ShortID="433648096">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RFX_Bubbles" ID="{AB53908A-D0F0-4117-A860-104657319E98}" WorkUnitID="{6339F0F9-1688-458B-9B68-CE62F7071A2D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

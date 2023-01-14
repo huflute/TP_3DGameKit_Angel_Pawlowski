@@ -385,7 +385,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 58301ae271a98d46974f6accc96184fa
     GuidInternal: 
-    m_lastTime: -8585278896392627829
+    m_lastTime: -8585278891703250995
     List:
     - name: Acid_Pool
       guid: 0be81931af4fb440bea75fd8b2a9f0f7
@@ -1667,6 +1667,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_RFX_Bubbles
+      guid: 30bcd0aabde80c46a36483e0f201ee22
+      id: 3795439262
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: Acid_Pool
+        ObjectType: 4
+        guid: 0be81931af4fb440bea75fd8b2a9f0f7
+      - ElementName: Play_RFX_Bubbles
+        ObjectType: 3
+        guid: 30bcd0aabde80c46a36483e0f201ee22
+      Path: Events\Default Work Unit\Environment\Acid_Pool\Play_RFX_Bubbles
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_RFX_Computer
       guid: 7bff4cc014fc7a4d96b059e4bff8a396
       id: 3056483954
@@ -2592,6 +2615,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Stop_RFX_Bubbles
+      guid: 1032613c8f43e741ab09e043c8170cd1
+      id: 2294349108
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: Acid_Pool
+        ObjectType: 4
+        guid: 0be81931af4fb440bea75fd8b2a9f0f7
+      - ElementName: Stop_RFX_Bubbles
+        ObjectType: 3
+        guid: 1032613c8f43e741ab09e043c8170cd1
+      Path: Events\Default Work Unit\Environment\Acid_Pool\Stop_RFX_Bubbles
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Stop_River_Loop
       guid: f15e1042fbc65e42a4695342d06fc056
       id: 1008653791
@@ -3514,7 +3560,7 @@ MonoBehaviour:
     m_lastTime: -8585284051417417635
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 06000000070000000a000000170000001800000097000000
+  ExpandedWaapiItemIds: 0500000006000000070000000a00000017000000180000003300000097000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
