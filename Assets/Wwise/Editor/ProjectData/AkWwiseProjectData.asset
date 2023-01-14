@@ -385,7 +385,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 58301ae271a98d46974f6accc96184fa
     GuidInternal: 
-    m_lastTime: -8585278925809773197
+    m_lastTime: -8585278916112867871
     List:
     - name: AMB
       guid: 7eacccb593e71341878dd5280afd656f
@@ -1573,6 +1573,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_River_Loop
+      guid: 6e58dd9d57fbdb45b9409251e60dee00
+      id: 994087705
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: River
+        ObjectType: 4
+        guid: 0f7b7b7f1f7f394d82be43b968528a7f
+      - ElementName: Play_River_Loop
+        ObjectType: 3
+        guid: 6e58dd9d57fbdb45b9409251e60dee00
+      Path: Events\Default Work Unit\Environment\River\Play_River_Loop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Small_Monster_Bodyfall
       guid: ecd709cf068a83429121c3ef56ec67bf
       id: 3179497032
@@ -2237,6 +2260,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: River
+      guid: 0f7b7b7f1f7f394d82be43b968528a7f
+      id: 3605787649
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: River
+        ObjectType: 4
+        guid: 0f7b7b7f1f7f394d82be43b968528a7f
+      Path: Events\Default Work Unit\Environment\River
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Shield_Events
       guid: c3a3cf6478c64e40bc437f5ab21c4bf3
       id: 3337683954
@@ -2406,6 +2449,29 @@ MonoBehaviour:
         ObjectType: 3
         guid: 4b969004e95b26469995adce113dcc98
       Path: Events\Default Work Unit\Environment\Swamp\Stop_RFX_Birds_Creatures
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_River_Loop
+      guid: f15e1042fbc65e42a4695342d06fc056
+      id: 1008653791
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: River
+        ObjectType: 4
+        guid: 0f7b7b7f1f7f394d82be43b968528a7f
+      - ElementName: Stop_River_Loop
+        ObjectType: 3
+        guid: f15e1042fbc65e42a4695342d06fc056
+      Path: Events\Default Work Unit\Environment\River\Stop_River_Loop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -3278,7 +3344,7 @@ MonoBehaviour:
     m_lastTime: -8585284051417417635
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 050000000600000007000000090000000a00000014000000150000003100000033000000390000003c000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

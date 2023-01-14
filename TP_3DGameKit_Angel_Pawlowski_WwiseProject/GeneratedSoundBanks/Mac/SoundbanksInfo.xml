@@ -100,7 +100,7 @@
 				<Event Id="3876046333" Name="Stop_AMB_SpaceShip" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1229948536" Type="User" Language="SFX" Hash="{C2CDD56A-C955-1892-1498-8F54D6D6E5F9}">
+		<SoundBank Id="1229948536" Type="User" Language="SFX" Hash="{9195DCAD-BDF7-9CA9-6998-23814CDDC6D0}">
 			<ShortName>Environment</ShortName>
 			<Path>Environment.bnk</Path>
 			<Media>
@@ -135,6 +135,12 @@
 				<File Id="348475071" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 14012023\RFX_Fireflies_Voices_01.wav</ShortName>
 					<CachePath>SFX/Export 14012023/RFX_Fireflies_Voices_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="392129282" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>Export 14012023\River.wav</ShortName>
+					<Path>Media/392129282.wem</Path>
+					<CachePath>SFX/Export 14012023/River_D79FB2B7.wem</CachePath>
+					<PrefetchSize>9696</PrefetchSize>
 				</File>
 				<File Id="453553068" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 14012023\RFX_Fireflies_Voices_04.wav</ShortName>
@@ -192,7 +198,7 @@
 						<MediaRef Id="1006644240"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="624594268" Name="Play_RFX_Birds_Creatures" MaxAttenuation="100" DurationType="Infinite">
+				<Event Id="624594268" Name="Play_RFX_Birds_Creatures" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="59354382"/>
 						<MediaRef Id="170030737"/>
@@ -204,6 +210,11 @@
 						<MediaRef Id="924773217"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="994087705" Name="Play_River_Loop" MaxAttenuation="20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="392129282"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="476276007" Name="Play_Teleporter_Idle" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="498593051"/>
@@ -211,6 +222,7 @@
 				</Event>
 				<Event Id="4099702875" Name="Stop_Fireflies" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3867827650" Name="Stop_RFX_Birds_Creatures" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1008653791" Name="Stop_River_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2863201769" Name="Stop_Teleporter_Idle" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<GameParameters>
@@ -1432,7 +1444,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{E1C3AB3C-9C2E-CC2B-A682-965215E69549}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{E9DFFADA-226B-BB8B-ED02-BDFD9000EA83}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -1943,6 +1955,12 @@
 				<File Id="375287764" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\MC_FOL_Attack_02.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/MC_FOL_Attack_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="392129282" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>Export 14012023\River.wav</ShortName>
+					<Path>Media/392129282.wem</Path>
+					<CachePath>SFX/Export 14012023/River_D79FB2B7.wem</CachePath>
+					<PrefetchSize>9696</PrefetchSize>
 				</File>
 				<File Id="394596718" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI_Navigate_03.wav</ShortName>
@@ -3142,7 +3160,7 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="3839321632" Name="Play_Play_Amb_Locations" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="624594268" Name="Play_RFX_Birds_Creatures" MaxAttenuation="100" DurationType="Infinite">
+				<Event Id="624594268" Name="Play_RFX_Birds_Creatures" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="59354382"/>
 						<MediaRef Id="170030737"/>
@@ -3163,6 +3181,11 @@
 						<MediaRef Id="648182821"/>
 						<MediaRef Id="733080430"/>
 						<MediaRef Id="926020533"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="994087705" Name="Play_River_Loop" MaxAttenuation="20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="392129282"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3179497032" Name="Play_Small_Monster_Bodyfall" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.24025" DurationMax="0.76666665">
@@ -3534,6 +3557,7 @@
 				<Event Id="4099702875" Name="Stop_Fireflies" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="616065004" Name="Stop_MC_Shield" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3867827650" Name="Stop_RFX_Birds_Creatures" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1008653791" Name="Stop_River_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4212421580" Name="Stop_Switch_Crystals_Idle_AfterActivation" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3192261611" Name="Stop_Switch_Crystals_Idle_BeforeActivation" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3416772595" Name="Stop_Switch_Stone_Idle" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -4512,5 +4536,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EA4D05FE-E148-3888-6C6B-E258BF497D38}</FileHash>
+	<FileHash>{8FCA17FB-5B05-19C1-1CE0-80453E934501}</FileHash>
 </SoundBanksInfo>

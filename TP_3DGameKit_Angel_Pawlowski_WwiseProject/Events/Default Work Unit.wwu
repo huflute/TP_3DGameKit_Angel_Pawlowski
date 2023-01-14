@@ -1119,6 +1119,35 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="River" ID="{7F7B7B0F-7F1F-4D39-82BE-43B968528A7F}" ShortID="752044405">
+							<ChildrenList>
+								<Event Name="Play_River_Loop" ID="{9DDD586E-FB57-45DB-B940-9251E60DEE00}">
+									<ChildrenList>
+										<Action Name="" ID="{7A0AF29C-4196-4C7C-AA62-E4C976171E35}" ShortID="219137842">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="River_Loop" ID="{8952EEFB-6720-43CC-A09C-BD51213D602D}" WorkUnitID="{6339F0F9-1688-458B-9B68-CE62F7071A2D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_River_Loop" ID="{42105EF1-C6FB-425E-A469-5342D06FC056}">
+									<ChildrenList>
+										<Action Name="" ID="{88818832-FE39-4F6E-9B5D-2D54091325DE}" ShortID="474190902">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="River_Loop" ID="{8952EEFB-6720-43CC-A09C-BD51213D602D}" WorkUnitID="{6339F0F9-1688-458B-9B68-CE62F7071A2D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Interactables" ID="{22E6B151-3902-48FC-AB2E-959062AC2EF2}" ShortID="682600520">

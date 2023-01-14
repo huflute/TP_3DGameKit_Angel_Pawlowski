@@ -1,6 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
 	476276007	Play_Teleporter_Idle			\Default Work Unit\Environment\Teleporter\Play_Teleporter_Idle	
 	624594268	Play_RFX_Birds_Creatures			\Default Work Unit\Environment\Swamp\Play_RFX_Birds_Creatures	
+	994087705	Play_River_Loop			\Default Work Unit\Environment\River\Play_River_Loop	
+	1008653791	Stop_River_Loop			\Default Work Unit\Environment\River\Stop_River_Loop	
 	2863201769	Stop_Teleporter_Idle			\Default Work Unit\Environment\Teleporter\Stop_Teleporter_Idle	
 	3867827650	Stop_RFX_Birds_Creatures			\Default Work Unit\Environment\Swamp\Stop_RFX_Birds_Creatures	
 	4099702875	Stop_Fireflies			\Default Work Unit\Environment\Fireflies\Stop_Fireflies	
@@ -18,6 +20,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	322899375	RFX_Night_Creatures_01	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\RFX_Night_Creatures_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Exterior\RFX_Birds_Creatures\RFX_Nights_Creatures\RFX_Night_Creatures_01		87650
 	329902682	RFX_Fireflies_Voices_03	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\RFX_Fireflies_Voices_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Fireflies\Fireflies\RFX_Fireflies_Voices\RFX_Fireflies_Voices_03		82184
 	348475071	RFX_Fireflies_Voices_01	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\RFX_Fireflies_Voices_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Fireflies\Fireflies\RFX_Fireflies_Voices\RFX_Fireflies_Voices_01		73056
+	392129282	River_Loop	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\River_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\River_Loop		9696
 	453553068	RFX_Fireflies_Voices_04	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\RFX_Fireflies_Voices_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Fireflies\Fireflies\RFX_Fireflies_Voices\RFX_Fireflies_Voices_04		76896
 	498593051	Teleporter_Idle	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Teleporter_Idle_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Teleporter_Idle		9696
 	559747723	RFX_Night_Creatures_03	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\RFX_Night_Creatures_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Exterior\RFX_Birds_Creatures\RFX_Nights_Creatures\RFX_Night_Creatures_03		88048
@@ -29,6 +32,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1006644240	RFX_Fireflies_Voices_06	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\RFX_Fireflies_Voices_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Fireflies\Fireflies\RFX_Fireflies_Voices\RFX_Fireflies_Voices_06		77024
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	392129282	River_Loop	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\River_D79FB2B7.wem	392129282.wem	\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\River_Loop	
 	498593051	Teleporter_Idle	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Teleporter_Idle_D79FB2B7.wem	498593051.wem	\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Teleporter_Idle	
 	561453158	Fireflies_Loop	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\Fireflies_Loop_D79FB2B7.wem	561453158.wem	\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Fireflies\Fireflies\Fireflies_Loop	
 	574836544	Ghost_Loop	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\Ghost_Loop_D79FB2B7.wem	574836544.wem	\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Fireflies\Fireflies\Ghost_Loop	

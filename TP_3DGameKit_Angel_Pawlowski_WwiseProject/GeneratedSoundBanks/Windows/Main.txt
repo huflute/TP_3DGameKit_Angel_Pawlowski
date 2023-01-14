@@ -25,6 +25,8 @@ Event	ID	Name			Wwise Object Path	Notes
 	931488463	Play_Chomper_Attack			\Default Work Unit\Monsters\Small_Monsters\Combat\Play_Chomper_Attack	
 	951255116	Play_MC_Shield_Off			\Default Work Unit\MC\Shield_Events\Play_MC_Shield_Off	
 	965282871	Play_Grenadier_Hit			\Default Work Unit\Monsters\Big_Monster\Play_Grenadier_Hit	
+	994087705	Play_River_Loop			\Default Work Unit\Environment\River\Play_River_Loop	
+	1008653791	Stop_River_Loop			\Default Work Unit\Environment\River\Stop_River_Loop	
 	1067947400	Play_Grenadier_MeleeAttack			\Default Work Unit\Monsters\Big_Monster\Play_Grenadier_MeleeAttack	
 	1213444204	Play_MC_Roll			\Default Work Unit\MC\FT_Events\Play_MC_Roll	
 	1338193862	Play_Small_Monster_Run			\Default Work Unit\Monsters\Small_Monsters\FT\Play_Small_Monster_Run	
@@ -226,6 +228,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	361768001	Switch_Crystals_Idle_BeforeActivation	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\Switch_Crystals_Idle_BeforeActivation_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SWITCHES\Crystals\Switch_Crystals_Idle_BeforeActivation		9696
 	372411582	Monster_Vanish	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\Monster_Vanish_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Monsters\Small_Monster\Monster_Vanish		239478
 	375287764	MC_FOL_Attack_02	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\MC_FOL_Attack_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC\Foley\MC_FOL_Attack\MC_FOL_Attack_02		27622
+	392129282	River_Loop	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 14012023\River_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\River_Loop		9696
 	394596718	UI_Navigate_03	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\UI_Navigate_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Menu\UI_Navigate\UI_Navigate_03		235798
 	396022129	RFX_Computer_07	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\RFX_Computer_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Interior\Spaceship\RFX_Computer\RFX_Computer_07		148856
 	399770579	MC_FOL_Land_03	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\MC_FOL_Land_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC\Foley\MC_FOL_Land\MC_FOL_Land_03		19296
@@ -421,6 +424,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
 	352425399	MC_Shield	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\MC_Shield_D79FB2B7.wem	352425399.wem	\Actor-Mixer Hierarchy\Default Work Unit\MC\MC\Shield\MC_Shield	
 	361768001	Switch_Crystals_Idle_BeforeActivation	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\Switch_Crystals_Idle_BeforeActivation_D79FB2B7.wem	361768001.wem	\Actor-Mixer Hierarchy\Default Work Unit\SWITCHES\Crystals\Switch_Crystals_Idle_BeforeActivation	
+	392129282	River_Loop	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 14012023\River_D79FB2B7.wem	392129282.wem	\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\River_Loop	
 	498593051	Teleporter_Idle	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\Teleporter_Idle_D79FB2B7.wem	498593051.wem	\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Teleporter_Idle	
 	509223528	Switch_Crystals_Idle_AfterActivation	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\Switch_Crystals_Idle_AfterActivation_D79FB2B7.wem	509223528.wem	\Actor-Mixer Hierarchy\Default Work Unit\SWITCHES\Crystals\Switch_Crystals_Idle_AfterActivation	
 	561453158	Fireflies_Loop	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 14012023\Fireflies_Loop_D79FB2B7.wem	561453158.wem	\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Fireflies\Fireflies\Fireflies_Loop	
