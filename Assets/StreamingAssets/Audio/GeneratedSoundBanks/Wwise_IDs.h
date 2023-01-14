@@ -159,6 +159,7 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID AMB = 1117531639U;
+        static const AkUniqueID BIG_MONSTERS = 2691884509U;
         static const AkUniqueID CONVOREVERB = 3251668866U;
         static const AkUniqueID ENVIRONMENT = 1229948536U;
         static const AkUniqueID INTERACTABLES = 181270742U;

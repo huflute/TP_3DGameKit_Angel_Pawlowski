@@ -549,7 +549,7 @@
 												<Action Name="" ID="{ED56C426-FA0F-4A04-A5E5-2F283D7B3206}" ShortID="752983842">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Small_Monster_Spin" ID="{CBF0FFF8-779C-4C12-A09D-26A985600D7A}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
+															<ObjectRef Name="Small_Monster_Spin" ID="{AAF1B679-5896-4894-89D4-3273F3678FBA}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -876,6 +876,18 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Switch_Stone_Activation" ID="{56654FD5-5997-4B7E-9B4D-B70B5F9F8DB8}" WorkUnitID="{27C83EDE-D941-46B3-8475-398CF729A6E5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{546B4FEE-6E9B-41BA-B418-5D284098CCAE}" ShortID="277873727">
+									<PropertyList>
+										<Property Name="AbsoluteOrRelative" Type="int16" Value="1"/>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="Pitch" Type="int32" Value="200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Switch_Stone_Idle" ID="{A4A3D073-98B8-4F18-A2FA-5DA8B4B9D178}" WorkUnitID="{27C83EDE-D941-46B3-8475-398CF729A6E5}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
