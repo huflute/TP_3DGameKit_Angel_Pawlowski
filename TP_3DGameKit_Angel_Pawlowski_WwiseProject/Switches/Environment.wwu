@@ -24,8 +24,18 @@
 									<Flags>5</Flags>
 								</Point>
 								<Point>
-									<XPos>24</XPos>
+									<XPos>8</XPos>
 									<YPos>0</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>20</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>24</XPos>
+									<YPos>2</YPos>
 									<Flags>37</Flags>
 								</Point>
 							</PointList>

@@ -924,6 +924,175 @@
 								</ActorMixer>
 							</ChildrenList>
 						</ActorMixer>
+						<ActorMixer Name="Music" ID="{896AA4B5-63C9-45F8-80F4-D23C7C6E63DE}" ShortID="594575644">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<BlendContainer Name="Amb_MusicPads" ID="{0296B4C6-5C5D-409E-89C7-471270DF414E}" ShortID="46138821">
+									<PropertyList>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Music_Loop_Level01_Day_120bpm_8Bars" ID="{246BC019-87F6-46C5-9727-190F5C945F38}" ShortID="318368212">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="IsZeroLatency" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Loop_Level01_Day_120bpm_8Bars" ID="{D93E72EB-C536-4221-995E-829B026A40D2}">
+													<Language>SFX</Language>
+													<AudioFile>Music_Loop_Level01_Day_120bpm_8Bars.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="84630673"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Music_Loop_Level01_Day_120bpm_8Bars" ID="{D93E72EB-C536-4221-995E-829B026A40D2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Music_Loop_Level01_Night_120bpm_8Bars" ID="{591086A5-BEC6-40A6-9006-2D92962CCBEC}" ShortID="1059787669">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="IsZeroLatency" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Loop_Level01_Night_120bpm_8Bars" ID="{7C7F3E26-DFE3-42C0-B21E-8DF4C1FC2C25}">
+													<Language>SFX</Language>
+													<AudioFile>Music_Loop_Level01_Night_120bpm_8Bars.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="962084260"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Music_Loop_Level01_Night_120bpm_8Bars" ID="{7C7F3E26-DFE3-42C0-B21E-8DF4C1FC2C25}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{EA3CBB22-0F25-4C67-AF21-807ADED1B2C2}"/>
+									</PositioningInfo>
+									<BlendTrackList>
+										<BlendTrack Name="TimeOfDay" ID="{0D292CFB-10C2-4A7A-90DD-0C7799E4A92B}" ShortID="522390780">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="TimeOfDay" ID="{964134B9-4B43-4764-B76C-512362D1DB38}" WorkUnitID="{3C553CBA-1C28-4BD7-8906-E9C34E19DF65}"/>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="Music_Loop_Level01_Night_120bpm_8Bars" ID="{591086A5-BEC6-40A6-9006-2D92962CCBEC}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>8</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="Music_Loop_Level01_Day_120bpm_8Bars" ID="{246BC019-87F6-46C5-9727-190F5C945F38}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>6</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>21</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="Music_Loop_Level01_Night_120bpm_8Bars" ID="{591086A5-BEC6-40A6-9006-2D92962CCBEC}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>19</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>24</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
+								</BlendContainer>
+								<Sound Name="Music_Chords_Discovery_120Bpm_8Bars" ID="{03DCFB8F-B9E4-4055-AE3A-1E1AC5A33251}" ShortID="576736148">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Music_Chords_Discovery_120Bpm_8Bars" ID="{B4E6EC7B-CCD2-480F-9841-4768C97ECA95}">
+											<Language>SFX</Language>
+											<AudioFile>Music_Chords_Discovery_120Bpm_8Bars.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="895344733"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Music_Chords_Discovery_120Bpm_8Bars" ID="{B4E6EC7B-CCD2-480F-9841-4768C97ECA95}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
 					</ChildrenList>
 					<PositioningInfo>
 						<Panner Name="" ID="{B0174426-35E3-45B7-9969-765A146E1515}"/>

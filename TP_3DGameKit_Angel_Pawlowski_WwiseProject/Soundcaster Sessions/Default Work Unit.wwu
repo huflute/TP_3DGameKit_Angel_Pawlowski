@@ -4,63 +4,14 @@
 		<WorkUnit Name="Default Work Unit" ID="{060E7347-6F0B-40BA-A338-5AC65BC97A62}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundcasterSession Name="SoundCaster" ID="{CA79D78C-7EC2-4A14-ADE7-0CBBC99D1D70}">
-					<ModuleList>
-						<Module>
-							<ObjectRef Name="Play_Grenadier_Breath" ID="{5121D2C0-2F10-4A43-86F6-CC19D93003EE}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}"/>
-							<Position X="0" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_Grenadier_Hit" ID="{748D3E40-9749-4289-B149-B7EE1C11D1FA}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}"/>
-							<Position X="0" Y="1"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_Grenadier_RangeAttack02" ID="{608A3712-1219-4ACA-BE1F-0D127DB63EF8}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}"/>
-							<Position X="0" Y="2"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_Grenadier_Shield_Activate" ID="{99C79B7E-51EC-4CEF-8ECC-927C6BA13A55}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}"/>
-							<Position X="0" Y="3"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_Grenadier_CloseRangeAttack" ID="{3F4536F3-7BF9-4CBD-AFFF-3C1AC2DB0ECD}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}"/>
-							<Position X="1" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_Grenadier_MeleeAttack" ID="{0D473461-1C49-43E2-B68D-20E0CE40EFCC}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}"/>
-							<Position X="1" Y="1"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_Grenadier_Shield_Desactivate" ID="{25F399B6-0D89-4994-8470-2AC9044ADA64}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}"/>
-							<Position X="1" Y="3"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_Grenadier_Death" ID="{CB343770-3C5E-4103-917F-7CDD35A81D73}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}"/>
-							<Position X="2" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_Grenadier_Movement_Fast" ID="{548B5769-D2D8-43CF-8E69-9F9612B4C495}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}"/>
-							<Position X="2" Y="1"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_Grenadier_FT_Heavy" ID="{9270D833-11EF-4DA3-AB64-60F7F1E6CF81}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}"/>
-							<Position X="3" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_Grenadier_Movement_Slow" ID="{481CC94C-B3DC-4C9D-AA0E-4C824A068737}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}"/>
-							<Position X="3" Y="1"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_Grenadier_FT_Normal" ID="{3884FEC7-577A-4048-9A18-0A9808C1A4B9}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}"/>
-							<Position X="4" Y="0"/>
-						</Module>
-					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="TimeOfDay" ID="{964134B9-4B43-4764-B76C-512362D1DB38}"/>
-							<Value>22</Value>
+							<Value>24</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="True" ID="{E681315C-42EC-4138-8D1C-F2C9E6FC7CD3}"/>
 						<CurrentStateRef Name="None" ID="{1F9790EC-5286-4B56-9310-34C68F2E85AE}"/>
 						<CurrentStateRef Name="Swamp" ID="{F28AB153-FA33-4897-98CC-EA5ECCF9685D}"/>
 					</CurrentStateList>
@@ -68,6 +19,7 @@
 						<CurrentSwitchRef Name="Chomper" ID="{818C60C8-72CC-4FB7-94C2-B1789001FE98}"/>
 						<CurrentSwitchRef Name="FirstHalf" ID="{BBBFCCD2-7517-4B82-812D-2356F0173CF3}"/>
 						<CurrentSwitchRef Name="Default" ID="{41B011E9-AA5B-4922-8FEB-1CF3350247F5}"/>
+						<CurrentSwitchRef Name="Night" ID="{0FBA19FC-DDC8-4355-9B52-B7FDFDBEAB2A}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

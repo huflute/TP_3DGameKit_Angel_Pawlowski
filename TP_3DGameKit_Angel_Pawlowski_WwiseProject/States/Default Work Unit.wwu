@@ -20,6 +20,13 @@
 						<State Name="InMenu" ID="{463F3A56-3108-4874-A146-05302296FBEE}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="IsInCombat" ID="{5F6EA7A0-F88B-41CD-A8B3-19B9B1388609}">
+					<ChildrenList>
+						<State Name="None" ID="{ABDF2874-089B-496A-83DC-9327242D5DB5}"/>
+						<State Name="True" ID="{E681315C-42EC-4138-8D1C-F2C9E6FC7CD3}"/>
+						<State Name="False" ID="{BB0CE337-DE91-49E8-B789-B8B7EA2DBAC0}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

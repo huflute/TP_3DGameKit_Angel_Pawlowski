@@ -4,6 +4,9 @@
 		<WorkUnit Name="WEAPON" ID="{425937B8-C920-4C2C-854C-0EE3E7C0505E}" OwnerID="{399BE58E-5BEE-470B-9C6B-8BCDF69F5FD2}" PersistMode="Nested">
 			<ChildrenList>
 				<ActorMixer Name="Weapon" ID="{87DE802B-162B-4FFD-89A1-E247F5F73379}" ShortID="572984771">
+					<PropertyList>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>

@@ -1108,6 +1108,21 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Music" ID="{FA870216-307D-4A20-BA40-A51C7B59EAA3}" ShortID="608714137">
+					<ChildrenList>
+						<Event Name="Play_Music_IsInCombat" ID="{2B1B0142-AB4B-4B87-A4BA-F1BEED035183}">
+							<ChildrenList>
+								<Action Name="" ID="{84821AAD-D7CF-4212-B032-BB0342A4B631}" ShortID="536114136">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="IsInCombat" ID="{F463D25A-E3AC-4D38-AE03-E43EBB081553}" WorkUnitID="{5DE733CC-3D94-445A-9CCC-90577F4435C6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
