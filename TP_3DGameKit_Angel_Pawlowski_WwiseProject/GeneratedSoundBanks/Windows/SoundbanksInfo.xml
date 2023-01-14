@@ -40,7 +40,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{08501C40-E6CB-34D5-7E9E-9F9F036248D9}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{B2F747BA-DED1-A19B-1B35-04D7EC0AE7B3}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
@@ -48,10 +48,22 @@
 					<ShortName>Export 12012023 V2\RFX_Computer_03.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/RFX_Computer_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="82276003" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>AMB_Ruins_01.wav</ShortName>
+					<Path>Media/82276003.wem</Path>
+					<CachePath>SFX/AMB_Ruins_01_D79FB2B7.wem</CachePath>
+					<PrefetchSize>19296</PrefetchSize>
+				</File>
 				<File Id="84630673" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Music_Loop_Level01_Day_120bpm_8Bars.wav</ShortName>
 					<Path>Media/84630673.wem</Path>
 					<CachePath>SFX/Music_Loop_Level01_Day_120bpm_8Bars_D79FB2B7.wem</CachePath>
+					<PrefetchSize>19296</PrefetchSize>
+				</File>
+				<File Id="238080956" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>AMB_Swamp_01.wav</ShortName>
+					<Path>Media/238080956.wem</Path>
+					<CachePath>SFX/AMB_Swamp_01_D79FB2B7.wem</CachePath>
 					<PrefetchSize>19296</PrefetchSize>
 				</File>
 				<File Id="358118990" Language="SFX" Streaming="false" Location="Memory">
@@ -92,18 +104,26 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="542468716" Name="Play_Amb_MusicPads" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="84630673"/>
-						<MediaRef Id="962084260"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="3213331111" Name="Play_AMB_SpaceShip" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="845874098"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3839321632" Name="Play_Play_Amb_Locations" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3839321632" Name="Play_Play_Amb_Locations" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="84630673"/>
+						<MediaRef Id="962084260"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1176052424" Id="2907906111" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="82276003"/>
+								<MediaRef Id="238080956"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="3056483954" Name="Play_RFX_Computer" MaxAttenuation="5" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="5366310"/>
@@ -120,22 +140,25 @@
 			<GameParameters>
 				<GameParameter Id="3729505769" Name="TimeOfDay"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="1176052424" Name="Location">
+					<States>
+						<State Id="417916826" Name="Ruins"/>
+						<State Id="554650843" Name="Spaceship"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="2907906111" Name="Swamp"/>
+						<State Id="3329411914" Name="HiddenPlace"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1229948536" Type="User" Language="SFX" Hash="{6E63DDF6-37DD-32FE-CA26-281FA58D3970}">
+		<SoundBank Id="1229948536" Type="User" Language="SFX" Hash="{A1D0798F-68AF-B969-66B6-F14190FFB055}">
 			<ShortName>Environment</ShortName>
 			<Path>Environment.bnk</Path>
 			<Media>
 				<File Id="59354382" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 14012023\RFX_Day_Birds_01.wav</ShortName>
 					<CachePath>SFX/Export 14012023/RFX_Day_Birds_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="62751895" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Export 14012023\RFX_Bubbles_05.wav</ShortName>
-					<CachePath>SFX/Export 14012023/RFX_Bubbles_05_10C4C929.wem</CachePath>
-				</File>
-				<File Id="129162417" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Export 14012023\RFX_Bubbles_02.wav</ShortName>
-					<CachePath>SFX/Export 14012023/RFX_Bubbles_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="170030737" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 14012023\RFX_Night_Creatures_04.wav</ShortName>
@@ -160,10 +183,6 @@
 				<File Id="329902682" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 14012023\RFX_Fireflies_Voices_03.wav</ShortName>
 					<CachePath>SFX/Export 14012023/RFX_Fireflies_Voices_03_10C4C929.wem</CachePath>
-				</File>
-				<File Id="336010496" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Export 14012023\RFX_Bubbles_03.wav</ShortName>
-					<CachePath>SFX/Export 14012023/RFX_Bubbles_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="348475071" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 14012023\RFX_Fireflies_Voices_01.wav</ShortName>
@@ -205,10 +224,6 @@
 					<ShortName>Export 14012023\RFX_Day_Birds_03.wav</ShortName>
 					<CachePath>SFX/Export 14012023/RFX_Day_Birds_03_10C4C929.wem</CachePath>
 				</File>
-				<File Id="798917939" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Export 14012023\RFX_Bubbles_01.wav</ShortName>
-					<CachePath>SFX/Export 14012023/RFX_Bubbles_01_10C4C929.wem</CachePath>
-				</File>
 				<File Id="825768107" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 14012023\RFX_Day_Birds_04.wav</ShortName>
 					<CachePath>SFX/Export 14012023/RFX_Day_Birds_04_10C4C929.wem</CachePath>
@@ -217,27 +232,12 @@
 					<ShortName>Export 14012023\RFX_Day_Birds_02.wav</ShortName>
 					<CachePath>SFX/Export 14012023/RFX_Day_Birds_02_10C4C929.wem</CachePath>
 				</File>
-				<File Id="957902901" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Export 14012023\Acid_Pool.wav</ShortName>
-					<Path>Media/957902901.wem</Path>
-					<CachePath>SFX/Export 14012023/Acid_Pool_D79FB2B7.wem</CachePath>
-					<PrefetchSize>9696</PrefetchSize>
-				</File>
-				<File Id="994771667" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Export 14012023\RFX_Bubbles_04.wav</ShortName>
-					<CachePath>SFX/Export 14012023/RFX_Bubbles_04_10C4C929.wem</CachePath>
-				</File>
 				<File Id="1006644240" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 14012023\RFX_Fireflies_Voices_06.wav</ShortName>
 					<CachePath>SFX/Export 14012023/RFX_Fireflies_Voices_06_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1949720410" Name="Play_Acid_Pool" MaxAttenuation="20" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="957902901"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="4161070465" Name="Play_Fireflies" MaxAttenuation="5" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="258179494"/>
@@ -262,15 +262,6 @@
 						<MediaRef Id="924773217"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3795439262" Name="Play_RFX_Bubbles" MaxAttenuation="20" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="62751895"/>
-						<MediaRef Id="129162417"/>
-						<MediaRef Id="336010496"/>
-						<MediaRef Id="798917939"/>
-						<MediaRef Id="994771667"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="994087705" Name="Play_River_Loop" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="392129282"/>
@@ -281,10 +272,8 @@
 						<MediaRef Id="498593051"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="256644044" Name="Stop_Acid_Pool" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4099702875" Name="Stop_Fireflies" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3867827650" Name="Stop_RFX_Birds_Creatures" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2294349108" Name="Stop_RFX_Bubbles" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1008653791" Name="Stop_River_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2863201769" Name="Stop_Teleporter_Idle" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
@@ -1513,7 +1502,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{5F22B4C0-1473-1491-BB31-721D49DACB6D}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{F82C861F-36EE-4EF5-FCFC-D3077373C256}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -1601,10 +1590,6 @@
 					<ShortName>Export 14012023\RFX_Day_Birds_01.wav</ShortName>
 					<CachePath>SFX/Export 14012023/RFX_Day_Birds_01_10C4C929.wem</CachePath>
 				</File>
-				<File Id="62751895" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Export 14012023\RFX_Bubbles_05.wav</ShortName>
-					<CachePath>SFX/Export 14012023/RFX_Bubbles_05_10C4C929.wem</CachePath>
-				</File>
 				<File Id="65836423" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>HealthCrate_Idle.wav</ShortName>
 					<CachePath>SFX/HealthCrate_Idle_D79FB2B7.wem</CachePath>
@@ -1624,6 +1609,12 @@
 				<File Id="81104124" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\MC_FOL_Attack_01.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/MC_FOL_Attack_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="82276003" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>AMB_Ruins_01.wav</ShortName>
+					<Path>Media/82276003.wem</Path>
+					<CachePath>SFX/AMB_Ruins_01_D79FB2B7.wem</CachePath>
+					<PrefetchSize>19296</PrefetchSize>
 				</File>
 				<File Id="82691623" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Attack_Heavy_03.wav</ShortName>
@@ -1682,10 +1673,6 @@
 				<File Id="122795255" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Land_Mud_05.wav</ShortName>
 					<CachePath>SFX/MC_FT_Land_Mud_05_10C4C929.wem</CachePath>
-				</File>
-				<File Id="129162417" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Export 14012023\RFX_Bubbles_02.wav</ShortName>
-					<CachePath>SFX/Export 14012023/RFX_Bubbles_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="134490721" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Run_Stone_04.wav</ShortName>
@@ -1826,6 +1813,12 @@
 				<File Id="236583307" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Chomper_VOX_Grunt_01.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Grunt_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="238080956" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>AMB_Swamp_01.wav</ShortName>
+					<Path>Media/238080956.wem</Path>
+					<CachePath>SFX/AMB_Swamp_01_D79FB2B7.wem</CachePath>
+					<PrefetchSize>19296</PrefetchSize>
 				</File>
 				<File Id="238314850" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Chomper_VOX_Hit_01.wav</ShortName>
@@ -1978,10 +1971,6 @@
 				<File Id="332427016" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Small_Monster_Run_Grass_04.wav</ShortName>
 					<CachePath>SFX/Small_Monster_Run_Grass_04_10C4C929.wem</CachePath>
-				</File>
-				<File Id="336010496" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Export 14012023\RFX_Bubbles_03.wav</ShortName>
-					<CachePath>SFX/Export 14012023/RFX_Bubbles_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="342328522" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Jump_05.wav</ShortName>
@@ -2487,10 +2476,6 @@
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_06.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Mud_06_10C4C929.wem</CachePath>
 				</File>
-				<File Id="798917939" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Export 14012023\RFX_Bubbles_01.wav</ShortName>
-					<CachePath>SFX/Export 14012023/RFX_Bubbles_01_10C4C929.wem</CachePath>
-				</File>
 				<File Id="801414709" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Chomper_VOX_Hit_02.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Hit_02_10C4C929.wem</CachePath>
@@ -2715,12 +2700,6 @@
 					<ShortName>Export 12012023 V2\Small_Monster_Spin_03.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_03_10C4C929.wem</CachePath>
 				</File>
-				<File Id="957902901" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>Export 14012023\Acid_Pool.wav</ShortName>
-					<Path>Media/957902901.wem</Path>
-					<CachePath>SFX/Export 14012023/Acid_Pool_D79FB2B7.wem</CachePath>
-					<PrefetchSize>9696</PrefetchSize>
-				</File>
 				<File Id="958958097" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\Grenadier_Breath_01.wav</ShortName>
 					<CachePath>SFX/Grenadier/Grenadier_Breath_01_10C4C929.wem</CachePath>
@@ -2782,10 +2761,6 @@
 				<File Id="994727889" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_04.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Mud_04_10C4C929.wem</CachePath>
-				</File>
-				<File Id="994771667" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Export 14012023\RFX_Bubbles_04.wav</ShortName>
-					<CachePath>SFX/Export 14012023/RFX_Bubbles_04_10C4C929.wem</CachePath>
 				</File>
 				<File Id="996724255" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Run_Mud_05.wav</ShortName>
@@ -2873,17 +2848,6 @@
 				</Custom>
 			</Plugins>
 			<Events>
-				<Event Id="1949720410" Name="Play_Acid_Pool" MaxAttenuation="20" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="957902901"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="542468716" Name="Play_Amb_MusicPads" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="84630673"/>
-						<MediaRef Id="962084260"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="3213331111" Name="Play_AMB_SpaceShip" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="845874098"/>
@@ -3312,7 +3276,21 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="3839321632" Name="Play_Play_Amb_Locations" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3839321632" Name="Play_Play_Amb_Locations" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="84630673"/>
+						<MediaRef Id="962084260"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1176052424" Id="2907906111" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="82276003"/>
+								<MediaRef Id="238080956"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="624594268" Name="Play_RFX_Birds_Creatures" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="59354382"/>
@@ -3323,15 +3301,6 @@
 						<MediaRef Id="789814845"/>
 						<MediaRef Id="825768107"/>
 						<MediaRef Id="924773217"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3795439262" Name="Play_RFX_Bubbles" MaxAttenuation="20" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="62751895"/>
-						<MediaRef Id="129162417"/>
-						<MediaRef Id="336010496"/>
-						<MediaRef Id="798917939"/>
-						<MediaRef Id="994771667"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3056483954" Name="Play_RFX_Computer" MaxAttenuation="5" DurationType="Infinite">
@@ -3504,7 +3473,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="41618512" Name="Play_Small_Monster_VOX_Spots" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.32964584" DurationMax="0.38529167">
+				<Event Id="41618512" Name="Play_Small_Monster_VOX_Spots" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.32964584" DurationMax="0.38529167">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="643044249" Id="2535446860"/>
@@ -3565,7 +3534,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="3913336272" Name="Play_Spitter_Attack" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.48422918" DurationMax="0.50675">
+				<Event Id="3913336272" Name="Play_Spitter_Attack" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.48422918" DurationMax="0.50675">
 					<MediaRefs>
 						<MediaRef Id="467297718"/>
 						<MediaRef Id="850359613"/>
@@ -3714,13 +3683,11 @@
 						</Custom>
 					</PluginRefs>
 				</Event>
-				<Event Id="256644044" Name="Stop_Acid_Pool" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="452547817" Name="Stop_All" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3876046333" Name="Stop_AMB_SpaceShip" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4099702875" Name="Stop_Fireflies" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="616065004" Name="Stop_MC_Shield" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3867827650" Name="Stop_RFX_Birds_Creatures" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2294349108" Name="Stop_RFX_Bubbles" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1008653791" Name="Stop_River_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4212421580" Name="Stop_Switch_Crystals_Idle_AfterActivation" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3192261611" Name="Stop_Switch_Crystals_Idle_BeforeActivation" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -3731,6 +3698,15 @@
 				<GameParameter Id="3729505769" Name="TimeOfDay"/>
 			</GameParameters>
 			<StateGroups>
+				<StateGroup Id="1176052424" Name="Location">
+					<States>
+						<State Id="417916826" Name="Ruins"/>
+						<State Id="554650843" Name="Spaceship"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="2907906111" Name="Swamp"/>
+						<State Id="3329411914" Name="HiddenPlace"/>
+					</States>
+				</StateGroup>
 				<StateGroup Id="1627457696" Name="IsInCombat">
 					<States>
 						<State Id="748895195" Name="None"/>
@@ -4037,7 +4013,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{20FF4FCB-4192-26BB-70D9-B6C9D91EC5BA}">
+		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{BD49F1F9-3F23-3114-36F7-0B2037EEFD03}">
 			<ShortName>Small_Monsters</ShortName>
 			<Path>Small_Monsters.bnk</Path>
 			<Media>
@@ -4622,7 +4598,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="41618512" Name="Play_Small_Monster_VOX_Spots" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.32964584" DurationMax="0.38529167">
+				<Event Id="41618512" Name="Play_Small_Monster_VOX_Spots" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.32964584" DurationMax="0.38529167">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="643044249" Id="2535446860"/>
@@ -4683,7 +4659,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="3913336272" Name="Play_Spitter_Attack" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.48422918" DurationMax="0.50675">
+				<Event Id="3913336272" Name="Play_Spitter_Attack" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.48422918" DurationMax="0.50675">
 					<MediaRefs>
 						<MediaRef Id="467297718"/>
 						<MediaRef Id="850359613"/>
@@ -4709,5 +4685,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{ACB49482-7170-C2CD-1223-287F26C96CE3}</FileHash>
+	<FileHash>{2321E9A8-1E4A-45AC-1915-C47BA52DAE4E}</FileHash>
 </SoundBanksInfo>

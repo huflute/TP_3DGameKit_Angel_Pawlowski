@@ -47,7 +47,7 @@ public class FtMaterials : MonoBehaviour
             Renderer groundRenderer = hit.collider.GetComponentInChildren<Renderer>();
             _currentMaterial = groundRenderer ? groundRenderer.sharedMaterial : null;
             // _currentMaterial renvoi le materiaux sur lequel le joueur se trouve
-            print(_currentMaterial);
+           
 
             // initialisation d'une boucle dans la liste footstepcollection
             //on va tester chaque entree dans la collection 

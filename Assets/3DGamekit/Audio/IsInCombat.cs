@@ -11,11 +11,13 @@ public class IsInCombat : MonoBehaviour
     {
         //Use this to ensure that the Gizmos are being drawn when in Play Mode.
         m_Started = true;
+        AkSoundEngine.SetState("IsInCombat", "False");
     }
 
     void FixedUpdate()
     {
         MyCollisions();
+        NoEnemy();
     }
 
     void MyCollisions()
@@ -28,11 +30,38 @@ public class IsInCombat : MonoBehaviour
         while (i < hitColliders.Length)
         {
             //Output all of the collider names
-            Debug.Log("Hit : " + hitColliders[i].name + i);
+            //Debug.Log("Hit : " + hitColliders[i].name + i);
             //Increase the number of Colliders in the array
             i++;
+            print("il y a " + i + "ennemies dans la zone");
+            if (i <= 3 || hitColliders[i].name == "Grenadier")
+            {
+                AkSoundEngine.SetState("IsInCombat", "True");
+
+            }
+            
+
         }
+
     }
+
+    void NoEnemy()
+    {
+        Collider[] hitColliders = Physics.OverlapBox(gameObject.transform.position, transform.localScale / 2, Quaternion.identity, m_LayerMask);
+        int i = 0;
+        //Check when there is a new collider coming into contact with the box
+        if (i == hitColliders.Length)
+        {
+            //Output all of the collider names
+            //Debug.Log("Hit : " + hitColliders[i].name + i);
+            //Increase the number of Colliders in the array
+            
+            print("il y a  0 ennemies dans la zone");
+
+                AkSoundEngine.SetState("IsInCombat", "False");
+
+        }
+        }
 
     //Draw the Box Overlap as a gizmo to show where it currently is testing. Click the Gizmos button to see this
     void OnDrawGizmos()
