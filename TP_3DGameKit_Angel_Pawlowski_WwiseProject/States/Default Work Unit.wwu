@@ -9,7 +9,6 @@
 						<State Name="Swamp" ID="{F28AB153-FA33-4897-98CC-EA5ECCF9685D}"/>
 						<State Name="Spaceship" ID="{BE42EBA3-F9A3-4F08-A20C-63A9B7F05104}"/>
 						<State Name="Ruins" ID="{AE137332-300E-41B1-B1E3-AA776E68D5A0}"/>
-						<State Name="Default" ID="{B499B895-B38F-4389-AA79-4533EAB0671D}"/>
 						<State Name="HiddenPlace" ID="{E0F617DF-E027-43B0-83FA-85FF11BBE2DE}"/>
 					</ChildrenList>
 				</StateGroup>

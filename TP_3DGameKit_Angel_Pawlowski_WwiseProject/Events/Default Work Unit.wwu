@@ -352,21 +352,6 @@
 				</Folder>
 				<Folder Name="AMB" ID="{B5CCAC7E-E793-4113-878D-D5280AFD656F}" ShortID="677991940">
 					<ChildrenList>
-						<Folder Name="Wind" ID="{E3A792AA-1E7E-4000-8443-C995D723053B}" ShortID="87278191">
-							<ChildrenList>
-								<Event Name="Play_Play_Amb_Locations" ID="{39B4E0B7-9F41-46B4-AAE6-4EE648A8F48B}">
-									<ChildrenList>
-										<Action Name="" ID="{D44BE935-17CF-4646-9D3E-6394EE306BA8}" ShortID="1041307687">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Play_Amb_Locations" ID="{1BA34C73-3468-4B82-BA4B-FE88C8E54496}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-							</ChildrenList>
-						</Folder>
 						<Folder Name="Spaceship" ID="{1F96C26E-229F-4B2A-892A-D491BE356EEE}" ShortID="48089048">
 							<ChildrenList>
 								<Event Name="Play_AMB_SpaceShip" ID="{5357E864-4B13-470E-BDEA-E6373951B46B}">
@@ -407,6 +392,28 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Event Name="Play_Play_Amb_Locations" ID="{39B4E0B7-9F41-46B4-AAE6-4EE648A8F48B}">
+							<ChildrenList>
+								<Action Name="" ID="{D44BE935-17CF-4646-9D3E-6394EE306BA8}" ShortID="1041307687">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Play_Amb_Locations" ID="{1BA34C73-3468-4B82-BA4B-FE88C8E54496}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Amb_MusicPads" ID="{3E6CA01E-D931-46A3-86B4-AC84AC909F16}">
+							<ChildrenList>
+								<Action Name="" ID="{12A49FA0-FC42-4D68-960C-B7C279AEBE1F}" ShortID="50286557">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_MusicPads" ID="{0296B4C6-5C5D-409E-89C7-471270DF414E}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Monsters" ID="{8D7CC237-69AA-4A3E-95A3-35A5F32761C2}" ShortID="118562511">
@@ -1174,6 +1181,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="IsInCombat" ID="{F463D25A-E3AC-4D38-AE03-E43EBB081553}" WorkUnitID="{5DE733CC-3D94-445A-9CCC-90577F4435C6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Music_Discovery" ID="{21C54A0E-E9A4-4337-BD95-2E71B7FABA58}">
+							<ChildrenList>
+								<Action Name="" ID="{6DC2B9DB-1AB4-4BA4-9BBA-2F755219BEF0}" ShortID="65622215">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Chords_Discovery_120Bpm_8Bars" ID="{03DCFB8F-B9E4-4055-AE3A-1E1AC5A33251}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
