@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_ACID_POOL = 1949720410U;
         static const AkUniqueID PLAY_AMB_MUSICPADS = 542468716U;
         static const AkUniqueID PLAY_AMB_SPACESHIP = 3213331111U;
         static const AkUniqueID PLAY_CHOMPER_ATTACK = 931488463U;
@@ -85,6 +86,7 @@ namespace AK
         static const AkUniqueID PLAY_WEAPON_WHOOSH_COMBO04 = 905597472U;
         static const AkUniqueID PLAY_WHOOSH_TEXT_APPEAR = 2468740206U;
         static const AkUniqueID PLAY_WHOOSH_TEXT_DISAPPEAR = 3024491776U;
+        static const AkUniqueID STOP_ACID_POOL = 256644044U;
         static const AkUniqueID STOP_ALL = 452547817U;
         static const AkUniqueID STOP_AMB_SPACESHIP = 3876046333U;
         static const AkUniqueID STOP_FIREFLIES = 4099702875U;

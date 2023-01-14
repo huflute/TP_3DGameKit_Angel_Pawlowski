@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	111752880	Play_Music_Discovery			\Default Work Unit\Music\Play_Music_Discovery	
 	201430788	Play_Small_Monster_VOX_Hit			\Default Work Unit\Monsters\Small_Monsters\VOX\Play_Small_Monster_VOX_Hit	
 	237106917	Play_Small_Monster_VOX_Death			\Default Work Unit\Monsters\Small_Monsters\VOX\Play_Small_Monster_VOX_Death	
+	256644044	Stop_Acid_Pool			\Default Work Unit\Environment\Acid_Pool\Stop_Acid_Pool	
 	281344347	Play_Small_Monster_Spin			\Default Work Unit\Monsters\Small_Monsters\Combat\Play_Small_Monster_Spin	
 	332846453	Play_Grenadier_RangeAttack02			\Default Work Unit\Monsters\Big_Monster\Play_Grenadier_RangeAttack02	
 	332846454	Play_Grenadier_RangeAttack01			\Default Work Unit\Monsters\Big_Monster\Play_Grenadier_RangeAttack01	
@@ -43,6 +44,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1796460897	Play_Grenadier_Shield_Desactivate			\Default Work Unit\Monsters\Big_Monster\Play_Grenadier_Shield_Desactivate	
 	1840834974	Play_HealthCrate_Idle			\Default Work Unit\Interactables\HealthCrate\Play_HealthCrate_Idle	
 	1933987681	Play_Switch_Crystals_Idle_BeforeActivation			\Default Work Unit\Switch\Play_Switch_Crystals_Idle_BeforeActivation	
+	1949720410	Play_Acid_Pool			\Default Work Unit\Environment\Acid_Pool\Play_Acid_Pool	
 	1954136465	Play_Weapon_Pickup			\Default Work Unit\Weapon\Play_Weapon_Pickup	
 	2037670792	Play_MC_FOL_Land			\Default Work Unit\MC\FOL_Events\Play_MC_FOL_Land	
 	2193989514	Play_UI_Navigate			\Default Work Unit\UI\Play_UI_Navigate	
@@ -403,6 +405,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	943625314	Small_Monster_Run_Mud_08	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\Small_Monster_Run_Mud_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Monsters\Small_Monster\Small_Monster_Run\Small_Monster_Run_Mud\Small_Monster_Run_Mud_08		7810
 	946323943	Chomper_VOX_Grunt_03	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\Chomper_VOX_Grunt_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Monsters\Small_Monster\Small_Monster_VOX_Grunt\Chomper_VOX_Grunt\Chomper_VOX_Grunt_03		35938
 	955442588	Small_Monster_Spin_03	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\Small_Monster_Spin_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Monsters\Small_Monster\Small_Monster_Spin\Small_Monster_Spin\Small_Monster_Spin_03		16198
+	957902901	Acid_Pool	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 14012023\Acid_Pool_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Acid_Pool\Acid_Pool		9696
 	958958097	Grenadier_Breath_01	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Grenadier\Grenadier_Breath_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Monsters\Big_Monster\Presence\Grenadier_Breath\Grenadier_Breath_01		135768
 	962084260	Music_Loop_Level01_Night_120bpm_8Bars	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Music_Loop_Level01_Night_120bpm_8Bars_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Non_Environmental\Music\Amb_MusicPads\Music_Loop_Level01_Night_120bpm_8Bars		19296
 	967884573	Grenadier_Projectile_Explode_02	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Grenadier_Projectile_Explode_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Monsters\Big_Monster\Projectile\Grenadier_Projectile_Explode\Grenadier_Projectile_Explode_02		290016
@@ -450,6 +453,7 @@ Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	
 	716956389	Grenadier_Projectile_Idle	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Grenadier_Projectile_Idle_D79FB2B7.wem	716956389.wem	\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Monsters\Big_Monster\Projectile\Grenadier_Projectile_Idle	
 	845874098	AMB_SpaceShip	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023\AMB_SpaceShip_D79FB2B7.wem	845874098.wem	\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Environmental\Interior\Spaceship\AMB_SpaceShip	
 	846260293	Switch_Stone_Idle	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\Switch_Stone_Idle_D79FB2B7.wem	846260293.wem	\Actor-Mixer Hierarchy\Default Work Unit\SWITCHES\Stones\Switch_Stone_Idle	
+	957902901	Acid_Pool	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 14012023\Acid_Pool_D79FB2B7.wem	957902901.wem	\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Acid_Pool\Acid_Pool	
 	962084260	Music_Loop_Level01_Night_120bpm_8Bars	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Music_Loop_Level01_Night_120bpm_8Bars_D79FB2B7.wem	962084260.wem	\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Non_Environmental\Music\Amb_MusicPads\Music_Loop_Level01_Night_120bpm_8Bars	
 	1049398184	Grenadier_Shield_Idle	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Grenadier_Shield_Idle_10C4C929.wem	1049398184.wem	\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Monsters\Big_Monster\EnergyForce\Grenadier_Shield_Idle	
 

@@ -121,7 +121,7 @@
 				<GameParameter Id="3729505769" Name="TimeOfDay"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1229948536" Type="User" Language="SFX" Hash="{A1D0798F-68AF-B969-66B6-F14190FFB055}">
+		<SoundBank Id="1229948536" Type="User" Language="SFX" Hash="{A23854D5-B40F-F4F6-E1F2-41F5676514CD}">
 			<ShortName>Environment</ShortName>
 			<Path>Environment.bnk</Path>
 			<Media>
@@ -201,12 +201,23 @@
 					<ShortName>Export 14012023\RFX_Day_Birds_02.wav</ShortName>
 					<CachePath>SFX/Export 14012023/RFX_Day_Birds_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="957902901" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>Export 14012023\Acid_Pool.wav</ShortName>
+					<Path>Media/957902901.wem</Path>
+					<CachePath>SFX/Export 14012023/Acid_Pool_D79FB2B7.wem</CachePath>
+					<PrefetchSize>9696</PrefetchSize>
+				</File>
 				<File Id="1006644240" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 14012023\RFX_Fireflies_Voices_06.wav</ShortName>
 					<CachePath>SFX/Export 14012023/RFX_Fireflies_Voices_06_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
+				<Event Id="1949720410" Name="Play_Acid_Pool" MaxAttenuation="20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="957902901"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="4161070465" Name="Play_Fireflies" MaxAttenuation="5" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="258179494"/>
@@ -241,6 +252,7 @@
 						<MediaRef Id="498593051"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="256644044" Name="Stop_Acid_Pool" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4099702875" Name="Stop_Fireflies" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3867827650" Name="Stop_RFX_Birds_Creatures" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1008653791" Name="Stop_River_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -1471,7 +1483,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{6B849F8C-7BAB-D82E-512E-92A6C2DD590A}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{08B50CE7-CFA3-3928-9287-63EFF06484FF}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -2657,6 +2669,12 @@
 					<ShortName>Export 12012023 V2\Small_Monster_Spin_03.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="957902901" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>Export 14012023\Acid_Pool.wav</ShortName>
+					<Path>Media/957902901.wem</Path>
+					<CachePath>SFX/Export 14012023/Acid_Pool_D79FB2B7.wem</CachePath>
+					<PrefetchSize>9696</PrefetchSize>
+				</File>
 				<File Id="958958097" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\Grenadier_Breath_01.wav</ShortName>
 					<CachePath>SFX/Grenadier/Grenadier_Breath_01_10C4C929.wem</CachePath>
@@ -2805,6 +2823,11 @@
 				</Custom>
 			</Plugins>
 			<Events>
+				<Event Id="1949720410" Name="Play_Acid_Pool" MaxAttenuation="20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="957902901"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="542468716" Name="Play_Amb_MusicPads" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="84630673"/>
@@ -3422,7 +3445,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="41618512" Name="Play_Small_Monster_VOX_Spots" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.32964584" DurationMax="0.38529167">
+				<Event Id="41618512" Name="Play_Small_Monster_VOX_Spots" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.32964584" DurationMax="0.38529167">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="643044249" Id="2535446860"/>
@@ -3483,7 +3506,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="3913336272" Name="Play_Spitter_Attack" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.48422918" DurationMax="0.50675">
+				<Event Id="3913336272" Name="Play_Spitter_Attack" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.48422918" DurationMax="0.50675">
 					<MediaRefs>
 						<MediaRef Id="467297718"/>
 						<MediaRef Id="850359613"/>
@@ -3632,6 +3655,7 @@
 						</Custom>
 					</PluginRefs>
 				</Event>
+				<Event Id="256644044" Name="Stop_Acid_Pool" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="452547817" Name="Stop_All" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3876046333" Name="Stop_AMB_SpaceShip" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4099702875" Name="Stop_Fireflies" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -3953,7 +3977,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{BD49F1F9-3F23-3114-36F7-0B2037EEFD03}">
+		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{20FF4FCB-4192-26BB-70D9-B6C9D91EC5BA}">
 			<ShortName>Small_Monsters</ShortName>
 			<Path>Small_Monsters.bnk</Path>
 			<Media>
@@ -4538,7 +4562,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="41618512" Name="Play_Small_Monster_VOX_Spots" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.32964584" DurationMax="0.38529167">
+				<Event Id="41618512" Name="Play_Small_Monster_VOX_Spots" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.32964584" DurationMax="0.38529167">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="643044249" Id="2535446860"/>
@@ -4599,7 +4623,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="3913336272" Name="Play_Spitter_Attack" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.48422918" DurationMax="0.50675">
+				<Event Id="3913336272" Name="Play_Spitter_Attack" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.48422918" DurationMax="0.50675">
 					<MediaRefs>
 						<MediaRef Id="467297718"/>
 						<MediaRef Id="850359613"/>
@@ -4625,5 +4649,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D959E686-6086-54B0-2F43-C212D2F10E6A}</FileHash>
+	<FileHash>{92CE77C2-9F42-79FC-DFA5-4162ACFFA183}</FileHash>
 </SoundBanksInfo>

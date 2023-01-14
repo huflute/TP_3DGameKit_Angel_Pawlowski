@@ -385,8 +385,28 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 58301ae271a98d46974f6accc96184fa
     GuidInternal: 
-    m_lastTime: -8585278903320680585
+    m_lastTime: -8585278896392627829
     List:
+    - name: Acid_Pool
+      guid: 0be81931af4fb440bea75fd8b2a9f0f7
+      id: 2985076563
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: Acid_Pool
+        ObjectType: 4
+        guid: 0be81931af4fb440bea75fd8b2a9f0f7
+      Path: Events\Default Work Unit\Environment\Acid_Pool
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: AMB
       guid: 7eacccb593e71341878dd5280afd656f
       id: 1117531639
@@ -649,6 +669,29 @@ MonoBehaviour:
         ObjectType: 4
         guid: 160287fa7d30204aba40a51c7b59eaa3
       Path: Events\Default Work Unit\Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Acid_Pool
+      guid: 36fb1d02f5315d40b9704286a076662b
+      id: 1949720410
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: Acid_Pool
+        ObjectType: 4
+        guid: 0be81931af4fb440bea75fd8b2a9f0f7
+      - ElementName: Play_Acid_Pool
+        ObjectType: 3
+        guid: 36fb1d02f5315d40b9704286a076662b
+      Path: Events\Default Work Unit\Environment\Acid_Pool\Play_Acid_Pool
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -2414,6 +2457,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Stop_Acid_Pool
+      guid: 52c2752857525e449a300408a1b28b90
+      id: 256644044
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: Acid_Pool
+        ObjectType: 4
+        guid: 0be81931af4fb440bea75fd8b2a9f0f7
+      - ElementName: Stop_Acid_Pool
+        ObjectType: 3
+        guid: 52c2752857525e449a300408a1b28b90
+      Path: Events\Default Work Unit\Environment\Acid_Pool\Stop_Acid_Pool
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Stop_All
       guid: 88ef15848bb7df4c981bda14649ca124
       id: 452547817
@@ -3448,7 +3514,7 @@ MonoBehaviour:
     m_lastTime: -8585284051417417635
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 06000000070000000a000000170000001800000097000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
