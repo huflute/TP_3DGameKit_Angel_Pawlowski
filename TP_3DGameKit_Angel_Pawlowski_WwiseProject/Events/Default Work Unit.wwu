@@ -1144,35 +1144,6 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
-						<Folder Name="Acid_Pool" ID="{3119E80B-4FAF-40B4-BEA7-5FD8B2A9F0F7}" ShortID="843939758">
-							<ChildrenList>
-								<Event Name="Play_Acid_Pool" ID="{021DFB36-31F5-405D-B970-4286A076662B}">
-									<ChildrenList>
-										<Action Name="" ID="{D373B627-30C3-470B-B8BB-085407C3C5EA}" ShortID="44140676">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Acid_Pool" ID="{3E6CA8FE-03EB-4153-BEF5-4285FB134906}" WorkUnitID="{6339F0F9-1688-458B-9B68-CE62F7071A2D}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Stop_Acid_Pool" ID="{2875C252-5257-445E-9A30-0408A1B28B90}">
-									<ChildrenList>
-										<Action Name="" ID="{91356D77-9DEB-4EE6-BE9C-66B8B3E81E41}" ShortID="698389590">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Acid_Pool" ID="{3E6CA8FE-03EB-4153-BEF5-4285FB134906}" WorkUnitID="{6339F0F9-1688-458B-9B68-CE62F7071A2D}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-							</ChildrenList>
-						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Interactables" ID="{22E6B151-3902-48FC-AB2E-959062AC2EF2}" ShortID="682600520">

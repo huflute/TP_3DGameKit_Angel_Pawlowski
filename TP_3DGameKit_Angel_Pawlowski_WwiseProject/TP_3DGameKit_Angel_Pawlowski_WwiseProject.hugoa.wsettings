@@ -5,7 +5,6 @@
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\hugoa\Desktop\Audio Workshop\Sonorisations\Cours design sonore\Asset 3D Game Kit\"/>
 				<Property Name="Event Action List\{006FF4FB-424D-413B-A972-A35C326159F2}\x64_Expand States" Type="string" Value=""/>
-				<Property Name="Event Action List\{021DFB36-31F5-405D-B970-4286A076662B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{047BE634-4574-4355-86CD-6F8B53EF65E6}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{0490964B-5BE9-4626-9995-ADCE113DCC98}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{0658050E-4721-4833-AB44-FA8344D4734A}\x64_Expand States" Type="string" Value=""/>
@@ -20,7 +19,6 @@
 				<Property Name="Event Action List\{19BA7E57-93B4-4AD3-8C0B-9AD2288892AA}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{251CF851-3A10-4AA6-9AD6-6007376D1849}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{27759593-369D-4B33-8204-1EB9861B8C9E}\x64_Expand States" Type="string" Value=""/>
-				<Property Name="Event Action List\{2875C252-5257-445E-9A30-0408A1B28B90}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{3071B5E5-F328-4038-AA80-FB9FE6EA4BBB}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{3353C33E-DCBE-4FD3-8F0B-02C68474A2B6}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{36AF52CB-AEA8-4D34-A794-C21086CFB342}\x64_Expand States" Type="string" Value=""/>
