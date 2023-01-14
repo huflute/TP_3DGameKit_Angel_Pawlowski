@@ -20,8 +20,23 @@
 							<PointList>
 								<Point>
 									<XPos>0</XPos>
-									<YPos>0</YPos>
+									<YPos>2</YPos>
 									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>8</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>20</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>23.999</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
 								</Point>
 								<Point>
 									<XPos>24</XPos>

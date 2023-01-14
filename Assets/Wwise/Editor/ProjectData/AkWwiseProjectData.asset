@@ -385,7 +385,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 58301ae271a98d46974f6accc96184fa
     GuidInternal: 
-    m_lastTime: -8585279054066379923
+    m_lastTime: -8585278947770300889
     List:
     - name: AMB
       guid: 7eacccb593e71341878dd5280afd656f
@@ -447,6 +447,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Doors
+      guid: 521c6ffb53557f4aaa9c8e2a140efd69
+      id: 2150196036
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Interactables
+        ObjectType: 4
+        guid: 51b1e6220239fc48ab2e959062ac2ef2
+      - ElementName: Doors
+        ObjectType: 4
+        guid: 521c6ffb53557f4aaa9c8e2a140efd69
+      Path: Events\Default Work Unit\Interactables\Doors
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Environment
       guid: 6d8100762caf5647b5de8fc6b47af08d
       id: 1229948536
@@ -461,6 +481,26 @@ MonoBehaviour:
         ObjectType: 4
         guid: 6d8100762caf5647b5de8fc6b47af08d
       Path: Events\Default Work Unit\Environment
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Fireflies
+      guid: 8c0cc2319b91514697dc3ac25a973422
+      id: 1126065684
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: Fireflies
+        ObjectType: 4
+        guid: 8c0cc2319b91514697dc3ac25a973422
+      Path: Events\Default Work Unit\Environment\Fireflies
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -598,6 +638,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Acid_Pool
+      guid: f0aca50614884641bbdce58480b086f7
+      id: 1949720410
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: Play_Acid_Pool
+        ObjectType: 3
+        guid: f0aca50614884641bbdce58480b086f7
+      Path: Events\Default Work Unit\Environment\Play_Acid_Pool
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_AMB_Loop_Wind_Gust_01
       guid: d3ec83331059b341a45b95bc7de45feb
       id: 2425561832
@@ -713,6 +773,75 @@ MonoBehaviour:
         ObjectType: 3
         guid: 1bca687d75a5a34d8a089278a8504a38
       Path: Events\Default Work Unit\Monsters\Small_Monsters\VOX\Play_Chomper_VOX_Before_Attack
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Fireflies
+      guid: 0a5b94af15e3a943b40d9e0d1012b533
+      id: 4161070465
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: Fireflies
+        ObjectType: 4
+        guid: 8c0cc2319b91514697dc3ac25a973422
+      - ElementName: Play_Fireflies
+        ObjectType: 3
+        guid: 0a5b94af15e3a943b40d9e0d1012b533
+      Path: Events\Default Work Unit\Environment\Fireflies\Play_Fireflies
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Fireflies_Loop
+      guid: 0e588c519d3b57429aa75088371df707
+      id: 1971499390
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: Fireflies
+        ObjectType: 4
+        guid: 8c0cc2319b91514697dc3ac25a973422
+      - ElementName: Play_Fireflies_Loop
+        ObjectType: 3
+        guid: 0e588c519d3b57429aa75088371df707
+      Path: Events\Default Work Unit\Environment\Fireflies\Play_Fireflies_Loop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Ghost_Loop
+      guid: c73165739a87a840bb66a5422155a19e
+      id: 4159172388
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: Fireflies
+        ObjectType: 4
+        guid: 8c0cc2319b91514697dc3ac25a973422
+      - ElementName: Play_Ghost_Loop
+        ObjectType: 3
+        guid: c73165739a87a840bb66a5422155a19e
+      Path: Events\Default Work Unit\Environment\Fireflies\Play_Ghost_Loop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1162,6 +1291,52 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Huge_Door_Opening
+      guid: 54e8b04d06c2b142913d82e551960443
+      id: 2536112683
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Interactables
+        ObjectType: 4
+        guid: 51b1e6220239fc48ab2e959062ac2ef2
+      - ElementName: Doors
+        ObjectType: 4
+        guid: 521c6ffb53557f4aaa9c8e2a140efd69
+      - ElementName: Play_Huge_Door_Opening
+        ObjectType: 3
+        guid: 54e8b04d06c2b142913d82e551960443
+      Path: Events\Default Work Unit\Interactables\Doors\Play_Huge_Door_Opening
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Huge_Door_Stop
+      guid: 2b9b642a7f530e40ad2e1e2cd6e89d09
+      id: 3431792897
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Interactables
+        ObjectType: 4
+        guid: 51b1e6220239fc48ab2e959062ac2ef2
+      - ElementName: Doors
+        ObjectType: 4
+        guid: 521c6ffb53557f4aaa9c8e2a140efd69
+      - ElementName: Play_Huge_Door_Stop
+        ObjectType: 3
+        guid: 2b9b642a7f530e40ad2e1e2cd6e89d09
+      Path: Events\Default Work Unit\Interactables\Doors\Play_Huge_Door_Stop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_MC_FOL_Attack
       guid: d429c3ac9248b847bb0c2f907d797c02
       id: 4094144955
@@ -1487,6 +1662,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_RFX_Bubbles
+      guid: e9f15ae0f2084944bafe49670320fe35
+      id: 3795439262
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: Play_RFX_Bubbles
+        ObjectType: 3
+        guid: e9f15ae0f2084944bafe49670320fe35
+      Path: Events\Default Work Unit\Environment\Play_RFX_Bubbles
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_RFX_Computer
       guid: 7bff4cc014fc7a4d96b059e4bff8a396
       id: 3056483954
@@ -1507,6 +1702,149 @@ MonoBehaviour:
         ObjectType: 3
         guid: 7bff4cc014fc7a4d96b059e4bff8a396
       Path: Events\Default Work Unit\AMB\Spaceship\Play_RFX_Computer
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_RFX_Day_Birds
+      guid: 3659dcd6c532274cbac80990e7564b3b
+      id: 2058220548
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: AMB
+        ObjectType: 4
+        guid: 7eacccb593e71341878dd5280afd656f
+      - ElementName: Play_RFX_Day_Birds
+        ObjectType: 3
+        guid: 3659dcd6c532274cbac80990e7564b3b
+      Path: Events\Default Work Unit\AMB\Play_RFX_Day_Birds
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_RFX_Day_Insects
+      guid: d7bb877d1d11e0449af66d242f30e81f
+      id: 3049435451
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: AMB
+        ObjectType: 4
+        guid: 7eacccb593e71341878dd5280afd656f
+      - ElementName: Play_RFX_Day_Insects
+        ObjectType: 3
+        guid: d7bb877d1d11e0449af66d242f30e81f
+      Path: Events\Default Work Unit\AMB\Play_RFX_Day_Insects
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_RFX_Fireflies_Voices
+      guid: 931d925d11aa2d4ca70e00b04a75b411
+      id: 178656694
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Interactables
+        ObjectType: 4
+        guid: 51b1e6220239fc48ab2e959062ac2ef2
+      - ElementName: Play_RFX_Fireflies_Voices
+        ObjectType: 3
+        guid: 931d925d11aa2d4ca70e00b04a75b411
+      Path: Events\Default Work Unit\Interactables\Play_RFX_Fireflies_Voices
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_RFX_Night_Small_Creature
+      guid: dbb947e0dc57ac448f24373c23a7f6be
+      id: 870193919
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: AMB
+        ObjectType: 4
+        guid: 7eacccb593e71341878dd5280afd656f
+      - ElementName: Play_RFX_Night_Small_Creature
+        ObjectType: 3
+        guid: dbb947e0dc57ac448f24373c23a7f6be
+      Path: Events\Default Work Unit\AMB\Play_RFX_Night_Small_Creature
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_RFX_Nights_Creatures
+      guid: 2d1fd1629d549d4f90f74c66b1bd43a1
+      id: 3437951991
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: AMB
+        ObjectType: 4
+        guid: 7eacccb593e71341878dd5280afd656f
+      - ElementName: Play_RFX_Nights_Creatures
+        ObjectType: 3
+        guid: 2d1fd1629d549d4f90f74c66b1bd43a1
+      Path: Events\Default Work Unit\AMB\Play_RFX_Nights_Creatures
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_River_Loop
+      guid: d6728f1c246b334d9c19a1e10a726d4d
+      id: 994087705
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: Play_River_Loop
+        ObjectType: 3
+        guid: d6728f1c246b334d9c19a1e10a726d4d
+      Path: Events\Default Work Unit\Environment\Play_River_Loop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Small_Door_Open
+      guid: 24b714179442e9428a42843e08ac317e
+      id: 1115051833
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Interactables
+        ObjectType: 4
+        guid: 51b1e6220239fc48ab2e959062ac2ef2
+      - ElementName: Doors
+        ObjectType: 4
+        guid: 521c6ffb53557f4aaa9c8e2a140efd69
+      - ElementName: Play_Small_Door_Open
+        ObjectType: 3
+        guid: 24b714179442e9428a42843e08ac317e
+      Path: Events\Default Work Unit\Interactables\Doors\Play_Small_Door_Open
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -2234,6 +2572,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Stop_Acid_Pool
+      guid: eafce980915c6740982fb7cdddaec776
+      id: 256644044
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: Stop_Acid_Pool
+        ObjectType: 3
+        guid: eafce980915c6740982fb7cdddaec776
+      Path: Events\Default Work Unit\Environment\Stop_Acid_Pool
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Stop_AMB_SpaceShip
       guid: 48e568962025d7438c8012e4924ad0ea
       id: 3876046333
@@ -2257,6 +2615,98 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Stop_Fireflies
+      guid: 2224f441a905a947ba116b9630163bb6
+      id: 4099702875
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: Fireflies
+        ObjectType: 4
+        guid: 8c0cc2319b91514697dc3ac25a973422
+      - ElementName: Stop_Fireflies
+        ObjectType: 3
+        guid: 2224f441a905a947ba116b9630163bb6
+      Path: Events\Default Work Unit\Environment\Fireflies\Stop_Fireflies
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Fireflies_Loop
+      guid: 17618bec05296f438a8a99691b9a3d32
+      id: 1422378168
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: Fireflies
+        ObjectType: 4
+        guid: 8c0cc2319b91514697dc3ac25a973422
+      - ElementName: Stop_Fireflies_Loop
+        ObjectType: 3
+        guid: 17618bec05296f438a8a99691b9a3d32
+      Path: Events\Default Work Unit\Environment\Fireflies\Stop_Fireflies_Loop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Ghost_Loop
+      guid: 7f51a9f28d7ce44faf5a5a9fa084bd76
+      id: 4019498322
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: Fireflies
+        ObjectType: 4
+        guid: 8c0cc2319b91514697dc3ac25a973422
+      - ElementName: Stop_Ghost_Loop
+        ObjectType: 3
+        guid: 7f51a9f28d7ce44faf5a5a9fa084bd76
+      Path: Events\Default Work Unit\Environment\Fireflies\Stop_Ghost_Loop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Huge_Door_Opening
+      guid: 946cadfd1ab22a4887d17f495df94f35
+      id: 1162942573
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Interactables
+        ObjectType: 4
+        guid: 51b1e6220239fc48ab2e959062ac2ef2
+      - ElementName: Doors
+        ObjectType: 4
+        guid: 521c6ffb53557f4aaa9c8e2a140efd69
+      - ElementName: Stop_Huge_Door_Opening
+        ObjectType: 3
+        guid: 946cadfd1ab22a4887d17f495df94f35
+      Path: Events\Default Work Unit\Interactables\Doors\Stop_Huge_Door_Opening
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Stop_MC_Shield
       guid: 98c2600a1fd0f5419c354fa35ea5a5dc
       id: 616065004
@@ -2277,6 +2727,172 @@ MonoBehaviour:
         ObjectType: 3
         guid: 98c2600a1fd0f5419c354fa35ea5a5dc
       Path: Events\Default Work Unit\MC\Shield_Events\Stop_MC_Shield
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_RFX_Bubbles
+      guid: 0e05580621473348ab44fa8344d4734a
+      id: 2294349108
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: Stop_RFX_Bubbles
+        ObjectType: 3
+        guid: 0e05580621473348ab44fa8344d4734a
+      Path: Events\Default Work Unit\Environment\Stop_RFX_Bubbles
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_RFX_Day_Birds
+      guid: 29f016975a7e3f42bb6d71795728c6f3
+      id: 4134326546
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: AMB
+        ObjectType: 4
+        guid: 7eacccb593e71341878dd5280afd656f
+      - ElementName: Stop_RFX_Day_Birds
+        ObjectType: 3
+        guid: 29f016975a7e3f42bb6d71795728c6f3
+      Path: Events\Default Work Unit\AMB\Stop_RFX_Day_Birds
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_RFX_Day_Insects
+      guid: 3fd9d09a163c0c478107d55f8b942ab3
+      id: 2905247645
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: AMB
+        ObjectType: 4
+        guid: 7eacccb593e71341878dd5280afd656f
+      - ElementName: Stop_RFX_Day_Insects
+        ObjectType: 3
+        guid: 3fd9d09a163c0c478107d55f8b942ab3
+      Path: Events\Default Work Unit\AMB\Stop_RFX_Day_Insects
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_RFX_Fireflies_Voices
+      guid: 209d4a9c72bfc34eb13ca1d92feab7ea
+      id: 1025095892
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: Fireflies
+        ObjectType: 4
+        guid: 8c0cc2319b91514697dc3ac25a973422
+      - ElementName: Stop_RFX_Fireflies_Voices
+        ObjectType: 3
+        guid: 209d4a9c72bfc34eb13ca1d92feab7ea
+      Path: Events\Default Work Unit\Environment\Fireflies\Stop_RFX_Fireflies_Voices
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_RFX_Night_Small_Creature
+      guid: fbf46f004d423b41a972a35c326159f2
+      id: 267623473
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: AMB
+        ObjectType: 4
+        guid: 7eacccb593e71341878dd5280afd656f
+      - ElementName: Stop_RFX_Night_Small_Creature
+        ObjectType: 3
+        guid: fbf46f004d423b41a972a35c326159f2
+      Path: Events\Default Work Unit\AMB\Stop_RFX_Night_Small_Creature
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_RFX_Nights_Creatures
+      guid: 8785b6de30aca54cbb49080407f44709
+      id: 3064552865
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: AMB
+        ObjectType: 4
+        guid: 7eacccb593e71341878dd5280afd656f
+      - ElementName: Stop_RFX_Nights_Creatures
+        ObjectType: 3
+        guid: 8785b6de30aca54cbb49080407f44709
+      Path: Events\Default Work Unit\AMB\Stop_RFX_Nights_Creatures
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_River_Loop
+      guid: 3e8dd7503b41934384a1cb2070d11432
+      id: 1008653791
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: Stop_River_Loop
+        ObjectType: 3
+        guid: 3e8dd7503b41934384a1cb2070d11432
+      Path: Events\Default Work Unit\Environment\Stop_River_Loop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Small_Door_Open
+      guid: 90884e347bcbf4499cc587f0e2bf73c4
+      id: 1739086843
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Interactables
+        ObjectType: 4
+        guid: 51b1e6220239fc48ab2e959062ac2ef2
+      - ElementName: Doors
+        ObjectType: 4
+        guid: 521c6ffb53557f4aaa9c8e2a140efd69
+      - ElementName: Stop_Small_Door_Open
+        ObjectType: 3
+        guid: 90884e347bcbf4499cc587f0e2bf73c4
+      Path: Events\Default Work Unit\Interactables\Doors\Stop_Small_Door_Open
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -2612,7 +3228,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: dde22e8dd084f74f8c90764d69789553
     GuidInternal: 
-    m_lastTime: -8585280042872792744
+    m_lastTime: -8585278953215364562
     List:
     - name: Location
       guid: 7f97309fc3fbc04e8ffd16b5de27f935
@@ -3021,7 +3637,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit\Environment
     guid: cca39cd7d1447a449542ac83600b4014
     GuidInternal: 
-    m_lastTime: -8585279054193390892
+    m_lastTime: -8585278942261834764
     List:
     - name: TimeOfDay
       guid: 574c3617317e9b499335d0b1f366c105
@@ -3097,7 +3713,7 @@ MonoBehaviour:
     m_lastTime: -8585284051417417635
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 050000000600000008000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -1,10 +1,34 @@
 Event	ID	Name			Wwise Object Path	Notes
+	256644044	Stop_Acid_Pool			\Default Work Unit\Environment\Stop_Acid_Pool	
 	476276007	Play_Teleporter_Idle			\Default Work Unit\Environment\Teleporter\Play_Teleporter_Idle	
+	994087705	Play_River_Loop			\Default Work Unit\Environment\Play_River_Loop	
+	1008653791	Stop_River_Loop			\Default Work Unit\Environment\Stop_River_Loop	
+	1025095892	Stop_RFX_Fireflies_Voices			\Default Work Unit\Environment\Stop_RFX_Fireflies_Voices	
+	1422378168	Stop_Fireflies_Loop			\Default Work Unit\Environment\Stop_Fireflies_Loop	
+	1949720410	Play_Acid_Pool			\Default Work Unit\Environment\Play_Acid_Pool	
+	1971499390	Play_Fireflies_Loop			\Default Work Unit\Environment\Play_Fireflies_Loop	
+	2294349108	Stop_RFX_Bubbles			\Default Work Unit\Environment\Stop_RFX_Bubbles	
 	2863201769	Stop_Teleporter_Idle			\Default Work Unit\Environment\Teleporter\Stop_Teleporter_Idle	
+	3795439262	Play_RFX_Bubbles			\Default Work Unit\Environment\Play_RFX_Bubbles	
+	4019498322	Stop_Ghost_Loop			\Default Work Unit\Environment\Stop_Ghost_Loop	
+	4159172388	Play_Ghost_Loop			\Default Work Unit\Environment\Play_Ghost_Loop	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	62751895	RFX_Bubbles_05	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\RFX_Bubbles_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\RFX_Bubbles\RFX_Bubbles_05		182496
+	129162417	RFX_Bubbles_02	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\RFX_Bubbles_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\RFX_Bubbles\RFX_Bubbles_02		153696
+	336010496	RFX_Bubbles_03	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\RFX_Bubbles_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\RFX_Bubbles\RFX_Bubbles_03		192096
+	392129282	River_Loop	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\River_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\River_Loop		9696
 	498593051	Teleporter_Idle	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Teleporter_Idle_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Teleporter_Idle		9696
+	561453158	Fireflies_Loop	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\Fireflies_Loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Fireflies\Fireflies_Loop		9696
+	574836544	Ghost_Loop	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\Ghost_Loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Fireflies\Ghost_Loop		9696
+	798917939	RFX_Bubbles_01	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\RFX_Bubbles_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\RFX_Bubbles\RFX_Bubbles_01		211296
+	957902901	Acid_Pool	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\Acid_Pool_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Acid_Pool		9696
+	994771667	RFX_Bubbles_04	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\RFX_Bubbles_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\RFX_Bubbles\RFX_Bubbles_04		240096
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	392129282	River_Loop	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\River_D79FB2B7.wem	392129282.wem	\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\River_Loop	
 	498593051	Teleporter_Idle	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Teleporter_Idle_D79FB2B7.wem	498593051.wem	\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Teleporter_Idle	
+	561453158	Fireflies_Loop	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\Fireflies_Loop_D79FB2B7.wem	561453158.wem	\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Fireflies\Fireflies_Loop	
+	574836544	Ghost_Loop	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\Ghost_Loop_D79FB2B7.wem	574836544.wem	\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Fireflies\Ghost_Loop	
+	957902901	Acid_Pool	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\Acid_Pool_D79FB2B7.wem	957902901.wem	\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Acid_Pool	
 

@@ -14,7 +14,7 @@ public class SoundlineContainer : MonoBehaviour
     private GameObject _soundPointInstance;
 
     public GameObject _soundPointPrefab;
-    public ControlSwitch _followGameObject;
+    public GameObject _followGameObject;
     public bool debug_DrawSoundLine = true;
 
     // Start is called before the first frame update
@@ -44,7 +44,7 @@ public class SoundlineContainer : MonoBehaviour
         {
             if(_soundPointInstance != null)
             {
-                _soundPointInstance.transform.position = WhereOnSpline(_followGameObject.GetCurrentController().transform.position);
+                _soundPointInstance.transform.position = WhereOnSpline(_followGameObject.transform.position);
             }
             //Display the soundline on Debug mode
             if (debug_DrawSoundLine)

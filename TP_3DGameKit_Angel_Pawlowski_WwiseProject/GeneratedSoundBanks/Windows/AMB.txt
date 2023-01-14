@@ -1,8 +1,24 @@
 Event	ID	Name			Wwise Object Path	Notes
+<<<<<<< Updated upstream
+=======
+	267623473	Stop_RFX_Night_Small_Creature			\Default Work Unit\AMB\Stop_RFX_Night_Small_Creature	
+	870193919	Play_RFX_Night_Small_Creature			\Default Work Unit\AMB\Play_RFX_Night_Small_Creature	
+	1489882803	Play_Amb_Swamp			\Default Work Unit\AMB\Play_Amb_Swamp	
+	2058220548	Play_RFX_Day_Birds			\Default Work Unit\AMB\Play_RFX_Day_Birds	
+	2425561832	Play_AMB_Loop_Wind_Gust_01			\Default Work Unit\AMB\Wind\Play_AMB_Loop_Wind_Gust_01	
+	2905247645	Stop_RFX_Day_Insects			\Default Work Unit\AMB\Stop_RFX_Day_Insects	
+	3049435451	Play_RFX_Day_Insects			\Default Work Unit\AMB\Play_RFX_Day_Insects	
+>>>>>>> Stashed changes
 	3056483954	Play_RFX_Computer			\Default Work Unit\AMB\Spaceship\Play_RFX_Computer	
+	3064552865	Stop_RFX_Nights_Creatures			\Default Work Unit\AMB\Stop_RFX_Nights_Creatures	
 	3213331111	Play_AMB_SpaceShip			\Default Work Unit\AMB\Spaceship\Play_AMB_SpaceShip	
+<<<<<<< Updated upstream
 	3839321632	Play_Play_Amb_Locations			\Default Work Unit\AMB\Wind\Play_Play_Amb_Locations	
+=======
+	3437951991	Play_RFX_Nights_Creatures			\Default Work Unit\AMB\Play_RFX_Nights_Creatures	
+>>>>>>> Stashed changes
 	3876046333	Stop_AMB_SpaceShip			\Default Work Unit\AMB\Spaceship\Stop_AMB_SpaceShip	
+	4134326546	Stop_RFX_Day_Birds			\Default Work Unit\AMB\Stop_RFX_Day_Birds	
 
 State Group	ID	Name			Wwise Object Path	Notes
 	1176052424	Location			\Default Work Unit\Location	
@@ -19,6 +35,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	3729505769	TimeOfDay			\Default Work Unit\Evironment\TimeOfDay	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+<<<<<<< Updated upstream
 	5366310	RFX_Computer_03	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\RFX_Computer_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Interior\Spaceship\RFX_Computer\RFX_Computer_03		58452
 	82276003	AMB_Ruins_01	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\AMB_Ruins_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Exterior\Play_Amb_Locations\Amb_Swamp\Amb_Swamp_Night\AMB_Ruins_01		19296
 	238080956	AMB_Swamp_01	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\AMB_Swamp_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Exterior\Play_Amb_Locations\Amb_Swamp\Amb_Swamp_Day\AMB_Swamp_01		19296
@@ -29,6 +46,36 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	733080430	RFX_Computer_01	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\RFX_Computer_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Interior\Spaceship\RFX_Computer\RFX_Computer_01		116706
 	845874098	AMB_SpaceShip	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023\AMB_SpaceShip_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Exterior\Play_Amb_Locations\Amb_HiddenPlace\AMB_SpaceShip		9696
 	926020533	RFX_Computer_04	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\RFX_Computer_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Interior\Spaceship\RFX_Computer\RFX_Computer_04		43448
+=======
+	5366310	RFX_Computer_03	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\RFX_Computer_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Interior\Spaceship\RFX_Computer\RFX_Computer_03		58452
+	59354382	RFX_Day_Birds_01	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 14012023\RFX_Day_Birds_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Exterior\RFX_Day_Birds\RFX_Day_Birds_01		192096
+	82276003	AMB_Ruins_01	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\AMB_Ruins_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Exterior\Amb_Swamp\Amb_Swamp_Night\AMB_Ruins_01		19296
+	170030737	RFX_Night_Creatures_04	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 14012023\RFX_Night_Creatures_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Exterior\RFX_Nights_Creatures\RFX_Night_Creatures_04		84886
+	177563236	RFX_Day_Insects_05	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 14012023\RFX_Day_Insects_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Exterior\RFX_Day_Insects\RFX_Day_Insects_05		240096
+	191592483	RFX_Day_Insects_03	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 14012023\RFX_Day_Insects_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Exterior\RFX_Day_Insects\RFX_Day_Insects_03		240096
+	234982523	RFX_Day_Insects_02	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 14012023\RFX_Day_Insects_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Exterior\RFX_Day_Insects\RFX_Day_Insects_02		240096
+	238080956	AMB_Swamp_01	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\AMB_Swamp_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Exterior\Amb_Swamp\Amb_Swamp_Day\AMB_Swamp_01		19296
+	286665868	RFX_Night_Creatures_02	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 14012023\RFX_Night_Creatures_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Exterior\RFX_Nights_Creatures\RFX_Night_Creatures_02		82858
+	292664858	RFX_Night_Small_Creatures_01	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 14012023\RFX_Night_Small_Creatures_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Exterior\RFX_Night_Small_Creature\RFX_Night_Small_Creatures_01		105696
+	322899375	RFX_Night_Creatures_01	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 14012023\RFX_Night_Creatures_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Exterior\RFX_Nights_Creatures\RFX_Night_Creatures_01		87650
+	358118990	RFX_Computer_06	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\RFX_Computer_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Interior\Spaceship\RFX_Computer\RFX_Computer_06		58688
+	380167192	RFX_Night_Small_Creatures_04	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 14012023\RFX_Night_Small_Creatures_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Exterior\RFX_Night_Small_Creature\RFX_Night_Small_Creatures_04		92896
+	396022129	RFX_Computer_07	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\RFX_Computer_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Interior\Spaceship\RFX_Computer\RFX_Computer_07		148856
+	559747723	RFX_Night_Creatures_03	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 14012023\RFX_Night_Creatures_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Exterior\RFX_Nights_Creatures\RFX_Night_Creatures_03		88048
+	597012431	RFX_Computer_05	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\RFX_Computer_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Interior\Spaceship\RFX_Computer\RFX_Computer_05		94142
+	612422062	RFX_Day_Insects_04	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 14012023\RFX_Day_Insects_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Exterior\RFX_Day_Insects\RFX_Day_Insects_04		240096
+	648182821	RFX_Computer_02	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\RFX_Computer_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Interior\Spaceship\RFX_Computer\RFX_Computer_02		48624
+	733080430	RFX_Computer_01	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\RFX_Computer_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Interior\Spaceship\RFX_Computer\RFX_Computer_01		116706
+	789814845	RFX_Day_Birds_03	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 14012023\RFX_Day_Birds_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Exterior\RFX_Day_Birds\RFX_Day_Birds_03		144096
+	790209106	RFX_Night_Small_Creatures_02	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 14012023\RFX_Night_Small_Creatures_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Exterior\RFX_Night_Small_Creature\RFX_Night_Small_Creatures_02		73472
+	810209809	RFX_Day_Insects_01	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 14012023\RFX_Day_Insects_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Exterior\RFX_Day_Insects\RFX_Day_Insects_01		240096
+	825768107	RFX_Day_Birds_04	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 14012023\RFX_Day_Birds_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Exterior\RFX_Day_Birds\RFX_Day_Birds_04		163296
+	845874098	AMB_SpaceShip	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023\AMB_SpaceShip_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Interior\Spaceship\AMB_SpaceShip		9696
+	870310724	RFX_Night_Small_Creatures_03	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 14012023\RFX_Night_Small_Creatures_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Exterior\RFX_Night_Small_Creature\RFX_Night_Small_Creatures_03		80096
+	891073032	RFX_Night_Small_Creatures_05	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 14012023\RFX_Night_Small_Creatures_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Exterior\RFX_Night_Small_Creature\RFX_Night_Small_Creatures_05		80096
+	924773217	RFX_Day_Birds_02	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 14012023\RFX_Day_Birds_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Exterior\RFX_Day_Birds\RFX_Day_Birds_02		153696
+	926020533	RFX_Computer_04	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\RFX_Computer_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Interior\Spaceship\RFX_Computer\RFX_Computer_04		43448
+>>>>>>> Stashed changes
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
 	82276003	AMB_Ruins_01	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\AMB_Ruins_01_D79FB2B7.wem	82276003.wem	\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Exterior\Play_Amb_Locations\Amb_Swamp\Amb_Swamp_Night\AMB_Ruins_01	
