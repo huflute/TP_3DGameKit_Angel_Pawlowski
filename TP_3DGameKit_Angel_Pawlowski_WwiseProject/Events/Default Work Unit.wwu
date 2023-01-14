@@ -1054,6 +1054,64 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Fireflies" ID="{98EE3D24-3B69-4BDA-B581-F5356F77E6B2}" ShortID="895085716">
+							<ChildrenList>
+								<Event Name="Play_Fireflies" ID="{19BA7E57-93B4-4AD3-8C0B-9AD2288892AA}">
+									<ChildrenList>
+										<Action Name="" ID="{11CDB3AE-4C42-4991-B21C-0A95BBEB4787}" ShortID="882750611">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Fireflies" ID="{1B8D7E68-1427-4E6E-8299-61958C4A3105}" WorkUnitID="{6339F0F9-1688-458B-9B68-CE62F7071A2D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_Fireflies" ID="{093B164E-A960-4689-9EFD-F4B48A5EA641}">
+									<ChildrenList>
+										<Action Name="" ID="{F2B7C30B-A228-43CD-882E-622D3B02EBE3}" ShortID="644617302">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Fireflies" ID="{1B8D7E68-1427-4E6E-8299-61958C4A3105}" WorkUnitID="{6339F0F9-1688-458B-9B68-CE62F7071A2D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Swamp" ID="{EF17B834-F2EE-4B31-B6A2-D552898B7958}" ShortID="230519710">
+							<ChildrenList>
+								<Event Name="Play_RFX_Birds_Creatures" ID="{198FA97E-A0F9-46BF-BE44-3EAC33DB205D}">
+									<ChildrenList>
+										<Action Name="" ID="{52A89DB9-E2F5-4B10-8B69-912182CC8BA7}" ShortID="942397543">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RFX_Birds_Creatures" ID="{878A0CDA-E49B-411F-9DDB-9261978977EC}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_RFX_Birds_Creatures" ID="{0490964B-5BE9-4626-9995-ADCE113DCC98}">
+									<ChildrenList>
+										<Action Name="" ID="{C3FBE1BC-B1B4-43FF-B66A-DACCF03CFE81}" ShortID="538295190">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RFX_Birds_Creatures" ID="{878A0CDA-E49B-411F-9DDB-9261978977EC}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Interactables" ID="{22E6B151-3902-48FC-AB2E-959062AC2EF2}" ShortID="682600520">
