@@ -57,7 +57,7 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="TimeOfDay" ID="{964134B9-4B43-4764-B76C-512362D1DB38}"/>
-							<Value>0</Value>
+							<Value>10.6347305389222</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">

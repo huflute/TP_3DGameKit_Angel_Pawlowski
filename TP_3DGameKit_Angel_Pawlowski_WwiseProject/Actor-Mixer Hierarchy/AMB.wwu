@@ -10,9 +10,13 @@
 				<ActorMixer Name="Amb" ID="{5D1B5862-CBAF-4905-8E32-985012D982F1}" ShortID="404047302">
 					<PropertyList>
 						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+						<Property Name="CenterPercentage" Type="int32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
 						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
-						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -161,23 +165,23 @@
 													<CrossfadingInfo>
 														<LeftEdgePos>0</LeftEdgePos>
 														<LeftFadingMode>Automatic</LeftFadingMode>
-														<RightEdgePos>8</RightEdgePos>
+														<RightEdgePos>9</RightEdgePos>
 														<RightFadingMode>Automatic</RightFadingMode>
 													</CrossfadingInfo>
 												</BlendTrackAssoc>
 												<BlendTrackAssoc>
 													<ItemRef Name="Amb_Swamp_Day" ID="{2E300C03-00EA-4D3D-B458-AADC56C55B28}"/>
 													<CrossfadingInfo>
-														<LeftEdgePos>5.99975</LeftEdgePos>
+														<LeftEdgePos>7</LeftEdgePos>
 														<LeftFadingMode>Automatic</LeftFadingMode>
-														<RightEdgePos>18</RightEdgePos>
+														<RightEdgePos>21</RightEdgePos>
 														<RightFadingMode>Automatic</RightFadingMode>
 													</CrossfadingInfo>
 												</BlendTrackAssoc>
 												<BlendTrackAssoc>
 													<ItemRef Name="Amb_Swamp_Night" ID="{616580DA-9AD3-48CD-B7E6-D1B5E54FCB9A}"/>
 													<CrossfadingInfo>
-														<LeftEdgePos>17</LeftEdgePos>
+														<LeftEdgePos>19</LeftEdgePos>
 														<LeftFadingMode>Automatic</LeftFadingMode>
 														<RightEdgePos>24</RightEdgePos>
 														<RightFadingMode>Automatic</RightFadingMode>
