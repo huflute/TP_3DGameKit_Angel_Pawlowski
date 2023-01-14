@@ -40,7 +40,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{7F4EEB92-FA72-88BC-AE0A-5A5F0C47D31E}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{8815029A-94C2-DE75-72D6-FCA3EB4892DD}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
@@ -355,7 +355,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{387C90BA-83DE-E60C-87B0-2086629FE4FB}">
+		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{861311E4-BBA4-E38F-1975-47D976BE3868}">
 			<ShortName>MC</ShortName>
 			<Path>MC.bnk</Path>
 			<Media>
@@ -1354,7 +1354,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{4C63FAE9-C873-599D-B5B2-42429531E20A}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{DE6E7DA1-4EEB-6A26-2F54-BA1C43B05687}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -1690,6 +1690,10 @@
 					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Mud_03.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Mud_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="263542469" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Spin_06.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_06_10C4C929.wem</CachePath>
+				</File>
 				<File Id="265888824" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier_RangeAttack01.wav</ShortName>
 					<CachePath>SFX/Grenadier_RangeAttack01_10C4C929.wem</CachePath>
@@ -1757,6 +1761,10 @@
 				<File Id="302618245" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Jump_Grass_02.wav</ShortName>
 					<CachePath>SFX/MC_FT_Jump_Grass_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="307766508" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Spin_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="311662676" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier_Projectile_Explode_01.wav</ShortName>
@@ -1990,6 +1998,10 @@
 					<ShortName>Export 12012023 V2\MC_Roll_Grass.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/MC_Roll_Grass_10C4C929.wem</CachePath>
 				</File>
+				<File Id="585468367" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Spin_04.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="592194566" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\MC_FOL_Run_04.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/MC_FOL_Run_04_10C4C929.wem</CachePath>
@@ -2113,6 +2125,14 @@
 				<File Id="676406857" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\Grenadier_Movement_Fast_05.wav</ShortName>
 					<CachePath>SFX/Grenadier/Grenadier_Movement_Fast_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="677663508" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Spin_07.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="678925306" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Spin_08.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_08_10C4C929.wem</CachePath>
 				</File>
 				<File Id="683535081" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_05.wav</ShortName>
@@ -2239,6 +2259,10 @@
 				<File Id="802844937" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Weapon_Impact_03.wav</ShortName>
 					<CachePath>SFX/Weapon_Impact_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="803050308" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Spin_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="803439455" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\MC_FOL_Run_05.wav</ShortName>
@@ -2404,6 +2428,10 @@
 					<ShortName>MC_VOX_Attack_Normal_06.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Attack_Normal_06_10C4C929.wem</CachePath>
 				</File>
+				<File Id="927378429" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Spin_05.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_05_10C4C929.wem</CachePath>
+				</File>
 				<File Id="928247450" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Stone_01.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Stone_01_10C4C929.wem</CachePath>
@@ -2427,6 +2455,10 @@
 				<File Id="946323943" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Chomper_VOX_Grunt_03.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Grunt_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="955442588" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Spin_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="958958097" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\Grenadier_Breath_01.wav</ShortName>
@@ -3063,7 +3095,18 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="281344347" Name="Play_Small_Monster_Spin" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="281344347" Name="Play_Small_Monster_Spin" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.46772918" DurationMax="0.6532917">
+					<MediaRefs>
+						<MediaRef Id="263542469"/>
+						<MediaRef Id="307766508"/>
+						<MediaRef Id="585468367"/>
+						<MediaRef Id="677663508"/>
+						<MediaRef Id="678925306"/>
+						<MediaRef Id="803050308"/>
+						<MediaRef Id="927378429"/>
+						<MediaRef Id="955442588"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="237106917" Name="Play_Small_Monster_VOX_Death" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.44970834" DurationMax="0.68660414">
 					<SwitchContainers>
 						<SwitchContainer>
@@ -3466,7 +3509,7 @@
 				</ShareSets>
 			</Plugins>
 		</SoundBank>
-		<SoundBank Id="3893417221" Type="User" Language="SFX" Hash="{31004DBD-9615-844F-487D-A3DBBB41F5BA}">
+		<SoundBank Id="3893417221" Type="User" Language="SFX" Hash="{98C9B514-09D7-226D-8E99-5F666C06D4D1}">
 			<ShortName>Weapon</ShortName>
 			<Path>Weapon.bnk</Path>
 			<Media>
@@ -3642,7 +3685,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{61A41C7B-0EC1-A673-859B-FA05683B272D}">
+		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{EF340E37-55F4-1048-4CD6-BF4FB28AF66B}">
 			<ShortName>Small_Monsters</ShortName>
 			<Path>Small_Monsters.bnk</Path>
 			<Media>
@@ -3770,6 +3813,10 @@
 					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Mud_03.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Mud_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="263542469" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Spin_06.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_06_10C4C929.wem</CachePath>
+				</File>
 				<File Id="286851709" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Chomper_VOX_Spot_Player_01.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Spot_Player_01_10C4C929.wem</CachePath>
@@ -3789,6 +3836,10 @@
 				<File Id="296594354" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Stone_02.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Stone_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="307766508" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Spin_02.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="312669986" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Chomper_VOX_Before_Attack.wav</ShortName>
@@ -3846,6 +3897,10 @@
 					<ShortName>Export 12012023 V2\Small_Monster_Run_Mud_05.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Mud_05_10C4C929.wem</CachePath>
 				</File>
+				<File Id="585468367" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Spin_04.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="604821713" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Run_Stone_02.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Stone_02_10C4C929.wem</CachePath>
@@ -3886,6 +3941,14 @@
 					<ShortName>Export 12012023 V2\Chomper_VOX_Spot_Player_03.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Spot_Player_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="677663508" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Spin_07.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="678925306" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Spin_08.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_08_10C4C929.wem</CachePath>
+				</File>
 				<File Id="683535081" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_05.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Mud_05_10C4C929.wem</CachePath>
@@ -3917,6 +3980,10 @@
 				<File Id="801414709" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Chomper_VOX_Hit_02.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Hit_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="803050308" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Spin_01.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="807603451" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Small_Monster_Run_Grass_02.wav</ShortName>
@@ -3954,6 +4021,10 @@
 					<ShortName>Export 12012023 V2\Small_Monster_Run_Mud_03.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Mud_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="927378429" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Spin_05.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_05_10C4C929.wem</CachePath>
+				</File>
 				<File Id="928247450" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Stone_01.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Stone_01_10C4C929.wem</CachePath>
@@ -3969,6 +4040,10 @@
 				<File Id="946323943" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Chomper_VOX_Grunt_03.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Grunt_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="955442588" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 12012023 V2\Small_Monster_Spin_03.wav</ShortName>
+					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="974521806" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Stone_06.wav</ShortName>
@@ -4123,7 +4198,18 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="281344347" Name="Play_Small_Monster_Spin" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="281344347" Name="Play_Small_Monster_Spin" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.46772918" DurationMax="0.6532917">
+					<MediaRefs>
+						<MediaRef Id="263542469"/>
+						<MediaRef Id="307766508"/>
+						<MediaRef Id="585468367"/>
+						<MediaRef Id="677663508"/>
+						<MediaRef Id="678925306"/>
+						<MediaRef Id="803050308"/>
+						<MediaRef Id="927378429"/>
+						<MediaRef Id="955442588"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="237106917" Name="Play_Small_Monster_VOX_Death" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.44970834" DurationMax="0.68660414">
 					<SwitchContainers>
 						<SwitchContainer>
@@ -4271,5 +4357,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D49D1832-BC0F-449E-CB88-8B214AD53042}</FileHash>
+	<FileHash>{6D8DD458-3031-6AB8-956E-570B1E374386}</FileHash>
 </SoundBanksInfo>
