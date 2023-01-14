@@ -250,194 +250,6 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Small_Monster_Spin" ID="{CBF0FFF8-779C-4C12-A09D-26A985600D7A}" ShortID="875161129">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Small_Monster_Spin_01" ID="{8DF3CAEB-7089-4961-B725-1056BCD748A8}" ShortID="259092759">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Small_Monster_Spin_01" ID="{EAF09CD2-D0A1-4447-AC54-97AD322D533E}">
-													<Language>SFX</Language>
-													<AudioFile>Export 12012023 V2\Small_Monster_Spin_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="803050308"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Small_Monster_Spin_01" ID="{EAF09CD2-D0A1-4447-AC54-97AD322D533E}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Small_Monster_Spin_02" ID="{53C14DAC-E374-48A6-BB81-0AA842EEED67}" ShortID="606718979">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Small_Monster_Spin_02" ID="{0023F086-7FAC-4DC9-A676-1A8FD40F8E83}">
-													<Language>SFX</Language>
-													<AudioFile>Export 12012023 V2\Small_Monster_Spin_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="307766508"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Small_Monster_Spin_02" ID="{0023F086-7FAC-4DC9-A676-1A8FD40F8E83}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Small_Monster_Spin_03" ID="{5888EB84-D6C3-48ED-AF88-451EFA9E7722}" ShortID="845692352">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Small_Monster_Spin_03" ID="{369F54C9-CFEF-4132-8A0E-1AE6490F4A2E}">
-													<Language>SFX</Language>
-													<AudioFile>Export 12012023 V2\Small_Monster_Spin_03.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="955442588"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Small_Monster_Spin_03" ID="{369F54C9-CFEF-4132-8A0E-1AE6490F4A2E}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Small_Monster_Spin_04" ID="{1B871FE8-F88B-4739-B946-9BB77F9E54DF}" ShortID="779128584">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Small_Monster_Spin_04" ID="{BFA171B0-E0C1-464D-BDFD-F2317FB1873C}">
-													<Language>SFX</Language>
-													<AudioFile>Export 12012023 V2\Small_Monster_Spin_04.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="585468367"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Small_Monster_Spin_04" ID="{BFA171B0-E0C1-464D-BDFD-F2317FB1873C}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Small_Monster_Spin_05" ID="{911A5BF6-5B4C-4C6A-A5F2-C78DFBCCE7E7}" ShortID="376032442">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Small_Monster_Spin_05" ID="{F49F2A36-F2EC-49E3-A136-507F70FB3888}">
-													<Language>SFX</Language>
-													<AudioFile>Export 12012023 V2\Small_Monster_Spin_05.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="927378429"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Small_Monster_Spin_05" ID="{F49F2A36-F2EC-49E3-A136-507F70FB3888}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Small_Monster_Spin_06" ID="{D98A1400-A6B9-47AE-A02B-8B5E96BB99C3}" ShortID="438816654">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Small_Monster_Spin_06" ID="{1F34E2F3-1EF9-45EB-BE40-B9CFBFDE3581}">
-													<Language>SFX</Language>
-													<AudioFile>Export 12012023 V2\Small_Monster_Spin_06.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="263542469"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Small_Monster_Spin_06" ID="{1F34E2F3-1EF9-45EB-BE40-B9CFBFDE3581}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Small_Monster_Spin_07" ID="{F0FE929D-ECF1-411F-B2B7-F38773DE7771}" ShortID="286167495">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Small_Monster_Spin_07" ID="{B9C6798E-55FE-40FE-86BC-81BD2AAFC784}">
-													<Language>SFX</Language>
-													<AudioFile>Export 12012023 V2\Small_Monster_Spin_07.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="677663508"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Small_Monster_Spin_07" ID="{B9C6798E-55FE-40FE-86BC-81BD2AAFC784}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Small_Monster_Spin_08" ID="{F5C1B7C1-7C6C-44EB-BFE6-75FCBD1C9719}" ShortID="762527541">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Small_Monster_Spin_08" ID="{7CBB15B5-9F8C-4D3F-AC83-9ADD37C4DB45}">
-													<Language>SFX</Language>
-													<AudioFile>Export 12012023 V2\Small_Monster_Spin_08.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="678925306"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Small_Monster_Spin_08" ID="{7CBB15B5-9F8C-4D3F-AC83-9ADD37C4DB45}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Spitter_Attack" ID="{F8615E3F-4014-4BE6-A93D-E51567D3993A}" ShortID="377437283">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
@@ -2926,6 +2738,419 @@
 										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
+								<RandomSequenceContainer Name="Small_Monster_Spin" ID="{790F8115-CEA4-45C1-89A7-A39B45A2F7ED}" ShortID="582243582">
+									<PropertyList>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.3"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Small_Monster_Spin" ID="{CBF0FFF8-779C-4C12-A09D-26A985600D7A}" ShortID="875161129">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="10m" ID="{7B55A2EC-035A-4F2D-ABF0-2DBDBF6B0BDE}" WorkUnitID="{B378FA7B-E709-4147-8665-F99F8F07F9BC}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Environmental" ID="{6D5DA4ED-04CC-475D-A639-EDC09C76D74C}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Small_Monster_Spin_01" ID="{8DF3CAEB-7089-4961-B725-1056BCD748A8}" ShortID="259092759">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Small_Monster_Spin_01" ID="{EAF09CD2-D0A1-4447-AC54-97AD322D533E}">
+															<Language>SFX</Language>
+															<AudioFile>Export 12012023 V2\Small_Monster_Spin_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="803050308"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Small_Monster_Spin_01" ID="{EAF09CD2-D0A1-4447-AC54-97AD322D533E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Small_Monster_Spin_02" ID="{53C14DAC-E374-48A6-BB81-0AA842EEED67}" ShortID="606718979">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Small_Monster_Spin_02" ID="{0023F086-7FAC-4DC9-A676-1A8FD40F8E83}">
+															<Language>SFX</Language>
+															<AudioFile>Export 12012023 V2\Small_Monster_Spin_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="307766508"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Small_Monster_Spin_02" ID="{0023F086-7FAC-4DC9-A676-1A8FD40F8E83}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Small_Monster_Spin_03" ID="{5888EB84-D6C3-48ED-AF88-451EFA9E7722}" ShortID="845692352">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Small_Monster_Spin_03" ID="{369F54C9-CFEF-4132-8A0E-1AE6490F4A2E}">
+															<Language>SFX</Language>
+															<AudioFile>Export 12012023 V2\Small_Monster_Spin_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="955442588"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Small_Monster_Spin_03" ID="{369F54C9-CFEF-4132-8A0E-1AE6490F4A2E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Small_Monster_Spin_04" ID="{1B871FE8-F88B-4739-B946-9BB77F9E54DF}" ShortID="779128584">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Small_Monster_Spin_04" ID="{BFA171B0-E0C1-464D-BDFD-F2317FB1873C}">
+															<Language>SFX</Language>
+															<AudioFile>Export 12012023 V2\Small_Monster_Spin_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="585468367"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Small_Monster_Spin_04" ID="{BFA171B0-E0C1-464D-BDFD-F2317FB1873C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Small_Monster_Spin_05" ID="{911A5BF6-5B4C-4C6A-A5F2-C78DFBCCE7E7}" ShortID="376032442">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Small_Monster_Spin_05" ID="{F49F2A36-F2EC-49E3-A136-507F70FB3888}">
+															<Language>SFX</Language>
+															<AudioFile>Export 12012023 V2\Small_Monster_Spin_05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="927378429"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Small_Monster_Spin_05" ID="{F49F2A36-F2EC-49E3-A136-507F70FB3888}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Small_Monster_Spin_06" ID="{D98A1400-A6B9-47AE-A02B-8B5E96BB99C3}" ShortID="438816654">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Small_Monster_Spin_06" ID="{1F34E2F3-1EF9-45EB-BE40-B9CFBFDE3581}">
+															<Language>SFX</Language>
+															<AudioFile>Export 12012023 V2\Small_Monster_Spin_06.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="263542469"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Small_Monster_Spin_06" ID="{1F34E2F3-1EF9-45EB-BE40-B9CFBFDE3581}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Small_Monster_Spin_07" ID="{F0FE929D-ECF1-411F-B2B7-F38773DE7771}" ShortID="286167495">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Small_Monster_Spin_07" ID="{B9C6798E-55FE-40FE-86BC-81BD2AAFC784}">
+															<Language>SFX</Language>
+															<AudioFile>Export 12012023 V2\Small_Monster_Spin_07.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="677663508"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Small_Monster_Spin_07" ID="{B9C6798E-55FE-40FE-86BC-81BD2AAFC784}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Small_Monster_Spin_08" ID="{F5C1B7C1-7C6C-44EB-BFE6-75FCBD1C9719}" ShortID="762527541">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Small_Monster_Spin_08" ID="{7CBB15B5-9F8C-4D3F-AC83-9ADD37C4DB45}">
+															<Language>SFX</Language>
+															<AudioFile>Export 12012023 V2\Small_Monster_Spin_08.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="678925306"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Small_Monster_Spin_08" ID="{7CBB15B5-9F8C-4D3F-AC83-9ADD37C4DB45}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Small_Monster_Spin_01" ID="{8229D481-C702-477A-BA39-9C09DB3D2EB7}" ShortID="412399724">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="10m" ID="{7B55A2EC-035A-4F2D-ABF0-2DBDBF6B0BDE}" WorkUnitID="{B378FA7B-E709-4147-8665-F99F8F07F9BC}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Environmental" ID="{6D5DA4ED-04CC-475D-A639-EDC09C76D74C}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Small_Monster_Spin_01" ID="{EA7721F7-F8F4-4FE1-8D8D-824D02D2472E}" ShortID="273644057">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Small_Monster_Spin_01" ID="{18FC13E5-EA1D-4DD8-A1E7-43C96F740DAF}">
+															<Language>SFX</Language>
+															<AudioFile>Export 12012023 V2\Small_Monster_Spin_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="803050308"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Small_Monster_Spin_01" ID="{18FC13E5-EA1D-4DD8-A1E7-43C96F740DAF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Small_Monster_Spin_02" ID="{B795F4A4-ED99-4E32-AC05-8B80F59DC5C1}" ShortID="869245051">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Small_Monster_Spin_02" ID="{30ED1DE7-4DB6-4C8F-AE73-1EF88E5898FF}">
+															<Language>SFX</Language>
+															<AudioFile>Export 12012023 V2\Small_Monster_Spin_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="307766508"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Small_Monster_Spin_02" ID="{30ED1DE7-4DB6-4C8F-AE73-1EF88E5898FF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Small_Monster_Spin_03" ID="{EEA27BDA-0D12-4B04-9C44-E7EF584B15D1}" ShortID="246236816">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Small_Monster_Spin_03" ID="{7F1F34AA-4C2C-47FA-A47A-D3F38A4405B6}">
+															<Language>SFX</Language>
+															<AudioFile>Export 12012023 V2\Small_Monster_Spin_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="955442588"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Small_Monster_Spin_03" ID="{7F1F34AA-4C2C-47FA-A47A-D3F38A4405B6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Small_Monster_Spin_04" ID="{0C7771F6-94C2-40A9-B536-302FB64FA7E2}" ShortID="183426037">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Small_Monster_Spin_04" ID="{10018EAD-794B-4D04-A870-F2100F948F3B}">
+															<Language>SFX</Language>
+															<AudioFile>Export 12012023 V2\Small_Monster_Spin_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="585468367"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Small_Monster_Spin_04" ID="{10018EAD-794B-4D04-A870-F2100F948F3B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Small_Monster_Spin_05" ID="{3D311D46-322F-4635-A8D8-1A3F9A60DEAF}" ShortID="666110928">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Small_Monster_Spin_05" ID="{077A2F6C-6208-44C1-A36E-2265F6CE3581}">
+															<Language>SFX</Language>
+															<AudioFile>Export 12012023 V2\Small_Monster_Spin_05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="927378429"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Small_Monster_Spin_05" ID="{077A2F6C-6208-44C1-A36E-2265F6CE3581}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Small_Monster_Spin_06" ID="{C7C21A45-4F7C-4D42-A6C1-48F953FCB954}" ShortID="284051696">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Small_Monster_Spin_06" ID="{E57A440B-1A1A-4D15-B09E-C07400321CE1}">
+															<Language>SFX</Language>
+															<AudioFile>Export 12012023 V2\Small_Monster_Spin_06.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="263542469"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Small_Monster_Spin_06" ID="{E57A440B-1A1A-4D15-B09E-C07400321CE1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Small_Monster_Spin_07" ID="{A68AC225-5CCF-4B3D-9636-C0D7A22344D9}" ShortID="321525891">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Small_Monster_Spin_07" ID="{7A416120-B230-4AFB-87F2-E605625D8220}">
+															<Language>SFX</Language>
+															<AudioFile>Export 12012023 V2\Small_Monster_Spin_07.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="677663508"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Small_Monster_Spin_07" ID="{7A416120-B230-4AFB-87F2-E605625D8220}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Small_Monster_Spin_08" ID="{29B5051D-4C3D-49B9-AFEC-865A2A366325}" ShortID="902327160">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Small_Monster_Spin_08" ID="{681B7F8E-65ED-4064-9A1F-2CA3C125F476}">
+															<Language>SFX</Language>
+															<AudioFile>Export 12012023 V2\Small_Monster_Spin_08.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="678925306"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Small_Monster_Spin_08" ID="{681B7F8E-65ED-4064-9A1F-2CA3C125F476}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="Small_Monster_Spin" ID="{CBF0FFF8-779C-4C12-A09D-26A985600D7A}"/>
+										<ItemRef Name="Small_Monster_Spin_01" ID="{8229D481-C702-477A-BA39-9C09DB3D2EB7}"/>
+									</Playlist>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Big_Monster" ID="{BA2165CE-9D6A-4FC1-9485-4347BA173F84}" ShortID="1058463173">
