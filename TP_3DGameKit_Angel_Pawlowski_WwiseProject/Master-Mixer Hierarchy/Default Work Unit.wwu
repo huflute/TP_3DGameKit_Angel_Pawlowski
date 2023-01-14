@@ -14,37 +14,53 @@
 							<PropertyList>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
+							<ChildrenList>
+								<AuxBus Name="Reverb_LargeRoom" ID="{AA9213C8-6F34-4962-A867-3439C1AE1205}">
+									<PropertyList>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+										<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+									</PropertyList>
+								</AuxBus>
+								<AuxBus Name="Reverb_SmallRoom" ID="{C73322AB-7FAF-4193-A1FC-3D16E147C49A}">
+									<PropertyList>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+										<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+									</PropertyList>
+								</AuxBus>
+								<AuxBus Name="Reverb_Ruins" ID="{B0D8F9F3-DA70-405D-B026-8775E895FBB4}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
+											<ObjectRef Name="Ruins_ConvoVerb" ID="{44D9BDFD-1405-4B0E-8424-D83315BE0A72}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+								<AuxBus Name="Reverb_Swamp" ID="{1E75FED6-7714-48B5-A485-6E4ECE71F681}">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
+											<ObjectRef Name="Swamp_ConvoVerb" ID="{7D94DA72-A69A-4657-90B0-243AF76C856F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="Effect1" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+											<ObjectRef Name="Echoes_Linear" ID="{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+								<AuxBus Name="Reverb_HiddenPlace" ID="{1AD21551-D5E8-4469-B559-0801EB75567B}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
+											<ObjectRef Name="HiddenPlace_ConvoVerb" ID="{B3FA61E5-ABBF-4838-B299-6CB834D2D9BD}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="Effect1" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+											<ObjectRef Name="Echoes_Linear" ID="{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+							</ChildrenList>
 						</Bus>
 						<Bus Name="UI" ID="{F2D986C7-FA27-434C-B97E-E82F5593161E}"/>
-						<AuxBus Name="Reverb_LargeRoom" ID="{AA9213C8-6F34-4962-A867-3439C1AE1205}">
-							<PropertyList>
-								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
-								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
-							</PropertyList>
-						</AuxBus>
-						<AuxBus Name="Reverb_SmallRoom" ID="{C73322AB-7FAF-4193-A1FC-3D16E147C49A}">
-							<PropertyList>
-								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
-								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
-							</PropertyList>
-						</AuxBus>
-						<AuxBus Name="Reverb_Ruins" ID="{B0D8F9F3-DA70-405D-B026-8775E895FBB4}">
-							<ReferenceList>
-								<Reference Name="Effect0" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
-									<ObjectRef Name="Ruins_ConvoVerb" ID="{44D9BDFD-1405-4B0E-8424-D83315BE0A72}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-								</Reference>
-							</ReferenceList>
-						</AuxBus>
-						<AuxBus Name="Reverb_Swamp" ID="{1E75FED6-7714-48B5-A485-6E4ECE71F681}">
-							<PropertyList>
-								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Effect0" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
-									<ObjectRef Name="Swamp_ConvoVerb" ID="{7D94DA72-A69A-4657-90B0-243AF76C856F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-								</Reference>
-							</ReferenceList>
-						</AuxBus>
+						<Bus Name="Non_Environmental" ID="{87DA3071-A648-414E-B9A2-413CCC6F30B9}"/>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

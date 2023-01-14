@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 0c74f2e5d4330e46bfec07c1b154966f
     GuidInternal: 
-    m_lastTime: -8585279555891349033
+    m_lastTime: -8585279121554148453
     List:
     - name: Environmental
       guid: eda45d6dcc045d47a639edc09c76d74c
@@ -71,6 +71,43 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Non_Environmental
+      guid: 7130da8748a64e41b9a2413ccc6f30b9
+      id: 1393189531
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0c74f2e5d4330e46bfec07c1b154966f
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Non_Environmental
+        ObjectType: 2
+        guid: 7130da8748a64e41b9a2413ccc6f30b9
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Non_Environmental
+    - name: Reverb_HiddenPlace
+      guid: 5115d21ae8d56944b5590801eb75567b
+      id: 198700405
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0c74f2e5d4330e46bfec07c1b154966f
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Environmental
+        ObjectType: 2
+        guid: eda45d6dcc045d47a639edc09c76d74c
+      - ElementName: Reverb_HiddenPlace
+        ObjectType: 1
+        guid: 5115d21ae8d56944b5590801eb75567b
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Environmental\Reverb_HiddenPlace
     - name: Reverb_LargeRoom
       guid: c81392aa346f6249a8673439c1ae1205
       id: 591468168
@@ -84,10 +121,13 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Environmental
+        ObjectType: 2
+        guid: eda45d6dcc045d47a639edc09c76d74c
       - ElementName: Reverb_LargeRoom
         ObjectType: 1
         guid: c81392aa346f6249a8673439c1ae1205
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_LargeRoom
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Environmental\Reverb_LargeRoom
     - name: Reverb_Ruins
       guid: f3f9d8b070da5d40b0268775e895fbb4
       id: 563644569
@@ -101,10 +141,13 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Environmental
+        ObjectType: 2
+        guid: eda45d6dcc045d47a639edc09c76d74c
       - ElementName: Reverb_Ruins
         ObjectType: 1
         guid: f3f9d8b070da5d40b0268775e895fbb4
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Ruins
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Environmental\Reverb_Ruins
     - name: Reverb_SmallRoom
       guid: ab2233c7af7f9341a1fc3d16e147c49a
       id: 3292698384
@@ -118,10 +161,13 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Environmental
+        ObjectType: 2
+        guid: eda45d6dcc045d47a639edc09c76d74c
       - ElementName: Reverb_SmallRoom
         ObjectType: 1
         guid: ab2233c7af7f9341a1fc3d16e147c49a
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_SmallRoom
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Environmental\Reverb_SmallRoom
     - name: Reverb_Swamp
       guid: d6fe751e1477b548a4856e4ece71f681
       id: 3298723492
@@ -135,10 +181,13 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Environmental
+        ObjectType: 2
+        guid: eda45d6dcc045d47a639edc09c76d74c
       - ElementName: Reverb_Swamp
         ObjectType: 1
         guid: d6fe751e1477b548a4856e4ece71f681
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Swamp
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Environmental\Reverb_Swamp
     - name: UI
       guid: c786d9f227fa4c43b97ee82f5593161e
       id: 1551306167
@@ -168,7 +217,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8ff7bc971ac3be4d91a175ce8a07a45d
     GuidInternal: 
-    m_lastTime: -8585279586328120710
+    m_lastTime: -8585279121315200435
     List:
     - name: AMB
       guid: 6d1a6435ebfdec4b818517836a1ef9ba
@@ -322,7 +371,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 58301ae271a98d46974f6accc96184fa
     GuidInternal: 
-    m_lastTime: -8585279597727556344
+    m_lastTime: -8585279173021163851
     List:
     - name: AMB
       guid: 7eacccb593e71341878dd5280afd656f
@@ -2897,7 +2946,7 @@ MonoBehaviour:
     m_lastTime: -8585284015674119453
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0200000003000000050000000f0000001300000014000000150000001f00000023000000e8af0200
+  ExpandedWaapiItemIds: 01000000020000000300000004000000050000000f0000001300000014000000150000001f00000023000000290000002a000000e8af0200
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -174,11 +174,13 @@ namespace AK
     {
         static const AkUniqueID ENVIRONMENTAL = 1973600711U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID NON_ENVIRONMENTAL = 1393189531U;
         static const AkUniqueID UI = 1551306167U;
     } // namespace BUSSES
 
     namespace AUX_BUSSES
     {
+        static const AkUniqueID REVERB_HIDDENPLACE = 198700405U;
         static const AkUniqueID REVERB_LARGEROOM = 591468168U;
         static const AkUniqueID REVERB_RUINS = 563644569U;
         static const AkUniqueID REVERB_SMALLROOM = 3292698384U;

@@ -60,6 +60,8 @@
 						<CurrentStateRef Name="None" ID="{DAEF4D86-DD11-4E01-8210-144706FA9D82}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Chomper" ID="{818C60C8-72CC-4FB7-94C2-B1789001FE98}"/>
+						<CurrentSwitchRef Name="FirstHalf" ID="{BBBFCCD2-7517-4B82-812D-2356F0173CF3}"/>
 						<CurrentSwitchRef Name="Default" ID="{41B011E9-AA5B-4922-8FEB-1CF3350247F5}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>

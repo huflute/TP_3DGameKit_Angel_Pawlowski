@@ -10,11 +10,12 @@
 				<ActorMixer Name="MC" ID="{61F59C7A-644D-4449-834B-6DF23EA0FC23}" ShortID="897317898">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="10m" ID="{7B55A2EC-035A-4F2D-ABF0-2DBDBF6B0BDE}" WorkUnitID="{B378FA7B-E709-4147-8665-F99F8F07F9BC}"/>
+							<ObjectRef Name="MC" ID="{2E5669C9-6F4D-481C-BC36-9832F70C972D}" WorkUnitID="{B378FA7B-E709-4147-8665-F99F8F07F9BC}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
@@ -38,7 +39,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+									<ObjectRef Name="Non_Environmental" ID="{87DA3071-A648-414E-B9A2-413CCC6F30B9}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -794,9 +795,6 @@
 									</ReferenceList>
 									<ChildrenList>
 										<RandomSequenceContainer Name="MC_Run_Grass" ID="{D47C48ED-A64E-4C91-B117-CBF83EBA6067}" ShortID="901239375">
-											<PropertyList>
-												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
-											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>

@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="181270742" Type="User" Language="SFX" Hash="{C3A76F6B-8856-A505-F919-E059936E8921}">
+		<SoundBank Id="181270742" Type="User" Language="SFX" Hash="{B3C79BAF-7DF1-D6AE-AF10-622AE78741E1}">
 			<ShortName>Interactables</ShortName>
 			<Path>Interactables.bnk</Path>
 			<Media>
@@ -40,7 +40,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{4FD075DE-3521-BA2D-07C3-DE95BD7A37D6}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{4908E092-22E5-0445-93B9-033D07D10A8B}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
@@ -120,23 +120,41 @@
 				<Event Id="2863201769" Name="Stop_Teleporter_Idle" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{FB94D213-3B39-4575-915C-560202218E88}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{DF267817-EEEC-21FD-D972-29D86108BF8E}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Media>
+				<File Id="310598016" Language="SFX" Streaming="false" Location="OtherBank">
+					<ShortName>Valley, Low, Forest 30m.wav</ShortName>
+					<CachePath>Plugins/Wwise Convolution Reverb/Valley, Low, Forest 30m_9C1F71D7.wem</CachePath>
+				</File>
+				<File Id="873074497" Language="SFX" Streaming="false" Location="OtherBank">
+					<ShortName>Urban, Open Industrial Street 10m.wav</ShortName>
+					<CachePath>Plugins/Wwise Convolution Reverb/Urban, Open Industrial Street 10m_C7D6AA76.wem</CachePath>
+				</File>
 				<File Id="1004851595" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>Field, Surround by Trees 10m.wav</ShortName>
-					<CachePath>Plugins/Wwise Convolution Reverb/Field, Surround by Trees 10m_FEE7311B.wem</CachePath>
+					<CachePath>Plugins/Wwise Convolution Reverb/Field, Surround by Trees 10m_DF5C0B1A.wem</CachePath>
 				</File>
 			</Media>
 			<Plugins>
 				<ShareSets>
+					<Plugin Id="592539189" Name="HiddenPlace_ConvoVerb" LibName="Wwise Convolution Reverb" LibId="8323075">
+						<MediaRefs>
+							<MediaRef Id="873074497"/>
+						</MediaRefs>
+					</Plugin>
+					<Plugin Id="1588715066" Name="Echoes_Linear" LibName="Wwise Delay" LibId="6946819"/>
 					<Plugin Id="2940440228" Name="Swamp_ConvoVerb" LibName="Wwise Convolution Reverb" LibId="8323075">
 						<MediaRefs>
 							<MediaRef Id="1004851595"/>
 						</MediaRefs>
 					</Plugin>
-					<Plugin Id="3332746565" Name="Ruins_ConvoVerb" LibName="Wwise Convolution Reverb" LibId="8323075"/>
+					<Plugin Id="3332746565" Name="Ruins_ConvoVerb" LibName="Wwise Convolution Reverb" LibId="8323075">
+						<MediaRefs>
+							<MediaRef Id="310598016"/>
+						</MediaRefs>
+					</Plugin>
 				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
@@ -144,11 +162,20 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="1393189531" Name="Non_Environmental"/>
 				<Bus Id="1551306167" Name="UI"/>
 				<Bus Id="1973600711" Name="Environmental"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 			<AuxBusses>
+				<AuxBus Id="198700405" Name="Reverb_HiddenPlace">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="592539189"/>
+							<PluginRef Id="1588715066"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
 				<AuxBus Id="563644569" Name="Reverb_Ruins">
 					<PluginRefs>
 						<ShareSets>
@@ -161,6 +188,7 @@
 				<AuxBus Id="3298723492" Name="Reverb_Swamp">
 					<PluginRefs>
 						<ShareSets>
+							<PluginRef Id="1588715066"/>
 							<PluginRef Id="2940440228"/>
 						</ShareSets>
 					</PluginRefs>
@@ -296,7 +324,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{5F861923-BF73-39C0-BB49-597B8011A0C5}">
+		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{861311E4-BBA4-E38F-1975-47D976BE3868}">
 			<ShortName>MC</ShortName>
 			<Path>MC.bnk</Path>
 			<Media>
@@ -676,7 +704,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="4094144955" Name="Play_MC_FOL_Attack" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.22108333" DurationMax="0.31452084">
+				<Event Id="4094144955" Name="Play_MC_FOL_Attack" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.22108333" DurationMax="0.31452084">
 					<MediaRefs>
 						<MediaRef Id="81104124"/>
 						<MediaRef Id="136819288"/>
@@ -685,7 +713,7 @@
 						<MediaRef Id="620917797"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3212184235" Name="Play_MC_FOL_Jump" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.26666668" DurationMax="0.33333334">
+				<Event Id="3212184235" Name="Play_MC_FOL_Jump" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.26666668" DurationMax="0.33333334">
 					<MediaRefs>
 						<MediaRef Id="351188196"/>
 						<MediaRef Id="593204815"/>
@@ -694,7 +722,7 @@
 						<MediaRef Id="911638995"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2037670792" Name="Play_MC_FOL_Land" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.13333334" DurationMax="0.33333334">
+				<Event Id="2037670792" Name="Play_MC_FOL_Land" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.13333334" DurationMax="0.33333334">
 					<MediaRefs>
 						<MediaRef Id="399770579"/>
 						<MediaRef Id="526613580"/>
@@ -703,12 +731,12 @@
 						<MediaRef Id="1001819051"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1540365902" Name="Play_MC_FOL_Roll" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.47641668" DurationMax="0.47641668">
+				<Event Id="1540365902" Name="Play_MC_FOL_Roll" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.47641668" DurationMax="0.47641668">
 					<MediaRefs>
 						<MediaRef Id="700888953"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="733683298" Name="Play_MC_FOL_Run" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.2" DurationMax="0.3">
+				<Event Id="733683298" Name="Play_MC_FOL_Run" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.2" DurationMax="0.3">
 					<MediaRefs>
 						<MediaRef Id="486080740"/>
 						<MediaRef Id="592194566"/>
@@ -718,7 +746,7 @@
 						<MediaRef Id="824456465"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3022734957" Name="Play_MC_Jump" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.26666668" DurationMax="0.99372965">
+				<Event Id="3022734957" Name="Play_MC_Jump" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.26666668" DurationMax="0.99372965">
 					<MediaRefs>
 						<MediaRef Id="220234999"/>
 						<MediaRef Id="251333807"/>
@@ -763,7 +791,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1593937298" Name="Play_MC_Land" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.31135052" DurationMax="0.9520115">
+				<Event Id="1593937298" Name="Play_MC_Land" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.31135052" DurationMax="0.9520115">
 					<MediaRefs>
 						<MediaRef Id="399770579"/>
 						<MediaRef Id="526613580"/>
@@ -804,7 +832,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1213444204" Name="Play_MC_Roll" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.5602083" DurationMax="0.8333125">
+				<Event Id="1213444204" Name="Play_MC_Roll" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.5602083" DurationMax="0.8333125">
 					<MediaRefs>
 						<MediaRef Id="700888953"/>
 					</MediaRefs>
@@ -829,7 +857,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1600895284" Name="Play_MC_Run" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.34733334" DurationMax="0.51">
+				<Event Id="1600895284" Name="Play_MC_Run" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.34733334" DurationMax="0.51">
 					<MediaRefs>
 						<MediaRef Id="486080740"/>
 						<MediaRef Id="592194566"/>
@@ -874,25 +902,25 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1600902502" Name="Play_MC_Shield" MaxAttenuation="10" DurationType="Infinite">
+				<Event Id="1600902502" Name="Play_MC_Shield" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="352425399"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="951255116" Name="Play_MC_Shield_Off" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.8924792" DurationMax="0.97908336">
+				<Event Id="951255116" Name="Play_MC_Shield_Off" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.8924792" DurationMax="0.97908336">
 					<MediaRefs>
 						<MediaRef Id="211133519"/>
 						<MediaRef Id="718603498"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="634444711" Name="Play_MC_Vox_Death" MaxAttenuation="10" DurationType="OneShot" DurationMin="1.0957917" DurationMax="1.5">
+				<Event Id="634444711" Name="Play_MC_Vox_Death" MaxAttenuation="20" DurationType="OneShot" DurationMin="1.0957917" DurationMax="1.5">
 					<MediaRefs>
 						<MediaRef Id="22562009"/>
 						<MediaRef Id="353292285"/>
 						<MediaRef Id="689098470"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3917663999" Name="Play_MC_Vox_Pain" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.34072918" DurationMax="0.53420836">
+				<Event Id="3917663999" Name="Play_MC_Vox_Pain" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.34072918" DurationMax="0.53420836">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2137943" Id="390830094"/>
@@ -935,7 +963,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{FD016086-9CC6-8984-0BA0-0A73E6D47C06}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{EE492D95-B328-6FDC-5497-C389497386A2}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -2183,7 +2211,7 @@
 						<MediaRef Id="312669986"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="414086918" Name="Play_Grenadier_Breath" MaxAttenuation="20" DurationType="OneShot" DurationMin="0" DurationMax="0.7842917">
+				<Event Id="414086918" Name="Play_Grenadier_Breath" MaxAttenuation="10" DurationType="OneShot" DurationMin="0" DurationMax="0.7842917">
 					<MediaRefs>
 						<MediaRef Id="98037581"/>
 						<MediaRef Id="172098297"/>
@@ -2192,18 +2220,18 @@
 						<MediaRef Id="958958097"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="480351787" Name="Play_Grenadier_CloseRangeAttack" MaxAttenuation="20" DurationType="OneShot" DurationMin="1.4433334" DurationMax="1.4433334">
+				<Event Id="480351787" Name="Play_Grenadier_CloseRangeAttack" MaxAttenuation="10" DurationType="OneShot" DurationMin="1.4433334" DurationMax="1.4433334">
 					<MediaRefs>
 						<MediaRef Id="177781794"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3337034902" Name="Play_Grenadier_Death" MaxAttenuation="20" DurationType="OneShot" DurationMin="6.01" DurationMax="6.01">
+				<Event Id="3337034902" Name="Play_Grenadier_Death" MaxAttenuation="10" DurationType="OneShot" DurationMin="6.01" DurationMax="6.01">
 					<MediaRefs>
 						<MediaRef Id="489302531"/>
 						<MediaRef Id="654540544"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3960845230" Name="Play_Grenadier_FT_Heavy" MaxAttenuation="20" DurationType="OneShot" DurationMin="1.1628333" DurationMax="1.2421042">
+				<Event Id="3960845230" Name="Play_Grenadier_FT_Heavy" MaxAttenuation="10" DurationType="OneShot" DurationMin="1.1628333" DurationMax="1.2421042">
 					<MediaRefs>
 						<MediaRef Id="148697940"/>
 						<MediaRef Id="498578692"/>
@@ -2212,7 +2240,7 @@
 						<MediaRef Id="1050931803"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3213589888" Name="Play_Grenadier_FT_Normal" MaxAttenuation="20" DurationType="OneShot" DurationMin="1.145" DurationMax="1.4290209">
+				<Event Id="3213589888" Name="Play_Grenadier_FT_Normal" MaxAttenuation="10" DurationType="OneShot" DurationMin="1.145" DurationMax="1.4290209">
 					<MediaRefs>
 						<MediaRef Id="271025119"/>
 						<MediaRef Id="272629040"/>
@@ -2221,7 +2249,7 @@
 						<MediaRef Id="924397688"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="965282871" Name="Play_Grenadier_Hit" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.51" DurationMax="0.80839586">
+				<Event Id="965282871" Name="Play_Grenadier_Hit" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.51" DurationMax="0.80839586">
 					<MediaRefs>
 						<MediaRef Id="87063364"/>
 						<MediaRef Id="181052669"/>
@@ -2232,12 +2260,12 @@
 						<MediaRef Id="826405583"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1067947400" Name="Play_Grenadier_MeleeAttack" MaxAttenuation="20" DurationType="OneShot" DurationMin="2.867" DurationMax="2.867">
+				<Event Id="1067947400" Name="Play_Grenadier_MeleeAttack" MaxAttenuation="10" DurationType="OneShot" DurationMin="2.867" DurationMax="2.867">
 					<MediaRefs>
 						<MediaRef Id="717488809"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2354689276" Name="Play_Grenadier_Movement_Fast" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.77666664" DurationMax="1.01">
+				<Event Id="2354689276" Name="Play_Grenadier_Movement_Fast" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.77666664" DurationMax="1.01">
 					<MediaRefs>
 						<MediaRef Id="288158660"/>
 						<MediaRef Id="344802205"/>
@@ -2246,7 +2274,7 @@
 						<MediaRef Id="822059773"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3428007485" Name="Play_Grenadier_Movement_Slow" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.7723542" DurationMax="1.1212292">
+				<Event Id="3428007485" Name="Play_Grenadier_Movement_Slow" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.7723542" DurationMax="1.1212292">
 					<MediaRefs>
 						<MediaRef Id="67000485"/>
 						<MediaRef Id="508809202"/>
@@ -2278,28 +2306,28 @@
 						<MediaRef Id="716956389"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="332846454" Name="Play_Grenadier_RangeAttack01" MaxAttenuation="20" DurationType="OneShot" DurationMin="4.6766667" DurationMax="4.6766667">
+				<Event Id="332846454" Name="Play_Grenadier_RangeAttack01" MaxAttenuation="10" DurationType="OneShot" DurationMin="4.6766667" DurationMax="4.6766667">
 					<MediaRefs>
 						<MediaRef Id="265888824"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="332846453" Name="Play_Grenadier_RangeAttack02" MaxAttenuation="20" DurationType="OneShot" DurationMin="2.617854" DurationMax="2.617854">
+				<Event Id="332846453" Name="Play_Grenadier_RangeAttack02" MaxAttenuation="10" DurationType="OneShot" DurationMin="2.617854" DurationMax="2.617854">
 					<MediaRefs>
 						<MediaRef Id="716032296"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3223279121" Name="Play_Grenadier_Shield_Activate" MaxAttenuation="20" DurationType="OneShot" DurationMin="14.500167" DurationMax="14.500167">
+				<Event Id="3223279121" Name="Play_Grenadier_Shield_Activate" MaxAttenuation="10" DurationType="OneShot" DurationMin="14.500167" DurationMax="14.500167">
 					<MediaRefs>
 						<MediaRef Id="286140764"/>
 						<MediaRef Id="1049398184"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1796460897" Name="Play_Grenadier_Shield_Desactivate" MaxAttenuation="20" DurationType="OneShot" DurationMin="2.9323125" DurationMax="2.9323125">
+				<Event Id="1796460897" Name="Play_Grenadier_Shield_Desactivate" MaxAttenuation="10" DurationType="OneShot" DurationMin="2.9323125" DurationMax="2.9323125">
 					<MediaRefs>
 						<MediaRef Id="230695425"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1550439253" Name="Play_Grenadier_Shoot" MaxAttenuation="20" DurationType="OneShot" DurationMin="1.8971872" DurationMax="2.129521">
+				<Event Id="1550439253" Name="Play_Grenadier_Shoot" MaxAttenuation="10" DurationType="OneShot" DurationMin="1.8971872" DurationMax="2.129521">
 					<MediaRefs>
 						<MediaRef Id="280300093"/>
 						<MediaRef Id="343560498"/>
@@ -2318,7 +2346,7 @@
 						<MediaRef Id="758354779"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4094144955" Name="Play_MC_FOL_Attack" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.22108333" DurationMax="0.31452084">
+				<Event Id="4094144955" Name="Play_MC_FOL_Attack" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.22108333" DurationMax="0.31452084">
 					<MediaRefs>
 						<MediaRef Id="81104124"/>
 						<MediaRef Id="136819288"/>
@@ -2327,7 +2355,7 @@
 						<MediaRef Id="620917797"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3212184235" Name="Play_MC_FOL_Jump" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.26666668" DurationMax="0.33333334">
+				<Event Id="3212184235" Name="Play_MC_FOL_Jump" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.26666668" DurationMax="0.33333334">
 					<MediaRefs>
 						<MediaRef Id="351188196"/>
 						<MediaRef Id="593204815"/>
@@ -2336,7 +2364,7 @@
 						<MediaRef Id="911638995"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2037670792" Name="Play_MC_FOL_Land" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.13333334" DurationMax="0.33333334">
+				<Event Id="2037670792" Name="Play_MC_FOL_Land" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.13333334" DurationMax="0.33333334">
 					<MediaRefs>
 						<MediaRef Id="399770579"/>
 						<MediaRef Id="526613580"/>
@@ -2345,12 +2373,12 @@
 						<MediaRef Id="1001819051"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1540365902" Name="Play_MC_FOL_Roll" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.47641668" DurationMax="0.47641668">
+				<Event Id="1540365902" Name="Play_MC_FOL_Roll" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.47641668" DurationMax="0.47641668">
 					<MediaRefs>
 						<MediaRef Id="700888953"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="733683298" Name="Play_MC_FOL_Run" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.2" DurationMax="0.3">
+				<Event Id="733683298" Name="Play_MC_FOL_Run" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.2" DurationMax="0.3">
 					<MediaRefs>
 						<MediaRef Id="486080740"/>
 						<MediaRef Id="592194566"/>
@@ -2360,7 +2388,7 @@
 						<MediaRef Id="824456465"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3022734957" Name="Play_MC_Jump" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.26666668" DurationMax="0.99372965">
+				<Event Id="3022734957" Name="Play_MC_Jump" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.26666668" DurationMax="0.99372965">
 					<MediaRefs>
 						<MediaRef Id="220234999"/>
 						<MediaRef Id="251333807"/>
@@ -2405,7 +2433,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1593937298" Name="Play_MC_Land" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.31135052" DurationMax="0.9520115">
+				<Event Id="1593937298" Name="Play_MC_Land" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.31135052" DurationMax="0.9520115">
 					<MediaRefs>
 						<MediaRef Id="399770579"/>
 						<MediaRef Id="526613580"/>
@@ -2446,7 +2474,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1213444204" Name="Play_MC_Roll" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.5602083" DurationMax="0.8333125">
+				<Event Id="1213444204" Name="Play_MC_Roll" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.5602083" DurationMax="0.8333125">
 					<MediaRefs>
 						<MediaRef Id="700888953"/>
 					</MediaRefs>
@@ -2471,7 +2499,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1600895284" Name="Play_MC_Run" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.34733334" DurationMax="0.51">
+				<Event Id="1600895284" Name="Play_MC_Run" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.34733334" DurationMax="0.51">
 					<MediaRefs>
 						<MediaRef Id="486080740"/>
 						<MediaRef Id="592194566"/>
@@ -2516,25 +2544,25 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1600902502" Name="Play_MC_Shield" MaxAttenuation="10" DurationType="Infinite">
+				<Event Id="1600902502" Name="Play_MC_Shield" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="352425399"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="951255116" Name="Play_MC_Shield_Off" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.8924792" DurationMax="0.97908336">
+				<Event Id="951255116" Name="Play_MC_Shield_Off" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.8924792" DurationMax="0.97908336">
 					<MediaRefs>
 						<MediaRef Id="211133519"/>
 						<MediaRef Id="718603498"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="634444711" Name="Play_MC_Vox_Death" MaxAttenuation="10" DurationType="OneShot" DurationMin="1.0957917" DurationMax="1.5">
+				<Event Id="634444711" Name="Play_MC_Vox_Death" MaxAttenuation="20" DurationType="OneShot" DurationMin="1.0957917" DurationMax="1.5">
 					<MediaRefs>
 						<MediaRef Id="22562009"/>
 						<MediaRef Id="353292285"/>
 						<MediaRef Id="689098470"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3917663999" Name="Play_MC_Vox_Pain" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.34072918" DurationMax="0.53420836">
+				<Event Id="3917663999" Name="Play_MC_Vox_Pain" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.34072918" DurationMax="0.53420836">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2137943" Id="390830094"/>
@@ -2968,7 +2996,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3202316517" Type="User" Language="SFX" Hash="{E93FC68B-D318-E9ED-D2CF-D2A729FDC7DD}">
+		<SoundBank Id="3202316517" Type="User" Language="SFX" Hash="{A1635551-6DC4-A566-9CCB-EF291666B592}">
 			<ShortName>Switch</ShortName>
 			<Path>Switch.bnk</Path>
 			<Media>
@@ -3028,27 +3056,44 @@
 				<Event Id="3416772595" Name="Stop_Switch_Stone_Idle" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3251668866" Type="User" Language="SFX" Hash="{420E3181-4F54-5C70-6596-8A512667BD5D}">
+		<SoundBank Id="3251668866" Type="User" Language="SFX" Hash="{71BC7FFF-71C0-ECAB-5149-1A4A24D2C3B1}">
 			<ShortName>ConvoReverb</ShortName>
 			<Path>ConvoReverb.bnk</Path>
 			<Media>
+				<File Id="310598016" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Valley, Low, Forest 30m.wav</ShortName>
+					<CachePath>Plugins/Wwise Convolution Reverb/Valley, Low, Forest 30m_9C1F71D7.wem</CachePath>
+				</File>
+				<File Id="873074497" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Urban, Open Industrial Street 10m.wav</ShortName>
+					<CachePath>Plugins/Wwise Convolution Reverb/Urban, Open Industrial Street 10m_C7D6AA76.wem</CachePath>
+				</File>
 				<File Id="1004851595" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Field, Surround by Trees 10m.wav</ShortName>
-					<CachePath>Plugins/Wwise Convolution Reverb/Field, Surround by Trees 10m_FEE7311B.wem</CachePath>
+					<CachePath>Plugins/Wwise Convolution Reverb/Field, Surround by Trees 10m_DF5C0B1A.wem</CachePath>
 				</File>
 			</Media>
 			<Plugins>
 				<ShareSets>
+					<Plugin Id="592539189" Name="HiddenPlace_ConvoVerb" LibName="Wwise Convolution Reverb" LibId="8323075">
+						<MediaRefs>
+							<MediaRef Id="873074497"/>
+						</MediaRefs>
+					</Plugin>
 					<Plugin Id="2940440228" Name="Swamp_ConvoVerb" LibName="Wwise Convolution Reverb" LibId="8323075">
 						<MediaRefs>
 							<MediaRef Id="1004851595"/>
 						</MediaRefs>
 					</Plugin>
-					<Plugin Id="3332746565" Name="Ruins_ConvoVerb" LibName="Wwise Convolution Reverb" LibId="8323075"/>
+					<Plugin Id="3332746565" Name="Ruins_ConvoVerb" LibName="Wwise Convolution Reverb" LibId="8323075">
+						<MediaRefs>
+							<MediaRef Id="310598016"/>
+						</MediaRefs>
+					</Plugin>
 				</ShareSets>
 			</Plugins>
 		</SoundBank>
-		<SoundBank Id="3893417221" Type="User" Language="SFX" Hash="{8E12D082-AA20-EEE4-1D3C-CCCDA9DAE49F}">
+		<SoundBank Id="3893417221" Type="User" Language="SFX" Hash="{B588F80C-23BB-012A-3F34-8D90A9861989}">
 			<ShortName>Weapon</ShortName>
 			<Path>Weapon.bnk</Path>
 			<Media>
@@ -3224,7 +3269,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{F2D18EA4-85A4-0CA5-DA58-AE3D6661C95D}">
+		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{1F52561B-B703-302E-265E-3A0D01116C7E}">
 			<ShortName>Small_Monsters</ShortName>
 			<Path>Small_Monsters.bnk</Path>
 			<Media>
@@ -3896,5 +3941,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C57E41C4-8A35-8546-77FF-25B03B39A9BA}</FileHash>
+	<FileHash>{23179B0A-CFD2-E0D7-C2A3-CC7BD62E6E10}</FileHash>
 </SoundBanksInfo>
