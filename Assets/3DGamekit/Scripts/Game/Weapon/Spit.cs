@@ -12,6 +12,7 @@ namespace Gamekit3D
             base.OnCollisionEnter(other);
 
             if(explosionTimer < 0)
+                //Rajouter un son d'explosion
                 Explosion();
         }
     }

@@ -51,7 +51,10 @@ namespace Gamekit3D
             m_RigidBody.collisionDetectionMode = CollisionDetectionMode.Discrete;
             m_RigidBody.isKinematic = true;
             m_SinceFired = 0.0f;
+            if (this.gameObject.name == "EnergyGrenade")
             AkSoundEngine.PostEvent("Play_Grenadier_Projectile_Idle", gameObject);
+            if (this.gameObject.name == "Spit")
+                AkSoundEngine.PostEvent("Play_Spitball_Loop", gameObject);
         }
 
         public override void Shot(Vector3 target, RangeWeapon shooter)
