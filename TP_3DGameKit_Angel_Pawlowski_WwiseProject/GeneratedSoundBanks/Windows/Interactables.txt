@@ -3,7 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3862797904	Play_HealthCrate_Open			\Default Work Unit\Interactables\HealthCrate\Play_HealthCrate_Open	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	65836423	HealthCrate_Idle	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\HealthCrate_Idle_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\PROPS\HealthCrate\HealthCrate_Idle		5505216
-	483726968	HealthCrate_Open_M	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\HeallthCrate_Open_3D_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PROPS\HealthCrate\HealthCrate_Open_M		145056
-	758354779	HealthCrate_Open_ST	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\HealthCrate_Open_2D_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PROPS\HealthCrate\HealthCrate_Open_ST		482016
+	65836423	HealthCrate_Idle	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\HealthCrate_Idle_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\PROPS\HealthCrate\HealthCrate_Idle		5505216
+	483726968	HealthCrate_Open_M	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\HeallthCrate_Open_3D_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PROPS\HealthCrate\HealthCrate_Open_M		145056
+	758354779	HealthCrate_Open_ST	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\HealthCrate_Open_2D_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PROPS\HealthCrate\HealthCrate_Open_ST		482016
 

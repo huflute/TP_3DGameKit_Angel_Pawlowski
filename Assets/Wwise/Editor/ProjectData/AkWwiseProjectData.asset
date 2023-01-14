@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 0c74f2e5d4330e46bfec07c1b154966f
     GuidInternal: 
-    m_lastTime: -8585279087487321095
+    m_lastTime: -8585278941537507933
     List:
     - name: Environmental
       guid: eda45d6dcc045d47a639edc09c76d74c
@@ -385,7 +385,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 58301ae271a98d46974f6accc96184fa
     GuidInternal: 
-    m_lastTime: -8585279054066379923
+    m_lastTime: -8585278925809773197
     List:
     - name: AMB
       guid: 7eacccb593e71341878dd5280afd656f
@@ -421,6 +421,23 @@ MonoBehaviour:
         ObjectType: 4
         guid: fc4cb787455e7b4fb47d7fdaae3312a2
       Path: Events\Default Work Unit\Monsters\Big_Monster
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: ChangingLevels
+      guid: f8eb79e7b79dfb4e98350556c287b63f
+      id: 3698065137
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: ChangingLevels
+        ObjectType: 4
+        guid: f8eb79e7b79dfb4e98350556c287b63f
+      Path: Events\Default Work Unit\ChangingLevels
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -461,6 +478,26 @@ MonoBehaviour:
         ObjectType: 4
         guid: 6d8100762caf5647b5de8fc6b47af08d
       Path: Events\Default Work Unit\Environment
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Fireflies
+      guid: 243dee98693bda4bb581f5356f77e6b2
+      id: 1126065684
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: Fireflies
+        ObjectType: 4
+        guid: 243dee98693bda4bb581f5356f77e6b2
+      Path: Events\Default Work Unit\Environment\Fireflies
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -598,29 +635,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_AMB_Loop_Wind_Gust_01
-      guid: d3ec83331059b341a45b95bc7de45feb
-      id: 2425561832
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 58301ae271a98d46974f6accc96184fa
-      - ElementName: AMB
-        ObjectType: 4
-        guid: 7eacccb593e71341878dd5280afd656f
-      - ElementName: Wind
-        ObjectType: 4
-        guid: aa92a7e37e1e00408443c995d723053b
-      - ElementName: Play_AMB_Loop_Wind_Gust_01
-        ObjectType: 3
-        guid: d3ec83331059b341a45b95bc7de45feb
-      Path: Events\Default Work Unit\AMB\Wind\Play_AMB_Loop_Wind_Gust_01
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
     - name: Play_AMB_SpaceShip
       guid: 64e85753134b0e47bdeae6373951b46b
       id: 3213331111
@@ -641,26 +655,6 @@ MonoBehaviour:
         ObjectType: 3
         guid: 64e85753134b0e47bdeae6373951b46b
       Path: Events\Default Work Unit\AMB\Spaceship\Play_AMB_SpaceShip
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Play_Amb_Swamp
-      guid: 06b93f0eabea674886af3c0d6ea08435
-      id: 1489882803
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 58301ae271a98d46974f6accc96184fa
-      - ElementName: AMB
-        ObjectType: 4
-        guid: 7eacccb593e71341878dd5280afd656f
-      - ElementName: Play_Amb_Swamp
-        ObjectType: 3
-        guid: 06b93f0eabea674886af3c0d6ea08435
-      Path: Events\Default Work Unit\AMB\Play_Amb_Swamp
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -713,6 +707,29 @@ MonoBehaviour:
         ObjectType: 3
         guid: 1bca687d75a5a34d8a089278a8504a38
       Path: Events\Default Work Unit\Monsters\Small_Monsters\VOX\Play_Chomper_VOX_Before_Attack
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Fireflies
+      guid: 577eba19b493d34a8c0b9ad2288892aa
+      id: 4161070465
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: Fireflies
+        ObjectType: 4
+        guid: 243dee98693bda4bb581f5356f77e6b2
+      - ElementName: Play_Fireflies
+        ObjectType: 3
+        guid: 577eba19b493d34a8c0b9ad2288892aa
+      Path: Events\Default Work Unit\Environment\Fireflies\Play_Fireflies
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1487,6 +1504,52 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Play_Amb_Locations
+      guid: b7e0b439419fb446aae64ee648a8f48b
+      id: 3839321632
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: AMB
+        ObjectType: 4
+        guid: 7eacccb593e71341878dd5280afd656f
+      - ElementName: Wind
+        ObjectType: 4
+        guid: aa92a7e37e1e00408443c995d723053b
+      - ElementName: Play_Play_Amb_Locations
+        ObjectType: 3
+        guid: b7e0b439419fb446aae64ee648a8f48b
+      Path: Events\Default Work Unit\AMB\Wind\Play_Play_Amb_Locations
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_RFX_Birds_Creatures
+      guid: 7ea98f19f9a0bf46be443eac33db205d
+      id: 624594268
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: Swamp
+        ObjectType: 4
+        guid: 34b817efeef2314bb6a2d552898b7958
+      - ElementName: Play_RFX_Birds_Creatures
+        ObjectType: 3
+        guid: 7ea98f19f9a0bf46be443eac33db205d
+      Path: Events\Default Work Unit\Environment\Swamp\Play_RFX_Birds_Creatures
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_RFX_Computer
       guid: 7bff4cc014fc7a4d96b059e4bff8a396
       id: 3056483954
@@ -2234,6 +2297,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Stop_All
+      guid: 88ef15848bb7df4c981bda14649ca124
+      id: 452547817
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: ChangingLevels
+        ObjectType: 4
+        guid: f8eb79e7b79dfb4e98350556c287b63f
+      - ElementName: Stop_All
+        ObjectType: 3
+        guid: 88ef15848bb7df4c981bda14649ca124
+      Path: Events\Default Work Unit\ChangingLevels\Stop_All
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Stop_AMB_SpaceShip
       guid: 48e568962025d7438c8012e4924ad0ea
       id: 3876046333
@@ -2257,6 +2340,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Stop_Fireflies
+      guid: 4e163b0960a989469efdf4b48a5ea641
+      id: 4099702875
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: Fireflies
+        ObjectType: 4
+        guid: 243dee98693bda4bb581f5356f77e6b2
+      - ElementName: Stop_Fireflies
+        ObjectType: 3
+        guid: 4e163b0960a989469efdf4b48a5ea641
+      Path: Events\Default Work Unit\Environment\Fireflies\Stop_Fireflies
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Stop_MC_Shield
       guid: 98c2600a1fd0f5419c354fa35ea5a5dc
       id: 616065004
@@ -2277,6 +2383,29 @@ MonoBehaviour:
         ObjectType: 3
         guid: 98c2600a1fd0f5419c354fa35ea5a5dc
       Path: Events\Default Work Unit\MC\Shield_Events\Stop_MC_Shield
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_RFX_Birds_Creatures
+      guid: 4b969004e95b26469995adce113dcc98
+      id: 3867827650
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: Swamp
+        ObjectType: 4
+        guid: 34b817efeef2314bb6a2d552898b7958
+      - ElementName: Stop_RFX_Birds_Creatures
+        ObjectType: 3
+        guid: 4b969004e95b26469995adce113dcc98
+      Path: Events\Default Work Unit\Environment\Swamp\Stop_RFX_Birds_Creatures
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -2360,6 +2489,26 @@ MonoBehaviour:
         ObjectType: 3
         guid: a8acc6fd6b94154688ba2f0138ca0887
       Path: Events\Default Work Unit\Environment\Teleporter\Stop_Teleporter_Idle
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Swamp
+      guid: 34b817efeef2314bb6a2d552898b7958
+      id: 2907906111
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: Swamp
+        ObjectType: 4
+        guid: 34b817efeef2314bb6a2d552898b7958
+      Path: Events\Default Work Unit\Environment\Swamp
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -2612,7 +2761,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: dde22e8dd084f74f8c90764d69789553
     GuidInternal: 
-    m_lastTime: -8585280042872792744
+    m_lastTime: -8585278941537456497
     List:
     - name: Location
       guid: 7f97309fc3fbc04e8ffd16b5de27f935
@@ -2629,6 +2778,38 @@ MonoBehaviour:
         guid: 7f97309fc3fbc04e8ffd16b5de27f935
       Path: States\Default Work Unit\Location
       values:
+      - name: Default
+        guid: 95b899b48fb38943aa794533eab0671d
+        id: 782826392
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dde22e8dd084f74f8c90764d69789553
+        - ElementName: Location
+          ObjectType: 9
+          guid: 7f97309fc3fbc04e8ffd16b5de27f935
+        - ElementName: Default
+          ObjectType: 8
+          guid: 95b899b48fb38943aa794533eab0671d
+      - name: HiddenPlace
+        guid: df17f6e027e0b04383fa85ff11bbe2de
+        id: 3329411914
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dde22e8dd084f74f8c90764d69789553
+        - ElementName: Location
+          ObjectType: 9
+          guid: 7f97309fc3fbc04e8ffd16b5de27f935
+        - ElementName: HiddenPlace
+          ObjectType: 8
+          guid: df17f6e027e0b04383fa85ff11bbe2de
       - name: None
         guid: 864defda11dd014e8210144706fa9d82
         id: 748895195
@@ -3021,7 +3202,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit\Environment
     guid: cca39cd7d1447a449542ac83600b4014
     GuidInternal: 
-    m_lastTime: -8585279054193390892
+    m_lastTime: -8585278941259892421
     List:
     - name: TimeOfDay
       guid: 574c3617317e9b499335d0b1f366c105

@@ -191,107 +191,11 @@
 										</BlendTrack>
 									</BlendTrackList>
 								</BlendContainer>
-								<RandomSequenceContainer Name="RFX_Day_Birds" ID="{97C6262E-7CB2-4F85-8D64-09345A696271}" ShortID="265212258">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="RFX_Day_Birds_01" ID="{37FB70C1-035E-4889-8126-82612F5461A7}" ShortID="287120975">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="RFX_Day_Birds_01" ID="{CE373C1D-AEB7-4EA2-AA77-36C704C8EB1B}">
-													<Language>SFX</Language>
-													<AudioFile>Export 14012023\RFX_Day_Birds_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="59354382"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="RFX_Day_Birds_01" ID="{CE373C1D-AEB7-4EA2-AA77-36C704C8EB1B}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="RFX_Day_Birds_02" ID="{62E96B0C-E7E9-4605-9009-262A7C820BE1}" ShortID="120940802">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="RFX_Day_Birds_02" ID="{282DEA69-9415-4792-BB1B-931ACF6728E3}">
-													<Language>SFX</Language>
-													<AudioFile>Export 14012023\RFX_Day_Birds_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="924773217"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="RFX_Day_Birds_02" ID="{282DEA69-9415-4792-BB1B-931ACF6728E3}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="RFX_Day_Birds_03" ID="{5FD66607-5509-44BA-87F0-3CA740ED3EB2}" ShortID="24291238">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="RFX_Day_Birds_03" ID="{08B15463-C1B0-4A24-BB55-1E4736E2FF11}">
-													<Language>SFX</Language>
-													<AudioFile>Export 14012023\RFX_Day_Birds_03.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="789814845"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="RFX_Day_Birds_03" ID="{08B15463-C1B0-4A24-BB55-1E4736E2FF11}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="RFX_Day_Birds_04" ID="{ECBA364F-F354-4A84-BB73-454E94BBE3CB}" ShortID="421924898">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="RFX_Day_Birds_04" ID="{42AE9A0C-731F-44C4-B149-D295F5DB5267}">
-													<Language>SFX</Language>
-													<AudioFile>Export 14012023\RFX_Day_Birds_04.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="825768107"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="RFX_Day_Birds_04" ID="{42AE9A0C-731F-44C4-B149-D295F5DB5267}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="RFX_Night_Small_Creature" ID="{CCFA3AF6-9492-4429-830F-B4F3F8CE104C}" ShortID="838563663">
+									<PropertyList>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
@@ -414,6 +318,10 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="RFX_Day_Insects" ID="{9F77CA19-2BDC-4B9C-82D4-CAF6C771DAF4}" ShortID="1029008244">
+									<PropertyList>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
@@ -535,8 +443,15 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="RFX_Nights_Creatures" ID="{D41834F2-F0DA-4819-B292-BC9FBDF58491}" ShortID="350212287">
+								<BlendContainer Name="RFX_Birds_Creatures" ID="{878A0CDA-E49B-411F-9DDB-9261978977EC}" ShortID="970482029">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Far_RFX" ID="{D3BB10EF-D857-46B4-865A-60F05D32EECD}" WorkUnitID="{B378FA7B-E709-4147-8665-F99F8F07F9BC}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
 										</Reference>
@@ -545,7 +460,32 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="RFX_Night_Creatures_01" ID="{8CB69FDB-C697-4FEC-8242-91D748978F12}" ShortID="891726253">
+										<RandomSequenceContainer Name="RFX_Day_Birds" ID="{97C6262E-7CB2-4F85-8D64-09345A696271}" ShortID="265212258">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{D3530F37-46A7-4F68-A334-6E5FBD107368}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="10"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
@@ -555,19 +495,125 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="RFX_Night_Creatures_01" ID="{C178CF3F-7268-4D53-BD3E-4708AC28417E}">
-													<Language>SFX</Language>
-													<AudioFile>Export 14012023\RFX_Night_Creatures_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="322899375"/>
-													</MediaIDList>
-												</AudioFileSource>
+												<Sound Name="RFX_Day_Birds_01" ID="{37FB70C1-035E-4889-8126-82612F5461A7}" ShortID="287120975">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="RFX_Day_Birds_01" ID="{CE373C1D-AEB7-4EA2-AA77-36C704C8EB1B}">
+															<Language>SFX</Language>
+															<AudioFile>Export 14012023\RFX_Day_Birds_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="59354382"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="RFX_Day_Birds_01" ID="{CE373C1D-AEB7-4EA2-AA77-36C704C8EB1B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="RFX_Day_Birds_02" ID="{62E96B0C-E7E9-4605-9009-262A7C820BE1}" ShortID="120940802">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="RFX_Day_Birds_02" ID="{282DEA69-9415-4792-BB1B-931ACF6728E3}">
+															<Language>SFX</Language>
+															<AudioFile>Export 14012023\RFX_Day_Birds_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="924773217"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="RFX_Day_Birds_02" ID="{282DEA69-9415-4792-BB1B-931ACF6728E3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="RFX_Day_Birds_03" ID="{5FD66607-5509-44BA-87F0-3CA740ED3EB2}" ShortID="24291238">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="RFX_Day_Birds_03" ID="{08B15463-C1B0-4A24-BB55-1E4736E2FF11}">
+															<Language>SFX</Language>
+															<AudioFile>Export 14012023\RFX_Day_Birds_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="789814845"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="RFX_Day_Birds_03" ID="{08B15463-C1B0-4A24-BB55-1E4736E2FF11}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="RFX_Day_Birds_04" ID="{ECBA364F-F354-4A84-BB73-454E94BBE3CB}" ShortID="421924898">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="RFX_Day_Birds_04" ID="{42AE9A0C-731F-44C4-B149-D295F5DB5267}">
+															<Language>SFX</Language>
+															<AudioFile>Export 14012023\RFX_Day_Birds_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="825768107"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="RFX_Day_Birds_04" ID="{42AE9A0C-731F-44C4-B149-D295F5DB5267}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="RFX_Night_Creatures_01" ID="{C178CF3F-7268-4D53-BD3E-4708AC28417E}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="RFX_Night_Creatures_02" ID="{41A99F84-4588-4098-AE88-776E6575FA73}" ShortID="908202858">
+											<PositioningInfo>
+												<Panner Name="" ID="{15CC688B-69B7-4357-8FD0-112B86F6D910}"/>
+											</PositioningInfo>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="RFX_Nights_Creatures" ID="{D41834F2-F0DA-4819-B292-BC9FBDF58491}" ShortID="350212287">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{D6B5C9B3-D029-4BF9-AE40-A9BAAA272A69}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="5"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
@@ -577,64 +623,142 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="RFX_Night_Creatures_02" ID="{B294F617-8E5C-4FA6-9C17-CE5241202E1C}">
-													<Language>SFX</Language>
-													<AudioFile>Export 14012023\RFX_Night_Creatures_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="286665868"/>
-													</MediaIDList>
-												</AudioFileSource>
+												<Sound Name="RFX_Night_Creatures_01" ID="{8CB69FDB-C697-4FEC-8242-91D748978F12}" ShortID="891726253">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="RFX_Night_Creatures_01" ID="{C178CF3F-7268-4D53-BD3E-4708AC28417E}">
+															<Language>SFX</Language>
+															<AudioFile>Export 14012023\RFX_Night_Creatures_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="322899375"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="RFX_Night_Creatures_01" ID="{C178CF3F-7268-4D53-BD3E-4708AC28417E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="RFX_Night_Creatures_02" ID="{41A99F84-4588-4098-AE88-776E6575FA73}" ShortID="908202858">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="RFX_Night_Creatures_02" ID="{B294F617-8E5C-4FA6-9C17-CE5241202E1C}">
+															<Language>SFX</Language>
+															<AudioFile>Export 14012023\RFX_Night_Creatures_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="286665868"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="RFX_Night_Creatures_02" ID="{B294F617-8E5C-4FA6-9C17-CE5241202E1C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="RFX_Night_Creatures_03" ID="{174A17BF-77BD-46B8-9183-09F927F653D9}" ShortID="569192111">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="RFX_Night_Creatures_03" ID="{CDC1C6D1-008F-4361-8040-7645573B0027}">
+															<Language>SFX</Language>
+															<AudioFile>Export 14012023\RFX_Night_Creatures_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="559747723"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="RFX_Night_Creatures_03" ID="{CDC1C6D1-008F-4361-8040-7645573B0027}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="RFX_Night_Creatures_04" ID="{9D6CC54A-ED21-4206-A290-66E7657663D8}" ShortID="822485337">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="RFX_Night_Creatures_04" ID="{ED53230A-936F-42D0-B98D-9903EBB2C2A1}">
+															<Language>SFX</Language>
+															<AudioFile>Export 14012023\RFX_Night_Creatures_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="170030737"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="RFX_Night_Creatures_04" ID="{ED53230A-936F-42D0-B98D-9903EBB2C2A1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="RFX_Night_Creatures_02" ID="{B294F617-8E5C-4FA6-9C17-CE5241202E1C}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="RFX_Night_Creatures_03" ID="{174A17BF-77BD-46B8-9183-09F927F653D9}" ShortID="569192111">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="RFX_Night_Creatures_03" ID="{CDC1C6D1-008F-4361-8040-7645573B0027}">
-													<Language>SFX</Language>
-													<AudioFile>Export 14012023\RFX_Night_Creatures_03.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="559747723"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="RFX_Night_Creatures_03" ID="{CDC1C6D1-008F-4361-8040-7645573B0027}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="RFX_Night_Creatures_04" ID="{9D6CC54A-ED21-4206-A290-66E7657663D8}" ShortID="822485337">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="RFX_Night_Creatures_04" ID="{ED53230A-936F-42D0-B98D-9903EBB2C2A1}">
-													<Language>SFX</Language>
-													<AudioFile>Export 14012023\RFX_Night_Creatures_04.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="170030737"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="RFX_Night_Creatures_04" ID="{ED53230A-936F-42D0-B98D-9903EBB2C2A1}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
+											<PositioningInfo>
+												<Panner Name="" ID="{91852765-CA19-485A-B8A1-D52373805347}"/>
+											</PositioningInfo>
+										</RandomSequenceContainer>
 									</ChildrenList>
-								</RandomSequenceContainer>
+									<BlendTrackList>
+										<BlendTrack Name="DayNight" ID="{EEB4FCA7-C0F9-4DA7-A644-0F47643FD998}" ShortID="807765241">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="TimeOfDay" ID="{964134B9-4B43-4764-B76C-512362D1DB38}" WorkUnitID="{3C553CBA-1C28-4BD7-8906-E9C34E19DF65}"/>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="RFX_Nights_Creatures" ID="{D41834F2-F0DA-4819-B292-BC9FBDF58491}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>8</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="RFX_Day_Birds" ID="{97C6262E-7CB2-4F85-8D64-09345A696271}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>8</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>20</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="RFX_Nights_Creatures" ID="{D41834F2-F0DA-4819-B292-BC9FBDF58491}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>20</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>24</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
+								</BlendContainer>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Interior" ID="{AE079C41-C0BA-42BE-A237-DB233F845E09}" ShortID="710749353">
