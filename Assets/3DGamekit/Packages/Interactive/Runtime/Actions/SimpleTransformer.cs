@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 
 namespace Gamekit3D.GameCommands
 {
@@ -48,12 +49,15 @@ namespace Gamekit3D.GameCommands
 
         public override void PerformInteraction()
         {
+            
             activate = true;
             if (OnStartCommand != null) OnStartCommand.Send();
             if (onStartAudio != null) onStartAudio.Play();
             if (onStartEvent != null) onStartEvent.Post(this.gameObject);
+            StartCoroutine(DoorOpening(duration));
         }
 
+       
         public void FixedUpdate()
         {
             if (activate)
@@ -97,9 +101,17 @@ namespace Gamekit3D.GameCommands
             {
                 enabled = false;
                 if (OnStopCommand != null) OnStopCommand.Send();
-                if (onEndEvent != null) onEndEvent.Post(this.gameObject);
+              
+                
                 direction *= -1;
             }
+        }
+        IEnumerator DoorOpening(float duration)
+        {
+            
+            yield return new WaitForSeconds(duration);
+            Debug.Log("Porte ouverte");
+            onEndEvent.Post(this.gameObject);
         }
     }
 }
