@@ -397,15 +397,11 @@
 								<Action Name="" ID="{D44BE935-17CF-4646-9D3E-6394EE306BA8}" ShortID="1041307687">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Play_Amb_Locations" ID="{1BA34C73-3468-4B82-BA4B-FE88C8E54496}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
+											<ObjectRef Name="Amb_Locations" ID="{085F1249-AE23-43D0-9697-D41045A6F79D}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Amb_MusicPads" ID="{3E6CA01E-D931-46A3-86B4-AC84AC909F16}">
-							<ChildrenList>
-								<Action Name="" ID="{12A49FA0-FC42-4D68-960C-B7C279AEBE1F}" ShortID="50286557">
+								<Action Name="" ID="{483AC634-630F-4391-9FE1-35F519526C3A}" ShortID="521231995">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Amb_MusicPads" ID="{0296B4C6-5C5D-409E-89C7-471270DF414E}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>

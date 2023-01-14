@@ -11,7 +11,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="True" ID="{E681315C-42EC-4138-8D1C-F2C9E6FC7CD3}"/>
+						<CurrentStateRef Name="None" ID="{ABDF2874-089B-496A-83DC-9327242D5DB5}"/>
 						<CurrentStateRef Name="None" ID="{1F9790EC-5286-4B56-9310-34C68F2E85AE}"/>
 						<CurrentStateRef Name="Swamp" ID="{F28AB153-FA33-4897-98CC-EA5ECCF9685D}"/>
 					</CurrentStateList>

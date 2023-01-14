@@ -7,15 +7,18 @@ Switch	ID	Name	Switch Group			Notes
 
 State Group	ID	Name			Wwise Object Path	Notes
 	1176052424	Location			\Default Work Unit\Location	
+	1627457696	IsInCombat			\Default Work Unit\IsInCombat	
 	2607556080	Menu			\Default Work Unit\Menu	
 
 State	ID	Name	State Group			Notes
 	417916826	Ruins	Location			
 	554650843	Spaceship	Location			
 	748895195	None	Location			
-	782826392	Default	Location			
 	2907906111	Swamp	Location			
 	3329411914	HiddenPlace	Location			
+	748895195	None	IsInCombat			
+	2452206122	False	IsInCombat			
+	3053630529	True	IsInCombat			
 	748895195	None	Menu			
 	984691642	InGame	Menu			
 	3374585465	InMenu	Menu			

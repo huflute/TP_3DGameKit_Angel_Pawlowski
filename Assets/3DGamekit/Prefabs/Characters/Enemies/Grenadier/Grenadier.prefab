@@ -95211,7 +95211,7 @@ GameObject:
   - component: {fileID: 6943058174080121624}
   m_Layer: 23
   m_Name: Grenadier
-  m_TagString: Untagged
+  m_TagString: Ennemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
