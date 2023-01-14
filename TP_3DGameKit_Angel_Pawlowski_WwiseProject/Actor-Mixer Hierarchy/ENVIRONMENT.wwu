@@ -42,6 +42,412 @@
 						<ActiveSource Name="Teleporter_Idle" ID="{CDBE212B-E2BC-4A5A-B060-C703DEF50418}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Acid_Pool" ID="{3E6CA8FE-03EB-4153-BEF5-4285FB134906}" ShortID="125374882">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="IsStreamingEnabled" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsZeroLatency" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Acid_Pool" ID="{A4042CAA-AF9D-4BF3-9708-14960720E706}">
+							<Language>SFX</Language>
+							<AudioFile>Export 14012023\Acid_Pool.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="957902901"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Acid_Pool" ID="{A4042CAA-AF9D-4BF3-9708-14960720E706}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Fireflies_Loop" ID="{C7E5629D-DB23-4F3F-A245-2A83E3D9500E}" ShortID="160970722">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="IsStreamingEnabled" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsZeroLatency" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Fireflies_Loop" ID="{8732EAAD-8B09-48B8-8AA1-919108E68121}">
+							<Language>SFX</Language>
+							<AudioFile>Export 14012023\Fireflies_Loop.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="561453158"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Fireflies_Loop" ID="{8732EAAD-8B09-48B8-8AA1-919108E68121}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Ghost_Loop" ID="{D90FA649-441A-40DE-B9F3-8861B3CEB420}" ShortID="99562504">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="IsStreamingEnabled" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsZeroLatency" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Ghost_Loop" ID="{D0C2250E-860C-4625-BDA0-426F883BB9BD}">
+							<Language>SFX</Language>
+							<AudioFile>Export 14012023\Ghost_Loop.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="574836544"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Ghost_Loop" ID="{D0C2250E-860C-4625-BDA0-426F883BB9BD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="River_Loop" ID="{8952EEFB-6720-43CC-A09C-BD51213D602D}" ShortID="960674392">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="IsStreamingEnabled" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsZeroLatency" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="River" ID="{22A39022-894F-49F3-83D0-D4415F6973F4}">
+							<Language>SFX</Language>
+							<AudioFile>Export 14012023\River.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="392129282"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="River" ID="{22A39022-894F-49F3-83D0-D4415F6973F4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="RFX_Bubbles" ID="{AB53908A-D0F0-4117-A860-104657319E98}" ShortID="351779900">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="RFX_Bubbles_01" ID="{78E055BF-AC56-4835-8CEA-CB30D9A66FDF}" ShortID="842671152">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="RFX_Bubbles_01" ID="{D2D6F5AD-70E1-471A-A66D-9299796435CA}">
+									<Language>SFX</Language>
+									<AudioFile>Export 14012023\RFX_Bubbles_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="798917939"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="RFX_Bubbles_01" ID="{D2D6F5AD-70E1-471A-A66D-9299796435CA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="RFX_Bubbles_02" ID="{369ECF91-5D48-4CE2-B7F2-1FFFEF3F03F4}" ShortID="226548803">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="RFX_Bubbles_02" ID="{3F44CCEB-FAD2-45FB-9506-68DA3B074278}">
+									<Language>SFX</Language>
+									<AudioFile>Export 14012023\RFX_Bubbles_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="129162417"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="RFX_Bubbles_02" ID="{3F44CCEB-FAD2-45FB-9506-68DA3B074278}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="RFX_Bubbles_03" ID="{5EA3B3F8-40DC-4371-99C8-90C483BCE54D}" ShortID="646585597">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="RFX_Bubbles_03" ID="{E3AA7DCE-6212-495F-A35D-FE4F68B93444}">
+									<Language>SFX</Language>
+									<AudioFile>Export 14012023\RFX_Bubbles_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="336010496"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="RFX_Bubbles_03" ID="{E3AA7DCE-6212-495F-A35D-FE4F68B93444}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="RFX_Bubbles_04" ID="{1EE2E79A-18F0-4248-AFB5-31691899BE52}" ShortID="223294575">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="RFX_Bubbles_04" ID="{C472C2B0-F9A5-4B02-8620-D2169503B4BB}">
+									<Language>SFX</Language>
+									<AudioFile>Export 14012023\RFX_Bubbles_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="994771667"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="RFX_Bubbles_04" ID="{C472C2B0-F9A5-4B02-8620-D2169503B4BB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="RFX_Bubbles_05" ID="{F67870E3-A688-42B2-B6B8-6F655C0B8EF7}" ShortID="618946506">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="RFX_Bubbles_05" ID="{4FBC3268-BC92-4F4C-B214-F09EBEEFBC1E}">
+									<Language>SFX</Language>
+									<AudioFile>Export 14012023\RFX_Bubbles_05.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="62751895"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="RFX_Bubbles_05" ID="{4FBC3268-BC92-4F4C-B214-F09EBEEFBC1E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="RFX_Fireflies_Voices" ID="{CE35E342-F043-4B5B-A880-30B549997039}" ShortID="469325163">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="RFX_Fireflies_Voices_01" ID="{9945BED5-5ABE-4137-9169-0DF7E2D17BE9}" ShortID="447990081">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="RFX_Fireflies_Voices_01" ID="{EE0B204F-6C20-4D8A-9741-EFA699BF6ED6}">
+									<Language>SFX</Language>
+									<AudioFile>Export 14012023\RFX_Fireflies_Voices_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="348475071"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="RFX_Fireflies_Voices_01" ID="{EE0B204F-6C20-4D8A-9741-EFA699BF6ED6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="RFX_Fireflies_Voices_02" ID="{A6E56B3A-F42C-4BB5-A5F9-A493F2053805}" ShortID="595566183">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="RFX_Fireflies_Voices_02" ID="{CCC8AF0E-D15D-4E0B-8D1A-831EB0333D2A}">
+									<Language>SFX</Language>
+									<AudioFile>Export 14012023\RFX_Fireflies_Voices_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="258179494"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="RFX_Fireflies_Voices_02" ID="{CCC8AF0E-D15D-4E0B-8D1A-831EB0333D2A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="RFX_Fireflies_Voices_03" ID="{FDE0B9C7-540A-4139-8BA5-5E177DE9B062}" ShortID="28796202">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="RFX_Fireflies_Voices_03" ID="{3D166C2E-D20E-4B97-B7DC-7C3D94729DF4}">
+									<Language>SFX</Language>
+									<AudioFile>Export 14012023\RFX_Fireflies_Voices_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="329902682"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="RFX_Fireflies_Voices_03" ID="{3D166C2E-D20E-4B97-B7DC-7C3D94729DF4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="RFX_Fireflies_Voices_04" ID="{6623B941-AA82-403D-BF9C-669AA378F6E8}" ShortID="302218773">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="RFX_Fireflies_Voices_04" ID="{D0353D7A-3942-49F8-BD13-02490EEC9A80}">
+									<Language>SFX</Language>
+									<AudioFile>Export 14012023\RFX_Fireflies_Voices_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="453553068"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="RFX_Fireflies_Voices_04" ID="{D0353D7A-3942-49F8-BD13-02490EEC9A80}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="RFX_Fireflies_Voices_05" ID="{04387B74-6E53-4D10-B61B-EA462FE132E8}" ShortID="485642992">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="RFX_Fireflies_Voices_05" ID="{98C3F452-B06C-45A5-A230-FC8804AAE2E0}">
+									<Language>SFX</Language>
+									<AudioFile>Export 14012023\RFX_Fireflies_Voices_05.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="265287494"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="RFX_Fireflies_Voices_05" ID="{98C3F452-B06C-45A5-A230-FC8804AAE2E0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="RFX_Fireflies_Voices_06" ID="{5B97D84C-EFB8-4EE6-B9BD-BF25D9EE885D}" ShortID="317420699">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="RFX_Fireflies_Voices_06" ID="{DB910139-E948-417A-8531-E9462C0DE67C}">
+									<Language>SFX</Language>
+									<AudioFile>Export 14012023\RFX_Fireflies_Voices_06.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1006644240"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="RFX_Fireflies_Voices_06" ID="{DB910139-E948-417A-8531-E9462C0DE67C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
