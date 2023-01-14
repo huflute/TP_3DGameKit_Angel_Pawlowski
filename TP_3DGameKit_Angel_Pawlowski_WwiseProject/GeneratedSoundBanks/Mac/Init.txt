@@ -13,7 +13,9 @@ State	ID	Name	State Group			Notes
 	417916826	Ruins	Location			
 	554650843	Spaceship	Location			
 	748895195	None	Location			
+	782826392	Default	Location			
 	2907906111	Swamp	Location			
+	3329411914	HiddenPlace	Location			
 	748895195	None	Menu			
 	984691642	InGame	Menu			
 	3374585465	InMenu	Menu			

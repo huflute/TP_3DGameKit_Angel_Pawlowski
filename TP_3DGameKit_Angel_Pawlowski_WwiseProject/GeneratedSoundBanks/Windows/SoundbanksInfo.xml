@@ -40,7 +40,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{8815029A-94C2-DE75-72D6-FCA3EB4892DD}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{D82710EB-DA41-42D6-74E0-64A8FFA70608}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
@@ -92,17 +92,34 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2425561832" Name="Play_AMB_Loop_Wind_Gust_01" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3213331111" Name="Play_AMB_SpaceShip" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="845874098"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1489882803" Name="Play_Amb_Swamp" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="82276003"/>
-						<MediaRef Id="238080956"/>
-					</MediaRefs>
+				<Event Id="3839321632" Name="Play_Play_Amb_Locations" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1176052424" Id="2907906111" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="82276003"/>
+								<MediaRef Id="238080956"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1176052424" Id="782826392"/>
+							<MediaRefs>
+								<MediaRef Id="82276003"/>
+								<MediaRef Id="238080956"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1176052424" Id="3329411914"/>
+							<MediaRefs>
+								<MediaRef Id="845874098"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="3056483954" Name="Play_RFX_Computer" MaxAttenuation="5" DurationType="Infinite">
 					<MediaRefs>
@@ -120,6 +137,18 @@
 			<GameParameters>
 				<GameParameter Id="3729505769" Name="TimeOfDay"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="1176052424" Name="Location">
+					<States>
+						<State Id="417916826" Name="Ruins"/>
+						<State Id="554650843" Name="Spaceship"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="782826392" Name="Default"/>
+						<State Id="2907906111" Name="Swamp"/>
+						<State Id="3329411914" Name="HiddenPlace"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 		<SoundBank Id="1229948536" Type="User" Language="SFX" Hash="{D9019FB1-5A3A-D8DA-ACFB-B36D1024B9BD}">
 			<ShortName>Environment</ShortName>
@@ -141,7 +170,7 @@
 				<Event Id="2863201769" Name="Stop_Teleporter_Idle" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{25E3E88C-BACF-2638-B74C-6035419DA226}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{0CF2204F-95CA-13E9-A58B-9B3D0230BE0D}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Media>
@@ -224,7 +253,9 @@
 						<State Id="417916826" Name="Ruins"/>
 						<State Id="554650843" Name="Spaceship"/>
 						<State Id="748895195" Name="None"/>
+						<State Id="782826392" Name="Default"/>
 						<State Id="2907906111" Name="Swamp"/>
+						<State Id="3329411914" Name="HiddenPlace"/>
 					</States>
 				</StateGroup>
 				<StateGroup Id="2607556080" Name="Menu">
@@ -1354,7 +1385,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{DE6E7DA1-4EEB-6A26-2F54-BA1C43B05687}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{1E673795-9FB6-9920-D6D1-D8F6413BE947}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -2598,16 +2629,9 @@
 				</Custom>
 			</Plugins>
 			<Events>
-				<Event Id="2425561832" Name="Play_AMB_Loop_Wind_Gust_01" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3213331111" Name="Play_AMB_SpaceShip" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="845874098"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1489882803" Name="Play_Amb_Swamp" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="82276003"/>
-						<MediaRef Id="238080956"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="931488463" Name="Play_Chomper_Attack" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.58002084" DurationMax="0.623625">
@@ -3002,6 +3026,30 @@
 						<MediaRef Id="372411582"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3839321632" Name="Play_Play_Amb_Locations" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1176052424" Id="2907906111" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="82276003"/>
+								<MediaRef Id="238080956"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1176052424" Id="782826392"/>
+							<MediaRefs>
+								<MediaRef Id="82276003"/>
+								<MediaRef Id="238080956"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1176052424" Id="3329411914"/>
+							<MediaRefs>
+								<MediaRef Id="845874098"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="3056483954" Name="Play_RFX_Computer" MaxAttenuation="5" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="5366310"/>
@@ -3377,6 +3425,7 @@
 						</Custom>
 					</PluginRefs>
 				</Event>
+				<Event Id="452547817" Name="Stop_All" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3876046333" Name="Stop_AMB_SpaceShip" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="616065004" Name="Stop_MC_Shield" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4212421580" Name="Stop_Switch_Crystals_Idle_AfterActivation" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -3387,6 +3436,18 @@
 			<GameParameters>
 				<GameParameter Id="3729505769" Name="TimeOfDay"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="1176052424" Name="Location">
+					<States>
+						<State Id="417916826" Name="Ruins"/>
+						<State Id="554650843" Name="Spaceship"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="782826392" Name="Default"/>
+						<State Id="2907906111" Name="Swamp"/>
+						<State Id="3329411914" Name="HiddenPlace"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 			<SwitchGroups>
 				<SwitchGroup Id="2137943" Name="Life">
 					<Switches>
@@ -4357,5 +4418,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6D8DD458-3031-6AB8-956E-570B1E374386}</FileHash>
+	<FileHash>{1431DC1F-22C6-D598-6BB8-2EAB1D02805D}</FileHash>
 </SoundBanksInfo>

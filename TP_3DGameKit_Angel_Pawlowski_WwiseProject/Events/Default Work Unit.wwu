@@ -354,12 +354,12 @@
 					<ChildrenList>
 						<Folder Name="Wind" ID="{E3A792AA-1E7E-4000-8443-C995D723053B}" ShortID="87278191">
 							<ChildrenList>
-								<Event Name="Play_AMB_Loop_Wind_Gust_01" ID="{3383ECD3-5910-41B3-A45B-95BC7DE45FEB}">
+								<Event Name="Play_Play_Amb_Locations" ID="{39B4E0B7-9F41-46B4-AAE6-4EE648A8F48B}">
 									<ChildrenList>
-										<Action Name="" ID="{5ED4F43A-75F1-4EE5-B87A-AC1741932391}" ShortID="935020511">
+										<Action Name="" ID="{D44BE935-17CF-4646-9D3E-6394EE306BA8}" ShortID="1041307687">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="AMB_Loop_Wind_Gust_01" ID="{56A16DEE-D214-4DBD-BBE5-EB6237D0B5C7}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
+													<ObjectRef Name="Play_Amb_Locations" ID="{1BA34C73-3468-4B82-BA4B-FE88C8E54496}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -407,17 +407,6 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
-						<Event Name="Play_Amb_Swamp" ID="{0E3FB906-EAAB-4867-86AF-3C0D6EA08435}">
-							<ChildrenList>
-								<Action Name="" ID="{133A74AD-9D07-4979-B1E8-C8357D4DECCF}" ShortID="420004658">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Amb_Swamp" ID="{C6D39A46-D63B-47E6-A2EA-5AE2D374517C}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Monsters" ID="{8D7CC237-69AA-4A3E-95A3-35A5F32761C2}" ShortID="118562511">
@@ -1102,6 +1091,21 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="ChangingLevels" ID="{E779EBF8-9DB7-4EFB-9835-0556C287B63F}" ShortID="363059301">
+					<ChildrenList>
+						<Event Name="Stop_All" ID="{8415EF88-B78B-4CDF-981B-DA14649CA124}">
+							<ChildrenList>
+								<Action Name="" ID="{BEFF7F7F-5BF6-4B2B-8D3E-F048351771B4}" ShortID="763502556">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

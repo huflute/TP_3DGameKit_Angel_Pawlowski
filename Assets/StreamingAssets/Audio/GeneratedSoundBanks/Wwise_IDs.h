@@ -13,9 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PLAY_AMB_LOOP_WIND_GUST_01 = 2425561832U;
         static const AkUniqueID PLAY_AMB_SPACESHIP = 3213331111U;
-        static const AkUniqueID PLAY_AMB_SWAMP = 1489882803U;
         static const AkUniqueID PLAY_CHOMPER_ATTACK = 931488463U;
         static const AkUniqueID PLAY_CHOMPER_VOX_BEFORE_ATTACK = 3519138347U;
         static const AkUniqueID PLAY_GRENADIER_BREATH = 414086918U;
@@ -51,6 +49,7 @@ namespace AK
         static const AkUniqueID PLAY_MC_VOX_DEATH = 634444711U;
         static const AkUniqueID PLAY_MC_VOX_PAIN = 3917663999U;
         static const AkUniqueID PLAY_MONSTER_VANISH = 803911630U;
+        static const AkUniqueID PLAY_PLAY_AMB_LOCATIONS = 3839321632U;
         static const AkUniqueID PLAY_RFX_COMPUTER = 3056483954U;
         static const AkUniqueID PLAY_SMALL_MONSTER_BODYFALL = 3179497032U;
         static const AkUniqueID PLAY_SMALL_MONSTER_HIT = 1602398710U;
@@ -80,6 +79,7 @@ namespace AK
         static const AkUniqueID PLAY_WEAPON_WHOOSH_COMBO04 = 905597472U;
         static const AkUniqueID PLAY_WHOOSH_TEXT_APPEAR = 2468740206U;
         static const AkUniqueID PLAY_WHOOSH_TEXT_DISAPPEAR = 3024491776U;
+        static const AkUniqueID STOP_ALL = 452547817U;
         static const AkUniqueID STOP_AMB_SPACESHIP = 3876046333U;
         static const AkUniqueID STOP_MC_SHIELD = 616065004U;
         static const AkUniqueID STOP_SWITCH_CRYSTALS_IDLE_AFTERACTIVATION = 4212421580U;
@@ -96,6 +96,8 @@ namespace AK
 
             namespace STATE
             {
+                static const AkUniqueID DEFAULT = 782826392U;
+                static const AkUniqueID HIDDENPLACE = 3329411914U;
                 static const AkUniqueID NONE = 748895195U;
                 static const AkUniqueID RUINS = 417916826U;
                 static const AkUniqueID SPACESHIP = 554650843U;

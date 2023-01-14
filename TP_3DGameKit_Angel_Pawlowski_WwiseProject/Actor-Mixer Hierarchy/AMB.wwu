@@ -37,17 +37,35 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<BlendContainer Name="Amb_Swamp" ID="{C6D39A46-D63B-47E6-A2EA-5AE2D374517C}" ShortID="500455370">
+								<SwitchContainer Name="Play_Amb_Locations" ID="{1BA34C73-3468-4B82-BA4B-FE88C8E54496}" ShortID="825579397">
+									<PropertyList>
+										<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
 										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Swamp" ID="{F28AB153-FA33-4897-98CC-EA5ECCF9685D}" WorkUnitID="{8D2EE2DD-84D0-4FF7-8C90-764D69789553}"/>
+										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
 										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Location" ID="{9F30977F-FBC3-4EC0-8FFD-16B5DE27F935}" WorkUnitID="{8D2EE2DD-84D0-4FF7-8C90-764D69789553}"/>
+										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<RandomSequenceContainer Name="Amb_Swamp_Day" ID="{2E300C03-00EA-4D3D-B458-AADC56C55B28}" ShortID="861529343">
+										<BlendContainer Name="Amb_Swamp" ID="{C6D39A46-D63B-47E6-A2EA-5AE2D374517C}" ShortID="500455370">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
@@ -57,11 +75,178 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="AMB_Swamp_01" ID="{5DB27D4D-BA60-403B-A415-33D95D9E0398}" ShortID="136055686">
+												<RandomSequenceContainer Name="Amb_Swamp_Day" ID="{2E300C03-00EA-4D3D-B458-AADC56C55B28}" ShortID="861529343">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="AMB_Swamp_01" ID="{5DB27D4D-BA60-403B-A415-33D95D9E0398}" ShortID="136055686">
+															<PropertyList>
+																<Property Name="3DSpatialization" Type="int16" Value="1"/>
+																<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+																<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																<Property Name="IsStreamingEnabled" Type="bool">
+																	<ValueList>
+																		<Value>True</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="IsZeroLatency" Type="bool">
+																	<ValueList>
+																		<Value>True</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AMB_Swamp_01" ID="{24CCD003-A714-45FA-891D-44874A90ABFE}">
+																	<Language>SFX</Language>
+																	<AudioFile>AMB_Swamp_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="238080956"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<PositioningInfo>
+																<Panner Name="" ID="{BC03FB37-8EBA-4EB9-B7C8-C0D171A27BD6}"/>
+															</PositioningInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="AMB_Swamp_01" ID="{24CCD003-A714-45FA-891D-44874A90ABFE}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Amb_Swamp_Night" ID="{616580DA-9AD3-48CD-B7E6-D1B5E54FCB9A}" ShortID="672135930">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="AMB_Ruins_01" ID="{93540773-11E1-4632-AA49-78E4E20D415B}" ShortID="832575142">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																<Property Name="IsStreamingEnabled" Type="bool">
+																	<ValueList>
+																		<Value>True</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="IsZeroLatency" Type="bool">
+																	<ValueList>
+																		<Value>True</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AMB_Ruins_01" ID="{5293DE91-CEC9-4159-A668-925B80F67650}">
+																	<Language>SFX</Language>
+																	<AudioFile>AMB_Ruins_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="82276003"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="AMB_Ruins_01" ID="{5293DE91-CEC9-4159-A668-925B80F67650}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{01C79F8F-78D2-4A8A-AC09-2BF5562E180B}"/>
+											</PositioningInfo>
+											<BlendTrackList>
+												<BlendTrack Name="TimeOfDay" ID="{E7C25911-CAD6-43A3-88B8-7F8F1D3940ED}" ShortID="835693316">
+													<PropertyList>
+														<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="LayerCrossFadeControlInput">
+															<ObjectRef Name="TimeOfDay" ID="{964134B9-4B43-4764-B76C-512362D1DB38}" WorkUnitID="{3C553CBA-1C28-4BD7-8906-E9C34E19DF65}"/>
+														</Reference>
+													</ReferenceList>
+													<BlendTrackAssocList>
+														<BlendTrackAssoc>
+															<ItemRef Name="Amb_Swamp_Night" ID="{616580DA-9AD3-48CD-B7E6-D1B5E54FCB9A}"/>
+															<CrossfadingInfo>
+																<LeftEdgePos>0</LeftEdgePos>
+																<LeftFadingMode>Automatic</LeftFadingMode>
+																<RightEdgePos>9</RightEdgePos>
+																<RightFadingMode>Automatic</RightFadingMode>
+															</CrossfadingInfo>
+														</BlendTrackAssoc>
+														<BlendTrackAssoc>
+															<ItemRef Name="Amb_Swamp_Day" ID="{2E300C03-00EA-4D3D-B458-AADC56C55B28}"/>
+															<CrossfadingInfo>
+																<LeftEdgePos>7</LeftEdgePos>
+																<LeftFadingMode>Automatic</LeftFadingMode>
+																<RightEdgePos>21</RightEdgePos>
+																<RightFadingMode>Automatic</RightFadingMode>
+															</CrossfadingInfo>
+														</BlendTrackAssoc>
+														<BlendTrackAssoc>
+															<ItemRef Name="Amb_Swamp_Night" ID="{616580DA-9AD3-48CD-B7E6-D1B5E54FCB9A}"/>
+															<CrossfadingInfo>
+																<LeftEdgePos>19</LeftEdgePos>
+																<LeftFadingMode>Automatic</LeftFadingMode>
+																<RightEdgePos>24</RightEdgePos>
+																<RightFadingMode>Automatic</RightFadingMode>
+															</CrossfadingInfo>
+														</BlendTrackAssoc>
+													</BlendTrackAssocList>
+												</BlendTrack>
+											</BlendTrackList>
+										</BlendContainer>
+										<BlendContainer Name="Amb_Ruins" ID="{74901EB6-C940-425B-BFD3-7B4DDD5E3A58}" ShortID="1069891397">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+										</BlendContainer>
+										<BlendContainer Name="Amb_HiddenPlace" ID="{758B30A5-8FB1-4CFA-9DDF-5035A4DED200}" ShortID="852813682">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="AMB_SpaceShip" ID="{7CE34A9F-D092-4C67-9868-3E7107F0C8BB}" ShortID="594777865">
 													<PropertyList>
 														<Property Name="3DSpatialization" Type="int16" Value="1"/>
 														<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
-														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 														<Property Name="IsStreamingEnabled" Type="bool">
 															<ValueList>
@@ -73,9 +258,12 @@
 																<Value>True</Value>
 															</ValueList>
 														</Property>
-														<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
 													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="10m" ID="{7B55A2EC-035A-4F2D-ABF0-2DBDBF6B0BDE}" WorkUnitID="{B378FA7B-E709-4147-8665-F99F8F07F9BC}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
 														</Reference>
@@ -84,113 +272,100 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="AMB_Swamp_01" ID="{24CCD003-A714-45FA-891D-44874A90ABFE}">
+														<AudioFileSource Name="AMB_SpaceShip" ID="{41D76E66-E2FA-4CF7-81D6-B1F737C2DE90}">
 															<Language>SFX</Language>
-															<AudioFile>AMB_Swamp_01.wav</AudioFile>
+															<AudioFile>Export 12012023\AMB_SpaceShip.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="238080956"/>
+																<MediaID ID="845874098"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<PositioningInfo>
-														<Panner Name="" ID="{BC03FB37-8EBA-4EB9-B7C8-C0D171A27BD6}"/>
+														<Panner Name="" ID="{95C2B9B7-9BB1-4E47-B225-94D6169400A1}"/>
 													</PositioningInfo>
 													<ActiveSourceList>
-														<ActiveSource Name="AMB_Swamp_01" ID="{24CCD003-A714-45FA-891D-44874A90ABFE}" Platform="Linked"/>
+														<ActiveSource Name="AMB_SpaceShip" ID="{41D76E66-E2FA-4CF7-81D6-B1F737C2DE90}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
-										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="Amb_Swamp_Night" ID="{616580DA-9AD3-48CD-B7E6-D1B5E54FCB9A}" ShortID="672135930">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="AMB_Ruins_01" ID="{93540773-11E1-4632-AA49-78E4E20D415B}" ShortID="832575142">
-													<PropertyList>
-														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-														<Property Name="IsStreamingEnabled" Type="bool">
-															<ValueList>
-																<Value>True</Value>
-															</ValueList>
-														</Property>
-														<Property Name="IsZeroLatency" Type="bool">
-															<ValueList>
-																<Value>True</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="AMB_Ruins_01" ID="{5293DE91-CEC9-4159-A668-925B80F67650}">
-															<Language>SFX</Language>
-															<AudioFile>AMB_Ruins_01.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="82276003"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="AMB_Ruins_01" ID="{5293DE91-CEC9-4159-A668-925B80F67650}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-										</RandomSequenceContainer>
+										</BlendContainer>
 									</ChildrenList>
-									<BlendTrackList>
-										<BlendTrack Name="TimeOfDay" ID="{E7C25911-CAD6-43A3-88B8-7F8F1D3940ED}" ShortID="835693316">
-											<PropertyList>
-												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="LayerCrossFadeControlInput">
-													<ObjectRef Name="TimeOfDay" ID="{964134B9-4B43-4764-B76C-512362D1DB38}" WorkUnitID="{3C553CBA-1C28-4BD7-8906-E9C34E19DF65}"/>
-												</Reference>
-											</ReferenceList>
-											<BlendTrackAssocList>
-												<BlendTrackAssoc>
-													<ItemRef Name="Amb_Swamp_Night" ID="{616580DA-9AD3-48CD-B7E6-D1B5E54FCB9A}"/>
-													<CrossfadingInfo>
-														<LeftEdgePos>0</LeftEdgePos>
-														<LeftFadingMode>Automatic</LeftFadingMode>
-														<RightEdgePos>9</RightEdgePos>
-														<RightFadingMode>Automatic</RightFadingMode>
-													</CrossfadingInfo>
-												</BlendTrackAssoc>
-												<BlendTrackAssoc>
-													<ItemRef Name="Amb_Swamp_Day" ID="{2E300C03-00EA-4D3D-B458-AADC56C55B28}"/>
-													<CrossfadingInfo>
-														<LeftEdgePos>7</LeftEdgePos>
-														<LeftFadingMode>Automatic</LeftFadingMode>
-														<RightEdgePos>21</RightEdgePos>
-														<RightFadingMode>Automatic</RightFadingMode>
-													</CrossfadingInfo>
-												</BlendTrackAssoc>
-												<BlendTrackAssoc>
-													<ItemRef Name="Amb_Swamp_Night" ID="{616580DA-9AD3-48CD-B7E6-D1B5E54FCB9A}"/>
-													<CrossfadingInfo>
-														<LeftEdgePos>19</LeftEdgePos>
-														<LeftFadingMode>Automatic</LeftFadingMode>
-														<RightEdgePos>24</RightEdgePos>
-														<RightFadingMode>Automatic</RightFadingMode>
-													</CrossfadingInfo>
-												</BlendTrackAssoc>
-											</BlendTrackAssocList>
-										</BlendTrack>
-									</BlendTrackList>
-								</BlendContainer>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Amb_Swamp" ID="{C6D39A46-D63B-47E6-A2EA-5AE2D374517C}"/>
+												<PropertyList>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>1</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>1</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Amb_HiddenPlace" ID="{758B30A5-8FB1-4CFA-9DDF-5035A4DED200}"/>
+												<PropertyList>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>1</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>1</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Amb_Ruins" ID="{74901EB6-C940-425B-BFD3-7B4DDD5E3A58}"/>
+												<PropertyList>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>1</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>1</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Ruins" ID="{AE137332-300E-41B1-B1E3-AA776E68D5A0}"/>
+												<ItemList>
+													<ItemRef Name="Amb_Ruins" ID="{74901EB6-C940-425B-BFD3-7B4DDD5E3A58}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Swamp" ID="{F28AB153-FA33-4897-98CC-EA5ECCF9685D}"/>
+												<ItemList>
+													<ItemRef Name="Amb_Swamp" ID="{C6D39A46-D63B-47E6-A2EA-5AE2D374517C}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Default" ID="{B499B895-B38F-4389-AA79-4533EAB0671D}"/>
+												<ItemList>
+													<ItemRef Name="Amb_Swamp" ID="{C6D39A46-D63B-47E6-A2EA-5AE2D374517C}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="HiddenPlace" ID="{E0F617DF-E027-43B0-83FA-85FF11BBE2DE}"/>
+												<ItemList>
+													<ItemRef Name="Amb_HiddenPlace" ID="{758B30A5-8FB1-4CFA-9DDF-5035A4DED200}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Interior" ID="{AE079C41-C0BA-42BE-A237-DB233F845E09}" ShortID="710749353">
@@ -431,51 +606,6 @@
 												</Position>
 											</PositioningInfo>
 										</RandomSequenceContainer>
-										<Sound Name="AMB_SpaceShip" ID="{7CE34A9F-D092-4C67-9868-3E7107F0C8BB}" ShortID="594777865">
-											<PropertyList>
-												<Property Name="3DSpatialization" Type="int16" Value="1"/>
-												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
-												<Property Name="EnableDiffraction" Type="bool" Value="True"/>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-												<Property Name="IsStreamingEnabled" Type="bool">
-													<ValueList>
-														<Value>True</Value>
-													</ValueList>
-												</Property>
-												<Property Name="IsZeroLatency" Type="bool">
-													<ValueList>
-														<Value>True</Value>
-													</ValueList>
-												</Property>
-												<Property Name="OverridePositioning" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Attenuation">
-													<ObjectRef Name="10m" ID="{7B55A2EC-035A-4F2D-ABF0-2DBDBF6B0BDE}" WorkUnitID="{B378FA7B-E709-4147-8665-F99F8F07F9BC}"/>
-												</Reference>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="AMB_SpaceShip" ID="{41D76E66-E2FA-4CF7-81D6-B1F737C2DE90}">
-													<Language>SFX</Language>
-													<AudioFile>Export 12012023\AMB_SpaceShip.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="845874098"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<PositioningInfo>
-												<Panner Name="" ID="{95C2B9B7-9BB1-4E47-B225-94D6169400A1}"/>
-											</PositioningInfo>
-											<ActiveSourceList>
-												<ActiveSource Name="AMB_SpaceShip" ID="{41D76E66-E2FA-4CF7-81D6-B1F737C2DE90}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 									</ChildrenList>
 								</ActorMixer>
 							</ChildrenList>

@@ -28,6 +28,13 @@
 									</PropertyList>
 								</AuxBus>
 								<AuxBus Name="Reverb_Ruins" ID="{B0D8F9F3-DA70-405D-B026-8775E895FBB4}">
+									<PropertyList>
+										<Property Name="OutputBusVolume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Effect0" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 											<ObjectRef Name="Ruins_ConvoVerb" ID="{44D9BDFD-1405-4B0E-8424-D83315BE0A72}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>

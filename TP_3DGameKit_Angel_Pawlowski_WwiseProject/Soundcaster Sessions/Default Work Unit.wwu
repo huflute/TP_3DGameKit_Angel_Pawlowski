@@ -62,7 +62,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="None" ID="{1F9790EC-5286-4B56-9310-34C68F2E85AE}"/>
-						<CurrentStateRef Name="None" ID="{DAEF4D86-DD11-4E01-8210-144706FA9D82}"/>
+						<CurrentStateRef Name="Swamp" ID="{F28AB153-FA33-4897-98CC-EA5ECCF9685D}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Chomper" ID="{818C60C8-72CC-4FB7-94C2-B1789001FE98}"/>

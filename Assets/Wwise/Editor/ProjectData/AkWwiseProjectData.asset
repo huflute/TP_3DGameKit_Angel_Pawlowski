@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 0c74f2e5d4330e46bfec07c1b154966f
     GuidInternal: 
-    m_lastTime: -8585279069442914403
+    m_lastTime: -8585279017181473865
     List:
     - name: Environmental
       guid: eda45d6dcc045d47a639edc09c76d74c
@@ -385,7 +385,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 58301ae271a98d46974f6accc96184fa
     GuidInternal: 
-    m_lastTime: -8585279058134629392
+    m_lastTime: -8585279017181201676
     List:
     - name: AMB
       guid: 7eacccb593e71341878dd5280afd656f
@@ -421,6 +421,23 @@ MonoBehaviour:
         ObjectType: 4
         guid: fc4cb787455e7b4fb47d7fdaae3312a2
       Path: Events\Default Work Unit\Monsters\Big_Monster
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: ChangingLevels
+      guid: f8eb79e7b79dfb4e98350556c287b63f
+      id: 3698065137
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: ChangingLevels
+        ObjectType: 4
+        guid: f8eb79e7b79dfb4e98350556c287b63f
+      Path: Events\Default Work Unit\ChangingLevels
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -598,29 +615,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_AMB_Loop_Wind_Gust_01
-      guid: d3ec83331059b341a45b95bc7de45feb
-      id: 2425561832
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 58301ae271a98d46974f6accc96184fa
-      - ElementName: AMB
-        ObjectType: 4
-        guid: 7eacccb593e71341878dd5280afd656f
-      - ElementName: Wind
-        ObjectType: 4
-        guid: aa92a7e37e1e00408443c995d723053b
-      - ElementName: Play_AMB_Loop_Wind_Gust_01
-        ObjectType: 3
-        guid: d3ec83331059b341a45b95bc7de45feb
-      Path: Events\Default Work Unit\AMB\Wind\Play_AMB_Loop_Wind_Gust_01
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
     - name: Play_AMB_SpaceShip
       guid: 64e85753134b0e47bdeae6373951b46b
       id: 3213331111
@@ -641,26 +635,6 @@ MonoBehaviour:
         ObjectType: 3
         guid: 64e85753134b0e47bdeae6373951b46b
       Path: Events\Default Work Unit\AMB\Spaceship\Play_AMB_SpaceShip
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Play_Amb_Swamp
-      guid: 06b93f0eabea674886af3c0d6ea08435
-      id: 1489882803
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 58301ae271a98d46974f6accc96184fa
-      - ElementName: AMB
-        ObjectType: 4
-        guid: 7eacccb593e71341878dd5280afd656f
-      - ElementName: Play_Amb_Swamp
-        ObjectType: 3
-        guid: 06b93f0eabea674886af3c0d6ea08435
-      Path: Events\Default Work Unit\AMB\Play_Amb_Swamp
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1487,6 +1461,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Play_Amb_Locations
+      guid: b7e0b439419fb446aae64ee648a8f48b
+      id: 3839321632
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: AMB
+        ObjectType: 4
+        guid: 7eacccb593e71341878dd5280afd656f
+      - ElementName: Wind
+        ObjectType: 4
+        guid: aa92a7e37e1e00408443c995d723053b
+      - ElementName: Play_Play_Amb_Locations
+        ObjectType: 3
+        guid: b7e0b439419fb446aae64ee648a8f48b
+      Path: Events\Default Work Unit\AMB\Wind\Play_Play_Amb_Locations
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_RFX_Computer
       guid: 7bff4cc014fc7a4d96b059e4bff8a396
       id: 3056483954
@@ -2234,6 +2231,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Stop_All
+      guid: 88ef15848bb7df4c981bda14649ca124
+      id: 452547817
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: ChangingLevels
+        ObjectType: 4
+        guid: f8eb79e7b79dfb4e98350556c287b63f
+      - ElementName: Stop_All
+        ObjectType: 3
+        guid: 88ef15848bb7df4c981bda14649ca124
+      Path: Events\Default Work Unit\ChangingLevels\Stop_All
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Stop_AMB_SpaceShip
       guid: 48e568962025d7438c8012e4924ad0ea
       id: 3876046333
@@ -2612,7 +2629,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: dde22e8dd084f74f8c90764d69789553
     GuidInternal: 
-    m_lastTime: -8585279064366213293
+    m_lastTime: -8585279022867763500
     List:
     - name: Location
       guid: 7f97309fc3fbc04e8ffd16b5de27f935
@@ -2629,6 +2646,38 @@ MonoBehaviour:
         guid: 7f97309fc3fbc04e8ffd16b5de27f935
       Path: States\Default Work Unit\Location
       values:
+      - name: Default
+        guid: 95b899b48fb38943aa794533eab0671d
+        id: 782826392
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dde22e8dd084f74f8c90764d69789553
+        - ElementName: Location
+          ObjectType: 9
+          guid: 7f97309fc3fbc04e8ffd16b5de27f935
+        - ElementName: Default
+          ObjectType: 8
+          guid: 95b899b48fb38943aa794533eab0671d
+      - name: HiddenPlace
+        guid: df17f6e027e0b04383fa85ff11bbe2de
+        id: 3329411914
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dde22e8dd084f74f8c90764d69789553
+        - ElementName: Location
+          ObjectType: 9
+          guid: 7f97309fc3fbc04e8ffd16b5de27f935
+        - ElementName: HiddenPlace
+          ObjectType: 8
+          guid: df17f6e027e0b04383fa85ff11bbe2de
       - name: None
         guid: 864defda11dd014e8210144706fa9d82
         id: 748895195
@@ -3097,7 +3146,7 @@ MonoBehaviour:
     m_lastTime: -8585284015674119453
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000007000000270000002800000029000000
+  ExpandedWaapiItemIds: 010000000500000006000000070000000900000010000000110000002200000023000000240000002700000028000000290000003c0000008e000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
