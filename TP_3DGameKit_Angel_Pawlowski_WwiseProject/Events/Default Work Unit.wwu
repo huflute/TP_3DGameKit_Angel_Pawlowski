@@ -560,7 +560,7 @@
 												<Action Name="" ID="{ED56C426-FA0F-4A04-A5E5-2F283D7B3206}" ShortID="752983842">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="Small_Monster_Spin" ID="{AAF1B679-5896-4894-89D4-3273F3678FBA}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
+															<ObjectRef Name="Small_Monster_Spin" ID="{790F8115-CEA4-45C1-89A7-A39B45A2F7ED}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
