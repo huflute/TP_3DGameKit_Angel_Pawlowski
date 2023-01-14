@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 506fcf57e49ddb428782635b9c72daec
     GuidInternal: 
-    m_lastTime: -8585284015674107375
+    m_lastTime: -8585284051417577638
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 0c74f2e5d4330e46bfec07c1b154966f
     GuidInternal: 
-    m_lastTime: -8585279069442914403
+    m_lastTime: -8585279087487321095
     List:
     - name: Environmental
       guid: eda45d6dcc045d47a639edc09c76d74c
@@ -217,7 +217,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8ff7bc971ac3be4d91a175ce8a07a45d
     GuidInternal: 
-    m_lastTime: -8585279110005656290
+    m_lastTime: -8585279087487057189
     List:
     - name: AMB
       guid: 6d1a6435ebfdec4b818517836a1ef9ba
@@ -385,7 +385,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 58301ae271a98d46974f6accc96184fa
     GuidInternal: 
-    m_lastTime: -8585279058134629392
+    m_lastTime: -8585279054066379923
     List:
     - name: AMB
       guid: 7eacccb593e71341878dd5280afd656f
@@ -2549,7 +2549,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 9ca7747bed20e54ab5d27c0de8914867
     GuidInternal: 
-    m_lastTime: -8585279064366098934
+    m_lastTime: -8585279054210084757
     List: []
   - PhysicalPath: Game Parameters\Evironment.wwu
     PathAndIcons:
@@ -2565,7 +2565,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit\Evironment
     guid: ba3c553c281cd74b8906e9c34e19df65
     GuidInternal: 
-    m_lastTime: -8585279064365698859
+    m_lastTime: -8585279054210064751
     List:
     - name: TimeOfDay
       guid: b9344196434b6447b76c512362d1db38
@@ -2598,7 +2598,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit\Weapon
     guid: 8a050b743995674387e05726d4c7a9fd
     GuidInternal: 
-    m_lastTime: -8585282220447927243
+    m_lastTime: -8585281456215579185
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -2612,7 +2612,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: dde22e8dd084f74f8c90764d69789553
     GuidInternal: 
-    m_lastTime: -8585279064366213293
+    m_lastTime: -8585280042872792744
     List:
     - name: Location
       guid: 7f97309fc3fbc04e8ffd16b5de27f935
@@ -2774,7 +2774,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 64f9ff4cf55ed24b9ee79a66e7775ade
     GuidInternal: 
-    m_lastTime: -8585279068671292733
+    m_lastTime: -8585279054193430919
     List: []
   - PhysicalPath: Switches\Entity.wwu
     PathAndIcons:
@@ -2790,7 +2790,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit\Entity
     guid: 41b04a50991a5640a3f689e347792812
     GuidInternal: 
-    m_lastTime: -8585279068671202480
+    m_lastTime: -8585279054193400886
     List:
     - name: Ground_Material
       guid: 1b952d3e32b055449b28a3a8085a401a
@@ -3021,7 +3021,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit\Environment
     guid: cca39cd7d1447a449542ac83600b4014
     GuidInternal: 
-    m_lastTime: -8585279064365803927
+    m_lastTime: -8585279054193390892
     List:
     - name: TimeOfDay
       guid: 574c3617317e9b499335d0b1f366c105
@@ -3094,10 +3094,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 9f1b90065f823441bd96c497af968d89
     GuidInternal: 
-    m_lastTime: -8585284015674119453
+    m_lastTime: -8585284051417417635
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000007000000270000002800000029000000
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
