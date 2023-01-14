@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_AMB_MUSICPADS = 542468716U;
         static const AkUniqueID PLAY_AMB_SPACESHIP = 3213331111U;
         static const AkUniqueID PLAY_CHOMPER_ATTACK = 931488463U;
         static const AkUniqueID PLAY_CHOMPER_VOX_BEFORE_ATTACK = 3519138347U;
@@ -50,6 +51,8 @@ namespace AK
         static const AkUniqueID PLAY_MC_VOX_DEATH = 634444711U;
         static const AkUniqueID PLAY_MC_VOX_PAIN = 3917663999U;
         static const AkUniqueID PLAY_MONSTER_VANISH = 803911630U;
+        static const AkUniqueID PLAY_MUSIC_DISCOVERY = 111752880U;
+        static const AkUniqueID PLAY_MUSIC_ISINCOMBAT = 3617754619U;
         static const AkUniqueID PLAY_PLAY_AMB_LOCATIONS = 3839321632U;
         static const AkUniqueID PLAY_RFX_BIRDS_CREATURES = 624594268U;
         static const AkUniqueID PLAY_RFX_COMPUTER = 3056483954U;
@@ -96,13 +99,24 @@ namespace AK
 
     namespace STATES
     {
+        namespace ISINCOMBAT
+        {
+            static const AkUniqueID GROUP = 1627457696U;
+
+            namespace STATE
+            {
+                static const AkUniqueID FALSE = 2452206122U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID TRUE = 3053630529U;
+            } // namespace STATE
+        } // namespace ISINCOMBAT
+
         namespace LOCATION
         {
             static const AkUniqueID GROUP = 1176052424U;
 
             namespace STATE
             {
-                static const AkUniqueID DEFAULT = 782826392U;
                 static const AkUniqueID HIDDENPLACE = 3329411914U;
                 static const AkUniqueID NONE = 748895195U;
                 static const AkUniqueID RUINS = 417916826U;

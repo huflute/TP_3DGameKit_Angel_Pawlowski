@@ -385,7 +385,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 58301ae271a98d46974f6accc96184fa
     GuidInternal: 
-    m_lastTime: -8585278916112867871
+    m_lastTime: -8585278903320680585
     List:
     - name: AMB
       guid: 7eacccb593e71341878dd5280afd656f
@@ -632,6 +632,43 @@ MonoBehaviour:
         ObjectType: 4
         guid: 37c27c8daa693e4a95a335a5f32761c2
       Path: Events\Default Work Unit\Monsters
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Music
+      guid: 160287fa7d30204aba40a51c7b59eaa3
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Music
+        ObjectType: 4
+        guid: 160287fa7d30204aba40a51c7b59eaa3
+      Path: Events\Default Work Unit\Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Amb_MusicPads
+      guid: 1ea06c3e31d9a34686b4ac84ac909f16
+      id: 542468716
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: AMB
+        ObjectType: 4
+        guid: 7eacccb593e71341878dd5280afd656f
+      - ElementName: Play_Amb_MusicPads
+        ObjectType: 3
+        guid: 1ea06c3e31d9a34686b4ac84ac909f16
+      Path: Events\Default Work Unit\AMB\Play_Amb_MusicPads
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1504,6 +1541,46 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Music_Discovery
+      guid: 0e4ac521a4e93743bd952e71b7faba58
+      id: 111752880
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Music
+        ObjectType: 4
+        guid: 160287fa7d30204aba40a51c7b59eaa3
+      - ElementName: Play_Music_Discovery
+        ObjectType: 3
+        guid: 0e4ac521a4e93743bd952e71b7faba58
+      Path: Events\Default Work Unit\Music\Play_Music_Discovery
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Music_IsInCombat
+      guid: 42011b2b4bab874ba4baf1beed035183
+      id: 3617754619
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Music
+        ObjectType: 4
+        guid: 160287fa7d30204aba40a51c7b59eaa3
+      - ElementName: Play_Music_IsInCombat
+        ObjectType: 3
+        guid: 42011b2b4bab874ba4baf1beed035183
+      Path: Events\Default Work Unit\Music\Play_Music_IsInCombat
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Play_Amb_Locations
       guid: b7e0b439419fb446aae64ee648a8f48b
       id: 3839321632
@@ -1517,13 +1594,10 @@ MonoBehaviour:
       - ElementName: AMB
         ObjectType: 4
         guid: 7eacccb593e71341878dd5280afd656f
-      - ElementName: Wind
-        ObjectType: 4
-        guid: aa92a7e37e1e00408443c995d723053b
       - ElementName: Play_Play_Amb_Locations
         ObjectType: 3
         guid: b7e0b439419fb446aae64ee648a8f48b
-      Path: Events\Default Work Unit\AMB\Wind\Play_Play_Amb_Locations
+      Path: Events\Default Work Unit\AMB\Play_Play_Amb_Locations
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -2732,26 +2806,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Wind
-      guid: aa92a7e37e1e00408443c995d723053b
-      id: 1537061107
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 58301ae271a98d46974f6accc96184fa
-      - ElementName: AMB
-        ObjectType: 4
-        guid: 7eacccb593e71341878dd5280afd656f
-      - ElementName: Wind
-        ObjectType: 4
-        guid: aa92a7e37e1e00408443c995d723053b
-      Path: Events\Default Work Unit\AMB\Wind
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -2827,8 +2881,74 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: dde22e8dd084f74f8c90764d69789553
     GuidInternal: 
-    m_lastTime: -8585278941537456497
+    m_lastTime: -8585278903466336906
     List:
+    - name: IsInCombat
+      guid: a0a76e5f8bf8cd41a8b319b9b1388609
+      id: 1627457696
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: dde22e8dd084f74f8c90764d69789553
+      - ElementName: IsInCombat
+        ObjectType: 9
+        guid: a0a76e5f8bf8cd41a8b319b9b1388609
+      Path: States\Default Work Unit\IsInCombat
+      values:
+      - name: False
+        guid: 37e30cbb91dee849b789b8b7ea2dbac0
+        id: 2452206122
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dde22e8dd084f74f8c90764d69789553
+        - ElementName: IsInCombat
+          ObjectType: 9
+          guid: a0a76e5f8bf8cd41a8b319b9b1388609
+        - ElementName: False
+          ObjectType: 8
+          guid: 37e30cbb91dee849b789b8b7ea2dbac0
+      - name: None
+        guid: 7428dfab9b086a4983dc9327242d5db5
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dde22e8dd084f74f8c90764d69789553
+        - ElementName: IsInCombat
+          ObjectType: 9
+          guid: a0a76e5f8bf8cd41a8b319b9b1388609
+        - ElementName: None
+          ObjectType: 8
+          guid: 7428dfab9b086a4983dc9327242d5db5
+      - name: True
+        guid: 5c3181e6ec4238418d1cf2c9e6fc7cd3
+        id: 3053630529
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dde22e8dd084f74f8c90764d69789553
+        - ElementName: IsInCombat
+          ObjectType: 9
+          guid: a0a76e5f8bf8cd41a8b319b9b1388609
+        - ElementName: True
+          ObjectType: 8
+          guid: 5c3181e6ec4238418d1cf2c9e6fc7cd3
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
     - name: Location
       guid: 7f97309fc3fbc04e8ffd16b5de27f935
       id: 1176052424
@@ -2844,22 +2964,6 @@ MonoBehaviour:
         guid: 7f97309fc3fbc04e8ffd16b5de27f935
       Path: States\Default Work Unit\Location
       values:
-      - name: Default
-        guid: 95b899b48fb38943aa794533eab0671d
-        id: 782826392
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: dde22e8dd084f74f8c90764d69789553
-        - ElementName: Location
-          ObjectType: 9
-          guid: 7f97309fc3fbc04e8ffd16b5de27f935
-        - ElementName: Default
-          ObjectType: 8
-          guid: 95b899b48fb38943aa794533eab0671d
       - name: HiddenPlace
         guid: df17f6e027e0b04383fa85ff11bbe2de
         id: 3329411914
@@ -3268,7 +3372,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit\Environment
     guid: cca39cd7d1447a449542ac83600b4014
     GuidInternal: 
-    m_lastTime: -8585278941259892421
+    m_lastTime: -8585278903466306882
     List:
     - name: TimeOfDay
       guid: 574c3617317e9b499335d0b1f366c105
@@ -3344,7 +3448,7 @@ MonoBehaviour:
     m_lastTime: -8585284051417417635
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000007000000090000000a00000014000000150000003100000033000000390000003c000000
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
