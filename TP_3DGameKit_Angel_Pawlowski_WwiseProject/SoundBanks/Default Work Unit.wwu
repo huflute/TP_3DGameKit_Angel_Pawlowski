@@ -74,6 +74,13 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Big_Monsters" ID="{745DBBE5-DFE9-457C-B3D9-77DCA65BBD7F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Big_Monster" ID="{87B74CFC-5E45-4F7B-B47D-7FDAAE3312A2}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

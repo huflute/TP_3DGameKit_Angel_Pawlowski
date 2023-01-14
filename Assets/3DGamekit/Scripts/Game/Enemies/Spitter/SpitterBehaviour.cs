@@ -54,7 +54,10 @@ namespace Gamekit3D
             SceneLinkedSMB<SpitterBehaviour>.Initialise(m_Controller.animator, this);
 
         }
-
+         void Start()
+        {
+            AkSoundEngine.SetSwitch("Small_Monster", "Spitter", this.gameObject);
+        }
         public void OnReceiveMessage(Message.MessageType type, object sender, object msg)
         {
             switch (type)
@@ -85,6 +88,7 @@ namespace Gamekit3D
             //We unparent the deathAudio source, as it would destroy it with the gameobject when it get replaced by the ragdol otherwise
             deathAudio.transform.SetParent(null, true);
             deathAudio.PlayRandomClip();
+            AkSoundEngine.PostEvent("Play_Small_Monster_VOX_Death", this.gameObject);
 
             GameObject.Destroy(deathAudio, deathAudio.clip == null ? 0.0f : deathAudio.clip.length + 0.5f);
         }
@@ -115,7 +119,7 @@ namespace Gamekit3D
         public void Shoot()
         {
             rangeWeapon.Attack(m_RememberedTargetPosition);
-            //Debug.Log("Spitter Crache");
+            AkSoundEngine.PostEvent("Play_Spitter_Attack", this.gameObject);
         }
 
         public void TriggerAttack()
@@ -195,6 +199,7 @@ namespace Gamekit3D
         public void FindTarget()
         {
             //we ignore height difference if the target was already seen
+            Debug.Log("Spitter a repéré le joueur");
             m_Target = playerScanner.Detect(transform, m_Target == null);
             m_Controller.animator.SetBool(hashHaveEnemy, m_Target != null);
         }

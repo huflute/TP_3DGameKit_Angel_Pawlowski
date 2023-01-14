@@ -120,7 +120,7 @@
 				<Event Id="2863201769" Name="Stop_Teleporter_Idle" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{867A1756-1BF0-0EF8-171D-579130A3DE3B}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{01552166-CCF9-9A52-1EB5-A0C007B8C74B}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Media>
@@ -296,7 +296,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{5F861923-BF73-39C0-BB49-597B8011A0C5}">
+		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{96B308F9-0AA8-B28E-E36A-D55A775EEB6A}">
 			<ShortName>MC</ShortName>
 			<Path>MC.bnk</Path>
 			<Media>
@@ -935,7 +935,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{FD016086-9CC6-8984-0BA0-0A73E6D47C06}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{ED1893CC-4286-78DC-B9CA-1D325F614E5A}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -1895,9 +1895,11 @@
 					<CachePath>SFX/Export 12012023/AMB_SpaceShip_D79FB2B7.wem</CachePath>
 					<PrefetchSize>9696</PrefetchSize>
 				</File>
-				<File Id="846260293" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="846260293" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Export 12012023 V2\Switch_Stone_Idle.wav</ShortName>
-					<CachePath>SFX/Export 12012023 V2/Switch_Stone_Idle_10C4C929.wem</CachePath>
+					<Path>Media/846260293.wem</Path>
+					<CachePath>SFX/Export 12012023 V2/Switch_Stone_Idle_D79FB2B7.wem</CachePath>
+					<PrefetchSize>9696</PrefetchSize>
 				</File>
 				<File Id="850359613" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Spitter_Attack_01.wav</ShortName>
@@ -2656,7 +2658,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="281344347" Name="Play_Small_Monster_Spin" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.16772917" DurationMax="0.35329166">
+				<Event Id="281344347" Name="Play_Small_Monster_Spin" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.46772918" DurationMax="0.6532917">
 					<MediaRefs>
 						<MediaRef Id="263542469"/>
 						<MediaRef Id="307766508"/>
@@ -2728,7 +2730,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="41618512" Name="Play_Small_Monster_VOX_Spots" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.32964584" DurationMax="0.38529167">
+				<Event Id="41618512" Name="Play_Small_Monster_VOX_Spots" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.32964584" DurationMax="0.38529167">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="643044249" Id="2535446860"/>
@@ -2789,7 +2791,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="3913336272" Name="Play_Spitter_Attack" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.48422918" DurationMax="0.50675">
+				<Event Id="3913336272" Name="Play_Spitter_Attack" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.48422918" DurationMax="0.50675">
 					<MediaRefs>
 						<MediaRef Id="467297718"/>
 						<MediaRef Id="850359613"/>
@@ -2816,7 +2818,7 @@
 						<MediaRef Id="831798853"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="717478169" Name="Play_Switch_Stone_Idle" MaxAttenuation="10" DurationType="OneShot" DurationMin="11.466666" DurationMax="11.466666">
+				<Event Id="717478169" Name="Play_Switch_Stone_Idle" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="846260293"/>
 					</MediaRefs>
@@ -2968,7 +2970,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3202316517" Type="User" Language="SFX" Hash="{E93FC68B-D318-E9ED-D2CF-D2A729FDC7DD}">
+		<SoundBank Id="3202316517" Type="User" Language="SFX" Hash="{FAFE48BC-41A6-C783-E3BC-A7D52E9FD8A1}">
 			<ShortName>Switch</ShortName>
 			<Path>Switch.bnk</Path>
 			<Media>
@@ -2992,9 +2994,11 @@
 					<ShortName>Export 12012023 V2\Switch_Stone_Activation.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Switch_Stone_Activation_10C4C929.wem</CachePath>
 				</File>
-				<File Id="846260293" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="846260293" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Export 12012023 V2\Switch_Stone_Idle.wav</ShortName>
-					<CachePath>SFX/Export 12012023 V2/Switch_Stone_Idle_10C4C929.wem</CachePath>
+					<Path>Media/846260293.wem</Path>
+					<CachePath>SFX/Export 12012023 V2/Switch_Stone_Idle_D79FB2B7.wem</CachePath>
+					<PrefetchSize>9696</PrefetchSize>
 				</File>
 			</Media>
 			<Events>
@@ -3018,7 +3022,7 @@
 						<MediaRef Id="831798853"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="717478169" Name="Play_Switch_Stone_Idle" MaxAttenuation="10" DurationType="OneShot" DurationMin="11.466666" DurationMax="11.466666">
+				<Event Id="717478169" Name="Play_Switch_Stone_Idle" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="846260293"/>
 					</MediaRefs>
@@ -3048,7 +3052,7 @@
 				</ShareSets>
 			</Plugins>
 		</SoundBank>
-		<SoundBank Id="3893417221" Type="User" Language="SFX" Hash="{8E12D082-AA20-EEE4-1D3C-CCCDA9DAE49F}">
+		<SoundBank Id="3893417221" Type="User" Language="SFX" Hash="{D7571082-CC1F-3383-5D2F-088132F710E8}">
 			<ShortName>Weapon</ShortName>
 			<Path>Weapon.bnk</Path>
 			<Media>
@@ -3224,7 +3228,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{F2D18EA4-85A4-0CA5-DA58-AE3D6661C95D}">
+		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{CD588F9A-3B71-04A3-6F9C-B96959E7C006}">
 			<ShortName>Small_Monsters</ShortName>
 			<Path>Small_Monsters.bnk</Path>
 			<Media>
@@ -3737,7 +3741,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="281344347" Name="Play_Small_Monster_Spin" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.16772917" DurationMax="0.35329166">
+				<Event Id="281344347" Name="Play_Small_Monster_Spin" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.46772918" DurationMax="0.6532917">
 					<MediaRefs>
 						<MediaRef Id="263542469"/>
 						<MediaRef Id="307766508"/>
@@ -3809,7 +3813,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="41618512" Name="Play_Small_Monster_VOX_Spots" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.32964584" DurationMax="0.38529167">
+				<Event Id="41618512" Name="Play_Small_Monster_VOX_Spots" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.32964584" DurationMax="0.38529167">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="643044249" Id="2535446860"/>
@@ -3870,7 +3874,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="3913336272" Name="Play_Spitter_Attack" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.48422918" DurationMax="0.50675">
+				<Event Id="3913336272" Name="Play_Spitter_Attack" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.48422918" DurationMax="0.50675">
 					<MediaRefs>
 						<MediaRef Id="467297718"/>
 						<MediaRef Id="850359613"/>
@@ -3896,5 +3900,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2E3DE87D-59BF-C4AF-A0DD-B8D4794F823F}</FileHash>
+	<FileHash>{3EBBFB0A-5F53-6B68-8BE7-563A710E2C55}</FileHash>
 </SoundBanksInfo>
