@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace Gamekit3D.GameCommands
 {
@@ -20,6 +22,7 @@ namespace Gamekit3D.GameCommands
         public SendGameCommand OnStartCommand, OnStopCommand;
 
         public AudioSource onStartAudio, onEndAudio;
+        public AK.Wwise.Event onStartEvent, onEndEvent;
 
         [Range(0, 1)]
         public float previewPosition;
@@ -33,6 +36,7 @@ namespace Gamekit3D.GameCommands
         void TestPlayAudio()
         {
             if (onStartAudio != null) onStartAudio.Play();
+            
         }
 
         protected override void Awake()
@@ -47,6 +51,7 @@ namespace Gamekit3D.GameCommands
             activate = true;
             if (OnStartCommand != null) OnStartCommand.Send();
             if (onStartAudio != null) onStartAudio.Play();
+            if (onStartEvent != null) onStartEvent.Post(this.gameObject);
         }
 
         public void FixedUpdate()
@@ -92,6 +97,7 @@ namespace Gamekit3D.GameCommands
             {
                 enabled = false;
                 if (OnStopCommand != null) OnStopCommand.Send();
+                if (onEndEvent != null) onEndEvent.Post(this.gameObject);
                 direction *= -1;
             }
         }
