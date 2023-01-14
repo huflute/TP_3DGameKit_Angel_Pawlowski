@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_AMB_MUSICPADS = 542468716U;
         static const AkUniqueID PLAY_AMB_SPACESHIP = 3213331111U;
         static const AkUniqueID PLAY_CHOMPER_ATTACK = 931488463U;
         static const AkUniqueID PLAY_CHOMPER_VOX_BEFORE_ATTACK = 3519138347U;
@@ -55,6 +56,7 @@ namespace AK
         static const AkUniqueID PLAY_PLAY_AMB_LOCATIONS = 3839321632U;
         static const AkUniqueID PLAY_RFX_BIRDS_CREATURES = 624594268U;
         static const AkUniqueID PLAY_RFX_COMPUTER = 3056483954U;
+        static const AkUniqueID PLAY_RIVER_LOOP = 994087705U;
         static const AkUniqueID PLAY_SMALL_MONSTER_BODYFALL = 3179497032U;
         static const AkUniqueID PLAY_SMALL_MONSTER_HIT = 1602398710U;
         static const AkUniqueID PLAY_SMALL_MONSTER_RUN = 1338193862U;
@@ -88,6 +90,7 @@ namespace AK
         static const AkUniqueID STOP_FIREFLIES = 4099702875U;
         static const AkUniqueID STOP_MC_SHIELD = 616065004U;
         static const AkUniqueID STOP_RFX_BIRDS_CREATURES = 3867827650U;
+        static const AkUniqueID STOP_RIVER_LOOP = 1008653791U;
         static const AkUniqueID STOP_SWITCH_CRYSTALS_IDLE_AFTERACTIVATION = 4212421580U;
         static const AkUniqueID STOP_SWITCH_CRYSTALS_IDLE_BEFOREACTIVATION = 3192261611U;
         static const AkUniqueID STOP_SWITCH_STONE_IDLE = 3416772595U;
