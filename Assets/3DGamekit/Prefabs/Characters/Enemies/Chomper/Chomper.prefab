@@ -4992,7 +4992,7 @@ GameObject:
   - component: {fileID: 1622703846349398677}
   - component: {fileID: 342646845588513423}
   m_Layer: 12
-  m_Name: DetectEntity
+  m_Name: DetectChomper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

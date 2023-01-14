@@ -73,6 +73,7 @@ namespace Gamekit3D
         {
             m_EnemyController = GetComponent<EnemyController>();
             m_NavMeshAgent = GetComponent<NavMeshAgent>();
+            AkSoundEngine.SetState("IsInCombat", "True");
 
             SceneLinkedSMB<GrenadierBehaviour>.Initialise(m_EnemyController.animator, this);
 
@@ -138,6 +139,7 @@ namespace Gamekit3D
         {
             deathAudioPlayer.PlayRandomClip();
             m_EnemyController.animator.SetTrigger(hashDeathParam);
+            AkSoundEngine.SetState("IsInCombat", "False");
         }
 
         public void ActivateShield()

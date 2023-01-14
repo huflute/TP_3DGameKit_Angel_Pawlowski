@@ -30,11 +30,11 @@ public class IsInCombat : MonoBehaviour
         while (i < hitColliders.Length)
         {
             //Output all of the collider names
-            //Debug.Log("Hit : " + hitColliders[i].name + i);
+           Debug.Log("Hit : " + hitColliders[i].name + i);
             //Increase the number of Colliders in the array
             i++;
             print("il y a " + i + "ennemies dans la zone");
-            if (i <= 3 || hitColliders[i].name == "Grenadier")
+            if (i >= 4)
             {
                 AkSoundEngine.SetState("IsInCombat", "True");
 

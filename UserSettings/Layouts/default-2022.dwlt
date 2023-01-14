@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 469.6
     height: 463.2
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -120,15 +120,15 @@ MonoBehaviour:
     y: 463.2
     width: 1195.2
     height: 259.59998
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 14}
   - {fileID: 19}
   - {fileID: 13}
   m_Selected: 1
-  m_LastSelected: 2
+  m_LastSelected: 0
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 23
+  controlID: 97
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 24
+  controlID: 87
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -379,10 +379,10 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: b7c146d79b5d0df4bbddbb87906b0bc6,
+  m_AnimatorController: {fileID: 9100000, guid: c956a0bc79a978e4f882a136c9f0a574,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 1107461796873352668, guid: b7c146d79b5d0df4bbddbb87906b0bc6,
+  - m_Target: {fileID: 1107427563864358398, guid: c956a0bc79a978e4f882a136c9f0a574,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -476,7 +476,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_SearchFilter:
-    m_NameFilter: controller
+    m_NameFilter: 
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -488,22 +488,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/3DGamekit/Scripts/Game/Enemies/Grenadier
     m_Globs: []
-    m_OriginalText: controller
+    m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/3DGamekit/Scripts/Game/Enemies/Grenadier
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 38.200012}
-    m_SelectedIDs: 2a540100
-    m_LastClickedID: 87082
-    m_ExpandedIDs: 000000002a5401002c5401002e54010030540100325401003454010000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 533.4}
+    m_SelectedIDs: 8c5a0900
+    m_LastClickedID: 613004
+    m_ExpandedIDs: 00000000ec480100ee480100f0480100f2480100f4480100f6480100fcfd03008e5a0900905a090000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -531,7 +531,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002a5401002c5401002e540100305401003254010034540100
+    m_ExpandedIDs: 00000000ec480100ee480100f0480100f2480100f4480100f6480100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -556,8 +556,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 76220000
-    m_LastClickedInstanceID: 8822
+    m_SelectedInstanceIDs: d0e30000
+    m_LastClickedInstanceID: 58320
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000b2fc0100
     m_RenameOverlay:
@@ -660,10 +660,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 186.79999}
-      m_SelectedIDs: 1645fcff
-      m_LastClickedID: -244458
-      m_ExpandedIDs: 48e4feff0efaffff2c9e0000d4b200001cf30000
+      scrollPos: {x: 0, y: 780}
+      m_SelectedIDs: d0e30000
+      m_LastClickedID: 58320
+      m_ExpandedIDs: 18f0fdffe4c3feff24f3fffffcfaffff108c0000d0e30000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -979,9 +979,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 15.33036, y: 17.550158, z: 56.087914}
+    m_Target: {x: 4.453222, y: 44.172844, z: 43.67857}
     speed: 2
-    m_Value: {x: 15.330328, y: 17.550207, z: 56.087906}
+    m_Value: {x: 4.4532223, y: 44.172844, z: 43.67857}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1027,13 +1027,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.36936474, y: 0.55460346, z: -0.2996148, w: 0.6829265}
+    m_Target: {x: 0.30067793, y: 0.67420393, z: -0.3519442, w: 0.57565665}
     speed: 2
-    m_Value: {x: 0.36683553, y: 0.5564773, z: -0.2984741, w: 0.68313825}
+    m_Value: {x: 0.29978383, y: 0.6746626, z: -0.35089666, w: 0.5760483}
   m_Size:
-    m_Target: 1.707839
+    m_Target: 1.7320508
     speed: 2
-    m_Value: 1.707839
+    m_Value: 1.7320508
   m_Ortho:
     m_Target: 0
     speed: 2
