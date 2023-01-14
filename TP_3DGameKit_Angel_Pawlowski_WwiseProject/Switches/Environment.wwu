@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D79CA3CC-44D1-447A-9542-AC83600B4014}" SchemaVersion="110" RootDocumentID="{4CFFF964-5EF5-4BD2-9EE7-9A66E7775ADE}" ParentDocumentID="{4CFFF964-5EF5-4BD2-9EE7-9A66E7775ADE}">
+	<Switches>
+		<WorkUnit Name="Environment" ID="{D79CA3CC-44D1-447A-9542-AC83600B4014}" OwnerID="{4CFFF964-5EF5-4BD2-9EE7-9A66E7775ADE}" PersistMode="Nested">
+			<ChildrenList>
+				<SwitchGroup Name="TimeOfDay" ID="{17364C57-7E31-499B-9335-D0B1F366C105}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Day" ID="{EA643A40-DF7D-4E81-AFB9-AF4B3DF5E4FD}"/>
+						<Switch Name="Night" ID="{0FBA19FC-DDC8-4355-9B52-B7FDFDBEAB2A}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="TimeOfDay" ID="{964134B9-4B43-4764-B76C-512362D1DB38}"/>
+						<Curve Name="" ID="{567910F8-755F-44FB-8827-78E24B479251}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>0</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>24</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 0c74f2e5d4330e46bfec07c1b154966f
     GuidInternal: 
-    m_lastTime: -8585279121554148453
+    m_lastTime: -8585279069442914403
     List:
     - name: Environmental
       guid: eda45d6dcc045d47a639edc09c76d74c
@@ -217,7 +217,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8ff7bc971ac3be4d91a175ce8a07a45d
     GuidInternal: 
-    m_lastTime: -8585279121315200435
+    m_lastTime: -8585279110005656290
     List:
     - name: AMB
       guid: 6d1a6435ebfdec4b818517836a1ef9ba
@@ -233,6 +233,20 @@ MonoBehaviour:
         ObjectType: 7
         guid: 6d1a6435ebfdec4b818517836a1ef9ba
       Path: SoundBanks\Default Work Unit\AMB
+    - name: Big_Monsters
+      guid: e5bb5d74e9df7c45b3d977dca65bbd7f
+      id: 2691884509
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8ff7bc971ac3be4d91a175ce8a07a45d
+      - ElementName: Big_Monsters
+        ObjectType: 7
+        guid: e5bb5d74e9df7c45b3d977dca65bbd7f
+      Path: SoundBanks\Default Work Unit\Big_Monsters
     - name: ConvoReverb
       guid: 06d003abe6d9974fa63842e2c2334e36
       id: 3251668866
@@ -371,7 +385,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 58301ae271a98d46974f6accc96184fa
     GuidInternal: 
-    m_lastTime: -8585279173021163851
+    m_lastTime: -8585279058134629392
     List:
     - name: AMB
       guid: 7eacccb593e71341878dd5280afd656f
@@ -627,6 +641,26 @@ MonoBehaviour:
         ObjectType: 3
         guid: 64e85753134b0e47bdeae6373951b46b
       Path: Events\Default Work Unit\AMB\Spaceship\Play_AMB_SpaceShip
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Amb_Swamp
+      guid: 06b93f0eabea674886af3c0d6ea08435
+      id: 1489882803
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: AMB
+        ObjectType: 4
+        guid: 7eacccb593e71341878dd5280afd656f
+      - ElementName: Play_Amb_Swamp
+        ObjectType: 3
+        guid: 06b93f0eabea674886af3c0d6ea08435
+      Path: Events\Default Work Unit\AMB\Play_Amb_Swamp
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -2515,8 +2549,41 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 9ca7747bed20e54ab5d27c0de8914867
     GuidInternal: 
-    m_lastTime: -8585282177003659701
+    m_lastTime: -8585279064366098934
     List: []
+  - PhysicalPath: Game Parameters\Evironment.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 9ca7747bed20e54ab5d27c0de8914867
+    - ElementName: Evironment
+      ObjectType: 12
+      guid: ba3c553c281cd74b8906e9c34e19df65
+    ParentPath: Game Parameters\Default Work Unit\Evironment
+    guid: ba3c553c281cd74b8906e9c34e19df65
+    GuidInternal: 
+    m_lastTime: -8585279064365698859
+    List:
+    - name: TimeOfDay
+      guid: b9344196434b6447b76c512362d1db38
+      id: 3729505769
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9ca7747bed20e54ab5d27c0de8914867
+      - ElementName: Evironment
+        ObjectType: 12
+        guid: ba3c553c281cd74b8906e9c34e19df65
+      - ElementName: TimeOfDay
+        ObjectType: 13
+        guid: b9344196434b6447b76c512362d1db38
+      Path: Game Parameters\Default Work Unit\Evironment\TimeOfDay
   - PhysicalPath: Game Parameters\Weapon.wwu
     PathAndIcons:
     - ElementName: Game Parameters
@@ -2545,7 +2612,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: dde22e8dd084f74f8c90764d69789553
     GuidInternal: 
-    m_lastTime: -8585280495109024928
+    m_lastTime: -8585279064366213293
     List:
     - name: Location
       guid: 7f97309fc3fbc04e8ffd16b5de27f935
@@ -2707,58 +2774,8 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 64f9ff4cf55ed24b9ee79a66e7775ade
     GuidInternal: 
-    m_lastTime: -8585279602654827738
-    List:
-    - name: Small_Monster
-      guid: b5345abf06648842a8b3ad3e6b693efc
-      id: 643044249
-      PathAndIcons:
-      - ElementName: Switches
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 64f9ff4cf55ed24b9ee79a66e7775ade
-      - ElementName: Small_Monster
-        ObjectType: 11
-        guid: b5345abf06648842a8b3ad3e6b693efc
-      Path: Switches\Default Work Unit\Small_Monster
-      values:
-      - name: Chomper
-        guid: c8608c81cc72b74f94c2b1789001fe98
-        id: 14039721
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 64f9ff4cf55ed24b9ee79a66e7775ade
-        - ElementName: Small_Monster
-          ObjectType: 11
-          guid: b5345abf06648842a8b3ad3e6b693efc
-        - ElementName: Chomper
-          ObjectType: 10
-          guid: c8608c81cc72b74f94c2b1789001fe98
-      - name: Spitter
-        guid: 48929d555551ba4fae670d3d25ec7020
-        id: 2535446860
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 64f9ff4cf55ed24b9ee79a66e7775ade
-        - ElementName: Small_Monster
-          ObjectType: 11
-          guid: b5345abf06648842a8b3ad3e6b693efc
-        - ElementName: Spitter
-          ObjectType: 10
-          guid: 48929d555551ba4fae670d3d25ec7020
-      ValueGuids: []
-      ValueIcons: []
-      valuesInternal: []
+    m_lastTime: -8585279068671292733
+    List: []
   - PhysicalPath: Switches\Entity.wwu
     PathAndIcons:
     - ElementName: Switches
@@ -2773,7 +2790,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit\Entity
     guid: 41b04a50991a5640a3f689e347792812
     GuidInternal: 
-    m_lastTime: -8585282207301901448
+    m_lastTime: -8585279068671202480
     List:
     - name: Ground_Material
       guid: 1b952d3e32b055449b28a3a8085a401a
@@ -2931,6 +2948,140 @@ MonoBehaviour:
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
+    - name: Small_Monster
+      guid: b5345abf06648842a8b3ad3e6b693efc
+      id: 643044249
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 64f9ff4cf55ed24b9ee79a66e7775ade
+      - ElementName: Entity
+        ObjectType: 12
+        guid: 41b04a50991a5640a3f689e347792812
+      - ElementName: Small_Monster
+        ObjectType: 11
+        guid: b5345abf06648842a8b3ad3e6b693efc
+      Path: Switches\Default Work Unit\Entity\Small_Monster
+      values:
+      - name: Chomper
+        guid: c8608c81cc72b74f94c2b1789001fe98
+        id: 14039721
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 64f9ff4cf55ed24b9ee79a66e7775ade
+        - ElementName: Entity
+          ObjectType: 12
+          guid: 41b04a50991a5640a3f689e347792812
+        - ElementName: Small_Monster
+          ObjectType: 11
+          guid: b5345abf06648842a8b3ad3e6b693efc
+        - ElementName: Chomper
+          ObjectType: 10
+          guid: c8608c81cc72b74f94c2b1789001fe98
+      - name: Spitter
+        guid: 48929d555551ba4fae670d3d25ec7020
+        id: 2535446860
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 64f9ff4cf55ed24b9ee79a66e7775ade
+        - ElementName: Entity
+          ObjectType: 12
+          guid: 41b04a50991a5640a3f689e347792812
+        - ElementName: Small_Monster
+          ObjectType: 11
+          guid: b5345abf06648842a8b3ad3e6b693efc
+        - ElementName: Spitter
+          ObjectType: 10
+          guid: 48929d555551ba4fae670d3d25ec7020
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  - PhysicalPath: Switches\Environment.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 64f9ff4cf55ed24b9ee79a66e7775ade
+    - ElementName: Environment
+      ObjectType: 12
+      guid: cca39cd7d1447a449542ac83600b4014
+    ParentPath: Switches\Default Work Unit\Environment
+    guid: cca39cd7d1447a449542ac83600b4014
+    GuidInternal: 
+    m_lastTime: -8585279064365803927
+    List:
+    - name: TimeOfDay
+      guid: 574c3617317e9b499335d0b1f366c105
+      id: 3729505769
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 64f9ff4cf55ed24b9ee79a66e7775ade
+      - ElementName: Environment
+        ObjectType: 12
+        guid: cca39cd7d1447a449542ac83600b4014
+      - ElementName: TimeOfDay
+        ObjectType: 11
+        guid: 574c3617317e9b499335d0b1f366c105
+      Path: Switches\Default Work Unit\Environment\TimeOfDay
+      values:
+      - name: Day
+        guid: 403a64ea7ddf814eafb9af4b3df5e4fd
+        id: 311764537
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 64f9ff4cf55ed24b9ee79a66e7775ade
+        - ElementName: Environment
+          ObjectType: 12
+          guid: cca39cd7d1447a449542ac83600b4014
+        - ElementName: TimeOfDay
+          ObjectType: 11
+          guid: 574c3617317e9b499335d0b1f366c105
+        - ElementName: Day
+          ObjectType: 10
+          guid: 403a64ea7ddf814eafb9af4b3df5e4fd
+      - name: Night
+        guid: fc19ba0fc8dd55439b52b7fdfdbeab2a
+        id: 1011622525
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 64f9ff4cf55ed24b9ee79a66e7775ade
+        - ElementName: Environment
+          ObjectType: 12
+          guid: cca39cd7d1447a449542ac83600b4014
+        - ElementName: TimeOfDay
+          ObjectType: 11
+          guid: 574c3617317e9b499335d0b1f366c105
+        - ElementName: Night
+          ObjectType: 10
+          guid: fc19ba0fc8dd55439b52b7fdfdbeab2a
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -2946,7 +3097,7 @@ MonoBehaviour:
     m_lastTime: -8585284015674119453
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000020000000300000004000000050000000f0000001300000014000000150000001f00000023000000290000002a000000e8af0200
+  ExpandedWaapiItemIds: 0600000007000000270000002800000029000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

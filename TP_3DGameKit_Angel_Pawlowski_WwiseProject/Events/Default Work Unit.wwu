@@ -407,6 +407,17 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Event Name="Play_Amb_Swamp" ID="{0E3FB906-EAAB-4867-86AF-3C0D6EA08435}">
+							<ChildrenList>
+								<Action Name="" ID="{133A74AD-9D07-4979-B1E8-C8357D4DECCF}" ShortID="420004658">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Swamp" ID="{C6D39A46-D63B-47E6-A2EA-5AE2D374517C}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Monsters" ID="{8D7CC237-69AA-4A3E-95A3-35A5F32761C2}" ShortID="118562511">

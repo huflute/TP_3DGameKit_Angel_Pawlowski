@@ -4,7 +4,7 @@ Effect plug-ins	ID	Name	Type				Notes
 	3332746565	Ruins_ConvoVerb	Wwise Convolution Reverb			
 
 Plug-in Media	ID	Name	Source file	Type	Wwise Object Path	Notes	Data Size
-	310598016	Ruins_ConvoVerb	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\Plugins\Wwise Convolution Reverb\Valley, Low, Forest 30m_9C1F71D7.wem	Wwise Convolution Reverb (Shared)	\Effects\Factory Effects\Convo\Ruins_ConvoVerb		895568
+	310598016	Ruins_ConvoVerb	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\Plugins\Wwise Convolution Reverb\Valley, Low, Forest 30m_73AE84CF.wem	Wwise Convolution Reverb (Shared)	\Effects\Factory Effects\Convo\Ruins_ConvoVerb		536272
 	873074497	HiddenPlace_ConvoVerb	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\Plugins\Wwise Convolution Reverb\Urban, Open Industrial Street 10m_C7D6AA76.wem	Wwise Convolution Reverb (Shared)	\Effects\Factory Effects\Convo\HiddenPlace_ConvoVerb		252976
 	1004851595	Swamp_ConvoVerb	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\Plugins\Wwise Convolution Reverb\Field, Surround by Trees 10m_DF5C0B1A.wem	Wwise Convolution Reverb (Shared)	\Effects\Factory Effects\Convo\Swamp_ConvoVerb		496864
 

@@ -1,3 +1,10 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3729505769	TimeOfDay			\Default Work Unit\Environment\TimeOfDay	
+
+Switch	ID	Name	Switch Group			Notes
+	311764537	Day	TimeOfDay			
+	1011622525	Night	TimeOfDay			
+
 State Group	ID	Name			Wwise Object Path	Notes
 	1176052424	Location			\Default Work Unit\Location	
 	2607556080	Menu			\Default Work Unit\Menu	

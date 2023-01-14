@@ -54,7 +54,12 @@
 							<Position X="4" Y="0"/>
 						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="TimeOfDay" ID="{964134B9-4B43-4764-B76C-512362D1DB38}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="None" ID="{1F9790EC-5286-4B56-9310-34C68F2E85AE}"/>
 						<CurrentStateRef Name="None" ID="{DAEF4D86-DD11-4E01-8210-144706FA9D82}"/>

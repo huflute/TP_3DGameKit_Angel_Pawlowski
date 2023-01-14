@@ -3521,6 +3521,7 @@ GameObject:
   - component: {fileID: 2274662090461691837}
   - component: {fileID: 697008667014152430}
   - component: {fileID: 5410389393825476442}
+  - component: {fileID: 2382787835561795080}
   m_Layer: 23
   m_Name: Chomper
   m_TagString: Untagged
@@ -3846,6 +3847,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2382787835561795080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722084123150156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3d2c1f4f14ce4b46936d3428f1d45ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Collider: {fileID: 0}
 --- !u!1 &1737964142438470
 GameObject:
   m_ObjectHideFlags: 0
