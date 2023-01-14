@@ -17,6 +17,8 @@ namespace Gamekit3D.GameCommands
             Vector3 deltaPosition = pos - rigidbody.position;
             if (Application.isEditor && !Application.isPlaying)
                 rigidbody.transform.position = pos;
+                Debug.Log("Porte ouverte");
+            
             rigidbody.MovePosition(pos);
 
             if (m_Platform != null)
