@@ -822,125 +822,133 @@
 				</Folder>
 				<Folder Name="Switch" ID="{73B638FA-89DE-4CD9-B4B6-799093D2C0E6}" ShortID="873589291">
 					<ChildrenList>
-						<Event Name="Play_Switch_Stone_Idle" ID="{E5264F52-7645-4F3D-9AAC-C6D76850C863}">
+						<Folder Name="Stone" ID="{6069D6E4-D423-42DF-B797-18DB9405D314}" ShortID="15007083">
 							<ChildrenList>
-								<Action Name="" ID="{7CD2F53C-3E04-4960-B824-4A0033B5C9BC}" ShortID="313197046">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Switch_Stone_Idle" ID="{A4A3D073-98B8-4F18-A2FA-5DA8B4B9D178}" WorkUnitID="{27C83EDE-D941-46B3-8475-398CF729A6E5}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
+								<Event Name="Play_Switch_Stone_Idle" ID="{E5264F52-7645-4F3D-9AAC-C6D76850C863}">
+									<ChildrenList>
+										<Action Name="" ID="{7CD2F53C-3E04-4960-B824-4A0033B5C9BC}" ShortID="313197046">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Switch_Stone_Idle" ID="{A4A3D073-98B8-4F18-A2FA-5DA8B4B9D178}" WorkUnitID="{27C83EDE-D941-46B3-8475-398CF729A6E5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Switch_Stone_Activation" ID="{3353C33E-DCBE-4FD3-8F0B-02C68474A2B6}">
+									<ChildrenList>
+										<Action Name="" ID="{B85922C5-4430-41A1-B52C-DFD16A09A1A4}" ShortID="423911171">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Switch_Stone_Activation" ID="{56654FD5-5997-4B7E-9B4D-B70B5F9F8DB8}" WorkUnitID="{27C83EDE-D941-46B3-8475-398CF729A6E5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{546B4FEE-6E9B-41BA-B418-5D284098CCAE}" ShortID="277873727">
+											<PropertyList>
+												<Property Name="AbsoluteOrRelative" Type="int16" Value="1"/>
+												<Property Name="ActionType" Type="int16" Value="13"/>
+												<Property Name="Pitch" Type="int32" Value="200"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Switch_Stone_Idle" ID="{A4A3D073-98B8-4F18-A2FA-5DA8B4B9D178}" WorkUnitID="{27C83EDE-D941-46B3-8475-398CF729A6E5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_Switch_Stone_Idle" ID="{3071B5E5-F328-4038-AA80-FB9FE6EA4BBB}">
+									<ChildrenList>
+										<Action Name="" ID="{232FABE2-1B6E-480A-975B-7F085897AF6C}" ShortID="942766882">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Switch_Stone_Idle" ID="{A4A3D073-98B8-4F18-A2FA-5DA8B4B9D178}" WorkUnitID="{27C83EDE-D941-46B3-8475-398CF729A6E5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
-						</Event>
-						<Event Name="Play_Switch_Crystals_Activation" ID="{486712ED-43BD-4D2D-A15F-F3D97C788FA5}">
+						</Folder>
+						<Folder Name="Crystal" ID="{0D65AEEF-B3B3-47F6-A627-A9865F0EAF89}" ShortID="336453591">
 							<ChildrenList>
-								<Action Name="" ID="{F6B36358-CE27-4B06-A206-6B723A2F6C57}" ShortID="95846916">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Switch_Crystals_Activation" ID="{2737AE95-4821-4CC6-9B97-935A9F22AB07}" WorkUnitID="{27C83EDE-D941-46B3-8475-398CF729A6E5}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
+								<Event Name="Play_Switch_Crystals_Idle_AfterActivation" ID="{6F95BE0B-1500-4F7F-A3BF-CB452A5ED3FD}">
+									<ChildrenList>
+										<Action Name="" ID="{65B016BF-BF9F-482F-B1E9-79064853DD4F}" ShortID="1004468392">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Switch_Crystals_Idle_BeforeActivation" ID="{6C2BD0A4-2BE8-49D6-B56B-D6A43FA8F48C}" WorkUnitID="{27C83EDE-D941-46B3-8475-398CF729A6E5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{AC6AE7A3-2CA0-4678-8B27-6D2BB160EF4D}" ShortID="641141134">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Switch_Crystals_Idle_AfterActivation" ID="{820671FE-BC85-4F82-AD55-9923B2C54A4C}" WorkUnitID="{27C83EDE-D941-46B3-8475-398CF729A6E5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Switch_Crystals_Activation" ID="{486712ED-43BD-4D2D-A15F-F3D97C788FA5}">
+									<ChildrenList>
+										<Action Name="" ID="{F6B36358-CE27-4B06-A206-6B723A2F6C57}" ShortID="95846916">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Switch_Crystals_Activation" ID="{2737AE95-4821-4CC6-9B97-935A9F22AB07}" WorkUnitID="{27C83EDE-D941-46B3-8475-398CF729A6E5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_Switch_Crystals_Idle_AfterActivation" ID="{C80735EA-A112-46FE-AF3C-43186F023D8B}">
+									<ChildrenList>
+										<Action Name="" ID="{07B843F1-D418-4CF3-A6FA-AE4775301BF3}" ShortID="359425486">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Switch_Crystals_Idle_AfterActivation" ID="{820671FE-BC85-4F82-AD55-9923B2C54A4C}" WorkUnitID="{27C83EDE-D941-46B3-8475-398CF729A6E5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_Switch_Crystals_Idle_BeforeActivation" ID="{8EE8A58F-9781-48B6-81F7-50E3E422F863}">
+									<ChildrenList>
+										<Action Name="" ID="{6FE03025-9CD1-430E-9293-C71011CF9D00}" ShortID="795283256">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Switch_Crystals_Idle_BeforeActivation" ID="{6C2BD0A4-2BE8-49D6-B56B-D6A43FA8F48C}" WorkUnitID="{27C83EDE-D941-46B3-8475-398CF729A6E5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Switch_Crystals_Idle_BeforeActivation" ID="{E6B4684E-4320-437F-B4E4-B9ADD192D21B}">
+									<ChildrenList>
+										<Action Name="" ID="{37F9A715-97B9-467F-A6B2-1D48F1F78774}" ShortID="966148536">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Switch_Crystals_Idle_BeforeActivation" ID="{6C2BD0A4-2BE8-49D6-B56B-D6A43FA8F48C}" WorkUnitID="{27C83EDE-D941-46B3-8475-398CF729A6E5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
-						</Event>
-						<Event Name="Play_Switch_Crystals_Idle_AfterActivation" ID="{6F95BE0B-1500-4F7F-A3BF-CB452A5ED3FD}">
-							<ChildrenList>
-								<Action Name="" ID="{65B016BF-BF9F-482F-B1E9-79064853DD4F}" ShortID="1004468392">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Switch_Crystals_Idle_BeforeActivation" ID="{6C2BD0A4-2BE8-49D6-B56B-D6A43FA8F48C}" WorkUnitID="{27C83EDE-D941-46B3-8475-398CF729A6E5}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{AC6AE7A3-2CA0-4678-8B27-6D2BB160EF4D}" ShortID="641141134">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Switch_Crystals_Idle_AfterActivation" ID="{820671FE-BC85-4F82-AD55-9923B2C54A4C}" WorkUnitID="{27C83EDE-D941-46B3-8475-398CF729A6E5}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Switch_Crystals_Idle_BeforeActivation" ID="{E6B4684E-4320-437F-B4E4-B9ADD192D21B}">
-							<ChildrenList>
-								<Action Name="" ID="{37F9A715-97B9-467F-A6B2-1D48F1F78774}" ShortID="966148536">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Switch_Crystals_Idle_BeforeActivation" ID="{6C2BD0A4-2BE8-49D6-B56B-D6A43FA8F48C}" WorkUnitID="{27C83EDE-D941-46B3-8475-398CF729A6E5}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Switch_Stone_Activation" ID="{3353C33E-DCBE-4FD3-8F0B-02C68474A2B6}">
-							<ChildrenList>
-								<Action Name="" ID="{B85922C5-4430-41A1-B52C-DFD16A09A1A4}" ShortID="423911171">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Switch_Stone_Activation" ID="{56654FD5-5997-4B7E-9B4D-B70B5F9F8DB8}" WorkUnitID="{27C83EDE-D941-46B3-8475-398CF729A6E5}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{546B4FEE-6E9B-41BA-B418-5D284098CCAE}" ShortID="277873727">
-									<PropertyList>
-										<Property Name="AbsoluteOrRelative" Type="int16" Value="1"/>
-										<Property Name="ActionType" Type="int16" Value="13"/>
-										<Property Name="Pitch" Type="int32" Value="200"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Switch_Stone_Idle" ID="{A4A3D073-98B8-4F18-A2FA-5DA8B4B9D178}" WorkUnitID="{27C83EDE-D941-46B3-8475-398CF729A6E5}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Stop_Switch_Stone_Idle" ID="{3071B5E5-F328-4038-AA80-FB9FE6EA4BBB}">
-							<ChildrenList>
-								<Action Name="" ID="{232FABE2-1B6E-480A-975B-7F085897AF6C}" ShortID="942766882">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Switch_Stone_Idle" ID="{A4A3D073-98B8-4F18-A2FA-5DA8B4B9D178}" WorkUnitID="{27C83EDE-D941-46B3-8475-398CF729A6E5}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Stop_Switch_Crystals_Idle_AfterActivation" ID="{C80735EA-A112-46FE-AF3C-43186F023D8B}">
-							<ChildrenList>
-								<Action Name="" ID="{07B843F1-D418-4CF3-A6FA-AE4775301BF3}" ShortID="359425486">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Switch_Crystals_Idle_AfterActivation" ID="{820671FE-BC85-4F82-AD55-9923B2C54A4C}" WorkUnitID="{27C83EDE-D941-46B3-8475-398CF729A6E5}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Stop_Switch_Crystals_Idle_BeforeActivation" ID="{8EE8A58F-9781-48B6-81F7-50E3E422F863}">
-							<ChildrenList>
-								<Action Name="" ID="{6FE03025-9CD1-430E-9293-C71011CF9D00}" ShortID="795283256">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Switch_Crystals_Idle_BeforeActivation" ID="{6C2BD0A4-2BE8-49D6-B56B-D6A43FA8F48C}" WorkUnitID="{27C83EDE-D941-46B3-8475-398CF729A6E5}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{133B86E0-5437-4625-8082-E73BF678630A}" ShortID="935164556">
@@ -1189,6 +1197,9 @@
 								<Event Name="Play_Huge_Door_Opening" ID="{CB3783D0-8104-44D8-A8BB-68AA72A1C114}">
 									<ChildrenList>
 										<Action Name="" ID="{42E9EFA9-469A-4067-A33D-FF9E44F43247}" ShortID="870790266">
+											<PropertyList>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Huge_Door_Opening" ID="{0269AC80-8E28-4087-AC2F-8542BC43F4C0}" WorkUnitID="{018C9E9D-118C-455B-8DFB-C4C7A0F8F43F}"/>
@@ -1213,6 +1224,7 @@
 										<Action Name="" ID="{B3A617EA-7828-4A93-80ED-AF486A84AFB0}" ShortID="529305971">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">

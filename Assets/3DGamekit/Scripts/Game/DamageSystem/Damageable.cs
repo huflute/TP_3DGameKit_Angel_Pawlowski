@@ -55,7 +55,7 @@ namespace Gamekit3D
                     m_timeSinceLastHit = 0.0f;
                     isInvulnerable = false;
                     OnBecomeVulnerable.Invoke();
-                    //Jouer le son de fin de bouclier
+                    
                 }
             }
             
@@ -68,7 +68,7 @@ namespace Gamekit3D
             m_timeSinceLastHit = 0.0f;
             OnResetDamage.Invoke();
             FirstHalf.SetValue(this.gameObject);
-            //Son de fin de bouclier
+            
         }
 
         public void SetColliderState(bool enabled)
@@ -131,7 +131,7 @@ namespace Gamekit3D
         {
             if (currentHitPoints <= (maxHitPoints / 2)+1)
             {
-                print("j'ai plus que la moitié de ma vie");
+                //print("j'ai plus que la moitié de ma vie");
                 LastHalf.SetValue(this.gameObject);
             }
               

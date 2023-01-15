@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="181270742" Type="User" Language="SFX" Hash="{B424E28A-F683-BB0C-29FE-4CF7BD040B71}">
+		<SoundBank Id="181270742" Type="User" Language="SFX" Hash="{012A88AB-0FD7-CD11-B76E-6A4E1DD48F9B}">
 			<ShortName>Interactables</ShortName>
 			<Path>Interactables.bnk</Path>
 			<Media>
@@ -17,9 +17,21 @@
 					<ShortName>HealthCrate_Idle.wav</ShortName>
 					<CachePath>SFX/HealthCrate_Idle_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="372427602" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Huge_Door_Stop.wav</ShortName>
+					<CachePath>SFX/Huge_Door_Stop_10C4C929.wem</CachePath>
+				</File>
+				<File Id="453392677" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Huge_Door_Opening.wav</ShortName>
+					<CachePath>SFX/Huge_Door_Opening_10C4C929.wem</CachePath>
+				</File>
 				<File Id="483726968" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>HeallthCrate_Open_3D.wav</ShortName>
 					<CachePath>SFX/HeallthCrate_Open_3D_10C4C929.wem</CachePath>
+				</File>
+				<File Id="649593967" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small_Door_Open.wav</ShortName>
+					<CachePath>SFX/Small_Door_Open_10C4C929.wem</CachePath>
 				</File>
 				<File Id="758354779" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>HealthCrate_Open_2D.wav</ShortName>
@@ -38,6 +50,22 @@
 						<MediaRef Id="758354779"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2536112683" Name="Play_Huge_Door_Opening" DurationType="OneShot" DurationMin="9.466666" DurationMax="9.466666">
+					<MediaRefs>
+						<MediaRef Id="453392677"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1115051833" Name="Play_Small_Door_Open" DurationType="OneShot" DurationMin="4.266667" DurationMax="4.266667">
+					<MediaRefs>
+						<MediaRef Id="649593967"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1162942573" Name="Stop_Huge_Door_Opening" DurationType="OneShot" DurationMin="2.9666667" DurationMax="2.9666667">
+					<MediaRefs>
+						<MediaRef Id="372427602"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1739086843" Name="Stop_Small_Door_Open" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{F7D91A84-DCA8-0056-500D-828CA1B24C16}">
@@ -1171,7 +1199,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2691884509" Type="User" Language="SFX" Hash="{8B7CDE78-10B4-61D3-0F6B-F99DC2813A9D}">
+		<SoundBank Id="2691884509" Type="User" Language="SFX" Hash="{EB0FAB59-C014-74A6-41C0-65E5AA15F6AF}">
 			<ShortName>Big_Monsters</ShortName>
 			<Path>Big_Monsters.bnk</Path>
 			<Media>
@@ -1531,7 +1559,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{EC779361-51C7-93A0-4A7B-6911A6702F6B}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{87011FDE-721E-B2E1-D8D8-FB5A883E0873}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -2061,6 +2089,10 @@
 					<ShortName>Export 12012023 V2\Monster_Vanish.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Monster_Vanish_10C4C929.wem</CachePath>
 				</File>
+				<File Id="372427602" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Huge_Door_Stop.wav</ShortName>
+					<CachePath>SFX/Huge_Door_Stop_10C4C929.wem</CachePath>
+				</File>
 				<File Id="375287764" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\MC_FOL_Attack_02.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/MC_FOL_Attack_02_10C4C929.wem</CachePath>
@@ -2110,6 +2142,10 @@
 				<File Id="451660734" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Run_Stone_08.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Stone_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="453392677" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Huge_Door_Opening.wav</ShortName>
+					<CachePath>SFX/Huge_Door_Opening_10C4C929.wem</CachePath>
 				</File>
 				<File Id="453553068" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 14012023\RFX_Fireflies_Voices_04.wav</ShortName>
@@ -2338,6 +2374,10 @@
 				<File Id="648571618" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Land_Rock_03.wav</ShortName>
 					<CachePath>SFX/MC_FT_Land_Rock_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="649593967" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small_Door_Open.wav</ShortName>
+					<CachePath>SFX/Small_Door_Open_10C4C929.wem</CachePath>
 				</File>
 				<File Id="654540544" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\Grenadier_Death.wav</ShortName>
@@ -3041,6 +3081,11 @@
 						<MediaRef Id="758354779"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2536112683" Name="Play_Huge_Door_Opening" DurationType="OneShot" DurationMin="9.466666" DurationMax="9.466666">
+					<MediaRefs>
+						<MediaRef Id="453392677"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="4094144955" Name="Play_MC_FOL_Attack" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.22108333" DurationMax="0.31452084">
 					<MediaRefs>
 						<MediaRef Id="81104124"/>
@@ -3346,6 +3391,11 @@
 				<Event Id="994087705" Name="Play_River_Loop" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="392129282"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1115051833" Name="Play_Small_Door_Open" DurationType="OneShot" DurationMin="4.266667" DurationMax="4.266667">
+					<MediaRefs>
+						<MediaRef Id="649593967"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3179497032" Name="Play_Small_Monster_Bodyfall" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.24025" DurationMax="0.76666665">
@@ -3715,9 +3765,15 @@
 				<Event Id="452547817" Name="Stop_All" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3876046333" Name="Stop_AMB_SpaceShip" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4099702875" Name="Stop_Fireflies" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1162942573" Name="Stop_Huge_Door_Opening" DurationType="OneShot" DurationMin="2.9666667" DurationMax="2.9666667">
+					<MediaRefs>
+						<MediaRef Id="372427602"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="616065004" Name="Stop_MC_Shield" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3867827650" Name="Stop_RFX_Birds_Creatures" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1008653791" Name="Stop_River_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1739086843" Name="Stop_Small_Door_Open" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4212421580" Name="Stop_Switch_Crystals_Idle_AfterActivation" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3192261611" Name="Stop_Switch_Crystals_Idle_BeforeActivation" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3416772595" Name="Stop_Switch_Stone_Idle" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -3767,7 +3823,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3202316517" Type="User" Language="SFX" Hash="{F23BF42C-CC23-072C-0ACF-C777A9E24A65}">
+		<SoundBank Id="3202316517" Type="User" Language="SFX" Hash="{FD47D781-222B-39A2-CADB-82D464AFB759}">
 			<ShortName>Switch</ShortName>
 			<Path>Switch.bnk</Path>
 			<Media>
@@ -3875,7 +3931,7 @@
 				</ShareSets>
 			</Plugins>
 		</SoundBank>
-		<SoundBank Id="3893417221" Type="User" Language="SFX" Hash="{4E80ED53-E666-FB55-B093-B5BEC6E438B3}">
+		<SoundBank Id="3893417221" Type="User" Language="SFX" Hash="{E129DEF6-A0A6-7BE7-7B34-12E217D6DF4D}">
 			<ShortName>Weapon</ShortName>
 			<Path>Weapon.bnk</Path>
 			<Media>
@@ -4051,7 +4107,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{E8752F6F-C519-3D91-ACDC-485D26CFB698}">
+		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{B2798D0A-C928-5335-A1D9-8E39F9A826FF}">
 			<ShortName>Small_Monsters</ShortName>
 			<Path>Small_Monsters.bnk</Path>
 			<Media>
@@ -4723,5 +4779,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CC6234B5-0D5E-169E-1BD7-4E42569DCD58}</FileHash>
+	<FileHash>{766EE83C-B40E-B2CC-2578-B54098D4C7EE}</FileHash>
 </SoundBanksInfo>

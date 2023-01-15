@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 506fcf57e49ddb428782635b9c72daec
     GuidInternal: 
-    m_lastTime: -8585284015674107375
+    m_lastTime: -8585284051417577638
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 0c74f2e5d4330e46bfec07c1b154966f
     GuidInternal: 
-    m_lastTime: -8585278281754344899
+    m_lastTime: -8585278219432725699
     List:
     - name: Environmental
       guid: eda45d6dcc045d47a639edc09c76d74c
@@ -240,7 +240,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8ff7bc971ac3be4d91a175ce8a07a45d
     GuidInternal: 
-    m_lastTime: -8585278697140832001
+    m_lastTime: -8585278251872507082
     List:
     - name: AMB
       guid: 6d1a6435ebfdec4b818517836a1ef9ba
@@ -408,7 +408,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 58301ae271a98d46974f6accc96184fa
     GuidInternal: 
-    m_lastTime: -8585278279731079642
+    m_lastTime: -8585278193165185011
     List:
     - name: AMB
       guid: 7eacccb593e71341878dd5280afd656f
@@ -484,6 +484,46 @@ MonoBehaviour:
         ObjectType: 4
         guid: 8d02fbba2680eb45a0d521fd95046828
       Path: Events\Default Work Unit\Monsters\Small_Monsters\Combat
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Crystal
+      guid: efae650db3b3f647a627a9865f0eaf89
+      id: 3444057113
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Switch
+        ObjectType: 4
+        guid: fa38b673de89d94cb4b6799093d2c0e6
+      - ElementName: Crystal
+        ObjectType: 4
+        guid: efae650db3b3f647a627a9865f0eaf89
+      Path: Events\Default Work Unit\Switch\Crystal
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Doors
+      guid: 67e0bbe5eeb40143b7d8ae3661ec9b70
+      id: 2150196036
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Interactables
+        ObjectType: 4
+        guid: 51b1e6220239fc48ab2e959062ac2ef2
+      - ElementName: Doors
+        ObjectType: 4
+        guid: 67e0bbe5eeb40143b7d8ae3661ec9b70
+      Path: Events\Default Work Unit\Interactables\Doors
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1219,6 +1259,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Huge_Door_Opening
+      guid: d08337cb0481d844a8bb68aa72a1c114
+      id: 2536112683
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Interactables
+        ObjectType: 4
+        guid: 51b1e6220239fc48ab2e959062ac2ef2
+      - ElementName: Doors
+        ObjectType: 4
+        guid: 67e0bbe5eeb40143b7d8ae3661ec9b70
+      - ElementName: Play_Huge_Door_Opening
+        ObjectType: 3
+        guid: d08337cb0481d844a8bb68aa72a1c114
+      Path: Events\Default Work Unit\Interactables\Doors\Play_Huge_Door_Opening
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_MC_FOL_Attack
       guid: d429c3ac9248b847bb0c2f907d797c02
       id: 4094144955
@@ -1673,6 +1736,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Small_Door_Open
+      guid: 3e742696676a0842bb6d4dc9b3e2f69a
+      id: 1115051833
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Interactables
+        ObjectType: 4
+        guid: 51b1e6220239fc48ab2e959062ac2ef2
+      - ElementName: Doors
+        ObjectType: 4
+        guid: 67e0bbe5eeb40143b7d8ae3661ec9b70
+      - ElementName: Play_Small_Door_Open
+        ObjectType: 3
+        guid: 3e742696676a0842bb6d4dc9b3e2f69a
+      Path: Events\Default Work Unit\Interactables\Doors\Play_Small_Door_Open
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Small_Monster_Bodyfall
       guid: ecd709cf068a83429121c3ef56ec67bf
       id: 3179497032
@@ -1946,10 +2032,13 @@ MonoBehaviour:
       - ElementName: Switch
         ObjectType: 4
         guid: fa38b673de89d94cb4b6799093d2c0e6
+      - ElementName: Crystal
+        ObjectType: 4
+        guid: efae650db3b3f647a627a9865f0eaf89
       - ElementName: Play_Switch_Crystals_Activation
         ObjectType: 3
         guid: ed126748bd432d4da15ff3d97c788fa5
-      Path: Events\Default Work Unit\Switch\Play_Switch_Crystals_Activation
+      Path: Events\Default Work Unit\Switch\Crystal\Play_Switch_Crystals_Activation
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1966,10 +2055,13 @@ MonoBehaviour:
       - ElementName: Switch
         ObjectType: 4
         guid: fa38b673de89d94cb4b6799093d2c0e6
+      - ElementName: Crystal
+        ObjectType: 4
+        guid: efae650db3b3f647a627a9865f0eaf89
       - ElementName: Play_Switch_Crystals_Idle_AfterActivation
         ObjectType: 3
         guid: 0bbe956f00157f4fa3bfcb452a5ed3fd
-      Path: Events\Default Work Unit\Switch\Play_Switch_Crystals_Idle_AfterActivation
+      Path: Events\Default Work Unit\Switch\Crystal\Play_Switch_Crystals_Idle_AfterActivation
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1986,10 +2078,13 @@ MonoBehaviour:
       - ElementName: Switch
         ObjectType: 4
         guid: fa38b673de89d94cb4b6799093d2c0e6
+      - ElementName: Crystal
+        ObjectType: 4
+        guid: efae650db3b3f647a627a9865f0eaf89
       - ElementName: Play_Switch_Crystals_Idle_BeforeActivation
         ObjectType: 3
         guid: 4e68b4e620437f43b4e4b9add192d21b
-      Path: Events\Default Work Unit\Switch\Play_Switch_Crystals_Idle_BeforeActivation
+      Path: Events\Default Work Unit\Switch\Crystal\Play_Switch_Crystals_Idle_BeforeActivation
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -2006,10 +2101,13 @@ MonoBehaviour:
       - ElementName: Switch
         ObjectType: 4
         guid: fa38b673de89d94cb4b6799093d2c0e6
+      - ElementName: Stone
+        ObjectType: 4
+        guid: e4d6696023d4df42b79718db9405d314
       - ElementName: Play_Switch_Stone_Activation
         ObjectType: 3
         guid: 3ec35333bedcd34f8f0b02c68474a2b6
-      Path: Events\Default Work Unit\Switch\Play_Switch_Stone_Activation
+      Path: Events\Default Work Unit\Switch\Stone\Play_Switch_Stone_Activation
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -2026,10 +2124,13 @@ MonoBehaviour:
       - ElementName: Switch
         ObjectType: 4
         guid: fa38b673de89d94cb4b6799093d2c0e6
+      - ElementName: Stone
+        ObjectType: 4
+        guid: e4d6696023d4df42b79718db9405d314
       - ElementName: Play_Switch_Stone_Idle
         ObjectType: 3
         guid: 524f26e545763d4f9aacc6d76850c863
-      Path: Events\Default Work Unit\Switch\Play_Switch_Stone_Idle
+      Path: Events\Default Work Unit\Switch\Stone\Play_Switch_Stone_Idle
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -2417,6 +2518,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Stone
+      guid: e4d6696023d4df42b79718db9405d314
+      id: 1216965916
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Switch
+        ObjectType: 4
+        guid: fa38b673de89d94cb4b6799093d2c0e6
+      - ElementName: Stone
+        ObjectType: 4
+        guid: e4d6696023d4df42b79718db9405d314
+      Path: Events\Default Work Unit\Switch\Stone
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Stop_All
       guid: 88ef15848bb7df4c981bda14649ca124
       id: 452547817
@@ -2480,6 +2601,29 @@ MonoBehaviour:
         ObjectType: 3
         guid: 4e163b0960a989469efdf4b48a5ea641
       Path: Events\Default Work Unit\Environment\Fireflies\Stop_Fireflies
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Huge_Door_Opening
+      guid: 5453d44508205441a90b484c5ca0249d
+      id: 1162942573
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Interactables
+        ObjectType: 4
+        guid: 51b1e6220239fc48ab2e959062ac2ef2
+      - ElementName: Doors
+        ObjectType: 4
+        guid: 67e0bbe5eeb40143b7d8ae3661ec9b70
+      - ElementName: Stop_Huge_Door_Opening
+        ObjectType: 3
+        guid: 5453d44508205441a90b484c5ca0249d
+      Path: Events\Default Work Unit\Interactables\Doors\Stop_Huge_Door_Opening
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -2552,6 +2696,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Stop_Small_Door_Open
+      guid: b49489f1cf76454890e37f3a648be545
+      id: 1739086843
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Interactables
+        ObjectType: 4
+        guid: 51b1e6220239fc48ab2e959062ac2ef2
+      - ElementName: Doors
+        ObjectType: 4
+        guid: 67e0bbe5eeb40143b7d8ae3661ec9b70
+      - ElementName: Stop_Small_Door_Open
+        ObjectType: 3
+        guid: b49489f1cf76454890e37f3a648be545
+      Path: Events\Default Work Unit\Interactables\Doors\Stop_Small_Door_Open
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Stop_Switch_Crystals_Idle_AfterActivation
       guid: ea3507c812a1fe46af3c43186f023d8b
       id: 4212421580
@@ -2565,10 +2732,13 @@ MonoBehaviour:
       - ElementName: Switch
         ObjectType: 4
         guid: fa38b673de89d94cb4b6799093d2c0e6
+      - ElementName: Crystal
+        ObjectType: 4
+        guid: efae650db3b3f647a627a9865f0eaf89
       - ElementName: Stop_Switch_Crystals_Idle_AfterActivation
         ObjectType: 3
         guid: ea3507c812a1fe46af3c43186f023d8b
-      Path: Events\Default Work Unit\Switch\Stop_Switch_Crystals_Idle_AfterActivation
+      Path: Events\Default Work Unit\Switch\Crystal\Stop_Switch_Crystals_Idle_AfterActivation
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -2585,10 +2755,13 @@ MonoBehaviour:
       - ElementName: Switch
         ObjectType: 4
         guid: fa38b673de89d94cb4b6799093d2c0e6
+      - ElementName: Crystal
+        ObjectType: 4
+        guid: efae650db3b3f647a627a9865f0eaf89
       - ElementName: Stop_Switch_Crystals_Idle_BeforeActivation
         ObjectType: 3
         guid: 8fa5e88e8197b64881f750e3e422f863
-      Path: Events\Default Work Unit\Switch\Stop_Switch_Crystals_Idle_BeforeActivation
+      Path: Events\Default Work Unit\Switch\Crystal\Stop_Switch_Crystals_Idle_BeforeActivation
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -2605,10 +2778,13 @@ MonoBehaviour:
       - ElementName: Switch
         ObjectType: 4
         guid: fa38b673de89d94cb4b6799093d2c0e6
+      - ElementName: Stone
+        ObjectType: 4
+        guid: e4d6696023d4df42b79718db9405d314
       - ElementName: Stop_Switch_Stone_Idle
         ObjectType: 3
         guid: e5b5713028f33840aa80fb9fe6ea4bbb
-      Path: Events\Default Work Unit\Switch\Stop_Switch_Stone_Idle
+      Path: Events\Default Work Unit\Switch\Stone\Stop_Switch_Stone_Idle
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -2821,7 +2997,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 9ca7747bed20e54ab5d27c0de8914867
     GuidInternal: 
-    m_lastTime: -8585279064366098934
+    m_lastTime: -8585279054210084757
     List: []
   - PhysicalPath: Game Parameters\Evironment.wwu
     PathAndIcons:
@@ -2837,7 +3013,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit\Evironment
     guid: ba3c553c281cd74b8906e9c34e19df65
     GuidInternal: 
-    m_lastTime: -8585279064365698859
+    m_lastTime: -8585279054210064751
     List:
     - name: TimeOfDay
       guid: b9344196434b6447b76c512362d1db38
@@ -2870,7 +3046,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit\Weapon
     guid: 8a050b743995674387e05726d4c7a9fd
     GuidInternal: 
-    m_lastTime: -8585282220447927243
+    m_lastTime: -8585281456215579185
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -2884,7 +3060,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: dde22e8dd084f74f8c90764d69789553
     GuidInternal: 
-    m_lastTime: -8585278920093220362
+    m_lastTime: -8585278903466336906
     List:
     - name: IsInCombat
       guid: a0a76e5f8bf8cd41a8b319b9b1388609
@@ -3128,7 +3304,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 64f9ff4cf55ed24b9ee79a66e7775ade
     GuidInternal: 
-    m_lastTime: -8585279068671292733
+    m_lastTime: -8585279054193430919
     List: []
   - PhysicalPath: Switches\Entity.wwu
     PathAndIcons:
@@ -3144,7 +3320,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit\Entity
     guid: 41b04a50991a5640a3f689e347792812
     GuidInternal: 
-    m_lastTime: -8585279068671202480
+    m_lastTime: -8585279054193400886
     List:
     - name: Ground_Material
       guid: 1b952d3e32b055449b28a3a8085a401a
@@ -3375,7 +3551,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit\Environment
     guid: cca39cd7d1447a449542ac83600b4014
     GuidInternal: 
-    m_lastTime: -8585278923259627017
+    m_lastTime: -8585278903466306882
     List:
     - name: TimeOfDay
       guid: 574c3617317e9b499335d0b1f366c105
@@ -3448,10 +3624,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 9f1b90065f823441bd96c497af968d89
     GuidInternal: 
-    m_lastTime: -8585284015674119453
+    m_lastTime: -8585284051417417635
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000007000000080000000d000000
+  ExpandedWaapiItemIds: 06000000070000000b0000000f000000170000001800000036000000420000008f000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
