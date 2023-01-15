@@ -268,8 +268,8 @@
 											<SegmentShape>Log3</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>2.12056</XPos>
-											<YPos>40.12621</YPos>
+											<XPos>3.61712</XPos>
+											<YPos>100</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>SCurve</SegmentShape>
 										</Point>
@@ -356,7 +356,7 @@
 							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
 						</DiffractionHPFUsage>
 						<TransmissionVolumeUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+							<CurveUsageInfo Platform="Linked" CurveToUse="None">
 								<Curve Name="TransmissionVolume" ID="{2F09820A-B910-437D-948C-BE4FFE33C374}">
 									<PropertyList>
 										<Property Name="Flags" Type="int32" Value="3"/>
@@ -364,7 +364,7 @@
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>0</YPos>
+											<YPos>-0</YPos>
 											<Flags>5</Flags>
 										</Point>
 										<Point>
@@ -377,7 +377,7 @@
 							</CurveUsageInfo>
 						</TransmissionVolumeUsage>
 						<TransmissionLPFUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="UseProject">
+							<CurveUsageInfo Platform="Linked" CurveToUse="None">
 								<Curve Name="TransmissionLPF" ID="{60648C7E-C0B6-47C1-B64F-6546712C6497}">
 									<PropertyList>
 										<Property Name="Flags" Type="int32" Value="65537"/>
@@ -385,12 +385,13 @@
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>100</YPos>
+											<YPos>0</YPos>
 											<Flags>5</Flags>
+											<SegmentShape>Exp2</SegmentShape>
 										</Point>
 										<Point>
 											<XPos>100</XPos>
-											<YPos>0</YPos>
+											<YPos>31</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>

@@ -68,7 +68,7 @@
 				<Event Id="1739086843" Name="Stop_Small_Door_Open" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{8C424760-7D02-ECDD-DCFA-CA51ECFC9456}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{865740E6-35AE-5F33-F328-5DFB53088B5A}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
@@ -120,7 +120,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2993009189" Name="Play_Amb_Level01_Swamp" DurationType="Infinite">
+				<Event Id="2993009189" Name="Play_Amb_Level01_Swamp" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="238080956"/>
 						<MediaRef Id="455330908"/>
@@ -1554,7 +1554,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{5D093596-04D3-4855-9562-D32455F1170F}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{1354B164-E27D-204D-63B8-34C6BBBB8BB8}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -2982,32 +2982,32 @@
 				</Custom>
 			</Plugins>
 			<Events>
-				<Event Id="2746395399" Name="Play_AMB_Cavern_LargeRoom" DurationType="Infinite">
+				<Event Id="2746395399" Name="Play_AMB_Cavern_LargeRoom" MaxAttenuation="60" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="912991374"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2803742312" Name="Play_AMB_Cavern_LargeRoom_WithWind" DurationType="Infinite">
+				<Event Id="2803742312" Name="Play_AMB_Cavern_LargeRoom_WithWind" MaxAttenuation="60" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="142548415"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3522290541" Name="Play_AMB_Cavern_MediumRoom" DurationType="Infinite">
+				<Event Id="3522290541" Name="Play_AMB_Cavern_MediumRoom" MaxAttenuation="60" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="224320780"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1982406497" Name="Play_AMB_Cavern_MediumRoom_Lake" DurationType="Infinite">
+				<Event Id="1982406497" Name="Play_AMB_Cavern_MediumRoom_Lake" MaxAttenuation="60" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="317441847"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2156099163" Name="Play_AMB_Cavern_SmallRoom" DurationType="Infinite">
+				<Event Id="2156099163" Name="Play_AMB_Cavern_SmallRoom" MaxAttenuation="60" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="926832286"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2993009189" Name="Play_Amb_Level01_Swamp" DurationType="Infinite">
+				<Event Id="2993009189" Name="Play_Amb_Level01_Swamp" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="238080956"/>
 						<MediaRef Id="455330908"/>
@@ -4914,5 +4914,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{45F8675B-A677-2AF2-0CE4-047F76047A86}</FileHash>
+	<FileHash>{BB4BC539-F12A-6380-BCF8-1A0C39EED1F7}</FileHash>
 </SoundBanksInfo>

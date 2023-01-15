@@ -949,6 +949,7 @@
 										<Value>100</Value>
 									</ValueList>
 								</Property>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
 								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
@@ -1185,9 +1186,11 @@
 												</Property>
 												<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 												<Property Name="OverrideOutput" Type="bool" Value="True"/>
-												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Room" ID="{2D69F6DA-851F-4FEB-A41B-0784329A7B6D}" WorkUnitID="{B378FA7B-E709-4147-8665-F99F8F07F9BC}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
 												</Reference>
@@ -1364,6 +1367,9 @@
 										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Room" ID="{2D69F6DA-851F-4FEB-A41B-0784329A7B6D}" WorkUnitID="{B378FA7B-E709-4147-8665-F99F8F07F9BC}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
 										</Reference>
@@ -1514,6 +1520,7 @@
 										</Sound>
 										<Sound Name="AMB_Cavern_SmallRoom" ID="{854B7B40-D1CA-478D-9FB6-2FB4CF0E2A4F}" ShortID="360789167">
 											<PropertyList>
+												<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="IsStreamingEnabled" Type="bool">
 													<ValueList>
@@ -1525,8 +1532,12 @@
 														<Value>True</Value>
 													</ValueList>
 												</Property>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Room" ID="{2D69F6DA-851F-4FEB-A41B-0784329A7B6D}" WorkUnitID="{B378FA7B-E709-4147-8665-F99F8F07F9BC}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
 												</Reference>
