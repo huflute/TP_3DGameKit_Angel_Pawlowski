@@ -68,6 +68,7 @@
 				</SoundBank>
 				<SoundBank Name="ConvoReverb" ID="{AB03D006-D9E6-4F97-A638-42E2C2334E36}">
 					<ObjectInclusionList>
+						<ObjectRef Name="SmallRoom_ConvoVerb" ID="{E8C54F40-5B91-4007-B013-68D3C8820E10}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Swamp_ConvoVerb" ID="{7D94DA72-A69A-4657-90B0-243AF76C856F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="HiddenPlace_ConvoVerb" ID="{B3FA61E5-ABBF-4838-B299-6CB834D2D9BD}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ruins_ConvoVerb" ID="{44D9BDFD-1405-4B0E-8424-D83315BE0A72}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}" Origin="Manual" Filter="7"/>

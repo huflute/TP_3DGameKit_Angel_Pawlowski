@@ -221,6 +221,7 @@ namespace AK
     {
         static const AkUniqueID REVERB_HIDDENPLACE = 198700405U;
         static const AkUniqueID REVERB_LARGEROOM = 591468168U;
+        static const AkUniqueID REVERB_MEDIUMROOM = 2424615768U;
         static const AkUniqueID REVERB_RUINS = 563644569U;
         static const AkUniqueID REVERB_SMALLROOM = 3292698384U;
         static const AkUniqueID REVERB_SWAMP = 3298723492U;

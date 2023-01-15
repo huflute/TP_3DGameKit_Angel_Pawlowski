@@ -33,12 +33,14 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	198700405	Reverb_HiddenPlace			\Default Work Unit\Master Audio Bus\Environmental\Reverb_HiddenPlace	
 	563644569	Reverb_Ruins			\Default Work Unit\Master Audio Bus\Environmental\Reverb_Ruins	
 	591468168	Reverb_LargeRoom			\Default Work Unit\Master Audio Bus\Environmental\Reverb_LargeRoom	
+	2424615768	Reverb_MediumRoom			\Default Work Unit\Master Audio Bus\Environmental\Reverb_MediumRoom	
 	3292698384	Reverb_SmallRoom			\Default Work Unit\Master Audio Bus\Environmental\Reverb_SmallRoom	
 	3298723492	Reverb_Swamp			\Default Work Unit\Master Audio Bus\Environmental\Reverb_Swamp	
 
 Effect plug-ins	ID	Name	Type				Notes
 	592539189	HiddenPlace_ConvoVerb	Wwise Convolution Reverb			
 	1588715066	Echoes_Linear	Wwise Delay			
+	1591276460	SmallRoom_ConvoVerb	Wwise Convolution Reverb			
 	2940440228	Swamp_ConvoVerb	Wwise Convolution Reverb			
 	3332746565	Ruins_ConvoVerb	Wwise Convolution Reverb			
 

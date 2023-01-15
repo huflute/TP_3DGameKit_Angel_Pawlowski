@@ -130,8 +130,8 @@
 						</Effect>
 						<Effect Name="Echoes_Linear" ID="{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
 							<PropertyList>
-								<Property Name="DelayTime" Type="Real32" Value="0.25"/>
-								<Property Name="Feedback" Type="Real32" Value="5"/>
+								<Property Name="DelayTime" Type="Real32" Value="0.3"/>
+								<Property Name="Feedback" Type="Real32" Value="4"/>
 							</PropertyList>
 						</Effect>
 						<Effect Name="One_Tap_Half_Second" ID="{B8FE0D3B-7AAB-4344-89FE-177602B7BF19}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3"/>
@@ -2090,7 +2090,6 @@
 								<Property Name="IRConvolutionStart" Type="Real64" Value="0.0984702526487369"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="5.03429166666667"/>
 								<Property Name="IRGraphicEQAutomate" Type="bool" Value="True"/>
-								<Property Name="IRLevel" Type="Real32" Value="-15"/>
 							</PropertyList>
 							<ChildrenList>
 								<PluginMediaSource Name="Valley, Low, Forest 30m" ID="{17BC4C54-AB55-44FC-835B-84A089EBF0F5}">
@@ -2189,7 +2188,7 @@
 						</Effect>
 						<Effect Name="HiddenPlace_ConvoVerb" ID="{B3FA61E5-ABBF-4838-B299-6CB834D2D9BD}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 							<PropertyList>
-								<Property Name="IRConvolutionStart" Type="Real64" Value="0.117154085167074"/>
+								<Property Name="IRConvolutionStart" Type="Real64" Value="0.107905078443357"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="2.52189583333333"/>
 							</PropertyList>
 							<ChildrenList>
@@ -2268,6 +2267,109 @@
 						<Point>
 							<XPos>2.52189583333333</XPos>
 							<YPos>-44.26229</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+		</CurveList>
+	</ConvolutionData>
+</PluginData>
+						</Effect>
+						<Effect Name="SmallRoom_ConvoVerb" ID="{E8C54F40-5B91-4007-B013-68D3C8820E10}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
+							<PropertyList>
+								<Property Name="IRConvolutionSmooth" Type="Real32" Value="100"/>
+								<Property Name="IRConvolutionStart" Type="Real64" Value="0.193095354523227"/>
+								<Property Name="IRConvolutionStop" Type="Real64" Value="4.44923879380603"/>
+								<Property Name="IRGraphicEQAutomate" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<PluginMediaSource Name="Valley, Canyon 01" ID="{D252DF7C-7731-4390-9AF1-F7410F4BC7E4}">
+									<ParentPluginID>8323075</ParentPluginID>
+									<PropertyList>
+										<Property Name="DataFileName" Type="string" Value="Valley, Canyon 01.wav"/>
+									</PropertyList>
+									<MediaIDList>
+										<MediaID ID="265411209"/>
+									</MediaIDList>
+								</PluginMediaSource>
+							</ChildrenList>
+							<PluginData>
+	<ConvolutionData>
+		<CurveList Version="1">
+			<CurveInfo Name="IRGraphicEQ">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="19"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>20</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>458.84467</XPos>
+							<YPos>-3.74765</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>5049.29197718642</XPos>
+							<YPos>0.379972820276777</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>10526.92173</XPos>
+							<YPos>2.00136</YPos>
+							<Flags>0</Flags>
+							<SegmentShape>Exp1</SegmentShape>
+						</Point>
+						<Point>
+							<XPos>20000</XPos>
+							<YPos>5.04512</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="IRLPF">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>20000</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>6.58133333333333</XPos>
+							<YPos>20000</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="IRLevel">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="1"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>-7.4474</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>6.58033</XPos>
+							<YPos>-115.69231</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>6.58133333333333</XPos>
+							<YPos>-120</YPos>
 							<Flags>37</Flags>
 						</Point>
 					</PointList>

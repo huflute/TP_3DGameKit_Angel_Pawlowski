@@ -2544,6 +2544,8 @@ GameObject:
   - component: {fileID: 114262391854553980}
   - component: {fileID: 54840076793666620}
   - component: {fileID: 285775710362451546}
+  - component: {fileID: 4111485025323297351}
+  - component: {fileID: 5869264506351663883}
   m_Layer: 23
   m_Name: Spitter
   m_TagString: Untagged
@@ -2568,6 +2570,7 @@ Transform:
   - {fileID: 4212300717403786}
   - {fileID: 4763512264112884}
   - {fileID: 4390321906491500}
+  - {fileID: 99610374208219867}
   m_Father: {fileID: 0}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 4.945, z: 0}
@@ -2756,6 +2759,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9138b393358fac14d94077ee53b613ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4111485025323297351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500461124768838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c04b4107804f8c540ac663a3ca574c40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &5869264506351663883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500461124768838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3d2c1f4f14ce4b46936d3428f1d45ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Collider: {fileID: 0}
 --- !u!1 &1528829956455804
 GameObject:
   m_ObjectHideFlags: 0
@@ -4837,3 +4875,48 @@ MonoBehaviour:
   muzzleOffset: {x: -0.25, y: 0, z: -0.2}
   projectile: {fileID: 114103497732328600, guid: 294784d1e17ec8b45bed8a0790b0369b,
     type: 3}
+--- !u!1 &7748834238088547324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 99610374208219867}
+  - component: {fileID: 7128780083611315036}
+  m_Layer: 12
+  m_Name: DetectSpitter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &99610374208219867
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7748834238088547324}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4121626901829952}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &7128780083611315036
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7748834238088547324}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}

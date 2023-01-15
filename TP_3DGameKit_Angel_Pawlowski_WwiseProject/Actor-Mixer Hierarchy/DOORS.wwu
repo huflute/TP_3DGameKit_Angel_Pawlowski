@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{018C9E9D-118C-455B-8DFB-C4C7A0F8F43F}" SchemaVersion="110" RootDocumentID="{399BE58E-5BEE-470B-9C6B-8BCDF69F5FD2}" ParentDocumentID="{399BE58E-5BEE-470B-9C6B-8BCDF69F5FD2}">
 	<AudioObjects>
 		<WorkUnit Name="DOORS" ID="{018C9E9D-118C-455B-8DFB-C4C7A0F8F43F}" OwnerID="{399BE58E-5BEE-470B-9C6B-8BCDF69F5FD2}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="26"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<Sound Name="Huge_Door_Opening" ID="{AA8CF6C4-106E-422D-87D1-14C821AB381C}" ShortID="1003697319">
 					<PropertyList>
