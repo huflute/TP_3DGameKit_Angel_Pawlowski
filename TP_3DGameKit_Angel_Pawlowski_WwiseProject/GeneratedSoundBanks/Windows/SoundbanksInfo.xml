@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="181270742" Type="User" Language="SFX" Hash="{012A88AB-0FD7-CD11-B76E-6A4E1DD48F9B}">
+		<SoundBank Id="181270742" Type="User" Language="SFX" Hash="{D12CEDFE-16AC-0823-E5D3-95A1FF74A8E6}">
 			<ShortName>Interactables</ShortName>
 			<Path>Interactables.bnk</Path>
 			<Media>
@@ -128,7 +128,7 @@
 				<Event Id="3876046333" Name="Stop_AMB_SpaceShip" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1229948536" Type="User" Language="SFX" Hash="{3065AC66-E38A-5297-E750-560DA8F0EF16}">
+		<SoundBank Id="1229948536" Type="User" Language="SFX" Hash="{2B8DD888-9925-CEB7-F581-6B2F286F8850}">
 			<ShortName>Environment</ShortName>
 			<Path>Environment.bnk</Path>
 			<Media>
@@ -204,6 +204,12 @@
 					<ShortName>Export 14012023\RFX_Day_Birds_04.wav</ShortName>
 					<CachePath>SFX/Export 14012023/RFX_Day_Birds_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="841063888" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>Platform_Moving.wav</ShortName>
+					<Path>Media/841063888.wem</Path>
+					<CachePath>SFX/Platform_Moving_D79FB2B7.wem</CachePath>
+					<PrefetchSize>9696</PrefetchSize>
+				</File>
 				<File Id="924773217" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 14012023\RFX_Day_Birds_02.wav</ShortName>
 					<CachePath>SFX/Export 14012023/RFX_Day_Birds_02_10C4C929.wem</CachePath>
@@ -226,6 +232,11 @@
 						<MediaRef Id="1006644240"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2979465700" Name="Play_Platform_Moving" MaxAttenuation="10" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="841063888"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="624594268" Name="Play_RFX_Birds_Creatures" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="59354382"/>
@@ -243,12 +254,13 @@
 						<MediaRef Id="392129282"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="476276007" Name="Play_Teleporter_Idle" DurationType="Infinite">
+				<Event Id="476276007" Name="Play_Teleporter_Idle" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="498593051"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4099702875" Name="Stop_Fireflies" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1993916230" Name="Stop_Platform_Moving" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3867827650" Name="Stop_RFX_Birds_Creatures" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1008653791" Name="Stop_River_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2863201769" Name="Stop_Teleporter_Idle" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -514,7 +526,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{861311E4-BBA4-E38F-1975-47D976BE3868}">
+		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{710A8788-3119-B5CD-034E-67931F3C3F11}">
 			<ShortName>MC</ShortName>
 			<Path>MC.bnk</Path>
 			<Media>
@@ -884,6 +896,10 @@
 					<ShortName>MC_FT_Run_Mud_02.wav</ShortName>
 					<CachePath>SFX/MC_FT_Run_Mud_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1047956031" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 14012023\Water_Hit.wav</ShortName>
+					<CachePath>SFX/Export 14012023/Water_Hit_10C4C929.wem</CachePath>
+				</File>
 				<File Id="1049480185" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Run_Rock_06.wav</ShortName>
 					<CachePath>SFX/MC_FT_Run_Rock_06_10C4C929.wem</CachePath>
@@ -1133,6 +1149,11 @@
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
+				</Event>
+				<Event Id="2480131081" Name="Play_Water_Hit" DurationType="OneShot" DurationMin="1.9081666" DurationMax="1.9081666">
+					<MediaRefs>
+						<MediaRef Id="1047956031"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="616065004" Name="Stop_MC_Shield" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
@@ -1513,7 +1534,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{238D7E05-260C-F55D-D8AD-9D22B01B918D}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{15F1C760-12E4-C0B9-3396-2A4DE2049A26}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -2589,6 +2610,12 @@
 					<ShortName>Grenadier_Projectile_Bounce_01.wav</ShortName>
 					<CachePath>SFX/Grenadier_Projectile_Bounce_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="841063888" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>Platform_Moving.wav</ShortName>
+					<Path>Media/841063888.wem</Path>
+					<CachePath>SFX/Platform_Moving_D79FB2B7.wem</CachePath>
+					<PrefetchSize>9696</PrefetchSize>
+				</File>
 				<File Id="844663955" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_01.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Mud_01_10C4C929.wem</CachePath>
@@ -2854,6 +2881,10 @@
 				<File Id="1032309566" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Run_Mud_07.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Mud_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1047956031" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 14012023\Water_Hit.wav</ShortName>
+					<CachePath>SFX/Export 14012023/Water_Hit_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1049398184" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Grenadier_Shield_Idle.wav</ShortName>
@@ -3394,6 +3425,11 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="2979465700" Name="Play_Platform_Moving" MaxAttenuation="10" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="841063888"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3839321632" Name="Play_Play_Amb_Locations" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="624594268" Name="Play_RFX_Birds_Creatures" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
@@ -3671,7 +3707,7 @@
 						<MediaRef Id="846260293"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="476276007" Name="Play_Teleporter_Idle" DurationType="Infinite">
+				<Event Id="476276007" Name="Play_Teleporter_Idle" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="498593051"/>
 					</MediaRefs>
@@ -3696,6 +3732,11 @@
 				<Event Id="2377842133" Name="Play_UI_Press_Play" DurationType="OneShot" DurationMin="2.2333333" DurationMax="2.2333333">
 					<MediaRefs>
 						<MediaRef Id="257203319"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2480131081" Name="Play_Water_Hit" DurationType="OneShot" DurationMin="1.9081666" DurationMax="1.9081666">
+					<MediaRefs>
+						<MediaRef Id="1047956031"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="723528203" Name="Play_Weapon_Idle" MaxAttenuation="10" DurationType="Infinite">
@@ -3797,6 +3838,7 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="616065004" Name="Stop_MC_Shield" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1993916230" Name="Stop_Platform_Moving" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3867827650" Name="Stop_RFX_Birds_Creatures" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1008653791" Name="Stop_River_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1739086843" Name="Stop_Small_Door_Open" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -4798,5 +4840,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7EFECA01-0A16-D8ED-3CCF-E596CBF84D04}</FileHash>
+	<FileHash>{85A16DF6-EC53-F6F9-2082-7FE3FFE8D242}</FileHash>
 </SoundBanksInfo>

@@ -56,6 +56,7 @@ namespace AK
         static const AkUniqueID PLAY_MUSIC_ISINCOMBAT_LEVEL01 = 3934376585U;
         static const AkUniqueID PLAY_MUSIC_LEVEL01 = 3711381197U;
         static const AkUniqueID PLAY_MUSIC_LEVEL02 = 3711381198U;
+        static const AkUniqueID PLAY_PLATFORM_MOVING = 2979465700U;
         static const AkUniqueID PLAY_PLAY_AMB_LOCATIONS = 3839321632U;
         static const AkUniqueID PLAY_RFX_BIRDS_CREATURES = 624594268U;
         static const AkUniqueID PLAY_RFX_COMPUTER = 3056483954U;
@@ -79,6 +80,7 @@ namespace AK
         static const AkUniqueID PLAY_UI_NAVIGATE = 2193989514U;
         static const AkUniqueID PLAY_UI_PRESS_OTHER = 3014998451U;
         static const AkUniqueID PLAY_UI_PRESS_PLAY = 2377842133U;
+        static const AkUniqueID PLAY_WATER_HIT = 2480131081U;
         static const AkUniqueID PLAY_WEAPON_IDLE = 723528203U;
         static const AkUniqueID PLAY_WEAPON_IMPACT = 3739832523U;
         static const AkUniqueID PLAY_WEAPON_PICKUP = 1954136465U;
@@ -93,6 +95,7 @@ namespace AK
         static const AkUniqueID STOP_FIREFLIES = 4099702875U;
         static const AkUniqueID STOP_HUGE_DOOR_OPENING = 1162942573U;
         static const AkUniqueID STOP_MC_SHIELD = 616065004U;
+        static const AkUniqueID STOP_PLATFORM_MOVING = 1993916230U;
         static const AkUniqueID STOP_RFX_BIRDS_CREATURES = 3867827650U;
         static const AkUniqueID STOP_RIVER_LOOP = 1008653791U;
         static const AkUniqueID STOP_SMALL_DOOR_OPEN = 1739086843U;

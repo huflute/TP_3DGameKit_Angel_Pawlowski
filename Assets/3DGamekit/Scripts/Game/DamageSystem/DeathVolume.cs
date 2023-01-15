@@ -12,7 +12,7 @@ namespace Gamekit3D
 
         void OnTriggerEnter(Collider other)
         {
-            //
+            
             var pc = other.GetComponent<PlayerController>();
             if (pc != null)
             {
