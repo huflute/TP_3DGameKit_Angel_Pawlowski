@@ -5,6 +5,12 @@
 			<ChildrenList>
 				<WorkUnit Name="Entity" ID="{504AB041-1A99-4056-A3F6-89E347792812}" PersistMode="Reference"/>
 				<WorkUnit Name="Environment" ID="{D79CA3CC-44D1-447A-9542-AC83600B4014}" PersistMode="Reference"/>
+				<SwitchGroup Name="Combat" ID="{D67B7095-DB50-4656-A9B5-C6B0563C5422}">
+					<ChildrenList>
+						<Switch Name="Light" ID="{F4A53E70-9791-43BF-8B74-E09F753620A5}"/>
+						<Switch Name="Normal" ID="{DA7B62E5-DA9E-4570-BA43-57ECA0D4AB8A}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

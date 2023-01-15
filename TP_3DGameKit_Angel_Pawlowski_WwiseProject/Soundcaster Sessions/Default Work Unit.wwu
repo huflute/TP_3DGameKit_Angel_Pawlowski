@@ -7,18 +7,19 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="TimeOfDay" ID="{964134B9-4B43-4764-B76C-512362D1DB38}"/>
-							<Value>0</Value>
+							<Value>23.5</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="False" ID="{BB0CE337-DE91-49E8-B789-B8B7EA2DBAC0}"/>
+						<CurrentStateRef Name="True" ID="{E681315C-42EC-4138-8D1C-F2C9E6FC7CD3}"/>
 						<CurrentStateRef Name="None" ID="{1F9790EC-5286-4B56-9310-34C68F2E85AE}"/>
-						<CurrentStateRef Name="HiddenPlace" ID="{E0F617DF-E027-43B0-83FA-85FF11BBE2DE}"/>
+						<CurrentStateRef Name="Swamp" ID="{F28AB153-FA33-4897-98CC-EA5ECCF9685D}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Chomper" ID="{818C60C8-72CC-4FB7-94C2-B1789001FE98}"/>
 						<CurrentSwitchRef Name="FirstHalf" ID="{BBBFCCD2-7517-4B82-812D-2356F0173CF3}"/>
 						<CurrentSwitchRef Name="Default" ID="{41B011E9-AA5B-4922-8FEB-1CF3350247F5}"/>
+						<CurrentSwitchRef Name="Normal" ID="{DA7B62E5-DA9E-4570-BA43-57ECA0D4AB8A}"/>
 						<CurrentSwitchRef Name="Night" ID="{0FBA19FC-DDC8-4355-9B52-B7FDFDBEAB2A}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>

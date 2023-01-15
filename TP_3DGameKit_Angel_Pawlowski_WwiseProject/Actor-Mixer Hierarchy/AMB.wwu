@@ -977,15 +977,50 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<BlendContainer Name="Amb_MusicPads" ID="{0296B4C6-5C5D-409E-89C7-471270DF414E}" ShortID="46138821">
+										<Sound Name="Music_Chords_Discovery_120Bpm_8Bars" ID="{03DCFB8F-B9E4-4055-AE3A-1E1AC5A33251}" ShortID="576736148">
+											<PropertyList>
+												<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Chords_Discovery_120Bpm_8Bars" ID="{B4E6EC7B-CCD2-480F-9841-4768C97ECA95}">
+													<Language>SFX</Language>
+													<AudioFile>Music_Chords_Discovery_120Bpm_8Bars.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="895344733"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Music_Chords_Discovery_120Bpm_8Bars" ID="{B4E6EC7B-CCD2-480F-9841-4768C97ECA95}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{EF933B40-AB73-4E8B-B1BD-553E3DF3BEC9}"/>
+									</PositioningInfo>
+								</ActorMixer>
+								<ActorMixer Name="Level01" ID="{34FCEA6F-F443-4995-B481-6E04047BF48C}" ShortID="552679049">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<BlendContainer Name="Music_Level01" ID="{0296B4C6-5C5D-409E-89C7-471270DF414E}" ShortID="46138821">
 											<PropertyList>
 												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
-												<Property Name="CenterPercentage" Type="int32">
-													<ValueList>
-														<Value>100</Value>
-													</ValueList>
-												</Property>
-												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 												<Property Name="MaxSoundPerInstance" Type="int16">
 													<ValueList>
 														<Value>10</Value>
@@ -1000,11 +1035,14 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="20m" ID="{1A19C147-517E-468A-AC33-4651C12FF635}" WorkUnitID="{B378FA7B-E709-4147-8665-F99F8F07F9BC}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+													<ObjectRef Name="Non_Environmental" ID="{87DA3071-A648-414E-B9A2-413CCC6F30B9}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1079,9 +1117,6 @@
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
-											<PositioningInfo>
-												<Panner Name="" ID="{EA3CBB22-0F25-4C67-AF21-807ADED1B2C2}"/>
-											</PositioningInfo>
 											<BlendTrackList>
 												<BlendTrack Name="TimeOfDay" ID="{0D292CFB-10C2-4A7A-90DD-0C7799E4A92B}" ShortID="522390780">
 													<PropertyList>
@@ -1124,79 +1159,9 @@
 												</BlendTrack>
 											</BlendTrackList>
 										</BlendContainer>
-										<Sound Name="Music_Chords_Discovery_120Bpm_8Bars" ID="{03DCFB8F-B9E4-4055-AE3A-1E1AC5A33251}" ShortID="576736148">
-											<PropertyList>
-												<Property Name="EnableDiffraction" Type="bool" Value="True"/>
-												<Property Name="OverridePositioning" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Music_Chords_Discovery_120Bpm_8Bars" ID="{B4E6EC7B-CCD2-480F-9841-4768C97ECA95}">
-													<Language>SFX</Language>
-													<AudioFile>Music_Chords_Discovery_120Bpm_8Bars.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="895344733"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Music_Chords_Discovery_120Bpm_8Bars" ID="{B4E6EC7B-CCD2-480F-9841-4768C97ECA95}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-									<PositioningInfo>
-										<Panner Name="" ID="{EF933B40-AB73-4E8B-B1BD-553E3DF3BEC9}"/>
-									</PositioningInfo>
-								</ActorMixer>
-								<SwitchContainer Name="Amb_Locations" ID="{085F1249-AE23-43D0-9697-D41045A6F79D}" ShortID="1055914086">
-									<PropertyList>
-										<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
-										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
-										<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
-										<Property Name="MaxSoundPerInstance" Type="int16">
-											<ValueList>
-												<Value>1</Value>
-											</ValueList>
-										</Property>
-										<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
-										<Property Name="OverridePositioning" Type="bool" Value="True"/>
-										<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
-										<Property Name="SwitchBehavior" Type="int16" Value="1"/>
-										<Property Name="UseMaxSoundPerInstance" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="5m" ID="{D37D86ED-F239-4657-8E8C-F9B8B15657C2}" WorkUnitID="{B378FA7B-E709-4147-8665-F99F8F07F9BC}"/>
-										</Reference>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
-										</Reference>
-										<Reference Name="DefaultSwitchOrState">
-											<ObjectRef Name="Swamp" ID="{F28AB153-FA33-4897-98CC-EA5ECCF9685D}" WorkUnitID="{8D2EE2DD-84D0-4FF7-8C90-764D69789553}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
-										</Reference>
-										<Reference Name="SwitchGroupOrStateGroup">
-											<ObjectRef Name="Location" ID="{9F30977F-FBC3-4EC0-8FFD-16B5DE27F935}" WorkUnitID="{8D2EE2DD-84D0-4FF7-8C90-764D69789553}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
 										<BlendContainer Name="Amb_Swamp" ID="{C6D39A46-D63B-47E6-A2EA-5AE2D374517C}" ShortID="500455370">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
-												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>100</Value>
@@ -1366,34 +1331,20 @@
 											</BlendTrackList>
 										</BlendContainer>
 									</ChildrenList>
-									<GroupingInfo>
-										<GroupingBehaviorList>
-											<GroupingBehavior>
-												<ItemRef Name="Amb_Swamp" ID="{C6D39A46-D63B-47E6-A2EA-5AE2D374517C}"/>
-												<PropertyList>
-													<Property Name="FadeInTime" Type="Real64">
-														<ValueList>
-															<Value>1</Value>
-														</ValueList>
-													</Property>
-													<Property Name="FadeOutTime" Type="Real64">
-														<ValueList>
-															<Value>1</Value>
-														</ValueList>
-													</Property>
-												</PropertyList>
-											</GroupingBehavior>
-										</GroupingBehaviorList>
-										<GroupingList>
-											<Grouping>
-												<SwitchRef Name="Swamp" ID="{F28AB153-FA33-4897-98CC-EA5ECCF9685D}"/>
-												<ItemList>
-													<ItemRef Name="Amb_Swamp" ID="{C6D39A46-D63B-47E6-A2EA-5AE2D374517C}"/>
-												</ItemList>
-											</Grouping>
-										</GroupingList>
-									</GroupingInfo>
-								</SwitchContainer>
+								</ActorMixer>
+								<ActorMixer Name="Level02" ID="{52412015-5A47-453C-B8B4-F76ED578A333}" ShortID="227016588">
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="20m" ID="{1A19C147-517E-468A-AC33-4651C12FF635}" WorkUnitID="{B378FA7B-E709-4147-8665-F99F8F07F9BC}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Non_Environmental" ID="{87DA3071-A648-414E-B9A2-413CCC6F30B9}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+										</Reference>
+									</ReferenceList>
+								</ActorMixer>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>

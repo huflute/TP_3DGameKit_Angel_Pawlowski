@@ -404,13 +404,6 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{483AC634-630F-4391-9FE1-35F519526C3A}" ShortID="521231995">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Amb_MusicPads" ID="{0296B4C6-5C5D-409E-89C7-471270DF414E}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 							</ChildrenList>
 						</Event>
 					</ChildrenList>
@@ -1276,17 +1269,6 @@
 				</Folder>
 				<Folder Name="Music" ID="{FA870216-307D-4A20-BA40-A51C7B59EAA3}" ShortID="608714137">
 					<ChildrenList>
-						<Event Name="Play_Music_IsInCombat" ID="{2B1B0142-AB4B-4B87-A4BA-F1BEED035183}">
-							<ChildrenList>
-								<Action Name="" ID="{84821AAD-D7CF-4212-B032-BB0342A4B631}" ShortID="536114136">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="IsInCombat" ID="{F463D25A-E3AC-4D38-AE03-E43EBB081553}" WorkUnitID="{5DE733CC-3D94-445A-9CCC-90577F4435C6}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Play_Music_Discovery" ID="{21C54A0E-E9A4-4337-BD95-2E71B7FABA58}">
 							<ChildrenList>
 								<Action Name="" ID="{6DC2B9DB-1AB4-4BA4-9BBA-2F755219BEF0}" ShortID="65622215">
@@ -1298,8 +1280,52 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Music_IsInCombat_Level01" ID="{9C93DB4E-05C2-49F3-890A-4809AD341860}">
+							<ChildrenList>
+								<Action Name="" ID="{BE10EBC6-6909-4922-9400-55A0A2D59AB2}" ShortID="507488606">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="IsInCombat_Level01" ID="{F463D25A-E3AC-4D38-AE03-E43EBB081553}" WorkUnitID="{5DE733CC-3D94-445A-9CCC-90577F4435C6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Music_Level02" ID="{3FC3AF3D-D229-4CA2-BB21-3FD20D771701}">
+							<ChildrenList>
+								<Action Name="" ID="{AC4E653A-F196-46BB-9E06-55DA2DC10C3A}" ShortID="209366475">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="IsInCombat_Level02" ID="{8666A350-B186-42B9-B9F6-516637A2FF72}" WorkUnitID="{5DE733CC-3D94-445A-9CCC-90577F4435C6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Music_Level01" ID="{787C1BF7-6A3D-447A-8937-EC26ABCA98F0}">
+							<ChildrenList>
+								<Action Name="" ID="{F9C67A99-309A-409C-9853-FF053793538E}" ShortID="377432229">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Level01" ID="{0296B4C6-5C5D-409E-89C7-471270DF414E}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_Amb_Level01_Swamp" ID="{A46C8B8D-9DB1-4767-B552-1C8FC7CFCB80}">
+					<ChildrenList>
+						<Action Name="" ID="{3B94DF3D-F840-4074-A7C9-902C614016DA}" ShortID="1021295189">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_Swamp" ID="{C6D39A46-D63B-47E6-A2EA-5AE2D374517C}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
