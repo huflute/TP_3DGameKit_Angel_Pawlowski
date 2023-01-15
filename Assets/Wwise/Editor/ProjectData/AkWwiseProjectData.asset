@@ -408,7 +408,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 58301ae271a98d46974f6accc96184fa
     GuidInternal: 
-    m_lastTime: -8585278193165185011
+    m_lastTime: -8585278164336158060
     List:
     - name: AMB
       guid: 7eacccb593e71341878dd5280afd656f
@@ -2042,29 +2042,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_Switch_Crystals_Idle_AfterActivation
-      guid: 0bbe956f00157f4fa3bfcb452a5ed3fd
-      id: 3013028862
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 58301ae271a98d46974f6accc96184fa
-      - ElementName: Switch
-        ObjectType: 4
-        guid: fa38b673de89d94cb4b6799093d2c0e6
-      - ElementName: Crystal
-        ObjectType: 4
-        guid: efae650db3b3f647a627a9865f0eaf89
-      - ElementName: Play_Switch_Crystals_Idle_AfterActivation
-        ObjectType: 3
-        guid: 0bbe956f00157f4fa3bfcb452a5ed3fd
-      Path: Events\Default Work Unit\Switch\Crystal\Play_Switch_Crystals_Idle_AfterActivation
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
     - name: Play_Switch_Crystals_Idle_BeforeActivation
       guid: 4e68b4e620437f43b4e4b9add192d21b
       id: 1933987681
@@ -2214,6 +2191,26 @@ MonoBehaviour:
         ObjectType: 3
         guid: e0a5ea53a24d3840b51b4011430911d8
       Path: Events\Default Work Unit\UI\Play_UI_Press_Play
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Water_Hit
+      guid: 24d4f234fdd34e498b762285c55c457b
+      id: 2480131081
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: MC
+        ObjectType: 4
+        guid: 1cc6ffd194cca743af5d0da4a79c26da
+      - ElementName: Play_Water_Hit
+        ObjectType: 3
+        guid: 24d4f234fdd34e498b762285c55c457b
+      Path: Events\Default Work Unit\MC\Play_Water_Hit
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -3627,7 +3624,7 @@ MonoBehaviour:
     m_lastTime: -8585284051417417635
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 06000000070000000b0000000f0000001700000018000000360000004000000042000000430000008f000000
+  ExpandedWaapiItemIds: 06000000070000000a0000000b0000000f000000170000001800000035000000360000004000000042000000430000008f000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

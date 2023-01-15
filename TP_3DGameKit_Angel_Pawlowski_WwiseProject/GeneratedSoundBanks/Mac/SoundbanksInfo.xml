@@ -180,7 +180,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1229948536" Type="User" Language="SFX" Hash="{3065AC66-E38A-5297-E750-560DA8F0EF16}">
+		<SoundBank Id="1229948536" Type="User" Language="SFX" Hash="{67553EFD-70A4-1CF5-B8B5-D53928A7D565}">
 			<ShortName>Environment</ShortName>
 			<Path>Environment.bnk</Path>
 			<Media>
@@ -295,7 +295,7 @@
 						<MediaRef Id="392129282"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="476276007" Name="Play_Teleporter_Idle" DurationType="Infinite">
+				<Event Id="476276007" Name="Play_Teleporter_Idle" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="498593051"/>
 					</MediaRefs>
@@ -560,7 +560,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{861311E4-BBA4-E38F-1975-47D976BE3868}">
+		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{26E5696D-F5D2-B1B1-B766-F3AEA35E0686}">
 			<ShortName>MC</ShortName>
 			<Path>MC.bnk</Path>
 			<Media>
@@ -930,6 +930,12 @@
 					<ShortName>MC_FT_Run_Mud_02.wav</ShortName>
 					<CachePath>SFX/MC_FT_Run_Mud_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1047956031" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>Export 14012023\Water_Hit.wav</ShortName>
+					<Path>Media/1047956031.wem</Path>
+					<CachePath>SFX/Export 14012023/Water_Hit_D79FB2B7.wem</CachePath>
+					<PrefetchSize>9696</PrefetchSize>
+				</File>
 				<File Id="1049480185" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Run_Rock_06.wav</ShortName>
 					<CachePath>SFX/MC_FT_Run_Rock_06_10C4C929.wem</CachePath>
@@ -1179,6 +1185,11 @@
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
+				</Event>
+				<Event Id="2480131081" Name="Play_Water_Hit" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1047956031"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="616065004" Name="Stop_MC_Shield" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
@@ -1559,7 +1570,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{AB8FB133-F014-AC01-AA88-335EB29C8B3C}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{59774C1A-541A-0E43-1C4D-9D35E1141955}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -2871,6 +2882,12 @@
 					<ShortName>Export 12012023 V2\Small_Monster_Run_Mud_07.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Mud_07_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1047956031" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>Export 14012023\Water_Hit.wav</ShortName>
+					<Path>Media/1047956031.wem</Path>
+					<CachePath>SFX/Export 14012023/Water_Hit_D79FB2B7.wem</CachePath>
+					<PrefetchSize>9696</PrefetchSize>
+				</File>
 				<File Id="1049398184" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Grenadier_Shield_Idle.wav</ShortName>
 					<Path>Media/1049398184.wem</Path>
@@ -3641,7 +3658,7 @@
 						<MediaRef Id="846260293"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="476276007" Name="Play_Teleporter_Idle" DurationType="Infinite">
+				<Event Id="476276007" Name="Play_Teleporter_Idle" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="498593051"/>
 					</MediaRefs>
@@ -3666,6 +3683,11 @@
 				<Event Id="2377842133" Name="Play_UI_Press_Play" DurationType="OneShot" DurationMin="2.2333333" DurationMax="2.2333333">
 					<MediaRefs>
 						<MediaRef Id="257203319"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2480131081" Name="Play_Water_Hit" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1047956031"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="723528203" Name="Play_Weapon_Idle" MaxAttenuation="10" DurationType="Infinite">
@@ -4771,5 +4793,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{84BE938E-2CD8-7AEA-4983-92A5F088DC51}</FileHash>
+	<FileHash>{36F33E18-E18E-3C74-143B-38A6283682F0}</FileHash>
 </SoundBanksInfo>

@@ -76,6 +76,7 @@ namespace AK
         static const AkUniqueID PLAY_UI_NAVIGATE = 2193989514U;
         static const AkUniqueID PLAY_UI_PRESS_OTHER = 3014998451U;
         static const AkUniqueID PLAY_UI_PRESS_PLAY = 2377842133U;
+        static const AkUniqueID PLAY_WATER_HIT = 2480131081U;
         static const AkUniqueID PLAY_WEAPON_IDLE = 723528203U;
         static const AkUniqueID PLAY_WEAPON_IMPACT = 3739832523U;
         static const AkUniqueID PLAY_WEAPON_PICKUP = 1954136465U;

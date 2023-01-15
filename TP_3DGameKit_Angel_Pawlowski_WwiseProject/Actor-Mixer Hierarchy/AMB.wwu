@@ -58,6 +58,14 @@
 										<RandomSequenceContainer Name="RFX_Night_Small_Creature" ID="{CCFA3AF6-9492-4429-830F-B4F3F8CE104C}" ShortID="838563663">
 											<PropertyList>
 												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{DF5A99D7-390F-460B-9AD2-B269942FB66B}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 											</PropertyList>
 											<ReferenceList>
@@ -339,13 +347,13 @@
 														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 														<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
-														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0">
 															<ModifierList>
 																<ModifierInfo>
 																	<Modifier Name="" ID="{D3530F37-46A7-4F68-A334-6E5FBD107368}">
 																		<PropertyList>
 																			<Property Name="Enabled" Type="bool" Value="True"/>
-																			<Property Name="Max" Type="Real64" Value="10"/>
+																			<Property Name="Max" Type="Real64" Value="5"/>
 																		</PropertyList>
 																	</Modifier>
 																</ModifierInfo>
@@ -468,7 +476,7 @@
 														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 														<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
-														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0">
 															<ModifierList>
 																<ModifierInfo>
 																	<Modifier Name="" ID="{D6B5C9B3-D029-4BF9-AE40-A9BAAA272A69}">

@@ -226,6 +226,17 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Event Name="Play_Water_Hit" ID="{34F2D424-D3FD-494E-8B76-2285C55C457B}">
+							<ChildrenList>
+								<Action Name="" ID="{320B2573-D376-46D1-AD56-BE12690BCAA5}" ShortID="338881288">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Water_Hit" ID="{116928D1-F41E-44E0-B54E-2F624C0C9E5A}" WorkUnitID="{3FD50C42-DA51-4E26-9C37-08E84BDE220A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Weapon" ID="{43C2B4AD-BB9B-4483-8D38-C03EFEE15D32}" ShortID="960282306">

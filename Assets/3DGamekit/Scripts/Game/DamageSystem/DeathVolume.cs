@@ -12,10 +12,12 @@ namespace Gamekit3D
 
         void OnTriggerEnter(Collider other)
         {
+            AkSoundEngine.PostEvent("Play_Water_Hit", this.gameObject);
             var pc = other.GetComponent<PlayerController>();
             if (pc != null)
             {
                 //Debug.Log("Tu es mort");
+                
                 pc.Die(new Damageable.DamageMessage());
             }
             if (audio != null)
@@ -23,7 +25,7 @@ namespace Gamekit3D
                 audio.transform.position = other.transform.position;
                 if (!audio.isPlaying)
                 {
-                    
+                   
                     audio.Play();
                 }
             }

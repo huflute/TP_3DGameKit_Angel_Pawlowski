@@ -51,6 +51,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2354689276	Play_Grenadier_Movement_Fast			\Default Work Unit\Monsters\Big_Monster\Play_Grenadier_Movement_Fast	
 	2377842133	Play_UI_Press_Play			\Default Work Unit\UI\Play_UI_Press_Play	
 	2468740206	Play_Whoosh_Text_Appear			\Default Work Unit\UI\Text\Play_Whoosh_Text_Appear	
+	2480131081	Play_Water_Hit			\Default Work Unit\MC\Play_Water_Hit	
 	2536112683	Play_Huge_Door_Opening			\Default Work Unit\Interactables\Doors\Play_Huge_Door_Opening	
 	2556341799	Play_Switch_Stone_Activation			\Default Work Unit\Switch\Stone\Play_Switch_Stone_Activation	
 	2863201769	Stop_Teleporter_Idle			\Default Work Unit\Environment\Teleporter\Stop_Teleporter_Idle	
@@ -441,6 +442,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1014608767	MC_VOX_Jump_03	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\MC_VOX_Jump_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC\Vox\MC_Vox_Jump\MC_VOX_Jump_03		49056
 	1017870065	MC_FT_Run_Mud_02	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\MC_FT_Run_Mud_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC\Footsteps\MC_Run\MC_Run_Mud\MC_FT_Run_Mud_02		49056
 	1032309566	Small_Monster_Run_Mud_07	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Small_Monster_Run_Mud_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Monsters\Small_Monster\Small_Monster_Run\Small_Monster_Run_Mud\Small_Monster_Run_Mud_07		10060
+	1047956031	Water_Hit	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\Water_Hit_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC\Water_Hit		9696
 	1049398184	Grenadier_Shield_Idle	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Grenadier_Shield_Idle_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Monsters\Big_Monster\EnergyForce\Grenadier_Shield_Idle		19296
 	1049480185	MC_FT_Run_Rock_06	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\MC_FT_Run_Rock_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC\Footsteps\MC_Run\MC_Run_Rock\MC_FT_Run_Rock_06		49056
 	1050931803	Grenadier_FT_Heavy_01	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Grenadier\Grenadier_FT_Heavy_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Monsters\Big_Monster\Presence\Grenadier_FT_Heavy\Grenadier_FT_Heavy_01		223360
@@ -466,5 +468,6 @@ Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	
 	845874098	AMB_SpaceShip	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023\AMB_SpaceShip_D79FB2B7.wem	845874098.wem	\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Environmental\Interior\Spaceship\AMB_SpaceShip	
 	846260293	Switch_Stone_Idle	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Switch_Stone_Idle_D79FB2B7.wem	846260293.wem	\Actor-Mixer Hierarchy\Default Work Unit\SWITCHES\Stones\Switch_Stone_Idle	
 	962084260	Music_Loop_Level01_Night_120bpm_8Bars	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Music_Loop_Level01_Night_120bpm_8Bars_D79FB2B7.wem	962084260.wem	\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Non_Environmental\Music\Amb_MusicPads\Music_Loop_Level01_Night_120bpm_8Bars	
+	1047956031	Water_Hit	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\Water_Hit_D79FB2B7.wem	1047956031.wem	\Actor-Mixer Hierarchy\Default Work Unit\MC\MC\Water_Hit	
 	1049398184	Grenadier_Shield_Idle	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Grenadier_Shield_Idle_10C4C929.wem	1049398184.wem	\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Monsters\Big_Monster\EnergyForce\Grenadier_Shield_Idle	
 
