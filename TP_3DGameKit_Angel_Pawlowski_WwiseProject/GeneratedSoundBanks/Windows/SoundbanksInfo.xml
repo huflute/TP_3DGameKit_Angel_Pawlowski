@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="181270742" Type="User" Language="SFX" Hash="{CC3E4E50-8FA3-72B3-D1B4-0D79930A5A2D}">
+		<SoundBank Id="181270742" Type="User" Language="SFX" Hash="{F50BB98B-21FB-060A-4EBF-5C465FDE3EBD}">
 			<ShortName>Interactables</ShortName>
 			<Path>Interactables.bnk</Path>
 			<Media>
@@ -60,15 +60,21 @@
 						<MediaRef Id="649593967"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1799613726" Name="Play_Small_Door_Open_2D" MaxAttenuation="20" DurationType="OneShot" DurationMin="4.266667" DurationMax="4.266667">
+					<MediaRefs>
+						<MediaRef Id="649593967"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1162942573" Name="Stop_Huge_Door_Opening" DurationType="OneShot" DurationMin="2.9666667" DurationMax="2.9666667">
 					<MediaRefs>
 						<MediaRef Id="372427602"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1739086843" Name="Stop_Small_Door_Open" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1628176860" Name="Stop_Small_Door_Open_2D" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{865740E6-35AE-5F33-F328-5DFB53088B5A}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{AF79D2E8-2575-BF2B-992A-B4D10D58619F}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
@@ -148,13 +154,25 @@
 				<GameParameter Id="3729505769" Name="TimeOfDay"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1229948536" Type="User" Language="SFX" Hash="{690710DD-F78D-43B7-9B7B-773273C3BC37}">
+		<SoundBank Id="1229948536" Type="User" Language="SFX" Hash="{F87AB72A-EF4C-67E2-7783-800E2B3CF056}">
 			<ShortName>Environment</ShortName>
 			<Path>Environment.bnk</Path>
 			<Media>
 				<File Id="59354382" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 14012023\RFX_Day_Birds_01.wav</ShortName>
 					<CachePath>SFX/Export 14012023/RFX_Day_Birds_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="62751895" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 14012023\RFX_Bubbles_05.wav</ShortName>
+					<CachePath>SFX/Export 14012023/RFX_Bubbles_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="122704034" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Box_Break_01.wav</ShortName>
+					<CachePath>SFX/Box_Break_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="129162417" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 14012023\RFX_Bubbles_02.wav</ShortName>
+					<CachePath>SFX/Export 14012023/RFX_Bubbles_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="170030737" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 14012023\RFX_Night_Creatures_04.wav</ShortName>
@@ -179,6 +197,10 @@
 				<File Id="329902682" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 14012023\RFX_Fireflies_Voices_03.wav</ShortName>
 					<CachePath>SFX/Export 14012023/RFX_Fireflies_Voices_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="336010496" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 14012023\RFX_Bubbles_03.wav</ShortName>
+					<CachePath>SFX/Export 14012023/RFX_Bubbles_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="348475071" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 14012023\RFX_Fireflies_Voices_01.wav</ShortName>
@@ -210,15 +232,29 @@
 					<CachePath>SFX/Export 14012023/Fireflies_Loop_D79FB2B7.wem</CachePath>
 					<PrefetchSize>9696</PrefetchSize>
 				</File>
+				<File Id="562284632" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>Spaceship_Loop_End.wav</ShortName>
+					<Path>Media/562284632.wem</Path>
+					<CachePath>SFX/Spaceship_Loop_End_D79FB2B7.wem</CachePath>
+					<PrefetchSize>9696</PrefetchSize>
+				</File>
 				<File Id="574836544" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Export 14012023\Ghost_Loop.wav</ShortName>
 					<Path>Media/574836544.wem</Path>
 					<CachePath>SFX/Export 14012023/Ghost_Loop_D79FB2B7.wem</CachePath>
 					<PrefetchSize>9696</PrefetchSize>
 				</File>
+				<File Id="744667534" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Box_Break_03.wav</ShortName>
+					<CachePath>SFX/Box_Break_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="789814845" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 14012023\RFX_Day_Birds_03.wav</ShortName>
 					<CachePath>SFX/Export 14012023/RFX_Day_Birds_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="798917939" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 14012023\RFX_Bubbles_01.wav</ShortName>
+					<CachePath>SFX/Export 14012023/RFX_Bubbles_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="825768107" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 14012023\RFX_Day_Birds_04.wav</ShortName>
@@ -230,16 +266,52 @@
 					<CachePath>SFX/Platform_Moving_D79FB2B7.wem</CachePath>
 					<PrefetchSize>9696</PrefetchSize>
 				</File>
+				<File Id="924510481" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Box_Break_04.wav</ShortName>
+					<CachePath>SFX/Box_Break_04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="924773217" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 14012023\RFX_Day_Birds_02.wav</ShortName>
 					<CachePath>SFX/Export 14012023/RFX_Day_Birds_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="957902901" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>Export 14012023\Acid_Pool.wav</ShortName>
+					<Path>Media/957902901.wem</Path>
+					<CachePath>SFX/Export 14012023/Acid_Pool_D79FB2B7.wem</CachePath>
+					<PrefetchSize>9696</PrefetchSize>
+				</File>
+				<File Id="994771667" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 14012023\RFX_Bubbles_04.wav</ShortName>
+					<CachePath>SFX/Export 14012023/RFX_Bubbles_04_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1006644240" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 14012023\RFX_Fireflies_Voices_06.wav</ShortName>
 					<CachePath>SFX/Export 14012023/RFX_Fireflies_Voices_06_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1016824293" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Box_Break_02.wav</ShortName>
+					<CachePath>SFX/Box_Break_02_10C4C929.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
+				<Event Id="1949720410" Name="Play_Acid_Pool" MaxAttenuation="20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="62751895"/>
+						<MediaRef Id="129162417"/>
+						<MediaRef Id="336010496"/>
+						<MediaRef Id="798917939"/>
+						<MediaRef Id="957902901"/>
+						<MediaRef Id="994771667"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3331416737" Name="Play_Box_Break" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.7705" DurationMax="1.0019791">
+					<MediaRefs>
+						<MediaRef Id="122704034"/>
+						<MediaRef Id="744667534"/>
+						<MediaRef Id="924510481"/>
+						<MediaRef Id="1016824293"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="4161070465" Name="Play_Fireflies" MaxAttenuation="5" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="258179494"/>
@@ -252,7 +324,7 @@
 						<MediaRef Id="1006644240"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2979465700" Name="Play_Platform_Moving" MaxAttenuation="10" DurationType="Infinite">
+				<Event Id="2979465700" Name="Play_Platform_Moving" MaxAttenuation="5" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="841063888"/>
 					</MediaRefs>
@@ -274,6 +346,11 @@
 						<MediaRef Id="392129282"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="781754601" Name="Play_Spaceship_Loop_End" MaxAttenuation="10" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="562284632"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="476276007" Name="Play_Teleporter_Idle" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="498593051"/>
@@ -283,6 +360,7 @@
 				<Event Id="1993916230" Name="Stop_Platform_Moving" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3867827650" Name="Stop_RFX_Birds_Creatures" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1008653791" Name="Stop_River_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="646603671" Name="Stop_Spaceship_Loop_End" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2863201769" Name="Stop_Teleporter_Idle" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<GameParameters>
@@ -546,7 +624,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{710A8788-3119-B5CD-034E-67931F3C3F11}">
+		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{3191003B-26F3-65F2-ACF2-E2A8DE489C58}">
 			<ShortName>MC</ShortName>
 			<Path>MC.bnk</Path>
 			<Media>
@@ -633,6 +711,10 @@
 				<File Id="225456498" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Land_Rock_05.wav</ShortName>
 					<CachePath>SFX/MC_FT_Land_Rock_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="244733900" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Respawn.wav</ShortName>
+					<CachePath>SFX/Ellen_Respawn_10C4C929.wem</CachePath>
 				</File>
 				<File Id="251333807" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Jump_01.wav</ShortName>
@@ -930,6 +1012,11 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="1032032819" Name="Play_Ellen_Respawn" DurationType="OneShot" DurationMin="1.7650417" DurationMax="1.7650417">
+					<MediaRefs>
+						<MediaRef Id="244733900"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="4094144955" Name="Play_MC_FOL_Attack" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.22108333" DurationMax="0.31452084">
 					<MediaRefs>
 						<MediaRef Id="81104124"/>
@@ -1554,7 +1641,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{1354B164-E27D-204D-63B8-34C6BBBB8BB8}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{74D46EDD-FBB4-53D6-8634-281FCC1CF3DC}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -1638,6 +1725,10 @@
 					<ShortName>Export 14012023\RFX_Day_Birds_01.wav</ShortName>
 					<CachePath>SFX/Export 14012023/RFX_Day_Birds_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="62751895" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 14012023\RFX_Bubbles_05.wav</ShortName>
+					<CachePath>SFX/Export 14012023/RFX_Bubbles_05_10C4C929.wem</CachePath>
+				</File>
 				<File Id="65836423" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>HealthCrate_Idle.wav</ShortName>
 					<CachePath>SFX/HealthCrate_Idle_D79FB2B7.wem</CachePath>
@@ -1692,6 +1783,12 @@
 					<ShortName>Grenadier\Grenadier_Breath_02.wav</ShortName>
 					<CachePath>SFX/Grenadier/Grenadier_Breath_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="98277259" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>Export 14012023\Spitball.wav</ShortName>
+					<Path>Media/98277259.wem</Path>
+					<CachePath>SFX/Export 14012023/Spitball_D79FB2B7.wem</CachePath>
+					<PrefetchSize>9696</PrefetchSize>
+				</File>
 				<File Id="109188083" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Spitter_VOX_Grunt_02.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Spitter_VOX_Grunt_02_10C4C929.wem</CachePath>
@@ -1712,9 +1809,17 @@
 					<ShortName>MC_VOX_Attack_Normal_05.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Attack_Normal_05_10C4C929.wem</CachePath>
 				</File>
+				<File Id="122704034" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Box_Break_01.wav</ShortName>
+					<CachePath>SFX/Box_Break_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="122795255" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Land_Mud_05.wav</ShortName>
 					<CachePath>SFX/MC_FT_Land_Mud_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="129162417" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 14012023\RFX_Bubbles_02.wav</ShortName>
+					<CachePath>SFX/Export 14012023/RFX_Bubbles_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="134490721" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Run_Stone_04.wav</ShortName>
@@ -1892,6 +1997,10 @@
 					<ShortName>Export 12012023 V2\Chomper_VOX_Hit_03.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Chomper_VOX_Hit_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="244733900" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Respawn.wav</ShortName>
+					<CachePath>SFX/Ellen_Respawn_10C4C929.wem</CachePath>
+				</File>
 				<File Id="251333807" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Jump_01.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Jump_01_10C4C929.wem</CachePath>
@@ -2037,6 +2146,10 @@
 				<File Id="332427016" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Small_Monster_Run_Grass_04.wav</ShortName>
 					<CachePath>SFX/Small_Monster_Run_Grass_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="336010496" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 14012023\RFX_Bubbles_03.wav</ShortName>
+					<CachePath>SFX/Export 14012023/RFX_Bubbles_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="342328522" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Jump_05.wav</ShortName>
@@ -2288,6 +2401,12 @@
 					<CachePath>SFX/Export 14012023/Fireflies_Loop_D79FB2B7.wem</CachePath>
 					<PrefetchSize>9696</PrefetchSize>
 				</File>
+				<File Id="562284632" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>Spaceship_Loop_End.wav</ShortName>
+					<Path>Media/562284632.wem</Path>
+					<CachePath>SFX/Spaceship_Loop_End_D79FB2B7.wem</CachePath>
+					<PrefetchSize>9696</PrefetchSize>
+				</File>
 				<File Id="563449050" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Run_Mud_05.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Mud_05_10C4C929.wem</CachePath>
@@ -2530,6 +2649,10 @@
 					<ShortName>MC_VOX_Attack_Heavy_04.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Attack_Heavy_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="744667534" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Box_Break_03.wav</ShortName>
+					<CachePath>SFX/Box_Break_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="746178083" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Run_Mud_06.wav</ShortName>
 					<CachePath>SFX/MC_FT_Run_Mud_06_10C4C929.wem</CachePath>
@@ -2573,6 +2696,10 @@
 				<File Id="789824356" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_06.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Mud_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="798917939" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 14012023\RFX_Bubbles_01.wav</ShortName>
+					<CachePath>SFX/Export 14012023/RFX_Bubbles_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="801263118" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Music_Loop_Level02_Light_120BPM_10Bars_Endcue8bar.wav</ShortName>
@@ -2764,6 +2891,10 @@
 					<ShortName>Grenadier\Grenadier_FT_Normal_04.wav</ShortName>
 					<CachePath>SFX/Grenadier/Grenadier_FT_Normal_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="924510481" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Box_Break_04.wav</ShortName>
+					<CachePath>SFX/Box_Break_04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="924683349" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Music_Loop_Level02_WithLead_120BPM_10Bars_Endcue8bar.wav</ShortName>
 					<Path>Media/924683349.wem</Path>
@@ -2830,6 +2961,12 @@
 					<ShortName>Export 12012023 V2\Small_Monster_Spin_03.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Spin_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="957902901" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>Export 14012023\Acid_Pool.wav</ShortName>
+					<Path>Media/957902901.wem</Path>
+					<CachePath>SFX/Export 14012023/Acid_Pool_D79FB2B7.wem</CachePath>
+					<PrefetchSize>9696</PrefetchSize>
+				</File>
 				<File Id="958958097" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\Grenadier_Breath_01.wav</ShortName>
 					<CachePath>SFX/Grenadier/Grenadier_Breath_01_10C4C929.wem</CachePath>
@@ -2892,6 +3029,10 @@
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_04.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Mud_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="994771667" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Export 14012023\RFX_Bubbles_04.wav</ShortName>
+					<CachePath>SFX/Export 14012023/RFX_Bubbles_04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="996724255" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Run_Mud_05.wav</ShortName>
 					<CachePath>SFX/MC_FT_Run_Mud_05_10C4C929.wem</CachePath>
@@ -2923,6 +3064,10 @@
 				<File Id="1014608767" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Jump_03.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Jump_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1016824293" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Box_Break_02.wav</ShortName>
+					<CachePath>SFX/Box_Break_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1017870065" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Run_Mud_02.wav</ShortName>
@@ -2982,27 +3127,37 @@
 				</Custom>
 			</Plugins>
 			<Events>
-				<Event Id="2746395399" Name="Play_AMB_Cavern_LargeRoom" MaxAttenuation="60" DurationType="Infinite">
+				<Event Id="1949720410" Name="Play_Acid_Pool" MaxAttenuation="20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="62751895"/>
+						<MediaRef Id="129162417"/>
+						<MediaRef Id="336010496"/>
+						<MediaRef Id="798917939"/>
+						<MediaRef Id="957902901"/>
+						<MediaRef Id="994771667"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2746395399" Name="Play_AMB_Cavern_LargeRoom" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="912991374"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2803742312" Name="Play_AMB_Cavern_LargeRoom_WithWind" MaxAttenuation="60" DurationType="Infinite">
+				<Event Id="2803742312" Name="Play_AMB_Cavern_LargeRoom_WithWind" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="142548415"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3522290541" Name="Play_AMB_Cavern_MediumRoom" MaxAttenuation="60" DurationType="Infinite">
+				<Event Id="3522290541" Name="Play_AMB_Cavern_MediumRoom" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="224320780"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1982406497" Name="Play_AMB_Cavern_MediumRoom_Lake" MaxAttenuation="60" DurationType="Infinite">
+				<Event Id="1982406497" Name="Play_AMB_Cavern_MediumRoom_Lake" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="317441847"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2156099163" Name="Play_AMB_Cavern_SmallRoom" MaxAttenuation="60" DurationType="Infinite">
+				<Event Id="2156099163" Name="Play_AMB_Cavern_SmallRoom" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="926832286"/>
 					</MediaRefs>
@@ -3018,6 +3173,14 @@
 						<MediaRef Id="845874098"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3331416737" Name="Play_Box_Break" MaxAttenuation="5" DurationType="OneShot" DurationMin="0.7705" DurationMax="1.0019791">
+					<MediaRefs>
+						<MediaRef Id="122704034"/>
+						<MediaRef Id="744667534"/>
+						<MediaRef Id="924510481"/>
+						<MediaRef Id="1016824293"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="931488463" Name="Play_Chomper_Attack" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.58002084" DurationMax="0.623625">
 					<MediaRefs>
 						<MediaRef Id="173511823"/>
@@ -3028,6 +3191,11 @@
 				<Event Id="3519138347" Name="Play_Chomper_VOX_Before_Attack" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.498875" DurationMax="0.498875">
 					<MediaRefs>
 						<MediaRef Id="312669986"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1032032819" Name="Play_Ellen_Respawn" DurationType="OneShot" DurationMin="1.7650417" DurationMax="1.7650417">
+					<MediaRefs>
+						<MediaRef Id="244733900"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4161070465" Name="Play_Fireflies" MaxAttenuation="5" DurationType="Infinite">
@@ -3500,7 +3668,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="2979465700" Name="Play_Platform_Moving" MaxAttenuation="10" DurationType="Infinite">
+				<Event Id="2979465700" Name="Play_Platform_Moving" MaxAttenuation="5" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="841063888"/>
 					</MediaRefs>
@@ -3534,6 +3702,11 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="1115051833" Name="Play_Small_Door_Open" MaxAttenuation="20" DurationType="OneShot" DurationMin="4.266667" DurationMax="4.266667">
+					<MediaRefs>
+						<MediaRef Id="649593967"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1799613726" Name="Play_Small_Door_Open_2D" MaxAttenuation="20" DurationType="OneShot" DurationMin="4.266667" DurationMax="4.266667">
 					<MediaRefs>
 						<MediaRef Id="649593967"/>
 					</MediaRefs>
@@ -3753,6 +3926,16 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="781754601" Name="Play_Spaceship_Loop_End" MaxAttenuation="10" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="562284632"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3261160980" Name="Play_Spitball_Loop" MaxAttenuation="10" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="98277259"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3913336272" Name="Play_Spitter_Attack" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.48422918" DurationMax="0.50675">
 					<MediaRefs>
 						<MediaRef Id="467297718"/>
@@ -3916,6 +4099,8 @@
 				<Event Id="3867827650" Name="Stop_RFX_Birds_Creatures" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1008653791" Name="Stop_River_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1739086843" Name="Stop_Small_Door_Open" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1628176860" Name="Stop_Small_Door_Open_2D" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="646603671" Name="Stop_Spaceship_Loop_End" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4212421580" Name="Stop_Switch_Crystals_Idle_AfterActivation" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3192261611" Name="Stop_Switch_Crystals_Idle_BeforeActivation" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3416772595" Name="Stop_Switch_Stone_Idle" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -4242,7 +4427,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{AD89BF4C-38E6-92FE-744A-B56799CF74B5}">
+		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{DCAED488-606F-386D-06B8-28578629293E}">
 			<ShortName>Small_Monsters</ShortName>
 			<Path>Small_Monsters.bnk</Path>
 			<Media>
@@ -4289,6 +4474,12 @@
 				<File Id="94009858" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Spitter_VOX_Spot_Player_02.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Spitter_VOX_Spot_Player_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="98277259" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>Export 14012023\Spitball.wav</ShortName>
+					<Path>Media/98277259.wem</Path>
+					<CachePath>SFX/Export 14012023/Spitball_D79FB2B7.wem</CachePath>
+					<PrefetchSize>9696</PrefetchSize>
 				</File>
 				<File Id="109188083" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Spitter_VOX_Grunt_02.wav</ShortName>
@@ -4888,6 +5079,11 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="3261160980" Name="Play_Spitball_Loop" MaxAttenuation="10" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="98277259"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3913336272" Name="Play_Spitter_Attack" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.48422918" DurationMax="0.50675">
 					<MediaRefs>
 						<MediaRef Id="467297718"/>
@@ -4914,5 +5110,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{462651CE-DFF6-4715-1373-8AF4891117DB}</FileHash>
+	<FileHash>{C322AD96-8A92-5FA6-1D8B-58D5FC965A51}</FileHash>
 </SoundBanksInfo>

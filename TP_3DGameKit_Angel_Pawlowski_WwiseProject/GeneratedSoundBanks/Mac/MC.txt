@@ -3,6 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	634444711	Play_MC_Vox_Death			\Default Work Unit\MC\Vox_Events\Play_MC_Vox_Death	
 	733683298	Play_MC_FOL_Run			\Default Work Unit\MC\FOL_Events\Play_MC_FOL_Run	
 	951255116	Play_MC_Shield_Off			\Default Work Unit\MC\Shield_Events\Play_MC_Shield_Off	
+	1032032819	Play_Ellen_Respawn			\Default Work Unit\MC\Play_Ellen_Respawn	
 	1213444204	Play_MC_Roll			\Default Work Unit\MC\FT_Events\Play_MC_Roll	
 	1540365902	Play_MC_FOL_Roll			\Default Work Unit\MC\FOL_Events\Play_MC_FOL_Roll	
 	1593937298	Play_MC_Land			\Default Work Unit\MC\FT_Events\Play_MC_Land	
@@ -49,6 +50,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	220234999	MC_VOX_Jump_02	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\MC_VOX_Jump_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC\Vox\MC_Vox_Jump\MC_VOX_Jump_02		37890
 	223604739	MC_FT_Jump_Rock_03	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\MC_FT_Jump_Rock_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC\Footsteps\MC_Jump\MC_Jump_Rock\MC_FT_Jump_Rock_03		33654
 	225456498	MC_FT_Land_Rock_05	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\MC_FT_Land_Rock_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC\Footsteps\MC_Land\MC_Land_Rock\MC_FT_Land_Rock_05		35096
+	244733900	Ellen_Respawn	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Ellen_Respawn_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\Ellen_Respawn		169540
 	251333807	MC_VOX_Jump_01	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\MC_VOX_Jump_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC\Vox\MC_Vox_Jump\MC_VOX_Jump_01		49056
 	262492407	MC_FT_Land_Grass_02	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\MC_FT_Land_Grass_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC\Footsteps\MC_Land\MC_Land_Grass\MC_FT_Land_Grass_02		49056
 	275548516	MC_VOX_Pain_Medium_05	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\MC_VOX_Pain_Medium_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC\Vox\MC_Vox_Pain\MC_Vox_Pain_Medium\MC_VOX_Pain_Medium_05		51380

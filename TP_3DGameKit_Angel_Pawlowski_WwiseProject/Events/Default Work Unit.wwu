@@ -237,6 +237,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Ellen_Respawn" ID="{EA414117-C1C0-41F2-8C98-85B713900213}">
+							<ChildrenList>
+								<Action Name="" ID="{19342D83-2E9D-4893-A007-E8ED99C8DB1B}" ShortID="879936898">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ellen_Respawn" ID="{4BE584C0-2BE1-4188-960D-DC553387C629}" WorkUnitID="{3FD50C42-DA51-4E26-9C37-08E84BDE220A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Weapon" ID="{43C2B4AD-BB9B-4483-8D38-C03EFEE15D32}" ShortID="960282306">
@@ -1223,6 +1234,46 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Spaceship_EndGame" ID="{6BB39D40-92EB-40D9-8FFF-DEBDEE1B88BD}" ShortID="198072240">
+							<ChildrenList>
+								<Event Name="Play_Spaceship_Loop_End" ID="{AEA68CB8-2FA1-43AD-ABC8-F32F26A107FE}">
+									<ChildrenList>
+										<Action Name="" ID="{D5DA7EFF-33C0-4723-ABE2-82002507C034}" ShortID="538077149">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Spaceship_Loop_End" ID="{3ECEFAF8-AA58-4A21-8A61-8910537A07B7}" WorkUnitID="{6339F0F9-1688-458B-9B68-CE62F7071A2D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_Spaceship_Loop_End" ID="{0D635B1D-2D19-43B8-9CCA-00F966A65D5F}">
+									<ChildrenList>
+										<Action Name="" ID="{F58359E6-A39B-43BC-A2AB-6A613E6FCC16}" ShortID="716165647">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Spaceship_Loop_End" ID="{3ECEFAF8-AA58-4A21-8A61-8910537A07B7}" WorkUnitID="{6339F0F9-1688-458B-9B68-CE62F7071A2D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Event Name="Play_Box_Break" ID="{25F10652-BEF6-4136-AB94-BB4AC17CD5CD}">
+							<ChildrenList>
+								<Action Name="" ID="{FA8C52E4-CFAE-4115-8850-BC92C80A2CB7}" ShortID="678411087">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Box_Break" ID="{7B00E3B5-8FBF-41DA-B46D-34A386F01517}" WorkUnitID="{6339F0F9-1688-458B-9B68-CE62F7071A2D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Interactables" ID="{22E6B151-3902-48FC-AB2E-959062AC2EF2}" ShortID="682600520">
@@ -1323,6 +1374,31 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Small_Door_Open" ID="{94E0E048-2E0F-4905-B4CC-93EBD6EE2A25}" WorkUnitID="{018C9E9D-118C-455B-8DFB-C4C7A0F8F43F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Small_Door_Open_2D" ID="{63D059E0-F535-4DA0-8C44-8FF6BFB91841}">
+									<ChildrenList>
+										<Action Name="" ID="{E17F4252-3A48-4506-848B-21F3F87590F9}" ShortID="772119506">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Small_Door_Open_2D" ID="{157F7F1F-C6FC-45D8-BF48-B887F2F0D2F4}" WorkUnitID="{018C9E9D-118C-455B-8DFB-C4C7A0F8F43F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_Small_Door_Open_2D" ID="{F69AE88B-2BE1-420E-A7E3-9FF929D78A2F}">
+									<ChildrenList>
+										<Action Name="" ID="{9A08329B-09C5-4197-9416-A62A7103DDA9}" ShortID="905216364">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Small_Door_Open_2D" ID="{157F7F1F-C6FC-45D8-BF48-B887F2F0D2F4}" WorkUnitID="{018C9E9D-118C-455B-8DFB-C4C7A0F8F43F}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

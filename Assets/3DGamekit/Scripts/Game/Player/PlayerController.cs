@@ -575,6 +575,7 @@ namespace Gamekit3D
         // This is usually called by a state machine behaviour on the animator controller but can be called from anywhere.
         public void Respawn()
         {
+            
             StartCoroutine(RespawnRoutine());
         }
         
@@ -613,7 +614,7 @@ namespace Gamekit3D
             
             // Start the respawn graphic effects.
             spawn.StartEffect();
-            
+            AkSoundEngine.PostEvent("Play_Ellen_Respawn", this.gameObject);
             // Wait for the screen to fade in.
             // Currently it is not important to yield here but should some changes occur that require waiting until a respawn has finished this will be required.
             yield return StartCoroutine(ScreenFader.FadeSceneIn());

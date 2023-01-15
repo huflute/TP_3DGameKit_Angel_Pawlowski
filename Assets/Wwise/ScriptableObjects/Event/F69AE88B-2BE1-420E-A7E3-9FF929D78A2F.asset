@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eba6e179366dc874d86906d29c34185e, type: 3}
+  m_Name: F69AE88B-2BE1-420E-A7E3-9FF929D78A2F
+  m_EditorClassIdentifier: 
+  objectName: Stop_Small_Door_Open_2D
+  id: 1628176860
+  guid: F69AE88B-2BE1-420E-A7E3-9FF929D78A2F

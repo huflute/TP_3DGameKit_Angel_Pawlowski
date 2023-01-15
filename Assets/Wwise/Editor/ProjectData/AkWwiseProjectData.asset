@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 506fcf57e49ddb428782635b9c72daec
     GuidInternal: 
-    m_lastTime: -8585284015674107375
+    m_lastTime: -8585284051417577638
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 0c74f2e5d4330e46bfec07c1b154966f
     GuidInternal: 
-    m_lastTime: -8585277950876377049
+    m_lastTime: -8585277974249281332
     List:
     - name: Environmental
       guid: eda45d6dcc045d47a639edc09c76d74c
@@ -240,7 +240,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8ff7bc971ac3be4d91a175ce8a07a45d
     GuidInternal: 
-    m_lastTime: -8585278697140832001
+    m_lastTime: -8585278251872507082
     List:
     - name: AMB
       guid: 6d1a6435ebfdec4b818517836a1ef9ba
@@ -408,8 +408,28 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 58301ae271a98d46974f6accc96184fa
     GuidInternal: 
-    m_lastTime: -8585278047260025119
+    m_lastTime: -8585277930452976509
     List:
+    - name: Acid_Pool
+      guid: d3000491b296d14382d26de6a09c89bd
+      id: 2985076563
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: Acid_Pool
+        ObjectType: 4
+        guid: d3000491b296d14382d26de6a09c89bd
+      Path: Events\Default Work Unit\Environment\Acid_Pool
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: AMB
       guid: 7eacccb593e71341878dd5280afd656f
       id: 1117531639
@@ -775,6 +795,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Acid_Pool
+      guid: 12ff09bd0b90c6418110bfa474fe3e67
+      id: 1949720410
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: Acid_Pool
+        ObjectType: 4
+        guid: d3000491b296d14382d26de6a09c89bd
+      - ElementName: Play_Acid_Pool
+        ObjectType: 3
+        guid: 12ff09bd0b90c6418110bfa474fe3e67
+      Path: Events\Default Work Unit\Environment\Acid_Pool\Play_Acid_Pool
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_AMB_Cavern_LargeRoom
       guid: e66ad535cc4a57408c18967317caa59f
       id: 2746395399
@@ -906,6 +949,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Box_Break
+      guid: 5206f125f6be3641ab94bb4ac17cd5cd
+      id: 3331416737
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: Play_Box_Break
+        ObjectType: 3
+        guid: 5206f125f6be3641ab94bb4ac17cd5cd
+      Path: Events\Default Work Unit\Environment\Play_Box_Break
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Chomper_Attack
       guid: 2d41bf41d86a4f468cd05cefc3e4d83e
       id: 931488463
@@ -955,6 +1018,26 @@ MonoBehaviour:
         ObjectType: 3
         guid: 1bca687d75a5a34d8a089278a8504a38
       Path: Events\Default Work Unit\Monsters\Small_Monsters\VOX\Play_Chomper_VOX_Before_Attack
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Ellen_Respawn
+      guid: 174141eac0c1f2418c9885b713900213
+      id: 1032032819
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: MC
+        ObjectType: 4
+        guid: 1cc6ffd194cca743af5d0da4a79c26da
+      - ElementName: Play_Ellen_Respawn
+        ObjectType: 3
+        guid: 174141eac0c1f2418c9885b713900213
+      Path: Events\Default Work Unit\MC\Play_Ellen_Respawn
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1970,6 +2053,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Small_Door_Open_2D
+      guid: e059d06335f5a04d8c448ff6bfb91841
+      id: 1799613726
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Interactables
+        ObjectType: 4
+        guid: 51b1e6220239fc48ab2e959062ac2ef2
+      - ElementName: Doors
+        ObjectType: 4
+        guid: 67e0bbe5eeb40143b7d8ae3661ec9b70
+      - ElementName: Play_Small_Door_Open_2D
+        ObjectType: 3
+        guid: e059d06335f5a04d8c448ff6bfb91841
+      Path: Events\Default Work Unit\Interactables\Doors\Play_Small_Door_Open_2D
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Small_Monster_Bodyfall
       guid: ecd709cf068a83429121c3ef56ec67bf
       id: 3179497032
@@ -2201,6 +2307,55 @@ MonoBehaviour:
         ObjectType: 3
         guid: c9e0c8f2605cc14caea14175f73bdca0
       Path: Events\Default Work Unit\Monsters\Small_Monsters\FT\Play_Small_Monster_Walk
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Spaceship_Loop_End
+      guid: b88ca6aea12fad43abc8f32f26a107fe
+      id: 781754601
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: Spaceship_EndGame
+        ObjectType: 4
+        guid: 409db36beb92d9408fffdebdee1b88bd
+      - ElementName: Play_Spaceship_Loop_End
+        ObjectType: 3
+        guid: b88ca6aea12fad43abc8f32f26a107fe
+      Path: Events\Default Work Unit\Environment\Spaceship_EndGame\Play_Spaceship_Loop_End
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Spitball_Loop
+      guid: 65b4a36e4e8fb942aaaa08a5e2072b98
+      id: 3261160980
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Monsters
+        ObjectType: 4
+        guid: 37c27c8daa693e4a95a335a5f32761c2
+      - ElementName: Small_Monsters
+        ObjectType: 4
+        guid: ae634776d3e525498e0245b331e97887
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 8d02fbba2680eb45a0d521fd95046828
+      - ElementName: Play_Spitball_Loop
+        ObjectType: 3
+        guid: 65b4a36e4e8fb942aaaa08a5e2072b98
+      Path: Events\Default Work Unit\Monsters\Small_Monsters\Combat\Play_Spitball_Loop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -2726,6 +2881,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Spaceship_EndGame
+      guid: 409db36beb92d9408fffdebdee1b88bd
+      id: 2518384511
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: Spaceship_EndGame
+        ObjectType: 4
+        guid: 409db36beb92d9408fffdebdee1b88bd
+      Path: Events\Default Work Unit\Environment\Spaceship_EndGame
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Stone
       guid: e4d6696023d4df42b79718db9405d314
       id: 1216965916
@@ -2947,6 +3122,52 @@ MonoBehaviour:
         ObjectType: 3
         guid: b49489f1cf76454890e37f3a648be545
       Path: Events\Default Work Unit\Interactables\Doors\Stop_Small_Door_Open
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Small_Door_Open_2D
+      guid: 8be89af6e12b0e42a7e39ff929d78a2f
+      id: 1628176860
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Interactables
+        ObjectType: 4
+        guid: 51b1e6220239fc48ab2e959062ac2ef2
+      - ElementName: Doors
+        ObjectType: 4
+        guid: 67e0bbe5eeb40143b7d8ae3661ec9b70
+      - ElementName: Stop_Small_Door_Open_2D
+        ObjectType: 3
+        guid: 8be89af6e12b0e42a7e39ff929d78a2f
+      Path: Events\Default Work Unit\Interactables\Doors\Stop_Small_Door_Open_2D
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Spaceship_Loop_End
+      guid: 1d5b630d192db8439cca00f966a65d5f
+      id: 646603671
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Environment
+        ObjectType: 4
+        guid: 6d8100762caf5647b5de8fc6b47af08d
+      - ElementName: Spaceship_EndGame
+        ObjectType: 4
+        guid: 409db36beb92d9408fffdebdee1b88bd
+      - ElementName: Stop_Spaceship_Loop_End
+        ObjectType: 3
+        guid: 1d5b630d192db8439cca00f966a65d5f
+      Path: Events\Default Work Unit\Environment\Spaceship_EndGame\Stop_Spaceship_Loop_End
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -3228,7 +3449,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 9ca7747bed20e54ab5d27c0de8914867
     GuidInternal: 
-    m_lastTime: -8585279064366098934
+    m_lastTime: -8585279054210084757
     List: []
   - PhysicalPath: Game Parameters\Evironment.wwu
     PathAndIcons:
@@ -3244,7 +3465,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit\Evironment
     guid: ba3c553c281cd74b8906e9c34e19df65
     GuidInternal: 
-    m_lastTime: -8585279064365698859
+    m_lastTime: -8585279054210064751
     List:
     - name: TimeOfDay
       guid: b9344196434b6447b76c512362d1db38
@@ -3277,7 +3498,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit\Weapon
     guid: 8a050b743995674387e05726d4c7a9fd
     GuidInternal: 
-    m_lastTime: -8585282220447927243
+    m_lastTime: -8585281456215579185
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -3291,7 +3512,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: dde22e8dd084f74f8c90764d69789553
     GuidInternal: 
-    m_lastTime: -8585278920093220362
+    m_lastTime: -8585278903466336906
     List:
     - name: IsInCombat
       guid: a0a76e5f8bf8cd41a8b319b9b1388609
@@ -3535,7 +3756,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 64f9ff4cf55ed24b9ee79a66e7775ade
     GuidInternal: 
-    m_lastTime: -8585278175234860037
+    m_lastTime: -8585278155116345048
     List:
     - name: Combat
       guid: 95707bd650db5646a9b5c6b0563c5422
@@ -3601,7 +3822,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit\Entity
     guid: 41b04a50991a5640a3f689e347792812
     GuidInternal: 
-    m_lastTime: -8585279068671202480
+    m_lastTime: -8585279054193400886
     List:
     - name: Ground_Material
       guid: 1b952d3e32b055449b28a3a8085a401a
@@ -3832,7 +4053,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit\Environment
     guid: cca39cd7d1447a449542ac83600b4014
     GuidInternal: 
-    m_lastTime: -8585278923259627017
+    m_lastTime: -8585278903466306882
     List:
     - name: TimeOfDay
       guid: 574c3617317e9b499335d0b1f366c105
@@ -3905,10 +4126,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 9f1b90065f823441bd96c497af968d89
     GuidInternal: 
-    m_lastTime: -8585284015674119453
+    m_lastTime: -8585284051417417635
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0600000007000000
+  ExpandedWaapiItemIds: 06000000070000000a0000000b000000465302001a630200
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

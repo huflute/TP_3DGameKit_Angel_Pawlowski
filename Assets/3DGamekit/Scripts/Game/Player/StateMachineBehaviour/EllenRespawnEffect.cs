@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace Gamekit3D
@@ -8,8 +9,10 @@ namespace Gamekit3D
     {
         public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {
-            //Debug.Log("Ellen ressuscite");
             animator.GetComponent<PlayerController>().Respawn();
+            
         }
+        
+        
     } 
 }

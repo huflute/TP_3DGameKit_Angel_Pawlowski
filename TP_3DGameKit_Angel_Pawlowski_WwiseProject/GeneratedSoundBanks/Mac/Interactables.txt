@@ -1,7 +1,9 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1115051833	Play_Small_Door_Open			\Default Work Unit\Interactables\Doors\Play_Small_Door_Open	
 	1162942573	Stop_Huge_Door_Opening			\Default Work Unit\Interactables\Doors\Stop_Huge_Door_Opening	
+	1628176860	Stop_Small_Door_Open_2D			\Default Work Unit\Interactables\Doors\Stop_Small_Door_Open_2D	
 	1739086843	Stop_Small_Door_Open			\Default Work Unit\Interactables\Doors\Stop_Small_Door_Open	
+	1799613726	Play_Small_Door_Open_2D			\Default Work Unit\Interactables\Doors\Play_Small_Door_Open_2D	
 	1840834974	Play_HealthCrate_Idle			\Default Work Unit\Interactables\HealthCrate\Play_HealthCrate_Idle	
 	2536112683	Play_Huge_Door_Opening			\Default Work Unit\Interactables\Doors\Play_Huge_Door_Opening	
 	3862797904	Play_HealthCrate_Open			\Default Work Unit\Interactables\HealthCrate\Play_HealthCrate_Open	

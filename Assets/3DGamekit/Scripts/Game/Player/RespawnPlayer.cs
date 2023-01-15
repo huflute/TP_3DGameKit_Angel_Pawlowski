@@ -7,6 +7,7 @@ namespace Gamekit3D.GameCommands
         public override void PerformInteraction()
         {
             player.Respawn();
+            
         }
     }
 }

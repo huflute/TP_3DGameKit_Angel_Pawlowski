@@ -21,8 +21,10 @@ namespace AK
         static const AkUniqueID PLAY_AMB_CAVERN_SMALLROOM = 2156099163U;
         static const AkUniqueID PLAY_AMB_LEVEL01_SWAMP = 2993009189U;
         static const AkUniqueID PLAY_AMB_SPACESHIP = 3213331111U;
+        static const AkUniqueID PLAY_BOX_BREAK = 3331416737U;
         static const AkUniqueID PLAY_CHOMPER_ATTACK = 931488463U;
         static const AkUniqueID PLAY_CHOMPER_VOX_BEFORE_ATTACK = 3519138347U;
+        static const AkUniqueID PLAY_ELLEN_RESPAWN = 1032032819U;
         static const AkUniqueID PLAY_FIREFLIES = 4161070465U;
         static const AkUniqueID PLAY_GRENADIER_BREATH = 414086918U;
         static const AkUniqueID PLAY_GRENADIER_CLOSERANGEATTACK = 480351787U;
@@ -67,6 +69,7 @@ namespace AK
         static const AkUniqueID PLAY_RFX_COMPUTER = 3056483954U;
         static const AkUniqueID PLAY_RIVER_LOOP = 994087705U;
         static const AkUniqueID PLAY_SMALL_DOOR_OPEN = 1115051833U;
+        static const AkUniqueID PLAY_SMALL_DOOR_OPEN_2D = 1799613726U;
         static const AkUniqueID PLAY_SMALL_MONSTER_BODYFALL = 3179497032U;
         static const AkUniqueID PLAY_SMALL_MONSTER_HIT = 1602398710U;
         static const AkUniqueID PLAY_SMALL_MONSTER_RUN = 1338193862U;
@@ -76,6 +79,7 @@ namespace AK
         static const AkUniqueID PLAY_SMALL_MONSTER_VOX_HIT = 201430788U;
         static const AkUniqueID PLAY_SMALL_MONSTER_VOX_SPOTS = 41618512U;
         static const AkUniqueID PLAY_SMALL_MONSTER_WALK = 1427652232U;
+        static const AkUniqueID PLAY_SPACESHIP_LOOP_END = 781754601U;
         static const AkUniqueID PLAY_SPITBALL_LOOP = 3261160980U;
         static const AkUniqueID PLAY_SPITTER_ATTACK = 3913336272U;
         static const AkUniqueID PLAY_SWITCH_CRYSTALS_ACTIVATION = 3451021523U;
@@ -105,6 +109,8 @@ namespace AK
         static const AkUniqueID STOP_RFX_BIRDS_CREATURES = 3867827650U;
         static const AkUniqueID STOP_RIVER_LOOP = 1008653791U;
         static const AkUniqueID STOP_SMALL_DOOR_OPEN = 1739086843U;
+        static const AkUniqueID STOP_SMALL_DOOR_OPEN_2D = 1628176860U;
+        static const AkUniqueID STOP_SPACESHIP_LOOP_END = 646603671U;
         static const AkUniqueID STOP_SWITCH_CRYSTALS_IDLE_AFTERACTIVATION = 4212421580U;
         static const AkUniqueID STOP_SWITCH_CRYSTALS_IDLE_BEFOREACTIVATION = 3192261611U;
         static const AkUniqueID STOP_SWITCH_STONE_IDLE = 3416772595U;
