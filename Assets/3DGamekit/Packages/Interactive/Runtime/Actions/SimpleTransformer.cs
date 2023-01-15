@@ -29,7 +29,7 @@ namespace Gamekit3D.GameCommands
         [Range(0, 1)]
         public float previewPosition;
         float time = 0f;
-        float position = 0f;
+        public float position = 0f;
         float direction = 1f;
 
         protected Platform m_Platform;
@@ -54,9 +54,7 @@ namespace Gamekit3D.GameCommands
             activate = true;
             if (OnStartCommand != null) OnStartCommand.Send();
             if (onStartAudio != null) onStartAudio.Play();
-            
-
-            Jingle.Post(this.gameObject);
+            if (Jingle !=null) Jingle.Post(this.gameObject);
             if (gameObject.CompareTag("Door"))
             {
                 if (onStartEvent != null) onStartEvent.Post(this.gameObject);
@@ -122,11 +120,11 @@ namespace Gamekit3D.GameCommands
             onEndEvent.Post(this.gameObject);
             
         }
-        IEnumerator MovingPlatform(float duration)
+        /*IEnumerator MovingPlatform(float duration)
         {
             if (onStartEvent != null) onStartEvent.Post(this.gameObject);
             yield return new WaitForSeconds(duration);
             if (onEndEvent != null) onEndEvent.Post(this.gameObject);
-        }
+        }*/
     }
 }

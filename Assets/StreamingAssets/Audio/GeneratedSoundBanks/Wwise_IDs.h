@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_ACID_POOL = 1949720410U;
         static const AkUniqueID PLAY_AMB_CAVERN_LARGEROOM = 2746395399U;
         static const AkUniqueID PLAY_AMB_CAVERN_LARGEROOM_WITHWIND = 2803742312U;
         static const AkUniqueID PLAY_AMB_CAVERN_MEDIUMROOM = 3522290541U;
@@ -75,6 +76,7 @@ namespace AK
         static const AkUniqueID PLAY_SMALL_MONSTER_VOX_HIT = 201430788U;
         static const AkUniqueID PLAY_SMALL_MONSTER_VOX_SPOTS = 41618512U;
         static const AkUniqueID PLAY_SMALL_MONSTER_WALK = 1427652232U;
+        static const AkUniqueID PLAY_SPITBALL_LOOP = 3261160980U;
         static const AkUniqueID PLAY_SPITTER_ATTACK = 3913336272U;
         static const AkUniqueID PLAY_SWITCH_CRYSTALS_ACTIVATION = 3451021523U;
         static const AkUniqueID PLAY_SWITCH_CRYSTALS_IDLE_BEFOREACTIVATION = 1933987681U;

@@ -144,7 +144,7 @@ namespace Gamekit3D
         protected virtual void OnCollisionEnter(Collision other)
         {
             if (bouncePlayer != null)
-                //Debug.Log("Grenade rebondit");
+                
                 AkSoundEngine.PostEvent("Play_Grenadier_Projectile_Bounce", gameObject);
                 bouncePlayer.PlayRandomClip();
         }
