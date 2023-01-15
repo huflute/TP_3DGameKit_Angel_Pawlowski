@@ -1184,6 +1184,67 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Doors" ID="{E5BBE067-B4EE-4301-B7D8-AE3661EC9B70}" ShortID="192046985">
+							<ChildrenList>
+								<Event Name="Play_Huge_Door_Opening" ID="{CB3783D0-8104-44D8-A8BB-68AA72A1C114}">
+									<ChildrenList>
+										<Action Name="" ID="{42E9EFA9-469A-4067-A33D-FF9E44F43247}" ShortID="870790266">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Huge_Door_Opening" ID="{0269AC80-8E28-4087-AC2F-8542BC43F4C0}" WorkUnitID="{018C9E9D-118C-455B-8DFB-C4C7A0F8F43F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Small_Door_Open" ID="{9626743E-6A67-4208-BB6D-4DC9B3E2F69A}">
+									<ChildrenList>
+										<Action Name="" ID="{26D9A24D-7717-4D2D-854F-DDA532012282}" ShortID="94284526">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Small_Door_Open" ID="{94E0E048-2E0F-4905-B4CC-93EBD6EE2A25}" WorkUnitID="{018C9E9D-118C-455B-8DFB-C4C7A0F8F43F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_Huge_Door_Opening" ID="{45D45354-2008-4154-A90B-484C5CA0249D}">
+									<ChildrenList>
+										<Action Name="" ID="{B3A617EA-7828-4A93-80ED-AF486A84AFB0}" ShortID="529305971">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Huge_Door_Opening" ID="{0269AC80-8E28-4087-AC2F-8542BC43F4C0}" WorkUnitID="{018C9E9D-118C-455B-8DFB-C4C7A0F8F43F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{28B56C1D-76E8-4DE3-9817-7959C8F206ED}" ShortID="495670708">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Huge_Door_Stop" ID="{BB2EE33D-F399-4F6B-B189-E6C7FAE5B195}" WorkUnitID="{018C9E9D-118C-455B-8DFB-C4C7A0F8F43F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_Small_Door_Open" ID="{F18994B4-76CF-4845-90E3-7F3A648BE545}">
+									<ChildrenList>
+										<Action Name="" ID="{D83C48FB-4740-497E-84A6-785AEC3C46F3}" ShortID="318520274">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Small_Door_Open" ID="{94E0E048-2E0F-4905-B4CC-93EBD6EE2A25}" WorkUnitID="{018C9E9D-118C-455B-8DFB-C4C7A0F8F43F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="ChangingLevels" ID="{E779EBF8-9DB7-4EFB-9835-0556C287B63F}" ShortID="363059301">

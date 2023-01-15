@@ -7,20 +7,7 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Sound Name="Huge_Door_Opening" ID="{AA8CF6C4-106E-422D-87D1-14C821AB381C}" ShortID="1003697319">
-					<PropertyList>
-						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-						<Property Name="IsStreamingEnabled" Type="bool">
-							<ValueList>
-								<Value>True</Value>
-							</ValueList>
-						</Property>
-						<Property Name="IsZeroLatency" Type="bool">
-							<ValueList>
-								<Value>True</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
+				<Sound Name="Huge_Door_Opening" ID="{0269AC80-8E28-4087-AC2F-8542BC43F4C0}" ShortID="761151324">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
@@ -30,19 +17,19 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="Huge_Door_Opening" ID="{7FBFD038-46CD-4B96-BADA-00FE63496BD0}">
+						<AudioFileSource Name="Huge_Door_Opening" ID="{4C3CF664-BF79-46D0-9F93-9CC91AE3A1D6}">
 							<Language>SFX</Language>
-							<AudioFile>Export 14012023\Huge_Door_Opening.wav</AudioFile>
+							<AudioFile>Huge_Door_Opening.wav</AudioFile>
 							<MediaIDList>
-								<MediaID ID="967201857"/>
+								<MediaID ID="453392677"/>
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="Huge_Door_Opening" ID="{7FBFD038-46CD-4B96-BADA-00FE63496BD0}" Platform="Linked"/>
+						<ActiveSource Name="Huge_Door_Opening" ID="{4C3CF664-BF79-46D0-9F93-9CC91AE3A1D6}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="Huge_Door_Stop" ID="{88C9B10F-B8A3-46E2-8311-39F3AC32EF70}" ShortID="384947203">
+				<Sound Name="Huge_Door_Stop" ID="{BB2EE33D-F399-4F6B-B189-E6C7FAE5B195}" ShortID="50048449">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
@@ -52,32 +39,19 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="Huge_Door_Stop" ID="{F8194C80-942A-4842-A019-5CC396C174EA}">
+						<AudioFileSource Name="Huge_Door_Stop" ID="{2FBBAEAA-1972-4917-95D7-8FC03C623316}">
 							<Language>SFX</Language>
-							<AudioFile>Export 14012023\Huge_Door_Stop.wav</AudioFile>
+							<AudioFile>Huge_Door_Stop.wav</AudioFile>
 							<MediaIDList>
-								<MediaID ID="386501064"/>
+								<MediaID ID="372427602"/>
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="Huge_Door_Stop" ID="{F8194C80-942A-4842-A019-5CC396C174EA}" Platform="Linked"/>
+						<ActiveSource Name="Huge_Door_Stop" ID="{2FBBAEAA-1972-4917-95D7-8FC03C623316}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="Small_Door_Open" ID="{F8E7A821-0C1E-4C82-816B-EE9A50683918}" ShortID="239311673">
-					<PropertyList>
-						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-						<Property Name="IsStreamingEnabled" Type="bool">
-							<ValueList>
-								<Value>True</Value>
-							</ValueList>
-						</Property>
-						<Property Name="IsZeroLatency" Type="bool">
-							<ValueList>
-								<Value>True</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
+				<Sound Name="Small_Door_Open" ID="{94E0E048-2E0F-4905-B4CC-93EBD6EE2A25}" ShortID="457834004">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
@@ -87,16 +61,16 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="Small_Door_Open" ID="{65B11454-B83E-4A7B-B610-3D56F15F8DB9}">
+						<AudioFileSource Name="Small_Door_Open" ID="{9EBF340A-C377-4902-8D78-EC8C0FFE1D55}">
 							<Language>SFX</Language>
-							<AudioFile>Export 14012023\Small_Door_Open.wav</AudioFile>
+							<AudioFile>Small_Door_Open.wav</AudioFile>
 							<MediaIDList>
-								<MediaID ID="1066856792"/>
+								<MediaID ID="649593967"/>
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="Small_Door_Open" ID="{65B11454-B83E-4A7B-B610-3D56F15F8DB9}" Platform="Linked"/>
+						<ActiveSource Name="Small_Door_Open" ID="{9EBF340A-C377-4902-8D78-EC8C0FFE1D55}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

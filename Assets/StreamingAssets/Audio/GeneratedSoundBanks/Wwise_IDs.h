@@ -36,6 +36,7 @@ namespace AK
         static const AkUniqueID PLAY_GRENADIER_SHOOT = 1550439253U;
         static const AkUniqueID PLAY_HEALTHCRATE_IDLE = 1840834974U;
         static const AkUniqueID PLAY_HEALTHCRATE_OPEN = 3862797904U;
+        static const AkUniqueID PLAY_HUGE_DOOR_OPENING = 2536112683U;
         static const AkUniqueID PLAY_MC_FOL_ATTACK = 4094144955U;
         static const AkUniqueID PLAY_MC_FOL_JUMP = 3212184235U;
         static const AkUniqueID PLAY_MC_FOL_LAND = 2037670792U;
@@ -56,6 +57,7 @@ namespace AK
         static const AkUniqueID PLAY_RFX_BIRDS_CREATURES = 624594268U;
         static const AkUniqueID PLAY_RFX_COMPUTER = 3056483954U;
         static const AkUniqueID PLAY_RIVER_LOOP = 994087705U;
+        static const AkUniqueID PLAY_SMALL_DOOR_OPEN = 1115051833U;
         static const AkUniqueID PLAY_SMALL_MONSTER_BODYFALL = 3179497032U;
         static const AkUniqueID PLAY_SMALL_MONSTER_HIT = 1602398710U;
         static const AkUniqueID PLAY_SMALL_MONSTER_RUN = 1338193862U;
@@ -87,9 +89,11 @@ namespace AK
         static const AkUniqueID STOP_ALL = 452547817U;
         static const AkUniqueID STOP_AMB_SPACESHIP = 3876046333U;
         static const AkUniqueID STOP_FIREFLIES = 4099702875U;
+        static const AkUniqueID STOP_HUGE_DOOR_OPENING = 1162942573U;
         static const AkUniqueID STOP_MC_SHIELD = 616065004U;
         static const AkUniqueID STOP_RFX_BIRDS_CREATURES = 3867827650U;
         static const AkUniqueID STOP_RIVER_LOOP = 1008653791U;
+        static const AkUniqueID STOP_SMALL_DOOR_OPEN = 1739086843U;
         static const AkUniqueID STOP_SWITCH_CRYSTALS_IDLE_AFTERACTIVATION = 4212421580U;
         static const AkUniqueID STOP_SWITCH_CRYSTALS_IDLE_BEFOREACTIVATION = 3192261611U;
         static const AkUniqueID STOP_SWITCH_STONE_IDLE = 3416772595U;
