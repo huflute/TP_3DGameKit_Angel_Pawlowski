@@ -395,6 +395,9 @@
 						<Event Name="Play_Play_Amb_Locations" ID="{39B4E0B7-9F41-46B4-AAE6-4EE648A8F48B}">
 							<ChildrenList>
 								<Action Name="" ID="{D44BE935-17CF-4646-9D3E-6394EE306BA8}" ShortID="1041307687">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Amb_Locations" ID="{085F1249-AE23-43D0-9697-D41045A6F79D}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>

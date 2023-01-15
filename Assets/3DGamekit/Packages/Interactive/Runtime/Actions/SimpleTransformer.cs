@@ -24,6 +24,7 @@ namespace Gamekit3D.GameCommands
 
         public AudioSource onStartAudio, onEndAudio;
         public AK.Wwise.Event onStartEvent, onEndEvent;
+        public AK.Wwise.Event Jingle;
 
         [Range(0, 1)]
         public float previewPosition;
@@ -54,6 +55,7 @@ namespace Gamekit3D.GameCommands
             if (OnStartCommand != null) OnStartCommand.Send();
             if (onStartAudio != null) onStartAudio.Play();
             if (onStartEvent != null) onStartEvent.Post(this.gameObject);
+            Jingle.Post(this.gameObject);
             StartCoroutine(DoorOpening(duration));
         }
 
@@ -112,6 +114,7 @@ namespace Gamekit3D.GameCommands
             yield return new WaitForSeconds(duration);
             Debug.Log("Porte ouverte");
             onEndEvent.Post(this.gameObject);
+            
         }
     }
 }

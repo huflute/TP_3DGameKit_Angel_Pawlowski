@@ -25,7 +25,7 @@ State	ID	Name	State Group			Notes
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	1393189531	Non_Environmental			\Default Work Unit\Master Audio Bus\Non_Environmental	
-	1551306167	UI			\Default Work Unit\Master Audio Bus\UI	
+	1551306167	UI			\Default Work Unit\Master Audio Bus\Non_Environmental\UI	
 	1973600711	Environmental			\Default Work Unit\Master Audio Bus\Environmental	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 

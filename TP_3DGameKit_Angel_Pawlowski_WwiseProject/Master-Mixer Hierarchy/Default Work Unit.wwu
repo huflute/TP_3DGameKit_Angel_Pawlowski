@@ -138,7 +138,6 @@
 								</AuxBus>
 							</ChildrenList>
 						</Bus>
-						<Bus Name="UI" ID="{F2D986C7-FA27-434C-B97E-E82F5593161E}"/>
 						<Bus Name="Non_Environmental" ID="{87DA3071-A648-414E-B9A2-413CCC6F30B9}">
 							<PropertyList>
 								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
@@ -155,6 +154,9 @@
 									</ValueList>
 								</Property>
 							</PropertyList>
+							<ChildrenList>
+								<Bus Name="UI" ID="{F2D986C7-FA27-434C-B97E-E82F5593161E}"/>
+							</ChildrenList>
 						</Bus>
 					</ChildrenList>
 				</Bus>

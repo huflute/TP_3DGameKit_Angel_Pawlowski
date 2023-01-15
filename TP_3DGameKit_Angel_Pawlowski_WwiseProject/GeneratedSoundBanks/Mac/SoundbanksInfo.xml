@@ -40,7 +40,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{CAB82F8B-9CC9-CEA8-04E7-5C87E247ADBA}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{F7D91A84-DCA8-0056-500D-828CA1B24C16}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
@@ -281,7 +281,7 @@
 				<GameParameter Id="3729505769" Name="TimeOfDay"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{C6C556CA-C0E1-58F1-F1EA-D146697C4ED6}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{06BAAEE3-E431-AB7E-A3F1-7CD727E1ACF0}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Media>
@@ -1531,7 +1531,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{9C0F3C4F-58AD-37DB-2B5E-DB0B8D3A1518}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{EC779361-51C7-93A0-4A7B-6911A6702F6B}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -3286,7 +3286,7 @@
 						<MediaRef Id="372411582"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="111752880" Name="Play_Music_Discovery" MaxAttenuation="20" DurationType="OneShot" DurationMin="21.835146" DurationMax="21.835146">
+				<Event Id="111752880" Name="Play_Music_Discovery" DurationType="OneShot" DurationMin="21.835146" DurationMax="21.835146">
 					<MediaRefs>
 						<MediaRef Id="895344733"/>
 					</MediaRefs>
@@ -4723,5 +4723,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{63B2C959-89C5-42FF-FCC7-F7F099E5EFF5}</FileHash>
+	<FileHash>{CC6234B5-0D5E-169E-1BD7-4E42569DCD58}</FileHash>
 </SoundBanksInfo>
