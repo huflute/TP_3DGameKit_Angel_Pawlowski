@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 0c74f2e5d4330e46bfec07c1b154966f
     GuidInternal: 
-    m_lastTime: -8585278641388289006
+    m_lastTime: -8585278619881684096
     List:
     - name: Environmental
       guid: eda45d6dcc045d47a639edc09c76d74c
@@ -3448,7 +3448,7 @@ MonoBehaviour:
     m_lastTime: -8585284015674119453
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000020000000300000004000000050000000600000007000000080000000d0000001200000013000000150000001600000017000000230000002400000025000000290000002a0000002b0000002e000000330000003f000000
+  ExpandedWaapiItemIds: 060000000700000008000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

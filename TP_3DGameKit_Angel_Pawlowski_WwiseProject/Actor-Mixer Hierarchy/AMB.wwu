@@ -1227,9 +1227,10 @@
 												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 												<Property Name="MaxSoundPerInstance" Type="int16">
 													<ValueList>
-														<Value>1</Value>
+														<Value>10</Value>
 													</ValueList>
 												</Property>
+												<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
 												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
 												<Property Name="UseMaxSoundPerInstance" Type="bool">
 													<ValueList>

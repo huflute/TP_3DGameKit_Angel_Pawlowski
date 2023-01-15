@@ -40,7 +40,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{32910A19-264C-1040-B6CB-0FAB03E61ED4}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{CAB82F8B-9CC9-CEA8-04E7-5C87E247ADBA}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
@@ -281,7 +281,7 @@
 				<GameParameter Id="3729505769" Name="TimeOfDay"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{43270F53-E510-FDDD-37FA-B5BF98E598EF}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{C6C556CA-C0E1-58F1-F1EA-D146697C4ED6}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Media>
@@ -1531,7 +1531,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{C377156E-D1B8-8524-E7C1-4C95769F87CD}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{9C0F3C4F-58AD-37DB-2B5E-DB0B8D3A1518}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -4723,5 +4723,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{829E6937-600D-4399-737E-EC441DE3F48F}</FileHash>
+	<FileHash>{63B2C959-89C5-42FF-FCC7-F7F099E5EFF5}</FileHash>
 </SoundBanksInfo>

@@ -60,6 +60,11 @@
 								<AuxBus Name="Reverb_Ruins" ID="{B0D8F9F3-DA70-405D-B026-8775E895FBB4}">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
 										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 										<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
 										<Property Name="OutputBusVolume" Type="Real64">
