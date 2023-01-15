@@ -198,6 +198,9 @@
 					</CurveUsageInfoList>
 				</Attenuation>
 				<Attenuation Name="Room" ID="{2D69F6DA-851F-4FEB-A41B-0784329A7B6D}" ShortID="207104383">
+					<PropertyList>
+						<Property Name="RadiusMax" Type="Real64" Value="20"/>
+					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -210,9 +213,10 @@
 											<XPos>0</XPos>
 											<YPos>0</YPos>
 											<Flags>5</Flags>
+											<SegmentShape>Log2</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>100</XPos>
+											<XPos>20</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -246,13 +250,13 @@
 											<SegmentShape>Log3</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>30.137</XPos>
+											<XPos>6.0274</XPos>
 											<YPos>23.25121</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Exp3</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>100</XPos>
+											<XPos>20</XPos>
 											<YPos>0</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -400,7 +404,7 @@
 										</Point>
 										<Point>
 											<XPos>5.19033</XPos>
-											<YPos>-0</YPos>
+											<YPos>0</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Log2</SegmentShape>
 										</Point>
@@ -647,7 +651,7 @@
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>-0</YPos>
+											<YPos>0</YPos>
 											<Flags>5</Flags>
 											<SegmentShape>Log2</SegmentShape>
 										</Point>

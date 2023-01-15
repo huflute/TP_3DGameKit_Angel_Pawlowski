@@ -2198,15 +2198,10 @@
 									<ChildrenList>
 										<MusicPlaylistItem Name="" ID="{D982A497-6239-4B6A-8A12-5EA1F774AD9C}" ShortID="415505583">
 											<PropertyList>
-												<Property Name="LoopCount" Type="int16" Value="2">
+												<Property Name="LoopCount" Type="int16">
 													<ModifierList>
 														<ModifierInfo>
-															<Modifier Name="" ID="{796305CF-8A7E-4CD4-8DF1-27CF9EFBFDA7}">
-																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Min" Type="Real64" Value="-1"/>
-																</PropertyList>
-															</Modifier>
+															<Modifier Name="" ID="{796305CF-8A7E-4CD4-8DF1-27CF9EFBFDA7}"/>
 														</ModifierInfo>
 													</ModifierList>
 												</Property>
@@ -2216,12 +2211,11 @@
 										</MusicPlaylistItem>
 										<MusicPlaylistItem Name="" ID="{22372D55-68D4-4F91-8B50-365CB353CA35}" ShortID="80273953">
 											<PropertyList>
-												<Property Name="LoopCount" Type="int16" Value="2">
+												<Property Name="LoopCount" Type="int16">
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{A5273EBC-D108-4CCA-B4A3-F658A108C5F3}">
 																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
 																	<Property Name="Max" Type="Real64" Value="1"/>
 																	<Property Name="Min" Type="Real64" Value="-1"/>
 																</PropertyList>
@@ -2235,12 +2229,11 @@
 										</MusicPlaylistItem>
 										<MusicPlaylistItem Name="" ID="{EF40D298-8A9B-45B5-8E04-2FC2611A1ED5}" ShortID="479078049">
 											<PropertyList>
-												<Property Name="LoopCount" Type="int16" Value="2">
+												<Property Name="LoopCount" Type="int16">
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{DE3207AB-BC78-4546-989D-39D22FD0E6A9}">
 																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
 																	<Property Name="Max" Type="Real64" Value="1"/>
 																	<Property Name="Min" Type="Real64" Value="-1"/>
 																</PropertyList>
@@ -2338,6 +2331,8 @@
 											<MusicFade Name="Source Fade-out" ID="{A606416B-10F3-45CC-932D-B5EBBD0C1279}">
 												<PropertyList>
 													<Property Name="FadeCurve" Type="int16" Value="6"/>
+													<Property Name="FadeOffset" Type="Real64" Value="2"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
 													<Property Name="FadeType" Type="int16" Value="1"/>
 												</PropertyList>
 											</MusicFade>

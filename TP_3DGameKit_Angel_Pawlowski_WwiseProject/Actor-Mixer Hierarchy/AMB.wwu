@@ -1198,7 +1198,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="AMB_Swamp_01" ID="{5DB27D4D-BA60-403B-A415-33D95D9E0398}" ShortID="136055686">
+														<Sound Name="AMB_Swamp_Day" ID="{5DB27D4D-BA60-403B-A415-33D95D9E0398}" ShortID="136055686">
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="1"/>
 																<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
