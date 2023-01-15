@@ -47,6 +47,18 @@
 											</ReferenceList>
 											<ChildrenList>
 												<MusicTrack Name="Music_Loop_Combat_Light_01_120bpm_8bars" ID="{59715B9B-CF48-48CD-AA3B-8460EE433454}" ShortID="864670846">
+													<PropertyList>
+														<Property Name="IsStreamingEnabled" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="IsZeroLatency" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
@@ -131,6 +143,18 @@
 											</ReferenceList>
 											<ChildrenList>
 												<MusicTrack Name="Music_Loop_Combat_Light_02_120bpm_8bars" ID="{EF43CFB5-F864-479D-B8A9-F6B7E07AD745}" ShortID="86965503">
+													<PropertyList>
+														<Property Name="IsStreamingEnabled" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="IsZeroLatency" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
@@ -372,6 +396,18 @@
 											</ReferenceList>
 											<ChildrenList>
 												<MusicTrack Name="Music_Loop_Combat_Normal_01_120bpm_8Bars" ID="{EB40CB8F-4038-46BB-B152-540EE5277BC5}" ShortID="514020361">
+													<PropertyList>
+														<Property Name="IsStreamingEnabled" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="IsZeroLatency" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
@@ -456,6 +492,18 @@
 											</ReferenceList>
 											<ChildrenList>
 												<MusicTrack Name="Music_Loop_Combat_Normal_02_120bpm_8bars" ID="{531FCC46-F7DE-413D-99BB-EF7F7E4EEE4A}" ShortID="352743244">
+													<PropertyList>
+														<Property Name="IsStreamingEnabled" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="IsZeroLatency" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
@@ -741,7 +789,6 @@
 										<Property Name="EnableTransitionFadeOut" Type="bool" Value="True"/>
 										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
 										<Property Name="SourceContextType" Type="int16" Value="2"/>
-										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="SourceContextObject">
@@ -753,9 +800,9 @@
 										<SourceFadeOut>
 											<MusicFade Name="Source Fade-out" ID="{BD154675-BD88-4C65-9E62-741F40881104}">
 												<PropertyList>
-													<Property Name="FadeCurve" Type="int16" Value="0"/>
-													<Property Name="FadeOffset" Type="Real64" Value="1"/>
-													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeCurve" Type="int16" Value="6"/>
+													<Property Name="FadeOffset" Type="Real64" Value="2"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
 													<Property Name="FadeType" Type="int16" Value="1"/>
 												</PropertyList>
 											</MusicFade>
@@ -774,7 +821,6 @@
 										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
 										<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
 										<Property Name="PlayTransitionPreEntry" Type="bool" Value="False"/>
-										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="DestinationContextObject">
@@ -837,6 +883,18 @@
 					</ReferenceList>
 					<ChildrenList>
 						<MusicTrack Name="Music_Impact_Transition_ToOutCombat" ID="{25ADA3B3-1E1E-4E6E-9C43-B01A6125922B}" ShortID="19212755">
+							<PropertyList>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsZeroLatency" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
@@ -921,6 +979,18 @@
 					</ReferenceList>
 					<ChildrenList>
 						<MusicTrack Name="Music_Impact_Transition_ToInCombat" ID="{2B13EAF9-A72C-44BE-A20D-EEAE1D21158A}" ShortID="1057425823">
+							<PropertyList>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsZeroLatency" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
@@ -1094,6 +1164,18 @@
 											</ReferenceList>
 											<ChildrenList>
 												<MusicTrack Name="Music_Loop_Combat_Light_01_120bpm_8bars" ID="{CCDD2C48-1EBD-4838-8F96-75FD0EC18EFD}" ShortID="740842510">
+													<PropertyList>
+														<Property Name="IsStreamingEnabled" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="IsZeroLatency" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
@@ -1178,6 +1260,18 @@
 											</ReferenceList>
 											<ChildrenList>
 												<MusicTrack Name="Music_Loop_Combat_Light_02_120bpm_8bars" ID="{2BEA89B4-53A1-48B8-8B6F-7DC7CBD65E7C}" ShortID="565952161">
+													<PropertyList>
+														<Property Name="IsStreamingEnabled" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="IsZeroLatency" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
@@ -1419,6 +1513,18 @@
 											</ReferenceList>
 											<ChildrenList>
 												<MusicTrack Name="Music_Loop_Combat_Normal_01_120bpm_8Bars" ID="{A6460141-78EC-4CDD-84F3-8657984D142C}" ShortID="762701357">
+													<PropertyList>
+														<Property Name="IsStreamingEnabled" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="IsZeroLatency" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
@@ -1503,6 +1609,18 @@
 											</ReferenceList>
 											<ChildrenList>
 												<MusicTrack Name="Music_Loop_Combat_Normal_02_120bpm_8bars" ID="{231AC0CA-26DE-4476-B5F9-6066D975C748}" ShortID="762788705">
+													<PropertyList>
+														<Property Name="IsStreamingEnabled" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="IsZeroLatency" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
@@ -1782,6 +1900,18 @@
 									</ReferenceList>
 									<ChildrenList>
 										<MusicTrack Name="Music_Loop_Level02_Light_120BPM_10Bars_Endcue8bar" ID="{D9B83500-FD17-4C8F-9F30-1C7AE3E89C6A}" ShortID="1019533131">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="IsZeroLatency" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
@@ -1866,6 +1996,18 @@
 									</ReferenceList>
 									<ChildrenList>
 										<MusicTrack Name="Music_Loop_Level02_Normal_120BPM_10Bars_Endcue8bar" ID="{1DF85058-7A87-4BDC-A8E5-CDC0ACEC8A60}" ShortID="185100099">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="IsZeroLatency" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
@@ -1950,6 +2092,18 @@
 									</ReferenceList>
 									<ChildrenList>
 										<MusicTrack Name="Music_Loop_Level02_WithLead_120BPM_10Bars_Endcue8bar" ID="{ECBE1420-E975-47C1-8345-BBB920421650}" ShortID="801823476">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="IsZeroLatency" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
@@ -2127,12 +2281,12 @@
 								</MusicTransition>
 								<MusicTransition Name="Transition" ID="{BE75DA4A-7F20-4B5E-8F54-074913F26D34}">
 									<PropertyList>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
 										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
 										<Property Name="EnableTransitionFadeIn" Type="bool" Value="True"/>
 										<Property Name="EnableTransitionFadeOut" Type="bool" Value="True"/>
 										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
 										<Property Name="SourceContextType" Type="int16" Value="2"/>
-										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="SourceContextObject">
@@ -2144,13 +2298,20 @@
 										<SourceFadeOut>
 											<MusicFade Name="Source Fade-out" ID="{A3454558-BA94-4153-B9AB-97DC5CB1F743}">
 												<PropertyList>
-													<Property Name="FadeCurve" Type="int16" Value="0"/>
-													<Property Name="FadeOffset" Type="Real64" Value="1"/>
-													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeCurve" Type="int16" Value="6"/>
+													<Property Name="FadeOffset" Type="Real64" Value="4"/>
+													<Property Name="FadeTime" Type="Real64" Value="4"/>
 													<Property Name="FadeType" Type="int16" Value="1"/>
 												</PropertyList>
 											</MusicFade>
 										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{12BD0138-B2D8-45CB-B929-EF127CD8761E}">
+												<PropertyList>
+													<Property Name="FadeTime" Type="Real64" Value="4"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
 										<TransitionFadeIn>
 											<MusicFade Name="Transition Fade-in" ID="{9C4037C1-BF41-4B67-AAA9-6D4E0046EEBB}"/>
 										</TransitionFadeIn>
@@ -2165,7 +2326,6 @@
 										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
 										<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
 										<Property Name="PlayTransitionPreEntry" Type="bool" Value="False"/>
-										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="DestinationContextObject">
@@ -2177,9 +2337,7 @@
 										<SourceFadeOut>
 											<MusicFade Name="Source Fade-out" ID="{A606416B-10F3-45CC-932D-B5EBBD0C1279}">
 												<PropertyList>
-													<Property Name="FadeCurve" Type="int16" Value="0"/>
-													<Property Name="FadeOffset" Type="Real64" Value="1"/>
-													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeCurve" Type="int16" Value="6"/>
 													<Property Name="FadeType" Type="int16" Value="1"/>
 												</PropertyList>
 											</MusicFade>
@@ -2187,7 +2345,7 @@
 										<DestinationFadeIn>
 											<MusicFade Name="Destination Fade-in" ID="{957F3439-D66E-4339-8C0A-27DC1A219C36}">
 												<PropertyList>
-													<Property Name="FadeOffset" Type="Real64" Value="1"/>
+													<Property Name="FadeTime" Type="Real64" Value="4"/>
 												</PropertyList>
 											</MusicFade>
 										</DestinationFadeIn>

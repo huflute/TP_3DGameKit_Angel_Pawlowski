@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_AMB_LEVEL01_SWAMP = 2993009189U;
         static const AkUniqueID PLAY_AMB_SPACESHIP = 3213331111U;
         static const AkUniqueID PLAY_CHOMPER_ATTACK = 931488463U;
         static const AkUniqueID PLAY_CHOMPER_VOX_BEFORE_ATTACK = 3519138347U;
@@ -52,7 +53,9 @@ namespace AK
         static const AkUniqueID PLAY_MC_VOX_PAIN = 3917663999U;
         static const AkUniqueID PLAY_MONSTER_VANISH = 803911630U;
         static const AkUniqueID PLAY_MUSIC_DISCOVERY = 111752880U;
-        static const AkUniqueID PLAY_MUSIC_ISINCOMBAT = 3617754619U;
+        static const AkUniqueID PLAY_MUSIC_ISINCOMBAT_LEVEL01 = 3934376585U;
+        static const AkUniqueID PLAY_MUSIC_LEVEL01 = 3711381197U;
+        static const AkUniqueID PLAY_MUSIC_LEVEL02 = 3711381198U;
         static const AkUniqueID PLAY_PLAY_AMB_LOCATIONS = 3839321632U;
         static const AkUniqueID PLAY_RFX_BIRDS_CREATURES = 624594268U;
         static const AkUniqueID PLAY_RFX_COMPUTER = 3056483954U;
@@ -143,6 +146,17 @@ namespace AK
 
     namespace SWITCHES
     {
+        namespace COMBAT
+        {
+            static const AkUniqueID GROUP = 2764240573U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID LIGHT = 1935470627U;
+                static const AkUniqueID NORMAL = 1160234136U;
+            } // namespace SWITCH
+        } // namespace COMBAT
+
         namespace GROUND_MATERIAL
         {
             static const AkUniqueID GROUP = 3539622648U;

@@ -34,12 +34,15 @@ public class IsInCombat : MonoBehaviour
             //Increase the number of Colliders in the array
             i++;
             print("il y a " + i + "ennemies dans la zone");
-            if (i >= 4)
+            if (i == 1)
+
             {
                 AkSoundEngine.SetState("IsInCombat", "True");
-
+                AkSoundEngine.SetSwitch("Combat", "Light", this.gameObject);
+                
             }
-            
+            if (i >= 3) AkSoundEngine.SetSwitch("Combat", "Normal", this.gameObject);
+
 
         }
 
