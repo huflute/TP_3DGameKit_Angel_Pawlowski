@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="181270742" Type="User" Language="SFX" Hash="{D12CEDFE-16AC-0823-E5D3-95A1FF74A8E6}">
+		<SoundBank Id="181270742" Type="User" Language="SFX" Hash="{CC3E4E50-8FA3-72B3-D1B4-0D79930A5A2D}">
 			<ShortName>Interactables</ShortName>
 			<Path>Interactables.bnk</Path>
 			<Media>
@@ -55,7 +55,7 @@
 						<MediaRef Id="453392677"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1115051833" Name="Play_Small_Door_Open" DurationType="OneShot" DurationMin="4.266667" DurationMax="4.266667">
+				<Event Id="1115051833" Name="Play_Small_Door_Open" MaxAttenuation="20" DurationType="OneShot" DurationMin="4.266667" DurationMax="4.266667">
 					<MediaRefs>
 						<MediaRef Id="649593967"/>
 					</MediaRefs>
@@ -1534,7 +1534,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{15F1C760-12E4-C0B9-3396-2A4DE2049A26}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{B4C96252-57ED-771E-2A80-6A32C59043C4}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -3459,7 +3459,7 @@
 						<MediaRef Id="392129282"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1115051833" Name="Play_Small_Door_Open" DurationType="OneShot" DurationMin="4.266667" DurationMax="4.266667">
+				<Event Id="1115051833" Name="Play_Small_Door_Open" MaxAttenuation="20" DurationType="OneShot" DurationMin="4.266667" DurationMax="4.266667">
 					<MediaRefs>
 						<MediaRef Id="649593967"/>
 					</MediaRefs>
@@ -3618,7 +3618,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="41618512" Name="Play_Small_Monster_VOX_Spots" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.32964584" DurationMax="0.38529167">
+				<Event Id="41618512" Name="Play_Small_Monster_VOX_Spots" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.32964584" DurationMax="0.38529167">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="643044249" Id="2535446860"/>
@@ -3679,7 +3679,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="3913336272" Name="Play_Spitter_Attack" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.48422918" DurationMax="0.50675">
+				<Event Id="3913336272" Name="Play_Spitter_Attack" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.48422918" DurationMax="0.50675">
 					<MediaRefs>
 						<MediaRef Id="467297718"/>
 						<MediaRef Id="850359613"/>
@@ -4168,7 +4168,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{B2798D0A-C928-5335-A1D9-8E39F9A826FF}">
+		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{AD89BF4C-38E6-92FE-744A-B56799CF74B5}">
 			<ShortName>Small_Monsters</ShortName>
 			<Path>Small_Monsters.bnk</Path>
 			<Media>
@@ -4753,7 +4753,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="41618512" Name="Play_Small_Monster_VOX_Spots" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.32964584" DurationMax="0.38529167">
+				<Event Id="41618512" Name="Play_Small_Monster_VOX_Spots" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.32964584" DurationMax="0.38529167">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="643044249" Id="2535446860"/>
@@ -4814,7 +4814,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="3913336272" Name="Play_Spitter_Attack" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.48422918" DurationMax="0.50675">
+				<Event Id="3913336272" Name="Play_Spitter_Attack" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.48422918" DurationMax="0.50675">
 					<MediaRefs>
 						<MediaRef Id="467297718"/>
 						<MediaRef Id="850359613"/>
@@ -4840,5 +4840,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EDE5C4C5-41C2-99EA-8AD8-C3B99A2BE0AD}</FileHash>
+	<FileHash>{3705CF04-383E-9427-EDC0-B25748179BA3}</FileHash>
 </SoundBanksInfo>

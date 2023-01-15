@@ -56,6 +56,7 @@ namespace Gamekit3D.GameCommands
             if (onStartAudio != null) onStartAudio.Play();
             if (onStartEvent != null) onStartEvent.Post(this.gameObject);
             Jingle.Post(this.gameObject);
+            if (gameObject.CompareTag("Door"))
             StartCoroutine(DoorOpening(duration));
         }
 
@@ -112,7 +113,6 @@ namespace Gamekit3D.GameCommands
         {
             
             yield return new WaitForSeconds(duration);
-            Debug.Log("Porte ouverte");
             onEndEvent.Post(this.gameObject);
             
         }
