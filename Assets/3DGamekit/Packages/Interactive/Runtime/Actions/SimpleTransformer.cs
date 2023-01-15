@@ -54,10 +54,15 @@ namespace Gamekit3D.GameCommands
             activate = true;
             if (OnStartCommand != null) OnStartCommand.Send();
             if (onStartAudio != null) onStartAudio.Play();
-            if (onStartEvent != null) onStartEvent.Post(this.gameObject);
+            
+
             Jingle.Post(this.gameObject);
             if (gameObject.CompareTag("Door"))
-            StartCoroutine(DoorOpening(duration));
+            {
+                if (onStartEvent != null) onStartEvent.Post(this.gameObject);
+                StartCoroutine(DoorOpening(duration));
+               
+            }
         }
 
        
@@ -84,7 +89,8 @@ namespace Gamekit3D.GameCommands
 
         public virtual void PerformTransform(float position)
         {
-
+           // if (gameObject.CompareTag("Platform")) 
+               // StartCoroutine(MovingPlatform(duration));
         }
 
         void LoopPingPong()
@@ -115,6 +121,12 @@ namespace Gamekit3D.GameCommands
             yield return new WaitForSeconds(duration);
             onEndEvent.Post(this.gameObject);
             
+        }
+        IEnumerator MovingPlatform(float duration)
+        {
+            if (onStartEvent != null) onStartEvent.Post(this.gameObject);
+            yield return new WaitForSeconds(duration);
+            if (onEndEvent != null) onEndEvent.Post(this.gameObject);
         }
     }
 }
