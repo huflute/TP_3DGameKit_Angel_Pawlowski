@@ -869,9 +869,16 @@
 						</Folder>
 						<Folder Name="Crystal" ID="{0D65AEEF-B3B3-47F6-A627-A9865F0EAF89}" ShortID="336453591">
 							<ChildrenList>
-								<Event Name="Play_Switch_Crystals_Idle_AfterActivation" ID="{6F95BE0B-1500-4F7F-A3BF-CB452A5ED3FD}">
+								<Event Name="Play_Switch_Crystals_Activation" ID="{486712ED-43BD-4D2D-A15F-F3D97C788FA5}">
 									<ChildrenList>
-										<Action Name="" ID="{65B016BF-BF9F-482F-B1E9-79064853DD4F}" ShortID="1004468392">
+										<Action Name="" ID="{F6B36358-CE27-4B06-A206-6B723A2F6C57}" ShortID="95846916">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Switch_Crystals_Activation" ID="{2737AE95-4821-4CC6-9B97-935A9F22AB07}" WorkUnitID="{27C83EDE-D941-46B3-8475-398CF729A6E5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{D537E39B-5226-47D3-A63B-0794816E80AD}" ShortID="149633188">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="2"/>
 											</PropertyList>
@@ -881,21 +888,10 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
-										<Action Name="" ID="{AC6AE7A3-2CA0-4678-8B27-6D2BB160EF4D}" ShortID="641141134">
+										<Action Name="" ID="{6EC961F1-4752-491A-BE84-D69A3930986E}" ShortID="359817739">
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Switch_Crystals_Idle_AfterActivation" ID="{820671FE-BC85-4F82-AD55-9923B2C54A4C}" WorkUnitID="{27C83EDE-D941-46B3-8475-398CF729A6E5}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Play_Switch_Crystals_Activation" ID="{486712ED-43BD-4D2D-A15F-F3D97C788FA5}">
-									<ChildrenList>
-										<Action Name="" ID="{F6B36358-CE27-4B06-A206-6B723A2F6C57}" ShortID="95846916">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Switch_Crystals_Activation" ID="{2737AE95-4821-4CC6-9B97-935A9F22AB07}" WorkUnitID="{27C83EDE-D941-46B3-8475-398CF729A6E5}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

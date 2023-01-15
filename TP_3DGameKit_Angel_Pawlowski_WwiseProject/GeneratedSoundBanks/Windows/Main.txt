@@ -54,7 +54,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	2536112683	Play_Huge_Door_Opening			\Default Work Unit\Interactables\Doors\Play_Huge_Door_Opening	
 	2556341799	Play_Switch_Stone_Activation			\Default Work Unit\Switch\Stone\Play_Switch_Stone_Activation	
 	2863201769	Stop_Teleporter_Idle			\Default Work Unit\Environment\Teleporter\Stop_Teleporter_Idle	
-	3013028862	Play_Switch_Crystals_Idle_AfterActivation			\Default Work Unit\Switch\Crystal\Play_Switch_Crystals_Idle_AfterActivation	
 	3014998451	Play_UI_Press_Other			\Default Work Unit\UI\Play_UI_Press_Other	
 	3022734957	Play_MC_Jump			\Default Work Unit\MC\FT_Events\Play_MC_Jump	
 	3024491776	Play_Whoosh_Text_Disappear			\Default Work Unit\UI\Text\Play_Whoosh_Text_Disappear	
