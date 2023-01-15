@@ -1160,6 +1160,9 @@
 								<Event Name="Play_Platform_Moving" ID="{4CF8B1E1-9FD1-4D10-BC3A-385E448067AB}">
 									<ChildrenList>
 										<Action Name="" ID="{743E639A-8109-4DB5-A803-3D1C36070765}" ShortID="519605267">
+											<PropertyList>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Platform_Moving" ID="{3DA32E22-4F8E-45C2-BAA5-644BBC237C23}" WorkUnitID="{6339F0F9-1688-458B-9B68-CE62F7071A2D}"/>
@@ -1173,6 +1176,7 @@
 										<Action Name="" ID="{BD2EFC09-FC88-43A8-88E8-1720194A2C62}" ShortID="270930482">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
@@ -1240,6 +1244,9 @@
 								<Event Name="Play_Small_Door_Open" ID="{9626743E-6A67-4208-BB6D-4DC9B3E2F69A}">
 									<ChildrenList>
 										<Action Name="" ID="{26D9A24D-7717-4D2D-854F-DDA532012282}" ShortID="94284526">
+											<PropertyList>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Small_Door_Open" ID="{94E0E048-2E0F-4905-B4CC-93EBD6EE2A25}" WorkUnitID="{018C9E9D-118C-455B-8DFB-C4C7A0F8F43F}"/>
@@ -1275,6 +1282,7 @@
 										<Action Name="" ID="{D83C48FB-4740-497E-84A6-785AEC3C46F3}" ShortID="318520274">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
