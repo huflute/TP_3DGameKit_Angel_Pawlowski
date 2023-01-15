@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="181270742" Type="User" Language="SFX" Hash="{D12CEDFE-16AC-0823-E5D3-95A1FF74A8E6}">
+		<SoundBank Id="181270742" Type="User" Language="SFX" Hash="{8B795C64-B662-1ED6-56DA-847E76570D90}">
 			<ShortName>Interactables</ShortName>
 			<Path>Interactables.bnk</Path>
 			<Media>
@@ -68,13 +68,37 @@
 				<Event Id="1739086843" Name="Stop_Small_Door_Open" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{AEE71F37-1B79-D6CF-73B8-39C715A47735}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{AC6EE2DE-5F5C-CB9D-8FC6-600B3965F4B8}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
 				<File Id="5366310" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\RFX_Computer_03.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/RFX_Computer_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="142548415" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>AMB_Cavern_LargeRoom_WithWind.wav</ShortName>
+					<Path>Media/142548415.wem</Path>
+					<CachePath>SFX/AMB_Cavern_LargeRoom_WithWind_D79FB2B7.wem</CachePath>
+					<PrefetchSize>19296</PrefetchSize>
+				</File>
+				<File Id="224320780" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>AMB_Cavern_MediumRoom.wav</ShortName>
+					<Path>Media/224320780.wem</Path>
+					<CachePath>SFX/AMB_Cavern_MediumRoom_D79FB2B7.wem</CachePath>
+					<PrefetchSize>19296</PrefetchSize>
+				</File>
+				<File Id="238080956" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>AMB_Swamp_01.wav</ShortName>
+					<Path>Media/238080956.wem</Path>
+					<CachePath>SFX/AMB_Swamp_01_D79FB2B7.wem</CachePath>
+					<PrefetchSize>19296</PrefetchSize>
+				</File>
+				<File Id="317441847" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>AMB_Cavern_MediumRoom_Lake.wav</ShortName>
+					<Path>Media/317441847.wem</Path>
+					<CachePath>SFX/AMB_Cavern_MediumRoom_Lake_D79FB2B7.wem</CachePath>
+					<PrefetchSize>19296</PrefetchSize>
 				</File>
 				<File Id="358118990" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\RFX_Computer_06.wav</ShortName>
@@ -83,6 +107,10 @@
 				<File Id="396022129" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\RFX_Computer_07.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/RFX_Computer_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="455330908" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Swamp_Night.wav</ShortName>
+					<CachePath>SFX/AMB_Swamp_Night_10C4C929.wem</CachePath>
 				</File>
 				<File Id="597012431" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\RFX_Computer_05.wav</ShortName>
@@ -102,18 +130,60 @@
 					<CachePath>SFX/Export 12012023/AMB_SpaceShip_D79FB2B7.wem</CachePath>
 					<PrefetchSize>9696</PrefetchSize>
 				</File>
+				<File Id="912991374" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>AMB_Cavern_LargeRoom.wav</ShortName>
+					<Path>Media/912991374.wem</Path>
+					<CachePath>SFX/AMB_Cavern_LargeRoom_D79FB2B7.wem</CachePath>
+					<PrefetchSize>19296</PrefetchSize>
+				</File>
 				<File Id="926020533" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\RFX_Computer_04.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/RFX_Computer_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="926832286" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>AMB_Cavern_SmallRoom.wav</ShortName>
+					<Path>Media/926832286.wem</Path>
+					<CachePath>SFX/AMB_Cavern_SmallRoom_D79FB2B7.wem</CachePath>
+					<PrefetchSize>19296</PrefetchSize>
+				</File>
 			</Media>
 			<Events>
+				<Event Id="2746395399" Name="Play_AMB_Cavern_LargeRoom" MaxAttenuation="20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="912991374"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2803742312" Name="Play_AMB_Cavern_LargeRoom_WithWind" MaxAttenuation="20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="142548415"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3522290541" Name="Play_AMB_Cavern_MediumRoom" MaxAttenuation="20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="224320780"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1982406497" Name="Play_AMB_Cavern_MediumRoom_Lake" MaxAttenuation="20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="317441847"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2156099163" Name="Play_AMB_Cavern_SmallRoom" MaxAttenuation="20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="926832286"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2993009189" Name="Play_Amb_Level01_Swamp" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="238080956"/>
+						<MediaRef Id="455330908"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3213331111" Name="Play_AMB_SpaceShip" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="845874098"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3839321632" Name="Play_Play_Amb_Locations" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3056483954" Name="Play_RFX_Computer" MaxAttenuation="5" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="5366310"/>
@@ -127,6 +197,9 @@
 				</Event>
 				<Event Id="3876046333" Name="Stop_AMB_SpaceShip" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3729505769" Name="TimeOfDay"/>
+			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="1229948536" Type="User" Language="SFX" Hash="{2B8DD888-9925-CEB7-F581-6B2F286F8850}">
 			<ShortName>Environment</ShortName>
@@ -1534,7 +1607,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{15F1C760-12E4-C0B9-3396-2A4DE2049A26}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{3EB6975F-FCA7-DEC1-09CA-187383C6095B}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -1638,12 +1711,6 @@
 					<ShortName>Export 12012023 V2\MC_FOL_Attack_01.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/MC_FOL_Attack_01_10C4C929.wem</CachePath>
 				</File>
-				<File Id="82276003" Language="SFX" Streaming="true" Location="Memory">
-					<ShortName>AMB_Ruins_01.wav</ShortName>
-					<Path>Media/82276003.wem</Path>
-					<CachePath>SFX/AMB_Ruins_01_D79FB2B7.wem</CachePath>
-					<PrefetchSize>19296</PrefetchSize>
-				</File>
 				<File Id="82691623" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Attack_Heavy_03.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Attack_Heavy_03_10C4C929.wem</CachePath>
@@ -1709,6 +1776,12 @@
 				<File Id="136819288" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\MC_FOL_Attack_04.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/MC_FOL_Attack_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="142548415" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>AMB_Cavern_LargeRoom_WithWind.wav</ShortName>
+					<Path>Media/142548415.wem</Path>
+					<CachePath>SFX/AMB_Cavern_LargeRoom_WithWind_D79FB2B7.wem</CachePath>
+					<PrefetchSize>19296</PrefetchSize>
 				</File>
 				<File Id="144372692" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Music_Loop_Combat_Normal_01_120bpm_8Bars.wav</ShortName>
@@ -1807,6 +1880,12 @@
 				<File Id="223604739" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Jump_Rock_03.wav</ShortName>
 					<CachePath>SFX/MC_FT_Jump_Rock_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="224320780" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>AMB_Cavern_MediumRoom.wav</ShortName>
+					<Path>Media/224320780.wem</Path>
+					<CachePath>SFX/AMB_Cavern_MediumRoom_D79FB2B7.wem</CachePath>
+					<PrefetchSize>19296</PrefetchSize>
 				</File>
 				<File Id="224467173" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Weapon_Impact_02.wav</ShortName>
@@ -1990,6 +2069,12 @@
 					<ShortName>MC_FT_Run_Mud_03.wav</ShortName>
 					<CachePath>SFX/MC_FT_Run_Mud_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="317441847" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>AMB_Cavern_MediumRoom_Lake.wav</ShortName>
+					<Path>Media/317441847.wem</Path>
+					<CachePath>SFX/AMB_Cavern_MediumRoom_Lake_D79FB2B7.wem</CachePath>
+					<PrefetchSize>19296</PrefetchSize>
+				</File>
 				<File Id="322899375" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 14012023\RFX_Night_Creatures_01.wav</ShortName>
 					<CachePath>SFX/Export 14012023/RFX_Night_Creatures_01_10C4C929.wem</CachePath>
@@ -2137,6 +2222,10 @@
 				<File Id="454999369" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Run_Rock_01.wav</ShortName>
 					<CachePath>SFX/MC_FT_Run_Rock_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="455330908" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Swamp_Night.wav</ShortName>
+					<CachePath>SFX/AMB_Swamp_Night_10C4C929.wem</CachePath>
 				</File>
 				<File Id="457408682" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Music_Loop_Level02_Normal_120BPM_10Bars_Endcue8bar.wav</ShortName>
@@ -2704,6 +2793,12 @@
 					<ShortName>Export 12012023 V2\MC_FOL_Jump_03.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/MC_FOL_Jump_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="912991374" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>AMB_Cavern_LargeRoom.wav</ShortName>
+					<Path>Media/912991374.wem</Path>
+					<CachePath>SFX/AMB_Cavern_LargeRoom_D79FB2B7.wem</CachePath>
+					<PrefetchSize>19296</PrefetchSize>
+				</File>
 				<File Id="913155128" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\Grenadier_FT_Heavy_04.wav</ShortName>
 					<CachePath>SFX/Grenadier/Grenadier_FT_Heavy_04_10C4C929.wem</CachePath>
@@ -2741,6 +2836,12 @@
 				<File Id="926367897" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX_Attack_Normal_06.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Attack_Normal_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="926832286" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>AMB_Cavern_SmallRoom.wav</ShortName>
+					<Path>Media/926832286.wem</Path>
+					<CachePath>SFX/AMB_Cavern_SmallRoom_D79FB2B7.wem</CachePath>
+					<PrefetchSize>19296</PrefetchSize>
 				</File>
 				<File Id="927378429" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Spin_05.wav</ShortName>
@@ -2932,10 +3033,35 @@
 				</Custom>
 			</Plugins>
 			<Events>
+				<Event Id="2746395399" Name="Play_AMB_Cavern_LargeRoom" MaxAttenuation="20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="912991374"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2803742312" Name="Play_AMB_Cavern_LargeRoom_WithWind" MaxAttenuation="20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="142548415"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3522290541" Name="Play_AMB_Cavern_MediumRoom" MaxAttenuation="20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="224320780"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1982406497" Name="Play_AMB_Cavern_MediumRoom_Lake" MaxAttenuation="20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="317441847"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2156099163" Name="Play_AMB_Cavern_SmallRoom" MaxAttenuation="20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="926832286"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2993009189" Name="Play_Amb_Level01_Swamp" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="82276003"/>
 						<MediaRef Id="238080956"/>
+						<MediaRef Id="455330908"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3213331111" Name="Play_AMB_SpaceShip" MaxAttenuation="10" DurationType="Infinite">
@@ -3430,7 +3556,6 @@
 						<MediaRef Id="841063888"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3839321632" Name="Play_Play_Amb_Locations" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="624594268" Name="Play_RFX_Birds_Creatures" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="59354382"/>
@@ -4840,5 +4965,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{85A16DF6-EC53-F6F9-2082-7FE3FFE8D242}</FileHash>
+	<FileHash>{46EB3DE9-E3A4-4E42-21AA-8153460F9175}</FileHash>
 </SoundBanksInfo>

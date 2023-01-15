@@ -13,6 +13,11 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_AMB_CAVERN_LARGEROOM = 2746395399U;
+        static const AkUniqueID PLAY_AMB_CAVERN_LARGEROOM_WITHWIND = 2803742312U;
+        static const AkUniqueID PLAY_AMB_CAVERN_MEDIUMROOM = 3522290541U;
+        static const AkUniqueID PLAY_AMB_CAVERN_MEDIUMROOM_LAKE = 1982406497U;
+        static const AkUniqueID PLAY_AMB_CAVERN_SMALLROOM = 2156099163U;
         static const AkUniqueID PLAY_AMB_LEVEL01_SWAMP = 2993009189U;
         static const AkUniqueID PLAY_AMB_SPACESHIP = 3213331111U;
         static const AkUniqueID PLAY_CHOMPER_ATTACK = 931488463U;
@@ -57,7 +62,6 @@ namespace AK
         static const AkUniqueID PLAY_MUSIC_LEVEL01 = 3711381197U;
         static const AkUniqueID PLAY_MUSIC_LEVEL02 = 3711381198U;
         static const AkUniqueID PLAY_PLATFORM_MOVING = 2979465700U;
-        static const AkUniqueID PLAY_PLAY_AMB_LOCATIONS = 3839321632U;
         static const AkUniqueID PLAY_RFX_BIRDS_CREATURES = 624594268U;
         static const AkUniqueID PLAY_RFX_COMPUTER = 3056483954U;
         static const AkUniqueID PLAY_RIVER_LOOP = 994087705U;
