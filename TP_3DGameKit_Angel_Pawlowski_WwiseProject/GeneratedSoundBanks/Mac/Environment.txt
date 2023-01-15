@@ -3,7 +3,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	624594268	Play_RFX_Birds_Creatures			\Default Work Unit\Environment\Swamp\Play_RFX_Birds_Creatures	
 	994087705	Play_River_Loop			\Default Work Unit\Environment\River\Play_River_Loop	
 	1008653791	Stop_River_Loop			\Default Work Unit\Environment\River\Stop_River_Loop	
+	1993916230	Stop_Platform_Moving			\Default Work Unit\Environment\Platforms\Stop_Platform_Moving	
 	2863201769	Stop_Teleporter_Idle			\Default Work Unit\Environment\Teleporter\Stop_Teleporter_Idle	
+	2979465700	Play_Platform_Moving			\Default Work Unit\Environment\Platforms\Play_Platform_Moving	
 	3867827650	Stop_RFX_Birds_Creatures			\Default Work Unit\Environment\Swamp\Stop_RFX_Birds_Creatures	
 	4099702875	Stop_Fireflies			\Default Work Unit\Environment\Fireflies\Stop_Fireflies	
 	4161070465	Play_Fireflies			\Default Work Unit\Environment\Fireflies\Play_Fireflies	
@@ -28,6 +30,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	574836544	Ghost_Loop	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\Ghost_Loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Fireflies\Fireflies\Ghost_Loop		9696
 	789814845	RFX_Day_Birds_03	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\RFX_Day_Birds_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Environmental\Exterior\RFX_Birds_Creatures\RFX_Day_Birds\RFX_Day_Birds_03		144096
 	825768107	RFX_Day_Birds_04	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\RFX_Day_Birds_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Environmental\Exterior\RFX_Birds_Creatures\RFX_Day_Birds\RFX_Day_Birds_04		163296
+	841063888	Platform_Moving	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Platform_Moving_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Platform_Moving		9696
 	924773217	RFX_Day_Birds_02	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\RFX_Day_Birds_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Environmental\Exterior\RFX_Birds_Creatures\RFX_Day_Birds\RFX_Day_Birds_02		153696
 	1006644240	RFX_Fireflies_Voices_06	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\RFX_Fireflies_Voices_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Fireflies\Fireflies\RFX_Fireflies_Voices\RFX_Fireflies_Voices_06		77024
 
@@ -36,4 +39,5 @@ Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	
 	498593051	Teleporter_Idle	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Teleporter_Idle_D79FB2B7.wem	498593051.wem	\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Teleporter_Idle	
 	561453158	Fireflies_Loop	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\Fireflies_Loop_D79FB2B7.wem	561453158.wem	\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Fireflies\Fireflies\Fireflies_Loop	
 	574836544	Ghost_Loop	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\Ghost_Loop_D79FB2B7.wem	574836544.wem	\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Fireflies\Fireflies\Ghost_Loop	
+	841063888	Platform_Moving	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Platform_Moving_D79FB2B7.wem	841063888.wem	\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Platform_Moving	
 

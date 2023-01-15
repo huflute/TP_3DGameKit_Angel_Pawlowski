@@ -1155,6 +1155,35 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Platforms" ID="{8F6F165B-6AE8-419C-91FC-04453C431720}" ShortID="278384784">
+							<ChildrenList>
+								<Event Name="Play_Platform_Moving" ID="{4CF8B1E1-9FD1-4D10-BC3A-385E448067AB}">
+									<ChildrenList>
+										<Action Name="" ID="{743E639A-8109-4DB5-A803-3D1C36070765}" ShortID="519605267">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Platform_Moving" ID="{3DA32E22-4F8E-45C2-BAA5-644BBC237C23}" WorkUnitID="{6339F0F9-1688-458B-9B68-CE62F7071A2D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_Platform_Moving" ID="{0DB200C7-5FDB-4579-BD51-9877FB12632F}">
+									<ChildrenList>
+										<Action Name="" ID="{BD2EFC09-FC88-43A8-88E8-1720194A2C62}" ShortID="270930482">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Platform_Moving" ID="{3DA32E22-4F8E-45C2-BAA5-644BBC237C23}" WorkUnitID="{6339F0F9-1688-458B-9B68-CE62F7071A2D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Interactables" ID="{22E6B151-3902-48FC-AB2E-959062AC2EF2}" ShortID="682600520">

@@ -46,6 +46,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1840834974	Play_HealthCrate_Idle			\Default Work Unit\Interactables\HealthCrate\Play_HealthCrate_Idle	
 	1933987681	Play_Switch_Crystals_Idle_BeforeActivation			\Default Work Unit\Switch\Crystal\Play_Switch_Crystals_Idle_BeforeActivation	
 	1954136465	Play_Weapon_Pickup			\Default Work Unit\Weapon\Play_Weapon_Pickup	
+	1993916230	Stop_Platform_Moving			\Default Work Unit\Environment\Platforms\Stop_Platform_Moving	
 	2037670792	Play_MC_FOL_Land			\Default Work Unit\MC\FOL_Events\Play_MC_FOL_Land	
 	2193989514	Play_UI_Navigate			\Default Work Unit\UI\Play_UI_Navigate	
 	2354689276	Play_Grenadier_Movement_Fast			\Default Work Unit\Monsters\Big_Monster\Play_Grenadier_Movement_Fast	
@@ -55,6 +56,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2536112683	Play_Huge_Door_Opening			\Default Work Unit\Interactables\Doors\Play_Huge_Door_Opening	
 	2556341799	Play_Switch_Stone_Activation			\Default Work Unit\Switch\Stone\Play_Switch_Stone_Activation	
 	2863201769	Stop_Teleporter_Idle			\Default Work Unit\Environment\Teleporter\Stop_Teleporter_Idle	
+	2979465700	Play_Platform_Moving			\Default Work Unit\Environment\Platforms\Play_Platform_Moving	
 	2993009189	Play_Amb_Level01_Swamp			\Default Work Unit\Play_Amb_Level01_Swamp	
 	3014998451	Play_UI_Press_Other			\Default Work Unit\UI\Play_UI_Press_Other	
 	3022734957	Play_MC_Jump			\Default Work Unit\MC\FT_Events\Play_MC_Jump	
@@ -383,6 +385,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	831798853	Switch_Stone_Activation	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Switch_Stone_Activation_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SWITCHES\Stones\Switch_Stone_Activation		126292
 	838456453	Grenadier_Projectile_Explode_07	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Grenadier_Projectile_Explode_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Monsters\Big_Monster\Projectile\Grenadier_Projectile_Explode\Grenadier_Projectile_Explode_07		290016
 	840568485	Grenadier_Projectile_Bounce_01	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Grenadier_Projectile_Bounce_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Monsters\Big_Monster\Projectile\Grenadier_Projectile_Bounce\Grenadier_Projectile_Bounce_01		98016
+	841063888	Platform_Moving	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Platform_Moving_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Platform_Moving		9696
 	844663955	Small_Monster_Walk_Mud_01	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Small_Monster_Walk_Mud_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Monsters\Small_Monster\Small_Monster_Walk\Small_Monster_Walk_Mud\Small_Monster_Walk_Mud_01		7984
 	845874098	AMB_SpaceShip	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023\AMB_SpaceShip_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Environmental\Interior\Spaceship\AMB_SpaceShip		9696
 	846260293	Switch_Stone_Idle	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Switch_Stone_Idle_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SWITCHES\Stones\Switch_Stone_Idle		9696
@@ -471,6 +474,7 @@ Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	
 	561453158	Fireflies_Loop	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\Fireflies_Loop_D79FB2B7.wem	561453158.wem	\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Fireflies\Fireflies\Fireflies_Loop	
 	574836544	Ghost_Loop	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\Ghost_Loop_D79FB2B7.wem	574836544.wem	\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Fireflies\Fireflies\Ghost_Loop	
 	716956389	Grenadier_Projectile_Idle	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Grenadier_Projectile_Idle_D79FB2B7.wem	716956389.wem	\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Monsters\Big_Monster\Projectile\Grenadier_Projectile_Idle	
+	841063888	Platform_Moving	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Platform_Moving_D79FB2B7.wem	841063888.wem	\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Platform_Moving	
 	845874098	AMB_SpaceShip	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023\AMB_SpaceShip_D79FB2B7.wem	845874098.wem	\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Environmental\Interior\Spaceship\AMB_SpaceShip	
 	846260293	Switch_Stone_Idle	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\Switch_Stone_Idle_D79FB2B7.wem	846260293.wem	\Actor-Mixer Hierarchy\Default Work Unit\SWITCHES\Stones\Switch_Stone_Idle	
 	962084260	Music_Loop_Level01_Night_120bpm_8Bars	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Music_Loop_Level01_Night_120bpm_8Bars_D79FB2B7.wem	962084260.wem	\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Non_Environmental\Level01\Music_Level01\Music_Loop_Level01_Night_120bpm_8Bars	
