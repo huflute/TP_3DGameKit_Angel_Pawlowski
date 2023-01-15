@@ -30,7 +30,7 @@
 	<ValidationCacheItem File="C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1673201743" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1673201743" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\TP_3DGameKit_Angel_Pawlowski_WwiseProject.wproj" DateLow="1673550858" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\TP_3DGameKit_Angel_Pawlowski_WwiseProject.hugoa.wsettings" DateLow="1673784952" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\TP_3DGameKit_Angel_Pawlowski_WwiseProject.hugoa.wsettings" DateLow="1673787930" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\Switches\Environment.wwu" DateLow="1673716538" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\Switches\Entity.wwu" DateLow="1673701466" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1673701466" DateHigh="0"/>
@@ -49,7 +49,7 @@
 	<ValidationCacheItem File="C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\Game Parameters\Weapon.wwu" DateLow="1673461263" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\Game Parameters\Evironment.wwu" DateLow="1673701464" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1673701464" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\Events\Default Work Unit.wwu" DateLow="1673784955" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\Events\Default Work Unit.wwu" DateLow="1673787568" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\Effects\Factory Effects.wwu" DateLow="1673781695" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1673201743" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1673201743" DateHigh="0"/>
@@ -60,12 +60,12 @@
 	<ValidationCacheItem File="C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1673781695" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\Actor-Mixer Hierarchy\WEAPON.wwu" DateLow="1673784941" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\Actor-Mixer Hierarchy\UI.wwu" DateLow="1673712759" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\Actor-Mixer Hierarchy\SWITCHES.wwu" DateLow="1673687162" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\Actor-Mixer Hierarchy\SWITCHES.wwu" DateLow="1673787806" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\Actor-Mixer Hierarchy\PROPS.wwu" DateLow="1673781695" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\Actor-Mixer Hierarchy\MONSTERS.wwu" DateLow="1673784941" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\Actor-Mixer Hierarchy\MC.wwu" DateLow="1673706759" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\Actor-Mixer Hierarchy\ENVIRONMENT.wwu" DateLow="1673722452" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\Actor-Mixer Hierarchy\DOORS.wwu" DateLow="1673784952" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\Actor-Mixer Hierarchy\DOORS.wwu" DateLow="1673787828" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1673707144" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\Actor-Mixer Hierarchy\CRYSTALS.wwu" DateLow="1673348728" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\Actor-Mixer Hierarchy\AMB.wwu" DateLow="1673784941" DateHigh="0"/>

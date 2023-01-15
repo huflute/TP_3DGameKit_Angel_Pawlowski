@@ -1559,7 +1559,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{87011FDE-721E-B2E1-D8D8-FB5A883E0873}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{AB8FB133-F014-AC01-AA88-335EB29C8B3C}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -3620,13 +3620,9 @@
 						<MediaRef Id="1059727625"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3451021523" Name="Play_Switch_Crystals_Activation" MaxAttenuation="10" DurationType="OneShot" DurationMin="1.47225" DurationMax="1.47225">
+				<Event Id="3451021523" Name="Play_Switch_Crystals_Activation" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="35379316"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3013028862" Name="Play_Switch_Crystals_Idle_AfterActivation" MaxAttenuation="10" DurationType="Infinite">
-					<MediaRefs>
 						<MediaRef Id="509223528"/>
 					</MediaRefs>
 				</Event>
@@ -3823,7 +3819,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3202316517" Type="User" Language="SFX" Hash="{FD47D781-222B-39A2-CADB-82D464AFB759}">
+		<SoundBank Id="3202316517" Type="User" Language="SFX" Hash="{31B49C7D-5D8E-7377-1C24-A3BA7A3A18D2}">
 			<ShortName>Switch</ShortName>
 			<Path>Switch.bnk</Path>
 			<Media>
@@ -3855,13 +3851,9 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3451021523" Name="Play_Switch_Crystals_Activation" MaxAttenuation="10" DurationType="OneShot" DurationMin="1.47225" DurationMax="1.47225">
+				<Event Id="3451021523" Name="Play_Switch_Crystals_Activation" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="35379316"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3013028862" Name="Play_Switch_Crystals_Idle_AfterActivation" MaxAttenuation="10" DurationType="Infinite">
-					<MediaRefs>
 						<MediaRef Id="509223528"/>
 					</MediaRefs>
 				</Event>
@@ -4779,5 +4771,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{766EE83C-B40E-B2CC-2578-B54098D4C7EE}</FileHash>
+	<FileHash>{84BE938E-2CD8-7AEA-4983-92A5F088DC51}</FileHash>
 </SoundBanksInfo>
