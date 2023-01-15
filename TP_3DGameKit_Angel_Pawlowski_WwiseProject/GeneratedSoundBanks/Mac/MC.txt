@@ -119,11 +119,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1004012058	MC_Roll_Rock	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\MC_Roll_Rock_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC\Footsteps\MC_Roll\MC_Roll_Rock		80094
 	1014608767	MC_VOX_Jump_03	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\MC_VOX_Jump_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC\Vox\MC_Vox_Jump\MC_VOX_Jump_03		49056
 	1017870065	MC_FT_Run_Mud_02	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\MC_FT_Run_Mud_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC\Footsteps\MC_Run\MC_Run_Mud\MC_FT_Run_Mud_02		49056
-	1047956031	Water_Hit	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\Water_Hit_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC\Water_Hit		9696
+	1047956031	Water_Hit	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\Water_Hit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC\Water_Hit		183280
 	1049480185	MC_FT_Run_Rock_06	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\MC_FT_Run_Rock_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC\Footsteps\MC_Run\MC_Run_Rock\MC_FT_Run_Rock_06		49056
 	1060173942	MC_VOX_Pain_Soft_06	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\MC_VOX_Pain_Soft_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC\Vox\MC_Vox_Pain\MC_Vox_Pain_Soft\MC_VOX_Pain_Soft_06		45314
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
 	352425399	MC_Shield	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 12012023 V2\MC_Shield_D79FB2B7.wem	352425399.wem	\Actor-Mixer Hierarchy\Default Work Unit\MC\MC\Shield\MC_Shield	
-	1047956031	Water_Hit	C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Mac\SFX\Export 14012023\Water_Hit_D79FB2B7.wem	1047956031.wem	\Actor-Mixer Hierarchy\Default Work Unit\MC\MC\Water_Hit	
 

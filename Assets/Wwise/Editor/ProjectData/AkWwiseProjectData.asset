@@ -408,7 +408,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 58301ae271a98d46974f6accc96184fa
     GuidInternal: 
-    m_lastTime: -8585278164336158060
+    m_lastTime: -8585278155020647289
     List:
     - name: AMB
       guid: 7eacccb593e71341878dd5280afd656f
@@ -712,6 +712,23 @@ MonoBehaviour:
         ObjectType: 4
         guid: 160287fa7d30204aba40a51c7b59eaa3
       Path: Events\Default Work Unit\Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Amb_Level01_Swamp
+      guid: 8d8b6ca4b19d6747b5521c8fc7cfcb80
+      id: 2993009189
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Play_Amb_Level01_Swamp
+        ObjectType: 3
+        guid: 8d8b6ca4b19d6747b5521c8fc7cfcb80
+      Path: Events\Default Work Unit\Play_Amb_Level01_Swamp
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1627,9 +1644,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_Music_IsInCombat
-      guid: 42011b2b4bab874ba4baf1beed035183
-      id: 3617754619
+    - name: Play_Music_IsInCombat_Level01
+      guid: 4edb939cc205f349890a4809ad341860
+      id: 3934376585
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -1640,10 +1657,50 @@ MonoBehaviour:
       - ElementName: Music
         ObjectType: 4
         guid: 160287fa7d30204aba40a51c7b59eaa3
-      - ElementName: Play_Music_IsInCombat
+      - ElementName: Play_Music_IsInCombat_Level01
         ObjectType: 3
-        guid: 42011b2b4bab874ba4baf1beed035183
-      Path: Events\Default Work Unit\Music\Play_Music_IsInCombat
+        guid: 4edb939cc205f349890a4809ad341860
+      Path: Events\Default Work Unit\Music\Play_Music_IsInCombat_Level01
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Music_Level01
+      guid: f71b7c783d6a7a448937ec26abca98f0
+      id: 3711381197
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Music
+        ObjectType: 4
+        guid: 160287fa7d30204aba40a51c7b59eaa3
+      - ElementName: Play_Music_Level01
+        ObjectType: 3
+        guid: f71b7c783d6a7a448937ec26abca98f0
+      Path: Events\Default Work Unit\Music\Play_Music_Level01
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Music_Level02
+      guid: 3dafc33f29d2a24cbb213fd20d771701
+      id: 3711381198
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Music
+        ObjectType: 4
+        guid: 160287fa7d30204aba40a51c7b59eaa3
+      - ElementName: Play_Music_Level02
+        ObjectType: 3
+        guid: 3dafc33f29d2a24cbb213fd20d771701
+      Path: Events\Default Work Unit\Music\Play_Music_Level02
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -3301,8 +3358,58 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 64f9ff4cf55ed24b9ee79a66e7775ade
     GuidInternal: 
-    m_lastTime: -8585279054193430919
-    List: []
+    m_lastTime: -8585278155116345048
+    List:
+    - name: Combat
+      guid: 95707bd650db5646a9b5c6b0563c5422
+      id: 2764240573
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 64f9ff4cf55ed24b9ee79a66e7775ade
+      - ElementName: Combat
+        ObjectType: 11
+        guid: 95707bd650db5646a9b5c6b0563c5422
+      Path: Switches\Default Work Unit\Combat
+      values:
+      - name: Light
+        guid: 703ea5f49197bf438b74e09f753620a5
+        id: 1935470627
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 64f9ff4cf55ed24b9ee79a66e7775ade
+        - ElementName: Combat
+          ObjectType: 11
+          guid: 95707bd650db5646a9b5c6b0563c5422
+        - ElementName: Light
+          ObjectType: 10
+          guid: 703ea5f49197bf438b74e09f753620a5
+      - name: Normal
+        guid: e5627bda9eda7045ba4357eca0d4ab8a
+        id: 1160234136
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 64f9ff4cf55ed24b9ee79a66e7775ade
+        - ElementName: Combat
+          ObjectType: 11
+          guid: 95707bd650db5646a9b5c6b0563c5422
+        - ElementName: Normal
+          ObjectType: 10
+          guid: e5627bda9eda7045ba4357eca0d4ab8a
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   - PhysicalPath: Switches\Entity.wwu
     PathAndIcons:
     - ElementName: Switches
@@ -3624,7 +3731,7 @@ MonoBehaviour:
     m_lastTime: -8585284051417417635
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 06000000070000000a0000000b0000000f000000170000001800000035000000360000004000000042000000430000008f000000
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
