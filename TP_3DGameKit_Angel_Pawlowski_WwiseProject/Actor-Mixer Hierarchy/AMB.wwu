@@ -15,7 +15,6 @@
 							</ValueList>
 						</Property>
 						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
-						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -943,12 +942,19 @@
 						</ActorMixer>
 						<ActorMixer Name="Non_Environmental" ID="{CABB9698-40EF-4449-B5BA-B264885C0DCC}" ShortID="558629652">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
-								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
 								<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="UseMaxSoundPerInstance" Type="bool">
 									<ValueList>
 										<Value>True</Value>
@@ -1255,6 +1261,19 @@
 													</ReferenceList>
 													<ChildrenList>
 														<Sound Name="AMB_Swamp_Night" ID="{AD0C409F-D7FA-4FE1-8DF2-EDA4E33DF7AB}" ShortID="320767489">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																<Property Name="IsStreamingEnabled" Type="bool">
+																	<ValueList>
+																		<Value>True</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="IsZeroLatency" Type="bool">
+																	<ValueList>
+																		<Value>True</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
@@ -1345,9 +1364,6 @@
 										</Property>
 									</PropertyList>
 									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="Room" ID="{2D69F6DA-851F-4FEB-A41B-0784329A7B6D}" WorkUnitID="{B378FA7B-E709-4147-8665-F99F8F07F9BC}"/>
-										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
 										</Reference>
@@ -1356,7 +1372,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="AMB_Cavern_LargeRoom" ID="{BC8F4046-3CB3-408B-9EB4-17BEFEBF3C09}" ShortID="178034571">
+										<Sound Name="AMB_Cavern_LargeRoom" ID="{FF480344-6F78-49C2-91FD-6EF3A3C2952B}" ShortID="770730244">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="IsStreamingEnabled" Type="bool">
@@ -1379,7 +1395,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="AMB_Cavern_LargeRoom" ID="{E76F02BC-DB16-41CB-A2B0-B6F6B06E8EA2}">
+												<AudioFileSource Name="AMB_Cavern_LargeRoom" ID="{A8719884-110A-49CA-8F4E-9F4663CDD312}">
 													<Language>SFX</Language>
 													<AudioFile>AMB_Cavern_LargeRoom.wav</AudioFile>
 													<MediaIDList>
@@ -1388,10 +1404,10 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="AMB_Cavern_LargeRoom" ID="{E76F02BC-DB16-41CB-A2B0-B6F6B06E8EA2}" Platform="Linked"/>
+												<ActiveSource Name="AMB_Cavern_LargeRoom" ID="{A8719884-110A-49CA-8F4E-9F4663CDD312}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="AMB_Cavern_LargeRoom_WithWind" ID="{D641CB07-69FC-4347-8BF9-D609F203C1A3}" ShortID="905676889">
+										<Sound Name="AMB_Cavern_LargeRoom_WithWind" ID="{7D7DD190-13BE-4DAC-8D62-FD683A2BC5BF}" ShortID="972996506">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="IsStreamingEnabled" Type="bool">
@@ -1414,7 +1430,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="AMB_Cavern_LargeRoom_WithWind" ID="{745C01FB-D720-4DE1-A4DA-8028003BC839}">
+												<AudioFileSource Name="AMB_Cavern_LargeRoom_WithWind" ID="{E05FEBAB-984F-4389-A064-23246242F71E}">
 													<Language>SFX</Language>
 													<AudioFile>AMB_Cavern_LargeRoom_WithWind.wav</AudioFile>
 													<MediaIDList>
@@ -1423,10 +1439,10 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="AMB_Cavern_LargeRoom_WithWind" ID="{745C01FB-D720-4DE1-A4DA-8028003BC839}" Platform="Linked"/>
+												<ActiveSource Name="AMB_Cavern_LargeRoom_WithWind" ID="{E05FEBAB-984F-4389-A064-23246242F71E}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="AMB_Cavern_MediumRoom" ID="{B38C4C51-0398-4C5C-8A1F-EE1664C0CB9D}" ShortID="831612788">
+										<Sound Name="AMB_Cavern_MediumRoom" ID="{F8EBB0E5-1B0D-4C47-9075-B9B81485F75E}" ShortID="521963959">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="IsStreamingEnabled" Type="bool">
@@ -1449,7 +1465,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="AMB_Cavern_MediumRoom" ID="{167D80E5-7DA6-4C1F-BD10-05089DBDE3E4}">
+												<AudioFileSource Name="AMB_Cavern_MediumRoom" ID="{E0EE457E-F500-44C1-83F8-28459012F1EC}">
 													<Language>SFX</Language>
 													<AudioFile>AMB_Cavern_MediumRoom.wav</AudioFile>
 													<MediaIDList>
@@ -1458,10 +1474,10 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="AMB_Cavern_MediumRoom" ID="{167D80E5-7DA6-4C1F-BD10-05089DBDE3E4}" Platform="Linked"/>
+												<ActiveSource Name="AMB_Cavern_MediumRoom" ID="{E0EE457E-F500-44C1-83F8-28459012F1EC}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="AMB_Cavern_MediumRoom_Lake" ID="{6FEF0E28-5C0E-4EEC-85EE-7AF96E79493A}" ShortID="1036877969">
+										<Sound Name="AMB_Cavern_MediumRoom_Lake" ID="{A9121044-41F5-45D3-B058-90B55650E5EC}" ShortID="958687476">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="IsStreamingEnabled" Type="bool">
@@ -1484,7 +1500,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="AMB_Cavern_MediumRoom_Lake" ID="{2C3403BF-D5B4-4E6B-8EBE-B52B64D089A7}">
+												<AudioFileSource Name="AMB_Cavern_MediumRoom_Lake" ID="{547F5589-3951-4326-90FB-D847FB8D0A4B}">
 													<Language>SFX</Language>
 													<AudioFile>AMB_Cavern_MediumRoom_Lake.wav</AudioFile>
 													<MediaIDList>
@@ -1493,10 +1509,10 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="AMB_Cavern_MediumRoom_Lake" ID="{2C3403BF-D5B4-4E6B-8EBE-B52B64D089A7}" Platform="Linked"/>
+												<ActiveSource Name="AMB_Cavern_MediumRoom_Lake" ID="{547F5589-3951-4326-90FB-D847FB8D0A4B}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="AMB_Cavern_SmallRoom" ID="{F62153F9-F5A0-49E6-8241-E215F46CA6AC}" ShortID="676673358">
+										<Sound Name="AMB_Cavern_SmallRoom" ID="{854B7B40-D1CA-478D-9FB6-2FB4CF0E2A4F}" ShortID="360789167">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="IsStreamingEnabled" Type="bool">
@@ -1519,7 +1535,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="AMB_Cavern_SmallRoom" ID="{A1E4E751-47FB-4E75-9369-705D670F069B}">
+												<AudioFileSource Name="AMB_Cavern_SmallRoom" ID="{A7867A97-97E1-44FC-BC66-0BC9C85D2140}">
 													<Language>SFX</Language>
 													<AudioFile>AMB_Cavern_SmallRoom.wav</AudioFile>
 													<MediaIDList>
@@ -1528,7 +1544,7 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="AMB_Cavern_SmallRoom" ID="{A1E4E751-47FB-4E75-9369-705D670F069B}" Platform="Linked"/>
+												<ActiveSource Name="AMB_Cavern_SmallRoom" ID="{A7867A97-97E1-44FC-BC66-0BC9C85D2140}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>

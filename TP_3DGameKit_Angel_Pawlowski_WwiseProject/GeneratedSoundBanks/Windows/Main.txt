@@ -46,10 +46,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	1840834974	Play_HealthCrate_Idle			\Default Work Unit\Interactables\HealthCrate\Play_HealthCrate_Idle	
 	1933987681	Play_Switch_Crystals_Idle_BeforeActivation			\Default Work Unit\Switch\Crystal\Play_Switch_Crystals_Idle_BeforeActivation	
 	1954136465	Play_Weapon_Pickup			\Default Work Unit\Weapon\Play_Weapon_Pickup	
-	1982406497	Play_AMB_Cavern_MediumRoom_Lake			\Default Work Unit\AMB\Level02\Play_AMB_Cavern_MediumRoom_Lake	
+	1982406497	Play_AMB_Cavern_MediumRoom_Lake			\Default Work Unit\Play_AMB_Cavern_MediumRoom_Lake	
 	1993916230	Stop_Platform_Moving			\Default Work Unit\Environment\Platforms\Stop_Platform_Moving	
 	2037670792	Play_MC_FOL_Land			\Default Work Unit\MC\FOL_Events\Play_MC_FOL_Land	
-	2156099163	Play_AMB_Cavern_SmallRoom			\Default Work Unit\AMB\Level02\Play_AMB_Cavern_SmallRoom	
+	2156099163	Play_AMB_Cavern_SmallRoom			\Default Work Unit\Play_AMB_Cavern_SmallRoom	
 	2193989514	Play_UI_Navigate			\Default Work Unit\UI\Play_UI_Navigate	
 	2354689276	Play_Grenadier_Movement_Fast			\Default Work Unit\Monsters\Big_Monster\Play_Grenadier_Movement_Fast	
 	2377842133	Play_UI_Press_Play			\Default Work Unit\UI\Play_UI_Press_Play	
@@ -57,8 +57,8 @@ Event	ID	Name			Wwise Object Path	Notes
 	2480131081	Play_Water_Hit			\Default Work Unit\MC\Play_Water_Hit	
 	2536112683	Play_Huge_Door_Opening			\Default Work Unit\Interactables\Doors\Play_Huge_Door_Opening	
 	2556341799	Play_Switch_Stone_Activation			\Default Work Unit\Switch\Stone\Play_Switch_Stone_Activation	
-	2746395399	Play_AMB_Cavern_LargeRoom			\Default Work Unit\AMB\Level02\Play_AMB_Cavern_LargeRoom	
-	2803742312	Play_AMB_Cavern_LargeRoom_WithWind			\Default Work Unit\AMB\Level02\Play_AMB_Cavern_LargeRoom_WithWind	
+	2746395399	Play_AMB_Cavern_LargeRoom			\Default Work Unit\Play_AMB_Cavern_LargeRoom	
+	2803742312	Play_AMB_Cavern_LargeRoom_WithWind			\Default Work Unit\Play_AMB_Cavern_LargeRoom_WithWind	
 	2863201769	Stop_Teleporter_Idle			\Default Work Unit\Environment\Teleporter\Stop_Teleporter_Idle	
 	2979465700	Play_Platform_Moving			\Default Work Unit\Environment\Platforms\Play_Platform_Moving	
 	2993009189	Play_Amb_Level01_Swamp			\Default Work Unit\AMB\Level01\Play_Amb_Level01_Swamp	
@@ -78,7 +78,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3428007485	Play_Grenadier_Movement_Slow			\Default Work Unit\Monsters\Big_Monster\Play_Grenadier_Movement_Slow	
 	3451021523	Play_Switch_Crystals_Activation			\Default Work Unit\Switch\Crystal\Play_Switch_Crystals_Activation	
 	3519138347	Play_Chomper_VOX_Before_Attack			\Default Work Unit\Monsters\Small_Monsters\VOX\Play_Chomper_VOX_Before_Attack	
-	3522290541	Play_AMB_Cavern_MediumRoom			\Default Work Unit\AMB\Level02\Play_AMB_Cavern_MediumRoom	
+	3522290541	Play_AMB_Cavern_MediumRoom			\Default Work Unit\Play_AMB_Cavern_MediumRoom	
 	3711381197	Play_Music_Level01			\Default Work Unit\Music\Play_Music_Level01	
 	3711381198	Play_Music_Level02			\Default Work Unit\Music\Play_Music_Level02	
 	3739832523	Play_Weapon_Impact			\Default Work Unit\Weapon\Play_Weapon_Impact	
@@ -276,7 +276,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	453392677	Huge_Door_Opening	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Huge_Door_Opening_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DOORS\Doors\Huge_Door_Opening		1817696
 	453553068	RFX_Fireflies_Voices_04	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 14012023\RFX_Fireflies_Voices_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Fireflies\Fireflies\RFX_Fireflies_Voices\RFX_Fireflies_Voices_04		76896
 	454999369	MC_FT_Run_Rock_01	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\MC_FT_Run_Rock_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MC\MC\Footsteps\MC_Run\MC_Run_Rock\MC_FT_Run_Rock_01		49056
-	455330908	AMB_Swamp_Night	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\AMB_Swamp_Night_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Non_Environmental\Level01\Amb_Swamp\Amb_Swamp_Night\AMB_Swamp_Night		6912096
+	455330908	AMB_Swamp_Night	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\AMB_Swamp_Night_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Non_Environmental\Level01\Amb_Swamp\Amb_Swamp_Night\AMB_Swamp_Night		19296
 	457408682	Music_Loop_Level02_Normal_120BPM_10Bars_Endcue8bar	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Music_Loop_Level02_Normal_120BPM_10Bars_Endcue8bar_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\IsInCombat_Level02\No\Music_Loop_Level02_Normal_120BPM_10Bars_Endcue8bar\Music_Loop_Level02_Normal_120BPM_10Bars_Endcue8bar		19296
 	459153112	Chomper_Attack_01	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\Chomper_Attack_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Monsters\Small_Monster\Chomper_Attack\Chomper_Attack_01		55778
 	465465323	Spitter_VOX_Grunt_03	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\Spitter_VOX_Grunt_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\Monsters\Small_Monster\Small_Monster_VOX_Grunt\Spitter_VOX_Grunt\Spitter_VOX_Grunt_03		54840
@@ -480,6 +480,7 @@ Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	
 	361768001	Switch_Crystals_Idle_BeforeActivation	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\Switch_Crystals_Idle_BeforeActivation_D79FB2B7.wem	361768001.wem	\Actor-Mixer Hierarchy\Default Work Unit\SWITCHES\Crystals\Switch_Crystals_Idle_BeforeActivation	
 	392129282	River_Loop	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 14012023\River_D79FB2B7.wem	392129282.wem	\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\River_Loop	
 	443113834	Music_Loop_Combat_Light_01_120bpm_8bars	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Music_Loop_Combat_Light_01_120bpm_8bars_D79FB2B7.wem	443113834.wem	\Interactive Music Hierarchy\Default Work Unit\IsInCombat_Level01\LightorNormal\Combat_Light\Music_Loop_Combat_Light_01_120bpm_8bars\Music_Loop_Combat_Light_01_120bpm_8bars	
+	455330908	AMB_Swamp_Night	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\AMB_Swamp_Night_D79FB2B7.wem	455330908.wem	\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Non_Environmental\Level01\Amb_Swamp\Amb_Swamp_Night\AMB_Swamp_Night	
 	457408682	Music_Loop_Level02_Normal_120BPM_10Bars_Endcue8bar	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Music_Loop_Level02_Normal_120BPM_10Bars_Endcue8bar_D79FB2B7.wem	457408682.wem	\Interactive Music Hierarchy\Default Work Unit\IsInCombat_Level02\No\Music_Loop_Level02_Normal_120BPM_10Bars_Endcue8bar\Music_Loop_Level02_Normal_120BPM_10Bars_Endcue8bar	
 	498593051	Teleporter_Idle	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\Teleporter_Idle_D79FB2B7.wem	498593051.wem	\Actor-Mixer Hierarchy\Default Work Unit\ENVIRONMENT\Teleporter_Idle	
 	509223528	Switch_Crystals_Idle_AfterActivation	C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski\TP_3DGameKit_Angel_Pawlowski_WwiseProject\.cache\Windows\SFX\Export 12012023 V2\Switch_Crystals_Idle_AfterActivation_D79FB2B7.wem	509223528.wem	\Actor-Mixer Hierarchy\Default Work Unit\SWITCHES\Crystals\Switch_Crystals_Idle_AfterActivation	

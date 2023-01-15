@@ -418,65 +418,7 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
-						<Folder Name="Level02" ID="{B52013F7-E29D-476F-8404-76027C7F01D3}" ShortID="711172144">
-							<ChildrenList>
-								<Event Name="Play_AMB_Cavern_MediumRoom_Lake" ID="{D9878D3E-CB5F-4817-8EC0-CAA6AD725579}">
-									<ChildrenList>
-										<Action Name="" ID="{9A3C717F-703F-482C-84BC-F7DFD5B81B3C}" ShortID="618497890">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="AMB_Cavern_MediumRoom_Lake" ID="{6FEF0E28-5C0E-4EEC-85EE-7AF96E79493A}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Play_AMB_Cavern_MediumRoom" ID="{D31235F9-D0ED-4719-BD8E-DFD33203A425}">
-									<ChildrenList>
-										<Action Name="" ID="{9C5FE2FD-AECB-4385-83F5-08DBF3C1F50F}" ShortID="252138861">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="AMB_Cavern_MediumRoom" ID="{B38C4C51-0398-4C5C-8A1F-EE1664C0CB9D}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Play_AMB_Cavern_SmallRoom" ID="{83BC6970-B9EF-4C70-BAAA-D95C77B941B7}">
-									<ChildrenList>
-										<Action Name="" ID="{3195A816-17E9-4733-8C00-41BF39A7FBD8}" ShortID="930386552">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="AMB_Cavern_SmallRoom" ID="{F62153F9-F5A0-49E6-8241-E215F46CA6AC}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Play_AMB_Cavern_LargeRoom_WithWind" ID="{40B007E3-05D4-42B4-8E82-E741C23CED19}">
-									<ChildrenList>
-										<Action Name="" ID="{9CFF3B88-D75B-447B-A978-4054490F82EC}" ShortID="585186961">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="AMB_Cavern_LargeRoom_WithWind" ID="{D641CB07-69FC-4347-8BF9-D609F203C1A3}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Play_AMB_Cavern_LargeRoom" ID="{34FB0558-8C4D-4F00-AD0A-F8A889D58CDD}">
-									<ChildrenList>
-										<Action Name="" ID="{266F5D7D-81D6-4147-9225-D47D641E096C}" ShortID="706966502">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="AMB_Cavern_LargeRoom" ID="{BC8F4046-3CB3-408B-9EB4-17BEFEBF3C09}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-							</ChildrenList>
-						</Folder>
+						<Folder Name="Level02" ID="{B52013F7-E29D-476F-8404-76027C7F01D3}" ShortID="711172144"/>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Monsters" ID="{8D7CC237-69AA-4A3E-95A3-35A5F32761C2}" ShortID="118562511">
@@ -1420,6 +1362,61 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_AMB_Cavern_LargeRoom" ID="{35D56AE6-4ACC-4057-8C18-967317CAA59F}">
+					<ChildrenList>
+						<Action Name="" ID="{15A677D6-CAE2-46E0-94DD-E937F89E6D3F}" ShortID="971087041">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Cavern_LargeRoom" ID="{FF480344-6F78-49C2-91FD-6EF3A3C2952B}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AMB_Cavern_LargeRoom_WithWind" ID="{4BD615E9-99AE-4B75-88F9-EBEB753F4405}">
+					<ChildrenList>
+						<Action Name="" ID="{DA1AE8E3-B75A-4EFC-AB03-68F49EBD4931}" ShortID="98093085">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Cavern_LargeRoom_WithWind" ID="{7D7DD190-13BE-4DAC-8D62-FD683A2BC5BF}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AMB_Cavern_MediumRoom" ID="{1CD6D334-D8C3-4581-B3D2-41E12E7E449F}">
+					<ChildrenList>
+						<Action Name="" ID="{53C5E22E-DC00-4E25-87D6-30BEBFF33AA0}" ShortID="1038421355">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Cavern_MediumRoom" ID="{F8EBB0E5-1B0D-4C47-9075-B9B81485F75E}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AMB_Cavern_MediumRoom_Lake" ID="{5E02D220-0953-4372-8AAF-76F9F85489B7}">
+					<ChildrenList>
+						<Action Name="" ID="{B6EAE79D-E55E-41F3-886D-CB94D97A89F8}" ShortID="227415731">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Cavern_MediumRoom_Lake" ID="{A9121044-41F5-45D3-B058-90B55650E5EC}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AMB_Cavern_SmallRoom" ID="{95BB9C52-DADE-4CA2-9CF2-FF970013D7EC}">
+					<ChildrenList>
+						<Action Name="" ID="{8ADD0412-A8B7-4984-B96B-B3850ED15AF6}" ShortID="287874707">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Cavern_SmallRoom" ID="{854B7B40-D1CA-478D-9FB6-2FB4CF0E2A4F}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

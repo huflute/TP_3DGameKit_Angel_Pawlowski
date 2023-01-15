@@ -41,7 +41,7 @@ public class IsInCombat : MonoBehaviour
                 AkSoundEngine.SetSwitch("Combat", "Light", this.gameObject);
                 
             }
-            if (i >= 3) AkSoundEngine.SetSwitch("Combat", "Normal", this.gameObject);
+            if (i >= 4) AkSoundEngine.SetSwitch("Combat", "Normal", this.gameObject);
 
 
         }
