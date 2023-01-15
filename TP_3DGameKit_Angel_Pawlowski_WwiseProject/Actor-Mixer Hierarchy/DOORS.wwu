@@ -10,6 +10,8 @@
 				<ActorMixer Name="Doors" ID="{7C10AA9B-0259-4EE9-8FC8-0DA31E2346F0}" ShortID="704332627">
 					<PropertyList>
 						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-14</Value>
