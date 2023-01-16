@@ -23,19 +23,26 @@ State	ID	Name	State Group			Notes
 	984691642	InGame	Menu			
 	3374585465	InMenu	Menu			
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1006694123	Music_Volume			\Default Work Unit\Music_Volume	
+	1564184899	SFX_Volume			\Default Work Unit\SFX_Volume	
+	4179668880	Master_Volume			\Default Work Unit\Master_Volume	
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	1393189531	Non_Environmental			\Default Work Unit\Master Audio Bus\Non_Environmental	
-	1551306167	UI			\Default Work Unit\Master Audio Bus\Non_Environmental\UI	
-	1973600711	Environmental			\Default Work Unit\Master Audio Bus\Environmental	
+	1393189531	Non_Environmental			\Default Work Unit\Master Audio Bus\SFX_Audio_Bus\Non_Environmental	
+	1551306167	UI			\Default Work Unit\Master Audio Bus\SFX_Audio_Bus\Non_Environmental\UI	
+	1973600711	Environmental			\Default Work Unit\Master Audio Bus\SFX_Audio_Bus\Environmental	
+	3365874942	SFX_Audio_Bus			\Default Work Unit\Master Audio Bus\SFX_Audio_Bus	
+	3675531030	Music_Audio_Bus			\Default Work Unit\Master Audio Bus\Music_Audio_Bus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	198700405	Reverb_HiddenPlace			\Default Work Unit\Master Audio Bus\Environmental\Reverb_HiddenPlace	
-	563644569	Reverb_Ruins			\Default Work Unit\Master Audio Bus\Environmental\Reverb_Ruins	
-	591468168	Reverb_LargeRoom			\Default Work Unit\Master Audio Bus\Environmental\Reverb_LargeRoom	
-	2424615768	Reverb_MediumRoom			\Default Work Unit\Master Audio Bus\Environmental\Reverb_MediumRoom	
-	3292698384	Reverb_SmallRoom			\Default Work Unit\Master Audio Bus\Environmental\Reverb_SmallRoom	
-	3298723492	Reverb_Swamp			\Default Work Unit\Master Audio Bus\Environmental\Reverb_Swamp	
+	198700405	Reverb_HiddenPlace			\Default Work Unit\Master Audio Bus\SFX_Audio_Bus\Environmental\Reverb_HiddenPlace	
+	563644569	Reverb_Ruins			\Default Work Unit\Master Audio Bus\SFX_Audio_Bus\Environmental\Reverb_Ruins	
+	591468168	Reverb_LargeRoom			\Default Work Unit\Master Audio Bus\SFX_Audio_Bus\Environmental\Reverb_LargeRoom	
+	2424615768	Reverb_MediumRoom			\Default Work Unit\Master Audio Bus\SFX_Audio_Bus\Environmental\Reverb_MediumRoom	
+	3292698384	Reverb_SmallRoom			\Default Work Unit\Master Audio Bus\SFX_Audio_Bus\Environmental\Reverb_SmallRoom	
+	3298723492	Reverb_Swamp			\Default Work Unit\Master Audio Bus\SFX_Audio_Bus\Environmental\Reverb_Swamp	
 
 Effect plug-ins	ID	Name	Type				Notes
 	592539189	HiddenPlace_ConvoVerb	Wwise Convolution Reverb			

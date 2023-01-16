@@ -74,7 +74,7 @@
 				<Event Id="1628176860" Name="Stop_Small_Door_Open_2D" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{4F0266CA-BA5D-2E2E-0A2D-2EC2F09F4E48}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{2C840D8E-D102-BC42-30D0-7B47CE81C552}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
@@ -181,7 +181,7 @@
 						<MediaRef Id="926832286"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2993009189" Name="Play_Amb_Level01_Swamp" DurationType="Infinite">
+				<Event Id="2993009189" Name="Play_Amb_Level01_Swamp" MaxAttenuation="100" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="238080956"/>
 						<MediaRef Id="455330908"/>
@@ -209,7 +209,7 @@
 				<GameParameter Id="3729505769" Name="TimeOfDay"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1229948536" Type="User" Language="SFX" Hash="{108D9A0A-7791-3593-E4BC-3EFBA7478D7C}">
+		<SoundBank Id="1229948536" Type="User" Language="SFX" Hash="{4AD27B68-B6C4-FAEE-B283-DA548CCE9A62}">
 			<ShortName>Environment</ShortName>
 			<Path>Environment.bnk</Path>
 			<Media>
@@ -422,7 +422,7 @@
 				<GameParameter Id="3729505769" Name="TimeOfDay"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{6F8F02D1-9BAE-2C5A-653C-CA3853AA245F}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{CE73809A-818F-A567-550C-ECDD4CFBA101}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Media>
@@ -476,6 +476,8 @@
 				<Bus Id="1393189531" Name="Non_Environmental"/>
 				<Bus Id="1551306167" Name="UI"/>
 				<Bus Id="1973600711" Name="Environmental"/>
+				<Bus Id="3365874942" Name="SFX_Audio_Bus"/>
+				<Bus Id="3675531030" Name="Music_Audio_Bus"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 			<AuxBusses>
@@ -526,7 +528,10 @@
 				</AuxBus>
 			</AuxBusses>
 			<GameParameters>
+				<GameParameter Id="1006694123" Name="Music_Volume"/>
+				<GameParameter Id="1564184899" Name="SFX_Volume"/>
 				<GameParameter Id="3729505769" Name="TimeOfDay"/>
+				<GameParameter Id="4179668880" Name="Master_Volume"/>
 			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="1176052424" Name="Location">
@@ -1696,7 +1701,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{87DBA590-2DF6-2DE6-397F-B8977CAFF99F}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{E46A97EA-C62D-C46B-B4C6-2E8A065C79C0}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -3217,7 +3222,7 @@
 						<MediaRef Id="926832286"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2993009189" Name="Play_Amb_Level01_Swamp" DurationType="Infinite">
+				<Event Id="2993009189" Name="Play_Amb_Level01_Swamp" MaxAttenuation="100" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="238080956"/>
 						<MediaRef Id="455330908"/>
@@ -3678,7 +3683,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="3711381197" Name="Play_Music_Level01" DurationType="Infinite">
+				<Event Id="3711381197" Name="Play_Music_Level01" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="84630673"/>
 						<MediaRef Id="962084260"/>
@@ -5165,5 +5170,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0E0B1290-A7DF-97BF-E484-34E3A18DBD6C}</FileHash>
+	<FileHash>{BBE88DFD-BCCA-25C5-EF2A-FF0FEC41D88D}</FileHash>
 </SoundBanksInfo>

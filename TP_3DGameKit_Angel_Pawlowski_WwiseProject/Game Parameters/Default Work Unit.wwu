@@ -5,6 +5,9 @@
 			<ChildrenList>
 				<WorkUnit Name="Weapon" ID="{740B058A-9539-4367-87E0-5726D4C7A9FD}" PersistMode="Reference"/>
 				<WorkUnit Name="Evironment" ID="{3C553CBA-1C28-4BD7-8906-E9C34E19DF65}" PersistMode="Reference"/>
+				<GameParameter Name="Master_Volume" ID="{E38A4D84-03B2-4F1B-B900-66168610C701}"/>
+				<GameParameter Name="Music_Volume" ID="{3F4381FE-8ECD-40F8-B193-695AF078F9F9}"/>
+				<GameParameter Name="SFX_Volume" ID="{1B4CC11E-9DE0-4F9B-A292-D8AADD818FE5}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

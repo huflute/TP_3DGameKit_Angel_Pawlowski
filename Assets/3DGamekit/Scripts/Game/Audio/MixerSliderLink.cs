@@ -9,11 +9,12 @@ namespace Gamekit3D
     [RequireComponent(typeof(Slider))]
     public class MixerSliderLink : MonoBehaviour
     {
-        public AudioMixer mixer;
-        public string mixerParameter;
+        //public AudioMixer _mixer;
+        //public string mixerParameter;
+        public AK.Wwise.RTPC mixer;
 
-        public float maxAttenuation = 0.0f;
-        public float minAttenuation = -80.0f;
+        private float maxAttenuation = 100f;
+        private float minAttenuation = 0.0f;
 
         protected Slider m_Slider;
 
@@ -23,7 +24,8 @@ namespace Gamekit3D
             m_Slider = GetComponent<Slider>();
 
             float value;
-            mixer.GetFloat(mixerParameter, out value);
+            value = mixer.GetGlobalValue();
+            //_mixer.GetFloat(mixerParameter, out value);
 
             m_Slider.value = (value - minAttenuation) / (maxAttenuation - minAttenuation);
 
@@ -33,7 +35,8 @@ namespace Gamekit3D
 
         void SliderValueChange(float value)
         {
-            mixer.SetFloat(mixerParameter, minAttenuation + value * (maxAttenuation - minAttenuation));
+            mixer.SetGlobalValue(minAttenuation + value * (maxAttenuation - minAttenuation));
+           // _mixer.SetFloat(mixerParameter, minAttenuation + value * (maxAttenuation - minAttenuation));
         }
     }
 }

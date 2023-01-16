@@ -222,6 +222,9 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
+        static const AkUniqueID MASTER_VOLUME = 4179668880U;
+        static const AkUniqueID MUSIC_VOLUME = 1006694123U;
+        static const AkUniqueID SFX_VOLUME = 1564184899U;
         static const AkUniqueID TIMEOFDAY = 3729505769U;
     } // namespace GAME_PARAMETERS
 
@@ -245,7 +248,9 @@ namespace AK
     {
         static const AkUniqueID ENVIRONMENTAL = 1973600711U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID MUSIC_AUDIO_BUS = 3675531030U;
         static const AkUniqueID NON_ENVIRONMENTAL = 1393189531U;
+        static const AkUniqueID SFX_AUDIO_BUS = 3365874942U;
         static const AkUniqueID UI = 1551306167U;
     } // namespace BUSSES
 
