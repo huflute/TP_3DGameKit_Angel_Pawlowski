@@ -95217,6 +95217,7 @@ GameObject:
   - component: {fileID: 8776658629536515457}
   - component: {fileID: 8873402772816140563}
   - component: {fileID: 6943058174080121624}
+  - component: {fileID: 4544315167041571851}
   m_Layer: 23
   m_Name: Grenadier
   m_TagString: Ennemy
@@ -95432,6 +95433,19 @@ BoxCollider:
   m_GameObject: {fileID: 1878432194002958}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &4544315167041571851
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878432194002958}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -100788,6 +100802,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4690728722320349521}
   - component: {fileID: 5858154273023147270}
+  - component: {fileID: 6844836386869719365}
   m_Layer: 12
   m_Name: DetectGrenadier
   m_TagString: Untagged
@@ -100823,6 +100838,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6844836386869719365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5755644661519584114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70f0f3b11bab59a4dad6d41360d57f92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Grenadier: {fileID: 1878432194002958}
 --- !u!1 &6315142441758601467
 GameObject:
   m_ObjectHideFlags: 0

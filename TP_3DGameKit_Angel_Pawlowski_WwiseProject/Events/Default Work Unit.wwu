@@ -742,6 +742,36 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
+										<Action Name="" ID="{B2506DD5-0FA3-4C0A-B663-1EAFE78A906D}" ShortID="915179114">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier_RangeAttack01" ID="{03741ACD-58A2-4875-9C45-35C5F2B643B1}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{DD972ED0-A8EC-423F-87CB-485D96ECFE6C}" ShortID="376004226">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier_RangeAttack02" ID="{3E86575B-15D6-4037-B066-DC528B98AD37}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{34874BD0-6448-4EF4-9624-572B7EC6FB05}" ShortID="999433625">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier_MeleeAttack" ID="{C383D374-F990-4A51-B7E1-7A27C9DFB566}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 									</ChildrenList>
 								</Event>
 								<Event Name="Play_Grenadier_Movement_Slow" ID="{481CC94C-B3DC-4C9D-AA0E-4C824A068737}">
@@ -768,6 +798,46 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Grenadier_ShockWaveDeath" ID="{2C0E72AD-BC4E-4644-A89F-E27B0F36F5FA}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{B66C8394-1EBA-45A5-AF41-D1D346889EBB}" ShortID="722633687">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier_RangeAttack02" ID="{3E86575B-15D6-4037-B066-DC528B98AD37}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{83E91AA0-90DE-47CB-9344-57C64DCBF097}" ShortID="313809566">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier_RangeAttack01" ID="{03741ACD-58A2-4875-9C45-35C5F2B643B1}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{83D91C59-C222-46E2-939C-826E97A28C36}" ShortID="841103240">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier_MeleeAttack" ID="{C383D374-F990-4A51-B7E1-7A27C9DFB566}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{6643959B-9CB9-4B00-B5EC-FB0C8DFC6CB8}" ShortID="988469826">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier_CloseRangeAttack" ID="{E7C58977-E532-42AE-8C40-3F6928628869}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

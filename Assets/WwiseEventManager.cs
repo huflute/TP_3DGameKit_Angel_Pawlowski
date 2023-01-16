@@ -95,6 +95,10 @@ public class WwiseEventManager : MonoBehaviour
     {
         AkSoundEngine.PostEvent("Play_Grenadier_RangeAttack02", this.gameObject);
     }
+    public void Grenadier_Shoot()
+    {
+        AkSoundEngine.PostEvent("Play_Grenadier_Shoot", this.gameObject);
+    }
 
     // BOX EVENTS
     public void DestructBox()
