@@ -333,7 +333,15 @@ ModelImporter:
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
-      - time: 0.41866666
+      - time: 0.40277582
+        functionName: Grenadier_Shoot
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 18a8dc0f33a62cc47b7362e54ace43ee,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.42151564
         functionName: Shoot
         data: 
         objectReferenceParameter: {instanceID: 0}

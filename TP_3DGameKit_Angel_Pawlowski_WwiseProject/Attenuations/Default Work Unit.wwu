@@ -119,19 +119,13 @@
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>100</YPos>
+											<YPos>52.67858</YPos>
 											<Flags>5</Flags>
 											<SegmentShape>InvertedSCurve</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>3.02682</XPos>
-											<YPos>49.54988</YPos>
-											<Flags>0</Flags>
-											<SegmentShape>InvertedSCurve</SegmentShape>
-										</Point>
-										<Point>
 											<XPos>10</XPos>
-											<YPos>25</YPos>
+											<YPos>0</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -453,21 +447,9 @@
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>0</YPos>
+											<YPos>-0.22216</YPos>
 											<Flags>5</Flags>
-											<SegmentShape>Exp2</SegmentShape>
-										</Point>
-										<Point>
-											<XPos>5.19033</XPos>
-											<YPos>0</YPos>
-											<Flags>0</Flags>
-											<SegmentShape>Log2</SegmentShape>
-										</Point>
-										<Point>
-											<XPos>14.96165</XPos>
-											<YPos>-8.6882</YPos>
-											<Flags>0</Flags>
-											<SegmentShape>Log1</SegmentShape>
+											<SegmentShape>SCurve</SegmentShape>
 										</Point>
 										<Point>
 											<XPos>20</XPos>
@@ -492,8 +474,8 @@
 											<SegmentShape>SCurve</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>10.1001</XPos>
-											<YPos>-1.48133</YPos>
+											<XPos>12.50836</XPos>
+											<YPos>-0</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>SCurve</SegmentShape>
 										</Point>
@@ -1139,7 +1121,10 @@
 						</TransmissionHPFUsage>
 					</CurveUsageInfoList>
 				</Attenuation>
-				<Attenuation Name="100" ID="{A801A7AD-7DA5-4422-A224-D0C78A8448B9}" ShortID="159106009">
+				<Attenuation Name="30" ID="{A801A7AD-7DA5-4422-A224-D0C78A8448B9}" ShortID="159106009">
+					<PropertyList>
+						<Property Name="RadiusMax" Type="Real64" Value="30"/>
+					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -1155,7 +1140,7 @@
 											<SegmentShape>Log2</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>100</XPos>
+											<XPos>30</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -1189,13 +1174,13 @@
 											<SegmentShape>SCurve</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>39.1055</XPos>
+											<XPos>11.73165</XPos>
 											<YPos>34.58517</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Log2</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>100</XPos>
+											<XPos>30</XPos>
 											<YPos>22.22222</YPos>
 											<Flags>37</Flags>
 										</Point>

@@ -4,6 +4,16 @@
 		<WorkUnit Name="Default Work Unit" ID="{060E7347-6F0B-40BA-A338-5AC65BC97A62}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundcasterSession Name="SoundCaster" ID="{CA79D78C-7EC2-4A14-ADE7-0CBBC99D1D70}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Grenadier_RangeAttack01" ID="{195C0764-BE64-44F9-ACDF-92B11D7A4912}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Grenadier_Hit" ID="{748D3E40-9749-4289-B149-B7EE1C11D1FA}" WorkUnitID="{E21A3058-A971-468D-974F-6ACCC96184FA}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Music_Volume" ID="{3F4381FE-8ECD-40F8-B193-695AF078F9F9}"/>
@@ -30,7 +40,7 @@
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Chomper" ID="{818C60C8-72CC-4FB7-94C2-B1789001FE98}"/>
 						<CurrentSwitchRef Name="FirstHalf" ID="{BBBFCCD2-7517-4B82-812D-2356F0173CF3}"/>
-						<CurrentSwitchRef Name="Default" ID="{41B011E9-AA5B-4922-8FEB-1CF3350247F5}"/>
+						<CurrentSwitchRef Name="Rock" ID="{ED85F6B6-41F7-4079-A1C9-068B767E505A}"/>
 						<CurrentSwitchRef Name="Light" ID="{F4A53E70-9791-43BF-8B74-E09F753620A5}"/>
 						<CurrentSwitchRef Name="Night" ID="{0FBA19FC-DDC8-4355-9B52-B7FDFDBEAB2A}"/>
 					</CurrentSwitchList>

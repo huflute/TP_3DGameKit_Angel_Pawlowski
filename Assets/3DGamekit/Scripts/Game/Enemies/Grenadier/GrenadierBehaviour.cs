@@ -139,7 +139,8 @@ namespace Gamekit3D
         {
             deathAudioPlayer.PlayRandomClip();
             m_EnemyController.animator.SetTrigger(hashDeathParam);
-            AkSoundEngine.SetState("IsInCombat", "False");
+            
+            
         }
 
         public void ActivateShield()
