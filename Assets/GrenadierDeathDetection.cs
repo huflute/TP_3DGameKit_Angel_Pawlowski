@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class GrenadierDeathDetection : MonoBehaviour
 {
- 
+    public UnityEvent OnDeath;
 
     public void DestroyDetectGrenadier()
     {

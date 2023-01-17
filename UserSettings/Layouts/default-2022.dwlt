@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 421}
   m_MaxSize: {x: 10000, y: 10000}
@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 255.2
     height: 520
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 114
+  controlID: 76
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 112
+  controlID: 74
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -119,8 +119,8 @@ MonoBehaviour:
     y: 0
     width: 308.80005
     height: 722.8
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 113
+  controlID: 75
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -496,7 +496,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 33000000
     m_LastClickedID: 51
-    m_ExpandedIDs: 010000000500000006000000070000000d0000001100000012000000140000001600000036000000370000003d00000042000000
+    m_ExpandedIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -544,7 +544,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_SearchFilter:
-    m_NameFilter: 
+    m_NameFilter: damagea
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -556,22 +556,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/3DGamekit/Audio/Prefabs
+    - Assets/3DGamekit/Scripts/Game/UI
     m_Globs: []
-    m_OriginalText: 
+    m_OriginalText: damagea
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/3DGamekit/Audio/Prefabs
+  - Assets/3DGamekit/Scripts/Game/UI
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\julpa\OneDrive\Bureau\TP UNITY 3D GAME KIT\TP_3DGameKit_Angel_Pawlowski
+  m_LastProjectPath: C:\Users\hugoa\Documents\GitHub\TP_3DGameKit_Angel_Pawlowski
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 430.2}
-    m_SelectedIDs: 1ad80200
-    m_LastClickedID: 186394
-    m_ExpandedIDs: 000000001a3401001c3401001e340100203401002234010024340100c4d7020000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 478.2}
+    m_SelectedIDs: 7ae80100
+    m_LastClickedID: 125050
+    m_ExpandedIDs: 000000007c4701007e47010080470100824701008447010086470100884701008a4701008c4701008e470100904701009247010094470100964701009847010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -599,7 +599,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001a3401001c3401001e340100203401002234010024340100
+    m_ExpandedIDs: 000000007c4701007e47010080470100824701008447010086470100884701008a4701008c4701008e4701009047010092470100944701009647010098470100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -728,24 +728,24 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 786}
-      m_SelectedIDs: 34adfcff
-      m_LastClickedID: -217804
-      m_ExpandedIDs: 48c8fdfffcfaffff147c000004e10000
+      scrollPos: {x: 0, y: 456}
+      m_SelectedIDs: 8607fdff
+      m_LastClickedID: -194682
+      m_ExpandedIDs: 0e09fdff1209fdff2e09fdff740dfdffb616fdff7eaefdfffcfaffff4afb0100720802002c0b02005e0c0200381202004e280200ce2f0200f8350200e63e0200d84302002e5302001a590200
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: CorridorsAudio 1
-        m_OriginalName: CorridorsAudio 1
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -153272
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 2}
       m_SearchString: 
@@ -1047,9 +1047,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.4952086, y: -1.2736713, z: 31.260822}
+    m_Target: {x: 98.50839, y: 9.046833, z: 141.00139}
     speed: 2
-    m_Value: {x: -1.4952086, y: -1.2736713, z: 31.260822}
+    m_Value: {x: 98.50839, y: 9.046833, z: 141.00139}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1095,9 +1095,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.16560546, y: -0.0023539094, z: -0.005113287, w: -0.98715913}
+    m_Target: {x: 0.14625224, y: 0.7939194, z: -0.21086042, w: 0.55125856}
     speed: 2
-    m_Value: {x: -0.16544504, y: -0.0023516295, z: -0.005108334, w: -0.98620296}
+    m_Value: {x: 0.14624889, y: 0.7939012, z: -0.21085559, w: 0.5512459}
   m_Size:
     m_Target: 0.8660254
     speed: 2

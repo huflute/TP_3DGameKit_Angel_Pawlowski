@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="181270742" Type="User" Language="SFX" Hash="{C93136FE-745C-3223-B8A2-61B98AA82A01}">
+		<SoundBank Id="181270742" Type="User" Language="SFX" Hash="{432F6D61-3D97-3455-D25E-A236BAB47D67}">
 			<ShortName>Interactables</ShortName>
 			<Path>Interactables.bnk</Path>
 			<Media>
@@ -74,7 +74,7 @@
 				<Event Id="1628176860" Name="Stop_Small_Door_Open_2D" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{0074785E-3321-2998-1DB2-4B9367F8220C}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{5C86AA39-18D2-443C-7D6A-9A851821B6AB}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
@@ -209,7 +209,7 @@
 				<GameParameter Id="3729505769" Name="TimeOfDay"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1229948536" Type="User" Language="SFX" Hash="{73C0CC26-C51B-0519-AE56-0B3FF51B47AF}">
+		<SoundBank Id="1229948536" Type="User" Language="SFX" Hash="{2C3541D2-BFFB-212E-D6CD-0A7FA8A4044B}">
 			<ShortName>Environment</ShortName>
 			<Path>Environment.bnk</Path>
 			<Media>
@@ -713,7 +713,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{77EA87FC-C936-991B-350E-9880D134AFD3}">
+		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{AF5E2FDC-D5E0-44EA-D9F5-6A196C2DD2BF}">
 			<ShortName>MC</ShortName>
 			<Path>MC.bnk</Path>
 			<Media>
@@ -1346,7 +1346,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="2480131081" Name="Play_Water_Hit" MaxAttenuation="20" DurationType="OneShot" DurationMin="1.9081666" DurationMax="1.9081666">
+				<Event Id="2480131081" Name="Play_Water_Hit" DurationType="OneShot" DurationMin="1.9081666" DurationMax="1.9081666">
 					<MediaRefs>
 						<MediaRef Id="1047956031"/>
 					</MediaRefs>
@@ -1370,7 +1370,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2691884509" Type="User" Language="SFX" Hash="{C9912101-A5FE-FA98-0867-8137F0999A5C}">
+		<SoundBank Id="2691884509" Type="User" Language="SFX" Hash="{53C0DBFD-75FE-9261-A8CC-D96197B82BDC}">
 			<ShortName>Big_Monsters</ShortName>
 			<Path>Big_Monsters.bnk</Path>
 			<Media>
@@ -1730,7 +1730,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{27BC3022-FF8F-66D8-EA3D-1C3450D97507}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{2DA108F5-8C69-6EE3-86CB-43570EB08E6D}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -4080,7 +4080,7 @@
 						<MediaRef Id="257203319"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2480131081" Name="Play_Water_Hit" MaxAttenuation="20" DurationType="OneShot" DurationMin="1.9081666" DurationMax="1.9081666">
+				<Event Id="2480131081" Name="Play_Water_Hit" DurationType="OneShot" DurationMin="1.9081666" DurationMax="1.9081666">
 					<MediaRefs>
 						<MediaRef Id="1047956031"/>
 					</MediaRefs>
@@ -4236,7 +4236,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3202316517" Type="User" Language="SFX" Hash="{30843F0A-DD1F-9153-FE71-863EFEAABF69}">
+		<SoundBank Id="3202316517" Type="User" Language="SFX" Hash="{E959B211-6B7D-E106-5CAA-A6AC7E9D55A9}">
 			<ShortName>Switch</ShortName>
 			<Path>Switch.bnk</Path>
 			<Media>
@@ -4516,7 +4516,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{8A5C3C4E-6A83-51B7-185A-CAA0F601245D}">
+		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{3814236D-32AF-0B72-F27A-504C3F558217}">
 			<ShortName>Small_Monsters</ShortName>
 			<Path>Small_Monsters.bnk</Path>
 			<Media>
@@ -5199,5 +5199,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{893BE880-8FBB-CE2B-4B51-0F8AD957ADA9}</FileHash>
+	<FileHash>{CE36C340-2B65-8C36-71DB-8E4AFCAD622E}</FileHash>
 </SoundBanksInfo>

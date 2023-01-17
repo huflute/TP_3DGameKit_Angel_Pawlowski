@@ -106,8 +106,8 @@ namespace Gamekit3D
             {
                 //Debug.Log("Pause");
                 PlayerInput.Instance.ReleaseControl();
-                if (PauseState != null)
-                PauseState.SetValue();
+                 if (PauseState != null)
+                 PauseState.SetValue();
             }
             Time.timeScale = m_InPause ? 1 : 0;
 
