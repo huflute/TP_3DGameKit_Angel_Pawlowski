@@ -146,7 +146,7 @@ namespace Gamekit3D
             if (bouncePlayer != null)
                 
                 AkSoundEngine.PostEvent("Play_Grenadier_Projectile_Bounce", gameObject);
-                bouncePlayer.PlayRandomClip();
+                //bouncePlayer.PlayRandomClip();
         }
 
         private Vector3 GetVelocity(Vector3 target)

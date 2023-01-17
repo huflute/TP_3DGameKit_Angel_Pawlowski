@@ -11,7 +11,7 @@ namespace Gamekit3D
 
         void OnEnable()
         {
-            player.PlayRandomClip();
+            //player.PlayRandomClip();
         }
 
         private void OnDisable()
