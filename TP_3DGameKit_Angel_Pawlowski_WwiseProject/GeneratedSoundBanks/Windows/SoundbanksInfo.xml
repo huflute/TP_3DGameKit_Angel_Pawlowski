@@ -209,7 +209,7 @@
 				<GameParameter Id="3729505769" Name="TimeOfDay"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1229948536" Type="User" Language="SFX" Hash="{F9738CD0-C9F8-6B10-C823-0EC243DE5111}">
+		<SoundBank Id="1229948536" Type="User" Language="SFX" Hash="{AE33C25E-C6ED-8024-7082-2E5C0A4A2A10}">
 			<ShortName>Environment</ShortName>
 			<Path>Environment.bnk</Path>
 			<Media>
@@ -1723,7 +1723,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{3F48E9D0-71F2-0871-8738-53D99F342032}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{4652519D-7A47-86E6-2FFF-A517C70FA94E}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -5192,5 +5192,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{984C92F5-C006-548D-21E8-6F1CDD5464B7}</FileHash>
+	<FileHash>{32B3417E-7B7F-85C9-9E8B-C817EAFF75B3}</FileHash>
 </SoundBanksInfo>
