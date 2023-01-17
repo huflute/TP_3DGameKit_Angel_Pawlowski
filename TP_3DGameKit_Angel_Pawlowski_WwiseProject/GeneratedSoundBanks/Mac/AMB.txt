@@ -24,6 +24,7 @@ State	ID	Name	State Group			Notes
 Custom State	ID	Name	State Group	Owner		Notes
 	424316670	In	InOut	\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Environmental\Level01\Amb_Swamp		
 	671300849	True	IsInCombat	\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Environmental\Level01\Amb_Swamp		
+	792334979	True	IsInCombat	\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Environmental\Level02		
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	3729505769	TimeOfDay			\Default Work Unit\Evironment\TimeOfDay	

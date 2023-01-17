@@ -21,7 +21,7 @@ public class AkTriggerEnter : AkTriggerBase
 
 	private void OnTriggerEnter(UnityEngine.Collider in_other)
 	{
-		print("t'es rentré gros nigo");
+		//print("t'es rentré gros nigo");
 		if (triggerDelegate != null && (triggerObject == null || triggerObject == in_other.gameObject))
 			triggerDelegate(in_other.gameObject);
 		

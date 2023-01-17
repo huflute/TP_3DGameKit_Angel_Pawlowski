@@ -230,10 +230,10 @@
 				<Property Name="ProjectExplorer2LastExpandedState\x64_ProjectExplorer\SoundBanksSelectionChannel1" Type="string" Value="P2eOyUyiqEiWDxBWX/5woI/3vJcaw75NkaF1zooHpF0="/>
 				<Property Name="ProjectExplorer2LastExpandedState\x64_ProjectExplorer\SoundBanksSelectionChannel2" Type="string" Value="P2eOyUyiqEiWDxBWX/5woI/3vJcaw75NkaF1zooHpF0="/>
 				<Property Name="ProjectExplorer2LastScrollState\ProjectExplorer\AudioSelectionChannel0" Type="int32" Value="0"/>
-				<Property Name="ProjectExplorer2LastScrollState\ProjectExplorer\AudioSelectionChannel1" Type="int32" Value="5"/>
+				<Property Name="ProjectExplorer2LastScrollState\ProjectExplorer\AudioSelectionChannel1" Type="int32" Value="9"/>
 				<Property Name="ProjectExplorer2LastScrollState\ProjectExplorer\AudioSelectionChannel2" Type="int32" Value="0"/>
 				<Property Name="ProjectExplorer2LastScrollState\ProjectExplorer\EventsSelectionChannel0" Type="int32" Value="0"/>
-				<Property Name="ProjectExplorer2LastScrollState\ProjectExplorer\EventsSelectionChannel1" Type="int32" Value="2"/>
+				<Property Name="ProjectExplorer2LastScrollState\ProjectExplorer\EventsSelectionChannel1" Type="int32" Value="4"/>
 				<Property Name="ProjectExplorer2LastScrollState\ProjectExplorer\EventsSelectionChannel2" Type="int32" Value="0"/>
 				<Property Name="ProjectExplorer2LastScrollState\ProjectExplorer\Game SyncsSelectionChannel0" Type="int32" Value="0"/>
 				<Property Name="ProjectExplorer2LastScrollState\ProjectExplorer\Game SyncsSelectionChannel1" Type="int32" Value="0"/>
@@ -287,7 +287,7 @@
 				<Property Name="RTPC\GameParameterSimValue\{1B4CC11E-9DE0-4F9B-A292-D8AADD818FE5}" Type="Real64" Value="100"/>
 				<Property Name="RTPC\GameParameterSimValue\{3F4381FE-8ECD-40F8-B193-695AF078F9F9}" Type="Real64" Value="100"/>
 				<Property Name="RTPC\GameParameterSimValue\{964134B9-4B43-4764-B76C-512362D1DB38}" Type="Real64" Value="12"/>
-				<Property Name="RTPC\GameParameterSimValue\{E38A4D84-03B2-4F1B-B900-66168610C701}" Type="Real64" Value="88.2978723404255"/>
+				<Property Name="RTPC\GameParameterSimValue\{E38A4D84-03B2-4F1B-B900-66168610C701}" Type="Real64" Value="100"/>
 				<Property Name="SchematicView\SearchText" Type="string" Value=""/>
 				<Property Name="SoundBank Manager\x64_Expand Folders Auto" Type="string" Value=""/>
 				<Property Name="SoundBank Manager\x64_Expand Folders User" Type="string" Value="BwAAAA=="/>
