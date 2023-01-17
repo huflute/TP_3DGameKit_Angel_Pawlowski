@@ -57,12 +57,11 @@ namespace Gamekit3D.GameCommands
             if (OnStartCommand != null) OnStartCommand.Send();
             if (onStartAudio != null) onStartAudio.Play();
             if (Jingle !=null) Jingle.Post(this.gameObject);
-            if (gameObject.CompareTag("Door"))
-            {
+          
                 if (onStartEvent != null) onStartEvent.Post(this.gameObject);
                 StartCoroutine(DoorOpening(duration));
                
-            }
+            
         }
 
        

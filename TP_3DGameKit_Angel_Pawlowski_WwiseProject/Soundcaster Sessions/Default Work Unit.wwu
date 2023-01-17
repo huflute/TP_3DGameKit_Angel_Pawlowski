@@ -29,7 +29,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Master_Volume" ID="{E38A4D84-03B2-4F1B-B900-66168610C701}"/>
-							<Value>88.2978723404255</Value>
+							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SFX_Volume" ID="{1B4CC11E-9DE0-4F9B-A292-D8AADD818FE5}"/>

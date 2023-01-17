@@ -1032,6 +1032,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4031617287498508}
   - component: {fileID: 137395138142091062}
+  - component: {fileID: 2363703002744903573}
   m_Layer: 9
   m_Name: Ellen_Shield
   m_TagString: Untagged
@@ -1194,6 +1195,18 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.0068225563, y: 0, z: -0.009298004}
     m_Extent: {x: 0.87855244, y: 0.7656409, z: 0.25213572}
   m_DirtyAABB: 0
+--- !u!114 &2363703002744903573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076943315163266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5de57be726ce63b44a1c77924e57ce8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1087319401350236
 GameObject:
   m_ObjectHideFlags: 0
@@ -22172,13 +22185,15 @@ MonoBehaviour:
     valueGuidInternal: 
     groupIdInternal: 0
     groupGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 3300753071266e647834ec14e691601c,
+      type: 2}
   LastHalf:
     idInternal: 0
     valueGuidInternal: 
     groupIdInternal: 0
     groupGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: a980cfe50d78f6543b7844f6f4e7b049,
+      type: 2}
   maxHitPoints: 5
   invulnerabiltyTime: 5
   hitAngle: 360
@@ -22225,6 +22240,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 2363703002744903573}
+        m_TargetAssemblyTypeName: Gamekit3D.Shield_Audio_Player, Assembly-CSharp
+        m_MethodName: PlayShield
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   OnHitWhileInvulnerable:
     m_PersistentCalls:
       m_Calls: []
@@ -22235,6 +22262,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: 
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2363703002744903573}
+        m_TargetAssemblyTypeName: Gamekit3D.Shield_Audio_Player, Assembly-CSharp
+        m_MethodName: StopShield
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

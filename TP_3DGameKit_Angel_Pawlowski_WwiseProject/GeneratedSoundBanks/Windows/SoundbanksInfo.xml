@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="181270742" Type="User" Language="SFX" Hash="{B17B045C-BD81-FC22-74A3-0621E71148C9}">
+		<SoundBank Id="181270742" Type="User" Language="SFX" Hash="{329DC2FF-8E8D-BD12-F766-1D805D8E6E4D}">
 			<ShortName>Interactables</ShortName>
 			<Path>Interactables.bnk</Path>
 			<Media>
@@ -60,7 +60,7 @@
 						<MediaRef Id="649593967"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1799613726" Name="Play_Small_Door_Open_2D" MaxAttenuation="20" DurationType="OneShot" DurationMin="4.266667" DurationMax="4.266667">
+				<Event Id="1799613726" Name="Play_Small_Door_Open_2D" DurationType="OneShot" DurationMin="4.266667" DurationMax="4.266667">
 					<MediaRefs>
 						<MediaRef Id="649593967"/>
 					</MediaRefs>
@@ -209,7 +209,7 @@
 				<GameParameter Id="3729505769" Name="TimeOfDay"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1229948536" Type="User" Language="SFX" Hash="{835C72C6-B2D0-1062-CDD2-AEECCAFD76A5}">
+		<SoundBank Id="1229948536" Type="User" Language="SFX" Hash="{F9738CD0-C9F8-6B10-C823-0EC243DE5111}">
 			<ShortName>Environment</ShortName>
 			<Path>Environment.bnk</Path>
 			<Media>
@@ -401,7 +401,7 @@
 						<MediaRef Id="392129282"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="781754601" Name="Play_Spaceship_Loop_End" MaxAttenuation="10" DurationType="Infinite">
+				<Event Id="781754601" Name="Play_Spaceship_Loop_End" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="562284632"/>
 					</MediaRefs>
@@ -422,7 +422,7 @@
 				<GameParameter Id="3729505769" Name="TimeOfDay"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{12DAC190-CC7D-85DA-F3D6-60A1CF34AA92}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{170DB3FD-0996-F159-86F4-0B879D7F9538}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Media>
@@ -1723,7 +1723,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{590411F6-D706-42C1-8FBD-0DC83CDF89E6}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{3F48E9D0-71F2-0871-8738-53D99F342032}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -3788,7 +3788,7 @@
 						<MediaRef Id="649593967"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1799613726" Name="Play_Small_Door_Open_2D" MaxAttenuation="20" DurationType="OneShot" DurationMin="4.266667" DurationMax="4.266667">
+				<Event Id="1799613726" Name="Play_Small_Door_Open_2D" DurationType="OneShot" DurationMin="4.266667" DurationMax="4.266667">
 					<MediaRefs>
 						<MediaRef Id="649593967"/>
 					</MediaRefs>
@@ -4008,7 +4008,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="781754601" Name="Play_Spaceship_Loop_End" MaxAttenuation="10" DurationType="Infinite">
+				<Event Id="781754601" Name="Play_Spaceship_Loop_End" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="562284632"/>
 					</MediaRefs>
@@ -5192,5 +5192,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9409314E-BA3B-9BFD-1315-224E73A226C7}</FileHash>
+	<FileHash>{984C92F5-C006-548D-21E8-6F1CDD5464B7}</FileHash>
 </SoundBanksInfo>
