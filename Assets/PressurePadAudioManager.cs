@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class PressurePadAudioManager : MonoBehaviour
 {
-    [SerializeField] private AK.Wwise.Event TriggerPressurePad;
+    
 
     public void PressurePad_Trigger()
 
     {
-        TriggerPressurePad.Post(this.gameObject);
+        AkSoundEngine.PostEvent("Play_Switch_Stone_Activation", this.gameObject);
     }
     public void DestroyPad()
     {

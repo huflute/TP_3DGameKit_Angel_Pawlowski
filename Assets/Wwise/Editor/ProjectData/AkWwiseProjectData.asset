@@ -486,7 +486,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 58301ae271a98d46974f6accc96184fa
     GuidInternal: 
-    m_lastTime: -8585276526282230201
+    m_lastTime: -8585276311206715931
     List:
     - name: Acid_Pool
       guid: d3000491b296d14382d26de6a09c89bd
@@ -2461,6 +2461,32 @@ MonoBehaviour:
         ObjectType: 3
         guid: b88ca6aea12fad43abc8f32f26a107fe
       Path: Events\Default Work Unit\Environment\Spaceship_EndGame\Play_Spaceship_Loop_End
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Spitball_Explode
+      guid: 4abf9fae6b7b1745a835ca6e36d120f4
+      id: 4165796073
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 58301ae271a98d46974f6accc96184fa
+      - ElementName: Monsters
+        ObjectType: 4
+        guid: 37c27c8daa693e4a95a335a5f32761c2
+      - ElementName: Small_Monsters
+        ObjectType: 4
+        guid: ae634776d3e525498e0245b331e97887
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 8d02fbba2680eb45a0d521fd95046828
+      - ElementName: Play_Spitball_Explode
+        ObjectType: 3
+        guid: 4abf9fae6b7b1745a835ca6e36d120f4
+      Path: Events\Default Work Unit\Monsters\Small_Monsters\Combat\Play_Spitball_Explode
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1

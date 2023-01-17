@@ -26,13 +26,13 @@ namespace Gamekit3D
 
         public CameraSettings cameraSettings;            // Reference used to determine the camera's direction.
         public MeleeWeapon meleeWeapon;                  // Reference used to (de)activate the staff when attacking. 
-        public RandomAudioPlayer footstepPlayer;         // Random Audio Players used for various situations.
+        /*public RandomAudioPlayer footstepPlayer;         // Random Audio Players used for various situations.
         public RandomAudioPlayer hurtAudioPlayer;
         public RandomAudioPlayer landingPlayer;
         public RandomAudioPlayer emoteLandingPlayer;
         public RandomAudioPlayer emoteDeathPlayer;
         public RandomAudioPlayer emoteAttackPlayer;
-        public RandomAudioPlayer emoteJumpPlayer;
+        public RandomAudioPlayer emoteJumpPlayer;*/
 
         protected AnimatorStateInfo m_CurrentStateInfo;    // Information about the base layer of the animator cached.
         protected AnimatorStateInfo m_NextStateInfo;
@@ -118,16 +118,16 @@ namespace Gamekit3D
             meleeWeapon = GetComponentInChildren<MeleeWeapon>();
 
             Transform footStepSource = transform.Find("FootstepSource");
-            if (footStepSource != null)
-                footstepPlayer = footStepSource.GetComponent<RandomAudioPlayer>();
+           // if (footStepSource != null)
+               // footstepPlayer = footStepSource.GetComponent<RandomAudioPlayer>();
 
             Transform hurtSource = transform.Find("HurtSource");
-            if (hurtSource != null)
-                hurtAudioPlayer = hurtSource.GetComponent<RandomAudioPlayer>();
+           // if (hurtSource != null)
+               // hurtAudioPlayer = hurtSource.GetComponent<RandomAudioPlayer>();
 
             Transform landingSource = transform.Find("LandingSource");
-            if (landingSource != null)
-                landingPlayer = landingSource.GetComponent<RandomAudioPlayer>();
+           // if (landingSource != null)
+               // landingPlayer = landingSource.GetComponent<RandomAudioPlayer>();
 
             cameraSettings = FindObjectOfType<CameraSettings>();
 
@@ -423,44 +423,44 @@ namespace Gamekit3D
         {
             float footfallCurve = m_Animator.GetFloat(m_HashFootFall);
 
-            if (footfallCurve > 0.01f && !footstepPlayer.playing && footstepPlayer.canPlay)
+            if (footfallCurve > 0.01f /*&& /*!footstepPlayer.playing && footstepPlayer.canPlay*/)
             {
-                footstepPlayer.playing = true;
+               /* footstepPlayer.playing = true;
                 footstepPlayer.canPlay = false;
-                footstepPlayer.PlayRandomClip(m_CurrentWalkingSurface, m_ForwardSpeed < 4 ? 0 : 1);
+                footstepPlayer.PlayRandomClip(m_CurrentWalkingSurface, m_ForwardSpeed < 4 ? 0 : 1);*/
                 AkSoundEngine.PostEvent("Play_MC_Run", this.gameObject);
             }
-            else if (footstepPlayer.playing)
+          /*  else if (footstepPlayer.playing)
             {
                 footstepPlayer.playing = false;
             }
             else if (footfallCurve < 0.01f && !footstepPlayer.canPlay)
             {
                 footstepPlayer.canPlay = true;
-            }
+            }*/
 
             if (m_IsGrounded && !m_PreviouslyGrounded)
             {
-                landingPlayer.PlayRandomClip(m_CurrentWalkingSurface, bankId: m_ForwardSpeed < 4 ? 0 : 1);
-                emoteLandingPlayer.PlayRandomClip();
+               // landingPlayer.PlayRandomClip(m_CurrentWalkingSurface, bankId: m_ForwardSpeed < 4 ? 0 : 1);
+               // emoteLandingPlayer.PlayRandomClip();
                 AkSoundEngine.PostEvent("Play_MC_Land", this.gameObject);
             }
 
             if (!m_IsGrounded && m_PreviouslyGrounded && m_VerticalSpeed > 0f)
             {
-                emoteJumpPlayer.PlayRandomClip();
+              //  emoteJumpPlayer.PlayRandomClip();
                 AkSoundEngine.PostEvent("Play_MC_Jump", this.gameObject);
             }
 
             if (m_CurrentStateInfo.shortNameHash == m_HashHurt && m_PreviousCurrentStateInfo.shortNameHash != m_HashHurt)
             {
-                hurtAudioPlayer.PlayRandomClip();
+                //hurtAudioPlayer.PlayRandomClip();
                 AkSoundEngine.PostEvent("Play_MC_Vox_Pain", this.gameObject);
             }
 
             if (m_CurrentStateInfo.shortNameHash == m_HashEllenDeath && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenDeath)
             {
-                emoteDeathPlayer.PlayRandomClip();
+                //emoteDeathPlayer.PlayRandomClip();
                 AkSoundEngine.PostEvent("Play_MC_Vox_Death", this.gameObject);
             }
 
@@ -469,7 +469,7 @@ namespace Gamekit3D
                 m_CurrentStateInfo.shortNameHash == m_HashEllenCombo3 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo3 ||
                 m_CurrentStateInfo.shortNameHash == m_HashEllenCombo4 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo4)
             {
-                emoteAttackPlayer.PlayRandomClip();
+               // emoteAttackPlayer.PlayRandomClip();
             }
         }
 
@@ -671,9 +671,9 @@ namespace Gamekit3D
             CameraShake.Shake(CameraShake.k_PlayerHitShakeAmount, CameraShake.k_PlayerHitShakeTime);
 
             // Play an audio clip of being hurt.
-            if (hurtAudioPlayer != null)
+           // if (hurtAudioPlayer != null)
             {
-                hurtAudioPlayer.PlayRandomClip();
+                //hurtAudioPlayer.PlayRandomClip();
             }
         }
 

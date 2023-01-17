@@ -80,6 +80,7 @@ namespace AK
         static const AkUniqueID PLAY_SMALL_MONSTER_VOX_SPOTS = 41618512U;
         static const AkUniqueID PLAY_SMALL_MONSTER_WALK = 1427652232U;
         static const AkUniqueID PLAY_SPACESHIP_LOOP_END = 781754601U;
+        static const AkUniqueID PLAY_SPITBALL_EXPLODE = 4165796073U;
         static const AkUniqueID PLAY_SPITBALL_LOOP = 3261160980U;
         static const AkUniqueID PLAY_SPITTER_ATTACK = 3913336272U;
         static const AkUniqueID PLAY_SWITCH_CRYSTALS_ACTIVATION = 3451021523U;

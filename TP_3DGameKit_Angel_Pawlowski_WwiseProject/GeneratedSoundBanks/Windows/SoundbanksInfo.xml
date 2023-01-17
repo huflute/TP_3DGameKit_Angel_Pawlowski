@@ -1730,7 +1730,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{2DA108F5-8C69-6EE3-86CB-43570EB08E6D}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{0E1DB50D-29CC-34C1-94F2-8E2F32E65A42}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -2770,6 +2770,10 @@
 					<ShortName>MC_VOX_Pain_Soft_04.wav</ShortName>
 					<CachePath>SFX/MC_VOX_Pain_Soft_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="774884836" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spitball_Explode_01.wav</ShortName>
+					<CachePath>SFX/Spitball_Explode_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="779719350" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Grenadier\Grenadier_Movement_Slow_02.wav</ShortName>
 					<CachePath>SFX/Grenadier/Grenadier_Movement_Slow_02_10C4C929.wem</CachePath>
@@ -2869,6 +2873,10 @@
 					<Path>Media/841063888.wem</Path>
 					<CachePath>SFX/Platform_Moving_D79FB2B7.wem</CachePath>
 					<PrefetchSize>9696</PrefetchSize>
+				</File>
+				<File Id="843503833" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spitball_Explode_02.wav</ShortName>
+					<CachePath>SFX/Spitball_Explode_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="844663955" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_01.wav</ShortName>
@@ -4020,6 +4028,12 @@
 						<MediaRef Id="562284632"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="4165796073" Name="Play_Spitball_Explode" MaxAttenuation="15" DurationType="OneShot" DurationMin="1.5885625" DurationMax="1.6520208">
+					<MediaRefs>
+						<MediaRef Id="774884836"/>
+						<MediaRef Id="843503833"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3261160980" Name="Play_Spitball_Loop" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="98277259"/>
@@ -4516,7 +4530,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{3814236D-32AF-0B72-F27A-504C3F558217}">
+		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{AEE236CD-0A41-CAC0-0E39-B75421E33803}">
 			<ShortName>Small_Monsters</ShortName>
 			<Path>Small_Monsters.bnk</Path>
 			<Media>
@@ -4810,6 +4824,10 @@
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_02.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Mud_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="774884836" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spitball_Explode_01.wav</ShortName>
+					<CachePath>SFX/Spitball_Explode_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="789824356" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_06.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Mud_06_10C4C929.wem</CachePath>
@@ -4829,6 +4847,10 @@
 				<File Id="818125363" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Stone_07.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Walk_Stone_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="843503833" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spitball_Explode_02.wav</ShortName>
+					<CachePath>SFX/Spitball_Explode_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="844663955" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Walk_Mud_01.wav</ShortName>
@@ -5168,6 +5190,12 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="4165796073" Name="Play_Spitball_Explode" MaxAttenuation="15" DurationType="OneShot" DurationMin="1.5885625" DurationMax="1.6520208">
+					<MediaRefs>
+						<MediaRef Id="774884836"/>
+						<MediaRef Id="843503833"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3261160980" Name="Play_Spitball_Loop" MaxAttenuation="10" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="98277259"/>
@@ -5199,5 +5227,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B9687801-434A-05A4-286E-97FAF5D2246A}</FileHash>
+	<FileHash>{AE533CEF-2E8E-810F-4AEA-3EC80EF1CDD3}</FileHash>
 </SoundBanksInfo>

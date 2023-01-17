@@ -11,8 +11,8 @@ namespace Gamekit3D
         {
             base.OnCollisionEnter(other);
 
-            if(explosionTimer < 0)
-                //Rajouter un son d'explosion
+            if (explosionTimer < 0)
+                AkSoundEngine.PostEvent("Play_Spitball_Explode", this.gameObject);
                 Explosion();
         }
     }

@@ -181,12 +181,12 @@ namespace Gamekit3D
                     //hitAudio.PlayRandomClip(renderer.sharedMaterial);
                     WeaponImpact.Post(this.gameObject);
                     //Attaque réussie
-                    Debug.Log("1");
+                   
                 }
                 else
                 {
                     //hitAudio.PlayRandomClip();
-                    Debug.Log("2");  
+                     
                 }
             }
 

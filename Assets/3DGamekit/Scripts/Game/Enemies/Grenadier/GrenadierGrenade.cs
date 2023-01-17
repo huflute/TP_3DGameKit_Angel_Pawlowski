@@ -96,7 +96,7 @@ namespace Gamekit3D
                 
                 explosionPlayer.transform.SetParent(null);
                 AkSoundEngine.PostEvent("Play_Grenadier_Projectile_Explode", gameObject);
-                explosionPlayer.PlayRandomClip();
+                //explosionPlayer.PlayRandomClip();
             }
 
             int count = Physics.OverlapSphereNonAlloc(transform.position, explosionRadius, m_ExplosionHitCache,

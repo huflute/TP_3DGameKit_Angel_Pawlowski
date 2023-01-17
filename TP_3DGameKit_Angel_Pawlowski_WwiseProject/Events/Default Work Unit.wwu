@@ -658,6 +658,17 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Play_Spitball_Explode" ID="{AE9FBF4A-7B6B-4517-A835-CA6E36D120F4}">
+											<ChildrenList>
+												<Action Name="" ID="{B871A602-0C52-404B-9A6E-0BB5AD1266AC}" ShortID="273989224">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Spitball_Explode" ID="{1EEE9882-C977-4E33-A37E-A9D475A6D0FC}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>
