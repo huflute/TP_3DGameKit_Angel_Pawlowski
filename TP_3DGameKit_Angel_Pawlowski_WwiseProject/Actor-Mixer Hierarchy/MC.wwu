@@ -158,13 +158,6 @@
 							</ReferenceList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="MC_FOL_Attack" ID="{CB23AB5F-7958-4159-965A-5082B1F86E2D}" ShortID="428432766">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>6</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>

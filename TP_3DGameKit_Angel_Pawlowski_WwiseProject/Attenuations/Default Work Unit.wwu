@@ -44,8 +44,8 @@
 											<SegmentShape>SCurve</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>4.99</XPos>
-											<YPos>-3.31252</YPos>
+											<XPos>5.29701</XPos>
+											<YPos>-1.24026</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>SCurve</SegmentShape>
 										</Point>
@@ -119,9 +119,9 @@
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>52.67858</YPos>
+											<YPos>100</YPos>
 											<Flags>5</Flags>
-											<SegmentShape>InvertedSCurve</SegmentShape>
+											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
 											<XPos>10</XPos>
@@ -531,13 +531,13 @@
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>51.61044</YPos>
+											<YPos>36.53107</YPos>
 											<Flags>5</Flags>
 											<SegmentShape>SCurve</SegmentShape>
 										</Point>
 										<Point>
 											<XPos>20</XPos>
-											<YPos>-0</YPos>
+											<YPos>0</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>

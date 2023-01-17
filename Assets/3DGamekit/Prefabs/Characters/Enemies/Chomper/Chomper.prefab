@@ -1145,8 +1145,7 @@ MonoBehaviour:
   WeaponImpact:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: b975e907866f79d4081f79fb96e70b15,
-      type: 2}
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &3383651251224235370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3785,13 +3784,6 @@ MonoBehaviour:
       serializedVersion: 2
       m_Bits: 2147483648
   timeToStopPursuit: 3
-  attackAudio: {fileID: 0}
-  frontStepAudio: {fileID: 0}
-  backStepAudio: {fileID: 0}
-  hitAudio: {fileID: 0}
-  gruntAudio: {fileID: 0}
-  deathAudio: {fileID: 0}
-  spottedAudio: {fileID: 0}
 --- !u!114 &114700785457422906
 MonoBehaviour:
   m_ObjectHideFlags: 0

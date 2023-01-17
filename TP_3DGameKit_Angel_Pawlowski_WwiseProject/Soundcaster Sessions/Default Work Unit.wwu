@@ -37,16 +37,16 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="False" ID="{BB0CE337-DE91-49E8-B789-B8B7EA2DBAC0}"/>
-						<CurrentStateRef Name="InMenu" ID="{463F3A56-3108-4874-A146-05302296FBEE}"/>
-						<CurrentStateRef Name="False" ID="{32788AB8-61D5-4022-96AC-7F570F680817}"/>
-						<CurrentStateRef Name="Out" ID="{D3DF4B3B-A817-4640-86EA-49AF48388A1D}"/>
+						<CurrentStateRef Name="True" ID="{E681315C-42EC-4138-8D1C-F2C9E6FC7CD3}"/>
+						<CurrentStateRef Name="InGame" ID="{0E63CE26-2C04-4642-9C6B-DE4A22B1FCB4}"/>
+						<CurrentStateRef Name="None" ID="{09135F26-6E88-4C66-BEA0-38E0F08A24B0}"/>
+						<CurrentStateRef Name="None" ID="{FFBF0689-9F8A-45A9-98AC-AA1D0E349294}"/>
 						<CurrentStateRef Name="Swamp" ID="{F28AB153-FA33-4897-98CC-EA5ECCF9685D}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Chomper" ID="{818C60C8-72CC-4FB7-94C2-B1789001FE98}"/>
 						<CurrentSwitchRef Name="FirstHalf" ID="{BBBFCCD2-7517-4B82-812D-2356F0173CF3}"/>
-						<CurrentSwitchRef Name="Default" ID="{41B011E9-AA5B-4922-8FEB-1CF3350247F5}"/>
+						<CurrentSwitchRef Name="Grass" ID="{C6F52CA2-EAFC-45D9-AC4C-B3CDB4CF3C0F}"/>
 						<CurrentSwitchRef Name="Light" ID="{F4A53E70-9791-43BF-8B74-E09F753620A5}"/>
 						<CurrentSwitchRef Name="Night" ID="{0FBA19FC-DDC8-4355-9B52-B7FDFDBEAB2A}"/>
 					</CurrentSwitchList>

@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 0c74f2e5d4330e46bfec07c1b154966f
     GuidInternal: 
-    m_lastTime: -8585276888708291334
+    m_lastTime: -8585276496126960885
     List:
     - name: Environmental
       guid: eda45d6dcc045d47a639edc09c76d74c
@@ -3685,7 +3685,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: dde22e8dd084f74f8c90764d69789553
     GuidInternal: 
-    m_lastTime: -8585276902256286442
+    m_lastTime: -8585276497728630678
     List:
     - name: Discovery
       guid: c9d2db9c7618c14a936b3cf3114f6a4c
@@ -4434,7 +4434,7 @@ MonoBehaviour:
     m_lastTime: -8585284015674119453
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 05000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

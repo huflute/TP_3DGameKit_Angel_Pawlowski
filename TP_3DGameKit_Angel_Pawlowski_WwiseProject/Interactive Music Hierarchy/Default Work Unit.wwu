@@ -1142,6 +1142,13 @@
 					</ObjectLists>
 				</MusicSegment>
 				<MusicSwitchContainer Name="IsInCombat_Level02" ID="{8666A350-B186-42B9-B9F6-516637A2FF72}" ShortID="1016838956">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>

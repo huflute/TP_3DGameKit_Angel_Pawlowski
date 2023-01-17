@@ -33,11 +33,6 @@
 												</Property>
 												<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
-												<Property Name="OutputBusVolume" Type="Real64">
-													<ValueList>
-														<Value>-5</Value>
-													</ValueList>
-												</Property>
 												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 											</PropertyList>
 											<ReferenceList>
@@ -165,6 +160,28 @@
 									</ChildrenList>
 								</Bus>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Menu" ID="{40572F36-A6F3-4437-9CAF-AD2CF4561EAC}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="InGame" ID="{0E63CE26-2C04-4642-9C6B-DE4A22B1FCB4}"/>
+										<CustomState Name="" ID="{675DC65A-6119-44E2-BC0D-3AEA644A5624}" ShortID="493234161"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="InMenu" ID="{463F3A56-3108-4874-A146-05302296FBEE}"/>
+										<CustomState Name="" ID="{84BA29F5-516E-4B6C-B470-A796FED9DB40}" ShortID="675239367">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-2"/>
+												<Property Name="Lowpass" Type="int16" Value="75"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ObjectLists>
 								<ObjectList Name="RTPC">
 									<Reference>
@@ -206,6 +223,28 @@
 							</ObjectLists>
 						</Bus>
 						<Bus Name="Music_Audio_Bus" ID="{476DD776-D48C-4BCB-975F-AD70C1F54754}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Menu" ID="{40572F36-A6F3-4437-9CAF-AD2CF4561EAC}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="InGame" ID="{0E63CE26-2C04-4642-9C6B-DE4A22B1FCB4}"/>
+										<CustomState Name="" ID="{337D8C12-7BFC-4061-A871-F15B7C529E78}" ShortID="996688914"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="InMenu" ID="{463F3A56-3108-4874-A146-05302296FBEE}"/>
+										<CustomState Name="" ID="{F24B0F0F-4BC4-4B6D-868D-7DC4B8F4FFF6}" ShortID="623285099">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-9"/>
+												<Property Name="Lowpass" Type="int16" Value="60"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ObjectLists>
 								<ObjectList Name="RTPC">
 									<Reference>

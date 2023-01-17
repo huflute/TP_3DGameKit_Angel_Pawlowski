@@ -11,12 +11,18 @@
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
+						<Property Name="CenterPercentage" Type="int32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
 						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 						<Property Name="MaxSoundPerInstance" Type="int16">
 							<ValueList>
 								<Value>7</Value>
 							</ValueList>
 						</Property>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="UseMaxSoundPerInstance" Type="bool">
 							<ValueList>
@@ -2000,9 +2006,20 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Small_Monster_Run_Grass" ID="{CCD065DD-CE71-49E2-9198-8D3421981E87}" ShortID="109431117">
 											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-7</Value>
+														<Value>-17</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -2595,9 +2612,19 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Small_Monster_Walk_Grass" ID="{3098632D-E2BD-4B79-9D17-4B56CDEBDFFC}" ShortID="328312258">
 											<PropertyList>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-3</Value>
+														<Value>-5</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -3239,6 +3266,7 @@
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
@@ -4912,8 +4940,14 @@
 									</ChildrenList>
 								</ActorMixer>
 							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{F1A69E25-0042-42D0-854A-C8ECBA3AE8F1}"/>
+							</PositioningInfo>
 						</ActorMixer>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{D183BE15-F786-4BD4-9D01-B40FABC6BF01}"/>
+					</PositioningInfo>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

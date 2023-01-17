@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="181270742" Type="User" Language="SFX" Hash="{329DC2FF-8E8D-BD12-F766-1D805D8E6E4D}">
+		<SoundBank Id="181270742" Type="User" Language="SFX" Hash="{4A6F2F75-BD03-6B7C-9A4A-6063C1FE48F9}">
 			<ShortName>Interactables</ShortName>
 			<Path>Interactables.bnk</Path>
 			<Media>
@@ -74,7 +74,7 @@
 				<Event Id="1628176860" Name="Stop_Small_Door_Open_2D" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{DFCD1E99-0C7D-105C-2721-254A6168E395}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{15935D29-2CFA-1ED8-A8D7-D2B24B5BBE04}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
@@ -209,7 +209,7 @@
 				<GameParameter Id="3729505769" Name="TimeOfDay"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1229948536" Type="User" Language="SFX" Hash="{F9738CD0-C9F8-6B10-C823-0EC243DE5111}">
+		<SoundBank Id="1229948536" Type="User" Language="SFX" Hash="{4A7E94E0-549D-20B6-D86C-241A1E66CD79}">
 			<ShortName>Environment</ShortName>
 			<Path>Environment.bnk</Path>
 			<Media>
@@ -422,21 +422,21 @@
 				<GameParameter Id="3729505769" Name="TimeOfDay"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{170DB3FD-0996-F159-86F4-0B879D7F9538}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{65DCADF6-58A0-008D-8CE0-F02413895A97}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Media>
 				<File Id="265411209" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>Valley, Canyon 01.wav</ShortName>
-					<CachePath>Plugins/Wwise Convolution Reverb/Valley, Canyon 01_F1D645E3.wem</CachePath>
+					<CachePath>Plugins/Wwise Convolution Reverb/Valley, Canyon 01_130E9537.wem</CachePath>
 				</File>
 				<File Id="310598016" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>Valley, Low, Forest 30m.wav</ShortName>
-					<CachePath>Plugins/Wwise Convolution Reverb/Valley, Low, Forest 30m_0517DDB0.wem</CachePath>
+					<CachePath>Plugins/Wwise Convolution Reverb/Valley, Low, Forest 30m_258F4D88.wem</CachePath>
 				</File>
 				<File Id="873074497" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>Urban, Open Industrial Street 10m.wav</ShortName>
-					<CachePath>Plugins/Wwise Convolution Reverb/Urban, Open Industrial Street 10m_124596EF.wem</CachePath>
+					<CachePath>Plugins/Wwise Convolution Reverb/Urban, Open Industrial Street 10m_790887EA.wem</CachePath>
 				</File>
 				<File Id="1004851595" Language="SFX" Streaming="false" Location="OtherBank">
 					<ShortName>Field, Surround by Trees 10m.wav</ShortName>
@@ -706,7 +706,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{2B2BB0D9-C510-F904-EB87-3660D900D506}">
+		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{77EA87FC-C936-991B-350E-9880D134AFD3}">
 			<ShortName>MC</ShortName>
 			<Path>MC.bnk</Path>
 			<Media>
@@ -1363,7 +1363,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2691884509" Type="User" Language="SFX" Hash="{EB6082C3-A8F8-8660-1A24-1268F2511114}">
+		<SoundBank Id="2691884509" Type="User" Language="SFX" Hash="{6DC610BE-37B2-E98F-55B4-848AB73F0993}">
 			<ShortName>Big_Monsters</ShortName>
 			<Path>Big_Monsters.bnk</Path>
 			<Media>
@@ -1723,7 +1723,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{96ACB017-2223-8AD7-C7AA-4049EFDAFA31}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{C5B7DBB9-63C4-6093-564B-1CC37B5FF17A}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -4229,7 +4229,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3202316517" Type="User" Language="SFX" Hash="{686528C7-F53E-E941-6623-28F7688C9F1B}">
+		<SoundBank Id="3202316517" Type="User" Language="SFX" Hash="{30843F0A-DD1F-9153-FE71-863EFEAABF69}">
 			<ShortName>Switch</ShortName>
 			<Path>Switch.bnk</Path>
 			<Media>
@@ -4287,21 +4287,21 @@
 				<Event Id="3416772595" Name="Stop_Switch_Stone_Idle" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3251668866" Type="User" Language="SFX" Hash="{26864DC1-A044-C0CE-2A70-715D39FFB7ED}">
+		<SoundBank Id="3251668866" Type="User" Language="SFX" Hash="{7911FAA5-EC70-AF9B-C702-B5F63C808DCA}">
 			<ShortName>ConvoReverb</ShortName>
 			<Path>ConvoReverb.bnk</Path>
 			<Media>
 				<File Id="265411209" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Valley, Canyon 01.wav</ShortName>
-					<CachePath>Plugins/Wwise Convolution Reverb/Valley, Canyon 01_F1D645E3.wem</CachePath>
+					<CachePath>Plugins/Wwise Convolution Reverb/Valley, Canyon 01_130E9537.wem</CachePath>
 				</File>
 				<File Id="310598016" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Valley, Low, Forest 30m.wav</ShortName>
-					<CachePath>Plugins/Wwise Convolution Reverb/Valley, Low, Forest 30m_0517DDB0.wem</CachePath>
+					<CachePath>Plugins/Wwise Convolution Reverb/Valley, Low, Forest 30m_258F4D88.wem</CachePath>
 				</File>
 				<File Id="873074497" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Urban, Open Industrial Street 10m.wav</ShortName>
-					<CachePath>Plugins/Wwise Convolution Reverb/Urban, Open Industrial Street 10m_124596EF.wem</CachePath>
+					<CachePath>Plugins/Wwise Convolution Reverb/Urban, Open Industrial Street 10m_790887EA.wem</CachePath>
 				</File>
 				<File Id="1004851595" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Field, Surround by Trees 10m.wav</ShortName>
@@ -4333,7 +4333,7 @@
 				</ShareSets>
 			</Plugins>
 		</SoundBank>
-		<SoundBank Id="3893417221" Type="User" Language="SFX" Hash="{D5BAE88F-E38C-6F7F-CF22-869B22C26993}">
+		<SoundBank Id="3893417221" Type="User" Language="SFX" Hash="{2543D4FB-DA88-8B06-A120-B91282BE145C}">
 			<ShortName>Weapon</ShortName>
 			<Path>Weapon.bnk</Path>
 			<Media>
@@ -4509,7 +4509,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{743077EC-71C0-92EE-C6D9-AD5FCF8944FA}">
+		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{2BEB3CB2-6CDD-7A26-58E1-432192D3BE1E}">
 			<ShortName>Small_Monsters</ShortName>
 			<Path>Small_Monsters.bnk</Path>
 			<Media>
@@ -5192,5 +5192,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D1C7444B-B909-6BCA-195E-0733090B7710}</FileHash>
+	<FileHash>{D415BE7C-2F86-3174-421F-5E713C40E0A6}</FileHash>
 </SoundBanksInfo>

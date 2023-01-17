@@ -463,6 +463,11 @@
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>50</Value>
+							</ValueList>
+						</Property>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -660,6 +665,11 @@
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>40</Value>
+							</ValueList>
+						</Property>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="IsStreamingEnabled" Type="bool">
 							<ValueList>
@@ -671,12 +681,17 @@
 								<Value>True</Value>
 							</ValueList>
 						</Property>
-						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
-						<Property Name="Volume" Type="Real64">
+						<Property Name="Lowpass" Type="int16">
 							<ValueList>
-								<Value>-3</Value>
+								<Value>40</Value>
 							</ValueList>
 						</Property>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">

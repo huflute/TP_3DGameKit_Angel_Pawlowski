@@ -13,6 +13,9 @@
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="Menu" ID="{40572F36-A6F3-4437-9CAF-AD2CF4561EAC}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.01"/>
+					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{1F9790EC-5286-4B56-9310-34C68F2E85AE}"/>
 						<State Name="InGame" ID="{0E63CE26-2C04-4642-9C6B-DE4A22B1FCB4}"/>

@@ -130,7 +130,7 @@
 						</Effect>
 						<Effect Name="Echoes_Linear" ID="{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
 							<PropertyList>
-								<Property Name="DelayTime" Type="Real32" Value="0.3"/>
+								<Property Name="DelayTime" Type="Real32" Value="0.1"/>
 								<Property Name="Feedback" Type="Real32" Value="4"/>
 							</PropertyList>
 						</Effect>
@@ -2087,9 +2087,10 @@
 						</Effect>
 						<Effect Name="Ruins_ConvoVerb" ID="{44D9BDFD-1405-4B0E-8424-D83315BE0A72}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 							<PropertyList>
-								<Property Name="IRConvolutionStart" Type="Real64" Value="0.0984702526487369"/>
+								<Property Name="IRConvolutionStart" Type="Real64" Value="0.270793194784026"/>
 								<Property Name="IRConvolutionStop" Type="Real64" Value="5.03429166666667"/>
 								<Property Name="IRGraphicEQAutomate" Type="bool" Value="True"/>
+								<Property Name="IRLPFAutomate" Type="bool" Value="True"/>
 							</PropertyList>
 							<ChildrenList>
 								<PluginMediaSource Name="Valley, Low, Forest 30m" ID="{17BC4C54-AB55-44FC-835B-84A089EBF0F5}">
@@ -2141,6 +2142,11 @@
 							<Flags>5</Flags>
 						</Point>
 						<Point>
+							<XPos>1.05856</XPos>
+							<YPos>1617.04575</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
 							<XPos>5.03429166666667</XPos>
 							<YPos>20000</YPos>
 							<Flags>37</Flags>
@@ -2160,23 +2166,18 @@
 							<Flags>5</Flags>
 						</Point>
 						<Point>
-							<XPos>0.19077</XPos>
-							<YPos>-10.37037</YPos>
+							<XPos>0.25847</XPos>
+							<YPos>-18.98576</YPos>
 							<Flags>0</Flags>
 						</Point>
 						<Point>
-							<XPos>0.60313</XPos>
-							<YPos>0</YPos>
-							<Flags>0</Flags>
-						</Point>
-						<Point>
-							<XPos>2.91103</XPos>
-							<YPos>-22</YPos>
+							<XPos>0.837</XPos>
+							<YPos>-6.76923</YPos>
 							<Flags>0</Flags>
 						</Point>
 						<Point>
 							<XPos>5.03429166666667</XPos>
-							<YPos>-96</YPos>
+							<YPos>-55.38461</YPos>
 							<Flags>37</Flags>
 						</Point>
 					</PointList>
@@ -2188,8 +2189,16 @@
 						</Effect>
 						<Effect Name="HiddenPlace_ConvoVerb" ID="{B3FA61E5-ABBF-4838-B299-6CB834D2D9BD}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 							<PropertyList>
+								<Property Name="IRConvolutionSmooth" Type="Real32" Value="100"/>
 								<Property Name="IRConvolutionStart" Type="Real64" Value="0.107905078443357"/>
-								<Property Name="IRConvolutionStop" Type="Real64" Value="2.52189583333333"/>
+								<Property Name="IRConvolutionStop" Type="Real64" Value="2.40782475040749"/>
+								<Property Name="IRConvolutionThreshold" Type="Real32">
+									<ValueList>
+										<Value>-80</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IRLPFAutomate" Type="bool" Value="True"/>
+								<Property Name="IRLevel" Type="Real32" Value="-5"/>
 							</PropertyList>
 							<ChildrenList>
 								<PluginMediaSource Name="Urban, Open Industrial Street 10m" ID="{7269D0AA-C2D7-464A-81F6-86492450A629}">
@@ -2237,7 +2246,7 @@
 						</Point>
 						<Point>
 							<XPos>2.52189583333333</XPos>
-							<YPos>20000</YPos>
+							<YPos>20</YPos>
 							<Flags>37</Flags>
 						</Point>
 					</PointList>
@@ -2255,18 +2264,23 @@
 							<Flags>5</Flags>
 						</Point>
 						<Point>
-							<XPos>0.19115</XPos>
-							<YPos>-9.83607</YPos>
+							<XPos>0.16341</XPos>
+							<YPos>-2.45146</YPos>
 							<Flags>0</Flags>
 						</Point>
 						<Point>
-							<XPos>0.26822</XPos>
+							<XPos>0.30214</XPos>
 							<YPos>0</YPos>
 							<Flags>0</Flags>
 						</Point>
 						<Point>
+							<XPos>1.75115</XPos>
+							<YPos>-120</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
 							<XPos>2.52189583333333</XPos>
-							<YPos>-44.26229</YPos>
+							<YPos>-120</YPos>
 							<Flags>37</Flags>
 						</Point>
 					</PointList>
@@ -2326,7 +2340,7 @@
 						</Point>
 						<Point>
 							<XPos>20000</XPos>
-							<YPos>5.04512</YPos>
+							<YPos>0.67828</YPos>
 							<Flags>37</Flags>
 						</Point>
 					</PointList>
@@ -2363,8 +2377,18 @@
 							<Flags>5</Flags>
 						</Point>
 						<Point>
-							<XPos>6.58033</XPos>
-							<YPos>-115.69231</YPos>
+							<XPos>0.42642</XPos>
+							<YPos>-27.6923</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>1.49749</XPos>
+							<YPos>-53.53846</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>2.74357</XPos>
+							<YPos>-120</YPos>
 							<Flags>0</Flags>
 						</Point>
 						<Point>
