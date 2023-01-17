@@ -27,7 +27,7 @@ namespace Gamekit3D
         public float fleeingDistance = 3.0f;
         public RangeWeapon rangeWeapon;
 
-        [Header("Audio")]
+       /* [Header("Audio")]
         public RandomAudioPlayer attackAudio;
         public RandomAudioPlayer frontStepAudio;
         public RandomAudioPlayer backStepAudio;
@@ -35,6 +35,7 @@ namespace Gamekit3D
         public RandomAudioPlayer gruntAudio;
         public RandomAudioPlayer deathAudio;
         public RandomAudioPlayer spottedAudio;
+       */
 
         public EnemyController controller { get { return m_Controller; } }
         public PlayerController target { get { return m_Target; } }
@@ -86,11 +87,11 @@ namespace Gamekit3D
             controller.animator.SetTrigger(hashThrown);
 
             //We unparent the deathAudio source, as it would destroy it with the gameobject when it get replaced by the ragdol otherwise
-            deathAudio.transform.SetParent(null, true);
-            deathAudio.PlayRandomClip();
+            //deathAudio.transform.SetParent(null, true);
+           // deathAudio.PlayRandomClip();
             AkSoundEngine.PostEvent("Play_Small_Monster_VOX_Death", this.gameObject);
 
-            GameObject.Destroy(deathAudio, deathAudio.clip == null ? 0.0f : deathAudio.clip.length + 0.5f);
+            //GameObject.Destroy(deathAudio, deathAudio.clip == null ? 0.0f : deathAudio.clip.length + 0.5f);
         }
 
         public void ApplyDamage(Damageable.DamageMessage msg)
@@ -113,7 +114,7 @@ namespace Gamekit3D
 
             controller.animator.SetTrigger(hashHit);
 
-            hitAudio.PlayRandomClip();
+           // hitAudio.PlayRandomClip();
         }
 
         public void Shoot()
@@ -135,7 +136,7 @@ namespace Gamekit3D
             m_RememberedTargetPosition = m_Target.transform.position;
         }
 
-        void PlayStep(int frontFoot)
+        /*void PlayStep(int frontFoot)
         {
             if (frontStepAudio != null && frontFoot == 1)
                 frontStepAudio.PlayRandomClip();
@@ -156,7 +157,7 @@ namespace Gamekit3D
                 //Debug.Log("Joueur repéré par le spitter");
                 spottedAudio.PlayRandomClip();
             }
-        }
+        }*/
 
         public void CheckNeedFleeing()
         {
@@ -199,7 +200,7 @@ namespace Gamekit3D
         public void FindTarget()
         {
             //we ignore height difference if the target was already seen
-            Debug.Log("Spitter a repéré le joueur");
+           // Debug.Log("Spitter a repéré le joueur");
             m_Target = playerScanner.Detect(transform, m_Target == null);
             m_Controller.animator.SetBool(hashHaveEnemy, m_Target != null);
         }

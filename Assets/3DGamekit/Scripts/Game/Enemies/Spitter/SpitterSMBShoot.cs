@@ -29,8 +29,8 @@ namespace Gamekit3D
             m_MonoBehaviour.transform.forward = toTarget.normalized;
             m_MonoBehaviour.controller.SetForward(m_MonoBehaviour.transform.forward);
 
-            if (m_MonoBehaviour.attackAudio != null)
-                m_MonoBehaviour.attackAudio.PlayRandomClip();
+           // if (m_MonoBehaviour.attackAudio != null)
+            //    m_MonoBehaviour.attackAudio.PlayRandomClip();
         }
 
         public override void OnSLStateNoTransitionUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)

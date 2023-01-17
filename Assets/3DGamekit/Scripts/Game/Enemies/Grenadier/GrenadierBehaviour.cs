@@ -51,11 +51,12 @@ namespace Gamekit3D
         public Damageable damageable { get { return m_Damageable; } }
 
         [Header("Audio")]
-        public RandomAudioPlayer deathAudioPlayer;
+       /* public RandomAudioPlayer deathAudioPlayer;
         public RandomAudioPlayer damageAudioPlayer;
         public RandomAudioPlayer footstepAudioPlayer;
         public RandomAudioPlayer throwAudioPlayer;
         public RandomAudioPlayer punchAudioPlayer;
+       */
 
         protected PlayerController m_Target;
         //used to store the position of the target when the Grenadier decide to shoot, so if the player
@@ -129,7 +130,7 @@ namespace Gamekit3D
 
         public void Hit()
         {
-            damageAudioPlayer.PlayRandomClip();
+            //damageAudioPlayer.PlayRandomClip();
             m_EnemyController.animator.SetTrigger(hashHitParam);
             m_CoreMaterial.SetColor("_Color2", Color.red);
             AkSoundEngine.PostEvent("Play_Grenadier_Hit", this.gameObject);
@@ -137,7 +138,7 @@ namespace Gamekit3D
 
         public void Die()
         {
-            deathAudioPlayer.PlayRandomClip();
+            //deathAudioPlayer.PlayRandomClip();
             m_EnemyController.animator.SetTrigger(hashDeathParam);
             
             
@@ -171,13 +172,13 @@ namespace Gamekit3D
 
         public void PlayStep()
         {
-            footstepAudioPlayer.PlayRandomClip();
+            //footstepAudioPlayer.PlayRandomClip();
             AkSoundEngine.PostEvent("Play_Grenadier_FT_Normal", this.gameObject);
         }
 
         public void Shoot()
         {
-            throwAudioPlayer.PlayRandomClip();
+            //throwAudioPlayer.PlayRandomClip();
 
             Vector3 toTarget = m_GrenadeTarget - transform.position;
 
