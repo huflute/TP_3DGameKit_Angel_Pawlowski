@@ -20793,6 +20793,7 @@ GameObject:
   - component: {fileID: 1969022207}
   - component: {fileID: 1969022206}
   - component: {fileID: 1969022203}
+  - component: {fileID: 1969022209}
   m_Layer: 23
   m_Name: Chomper_Gameplay
   m_TagString: Untagged
@@ -20872,6 +20873,18 @@ Transform:
   m_Father: {fileID: 215932338}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 19.741001, y: -255.17899, z: 9.004001}
+--- !u!114 &1969022209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1969022200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31df90d6367a70f4a88fac3d43c38ffd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1970648496
 GameObject:
   m_ObjectHideFlags: 0

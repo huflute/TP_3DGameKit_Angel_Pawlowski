@@ -54,6 +54,7 @@
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+						<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="IsStreamingEnabled" Type="bool">
 							<ValueList>
@@ -63,6 +64,11 @@
 						<Property Name="IsZeroLatency" Type="bool">
 							<ValueList>
 								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>25</Value>
 							</ValueList>
 						</Property>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
@@ -866,7 +872,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="20m" ID="{1A19C147-517E-468A-AC33-4651C12FF635}" WorkUnitID="{B378FA7B-E709-4147-8665-F99F8F07F9BC}"/>
+							<ObjectRef Name="40m" ID="{2C0FDDF6-C82F-467A-A7FF-8BEEF9C203C4}" WorkUnitID="{B378FA7B-E709-4147-8665-F99F8F07F9BC}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>

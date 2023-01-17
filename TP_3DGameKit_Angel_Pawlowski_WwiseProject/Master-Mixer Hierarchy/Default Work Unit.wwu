@@ -14,12 +14,15 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="SFX_Audio_Bus" ID="{4B33AC68-214F-4993-8E98-0CA541E5C25D}">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
 								<Bus Name="Environmental" ID="{6D5DA4ED-04CC-475D-A639-EDC09C76D74C}">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
-										<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
 										<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
 									</PropertyList>
 									<ChildrenList>
@@ -140,8 +143,8 @@
 								</Bus>
 								<Bus Name="Non_Environmental" ID="{87DA3071-A648-414E-B9A2-413CCC6F30B9}">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
-										<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
 												<Value>5</Value>

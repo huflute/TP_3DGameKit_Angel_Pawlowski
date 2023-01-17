@@ -1176,7 +1176,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
-													<ObjectRef Name="100" ID="{A801A7AD-7DA5-4422-A224-D0C78A8448B9}" WorkUnitID="{B378FA7B-E709-4147-8665-F99F8F07F9BC}"/>
+													<ObjectRef Name="50m" ID="{A801A7AD-7DA5-4422-A224-D0C78A8448B9}" WorkUnitID="{B378FA7B-E709-4147-8665-F99F8F07F9BC}"/>
 												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>

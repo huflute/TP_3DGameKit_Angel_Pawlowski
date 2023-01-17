@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="181270742" Type="User" Language="SFX" Hash="{432F6D61-3D97-3455-D25E-A236BAB47D67}">
+		<SoundBank Id="181270742" Type="User" Language="SFX" Hash="{29E6AACF-E209-7F3D-D3C2-B2AFE2AC7434}">
 			<ShortName>Interactables</ShortName>
 			<Path>Interactables.bnk</Path>
 			<Media>
@@ -74,7 +74,7 @@
 				<Event Id="1628176860" Name="Stop_Small_Door_Open_2D" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{5C86AA39-18D2-443C-7D6A-9A851821B6AB}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{D4484B29-F45B-3786-5267-1C4B15123D6B}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
@@ -181,7 +181,7 @@
 						<MediaRef Id="926832286"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2993009189" Name="Play_Amb_Level01_Swamp" MaxAttenuation="100" DurationType="Infinite">
+				<Event Id="2993009189" Name="Play_Amb_Level01_Swamp" MaxAttenuation="50" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="238080956"/>
 						<MediaRef Id="455330908"/>
@@ -209,7 +209,7 @@
 				<GameParameter Id="3729505769" Name="TimeOfDay"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1229948536" Type="User" Language="SFX" Hash="{2C3541D2-BFFB-212E-D6CD-0A7FA8A4044B}">
+		<SoundBank Id="1229948536" Type="User" Language="SFX" Hash="{0AE26E67-4F67-C78A-6066-29DE3A0BAC06}">
 			<ShortName>Environment</ShortName>
 			<Path>Environment.bnk</Path>
 			<Media>
@@ -401,7 +401,7 @@
 						<MediaRef Id="392129282"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="781754601" Name="Play_Spaceship_Loop_End" MaxAttenuation="20" DurationType="Infinite">
+				<Event Id="781754601" Name="Play_Spaceship_Loop_End" MaxAttenuation="30" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="562284632"/>
 					</MediaRefs>
@@ -422,7 +422,7 @@
 				<GameParameter Id="3729505769" Name="TimeOfDay"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{ED29810C-95B2-48E3-397B-1C7D4F985C30}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{8516305A-00BB-9A3F-0A0A-FBE0BA55CCAE}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Media>
@@ -713,7 +713,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{AF5E2FDC-D5E0-44EA-D9F5-6A196C2DD2BF}">
+		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{CFE0EA1D-170F-B291-401F-437162B88833}">
 			<ShortName>MC</ShortName>
 			<Path>MC.bnk</Path>
 			<Media>
@@ -1370,7 +1370,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2691884509" Type="User" Language="SFX" Hash="{53C0DBFD-75FE-9261-A8CC-D96197B82BDC}">
+		<SoundBank Id="2691884509" Type="User" Language="SFX" Hash="{C8CDCE16-63A5-85DC-7E91-63204B778240}">
 			<ShortName>Big_Monsters</ShortName>
 			<Path>Big_Monsters.bnk</Path>
 			<Media>
@@ -1730,7 +1730,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{0E1DB50D-29CC-34C1-94F2-8E2F32E65A42}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{24CE2603-BEB9-9A5E-C0C1-0ECE5B79DAF7}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -1953,6 +1953,10 @@
 				<File Id="166074887" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Run_Stone_07.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Stone_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="166833952" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CC-CK Punch Wet Tight 04 1.wav</ShortName>
+					<CachePath>SFX/CC-CK Punch Wet Tight 04 1_10C4C929.wem</CachePath>
 				</File>
 				<File Id="170030737" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 14012023\RFX_Night_Creatures_04.wav</ShortName>
@@ -2308,11 +2312,19 @@
 					<ShortName>Export 12012023 V2\MC_FOL_Attack_02.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/MC_FOL_Attack_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="385001446" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CC-CK Punch Wet Tight 04 4.wav</ShortName>
+					<CachePath>SFX/CC-CK Punch Wet Tight 04 4_10C4C929.wem</CachePath>
+				</File>
 				<File Id="392129282" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Export 14012023\River.wav</ShortName>
 					<Path>Media/392129282.wem</Path>
 					<CachePath>SFX/Export 14012023/River_D79FB2B7.wem</CachePath>
 					<PrefetchSize>9696</PrefetchSize>
+				</File>
+				<File Id="392971691" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CC-CK Punch Wet Tight 04.wav</ShortName>
+					<CachePath>SFX/CC-CK Punch Wet Tight 04_10C4C929.wem</CachePath>
 				</File>
 				<File Id="394596718" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI_Navigate_03.wav</ShortName>
@@ -2325,6 +2337,10 @@
 				<File Id="399770579" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\MC_FOL_Land_03.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/MC_FOL_Land_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="420363345" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CC-CK Punch Wet Tight 04 3.wav</ShortName>
+					<CachePath>SFX/CC-CK Punch Wet Tight 04 3_10C4C929.wem</CachePath>
 				</File>
 				<File Id="421589509" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Small_Monster_Bodyfall_Grass_03.wav</ShortName>
@@ -2351,6 +2367,10 @@
 					<Path>Media/443113834.wem</Path>
 					<CachePath>SFX/Music_Loop_Combat_Light_01_120bpm_8bars_D79FB2B7.wem</CachePath>
 					<PrefetchSize>19296</PrefetchSize>
+				</File>
+				<File Id="444948040" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CC-CK Punch Wet Tight 04 2.wav</ShortName>
+					<CachePath>SFX/CC-CK Punch Wet Tight 04 2_10C4C929.wem</CachePath>
 				</File>
 				<File Id="445531150" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Jump_Mud_02.wav</ShortName>
@@ -3259,7 +3279,7 @@
 						<MediaRef Id="926832286"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2993009189" Name="Play_Amb_Level01_Swamp" MaxAttenuation="100" DurationType="Infinite">
+				<Event Id="2993009189" Name="Play_Amb_Level01_Swamp" MaxAttenuation="50" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="238080956"/>
 						<MediaRef Id="455330908"/>
@@ -3840,10 +3860,15 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1602398710" Name="Play_Small_Monster_Hit" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.23222917" DurationMax="0.2714375">
+				<Event Id="1602398710" Name="Play_Small_Monster_Hit" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.23222917" DurationMax="0.30658334">
 					<MediaRefs>
+						<MediaRef Id="166833952"/>
 						<MediaRef Id="197690906"/>
 						<MediaRef Id="204189178"/>
+						<MediaRef Id="385001446"/>
+						<MediaRef Id="392971691"/>
+						<MediaRef Id="420363345"/>
+						<MediaRef Id="444948040"/>
 						<MediaRef Id="474815787"/>
 						<MediaRef Id="607948710"/>
 						<MediaRef Id="659355389"/>
@@ -4023,7 +4048,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="781754601" Name="Play_Spaceship_Loop_End" MaxAttenuation="20" DurationType="Infinite">
+				<Event Id="781754601" Name="Play_Spaceship_Loop_End" MaxAttenuation="30" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="562284632"/>
 					</MediaRefs>
@@ -4250,7 +4275,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3202316517" Type="User" Language="SFX" Hash="{E959B211-6B7D-E106-5CAA-A6AC7E9D55A9}">
+		<SoundBank Id="3202316517" Type="User" Language="SFX" Hash="{18349CF6-EB57-D21B-491F-DBC6108B4AE2}">
 			<ShortName>Switch</ShortName>
 			<Path>Switch.bnk</Path>
 			<Media>
@@ -4354,7 +4379,7 @@
 				</ShareSets>
 			</Plugins>
 		</SoundBank>
-		<SoundBank Id="3893417221" Type="User" Language="SFX" Hash="{2543D4FB-DA88-8B06-A120-B91282BE145C}">
+		<SoundBank Id="3893417221" Type="User" Language="SFX" Hash="{7C8D848D-6BD4-71EC-4D39-DDE21A3FC960}">
 			<ShortName>Weapon</ShortName>
 			<Path>Weapon.bnk</Path>
 			<Media>
@@ -4530,7 +4555,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{AEE236CD-0A41-CAC0-0E39-B75421E33803}">
+		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{39933475-8B3D-723A-9BCC-3943C2A9DCD4}">
 			<ShortName>Small_Monsters</ShortName>
 			<Path>Small_Monsters.bnk</Path>
 			<Media>
@@ -4607,6 +4632,10 @@
 				<File Id="166074887" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Run_Stone_07.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Run_Stone_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="166833952" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CC-CK Punch Wet Tight 04 1.wav</ShortName>
+					<CachePath>SFX/CC-CK Punch Wet Tight 04 1_10C4C929.wem</CachePath>
 				</File>
 				<File Id="173511823" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Chomper_Attack_02.wav</ShortName>
@@ -4708,6 +4737,18 @@
 					<ShortName>Export 12012023 V2\Monster_Vanish.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Monster_Vanish_10C4C929.wem</CachePath>
 				</File>
+				<File Id="385001446" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CC-CK Punch Wet Tight 04 4.wav</ShortName>
+					<CachePath>SFX/CC-CK Punch Wet Tight 04 4_10C4C929.wem</CachePath>
+				</File>
+				<File Id="392971691" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CC-CK Punch Wet Tight 04.wav</ShortName>
+					<CachePath>SFX/CC-CK Punch Wet Tight 04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="420363345" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CC-CK Punch Wet Tight 04 3.wav</ShortName>
+					<CachePath>SFX/CC-CK Punch Wet Tight 04 3_10C4C929.wem</CachePath>
+				</File>
 				<File Id="421589509" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Small_Monster_Bodyfall_Grass_03.wav</ShortName>
 					<CachePath>SFX/Small_Monster_Bodyfall_Grass_03_10C4C929.wem</CachePath>
@@ -4715,6 +4756,10 @@
 				<File Id="432061020" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Bodyfall_Mud_01.wav</ShortName>
 					<CachePath>SFX/Export 12012023 V2/Small_Monster_Bodyfall_Mud_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="444948040" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CC-CK Punch Wet Tight 04 2.wav</ShortName>
+					<CachePath>SFX/CC-CK Punch Wet Tight 04 2_10C4C929.wem</CachePath>
 				</File>
 				<File Id="451660734" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Export 12012023 V2\Small_Monster_Run_Stone_08.wav</ShortName>
@@ -5007,10 +5052,15 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1602398710" Name="Play_Small_Monster_Hit" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.23222917" DurationMax="0.2714375">
+				<Event Id="1602398710" Name="Play_Small_Monster_Hit" MaxAttenuation="10" DurationType="OneShot" DurationMin="0.23222917" DurationMax="0.30658334">
 					<MediaRefs>
+						<MediaRef Id="166833952"/>
 						<MediaRef Id="197690906"/>
 						<MediaRef Id="204189178"/>
+						<MediaRef Id="385001446"/>
+						<MediaRef Id="392971691"/>
+						<MediaRef Id="420363345"/>
+						<MediaRef Id="444948040"/>
 						<MediaRef Id="474815787"/>
 						<MediaRef Id="607948710"/>
 						<MediaRef Id="659355389"/>
@@ -5227,5 +5277,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{98CCD67A-C448-EC3F-8109-ECFBD5D9F342}</FileHash>
+	<FileHash>{9236E89D-3A93-C393-E52D-C9534AD582D0}</FileHash>
 </SoundBanksInfo>

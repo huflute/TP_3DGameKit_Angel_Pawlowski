@@ -425,6 +425,16 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
+										<Action Name="" ID="{F9B20A33-F25B-4C2C-83DF-EAB92BA02515}" ShortID="913194142">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="39"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="TimeOfDay" ID="{964134B9-4B43-4764-B76C-512362D1DB38}" WorkUnitID="{3C553CBA-1C28-4BD7-8906-E9C34E19DF65}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 									</ChildrenList>
 								</Event>
 							</ChildrenList>
@@ -620,6 +630,13 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="Small_Monster_Hit" ID="{283F00DD-4900-4012-8A6C-1389AD04F825}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{E2ABCF17-C977-471E-8234-A2FF0C9FB7B4}" ShortID="1050691634">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Small_Monster_Hit_02" ID="{5DADA310-64C7-425A-A47B-451553B45114}" WorkUnitID="{8916B271-FCC3-47E0-83F0-D91580095A54}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -1650,6 +1667,16 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="IsInCombat_Level01" ID="{F463D25A-E3AC-4D38-AE03-E43EBB081553}" WorkUnitID="{5DE733CC-3D94-445A-9CCC-90577F4435C6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4E2857E6-DF05-47A5-AF7E-1AEEFE3A12B8}" ShortID="186642717">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="39"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TimeOfDay" ID="{964134B9-4B43-4764-B76C-512362D1DB38}" WorkUnitID="{3C553CBA-1C28-4BD7-8906-E9C34E19DF65}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
