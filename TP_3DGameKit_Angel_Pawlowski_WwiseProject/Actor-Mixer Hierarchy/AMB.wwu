@@ -1290,7 +1290,8 @@
 														<StateRef Name="True" ID="{E681315C-42EC-4138-8D1C-F2C9E6FC7CD3}"/>
 														<CustomState Name="" ID="{9E88672F-89A7-4AD4-89DB-7D172BF52CED}" ShortID="671300849">
 															<PropertyList>
-																<Property Name="Volume" Type="Real64" Value="-12"/>
+																<Property Name="Lowpass" Type="int16" Value="50"/>
+																<Property Name="Volume" Type="Real64" Value="-6"/>
 															</PropertyList>
 														</CustomState>
 													</CustomState>
@@ -1569,6 +1570,28 @@
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="IsInCombat" ID="{5F6EA7A0-F88B-41CD-A8B3-19B9B1388609}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="True" ID="{E681315C-42EC-4138-8D1C-F2C9E6FC7CD3}"/>
+												<CustomState Name="" ID="{DCD7F1FC-3A81-4D71-A4DB-CF0BA4941901}" ShortID="792334979">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="50"/>
+														<Property Name="Volume" Type="Real64" Value="-6"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="False" ID="{BB0CE337-DE91-49E8-B789-B8B7EA2DBAC0}"/>
+												<CustomState Name="" ID="{9374A214-D2E1-4784-BF83-0E9067359339}" ShortID="996583279"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 								</ActorMixer>
 							</ChildrenList>
 						</ActorMixer>

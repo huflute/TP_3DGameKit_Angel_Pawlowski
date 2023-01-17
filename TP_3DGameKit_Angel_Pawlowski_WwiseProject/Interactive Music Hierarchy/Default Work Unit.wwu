@@ -760,6 +760,27 @@
 							</EntryList>
 						</MusicSwitchContainer>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Discovery" ID="{9CDBD2C9-1876-4AC1-936B-3CF3114F6A4C}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="False" ID="{32788AB8-61D5-4022-96AC-7F570F680817}"/>
+								<CustomState Name="" ID="{5D9F1D07-9C37-4366-9EB5-587990CC75BA}" ShortID="92059404"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="True" ID="{AC285BFD-9887-4C43-8015-D7ECDDD23507}"/>
+								<CustomState Name="" ID="{6AE22921-CD71-46FC-9A08-6277805A6304}" ShortID="892437826">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{DF0735C1-3FE0-4F8D-86CD-E0AA3659386D}">
 							<PropertyList>
@@ -2250,6 +2271,27 @@
 							</Playlist>
 						</MusicPlaylistContainer>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Discovery" ID="{9CDBD2C9-1876-4AC1-936B-3CF3114F6A4C}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="False" ID="{32788AB8-61D5-4022-96AC-7F570F680817}"/>
+								<CustomState Name="" ID="{50212902-5ED6-4AD1-BF75-B79CAB605713}" ShortID="368194275"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="True" ID="{AC285BFD-9887-4C43-8015-D7ECDDD23507}"/>
+								<CustomState Name="" ID="{550D42F3-98C4-4359-BCE6-3848CE9DEEA4}" ShortID="718425513">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{D3342030-65F2-42FC-AFB9-3A8944323D39}">
 							<PropertyList>

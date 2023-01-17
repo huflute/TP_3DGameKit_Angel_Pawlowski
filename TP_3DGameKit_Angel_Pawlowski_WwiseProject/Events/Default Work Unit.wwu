@@ -1004,6 +1004,7 @@
 											<PropertyList>
 												<Property Name="AbsoluteOrRelative" Type="int16" Value="1"/>
 												<Property Name="ActionType" Type="int16" Value="13"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
 												<Property Name="Pitch" Type="int32" Value="200"/>
 											</PropertyList>
 											<ReferenceList>
