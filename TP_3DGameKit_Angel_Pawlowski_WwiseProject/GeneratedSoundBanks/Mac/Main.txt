@@ -124,6 +124,7 @@ State Group	ID	Name			Wwise Object Path	Notes
 	1174995064	InOut			\Default Work Unit\InOut	
 	1627457696	IsInCombat			\Default Work Unit\IsInCombat	
 	3663283413	Discovery			\Default Work Unit\Discovery	
+	4264815106	EndGame			\Default Work Unit\EndGame	
 
 State	ID	Name	State Group			Notes
 	645492555	Out	InOut			
@@ -135,12 +136,17 @@ State	ID	Name	State Group			Notes
 	748895195	None	Discovery			
 	2452206122	False	Discovery			
 	3053630529	True	Discovery			
+	748895195	None	EndGame			
+	2452206122	False	EndGame			
+	3053630529	True	EndGame			
 
 Custom State	ID	Name	State Group	Owner		Notes
 	253204561	True	IsInCombat	\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Environmental\Level01\Music_Level01		
+	261829327	False	EndGame	\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Environmental\Level01\Music_Level01		
 	424316670	In	InOut	\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Environmental\Level01\Amb_Swamp		
 	671300849	True	IsInCombat	\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Environmental\Level01\Amb_Swamp		
 	718425513	True	Discovery	\Interactive Music Hierarchy\Default Work Unit\IsInCombat_Level02		
+	768312256	True	EndGame	\Interactive Music Hierarchy\Default Work Unit\IsInCombat_Level02		
 	792334979	True	IsInCombat	\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Environmental\Level02		
 	892437826	True	Discovery	\Interactive Music Hierarchy\Default Work Unit\IsInCombat_Level01		
 	999479809	True	Discovery	\Actor-Mixer Hierarchy\Default Work Unit\AMB\Amb\Environmental\Level01\Music_Level01		

@@ -11,6 +11,7 @@ State Group	ID	Name			Wwise Object Path	Notes
 	1627457696	IsInCombat			\Default Work Unit\IsInCombat	
 	2607556080	Menu			\Default Work Unit\Menu	
 	3663283413	Discovery			\Default Work Unit\Discovery	
+	4264815106	EndGame			\Default Work Unit\EndGame	
 
 State	ID	Name	State Group			Notes
 	645492555	Out	InOut			
@@ -30,6 +31,9 @@ State	ID	Name	State Group			Notes
 	748895195	None	Discovery			
 	2452206122	False	Discovery			
 	3053630529	True	Discovery			
+	748895195	None	EndGame			
+	2452206122	False	EndGame			
+	3053630529	True	EndGame			
 
 Custom State	ID	Name	State Group	Owner		Notes
 	623285099	InMenu	Menu	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music_Audio_Bus		

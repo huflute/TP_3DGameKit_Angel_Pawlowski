@@ -193,7 +193,7 @@
 				</Attenuation>
 				<Attenuation Name="Room" ID="{2D69F6DA-851F-4FEB-A41B-0784329A7B6D}" ShortID="207104383">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="10"/>
+						<Property Name="RadiusMax" Type="Real64" Value="15"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -210,7 +210,7 @@
 											<SegmentShape>Log2</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>10</XPos>
+											<XPos>15</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -237,7 +237,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>10</XPos>
+											<XPos>15</XPos>
 											<YPos>7</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -262,13 +262,13 @@
 											<SegmentShape>Log3</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>2.06738</XPos>
+											<XPos>3.10107</XPos>
 											<YPos>47.9798</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>SCurve</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>10</XPos>
+											<XPos>15</XPos>
 											<YPos>0</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -531,9 +531,9 @@
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>36.53107</YPos>
+											<YPos>100</YPos>
 											<Flags>5</Flags>
-											<SegmentShape>SCurve</SegmentShape>
+											<SegmentShape>Log2</SegmentShape>
 										</Point>
 										<Point>
 											<XPos>20</XPos>

@@ -74,7 +74,7 @@
 				<Event Id="1628176860" Name="Stop_Small_Door_Open_2D" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{15935D29-2CFA-1ED8-A8D7-D2B24B5BBE04}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{9C0E5D19-AE7C-E609-1D07-CBC2889682F0}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
@@ -209,7 +209,7 @@
 				<GameParameter Id="3729505769" Name="TimeOfDay"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1229948536" Type="User" Language="SFX" Hash="{4A7E94E0-549D-20B6-D86C-241A1E66CD79}">
+		<SoundBank Id="1229948536" Type="User" Language="SFX" Hash="{806D1C83-5C38-3892-9B10-5B4FD59723C1}">
 			<ShortName>Environment</ShortName>
 			<Path>Environment.bnk</Path>
 			<Media>
@@ -422,7 +422,7 @@
 				<GameParameter Id="3729505769" Name="TimeOfDay"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{65DCADF6-58A0-008D-8CE0-F02413895A97}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F48A64F2-2FAD-25E4-66E3-6EAA1E7087D8}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Media>
@@ -573,6 +573,13 @@
 					</States>
 				</StateGroup>
 				<StateGroup Id="3663283413" Name="Discovery">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="2452206122" Name="False"/>
+						<State Id="3053630529" Name="True"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="4264815106" Name="EndGame">
 					<States>
 						<State Id="748895195" Name="None"/>
 						<State Id="2452206122" Name="False"/>
@@ -1723,7 +1730,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{C5B7DBB9-63C4-6093-564B-1CC37B5FF17A}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{E556C92E-3206-4F0C-FD60-DE03E835F15B}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -5192,5 +5199,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D415BE7C-2F86-3174-421F-5E713C40E0A6}</FileHash>
+	<FileHash>{7BCA6366-331B-A718-F3CF-97D53FB77A5D}</FileHash>
 </SoundBanksInfo>

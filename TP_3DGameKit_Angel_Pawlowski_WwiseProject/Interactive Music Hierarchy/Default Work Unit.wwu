@@ -2283,6 +2283,9 @@
 							<StateGroupInfo>
 								<StateGroupRef Name="Discovery" ID="{9CDBD2C9-1876-4AC1-936B-3CF3114F6A4C}"/>
 							</StateGroupInfo>
+							<StateGroupInfo>
+								<StateGroupRef Name="EndGame" ID="{047456CF-983A-4762-AFC8-0EEB585344B2}"/>
+							</StateGroupInfo>
 						</StateGroupList>
 						<CustomStateList>
 							<CustomState>
@@ -2290,8 +2293,20 @@
 								<CustomState Name="" ID="{50212902-5ED6-4AD1-BF75-B79CAB605713}" ShortID="368194275"/>
 							</CustomState>
 							<CustomState>
+								<StateRef Name="False" ID="{29A77F21-C9B4-4265-B08B-94B601DFF18F}"/>
+								<CustomState Name="" ID="{5803DC6A-94E4-46FD-BDA7-D49EEC603315}" ShortID="53943249"/>
+							</CustomState>
+							<CustomState>
 								<StateRef Name="True" ID="{AC285BFD-9887-4C43-8015-D7ECDDD23507}"/>
 								<CustomState Name="" ID="{550D42F3-98C4-4359-BCE6-3848CE9DEEA4}" ShortID="718425513">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="True" ID="{9528B357-D2A3-4E86-91DC-3FD44D108CA5}"/>
+								<CustomState Name="" ID="{8F5F9316-F49D-473D-B82E-63C6481BA561}" ShortID="768312256">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64" Value="-108"/>
 									</PropertyList>

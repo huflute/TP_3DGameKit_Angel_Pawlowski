@@ -43,6 +43,13 @@
 						<State Name="Out" ID="{D3DF4B3B-A817-4640-86EA-49AF48388A1D}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="EndGame" ID="{047456CF-983A-4762-AFC8-0EEB585344B2}">
+					<ChildrenList>
+						<State Name="None" ID="{93FC33DD-309E-4C2E-B445-66B44A590BB3}"/>
+						<State Name="True" ID="{9528B357-D2A3-4E86-91DC-3FD44D108CA5}"/>
+						<State Name="False" ID="{29A77F21-C9B4-4265-B08B-94B601DFF18F}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

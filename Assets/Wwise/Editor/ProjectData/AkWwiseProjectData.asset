@@ -3685,7 +3685,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: dde22e8dd084f74f8c90764d69789553
     GuidInternal: 
-    m_lastTime: -8585276497728630678
+    m_lastTime: -8585276479956536493
     List:
     - name: Discovery
       guid: c9d2db9c7618c14a936b3cf3114f6a4c
@@ -3750,6 +3750,72 @@ MonoBehaviour:
         - ElementName: True
           ObjectType: 8
           guid: fd5b28ac8798434c8015d7ecddd23507
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: EndGame
+      guid: cf5674043a986247afc80eeb585344b2
+      id: 4264815106
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: dde22e8dd084f74f8c90764d69789553
+      - ElementName: EndGame
+        ObjectType: 9
+        guid: cf5674043a986247afc80eeb585344b2
+      Path: States\Default Work Unit\EndGame
+      values:
+      - name: False
+        guid: 217fa729b4c96542b08b94b601dff18f
+        id: 2452206122
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dde22e8dd084f74f8c90764d69789553
+        - ElementName: EndGame
+          ObjectType: 9
+          guid: cf5674043a986247afc80eeb585344b2
+        - ElementName: False
+          ObjectType: 8
+          guid: 217fa729b4c96542b08b94b601dff18f
+      - name: None
+        guid: dd33fc939e302e4cb44566b44a590bb3
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dde22e8dd084f74f8c90764d69789553
+        - ElementName: EndGame
+          ObjectType: 9
+          guid: cf5674043a986247afc80eeb585344b2
+        - ElementName: None
+          ObjectType: 8
+          guid: dd33fc939e302e4cb44566b44a590bb3
+      - name: True
+        guid: 57b32895a3d2864e91dc3fd44d108ca5
+        id: 3053630529
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dde22e8dd084f74f8c90764d69789553
+        - ElementName: EndGame
+          ObjectType: 9
+          guid: cf5674043a986247afc80eeb585344b2
+        - ElementName: True
+          ObjectType: 8
+          guid: 57b32895a3d2864e91dc3fd44d108ca5
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
@@ -4434,7 +4500,7 @@ MonoBehaviour:
     m_lastTime: -8585284015674119453
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000
+  ExpandedWaapiItemIds: 010000000500000006000000070000000d0000001100000012000000140000001600000036000000370000003d00000042000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

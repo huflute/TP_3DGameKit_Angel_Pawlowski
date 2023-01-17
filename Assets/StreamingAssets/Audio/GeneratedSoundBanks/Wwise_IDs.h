@@ -131,6 +131,18 @@ namespace AK
             } // namespace STATE
         } // namespace DISCOVERY
 
+        namespace ENDGAME
+        {
+            static const AkUniqueID GROUP = 4264815106U;
+
+            namespace STATE
+            {
+                static const AkUniqueID FALSE = 2452206122U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID TRUE = 3053630529U;
+            } // namespace STATE
+        } // namespace ENDGAME
+
         namespace INOUT
         {
             static const AkUniqueID GROUP = 1174995064U;

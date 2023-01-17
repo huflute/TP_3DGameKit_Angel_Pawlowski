@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="181270742" Type="User" Language="SFX" Hash="{4A6F2F75-BD03-6B7C-9A4A-6063C1FE48F9}">
+		<SoundBank Id="181270742" Type="User" Language="SFX" Hash="{C93136FE-745C-3223-B8A2-61B98AA82A01}">
 			<ShortName>Interactables</ShortName>
 			<Path>Interactables.bnk</Path>
 			<Media>
@@ -74,7 +74,7 @@
 				<Event Id="1628176860" Name="Stop_Small_Door_Open_2D" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{15935D29-2CFA-1ED8-A8D7-D2B24B5BBE04}">
+		<SoundBank Id="1117531639" Type="User" Language="SFX" Hash="{0074785E-3321-2998-1DB2-4B9367F8220C}">
 			<ShortName>AMB</ShortName>
 			<Path>AMB.bnk</Path>
 			<Media>
@@ -156,27 +156,27 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2746395399" Name="Play_AMB_Cavern_LargeRoom" MaxAttenuation="10" DurationType="Infinite">
+				<Event Id="2746395399" Name="Play_AMB_Cavern_LargeRoom" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="912991374"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2803742312" Name="Play_AMB_Cavern_LargeRoom_WithWind" MaxAttenuation="10" DurationType="Infinite">
+				<Event Id="2803742312" Name="Play_AMB_Cavern_LargeRoom_WithWind" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="142548415"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3522290541" Name="Play_AMB_Cavern_MediumRoom" MaxAttenuation="10" DurationType="Infinite">
+				<Event Id="3522290541" Name="Play_AMB_Cavern_MediumRoom" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="224320780"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1982406497" Name="Play_AMB_Cavern_MediumRoom_Lake" MaxAttenuation="10" DurationType="Infinite">
+				<Event Id="1982406497" Name="Play_AMB_Cavern_MediumRoom_Lake" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="317441847"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2156099163" Name="Play_AMB_Cavern_SmallRoom" MaxAttenuation="10" DurationType="Infinite">
+				<Event Id="2156099163" Name="Play_AMB_Cavern_SmallRoom" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="926832286"/>
 					</MediaRefs>
@@ -209,7 +209,7 @@
 				<GameParameter Id="3729505769" Name="TimeOfDay"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1229948536" Type="User" Language="SFX" Hash="{4A7E94E0-549D-20B6-D86C-241A1E66CD79}">
+		<SoundBank Id="1229948536" Type="User" Language="SFX" Hash="{73C0CC26-C51B-0519-AE56-0B3FF51B47AF}">
 			<ShortName>Environment</ShortName>
 			<Path>Environment.bnk</Path>
 			<Media>
@@ -422,7 +422,7 @@
 				<GameParameter Id="3729505769" Name="TimeOfDay"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{66DC15AC-AFC0-69E6-91CA-E2634BFC68CF}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{ED29810C-95B2-48E3-397B-1C7D4F985C30}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Media>
@@ -573,6 +573,13 @@
 					</States>
 				</StateGroup>
 				<StateGroup Id="3663283413" Name="Discovery">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="2452206122" Name="False"/>
+						<State Id="3053630529" Name="True"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="4264815106" Name="EndGame">
 					<States>
 						<State Id="748895195" Name="None"/>
 						<State Id="2452206122" Name="False"/>
@@ -1363,7 +1370,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2691884509" Type="User" Language="SFX" Hash="{6DC610BE-37B2-E98F-55B4-848AB73F0993}">
+		<SoundBank Id="2691884509" Type="User" Language="SFX" Hash="{C9912101-A5FE-FA98-0867-8137F0999A5C}">
 			<ShortName>Big_Monsters</ShortName>
 			<Path>Big_Monsters.bnk</Path>
 			<Media>
@@ -1723,7 +1730,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{C5B7DBB9-63C4-6093-564B-1CC37B5FF17A}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{27BC3022-FF8F-66D8-EA3D-1C3450D97507}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -3219,27 +3226,27 @@
 						<MediaRef Id="994771667"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2746395399" Name="Play_AMB_Cavern_LargeRoom" MaxAttenuation="10" DurationType="Infinite">
+				<Event Id="2746395399" Name="Play_AMB_Cavern_LargeRoom" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="912991374"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2803742312" Name="Play_AMB_Cavern_LargeRoom_WithWind" MaxAttenuation="10" DurationType="Infinite">
+				<Event Id="2803742312" Name="Play_AMB_Cavern_LargeRoom_WithWind" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="142548415"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3522290541" Name="Play_AMB_Cavern_MediumRoom" MaxAttenuation="10" DurationType="Infinite">
+				<Event Id="3522290541" Name="Play_AMB_Cavern_MediumRoom" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="224320780"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1982406497" Name="Play_AMB_Cavern_MediumRoom_Lake" MaxAttenuation="10" DurationType="Infinite">
+				<Event Id="1982406497" Name="Play_AMB_Cavern_MediumRoom_Lake" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="317441847"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2156099163" Name="Play_AMB_Cavern_SmallRoom" MaxAttenuation="10" DurationType="Infinite">
+				<Event Id="2156099163" Name="Play_AMB_Cavern_SmallRoom" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="926832286"/>
 					</MediaRefs>
@@ -4509,7 +4516,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{2BEB3CB2-6CDD-7A26-58E1-432192D3BE1E}">
+		<SoundBank Id="4015708584" Type="User" Language="SFX" Hash="{8A5C3C4E-6A83-51B7-185A-CAA0F601245D}">
 			<ShortName>Small_Monsters</ShortName>
 			<Path>Small_Monsters.bnk</Path>
 			<Media>
@@ -5192,5 +5199,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6DAA69D8-D23D-05EE-6DAD-9C8669DB2F6C}</FileHash>
+	<FileHash>{893BE880-8FBB-CE2B-4B51-0F8AD957ADA9}</FileHash>
 </SoundBanksInfo>
