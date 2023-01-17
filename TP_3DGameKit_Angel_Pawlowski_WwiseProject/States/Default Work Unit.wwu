@@ -26,6 +26,20 @@
 						<State Name="False" ID="{BB0CE337-DE91-49E8-B789-B8B7EA2DBAC0}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="Discovery" ID="{9CDBD2C9-1876-4AC1-936B-3CF3114F6A4C}">
+					<ChildrenList>
+						<State Name="None" ID="{09135F26-6E88-4C66-BEA0-38E0F08A24B0}"/>
+						<State Name="True" ID="{AC285BFD-9887-4C43-8015-D7ECDDD23507}"/>
+						<State Name="False" ID="{32788AB8-61D5-4022-96AC-7F570F680817}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="InOut" ID="{63ED1BE5-3CE2-4BD1-918D-DB724656323B}">
+					<ChildrenList>
+						<State Name="None" ID="{FFBF0689-9F8A-45A9-98AC-AA1D0E349294}"/>
+						<State Name="In" ID="{8C7422A4-4EB7-42C1-96FA-0D5E2D19C567}"/>
+						<State Name="Out" ID="{D3DF4B3B-A817-4640-86EA-49AF48388A1D}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

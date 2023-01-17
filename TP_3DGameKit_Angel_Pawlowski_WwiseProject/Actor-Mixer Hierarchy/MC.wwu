@@ -795,6 +795,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<RandomSequenceContainer Name="MC_Run_Grass" ID="{D47C48ED-A64E-4C91-B117-CBF83EBA6067}" ShortID="901239375">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
@@ -939,6 +946,13 @@
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="MC_Run_Mud" ID="{F9501502-E06F-40E8-8603-00A57294BCD2}" ShortID="195623145">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
@@ -3146,7 +3160,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+							<ObjectRef Name="Non_Environmental" ID="{87DA3071-A648-414E-B9A2-413CCC6F30B9}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

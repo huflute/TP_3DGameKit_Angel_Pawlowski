@@ -106,7 +106,18 @@ public class WwiseEventManager : MonoBehaviour
         AkSoundEngine.PostEvent("Play_Box_Break", this.gameObject);
     }
 
+    // SMALL MONSTER
+    public void SmallMonsterHit()
+    {
+        AkSoundEngine.PostEvent("Play_Small_Monster_Hit", this.gameObject);
+    }
 
+    // CHANGING LEVELS
+
+    public void LevelChange()
+    {
+        AkSoundEngine.PostEvent("Stop_All", this.gameObject);
+    }
 
     void Start()
     {

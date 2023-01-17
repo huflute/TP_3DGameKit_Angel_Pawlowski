@@ -173,7 +173,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Non_Environmental" ID="{87DA3071-A648-414E-B9A2-413CCC6F30B9}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+									<ObjectRef Name="SFX_Audio_Bus" ID="{4B33AC68-214F-4993-8E98-0CA541E5C25D}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -198,7 +198,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Non_Environmental" ID="{87DA3071-A648-414E-B9A2-413CCC6F30B9}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+									<ObjectRef Name="SFX_Audio_Bus" ID="{4B33AC68-214F-4993-8E98-0CA541E5C25D}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>

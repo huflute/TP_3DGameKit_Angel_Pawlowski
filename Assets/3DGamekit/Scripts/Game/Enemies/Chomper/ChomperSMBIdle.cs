@@ -29,7 +29,7 @@ namespace Gamekit3D
             if (remainingToNextGrunt < 0)
             {
                 remainingToNextGrunt = Random.Range(minimumIdleGruntTime, maximumIdleGruntTime);
-                m_MonoBehaviour.Grunt();
+               // m_MonoBehaviour.Grunt();
             }
 
             m_MonoBehaviour.FindTarget();

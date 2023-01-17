@@ -978,6 +978,7 @@
 													</ValueList>
 												</Property>
 												<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
 												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
 												<Property Name="UseMaxSoundPerInstance" Type="bool">
 													<ValueList>
@@ -993,7 +994,7 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Non_Environmental" ID="{87DA3071-A648-414E-B9A2-413CCC6F30B9}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+													<ObjectRef Name="Music_Audio_Bus" ID="{476DD776-D48C-4BCB-975F-AD70C1F54754}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1068,6 +1069,42 @@
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Discovery" ID="{9CDBD2C9-1876-4AC1-936B-3CF3114F6A4C}"/>
+													</StateGroupInfo>
+													<StateGroupInfo>
+														<StateGroupRef Name="IsInCombat" ID="{5F6EA7A0-F88B-41CD-A8B3-19B9B1388609}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="False" ID="{32788AB8-61D5-4022-96AC-7F570F680817}"/>
+														<CustomState Name="" ID="{F4DEAE41-1961-43B6-827B-0A3F55568869}" ShortID="1069448682"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="True" ID="{E681315C-42EC-4138-8D1C-F2C9E6FC7CD3}"/>
+														<CustomState Name="" ID="{00A7522A-04A2-4562-AAB2-6E65C3DE55E2}" ShortID="253204561">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="False" ID="{BB0CE337-DE91-49E8-B789-B8B7EA2DBAC0}"/>
+														<CustomState Name="" ID="{67EE7B5E-D046-492B-9E0C-D58D9A36030F}" ShortID="73183263"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="True" ID="{AC285BFD-9887-4C43-8015-D7ECDDD23507}"/>
+														<CustomState Name="" ID="{F741FC2F-AD44-4043-9076-28E142FA341A}" ShortID="999479809">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<BlendTrackList>
 												<BlendTrack Name="TimeOfDay" ID="{0D292CFB-10C2-4A7A-90DD-0C7799E4A92B}" ShortID="522390780">
 													<PropertyList>
@@ -1124,7 +1161,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
-													<ObjectRef Name="30" ID="{A801A7AD-7DA5-4422-A224-D0C78A8448B9}" WorkUnitID="{B378FA7B-E709-4147-8665-F99F8F07F9BC}"/>
+													<ObjectRef Name="100" ID="{A801A7AD-7DA5-4422-A224-D0C78A8448B9}" WorkUnitID="{B378FA7B-E709-4147-8665-F99F8F07F9BC}"/>
 												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
@@ -1239,6 +1276,42 @@
 											<PositioningInfo>
 												<Panner Name="" ID="{3714EC81-F6CF-4A9C-8E71-C71BDAD8EDE6}"/>
 											</PositioningInfo>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="InOut" ID="{63ED1BE5-3CE2-4BD1-918D-DB724656323B}"/>
+													</StateGroupInfo>
+													<StateGroupInfo>
+														<StateGroupRef Name="IsInCombat" ID="{5F6EA7A0-F88B-41CD-A8B3-19B9B1388609}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="True" ID="{E681315C-42EC-4138-8D1C-F2C9E6FC7CD3}"/>
+														<CustomState Name="" ID="{9E88672F-89A7-4AD4-89DB-7D172BF52CED}" ShortID="671300849">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-12"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="In" ID="{8C7422A4-4EB7-42C1-96FA-0D5E2D19C567}"/>
+														<CustomState Name="" ID="{3CAABE70-299F-44BF-878A-D9CD56A3B16B}" ShortID="424316670">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Out" ID="{D3DF4B3B-A817-4640-86EA-49AF48388A1D}"/>
+														<CustomState Name="" ID="{C29472D1-F822-4967-AD9B-F92615BAB762}" ShortID="934719009"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="False" ID="{BB0CE337-DE91-49E8-B789-B8B7EA2DBAC0}"/>
+														<CustomState Name="" ID="{28340F1E-1849-40CE-B2FA-582E373DF42A}" ShortID="737967059"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<BlendTrackList>
 												<BlendTrack Name="TimeOfDay" ID="{E7C25911-CAD6-43A3-88B8-7F8F1D3940ED}" ShortID="835693316">
 													<PropertyList>
@@ -1556,6 +1629,7 @@
 										<Sound Name="Music_Chords_Discovery_120Bpm_8Bars" ID="{03DCFB8F-B9E4-4055-AE3A-1E1AC5A33251}" ShortID="576736148">
 											<PropertyList>
 												<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 											</PropertyList>
 											<ReferenceList>
@@ -1563,7 +1637,7 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{68084C50-960C-41D0-86AA-ACE8D4688DD3}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
+													<ObjectRef Name="Music_Audio_Bus" ID="{476DD776-D48C-4BCB-975F-AD70C1F54754}" WorkUnitID="{E5F2740C-33D4-460E-BFEC-07C1B154966F}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1575,6 +1649,23 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Discovery" ID="{9CDBD2C9-1876-4AC1-936B-3CF3114F6A4C}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="False" ID="{32788AB8-61D5-4022-96AC-7F570F680817}"/>
+														<CustomState Name="" ID="{6C1C6EBE-CE02-44F1-A79B-E21503538B05}" ShortID="44466889"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="True" ID="{AC285BFD-9887-4C43-8015-D7ECDDD23507}"/>
+														<CustomState Name="" ID="{EDE879D5-3D7C-40DD-AC2D-2737A43A4877}" ShortID="625056334"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<ActiveSourceList>
 												<ActiveSource Name="Music_Chords_Discovery_120Bpm_8Bars" ID="{B4E6EC7B-CCD2-480F-9841-4768C97ECA95}" Platform="Linked"/>
 											</ActiveSourceList>

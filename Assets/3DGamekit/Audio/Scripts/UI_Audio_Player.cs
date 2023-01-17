@@ -10,6 +10,7 @@ namespace Gamekit3D
         public void PlayStart()
         {
             AkSoundEngine.PostEvent("Play_UI_Press_Play",this.gameObject);
+            AkSoundEngine.PostEvent("Stop_All", this.gameObject);
         }
 
         public void Navigate()

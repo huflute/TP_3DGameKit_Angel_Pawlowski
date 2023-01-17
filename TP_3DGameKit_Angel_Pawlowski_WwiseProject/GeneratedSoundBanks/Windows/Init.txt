@@ -6,11 +6,16 @@ Switch	ID	Name	Switch Group			Notes
 	1011622525	Night	TimeOfDay			
 
 State Group	ID	Name			Wwise Object Path	Notes
+	1174995064	InOut			\Default Work Unit\InOut	
 	1176052424	Location			\Default Work Unit\Location	
 	1627457696	IsInCombat			\Default Work Unit\IsInCombat	
 	2607556080	Menu			\Default Work Unit\Menu	
+	3663283413	Discovery			\Default Work Unit\Discovery	
 
 State	ID	Name	State Group			Notes
+	645492555	Out	InOut			
+	748895195	None	InOut			
+	1752637612	In	InOut			
 	417916826	Ruins	Location			
 	554650843	Spaceship	Location			
 	748895195	None	Location			
@@ -22,6 +27,9 @@ State	ID	Name	State Group			Notes
 	748895195	None	Menu			
 	984691642	InGame	Menu			
 	3374585465	InMenu	Menu			
+	748895195	None	Discovery			
+	2452206122	False	Discovery			
+	3053630529	True	Discovery			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1006694123	Music_Volume			\Default Work Unit\Music_Volume	
@@ -32,6 +40,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	1393189531	Non_Environmental			\Default Work Unit\Master Audio Bus\SFX_Audio_Bus\Non_Environmental	
 	1551306167	UI			\Default Work Unit\Master Audio Bus\SFX_Audio_Bus\Non_Environmental\UI	
 	1973600711	Environmental			\Default Work Unit\Master Audio Bus\SFX_Audio_Bus\Environmental	
+	2402295475	UI_Audio_Bus			\Default Work Unit\Master Audio Bus\UI_Audio_Bus	
 	3365874942	SFX_Audio_Bus			\Default Work Unit\Master Audio Bus\SFX_Audio_Bus	
 	3675531030	Music_Audio_Bus			\Default Work Unit\Master Audio Bus\Music_Audio_Bus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
@@ -46,6 +55,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 
 Effect plug-ins	ID	Name	Type				Notes
 	592539189	HiddenPlace_ConvoVerb	Wwise Convolution Reverb			
+	900190560	Master_EQ	Wwise Parametric EQ			
 	1588715066	Echoes_Linear	Wwise Delay			
 	1591276460	SmallRoom_ConvoVerb	Wwise Convolution Reverb			
 	2940440228	Swamp_ConvoVerb	Wwise Convolution Reverb			

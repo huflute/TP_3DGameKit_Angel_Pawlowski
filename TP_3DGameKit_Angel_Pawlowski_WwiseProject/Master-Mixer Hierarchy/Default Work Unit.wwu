@@ -8,6 +8,9 @@
 						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
 							<ObjectRef Name="System" ID="{F3AE0CDB-E2AC-4FB2-8994-CB99BE302D6E}" WorkUnitID="{13C994E5-1899-4578-8950-5AF52AEE4F32}"/>
 						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+							<ObjectRef Name="Master_EQ" ID="{50C9B233-255B-4A79-B330-942415754C74}" WorkUnitID="{F0199CB3-B7CB-482D-B732-303BB9A47A38}"/>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="SFX_Audio_Bus" ID="{4B33AC68-214F-4993-8E98-0CA541E5C25D}">
@@ -243,6 +246,7 @@
 								</ObjectList>
 							</ObjectLists>
 						</Bus>
+						<Bus Name="UI_Audio_Bus" ID="{1670550A-ED64-4A7C-AD2A-DC36793BC6F9}"/>
 					</ChildrenList>
 					<ObjectLists>
 						<ObjectList Name="RTPC">
@@ -270,7 +274,7 @@
 															</Point>
 															<Point>
 																<XPos>100</XPos>
-																<YPos>0</YPos>
+																<YPos>6.76493</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>

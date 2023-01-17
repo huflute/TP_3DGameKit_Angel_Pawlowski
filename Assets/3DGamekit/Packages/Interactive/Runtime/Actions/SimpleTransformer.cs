@@ -25,6 +25,8 @@ namespace Gamekit3D.GameCommands
         public AudioSource onStartAudio, onEndAudio;
         public AK.Wwise.Event onStartEvent, onEndEvent;
         public AK.Wwise.Event Jingle;
+        public AK.Wwise.State DiscoveryOn;
+        public AK.Wwise.State DiscoveryOff;
 
         [Range(0, 1)]
         public float previewPosition;
@@ -118,6 +120,8 @@ namespace Gamekit3D.GameCommands
             
             yield return new WaitForSeconds(duration);
             onEndEvent.Post(this.gameObject);
+            DiscoveryOff.SetValue();
+
             
         }
         /*IEnumerator MovingPlatform(float duration)

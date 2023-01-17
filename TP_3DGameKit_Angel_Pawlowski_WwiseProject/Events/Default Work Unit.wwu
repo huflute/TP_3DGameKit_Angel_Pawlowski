@@ -1551,6 +1551,96 @@
 									</PropertyList>
 									<ReferenceList/>
 								</Action>
+								<Action Name="" ID="{32A8C30C-4E8B-4473-BF2C-5597CE9970FB}" ShortID="805338836">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Swamp" ID="{C6D39A46-D63B-47E6-A2EA-5AE2D374517C}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B3D99B75-55A8-455B-A239-CA8506BA828F}" ShortID="27844544">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Level01" ID="{0296B4C6-5C5D-409E-89C7-471270DF414E}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B03ECC6E-FED7-488A-BDEF-D571819DA832}" ShortID="799015410">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Cavern_LargeRoom" ID="{FF480344-6F78-49C2-91FD-6EF3A3C2952B}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{68CEC308-8248-4EB5-94A2-22289B074D42}" ShortID="904106796">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Cavern_LargeRoom_WithWind" ID="{7D7DD190-13BE-4DAC-8D62-FD683A2BC5BF}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{91459D25-5C15-4B5E-A27F-CD9F39E27F4A}" ShortID="813914679">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Cavern_MediumRoom" ID="{F8EBB0E5-1B0D-4C47-9075-B9B81485F75E}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{283C95C8-AF8E-4EED-924B-6F5DFA1FE25D}" ShortID="52000701">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Cavern_MediumRoom_Lake" ID="{A9121044-41F5-45D3-B058-90B55650E5EC}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{844B16C1-0A55-4E8B-A5C6-B4B0187D744A}" ShortID="97782419">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Cavern_SmallRoom" ID="{854B7B40-D1CA-478D-9FB6-2FB4CF0E2A4F}" WorkUnitID="{2412999C-86B3-4F8C-B736-594C8E27383E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{61528D2D-FFA3-4A8E-8B5A-5B88261BD5BC}" ShortID="163495620">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="IsInCombat_Level02" ID="{8666A350-B186-42B9-B9F6-516637A2FF72}" WorkUnitID="{5DE733CC-3D94-445A-9CCC-90577F4435C6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5249F5F7-67BA-4947-AF64-E1DFB9FF6D80}" ShortID="719896042">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="IsInCombat_Level01" ID="{F463D25A-E3AC-4D38-AE03-E43EBB081553}" WorkUnitID="{5DE733CC-3D94-445A-9CCC-90577F4435C6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 					</ChildrenList>

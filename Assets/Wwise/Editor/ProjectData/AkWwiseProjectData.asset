@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 506fcf57e49ddb428782635b9c72daec
     GuidInternal: 
-    m_lastTime: -8585284051417577638
+    m_lastTime: -8585284015674107375
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 0c74f2e5d4330e46bfec07c1b154966f
     GuidInternal: 
-    m_lastTime: -8585277052159870632
+    m_lastTime: -8585276888708291334
     List:
     - name: Environmental
       guid: eda45d6dcc045d47a639edc09c76d74c
@@ -289,6 +289,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: c786d9f227fa4c43b97ee82f5593161e
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX_Audio_Bus\Non_Environmental\UI
+    - name: UI_Audio_Bus
+      guid: 0a55701664ed7c4aad2adc36793bc6f9
+      id: 2402295475
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0c74f2e5d4330e46bfec07c1b154966f
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: UI_Audio_Bus
+        ObjectType: 2
+        guid: 0a55701664ed7c4aad2adc36793bc6f9
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\UI_Audio_Bus
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -301,7 +318,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8ff7bc971ac3be4d91a175ce8a07a45d
     GuidInternal: 
-    m_lastTime: -8585278251872507082
+    m_lastTime: -8585276888708109242
     List:
     - name: AMB
       guid: 6d1a6435ebfdec4b818517836a1ef9ba
@@ -469,7 +486,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 58301ae271a98d46974f6accc96184fa
     GuidInternal: 
-    m_lastTime: -8585277067497590637
+    m_lastTime: -8585276881426894136
     List:
     - name: Acid_Pool
       guid: d3000491b296d14382d26de6a09c89bd
@@ -3563,7 +3580,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 9ca7747bed20e54ab5d27c0de8914867
     GuidInternal: 
-    m_lastTime: -8585277052159762673
+    m_lastTime: -8585277041218785893
     List:
     - name: Master_Volume
       guid: 844d8ae3b2031b4fb90066168610c701
@@ -3621,7 +3638,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit\Evironment
     guid: ba3c553c281cd74b8906e9c34e19df65
     GuidInternal: 
-    m_lastTime: -8585279054210064751
+    m_lastTime: -8585279064365698859
     List:
     - name: TimeOfDay
       guid: b9344196434b6447b76c512362d1db38
@@ -3654,7 +3671,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit\Weapon
     guid: 8a050b743995674387e05726d4c7a9fd
     GuidInternal: 
-    m_lastTime: -8585281456215579185
+    m_lastTime: -8585282220447927243
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -3668,8 +3685,140 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: dde22e8dd084f74f8c90764d69789553
     GuidInternal: 
-    m_lastTime: -8585278903466336906
+    m_lastTime: -8585276902256286442
     List:
+    - name: Discovery
+      guid: c9d2db9c7618c14a936b3cf3114f6a4c
+      id: 3663283413
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: dde22e8dd084f74f8c90764d69789553
+      - ElementName: Discovery
+        ObjectType: 9
+        guid: c9d2db9c7618c14a936b3cf3114f6a4c
+      Path: States\Default Work Unit\Discovery
+      values:
+      - name: False
+        guid: b88a7832d561224096ac7f570f680817
+        id: 2452206122
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dde22e8dd084f74f8c90764d69789553
+        - ElementName: Discovery
+          ObjectType: 9
+          guid: c9d2db9c7618c14a936b3cf3114f6a4c
+        - ElementName: False
+          ObjectType: 8
+          guid: b88a7832d561224096ac7f570f680817
+      - name: None
+        guid: 265f1309886e664cbea038e0f08a24b0
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dde22e8dd084f74f8c90764d69789553
+        - ElementName: Discovery
+          ObjectType: 9
+          guid: c9d2db9c7618c14a936b3cf3114f6a4c
+        - ElementName: None
+          ObjectType: 8
+          guid: 265f1309886e664cbea038e0f08a24b0
+      - name: True
+        guid: fd5b28ac8798434c8015d7ecddd23507
+        id: 3053630529
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dde22e8dd084f74f8c90764d69789553
+        - ElementName: Discovery
+          ObjectType: 9
+          guid: c9d2db9c7618c14a936b3cf3114f6a4c
+        - ElementName: True
+          ObjectType: 8
+          guid: fd5b28ac8798434c8015d7ecddd23507
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: InOut
+      guid: e51bed63e23cd14b918ddb724656323b
+      id: 1174995064
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: dde22e8dd084f74f8c90764d69789553
+      - ElementName: InOut
+        ObjectType: 9
+        guid: e51bed63e23cd14b918ddb724656323b
+      Path: States\Default Work Unit\InOut
+      values:
+      - name: In
+        guid: a422748cb74ec14296fa0d5e2d19c567
+        id: 1752637612
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dde22e8dd084f74f8c90764d69789553
+        - ElementName: InOut
+          ObjectType: 9
+          guid: e51bed63e23cd14b918ddb724656323b
+        - ElementName: In
+          ObjectType: 8
+          guid: a422748cb74ec14296fa0d5e2d19c567
+      - name: None
+        guid: 8906bfff8a9fa94598acaa1d0e349294
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dde22e8dd084f74f8c90764d69789553
+        - ElementName: InOut
+          ObjectType: 9
+          guid: e51bed63e23cd14b918ddb724656323b
+        - ElementName: None
+          ObjectType: 8
+          guid: 8906bfff8a9fa94598acaa1d0e349294
+      - name: Out
+        guid: 3b4bdfd317a8404686ea49af48388a1d
+        id: 645492555
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dde22e8dd084f74f8c90764d69789553
+        - ElementName: InOut
+          ObjectType: 9
+          guid: e51bed63e23cd14b918ddb724656323b
+        - ElementName: Out
+          ObjectType: 8
+          guid: 3b4bdfd317a8404686ea49af48388a1d
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
     - name: IsInCombat
       guid: a0a76e5f8bf8cd41a8b319b9b1388609
       id: 1627457696
@@ -3912,7 +4061,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 64f9ff4cf55ed24b9ee79a66e7775ade
     GuidInternal: 
-    m_lastTime: -8585278155116345048
+    m_lastTime: -8585278175234860037
     List:
     - name: Combat
       guid: 95707bd650db5646a9b5c6b0563c5422
@@ -3978,7 +4127,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit\Entity
     guid: 41b04a50991a5640a3f689e347792812
     GuidInternal: 
-    m_lastTime: -8585279054193400886
+    m_lastTime: -8585279068671202480
     List:
     - name: Ground_Material
       guid: 1b952d3e32b055449b28a3a8085a401a
@@ -4209,7 +4358,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit\Environment
     guid: cca39cd7d1447a449542ac83600b4014
     GuidInternal: 
-    m_lastTime: -8585278903466306882
+    m_lastTime: -8585278923259627017
     List:
     - name: TimeOfDay
       guid: 574c3617317e9b499335d0b1f366c105
@@ -4282,10 +4431,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 9f1b90065f823441bd96c497af968d89
     GuidInternal: 
-    m_lastTime: -8585284051417417635
+    m_lastTime: -8585284015674119453
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 2a0000002b0000002c000000
+  ExpandedWaapiItemIds: 01000000020000000300000004000000050000000600000007000000080000000b0000000e0000000f0000001100000012000000130000001400000015000000190000001a00000032000000340000003500000038000000420000004e0000005c0000006e000000a1000000f0000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

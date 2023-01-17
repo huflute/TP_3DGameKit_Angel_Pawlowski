@@ -3205,6 +3205,11 @@
 												<Value>True</Value>
 											</ValueList>
 										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-13</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -4096,6 +4101,11 @@
 										<RandomSequenceContainer Name="Grenadier_Hit" ID="{303804E0-2CA6-47A7-96DC-6EEDE0D2FF6A}" ShortID="820063031">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="MakeUpGain" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
 												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 											</PropertyList>
 											<ReferenceList>

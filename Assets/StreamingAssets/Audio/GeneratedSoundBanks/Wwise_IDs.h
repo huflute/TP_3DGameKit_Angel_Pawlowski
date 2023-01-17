@@ -119,6 +119,30 @@ namespace AK
 
     namespace STATES
     {
+        namespace DISCOVERY
+        {
+            static const AkUniqueID GROUP = 3663283413U;
+
+            namespace STATE
+            {
+                static const AkUniqueID FALSE = 2452206122U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID TRUE = 3053630529U;
+            } // namespace STATE
+        } // namespace DISCOVERY
+
+        namespace INOUT
+        {
+            static const AkUniqueID GROUP = 1174995064U;
+
+            namespace STATE
+            {
+                static const AkUniqueID IN = 1752637612U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID OUT = 645492555U;
+            } // namespace STATE
+        } // namespace INOUT
+
         namespace ISINCOMBAT
         {
             static const AkUniqueID GROUP = 1627457696U;
@@ -252,6 +276,7 @@ namespace AK
         static const AkUniqueID NON_ENVIRONMENTAL = 1393189531U;
         static const AkUniqueID SFX_AUDIO_BUS = 3365874942U;
         static const AkUniqueID UI = 1551306167U;
+        static const AkUniqueID UI_AUDIO_BUS = 2402295475U;
     } // namespace BUSSES
 
     namespace AUX_BUSSES

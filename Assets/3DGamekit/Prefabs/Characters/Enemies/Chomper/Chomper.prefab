@@ -3714,6 +3714,7 @@ GameObject:
   - component: {fileID: 5410389393825476442}
   - component: {fileID: 2382787835561795080}
   - component: {fileID: 4617073585982551082}
+  - component: {fileID: 1596963804235860400}
   m_Layer: 23
   m_Name: Chomper
   m_TagString: Ennemy
@@ -3784,13 +3785,13 @@ MonoBehaviour:
       serializedVersion: 2
       m_Bits: 2147483648
   timeToStopPursuit: 3
-  attackAudio: {fileID: 114190857395315650}
-  frontStepAudio: {fileID: 114857521794206750}
-  backStepAudio: {fileID: 114736383910666334}
-  hitAudio: {fileID: 114951439143794754}
-  gruntAudio: {fileID: 114720182369786316}
-  deathAudio: {fileID: 114771674042626142}
-  spottedAudio: {fileID: 114643955118306876}
+  attackAudio: {fileID: 0}
+  frontStepAudio: {fileID: 0}
+  backStepAudio: {fileID: 0}
+  hitAudio: {fileID: 0}
+  gruntAudio: {fileID: 0}
+  deathAudio: {fileID: 0}
+  spottedAudio: {fileID: 0}
 --- !u!114 &114700785457422906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3824,7 +3825,19 @@ MonoBehaviour:
       m_Calls: []
   OnReceiveDamage:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1596963804235860400}
+        m_TargetAssemblyTypeName: WwiseEventManager, Assembly-CSharp
+        m_MethodName: SmallMonsterHit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnHitWhileInvulnerable:
     m_PersistentCalls:
       m_Calls: []
@@ -4066,6 +4079,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1596963804235860400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722084123150156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18a8dc0f33a62cc47b7362e54ace43ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1737964142438470
 GameObject:
   m_ObjectHideFlags: 0

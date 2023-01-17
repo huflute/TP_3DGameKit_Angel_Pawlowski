@@ -4,8 +4,17 @@ using UnityEngine;
 
 public class GrenadierDeathDetection : MonoBehaviour
 {
-    public GameObject Grenadier;
-    // Start is called before the first frame update
+ 
+
+    public void DestroyDetectGrenadier()
+    {
+        Destroy(this);
+    }
+
+    public void NotInCombat()
+    {
+        AkSoundEngine.SetState("IsInCombat", "False");
+    }
     void Start()
     {
         
@@ -14,8 +23,6 @@ public class GrenadierDeathDetection : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.parent == null) Destroy(this);
-            
-        
+
     }
 }

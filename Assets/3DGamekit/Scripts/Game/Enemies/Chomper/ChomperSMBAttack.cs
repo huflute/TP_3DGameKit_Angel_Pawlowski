@@ -21,16 +21,16 @@ namespace Gamekit3D
             m_MonoBehaviour.transform.forward = toTarget.normalized;
             m_MonoBehaviour.controller.SetForward(m_MonoBehaviour.transform.forward);
 
-            if (m_MonoBehaviour.attackAudio != null)
-                m_MonoBehaviour.attackAudio.PlayRandomClip();
+            //if (m_MonoBehaviour.attackAudio != null)
+              //  m_MonoBehaviour.attackAudio.PlayRandomClip();
         }
 
         public override void OnSLStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {
             base.OnSLStateExit(animator, stateInfo, layerIndex);
 
-            if (m_MonoBehaviour.attackAudio != null)
-                m_MonoBehaviour.attackAudio.audioSource.Stop();
+           // if (m_MonoBehaviour.attackAudio != null)
+            //    m_MonoBehaviour.attackAudio.audioSource.Stop();
 
             m_MonoBehaviour.controller.SetFollowNavmeshAgent(true);
         }

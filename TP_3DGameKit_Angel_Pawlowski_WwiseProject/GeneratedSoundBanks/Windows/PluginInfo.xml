@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PluginInfo Platform="Windows" BasePlatform="Windows">
 	<PluginLibs>
+		<PluginLib LibName="Wwise Parametric EQ" LibId="6881283" Type="Effect" DLL="AkParametricEQ" StaticLib="AkParametricEQFX"/>
 		<PluginLib LibName="Wwise Delay" LibId="6946819" Type="Effect" DLL="AkDelay" StaticLib="AkDelayFX"/>
 		<PluginLib LibName="SoundSeed Air Woosh" LibId="7864322" Type="Source" DLL="AkSoundSeedAir" StaticLib="AkSoundSeedWooshSource"/>
 		<PluginLib LibName="Wwise Convolution Reverb" LibId="8323075" Type="Effect" DLL="AkConvolutionReverb" StaticLib="AkConvolutionReverbFX"/>
 		<PluginLib LibName="System" LibId="11403271" Type="AudioDevice"/>
 		<PluginLib LibName="No Output" LibId="11862023" Type="AudioDevice"/>
 	</PluginLibs>
-	<FileHash>{3C31BE76-92C8-4DF2-8E2E-325C4DEDFC1C}</FileHash>
+	<FileHash>{59D5BF1A-C2A4-2B9A-97EB-EFABAB5E52BF}</FileHash>
 </PluginInfo>
